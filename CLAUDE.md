@@ -53,6 +53,17 @@ vault/
 - **Lint**: say "lint the wiki" to run a health check
 - **Scaffold complete**: ready to use
 
+## Git auto-commit
+
+The claude-obsidian plugin auto-commits wiki edits via a PostToolUse hook that runs
+`git add -- wiki/ .raw/ .vault-meta/ && git commit -- wiki/ .raw/ .vault-meta/`.
+It needs **all three pathspecs to resolve**, so this vault keeps `.raw/.gitkeep` and
+`.vault-meta/.gitkeep` committed. Don't delete them — without them `.vault-meta/`
+won't exist (git add aborts) and `.raw/` has no tracked file (git commit pathspec
+error), and the hook swallows both errors (`2>/dev/null || true`), so wiki edits
+stop committing **silently**. Verify it's working by checking that `git status` is
+clean after a wiki edit and that `wiki: auto-commit <date>` commits appear in the log.
+
 ## Wiki Knowledge Base (for other projects)
 
 When another project's CLAUDE.md references this vault:
