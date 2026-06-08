@@ -1,20 +1,28 @@
 ---
 type: meta
 title: "Hot Cache"
-updated: 2026-06-07
+updated: 2026-06-08
 ---
 
 # Recent Context
 
 ## Last Updated
-2026-06-07 — Vault scaffolded
+2026-06-08 — Periodontitis research + Asia prices/specialists round
 
 ## Key Recent Facts
-- Vault is a mixed-mode second brain (Personal + Projects + Research)
-- No sources ingested yet
+- Most severe perio = **Stage IV / Grade C** (2018 classification): risk of losing whole dentition.
+- Treatment ladder: control inflammation (deep cleaning + systemic antibiotics, aPDT/laser adjuncts) → regenerate salvageable teeth (EMD/GTR/LANAP) → replace lost teeth (implants) → lifelong maintenance.
+- Lost teeth today: only **implants** — All-on-4 ($18-35k US / £12.5-15k UK / arch), zygomatic for severe bone loss ($30-60k US full mouth). Tourism (Turkey/Hungary/Mexico) saves 50-70%.
+- Near-future: stem-cell perio (2025 Nature RCT, not yet FDA/EMA approved) and **TRG-035 anti-USAG-1** drug ([[Toregem BioPharma]], [[Katsu Takahashi]]) — Phase I 2024, ~2030 target, but first indication is congenital tooth absence, NOT perio loss.
+- Asia prices: China cheapest single implant (集采 cap ~¥4,500/~US$640, -55% since 2023); Korea cheapest open-market full-arch (~30% of US); Singapore most expensive; Taiwan All-on-4 NT$30-80萬. Top centers: Institute of Science Tokyo (ex-TMDU), Tokyo Dental College, SNU, HKU, PKU School of Stomatology, Shanghai 9th Hospital, West China; in TW use NTU/VGH/TMU perio depts + board-certified periodontist. Italy = global perio-regeneration clinical leader (Cortellini, Zucchelli; Siena & Bologna), All-on-4 avg ~€10,800. See [[Asia Dental Implant Cost Guide 2025-2026]], [[Top Asian Periodontal and Implant Centers]].
 
 ## Recent Changes
-- Created: full vault structure (all folders + index files)
+- 14 pages created: 6 sources, 5 concepts, 2 entities, 1 synthesis.
+- Synthesis: [[Research - Severe Periodontitis and Tooth Loss]]
+
+- Zygomatic vs grafted implants: both >90% long-term. Zygomatic ~96%@5yr / 95.21%@12yr + same-day teeth; main risk sinusitis (anatomy-guided cuts it to ~4.4%). Grafted-sinus 90-98% but +months healing. Zygomatic wins as atrophy worsens. See [[Zygomatic Implants vs Bone Graft Implants]].
+
+- 日常產品（證據＋價格）：機械清潔最硬（牙間刷＞牙線、沖牙機 Waterpik、電動牙刷）；含氟錫牙膏=中；氯己定 CHX 僅短期；益生菌 L. reuteri（BioGaia Prodentis ~HK$195–273/US$25–35 月）與 Omega-3=中度輔助；CoQ10/Vit D/C=低-中。全為輔助，不取代 SRP。見 [[Periodontal Daily Products and Supplements]]。
 
 ## Active Threads
-- Vault just created — ready for first ingest
+- Open: efficacy of anti-USAG-1 for adult perio loss; stem-cell approval timeline; Asia (Taiwan/HK/Japan) local prices & top specialists not yet researched.
