@@ -19,6 +19,11 @@ related:
 
 由 Andrej Karpathy 發表的一份 GitHub 規格（[原始 gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)），說明如何把個人知識庫（personal knowledge base）結構化，讓語言模型（LLM）能**使用它**、而不只是搜尋它。**本 vault（claude-obsidian 外掛）即是此模式的實作。**
 
+## 核心比喻：LLM 當 compiler，不是 retriever
+> 把 LLM 當**編譯器（compiler）**，不是**檢索器（retriever）**。
+
+DAIR.ai 的解說（[文章連結](https://academy.dair.ai/blog/llm-knowledge-bases-karpathy)）把這套濃縮成一句：**不靠 RAG pipeline、不靠向量資料庫**。在個人知識庫規模（~100 篇文章、~40 萬字）下，**`index.md` + LLM context window 就足以檢索**。LLM 增量讀 `raw/`、把它「編譯」成一層已綜合、互相連結的 wiki。
+
 ## 核心理念（Core philosophy）
 > 「維護知識庫最累的不是閱讀或思考，而是雜務記帳（bookkeeping）。」
 
