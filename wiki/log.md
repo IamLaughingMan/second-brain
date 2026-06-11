@@ -10,6 +10,14 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 ---
 
+## [2026-06-11] base | 建牙周病動態資料表
+- 新增 `Periodontal Disease.base`（Obsidian Bases）：filter `domain == periodontal-disease` 且 `type != moc`。
+- 三檢視：全部研究頁（按 type 分組）、來源 Sources（作者/年份/可信度/連結）、卡片總覽。
+- 可信度欄用 formula 轉 🟢/🟡/🔴。嵌入 [[Periodontal Disease]] hub 頁。
+- 用 kepano `obsidian:obsidian-bases` skill 語法；YAML 已驗證。
+
+---
+
 ## [2026-06-11] organize | 牙周病研究歸入 Health > Oral Health > Periodontal Disease
 - 建三層 MOC hub 頁：[[Health]] → [[Oral Health]] → [[Periodontal Disease]]（扁平 hub，非資料夾）。
 - [[Periodontal Disease]] 按主題（診斷/治療/再生/幹細胞長牙/缺牙重建/價格診所/綜述）連結全部 20 篇研究頁。

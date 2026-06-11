@@ -12,6 +12,7 @@ updated: 2026-06-11
 
 ## Maps of Content（領域 hub）
 - [[Health]] → [[Oral Health]] → [[Periodontal Disease]] — 牙周病研究的三層導覽 hub（含全部 20 篇 `domain: periodontal-disease` 頁）
+- `Periodontal Disease.base` — 牙周病領域的動態資料表（Obsidian Bases；嵌在 [[Periodontal Disease]] hub 內）
 
 ## Concepts
 - [[Stage IV Grade C Periodontitis]] — 最嚴重的牙周診斷（2018 分類）

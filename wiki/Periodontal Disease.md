@@ -18,6 +18,11 @@ tags:
 
 本頁是**牙周病**研究的 Map of Content（MOC）——彙整所有 `domain: periodontal-disease` 的頁面。涵蓋範圍超出單純牙齦發炎：從診斷、治療、再生、缺牙重建、到價格與診所。近期脈絡見 [[hot]]。
 
+## 動態資料表
+依 `domain: periodontal-disease` 自動更新——新增同 domain 的頁面會自動進表（含「全部研究頁」「來源 Sources」「卡片總覽」三檢視）。
+
+![[Periodontal Disease.base]]
+
 ## 綜述
 - [[Research - Severe Periodontitis and Tooth Loss]] — 嚴重牙周、治療、價格、近未來的總綜述
 

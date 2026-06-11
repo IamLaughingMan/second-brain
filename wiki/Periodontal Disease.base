@@ -1,0 +1,57 @@
+filters:
+  and:
+    - 'domain == "periodontal-disease"'
+    - 'type != "moc"'
+
+formulas:
+  conf: 'if(confidence == "high", "🟢 high", if(confidence == "medium", "🟡 medium", if(confidence == "low", "🔴 low", "")))'
+
+properties:
+  type:
+    displayName: "類型"
+  status:
+    displayName: "狀態"
+  formula.conf:
+    displayName: "可信度"
+  updated:
+    displayName: "更新"
+  author:
+    displayName: "作者"
+  date_published:
+    displayName: "年份"
+  url:
+    displayName: "連結"
+
+views:
+  - type: table
+    name: "全部研究頁"
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - status
+      - formula.conf
+      - updated
+
+  - type: table
+    name: "來源 Sources"
+    filters:
+      and:
+        - 'type == "source"'
+    order:
+      - file.name
+      - author
+      - date_published
+      - formula.conf
+      - url
+    summaries:
+      formula.conf: Filled
+
+  - type: cards
+    name: "卡片總覽"
+    order:
+      - file.name
+      - type
+      - status
