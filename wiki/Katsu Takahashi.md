@@ -1,5 +1,6 @@
 ---
 type: entity
+domain: periodontal-disease
 entity_type: person
 title: "Katsu Takahashi"
 status: stub

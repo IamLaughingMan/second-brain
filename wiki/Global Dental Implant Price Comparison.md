@@ -1,5 +1,6 @@
 ---
 type: comparison
+domain: periodontal-disease
 title: "Global Dental Implant Price Comparison (West + Asia + Tourism)"
 status: developing
 created: 2026-06-08

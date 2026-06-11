@@ -10,6 +10,15 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 ---
 
+## [2026-06-11] organize | 牙周病研究歸入 Health > Oral Health > Periodontal Disease
+- 建三層 MOC hub 頁：[[Health]] → [[Oral Health]] → [[Periodontal Disease]]（扁平 hub，非資料夾）。
+- [[Periodontal Disease]] 按主題（診斷/治療/再生/幹細胞長牙/缺牙重建/價格診所/綜述）連結全部 20 篇研究頁。
+- 20 篇研究頁 frontmatter 加 `domain: periodontal-disease`（可供 Bases/Dataview 查詢）。
+- 「Gum disease」採臨床標準名 **Periodontal Disease（牙周病）**。
+- index.md 新增 Maps of Content 區。
+
+---
+
 ## [2026-06-11] restructure | 攤平為扁平 Karpathy 結構
 - 21 篇內容頁 `git mv` 從 comparisons/concepts/entities/questions/resources/sources 搬到 `wiki/` 根層。
 - `git rm` 9 個空 `_index.md`；移除全部 13 個分類資料夾。

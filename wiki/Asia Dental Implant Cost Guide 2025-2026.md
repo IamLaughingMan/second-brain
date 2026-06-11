@@ -1,5 +1,6 @@
 ---
 type: source
+domain: periodontal-disease
 source_type: market-aggregator
 title: "Asia dental implant & full-arch cost guides (2025-2026)"
 author: "Joelin/AO4-implant (TW), HomeDentalHK, Gangnam Dental, Trust Dental SG, et al."

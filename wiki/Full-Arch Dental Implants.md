@@ -1,5 +1,6 @@
 ---
 type: concept
+domain: periodontal-disease
 title: "Full-Arch Dental Implants"
 status: developing
 created: 2026-06-08

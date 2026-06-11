@@ -1,5 +1,6 @@
 ---
 type: resource
+domain: periodontal-disease
 resource_type: buying-guide
 title: "Periodontal Daily Products & Supplements (evidence + price)"
 status: developing

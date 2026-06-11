@@ -1,5 +1,6 @@
 ---
 type: resource
+domain: periodontal-disease
 resource_type: directory
 title: "Top Asian Periodontal & Implant Centers"
 status: developing

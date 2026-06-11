@@ -1,5 +1,6 @@
 ---
 type: source
+domain: periodontal-disease
 source_type: guideline-and-rct
 title: "EFP S3 guideline + adjunctive aPDT/laser/ozone RCT for Stage III/IV periodontitis"
 author: "EFP S3-Level CPG; Clinical Oral Investigations RCT 2024"

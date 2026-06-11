@@ -1,5 +1,6 @@
 ---
 type: source
+domain: periodontal-disease
 source_type: journal-article
 title: "Allogeneic dental pulp stem cell injection for periodontitis: multicenter RCT"
 author: "Signal Transduction and Targeted Therapy (Nature)"

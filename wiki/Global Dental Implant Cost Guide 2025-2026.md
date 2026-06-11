@@ -1,5 +1,6 @@
 ---
 type: source
+domain: periodontal-disease
 source_type: market-aggregator
 title: "Global full-arch / zygomatic implant cost guides (2025-2026)"
 author: "Bookimed, Kristal Clinic, Dental By Design, New Teeth Now"

@@ -1,5 +1,6 @@
 ---
 type: comparison
+domain: periodontal-disease
 title: "Zygomatic Implants vs Bone Graft + Conventional Implants"
 status: developing
 created: 2026-06-08

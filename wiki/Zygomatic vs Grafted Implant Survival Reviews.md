@@ -1,5 +1,6 @@
 ---
 type: source
+domain: periodontal-disease
 source_type: systematic-reviews
 title: "Survival of zygomatic implants vs grafted-sinus implants (systematic reviews & meta-analyses)"
 author: "Multiple: PMC10322814, PMC8065623 (zygomatic); PLOS One 0075357, PMC3776785 (grafted sinus)"

@@ -1,5 +1,6 @@
 ---
 type: source
+domain: periodontal-disease
 source_type: news-and-preclinical
 title: "TRG-035: Toregem BioPharma anti-USAG-1 tooth regeneration antibody"
 author: "Toregem BioPharma / Kitano Hospital / Kyoto University; JStories, ScienceDirect"

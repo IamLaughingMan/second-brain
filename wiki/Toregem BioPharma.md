@@ -1,5 +1,6 @@
 ---
 type: entity
+domain: periodontal-disease
 entity_type: organization
 title: "Toregem BioPharma"
 status: stub

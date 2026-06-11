@@ -1,5 +1,6 @@
 ---
 type: source
+domain: periodontal-disease
 source_type: review-article
 title: "Recent Advances in Regenerative Therapies in Periodontology"
 author: "MDPI Dentistry Journal"

@@ -1,5 +1,6 @@
 ---
 type: concept
+domain: periodontal-disease
 title: "Tooth Regeneration (Anti-USAG-1)"
 status: emerging
 created: 2026-06-08

@@ -10,6 +10,9 @@ updated: 2026-06-11
 
 → 執行摘要見 [[overview]]・近期脈絡見 [[hot]]・操作日誌見 [[log]]
 
+## Maps of Content（領域 hub）
+- [[Health]] → [[Oral Health]] → [[Periodontal Disease]] — 牙周病研究的三層導覽 hub（含全部 20 篇 `domain: periodontal-disease` 頁）
+
 ## Concepts
 - [[Stage IV Grade C Periodontitis]] — 最嚴重的牙周診斷（2018 分類）
 - [[Periodontal Regenerative Therapy]] — EMD/GTR/LANAP 再生附著組織

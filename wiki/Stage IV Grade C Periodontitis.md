@@ -1,5 +1,6 @@
 ---
 type: concept
+domain: periodontal-disease
 title: "Stage IV Grade C Periodontitis"
 status: developing
 created: 2026-06-08

@@ -1,5 +1,6 @@
 ---
 type: synthesis
+domain: periodontal-disease
 title: "Research: Severe Periodontitis & Tooth Loss — Treatments, Prices, Near-Future"
 created: 2026-06-08
 updated: 2026-06-08

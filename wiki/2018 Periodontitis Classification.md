@@ -1,5 +1,6 @@
 ---
 type: source
+domain: periodontal-disease
 source_type: journal-article
 title: "Staging and grading of periodontitis (2018 World Workshop)"
 author: "Tonetti MS, Greenwell H, Kornman KS"
