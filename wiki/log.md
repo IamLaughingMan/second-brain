@@ -10,6 +10,18 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 ---
 
+## [2026-06-11] restructure | 攤平為扁平 Karpathy 結構
+- 21 篇內容頁 `git mv` 從 comparisons/concepts/entities/questions/resources/sources 搬到 `wiki/` 根層。
+- `git rm` 9 個空 `_index.md`；移除全部 13 個分類資料夾。
+- 重寫 `index.md`（單一目錄、frontmatter `type` 分組）。
+- 重寫 `CLAUDE.md`：LLM-as-compiler 模型、四階段迴圈、禁建分類資料夾、保留 git auto-commit 段。
+- 新增 `OBSIDIAN-SETUP.md`（根層）：Karpathy + kepano/obsidian-skills 建置藍圖與三方關係。
+- 更新 [[Karpathy LLM Wiki Pattern]]：補 DAIR.ai compiler 框架、no-vector-DB、四階段、合成訓練資料、kepano 連結。
+- `WIKI.md` 加扁平結構覆蓋聲明。
+- wikilink 不帶路徑 → 零連結損壞。
+
+---
+
 ## [2026-06-08] save | Karpathy LLM Wiki 模式參考頁
 
 - 研究 Karpathy 如何用 Obsidian（原始 gist ＋ claude-obsidian 外掛）
