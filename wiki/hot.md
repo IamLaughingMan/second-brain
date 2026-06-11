@@ -17,7 +17,7 @@ updated: 2026-06-11
 - Asia prices: China cheapest single implant (集采 cap ~¥4,500/~US$640, -55% since 2023); Korea cheapest open-market full-arch (~30% of US); Singapore most expensive; Taiwan All-on-4 NT$30-80萬. Top centers: Institute of Science Tokyo (ex-TMDU), Tokyo Dental College, SNU, HKU, PKU School of Stomatology, Shanghai 9th Hospital, West China; in TW use NTU/VGH/TMU perio depts + board-certified periodontist. Italy = global perio-regeneration clinical leader (Cortellini, Zucchelli; Siena & Bologna), All-on-4 avg ~€10,800. See [[Asia Dental Implant Cost Guide 2025-2026]], [[Top Asian Periodontal and Implant Centers]].
 
 ## Recent Changes
-- **2026-06-11 結構重構**：wiki/ 攤平成扁平 Karpathy 結構——21 篇內容頁從 6 個分類資料夾搬到 `wiki/` 根層，刪掉 9 個空 `_index.md` 與所有分類資料夾。重寫 `index.md`（單一目錄、frontmatter type 分組）、`CLAUDE.md`（compiler 模型＋四階段迴圈＋禁建資料夾）。新增根層 [[OBSIDIAN-SETUP.md]]（Karpathy + kepano 建置藍圖）。更新 [[Karpathy LLM Wiki Pattern]]（DAIR.ai：compiler 框架、no vector DB、合成訓練資料）。WIKI.md 加覆蓋聲明。wikilink 不帶路徑故零損壞。
+- **2026-06-11 結構重構**：wiki/ 攤平成扁平 Karpathy 結構——21 篇內容頁從 6 個分類資料夾搬到 `wiki/` 根層，刪掉 9 個空 `_index.md` 與所有分類資料夾。重寫 `index.md`（單一目錄、frontmatter type 分組）、`CLAUDE.md`（compiler 模型＋四階段迴圈＋禁建資料夾）。新增根層 [[OBSIDIAN-SETUP]]（Karpathy + kepano 建置藍圖）。更新 [[Karpathy LLM Wiki Pattern]]（DAIR.ai：compiler 框架、no vector DB、合成訓練資料）。WIKI.md 加覆蓋聲明。wikilink 不帶路徑故零損壞。
 - 14 pages created: 6 sources, 5 concepts, 2 entities, 1 synthesis.
 - Synthesis: [[Research - Severe Periodontitis and Tooth Loss]]
 - 全部內容已中文化、價格改 HKD 為主；新增 [[Karpathy LLM Wiki Pattern]]。
