@@ -1,13 +1,13 @@
 ---
 type: meta
 title: "Hot Cache"
-updated: 2026-06-08
+updated: 2026-06-11
 ---
 
 # Recent Context
 
 ## Last Updated
-2026-06-08 — Periodontitis research + Asia prices/specialists round
+2026-06-11 — Vault 重構為扁平 Karpathy 結構
 
 ## Key Recent Facts
 - Most severe perio = **Stage IV / Grade C** (2018 classification): risk of losing whole dentition.
