@@ -42,10 +42,13 @@ DAIR.ai 的解說（[文章連結](https://academy.dair.ai/blog/llm-knowledge-ba
 - **`log.md`**：append-only 時序紀錄，前綴可 grep（如 `## [2026-04-02] ingest`）。
 - **hot cache（熱頁快取）**：常用頁的快取（本 vault 的 `hot.md`）。
 
-## 日常操作（Core workflow）
-- **Ingest（攝入）**：丟來源進 `raw/` → LLM 讀、討論重點、寫摘要頁、更新 index、改相關實體／概念頁、append log。「一個來源可能動到 10–15 頁。」
-- **Query（查詢）**：對 wiki 提問，帶引用（citations）作答；**好答案可再存回 wiki 成為新頁**。
-- **Lint（健檢）**：定期檢查矛盾（contradictions）、過時聲明（stale claims）、孤兒頁（orphan pages）、缺少交叉引用、資料缺口（wiki 會反過來建議你接著研究什麼）。
+## 四階段迴圈（Core workflow，DAIR.ai 版）
+`Ingest → Compile → Query&Enhance → Lint&Maintain →（回到 Compile）`
+
+1. **Ingest（攝入）**：來源（Web Clipper 文章、arXiv 論文、GitHub repo、資料集）落進 `raw/`。圖片下載到本機，別只存 URL。
+2. **Compile（編譯）**：LLM 增量讀 `raw/`，建出 index＋概念頁＋衍生產物（Marp 投影片、matplotlib 圖、已歸檔的查詢答案）＋自動維護的連結圖。「一個來源可能動到 10–15 頁。」
+3. **Query & Enhance（查詢與增益）**：對 wiki 提問、帶引用作答；**查詢輸出再歸檔回 wiki 成新頁**——「每次探索都會累積。」
+4. **Lint & Maintain（健檢與維護）**：掃矛盾、過時聲明、孤兒頁、缺交叉引用；用 web search 補洞、找跨概念連結成新頁、建議下一步研究，然後回到 Compile。
 
 ## 為何會複利（Why it compounds）
 > 「The wiki is a persistent, compounding artifact.」（wiki 是一個持續、會複利的成品。）
