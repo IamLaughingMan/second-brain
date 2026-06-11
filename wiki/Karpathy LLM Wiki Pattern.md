@@ -66,9 +66,17 @@ DAIR.ai 的解說（[文章連結](https://academy.dair.ai/blog/llm-knowledge-ba
 ## 規模參考（Scale）
 Karpathy 自己的 vault 已成長到約 **100 篇文章、40 萬字（~400,000 words）**，幾乎全由 agent 撰寫與維護。
 
+## 未來方向（Future）
+用 wiki 生**合成訓練資料（synthetic training data）**去 fine-tune 一個 LLM，讓它把知識記進**權重（weights）**，而不只是靠 context window。
+
+## 工具分工（本 vault）
+- **Karpathy** = 方法論（設計圖）；**claude-obsidian (AgriciDaniel)** = 自動化此模式的外掛（你裝的）；**kepano/obsidian-skills** = 底層格式工具（建議搭檔，claude-obsidian 會自動讓位給它）。詳見根目錄 `OBSIDIAN-SETUP.md`。
+
 ## 出處連結（Sources）
 - Karpathy 原始 gist（llm-wiki）：https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- DAIR.ai 解說（compiler 框架、四階段、no vector DB）：https://academy.dair.ai/blog/llm-knowledge-bases-karpathy
 - claude-obsidian（本 vault 使用的外掛，實作此模式）：https://github.com/AgriciDaniel/claude-obsidian
+- kepano/obsidian-skills（建議搭檔，底層格式 substrate）：https://github.com/kepano/obsidian-skills
 - 報導整理（Techstrong.ai）：https://techstrong.ai/features/karpathys-instructions-for-building-an-ai-driven-second-brain/
 
 相關：本 vault 的 [[Research - Severe Periodontitis and Tooth Loss]] 即依此模式建立。
