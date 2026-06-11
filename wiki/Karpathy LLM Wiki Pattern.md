@@ -4,7 +4,7 @@ resource_type: reference
 title: "Karpathy's LLM Wiki Pattern"
 status: developing
 created: 2026-06-08
-updated: 2026-06-08
+updated: 2026-06-11
 tags:
   - resource
   - reference
