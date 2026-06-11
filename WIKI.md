@@ -1,5 +1,12 @@
 # WIKI.md — LLM Wiki Schema
 
+> ⚠️ **覆蓋聲明（2026-06-11）：本 vault 採扁平 Karpathy 結構。**
+> `wiki/` 底下**無分類子資料夾**——所有頁面平放於 `wiki/` 根層，靠 `index.md` 分組、靠
+> `[[wikilink]]` 連結，分類資訊放在每頁 frontmatter 的 `type`。本檔下方一切 `sources/`、
+> `entities/`、`concepts/`、`domains/`、`comparisons/`、`questions/`、`meta/`、`goals/`、
+> `areas/`、`learning/`、`people/`、`projects/` 等**資料夾路徑與 `_index.md` 路由皆已作廢**——
+> 讀到時一律當作「平放於 `wiki/` 根層」。**最終行為以 `CLAUDE.md` 為準**；建置藍圖見 `OBSIDIAN-SETUP.md`。
+>
 > If you are using the claude-obsidian plugin, the skills handle everything here automatically.
 > This file is the reference document. Read it to understand how the system works.
 > Based on Andrej Karpathy's LLM Wiki pattern.
