@@ -11,8 +11,8 @@ updated: 2026-06-12
 → 執行摘要見 [[overview]]・近期脈絡見 [[hot]]・操作日誌見 [[log]]
 
 ## Maps of Content（領域 hub）
-- [[Health]] → [[Oral Health]] → [[Periodontal Disease]] — 牙周病研究的三層導覽 hub（含全部 20 篇 `domain: periodontal-disease` 頁）
-- `Periodontal Disease.base` — 牙周病領域的動態資料表（Obsidian Bases；嵌在 [[Periodontal Disease]] hub 內）
+- [[Health]] → [[Oral Health]] → [[Periodontal Disease]] — 牙周病研究的三層導覽 hub，對應資料夾 `wiki/Health/Oral/Periodontal Disease/`（含全部 20 篇 `domain: periodontal-disease` 頁）
+- `Periodontal Disease.base` — 牙周病領域的動態資料表（Obsidian Bases；嵌在 [[Periodontal Disease]] hub 內，靠 `domain` filter 非路徑）
 
 ## Concepts
 - [[Stage IV Grade C Periodontitis]] — 最嚴重的牙周診斷（2018 分類）
