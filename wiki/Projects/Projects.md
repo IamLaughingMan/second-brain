@@ -13,7 +13,7 @@ tags: [moc, projects]
 
 ## Active
 
-_（尚無專案頁；ingest 或 save 時填入）_
+- [[AI Arcade]] — mobile-first 趣味 AI 工具集(v1 完成,5 工具,未部署)
 
 ## Archived
 
