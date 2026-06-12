@@ -1,12 +1,12 @@
 ---
 type: meta
 title: "Wiki Index"
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 # Wiki Index
 
-本 wiki 的唯一目錄（catalog）＝查詢入口。結構扁平：所有頁面平放於 `wiki/`，靠本目錄分組、靠 `[[wikilink]]` 連結，**不靠資料夾**。分組標題對應每頁 frontmatter 的 `type`。更新於每次 ingest。
+本 wiki 的唯一目錄（catalog）＝查詢入口。**混合結構**：meta 與跨領域方法頁平放 `wiki/` 根層，領域內容入領域資料夾（鏡射 MOC hub，如 `Health/Oral/Periodontal Disease/`）。檢索靠本目錄分組＋`[[wikilink]]`（不帶路徑、零斷連），資料夾只是人類瀏覽動線。分組標題對應每頁 frontmatter 的 `type`。更新於每次 ingest。
 
 → 執行摘要見 [[overview]]・近期脈絡見 [[hot]]・操作日誌見 [[log]]
 
