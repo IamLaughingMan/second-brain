@@ -1,13 +1,13 @@
 ---
 type: meta
 title: "Hot Cache"
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 # Recent Context
 
 ## Last Updated
-2026-06-11 — Vault 重構為扁平 Karpathy 結構
+2026-06-12 — 改混合結構：牙周病內容入領域資料夾
 
 ## Key Recent Facts
 - Most severe perio = **Stage IV / Grade C** (2018 classification): risk of losing whole dentition.
