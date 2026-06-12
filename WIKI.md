@@ -1,11 +1,13 @@
 # WIKI.md — LLM Wiki Schema
 
-> ⚠️ **覆蓋聲明（2026-06-11）：本 vault 採扁平 Karpathy 結構。**
-> `wiki/` 底下**無分類子資料夾**——所有頁面平放於 `wiki/` 根層，靠 `index.md` 分組、靠
-> `[[wikilink]]` 連結，分類資訊放在每頁 frontmatter 的 `type`。本檔下方一切 `sources/`、
-> `entities/`、`concepts/`、`domains/`、`comparisons/`、`questions/`、`meta/`、`goals/`、
-> `areas/`、`learning/`、`people/`、`projects/` 等**資料夾路徑與 `_index.md` 路由皆已作廢**——
-> 讀到時一律當作「平放於 `wiki/` 根層」。**最終行為以 `CLAUDE.md` 為準**；建置藍圖見 `OBSIDIAN-SETUP.md`。
+> ⚠️ **覆蓋聲明（2026-06-12）：本 vault 採混合 Karpathy 結構。**
+> Meta（`index/log/hot/overview`）與跨領域方法頁平放 `wiki/` 根層；**領域內容入領域資料夾**
+> （鏡射 MOC hub，如 `Health/Oral/Periodontal Disease/`）。檢索仍靠 `index.md` 分組＋
+> `[[wikilink]]`（不帶路徑、入夾零斷連），分類主軸是每頁 frontmatter 的 `type` 與 `domain`。
+> 本檔下方一切 `sources/`、`entities/`、`concepts/`、`domains/`、`comparisons/`、`questions/`、
+> `meta/`、`goals/`、`areas/`、`learning/`、`people/`、`projects/` 等**舊 type-folder 路徑與
+> `_index.md` 路由皆已作廢**——分類改用 frontmatter，資料夾改鏡射領域 MOC 階層。
+> **最終行為以 `CLAUDE.md` 為準**；建置藍圖見 `OBSIDIAN-SETUP.md`。
 >
 > If you are using the claude-obsidian plugin, the skills handle everything here automatically.
 > This file is the reference document. Read it to understand how the system works.

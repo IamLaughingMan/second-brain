@@ -23,7 +23,7 @@
 
 ### 三層結構
 1. **`raw/`（不可變來源）**：文章、論文、截圖、PDF。LLM 只讀不改，是事實來源（source of truth）。
-2. **`wiki/`（維基層，扁平）**：LLM 生成的 Markdown——實體頁、概念頁、摘要、總覽、交叉引用。**靠 `index.md` 當目錄、`[[wikilink]]` 當連結，不靠資料夾分類。** LLM 完全擁有。
+2. **`wiki/`（維基層，混合結構）**：LLM 生成的 Markdown——實體頁、概念頁、摘要、總覽、交叉引用。**靠 `index.md` 當目錄、`[[wikilink]]` 當連結；meta／方法頁平放根層，領域內容入領域資料夾（鏡射 MOC hub，如 `Health/Oral/Periodontal Disease/`）。** LLM 完全擁有。
 3. **`CLAUDE.md`（行為契約）**：定義結構、慣例、工作流程。
 
 支援檔：`index.md`（目錄＝查詢入口）、`log.md`（append-only 時序紀錄，前綴可 grep）、`hot.md`（熱頁快取）。
@@ -103,7 +103,7 @@ npx skills add https://github.com/kepano/obsidian-skills
 
 | 層 | 來源 | 在本 vault 的角色 |
 |---|---|---|
-| **方法論／流程** | Karpathy | 決定「怎麼組織與維護」——扁平 wiki、index-driven、四階段迴圈、不用向量 DB |
+| **方法論／流程** | Karpathy | 決定「怎麼組織與維護」——index-driven 混合 wiki（meta 平放＋領域資料夾）、四階段迴圈、不用向量 DB |
 | **工具／執行** | kepano obsidian-skills | 決定「用什麼動手」——markdown／bases／canvas／cli／defuddle 的正確語法與操作 |
 | **契約** | 本 vault `CLAUDE.md` | 把上面兩者綁成 agent 每次必須遵守的規則 |
 
