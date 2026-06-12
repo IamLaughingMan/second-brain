@@ -1,6 +1,7 @@
 ---
 type: moc
 domain: periodontal-disease
+para: resource
 title: "Periodontal Disease（牙周病）"
 status: developing
 created: 2026-06-11

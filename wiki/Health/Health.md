@@ -1,5 +1,6 @@
 ---
 type: moc
+para: area
 title: "Health（健康）"
 status: developing
 created: 2026-06-11

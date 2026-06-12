@@ -58,6 +58,26 @@ second-brain-2026-06-06/
 - `wiki/log.md` append-only — 新項置頂，永不改動過去條目。
 - **領域內容入領域資料夾**，鏡射 MOC hub 階層（目前：`Health/Oral/Periodontal Disease/`）。Meta 與跨領域方法頁留 `wiki/` 根層。claude-obsidian 的 ingest/save skill 會自建資料夾——順其建在對應領域夾，但每頁仍須有 `domain` 與正確 `type`。
 
+## PARA 視圖（metadata 鏡頭，非資料夾）
+
+本 vault 用 **frontmatter `para` 欄**達到 PARA 的分類目的，**不改 Karpathy 資料夾結構**（資料夾仍是 domain-based，由 claude-obsidian ingest 自建）。PARA 是一個可查詢的「鏡頭」，靠 [[PARA]] Base（`wiki/PARA.base`）呈現，而非 file tree。
+
+`para` 詞彙（每頁可有 0 或 1 個）：
+
+| 值 | 用途 | 例 |
+|----|------|----|
+| `project` | 有明確完成目標＋會結束 | 某 code project、某次採購、牙周治療決策 |
+| `area` | 長期維護、無完成日 | Health、Finance、AI Tools |
+| `resource` | 參考研究資料 | 文獻、cost guide、方法頁（如 Karpathy pattern） |
+| `archive` | 已完成／過期／暫不用 | 結案 project、舊版本 |
+| `inbox` | 未分類（或 `.raw/` 內未 compile 的來源） | 剛丟入未整理 |
+
+規則：
+- `para` 與既有 `type`/`domain` **正交**——`type` 講「這是什麼」(moc/source/concept…)，`para` 講「這在我生活裡的角色」。
+- 不確定時**留空**並標 `To confirm`，不要亂猜（見 workflow spec rule 7–8）。
+- Coding／business project 在 vault 的 project 頁設 `para: project`，frontmatter 加 `code_path:` 指向 repo；repo 的 `CLAUDE.md` 反指此頁 = Model B 對應。
+- 完整 PARA／第二大腦操作哲學見 `~/AI/Claude/General/obsidian-claude-workflow.md`（north star）。
+
 ## Git auto-commit
 
 claude-obsidian 外掛經 PostToolUse hook 自動 commit wiki 編輯，執行
@@ -68,6 +88,25 @@ claude-obsidian 外掛經 PostToolUse hook 自動 commit wiki 編輯，執行
 於是 wiki 編輯**靜默地停止 commit**。驗證：wiki 編輯後 `git status` 應乾淨，log 應出現
 `wiki: auto-commit <date>` 提交。
 注意：根層檔（如 `CLAUDE.md`、`OBSIDIAN-SETUP.md`、`WIKI.md`）**不在** hook 範圍，需手動 commit。
+
+## 收工 workflow（session wrap-up → Model B）
+
+當使用者講「**收工**」/ session 結束時，Claude Code 做：
+
+1. **回顧本次 session** 做咗咩（讀對話脈絡，唔係倒 raw log）。
+2. **抽精華**：decisions、值得保存的 outputs、next actions、open questions。掉 chat noise。
+3. **定位 project 頁**：對應的 code repo ↔ vault 內 `para: project` 且 `code_path` 指向該 repo 的頁。
+   - 若未有 → 用 `_templates/project-overview.md` 在 `wiki/Projects/<name>.md` 建立，填 `code_path:`，並從 [[Projects]] hub 連出。
+4. **寫入精華**（增量，不覆寫）：
+   - `## Log` append 一行 `YYYY-MM-DD：<一句總結>`
+   - 有決策 → 更新 `## Key Decisions`（或在 `wiki/Projects/` 另開 decision-log 頁）
+   - 有未完 → 更新 `## Next Actions` / `## Open Questions`
+   - 不確定的 → 標 `To confirm`，**不 invent**
+5. **更新 `wiki/hot.md`**（近期脈絡）+ append `wiki/log.md`（操作日誌）。
+6. **告訴使用者**：邊啲已寫入 vault、邊啲只留喺 repo（raw log 唔入）。
+
+**Model B 對應**：vault project 頁 frontmatter 帶 `code_path: <repo 路徑>`；repo 的 `CLAUDE.md` 加一行反指此 vault 頁。兩邊互指。
+精華準則見 `~/AI/Claude/General/obsidian-claude-workflow.md`（§10 輸出格式、§20 規則）。
 
 ## Wiki Knowledge Base (for other projects)
 
