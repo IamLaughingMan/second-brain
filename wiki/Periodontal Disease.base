@@ -1,30 +1,27 @@
 filters:
   and:
-    - 'domain == "periodontal-disease"'
-    - 'type != "moc"'
-
+    - domain == "periodontal-disease"
+    - type != "moc"
 formulas:
-  conf: 'if(confidence == "high", "🟢 high", if(confidence == "medium", "🟡 medium", if(confidence == "low", "🔴 low", "")))'
-
+  conf: if(confidence == "high", "🟢 high", if(confidence == "medium", "🟡 medium", if(confidence == "low", "🔴 low", "")))
 properties:
   type:
-    displayName: "類型"
+    displayName: 類型
   status:
-    displayName: "狀態"
+    displayName: 狀態
   formula.conf:
-    displayName: "可信度"
+    displayName: 可信度
   updated:
-    displayName: "更新"
+    displayName: 更新
   author:
-    displayName: "作者"
+    displayName: 作者
   date_published:
-    displayName: "年份"
+    displayName: 年份
   url:
-    displayName: "連結"
-
+    displayName: 連結
 views:
   - type: table
-    name: "全部研究頁"
+    name: 全部研究頁
     groupBy:
       property: type
       direction: ASC
@@ -34,12 +31,11 @@ views:
       - status
       - formula.conf
       - updated
-
   - type: table
-    name: "來源 Sources"
+    name: 來源 Sources
     filters:
       and:
-        - 'type == "source"'
+        - type == "source"
     order:
       - file.name
       - author
@@ -48,9 +44,8 @@ views:
       - url
     summaries:
       formula.conf: Filled
-
   - type: cards
-    name: "卡片總覽"
+    name: 卡片總覽
     order:
       - file.name
       - type
