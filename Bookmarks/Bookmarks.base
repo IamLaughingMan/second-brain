@@ -1,0 +1,48 @@
+properties:
+  status:
+    displayName: 狀態
+  url:
+    displayName: URL
+  type:
+    displayName: 類型
+  para:
+    displayName: PARA
+  tags:
+    displayName: Tags
+  created:
+    displayName: 建立
+  updated:
+    displayName: 更新
+views:
+  - type: table
+    name: Active
+    filters:
+      and:
+        - type == "bookmark"
+        - status != "archived"
+    order:
+      - file.name
+      - status
+      - url
+      - tags
+      - updated
+  - type: table
+    name: Archive
+    filters:
+      and:
+        - type == "bookmark"
+        - status == "archived"
+    order:
+      - file.name
+      - url
+      - tags
+      - updated
+  - type: cards
+    name: All bookmarks
+    filters:
+      and:
+        - type == "bookmark"
+    order:
+      - file.name
+      - status
+      - url

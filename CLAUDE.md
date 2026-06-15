@@ -37,6 +37,12 @@ second-brain-2026-06-06/
 │   ├── Inbox.md              # hub（7 日 triage SLA 規矩）
 │   ├── <random captures>.md
 │   └── clippings/             # Web Clipper 預留 subfolder
+├── Bookmarks/               # 長期 URL 指標（flat，唔搬檔；靠 status 欄分 active/archive）
+│   ├── Bookmarks.md          # hub
+│   ├── active.md             # view: status != "archived"
+│   ├── archive.md            # view: status == "archived"
+│   ├── Bookmarks.base         # 兩個 table 視圖（Active / Archive）
+│   └── <title>.md             # 個別 bookmark，frontmatter `type: bookmark`
 ├── Projects/                # PARA-style active projects（root，跟 Tiago Forte / stefanimhoff 模式）
 │   ├── Projects.md           # hub
 │   └── <project>.md           # `para: project`、`code_path:` 指 repo = Model B 對應
@@ -55,6 +61,29 @@ second-brain-2026-06-06/
 │   └── skills/                # 自製 skills（Claude Code spec 寫死路徑）
 └── CLAUDE.md                  # 本檔：行為契約（root 強制，Anthropic spec）
 ```
+
+## Status field over archive folder（檔不搬，靠 metadata view）
+
+**核心規則：唔起 `Archive/` folder、唔搬檔。** 用 frontmatter `status` 欄分類，配 `.base` view 篩。理由：
+
+- Wikilink 不帶路徑，搬檔有零文件斷連風險但有 wikitree 搜尋／scrolling 嘅迷失成本
+- 你 vault 已係 metadata-first（PARA 鏡頭、domain field）—— archive 同 active 都應該係 metadata view，唔係 file tree
+- 跟 LYT (Nick Milo) 「fluid folders」哲學、Andy Matuschak evergreen notes、kepano "file over app"
+
+`status` 詞彙：
+
+| 值 | 用途 |
+|----|------|
+| `active` | 當前使用中（default for new） |
+| `archived` | 不再使用但保留歷史 |
+| `seed / developing / draft` | 內容頁進度標記（vs active/archive 軸正交） |
+
+**Active view（`.base`）：** filter `status != "archived"`（即包括 active／draft／developing／無 status）
+**Archive view（`.base`）：** filter `status == "archived"`
+
+示例：`Bookmarks/active.md` + `Bookmarks/archive.md` + `Bookmarks/Bookmarks.base`。同樣模式可推到 Projects、Resources、任何 collection。
+
+**反例：** Tiago Forte PARA 用 `Archive/` folder 搬檔——本 vault **唔跟呢個**（保留 Inbox / Projects / Resources 概念，但 archive 改用 status field）。
 
 ## Capture / Inbox triage
 
