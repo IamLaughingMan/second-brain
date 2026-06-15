@@ -8,7 +8,14 @@ updated: 2026-06-12
 
 本 wiki 的唯一目錄（catalog）＝查詢入口。**混合結構**：meta 與跨領域方法頁平放 `wiki/` 根層，領域內容入領域資料夾（鏡射 MOC hub，如 `Health/Oral/Periodontal Disease/`）。檢索靠本目錄分組＋`[[wikilink]]`（不帶路徑、零斷連），資料夾只是人類瀏覽動線。分組標題對應每頁 frontmatter 的 `type`。更新於每次 ingest。
 
-→ 執行摘要見 [[overview]]・近期脈絡見 [[hot]]・操作日誌見 [[log]]
+→ 近期脈絡見 [[hot]]・操作日誌見 [[log]]
+
+## Overview / Stats
+
+**主軸領域**：牙周病研究（20+ 頁、`Health/Oral/Periodontal Disease/`）
+**方法論**：[[Karpathy LLM Wiki Pattern]]（compiler 模式、no RAG）＋ PARA 鏡頭 ＋ status-field archive
+**Root hubs**：Inbox（GTD）、Bookmarks（status view）、Projects（PARA）、wiki 內 Health
+**Source 來源數**：8 （見下面 Sources 段）
 
 ## Root hubs（vault-wide MOC）
 - [[Inbox]] — 未整理 catch-all，root 級 `Inbox/`（GTD pattern；7 日 triage SLA）
