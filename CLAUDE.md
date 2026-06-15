@@ -33,6 +33,10 @@ second-brain-2026-06-06/
 │               ├── Periodontal Disease.md
 │               ├── Periodontal Disease.base
 │               └── <內容頁>.md          # source / concept / entity / comparison / resource
+├── Inbox/                   # 未整理嘅 catch-all（URL/idea/scratch/todo），GTD capture-first
+│   ├── Inbox.md              # hub（7 日 triage SLA 規矩）
+│   ├── <random captures>.md
+│   └── clippings/             # Web Clipper 預留 subfolder
 ├── Projects/                # PARA-style active projects（root，跟 Tiago Forte / stefanimhoff 模式）
 │   ├── Projects.md           # hub
 │   └── <project>.md           # `para: project`、`code_path:` 指 repo = Model B 對應
@@ -51,6 +55,19 @@ second-brain-2026-06-06/
 │   └── skills/                # 自製 skills（Claude Code spec 寫死路徑）
 └── CLAUDE.md                  # 本檔：行為契約（root 強制，Anthropic spec）
 ```
+
+## Capture / Inbox triage
+
+新嘢三條路：
+
+| Intent | 落腳 | 由 |
+|--------|------|----|
+| 「未定，可能想睇／儲住先」 | `Inbox/<title>.md`（短註＋URL，frontmatter `para: inbox`） | 你或 LLM |
+| 「Web Clipper 自動 clip」 | `Inbox/clippings/<title>.md` | Web Clipper（將來） |
+| 「確定係源、要 compile」 | 直接 defuddle → `.raw/articles/<slug>.md` → `ingest` | 跳過 Inbox |
+| 「即時答 question」 | `query:` 或 `autoresearch`，答案歸 `wiki/` | 跳過 Inbox／`.raw/` |
+
+**Inbox 7 日 triage SLA**：每週清一次，每件嘢 decide 結局（compile / project / wiki / 刪），詳見 [[Inbox]] hub。
 
 ## 四階段迴圈（workflow）
 
