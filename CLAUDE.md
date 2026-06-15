@@ -3,9 +3,9 @@
 Mode: D+C+E (Personal + Projects + Research)
 Purpose: Mixed second brain for personal life, projects, and research
 Owner: masterdr
-Created: 2026-06-07 ・ Restructured to flat Karpathy pattern: 2026-06-11 ・ 改混合結構（meta 平放＋領域資料夾）: 2026-06-12 ・ 整合 system 檔入 `99 - Meta/`（跟 stefanimhoff 模式）: 2026-06-16
+Created: 2026-06-07 ・ Restructured to flat Karpathy pattern: 2026-06-11 ・ 改混合結構（meta 平放＋領域資料夾）: 2026-06-12 ・ 整合 system 檔入 `Meta/`（跟 Bryan Hogan plain 模式）: 2026-06-16
 
-> 完整建置藍圖與三方關係（Karpathy / claude-obsidian / kepano）見 [OBSIDIAN-SETUP](99%20-%20Meta/docs/OBSIDIAN-SETUP.md) ／ wikilink `[[OBSIDIAN-SETUP]]`。
+> 完整建置藍圖與三方關係（Karpathy / claude-obsidian / kepano）見 [OBSIDIAN-SETUP](Meta/docs/OBSIDIAN-SETUP.md) ／ wikilink `[[OBSIDIAN-SETUP]]`。
 
 ## 核心原則：LLM 當 compiler，不是 retriever
 
@@ -33,7 +33,7 @@ second-brain-2026-06-06/
 │               ├── Periodontal Disease.md
 │               ├── Periodontal Disease.base
 │               └── <內容頁>.md          # source / concept / entity / comparison / resource
-├── 99 - Meta/               # System／operational 夾（跟 stefanimhoff numbered 模式，永遠 sort 到底）
+├── Meta/                    # System／operational 夾（跟 Bryan Hogan plain 模式）
 │   ├── docs/
 │   │   ├── OBSIDIAN-SETUP.md    # 建置藍圖（Karpathy + kepano）
 │   │   └── WIKI.md               # 完整 LLM 操作手冊
@@ -99,7 +99,7 @@ CSV 欄位（既有）：`DateTime,Action,Name,Version,Type,Source,InstallPath,I
 
 ## PARA 視圖（metadata 鏡頭，非資料夾）
 
-本 vault 用 **frontmatter `para` 欄**達到 PARA 的分類目的，**不改 Karpathy 資料夾結構**（資料夾仍是 domain-based，由 claude-obsidian ingest 自建）。PARA 是一個可查詢的「鏡頭」，靠 [[PARA]] Base（`99 - Meta/bases/PARA.base`）呈現，而非 file tree。
+本 vault 用 **frontmatter `para` 欄**達到 PARA 的分類目的，**不改 Karpathy 資料夾結構**（資料夾仍是 domain-based，由 claude-obsidian ingest 自建）。PARA 是一個可查詢的「鏡頭」，靠 [[PARA]] Base（`Meta/bases/PARA.base`）呈現，而非 file tree。
 
 `para` 詞彙（每頁可有 0 或 1 個）：
 
@@ -126,7 +126,7 @@ claude-obsidian 外掛經 PostToolUse hook 自動 commit wiki 編輯，執行
 `.raw/` 無追蹤檔（git commit pathspec 報錯），而 hook 會吞掉這兩個錯（`2>/dev/null || true`），
 於是 wiki 編輯**靜默地停止 commit**。驗證：wiki 編輯後 `git status` 應乾淨，log 應出現
 `wiki: auto-commit <date>` 提交。
-注意：**`99 - Meta/`、`.claude/`、`CLAUDE.md`、根層其他檔**都**不在** hook 範圍（hook 只 commit `wiki/ .raw/ .vault-meta/`），需手動 commit。
+注意：**`Meta/`、`.claude/`、`CLAUDE.md`、根層其他檔**都**不在** hook 範圍（hook 只 commit `wiki/ .raw/ .vault-meta/`），需手動 commit。
 
 ## 收工 workflow（session wrap-up → Model B）
 
@@ -135,7 +135,7 @@ claude-obsidian 外掛經 PostToolUse hook 自動 commit wiki 編輯，執行
 1. **回顧本次 session** 做咗咩（讀對話脈絡，唔係倒 raw log）。
 2. **抽精華**：decisions、值得保存的 outputs、next actions、open questions。掉 chat noise。
 3. **定位 project 頁**：對應的 code repo ↔ vault 內 `para: project` 且 `code_path` 指向該 repo 的頁。
-   - 若未有 → 用 `99 - Meta/templates/project-overview.md` 在 `wiki/Projects/<name>.md` 建立，填 `code_path:`，並從 [[Projects]] hub 連出。
+   - 若未有 → 用 `Meta/templates/project-overview.md` 在 `wiki/Projects/<name>.md` 建立，填 `code_path:`，並從 [[Projects]] hub 連出。
 4. **寫入精華**（增量，不覆寫）：
    - `## Log` append 一行 `YYYY-MM-DD：<一句總結>`
    - 有決策 → 更新 `## Key Decisions`（或在 `wiki/Projects/` 另開 decision-log 頁）
