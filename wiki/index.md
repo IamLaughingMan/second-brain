@@ -10,6 +10,10 @@ updated: 2026-06-12
 
 → 執行摘要見 [[overview]]・近期脈絡見 [[hot]]・操作日誌見 [[log]]
 
+## Root hubs（vault-wide MOC）
+- [[Inbox]] — 未整理 catch-all，root 級 `Inbox/`（GTD pattern；7 日 triage SLA）
+- [[Projects]] → [[AI Arcade]] — 專案領域 hub，root 級 `Projects/`（PARA pattern）
+
 ## Maps of Content（領域 hub）
 - [[Health]] → [[Oral Health]] → [[Periodontal Disease]] — 牙周病研究的三層導覽 hub，對應資料夾 `wiki/Health/Oral/Periodontal Disease/`（含全部 20 篇 `domain: periodontal-disease` 頁）
 - [[Projects]] → [[AI Arcade]] — 專案領域 hub，**root 級** `Projects/`（PARA 模式、唔在 wiki/ 內）
