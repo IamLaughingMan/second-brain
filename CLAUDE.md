@@ -5,7 +5,7 @@ Purpose: Mixed second brain for personal life, projects, and research
 Owner: masterdr
 Created: 2026-06-07 ・ Restructured to flat Karpathy pattern: 2026-06-11 ・ 改混合結構（meta 平放＋領域資料夾）: 2026-06-12 ・ 整合 system 檔入 `Meta/`（跟 Bryan Hogan plain 模式）: 2026-06-16
 
-> 完整建置藍圖與三方關係（Karpathy / claude-obsidian / kepano）見 [OBSIDIAN-SETUP](Meta/docs/OBSIDIAN-SETUP.md) ／ wikilink `[[OBSIDIAN-SETUP]]`。
+> 完整建置藍圖（Karpathy 方法論 ＋ kepano obsidian-skills 工具層）見 [OBSIDIAN-SETUP](Meta/docs/OBSIDIAN-SETUP.md) ／ wikilink `[[OBSIDIAN-SETUP]]`。
 
 ## 核心原則：LLM 當 compiler，不是 retriever
 

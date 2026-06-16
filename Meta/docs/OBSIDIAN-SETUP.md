@@ -65,7 +65,7 @@
 - 作者：kepano（Steph Ango，Obsidian 執行長）・MIT 授權・~35k★
 
 ### 是什麼
-一組符合 **Agent Skills 規範**的 Obsidian skill，讓任何相容 agent（**Claude Code、Codex、OpenCode**）能正確讀寫 Obsidian 的格式與操作 CLI。本 vault 的 claude-obsidian 外掛中那幾個同名 skill 即源自此。
+一組符合 **Agent Skills 規範**的 Obsidian skill，讓任何相容 agent（**Claude Code、Codex、OpenCode**）能正確讀寫 Obsidian 的格式與操作 CLI。**本 vault 直接安裝此 obsidian-skills**（已於 2026-06-16 移除的 claude-obsidian 外掛當初亦 bundle 了幾個同名 skill，即源自此）。
 
 ### 五個 skill
 | Skill | 用途 |

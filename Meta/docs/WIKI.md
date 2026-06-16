@@ -9,8 +9,10 @@
 > `_index.md` 路由皆已作廢**——分類改用 frontmatter，資料夾改鏡射領域 MOC 階層。
 > **最終行為以 `CLAUDE.md` 為準**；建置藍圖見 `OBSIDIAN-SETUP.md`。
 >
-> If you are using the claude-obsidian plugin, the skills handle everything here automatically.
-> This file is the reference document. Read it to understand how the system works.
+> ⚠️ The claude-obsidian plugin has been **removed** from this vault (2026-06-16). The operations
+> below are now performed **manually by Claude** (read `.raw/`, build/cross-reference pages, update
+> `index.md`/`log.md`) rather than by plugin skills — the methodology is unchanged. This file is the
+> reference document; read it to understand how the system works.
 > Based on Andrej Karpathy's LLM Wiki pattern.
 
 ---
@@ -758,7 +760,7 @@ curl -sk -X POST \
 
 ## 12 — Vault CLAUDE.md Template
 
-When creating a wiki for a new project (not this plugin), create a CLAUDE.md at the vault root:
+When creating a wiki for a new project, create a CLAUDE.md at the vault root:
 
 ```markdown
 # [WIKI NAME] — LLM Wiki
@@ -856,4 +858,4 @@ The human's job: curate sources, ask good questions, think about what it means. 
 
 ---
 
-*Based on Andrej Karpathy's LLM Wiki pattern. Plugin: claude-obsidian by AgriciDaniel / AI Marketing Hub.*
+*Based on Andrej Karpathy's LLM Wiki pattern. (Schema originally from the claude-obsidian plugin by AgriciDaniel / AI Marketing Hub — plugin since removed 2026-06-16; operations now run manually by Claude.)*
