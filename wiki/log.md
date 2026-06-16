@@ -10,6 +10,13 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 ---
 
+## [2026-06-17 03:17 HKT] decision | flat-bookmarks 規則改做不執行（更正 03:12 條目）
+- **更正**：03:12 條目記成「保留 flat、唔改」係 Claude 讀錯使用者意思。實際決定＝**flat / 唔起-subfolder 規則改做不執行（deprecated）**。Bookmarks 將來可起 by-category 資料夾（方案待設計），**現有檔暫不搬**。
+- 範圍：只停用 flat/no-subfolder；「status 欄分 active/archive、不搬檔」規則**不受影響**，照舊。
+- Live rule 已改（**皆在 auto-commit hook 範圍外，需手動 commit**）：`Bookmarks/Bookmarks.md` hub 加停用 banner＋刪線 flat 行；vault `CLAUDE.md` Structure-tree Bookmarks/ 註解改成「flat 規則 2026-06-17 起不執行」。memory `project-flat-bookmarks-decision` 已 flip。
+
+---
+
 ## [2026-06-17 03:12 HKT] maintain | 校正 Karpathy 頁 plugin 字眼＋記錄 flat-bookmarks 決定
 - `wiki/Karpathy LLM Wiki Pattern.md`：移除「本 vault（claude-obsidian 外掛）即是此模式的實作」等 stale 字眼，改為「Claude Code 手動執行＋原生 auto-commit hook」；工具分工段、Sources 段、`updated` 一併校正。之前 no-plugin 清理漏咗呢頁。
 - **flat-bookmarks 決定**：保留現狀（Bookmarks flat、靠 `status`/`tags`+`.base` 分類）。出處＝kepano metadata-first／LYT fluid folders，**唔關 Karpathy 事**。已知張力：`wiki/` 領域內容已入資料夾（hybrid），但 Bookmarks 仍 flat ——列為日後可重訪嘅 open question，**今次唔改**。

@@ -36,7 +36,7 @@ second-brain-2026-06-06/
 │   ├── Inbox.md              # hub（7 日 triage SLA 規矩）
 │   ├── <random captures>.md
 │   └── clippings/             # Web Clipper 預留 subfolder
-├── Bookmarks/               # 長期 URL 指標（flat，唔搬檔；靠 status 欄分 active/archive）
+├── Bookmarks/               # 長期 URL 指標（flat 規則 2026-06-17 起不執行，待 folder 方案；archive 仍靠 status 欄、不搬檔）
 │   ├── Bookmarks.md          # hub
 │   ├── active.md             # view: status != "archived"
 │   ├── archive.md            # view: status == "archived"
