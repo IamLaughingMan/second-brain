@@ -113,7 +113,7 @@ second-brain-2026-06-06/
 - `.raw/` 是來源，永不修改。
 - `wiki/index.md` 是唯一目錄 — 每次 ingest 都更新（即使內容入了資料夾，index 仍是檢索入口）。
 - `wiki/log.md` append-only — 新項置頂，永不改動過去條目。
-- **領域內容入領域資料夾**，鏡射 MOC hub 階層（目前：`Health/Oral/Periodontal Disease/`）。Meta 與跨領域方法頁留 `wiki/` 根層。claude-obsidian 的 ingest/save skill 會自建資料夾——順其建在對應領域夾，但每頁仍須有 `domain` 與正確 `type`。
+- **領域內容入領域資料夾**，鏡射 MOC hub 階層（目前：`Health/Oral/Periodontal Disease/`）。Meta 與跨領域方法頁留 `wiki/` 根層。ingest／save 流程（由 Claude 手動執行）會按需自建資料夾——建在對應領域夾，但每頁仍須有 `domain` 與正確 `type`。
 
 ## Log conventions（vault 專屬；通用 HKT／CSV 機制見 [`../CLAUDE.md`](../CLAUDE.md)）
 
@@ -138,7 +138,7 @@ git commit -m "<subject>" -m "$(TZ='Asia/Hong_Kong' date '+%Y-%m-%d %H:%M %Z')"
 
 ## PARA 視圖（metadata 鏡頭，非資料夾）
 
-本 vault 用 **frontmatter `para` 欄**達到 PARA 的分類目的，**不改 Karpathy 資料夾結構**（資料夾仍是 domain-based，由 claude-obsidian ingest 自建）。PARA 是一個可查詢的「鏡頭」，靠 [[PARA]] Base（`Meta/bases/PARA.base`）呈現，而非 file tree。
+本 vault 用 **frontmatter `para` 欄**達到 PARA 的分類目的，**不改 Karpathy 資料夾結構**（資料夾仍是 domain-based，由 ingest 流程自建）。PARA 是一個可查詢的「鏡頭」，靠 [[PARA]] Base（`Meta/bases/PARA.base`）呈現，而非 file tree。
 
 `para` 詞彙（每頁可有 0 或 1 個）：
 
@@ -158,14 +158,13 @@ git commit -m "<subject>" -m "$(TZ='Asia/Hong_Kong' date '+%Y-%m-%d %H:%M %Z')"
 
 ## Git auto-commit
 
-claude-obsidian 外掛經 PostToolUse hook 自動 commit wiki 編輯，執行
-`git add -- wiki/ .raw/ .vault-meta/ && git commit -- wiki/ .raw/ .vault-meta/`。
+vault `.claude/settings.json` 的**原生 PostToolUse hook**（取代已移除的 claude-obsidian 外掛）自動 commit wiki 編輯：`git add -- wiki/ .raw/ .vault-meta/`，有改動就 `git commit ... -m "wiki: auto-commit <HKT>"`（HKT 時間戳直接寫入，無需 amend）。尊重 `.vault-meta/auto-commit.disabled` toggle（建個空檔即暫停）。
 它需要**三個 pathspec 都能解析**，故本 vault 保留已追蹤的 `.raw/.gitkeep` 與
 `.vault-meta/.gitkeep`。**別刪它們** —— 否則 `.vault-meta/` 不存在（git add 中止）、
-`.raw/` 無追蹤檔（git commit pathspec 報錯），而 hook 會吞掉這兩個錯（`2>/dev/null || true`），
+`.raw/` 無追蹤檔（pathspec 報錯），而 hook 吞掉錯誤（`2>/dev/null || true`），
 於是 wiki 編輯**靜默地停止 commit**。驗證：wiki 編輯後 `git status` 應乾淨，log 應出現
-`wiki: auto-commit <date>` 提交。
-注意：**`Meta/`、`.claude/`、`CLAUDE.md`、根層其他檔**都**不在** hook 範圍（hook 只 commit `wiki/ .raw/ .vault-meta/`），需手動 commit。
+`wiki: auto-commit <date> HKT` 提交。
+注意：**hook 只 commit `wiki/ .raw/ .vault-meta/`** —— `Meta/`、`.claude/`、`CLAUDE.md`、`Inbox/`、`Projects/`、`Bookmarks/`、根層其他檔都**不在**範圍，需手動 commit。並且 hook **只 commit、不 push**（Claude bash 無 TTY；push 由你喺自己終端機做）。
 
 ## 收工 workflow（session wrap-up → Model B）
 
