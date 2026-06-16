@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "[ -d .git ] || exit 0; [ -f .vault-meta/auto-commit.disabled ] && exit 0; LAST=$(git log -1 --format='%s' 2>/dev/null); echo \"$LAST\" | grep -qE '^wiki: auto-commit [0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}$' || exit 0; HKT=$(TZ='Asia/Hong_Kong' date '+%Y-%m-%d %H:%M %Z'); git commit --amend --no-edit -m \"wiki: auto-commit $HKT\" 2>/dev/null || true"
+            "command": "[ -d .git ] || exit 0; [ -f .vault-meta/auto-commit.disabled ] && exit 0; git add -- wiki/ .raw/ .vault-meta/ 2>/dev/null; git diff --cached --quiet -- wiki/ .raw/ .vault-meta/ 2>/dev/null && exit 0; HKT=$(TZ='Asia/Hong_Kong' date '+%Y-%m-%d %H:%M %Z'); git commit -- wiki/ .raw/ .vault-meta/ -m \"wiki: auto-commit $HKT\" 2>/dev/null || true"
           }
         ]
       }
