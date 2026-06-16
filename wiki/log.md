@@ -10,6 +10,16 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 ---
 
+## [2026-06-17 03:51 HKT] bookmark | auto-bookmark 本 session 搵到嘅 3 個 PKM source
+- 更正：auto-bookmark trigger 主語係 **Claude 搵到**（唔係使用者掉 URL）。已改全局 `~/AI/Claude/CLAUDE.md` Bookmark capture section：兩種 trigger，「Claude research 搵到有用 → 主動自動 bookmark」為主。
+- 實踐：將本 session research 搵到嘅 3 個 reference-grade source 存入 `Bookmarks/PKM/`（domain: pkm）：
+  - [[Obsidian Web Clipper]]（官方 templates 文件）
+  - [[kepano - Obsidian Web Clipper]]（大神 bucket）
+  - [[Obsidian Community Web Clipper Templates]]（community bucket GitHub）
+- 新 domain 夾 `Bookmarks/PKM/`。皆 auto-commit hook 範圍外，需手動 commit。
+
+---
+
 ## [2026-06-17 03:45 HKT] config | 全局 CLAUDE.md 加「自動 bookmark」workflow
 - 喺 `~/AI/Claude/CLAUDE.md`（全局 AI-projects 層）加 `## Bookmark capture` section：任何 project 掉 URL＋「bookmark」→ Claude 一鍵跑 pipeline（defuddle 讀內容 → 落 `Bookmarks/<Domain>/` → frontmatter＋domain → dual-log → commit；push 由人）。
 - 另記瀏覽器一鍵法：官方 **Obsidian Web Clipper**（local-first、kepano 推薦），set 一個 Bookmark template（properties＋triggers 按站分流）；全文 clip 入 `Inbox/clippings/`。
