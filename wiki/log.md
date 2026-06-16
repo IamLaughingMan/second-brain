@@ -10,6 +10,14 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 ---
 
+## [2026-06-17 03:45 HKT] config | 全局 CLAUDE.md 加「自動 bookmark」workflow
+- 喺 `~/AI/Claude/CLAUDE.md`（全局 AI-projects 層）加 `## Bookmark capture` section：任何 project 掉 URL＋「bookmark」→ Claude 一鍵跑 pipeline（defuddle 讀內容 → 落 `Bookmarks/<Domain>/` → frontmatter＋domain → dual-log → commit；push 由人）。
+- 另記瀏覽器一鍵法：官方 **Obsidian Web Clipper**（local-first、kepano 推薦），set 一個 Bookmark template（properties＋triggers 按站分流）；全文 clip 入 `Inbox/clippings/`。
+- Research 兩 bucket：Web Clipper（官方／kepano）＋ community template 集／forum。出處連結已寫入該 section。
+- 註：`~/AI/Claude/` 非 git repo，該檔 unversioned，無 commit；本事件只 dual-log。
+
+---
+
 ## [2026-06-17 03:31 HKT] structure | Bookmarks 改 by-domain 淺層資料夾方案（取代已停用 flat）
 - Research（大神＋community 兩 bucket）：kepano 少 folder＋Categories property/Bases，但仍留粗 top-level 夾；LYT 用 MOC；community 2025–26 偏 metadata/MOC、避免深 folder。結論＝**淺層 domain 夾**最符合且對齊本 vault hybrid wiki。
 - 落實：`Bookmarks/AI/` 夾，`git mv Ponytail.md` → `Bookmarks/AI/Ponytail.md`，加 `domain: ai-tools`。
