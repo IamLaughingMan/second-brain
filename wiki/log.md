@@ -10,6 +10,15 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 ---
 
+## [2026-06-17 03:31 HKT] structure | Bookmarks 改 by-domain 淺層資料夾方案（取代已停用 flat）
+- Research（大神＋community 兩 bucket）：kepano 少 folder＋Categories property/Bases，但仍留粗 top-level 夾；LYT 用 MOC；community 2025–26 偏 metadata/MOC、避免深 folder。結論＝**淺層 domain 夾**最符合且對齊本 vault hybrid wiki。
+- 落實：`Bookmarks/AI/` 夾，`git mv Ponytail.md` → `Bookmarks/AI/Ponytail.md`，加 `domain: ai-tools`。
+- `Bookmarks.base`：加 `domain`（領域）欄＋新「By domain」視圖（`groupBy: domain`）；Active/All 加 domain 欄。
+- Doc：`Bookmarks.md` hub 換成 by-domain note＋規矩；`Meta/templates/bookmark.md` 加 `domain:`；vault `CLAUDE.md` Structure tree 更新。
+- 原則：淺層、按需深、未分類留 root、`domain` 為真分類軸、`.base` filter 非 path（搬夾零斷連）、檔名全 vault 唯一。**皆在 auto-commit hook 範圍外，需手動 commit。**
+
+---
+
 ## [2026-06-17 03:17 HKT] decision | flat-bookmarks 規則改做不執行（更正 03:12 條目）
 - **更正**：03:12 條目記成「保留 flat、唔改」係 Claude 讀錯使用者意思。實際決定＝**flat / 唔起-subfolder 規則改做不執行（deprecated）**。Bookmarks 將來可起 by-category 資料夾（方案待設計），**現有檔暫不搬**。
 - 範圍：只停用 flat/no-subfolder；「status 欄分 active/archive、不搬檔」規則**不受影響**，照舊。

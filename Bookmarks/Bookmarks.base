@@ -3,6 +3,8 @@ properties:
     displayName: 狀態
   url:
     displayName: URL
+  domain:
+    displayName: 領域
   type:
     displayName: 類型
   para:
@@ -22,6 +24,7 @@ views:
         - status != "archived"
     order:
       - file.name
+      - domain
       - status
       - url
       - tags
@@ -44,5 +47,18 @@ views:
         - type == "bookmark"
     order:
       - file.name
+      - domain
       - status
       - url
+  - type: table
+    name: By domain
+    filters:
+      and:
+        - type == "bookmark"
+        - status != "archived"
+    groupBy: domain
+    order:
+      - file.name
+      - status
+      - url
+      - updated

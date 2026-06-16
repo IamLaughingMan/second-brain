@@ -1,6 +1,7 @@
 ---
 type: bookmark
 para: resource
+domain: ""
 title: "{{title}}"
 url: ""
 status: active

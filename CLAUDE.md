@@ -36,12 +36,14 @@ second-brain-2026-06-06/
 │   ├── Inbox.md              # hub（7 日 triage SLA 規矩）
 │   ├── <random captures>.md
 │   └── clippings/             # Web Clipper 預留 subfolder
-├── Bookmarks/               # 長期 URL 指標（flat 規則 2026-06-17 起不執行，待 folder 方案；archive 仍靠 status 欄、不搬檔）
+├── Bookmarks/               # 長期 URL 指標（by-domain 淺層資料夾，2026-06-17 起；archive 仍靠 status 欄、不搬檔）
 │   ├── Bookmarks.md          # hub
 │   ├── active.md             # view: status != "archived"
 │   ├── archive.md            # view: status == "archived"
-│   ├── Bookmarks.base         # 兩個 table 視圖（Active / Archive）
-│   └── <title>.md             # 個別 bookmark，frontmatter `type: bookmark`
+│   ├── Bookmarks.base         # 視圖：Active / Archive / All / By domain
+│   ├── AI/                    # domain 夾（鏡射 wiki 領域命名），如 Bookmarks/AI/Ponytail.md
+│   │   └── <title>.md          # 個別 bookmark，frontmatter `type: bookmark` + `domain:`
+│   └── <title>.md             # 未分類 bookmark 留 root（domain 留空）
 ├── Projects/                # PARA-style active projects（root，跟 Tiago Forte / stefanimhoff 模式）
 │   ├── Projects.md           # hub
 │   └── <project>.md           # `para: project`、`code_path:` 指 repo = Model B 對應

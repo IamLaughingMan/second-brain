@@ -1,6 +1,7 @@
 ---
 type: bookmark
 para: resource
+domain: ai-tools
 title: "Ponytail"
 url: "https://github.com/DietrichGebert/ponytail"
 status: active
