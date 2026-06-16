@@ -10,6 +10,20 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 ---
 
+## [2026-06-17 03:12 HKT] maintain | 校正 Karpathy 頁 plugin 字眼＋記錄 flat-bookmarks 決定
+- `wiki/Karpathy LLM Wiki Pattern.md`：移除「本 vault（claude-obsidian 外掛）即是此模式的實作」等 stale 字眼，改為「Claude Code 手動執行＋原生 auto-commit hook」；工具分工段、Sources 段、`updated` 一併校正。之前 no-plugin 清理漏咗呢頁。
+- **flat-bookmarks 決定**：保留現狀（Bookmarks flat、靠 `status`/`tags`+`.base` 分類）。出處＝kepano metadata-first／LYT fluid folders，**唔關 Karpathy 事**。已知張力：`wiki/` 領域內容已入資料夾（hybrid），但 Bookmarks 仍 flat ——列為日後可重訪嘅 open question，**今次唔改**。
+
+---
+
+## [2026-06-17 03:01 HKT] bookmark | 加 Ponytail（AI coding-agent minimalist ruleset）
+- 新增 `Bookmarks/Ponytail.md`：`type: bookmark`、`status: active`、`para: resource`。
+- URL: https://github.com/DietrichGebert/ponytail（MIT、~23.5k★、JS）。核心理念「最好嘅 code 係冇寫過嘅 code」（YAGNI 決策階層）。
+- Tag 分類 `ai-tools / coding-agents / yagni / prompt-engineering`；related 連 [[Karpathy LLM Wiki Pattern]]。
+- 跟 Bookmarks flat convention，**唔起 subfolder**（分類靠 tag/status + `.base` view）。
+
+---
+
 ## [2026-06-11] base | 建牙周病動態資料表
 - 新增 `Periodontal Disease.base`（Obsidian Bases）：filter `domain == periodontal-disease` 且 `type != moc`。
 - 三檢視：全部研究頁（按 type 分組）、來源 Sources（作者/年份/可信度/連結）、卡片總覽。

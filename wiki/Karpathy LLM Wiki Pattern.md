@@ -5,7 +5,7 @@ para: resource
 title: "Karpathy's LLM Wiki Pattern"
 status: developing
 created: 2026-06-08
-updated: 2026-06-11
+updated: 2026-06-17
 tags:
   - resource
   - reference
@@ -18,7 +18,7 @@ related:
 
 # Karpathy 的 LLM Wiki 模式（Karpathy's LLM Wiki Pattern）
 
-由 Andrej Karpathy 發表的一份 GitHub 規格（[原始 gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)），說明如何把個人知識庫（personal knowledge base）結構化，讓語言模型（LLM）能**使用它**、而不只是搜尋它。**本 vault（claude-obsidian 外掛）即是此模式的實作。**
+由 Andrej Karpathy 發表的一份 GitHub 規格（[原始 gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)），說明如何把個人知識庫（personal knowledge base）結構化，讓語言模型（LLM）能**使用它**、而不只是搜尋它。**本 vault 即是此模式的實作**——由 Claude Code 手動執行 ingest／compile／lint，配一個原生 PostToolUse auto-commit hook（不再依賴任何外掛）。
 
 ## 核心比喻：LLM 當 compiler，不是 retriever
 > 把 LLM 當**編譯器（compiler）**，不是**檢索器（retriever）**。
@@ -71,12 +71,13 @@ Karpathy 自己的 vault 已成長到約 **100 篇文章、40 萬字（~400,000 
 用 wiki 生**合成訓練資料（synthetic training data）**去 fine-tune 一個 LLM，讓它把知識記進**權重（weights）**，而不只是靠 context window。
 
 ## 工具分工（本 vault）
-- **Karpathy** = 方法論（設計圖）；**claude-obsidian (AgriciDaniel)** = 自動化此模式的外掛（你裝的）；**kepano/obsidian-skills** = 底層格式工具（建議搭檔，claude-obsidian 會自動讓位給它）。詳見根目錄 `OBSIDIAN-SETUP.md`。
+- **Karpathy** = 方法論（設計圖）；**Claude Code** = 執行此模式的 agent（手動跑 ingest／compile／lint，配原生 auto-commit hook 自動 commit `wiki/`）；**kepano/obsidian-skills** = 底層格式工具（defuddle / obsidian-cli / bases / markdown / json-canvas）。詳見 [[OBSIDIAN-SETUP]]。
+- 註：曾試用 **claude-obsidian (AgriciDaniel)** 外掛自動化此模式，已於 2026-06-16 移除；其 auto-commit 功能改由 vault 原生 hook 取代。
 
 ## 出處連結（Sources）
 - Karpathy 原始 gist（llm-wiki）：https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 - DAIR.ai 解說（compiler 框架、四階段、no vector DB）：https://academy.dair.ai/blog/llm-knowledge-bases-karpathy
-- claude-obsidian（本 vault 使用的外掛，實作此模式）：https://github.com/AgriciDaniel/claude-obsidian
+- claude-obsidian（曾試用以自動化此模式，2026-06-16 已移除；automation 改用原生 hook）：https://github.com/AgriciDaniel/claude-obsidian
 - kepano/obsidian-skills（建議搭檔，底層格式 substrate）：https://github.com/kepano/obsidian-skills
 - 報導整理（Techstrong.ai）：https://techstrong.ai/features/karpathys-instructions-for-building-an-ai-driven-second-brain/
 
