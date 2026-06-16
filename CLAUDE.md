@@ -115,9 +115,9 @@ second-brain-2026-06-06/
 - `wiki/log.md` append-only — 新項置頂，永不改動過去條目。
 - **領域內容入領域資料夾**，鏡射 MOC hub 階層（目前：`Health/Oral/Periodontal Disease/`）。Meta 與跨領域方法頁留 `wiki/` 根層。claude-obsidian 的 ingest/save skill 會自建資料夾——順其建在對應領域夾，但每頁仍須有 `domain` 與正確 `type`。
 
-## Log conventions
+## Log conventions（vault 專屬；通用 HKT／CSV 機制見 [`../CLAUDE.md`](../CLAUDE.md)）
 
-所有 log 寫入 —— `wiki/log.md` 條目 ＋ 手動 git commit —— **都要帶 HKT (UTC+8) 時間戳**。之後生效，舊條目不倒翻。
+`wiki/log.md` 條目 ＋ 手動 git commit 都要帶 **HKT** 時間戳（取時間 **必須** `TZ='Asia/Hong_Kong'`、不可裸 `date` —— 完整機制見 parent CLAUDE.md）。之後生效，舊條目不倒翻。
 
 **`wiki/log.md` 條目標題格式：**
 ```
@@ -125,25 +125,16 @@ second-brain-2026-06-06/
 ```
 例：`## [2026-06-15 14:30 HKT] ingest | 牙周病文獻新增 5 篇`
 
-取時間：**必須**用 `TZ='Asia/Hong_Kong' date '+%Y-%m-%d %H:%M %Z'`，**不可**用裸 `date`。系統 local TZ 係 PDT（UTC-7），裸 `date` 會印 PDT。
-
-**手動 git commit：** 訊息要帶 HKT，例：
+**手動 git commit：** 訊息帶 HKT，例：
 ```
 git commit -m "<subject>" -m "$(TZ='Asia/Hong_Kong' date '+%Y-%m-%d %H:%M %Z')"
 ```
 
-**claude-obsidian 自動 commit hook 補丁**：插件 hook 用裸 `date '+%Y-%m-%d %H:%M'`（寫 PDT 無 label）。為唔 patch 插件本體（更新會覆蓋），vault `.claude/settings.json` 加咗一個 PostToolUse hook：偵測最近 commit 係咪純插件格式（regex `^wiki: auto-commit YYYY-MM-DD HH:MM$`），係就 `git commit --amend` 改成 `wiki: auto-commit YYYY-MM-DD HH:MM HKT`。已 HKT 或手動 commit regex 唔 match，零誤傷。同樣尊重 `.vault-meta/auto-commit.disabled` toggle。
-
-**Dual-log（雙寫）規則：** 每次寫一筆有意義嘅 `wiki/log.md` 條目，**同時**要 append 一行到全局 Claude activity log：`~/AI/Claude/General/claude-activity-log.csv`。
-
-CSV 欄位（既有）：`DateTime,Action,Name,Version,Type,Source,InstallPath,InstallCommand,Status,Notes`
-
-範例行：
+**Dual-log（雙寫）規則：** 每寫一筆有意義嘅 `wiki/log.md` 條目，**同時** append 一行到全局活動 log `~/AI/Claude/General/claude-activity-log.csv`（欄位／ISO 格式見 parent CLAUDE.md）。範例：
 ```
 2026-06-15T14:30:00+08:00,ingest,second-brain vault,,project,,/Users/masterdr/AI/Claude/second-brain-2026-06-06,,success,"ingest | 牙周病文獻新增 5 篇"
 ```
-
-取 ISO 8601 時間：`TZ='Asia/Hong_Kong' date '+%Y-%m-%dT%H:%M:%S%z'`（會印 `+0800`，與既有 `+08:00` 差個冒號——CSV 允許），或 `+08:00` 寫死。**對齊既有格式**。**不重複 audit log**：`~/AI/Claude/General/claude-audit-log.jsonl` 由 hook 自動記每個 tool call，CSV 只鏡射 curated 嘅 wiki/log.md 事件。
+**不重複 audit log**：`claude-audit-log.jsonl` 由 hook 自動記每個 tool call，CSV 只鏡射 curated 嘅 wiki/log.md 事件。
 
 ## PARA 視圖（metadata 鏡頭，非資料夾）
 
