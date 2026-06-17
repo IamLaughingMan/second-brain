@@ -6,6 +6,8 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-18 02:00 HKT] doc | 加 Bookmark↔raw↔wiki bridge 3-layer architecture：(i) CLAUDE.md 新章節（Karpathy 性質保留＋frontmatter triangle raw_source/wiki_page/bookmark）；(ii) Bookmarks.md hub 加 promote workflow；(iii) Meta/templates/bookmark.md 加 commented bridge fields；(iv) memory 新增 project-bookmark-raw-wiki-bridge
+
 ## [2026-06-18 01:15 HKT] rename | Oral Health.md → Oral.md（align folder-note 命名統一：folder name = note name，同 Health/Bookmarks/Inbox/Projects 一致）；title/H1 同步收短「Oral（口腔健康）」；5 處 [[Oral Health]] wikilink update
 
 ## [2026-06-18 01:00 HKT] fix | Bookmarks.base 無法解析：groupBy: domain（bare string 短形）改用 structured form `{property: domain, direction: ASC}`，align Periodontal Disease.base 工作版本；Obsidian Bases plugin 升級後似乎唔再 accept 短形

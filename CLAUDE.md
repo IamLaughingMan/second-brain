@@ -103,6 +103,51 @@ second-brain-2026-06-06/
 
 **Inbox 7 日 triage SLA**：每週清一次，每件嘢 decide 結局（compile / project / wiki / 刪），詳見 [[Inbox]] hub。
 
+## Bookmark ↔ raw ↔ wiki bridge（2026-06-18 起）
+
+`Bookmarks/` 嘅檔本質係 **URL pointer + 短註腳**（`type: bookmark`），同 `raw/` 嘅 source-of-truth、同 `wiki/` 嘅 compiled knowledge **三者唔同**。當 bookmark 嘅 URL 內容值得**做嚴肅 ingest**時，跟以下 3 層 bridge promote，**唔好混淆三者嘅 layer**。
+
+### Layer 1：lightweight wikilink（最輕、零搬）
+
+Wiki 頁直接用 `[[bookmark-name]]` 引用 bookmark，或者 `![[bookmark#section]]` 嵌入一段。Bookmark 仲係純 pointer，唔升級。適合「順手 cite」場景。
+
+### Layer 2：promote URL 入 raw → ingest 入 wiki（推薦）
+
+```
+Bookmark（URL pointer）  --[defuddle URL]-->  raw/articles/<slug>.md  --[ingest]-->  wiki/<domain>/sources/<page>.md
+```
+
+操作：
+1. 對 bookmark 嘅 URL 跑 `obsidian:defuddle` skill → 落 `raw/articles/<slug>.md`
+2. Bookmark frontmatter 加 `raw_source: "[[<slug>]]"`（pointer to raw）
+3. 跑正常 ingest，wiki 頁出（`type: source`）
+4. Bookmark frontmatter 加 `wiki_page: "[[<wiki page>]]"`（pointer to wiki）
+5. Wiki source 頁 frontmatter 反向加 `bookmark: "[[<bookmark>]]"` + `source_url:` + `raw_path:`
+
+### Layer 3：full promote（重，少做）
+
+Bookmark 嘅 `My Notes` 已經寫到滿，本質升級成 wiki resource。直接 `git mv` 入 `wiki/<domain>/<typed-folder>/`，改 `type: bookmark` → `type: resource` / `type: concept` 等。Wikilink path-independent 自動 OK。
+
+### Frontmatter 三角約定
+
+```yaml
+# Bookmark（type: bookmark）
+raw_source: "[[<slug>]]"      # 已 defuddle 入 raw 嘅指標（Layer 2 step 1+ 才填）
+wiki_page:  "[[<wiki page>]]"  # 已 ingest 成 wiki 嘅指標（Layer 2 step 4+ 才填）
+
+# Wiki source 頁（type: source）
+source_url: "https://..."
+raw_path:   "raw/articles/<slug>.md"
+bookmark:   "[[<bookmark>]]"   # backlink to bookmark（Layer 2 step 5）
+```
+
+**狀態判讀（query / .base view 可拎）：**
+- bookmark 冇 `raw_source` → Layer 1（純 pointer）
+- bookmark 有 `raw_source` 但冇 `wiki_page` → Layer 2 進行中（已 defuddle 未 ingest）
+- bookmark 有齊 → Layer 2 完成（三者互指、可追源）
+
+**規矩：** Bookmark 永遠保留喺 `Bookmarks/`（除非 Layer 3 full promote）。`raw/` 嘅 source-of-truth 性質不可違反（LLM 只讀 raw、唔修改）。Wiki 嘅 compounding 性質不可違反（wiki 內容只由 ingest／query 嘅好答案歸檔產生，唔可以直接由 bookmark 複製過去）。
+
 ## 四階段迴圈（workflow）
 
 `Ingest → Compile → Query&Enhance → Lint&Maintain →（回到 Compile）`

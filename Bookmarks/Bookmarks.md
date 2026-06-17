@@ -61,7 +61,7 @@ status: archived
 
 - 新加 bookmark：用 `Meta/templates/bookmark.md` template，default `status: active`、`type: bookmark`、`para: resource`，**填 `domain:`** 並放入對應 `Bookmarks/<Domain>/` 夾（未定就留 root、`domain` 留空）
 - 不再用：改 frontmatter `status: archived`，**唔搬檔**（檔留喺原本 domain 夾）
-- 想 promote 做 wiki 內容：搬去 `wiki/<topic>.md`、改 `type` + `para: resource`
+- 想 promote 做 wiki source／resource：跟下面「Promote workflow」3 layer，**唔好直接複製檔過去**
 - **Provenance（`found-by-claude` tag）**：凡 **Claude 自己**喺網上 research／答問時搵到嘅有用 link，Claude 會主動 bookmark 並加 tag **`found-by-claude`**，同你親手掉嘅 link 區分（方便 prune／判斷信任度）。你親手加嘅 bookmark **唔使**加呢個 tag。
 - 結構：**深層細分 tree、獨立於 wiki**（見頂部 note）。~~舊 flat（停用）→ by-domain 淺層（亦已 supersede）~~
 - 跨 folder：用 pointer stub（`type: pointer` + `![[正本]]`，檔名加 `(↪ <home>)` suffix）；**唔好** copy 整個 note。
@@ -80,5 +80,35 @@ created: YYYY-MM-DD
 tags:
   - bookmark
   # - found-by-claude   # 只喺 Claude 自己網上搵到時加（provenance）
+# Promote workflow bridge fields（Layer 2 才填，見下）
+# raw_source: "[[<slug>]]"        # 已 defuddle 入 raw/articles/
+# wiki_page:  "[[<wiki page>]]"    # 已 ingest 成 wiki source
 ---
 ```
+
+## Promote workflow（bookmark ↔ raw ↔ wiki bridge）
+
+vault `CLAUDE.md` 嘅「Bookmark ↔ raw ↔ wiki bridge」章節係 source of truth；呢度係 bookmark 角度嘅快查。
+
+### Layer 1：lightweight cite（最輕）
+
+喺 wiki 頁直接寫 `[[bookmark-name]]` 或 `![[bookmark#section]]`。**Bookmark 唔升級、唔搬。** 適合「順手 cite」。
+
+### Layer 2：promote URL 入 raw → ingest 入 wiki（推薦做 deep ingest）
+
+```
+Bookmark  --defuddle URL→  raw/articles/<slug>.md  --ingest→  wiki/.../sources/<page>.md
+```
+
+操作：
+1. `obsidian:defuddle` skill 對 URL 抽乾淨 markdown → 寫 `raw/articles/<slug>.md`
+2. Bookmark frontmatter 加 `raw_source: "[[<slug>]]"`
+3. ingest → wiki source 頁出（`type: source`）
+4. Bookmark frontmatter 加 `wiki_page: "[[<wiki page>]]"`
+5. Wiki source 頁加返 `bookmark: "[[<bookmark>]]"` + `source_url:` + `raw_path:`
+
+**狀態判讀：** bookmark 冇 `raw_source` = Layer 1；有 `raw_source` 冇 `wiki_page` = Layer 2 in progress；兩個都有 = 完成 + 可追源。
+
+### Layer 3：full promote（重，少做）
+
+當 bookmark 嘅 `My Notes` 已經寫到滿、實質升級成 wiki resource：`git mv` 入 `wiki/<domain>/<typed-folder>/`，改 `type: bookmark` → `type: resource` 或 `type: concept`。Wikilink path-independent，自動 OK。**做完 bookmark 池失去呢個記錄**，所以重少做。
