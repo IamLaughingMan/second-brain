@@ -6,6 +6,8 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-17 20:25 HKT] reorg | 新增 Meta/extensions/ 統稱（skills + plugins + hooks）：刪舊 stale Meta/skills.md（仲 reference 已移除嘅 claude-obsidian），整 hub + 3 個 catalog（reflect 真實安裝：kepano obsidian-skills v1.0.1 + 5 skills、obsidian core plugins、vault PostToolUse + user-level 5 個 hook）；vault CLAUDE.md Structure tree 同步
+
 ## [2026-06-17 20:05 HKT] doc | OBSIDIAN-SETUP.md 加 §四「Layout sources 全面 audit」：一張表列晒每個 layout 元素來自邊個 source（Karpathy/kepano/Bryan Hogan/PARA/GTD/LYT/Matuschak/vault 內生）
 
 ## [2026-06-17 19:50 HKT] doc | sync bookmark 規矩到實況：Bookmarks/Bookmarks.md hub ＋ vault CLAUDE.md Structure tree 改用「深層細分 tree、獨立於 wiki、pointer stub 多 folder」（取代舊 by-domain 淺層 / 鏡射 wiki 嘅講法）

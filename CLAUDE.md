@@ -58,10 +58,14 @@ second-brain-2026-06-06/
 │   ├── bases/                     # Obsidian Bases 動態檢視
 │   │   └── PARA.base
 │   ├── scripts/                   # 將來放可執行嘢
-│   └── skills.md                  # 目錄頁（自製 skill 物理上喺 .claude/skills/）
+│   └── extensions/                # Skills / plugins / hooks 嘅 catalog（真身唔住 vault）
+│       ├── extensions.md            # hub
+│       ├── skills.md                # plugin-bundled / project / user 三層
+│       ├── plugins.md               # Obsidian + Claude Code plugins
+│       └── hooks.md                 # vault + user settings hooks
 ├── .claude/                  # Claude Code project config
-│   ├── settings.json          # HKT auto-commit amend hook
-│   └── skills/                # 自製 skills（Claude Code spec 寫死路徑）
+│   ├── settings.json          # PostToolUse auto-commit hook（HKT，wiki/.raw/.vault-meta）
+│   └── skills/                # 自製 skills（Claude Code spec 寫死路徑；現空）
 └── CLAUDE.md                  # 本檔：行為契約（root 強制，Anthropic spec）
 ```
 
