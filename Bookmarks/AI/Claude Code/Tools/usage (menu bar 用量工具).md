@@ -12,6 +12,7 @@ related:
   - "[[Claude Code History Viewer]]"
 tags:
   - bookmark
+  - found-by-claude
   - ai-tools
   - claude-code
   - usage-tracking

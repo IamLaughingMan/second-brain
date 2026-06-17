@@ -11,6 +11,7 @@ related:
   - "[[Bookmarks]]"
 tags:
   - bookmark
+  - found-by-claude
   - pkm
   - obsidian
   - web-clipper

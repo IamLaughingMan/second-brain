@@ -12,6 +12,7 @@ related:
   - "[[ccusage]]"
 tags:
   - bookmark
+  - found-by-claude
   - ai-tools
   - claude-code
   - conversation-history
