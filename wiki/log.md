@@ -6,6 +6,8 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-18 00:00 HKT] restructure | 加第 5 個 typed folder synthesis/，git mv Research - Severe Periodontitis... 入位；root 淨低 3 件 meta（hub + overview + .base）；hub 內 [!note] 同步更新
+
 ## [2026-06-17 23:45 HKT] add | Periodontal Disease overview.md（type: overview，domain-level catalog-narrative，分頁類列＋現況 takeaway＋gap；同 Research synthesis 並列分工）；順手 root overview.md frontmatter type meta→overview，兩 overview 統一
 
 ## [2026-06-17 23:30 HKT] restructure | revert Oral mini-wiki（刪 Oral overview/index/log + 4 empty folder）；轉落 Periodontal Disease/ 起 4 typed folder（sources 8、concepts 5、entities 2、analyses 4），19 篇 git mv 入位；root 留 hub + .base + 1 synthesis；wikilink 全部 path-independent 自動 work
