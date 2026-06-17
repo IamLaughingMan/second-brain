@@ -6,6 +6,8 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-17 23:45 HKT] add | Periodontal Disease overview.md（type: overview，domain-level catalog-narrative，分頁類列＋現況 takeaway＋gap；同 Research synthesis 並列分工）；順手 root overview.md frontmatter type meta→overview，兩 overview 統一
+
 ## [2026-06-17 23:30 HKT] restructure | revert Oral mini-wiki（刪 Oral overview/index/log + 4 empty folder）；轉落 Periodontal Disease/ 起 4 typed folder（sources 8、concepts 5、entities 2、analyses 4），19 篇 git mv 入位；root 留 hub + .base + 1 synthesis；wikilink 全部 path-independent 自動 work
 
 ## [2026-06-17 23:00 HKT] restructure | wiki/ split overview ↔ index（align Karpathy 一手）+ 喺 wiki/Health/Oral/ 起 mini-wiki：Oral overview / Oral index / Oral log + 4 typed folder（analyses/concepts/entities/sources）；Oral Health hub 補連結；檔名加 "Oral " prefix 避撞 root 同名

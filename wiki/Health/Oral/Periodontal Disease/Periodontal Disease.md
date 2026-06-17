@@ -27,8 +27,9 @@ tags:
 
 ![[Periodontal Disease.base]]
 
-## 綜述
-- [[Research - Severe Periodontitis and Tooth Loss]] — 嚴重牙周、治療、價格、近未來的總綜述
+## 領域 meta
+- [[Periodontal Disease overview]] — 高層 catalog-narrative（一頁睇晒 domain 主軸 + 19 篇分佈 + takeaway + gap）
+- [[Research - Severe Periodontitis and Tooth Loss]] — synthesis：嚴重牙周、治療、價格、近未來的深度 argument
 
 ## 診斷與分類
 - [[Stage IV Grade C Periodontitis]] — 最嚴重診斷

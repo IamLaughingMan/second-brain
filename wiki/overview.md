@@ -1,11 +1,10 @@
 ---
-type: meta
+type: overview
 title: "Wiki Overview"
 status: developing
 created: 2026-06-17
 updated: 2026-06-17
 tags:
-  - meta
   - overview
 ---
 
