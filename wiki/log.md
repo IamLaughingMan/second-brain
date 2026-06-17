@@ -6,6 +6,8 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-17 19:35 HKT] doc | 將 `found-by-claude` provenance 約定 checked-in：寫入 Bookmarks/Bookmarks.md 規矩＋frontmatter 例子，同 Meta/templates/bookmark.md（commented-out 預設不帶）
+
 ## [2026-06-17 19:20 HKT] reorg | ccusage 加 pointer stub 入 AI/Coding Agents/（type: pointer + ![[ccusage]] 嵌入；支援多 coding-agent）
 
 ## [2026-06-17 19:10 HKT] reorg | 多 folder 方案改用 B（pointer stub）：還原 Bookmarks.base 嘅 By tag view；喺 AI/Coding Agents/ 整 Claude Code History Viewer 指針（type: pointer + ![[正本]] 嵌入，唔複製內容）

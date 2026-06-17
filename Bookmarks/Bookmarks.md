@@ -40,6 +40,7 @@ tags:
 - 新加 bookmark：用 `Meta/templates/bookmark.md` template，default `status: active`、`type: bookmark`、`para: resource`，**填 `domain:`** 並放入對應 `Bookmarks/<Domain>/` 夾（未定就留 root、`domain` 留空）
 - 不再用：改 frontmatter `status: archived`，**唔搬檔**（檔留喺原本 domain 夾）
 - 想 promote 做 wiki 內容：搬去 `wiki/<topic>.md`、改 `type` + `para: resource`
+- **Provenance（`found-by-claude` tag）**：凡 **Claude 自己**喺網上 research／答問時搵到嘅有用 link，Claude 會主動 bookmark 並加 tag **`found-by-claude`**，同你親手掉嘅 link 區分（方便 prune／判斷信任度）。你親手加嘅 bookmark **唔使**加呢個 tag。
 - 結構：**by-domain 淺層資料夾**（見頂部 note）。~~舊 flat / 唔起-subfolder 規則已於 2026-06-17 停用~~
 
 ## Bookmark frontmatter（最少）
@@ -55,5 +56,6 @@ status: active        # active / archived
 created: YYYY-MM-DD
 tags:
   - bookmark
+  # - found-by-claude   # 只喺 Claude 自己網上搵到時加（provenance）
 ---
 ```
