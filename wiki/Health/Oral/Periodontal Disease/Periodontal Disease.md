@@ -5,7 +5,7 @@ para: resource
 title: "Periodontal Disease（牙周病）"
 status: developing
 created: 2026-06-11
-updated: 2026-06-11
+updated: 2026-06-17
 tags:
   - moc
   - health
@@ -18,6 +18,9 @@ tags:
 ← 上層：[[Oral Health]] ・ [[Health]]
 
 本頁是**牙周病**研究的 Map of Content（MOC）——彙整所有 `domain: periodontal-disease` 的頁面。涵蓋範圍超出單純牙齦發炎：從診斷、治療、再生、缺牙重建、到價格與診所。近期脈絡見 [[hot]]。
+
+> [!note] 2026-06-17 起：本子領域改採 typed-folder 結構
+> 19 篇內容頁按 frontmatter `type:` 入 4 個 folder：`sources/`（8）、`concepts/`（5）、`entities/`（2）、`analyses/`（4 = 2 comparison + 2 resource）。**Root 留 3 件**：本 hub、`Periodontal Disease.base`、[[Research - Severe Periodontitis and Tooth Loss]]（綜述 synthesis）。Wikilink **path-independent**，下面所有 link 不變、自動指向新位置。`.base` 視圖靠 `domain` filter，亦不受影響。
 
 ## 動態資料表
 依 `domain: periodontal-disease` 自動更新——新增同 domain 的頁面會自動進表（含「全部研究頁」「來源 Sources」「卡片總覽」三檢視）。
