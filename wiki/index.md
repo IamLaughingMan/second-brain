@@ -50,7 +50,9 @@ updated: 2026-06-12
 ## Resources
 - [[Top Asian Periodontal and Implant Centers]] — 亞洲頂尖機構＋如何找專科醫師
 - [[Periodontal Daily Products and Supplements]] — 日常產品、益生菌、補充品：證據＋價格
-- [[Karpathy LLM Wiki Pattern]] — 本 vault 所依的 LLM 知識庫方法（meta／reference）
+
+> [!info] Vault 方法論 reference 已搬離 wiki/
+> `Karpathy LLM Wiki Pattern` 由 2026-06-17 起住 `Meta/docs/`（同 [[OBSIDIAN-SETUP]] / [[WIKI]] 一齊做 vault setup 三件套）—— 唔再屬 wiki 嘅 compounding knowledge，係靜態 spec。Wikilink `[[Karpathy LLM Wiki Pattern]]` path-independent，仍然解得到。
 
 ## Questions（filed answers）
 - [[Research - Severe Periodontitis and Tooth Loss]] — 綜述：嚴重牙周、治療、價格、近未來

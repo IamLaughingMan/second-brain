@@ -23,7 +23,7 @@ second-brain-2026-06-06/
 │   ├── index.md             # 唯一目錄＝查詢入口（用 frontmatter type 分組）
 │   ├── log.md               # append-only 操作日誌（新項置頂）
 │   ├── hot.md               # ~500 字近期脈絡快取
-│   ├── <跨領域方法頁>.md      # 如 Karpathy LLM Wiki Pattern — 不屬單一領域者平放根層
+│   ├── <跨領域方法頁>.md      # 不屬單一領域者平放根層（Karpathy LLM Wiki Pattern 由 2026-06-17 搬入 Meta/docs/）
 │   └── Health/              # 領域資料夾，鏡射 MOC hub 階層
 │       ├── Health.md        # 領域 hub（type: moc）
 │       └── Oral/

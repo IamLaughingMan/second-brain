@@ -31,7 +31,7 @@ tags:
 
 ## Why I saved this
 
-呢個係本 vault 整體方法論嘅一手 source —— Karpathy 寫嘅原始 spec。所有後續延伸（DAIR.ai 解說、本 vault `wiki/Karpathy LLM Wiki Pattern.md`、`Meta/docs/OBSIDIAN-SETUP.md`）都係由呢度推演出嚟。
+呢個係本 vault 整體方法論嘅一手 source —— Karpathy 寫嘅原始 spec。所有後續延伸（DAIR.ai 解說、本 vault `Meta/docs/Karpathy LLM Wiki Pattern.md`、`Meta/docs/OBSIDIAN-SETUP.md`）都係由呢度推演出嚟。
 
 ## Summary（一手原文重點）
 
@@ -63,7 +63,7 @@ tags:
 
 ## My Notes
 
-- 本 vault `wiki/Karpathy LLM Wiki Pattern.md` 已實作；OBSIDIAN-SETUP.md § 一全套都係呢條 gist 嘅延伸
+- 本 vault `Meta/docs/Karpathy LLM Wiki Pattern.md` 已實作；OBSIDIAN-SETUP.md § 一全套都係呢條 gist 嘅延伸
 - DAIR.ai 嘅「4 階段」加咗 Compile（**唔係 Karpathy 本人講嘅**）；要追源頭就睇返呢個 gist
 - 本 vault 加咗 `hot.md`、`Inbox/`、`Bookmarks/`、`Projects/`、`Meta/` —— 全部係 Karpathy 「intentionally abstract」之上嘅 instantiation，跟 community（kepano／PARA／GTD／LYT）拼出嚟
 

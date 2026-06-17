@@ -6,6 +6,8 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-18 00:45 HKT] move | Karpathy LLM Wiki Pattern.md：wiki/ → Meta/docs/（同 OBSIDIAN-SETUP / WIKI 一齊做 vault setup 三件套，性質係靜態 spec、唔屬 compounding knowledge）；wikilink path-indep 自動 work；wiki/index.md Resources 移走加 [!info] 註；CLAUDE.md tree 同步
+
 ## [2026-06-18 00:30 HKT] restructure | rename Periodontal Disease overview.md → overview.md；rm root wiki/overview.md（採 multi-wiki per-domain overview，root 不設 vault-wide overview）；CLAUDE.md 寫入「Domain-level typed-folder pattern」明文規矩（5 typed folder + 3 root meta + filename 例外 + ingest 門檻 ~15 頁）
 
 ## [2026-06-18 00:00 HKT] restructure | 加第 5 個 typed folder synthesis/，git mv Research - Severe Periodontitis... 入位；root 淨低 3 件 meta（hub + overview + .base）；hub 內 [!note] 同步更新
