@@ -6,6 +6,8 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-17 21:00 HKT] bookmark | user-supplied 思思醫師「納豆激酶與血管斑塊」一篇入 Bookmarks/Health/Cardiovascular/Nattokinase/（新領域夾；冇 found-by-claude）
+
 ## [2026-06-17 20:45 HKT] doc | Meta/extensions/skills.md 重整：分「一般 Claude skills」（14 built-in + 4 user-level commands）vs「Obsidian Claude skills」（5 kepano，`obsidian:` namespace）兩條軸；補充 commands vs skills 嘅 fs 區分 footnote
 
 ## [2026-06-17 20:25 HKT] reorg | 新增 Meta/extensions/ 統稱（skills + plugins + hooks）：刪舊 stale Meta/skills.md（仲 reference 已移除嘅 claude-obsidian），整 hub + 3 個 catalog（reflect 真實安裝：kepano obsidian-skills v1.0.1 + 5 skills、obsidian core plugins、vault PostToolUse + user-level 5 個 hook）；vault CLAUDE.md Structure tree 同步
