@@ -6,6 +6,8 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-17 18:55 HKT] base | Bookmarks.base 加「By tag」view（groupBy: tags）＋ file.folder 欄：一個 bookmark 靠多個 tag 出現喺多個分類，唔郁檔案位置（多 folder 輕量方案 A）
+
 ## [2026-06-17 18:35 HKT] tag | 6 個 Claude 網上搵到嘅 bookmark 加 provenance tag `found-by-claude`（新規矩：Claude 自己搵到嘅 link 標記返）
 
 ## [2026-06-17 18:20 HKT] reorg | bookmark 深層細分 tree（續）：usage/ccusage/History Viewer → AI/Claude Code/Tools/；Ponytail → AI/Coding Agents/
