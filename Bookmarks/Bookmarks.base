@@ -11,8 +11,6 @@ properties:
     displayName: PARA
   tags:
     displayName: Tags
-  file.folder:
-    displayName: 實體位置
   created:
     displayName: 建立
   updated:
@@ -64,16 +62,3 @@ views:
       - status
       - url
       - updated
-  - type: table
-    name: By tag
-    filters:
-      and:
-        - type == "bookmark"
-        - status != "archived"
-    groupBy: tags
-    order:
-      - file.name
-      - domain
-      - file.folder
-      - status
-      - url

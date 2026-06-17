@@ -6,6 +6,8 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-17 19:10 HKT] reorg | 多 folder 方案改用 B（pointer stub）：還原 Bookmarks.base 嘅 By tag view；喺 AI/Coding Agents/ 整 Claude Code History Viewer 指針（type: pointer + ![[正本]] 嵌入，唔複製內容）
+
 ## [2026-06-17 18:55 HKT] base | Bookmarks.base 加「By tag」view（groupBy: tags）＋ file.folder 欄：一個 bookmark 靠多個 tag 出現喺多個分類，唔郁檔案位置（多 folder 輕量方案 A）
 
 ## [2026-06-17 18:35 HKT] tag | 6 個 Claude 網上搵到嘅 bookmark 加 provenance tag `found-by-claude`（新規矩：Claude 自己搵到嘅 link 標記返）
