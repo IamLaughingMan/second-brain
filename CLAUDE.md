@@ -52,7 +52,7 @@ second-brain-2026-06-06/
 │   │   ├── OBSIDIAN-SETUP.md    # 建置藍圖（Karpathy + kepano）
 │   │   └── WIKI.md               # 完整 LLM 操作手冊
 │   ├── templates/                 # 筆記模板（原 _templates/）
-│   ├── attachments/               # 圖片與 PDF（原 _attachments/）
+│   ├── attachments/               # 棄用（2026-06-17 起 Obsidian attachment 改指 raw/assets/，align Karpathy）；保留空夾以防舊 link
 │   ├── bases/                     # Obsidian Bases 動態檢視
 │   │   └── PARA.base
 │   ├── scripts/                   # 將來放可執行嘢

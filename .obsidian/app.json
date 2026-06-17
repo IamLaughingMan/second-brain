@@ -1,5 +1,6 @@
 {
   "newFileLocation": "folder",
   "newFileFolderPath": "Inbox",
-  "attachmentFolderPath": "Meta/attachments"
+  "attachmentFolderPath": "raw/assets",
+  "showUnsupportedFiles": true
 }
