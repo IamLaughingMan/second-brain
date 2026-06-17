@@ -10,7 +10,7 @@
 > **最終行為以 `CLAUDE.md` 為準**；建置藍圖見 `OBSIDIAN-SETUP.md`。
 >
 > ⚠️ The claude-obsidian plugin has been **removed** from this vault (2026-06-16). The operations
-> below are now performed **manually by Claude** (read `.raw/`, build/cross-reference pages, update
+> below are now performed **manually by Claude** (read `raw/`, build/cross-reference pages, update
 > `index.md`/`log.md`) rather than by plugin skills — the methodology is unchanged. This file is the
 > reference document; read it to understand how the system works.
 > Based on Andrej Karpathy's LLM Wiki pattern.
@@ -140,7 +140,7 @@ Install via Settings > Community Plugins > Browse:
 
 Optional: Smart Connections (semantic search), QuickAdd (macros), Folder Notes (clickable folders).
 
-Also install the **Obsidian Web Clipper** browser extension. It converts web articles to markdown and sends them to `.raw/` in one click. Available for Chrome, Firefox, and Safari.
+Also install the **Obsidian Web Clipper** browser extension. It converts web articles to markdown and sends them to `raw/` in one click. Available for Chrome, Firefox, and Safari.
 
 ---
 
@@ -148,7 +148,7 @@ Also install the **Obsidian Web Clipper** browser extension. It converts web art
 
 ```
 vault/
-├── .raw/                   # Layer 1: immutable source documents
+├── raw/                   # Layer 1: immutable source documents
 │   ├── articles/
 │   ├── transcripts/
 │   ├── screenshots/
@@ -180,7 +180,7 @@ vault/
 
 ### Rules
 
-- `.raw/` is read-only. Never modify source files.
+- `raw/` is read-only. Never modify source files.
 - `wiki/` is yours. Create, update, rename, delete freely.
 - Every wiki page has frontmatter. No exceptions.
 - Wikilinks over paths. Use `[[Page Name]]` not `[text](path/to/file.md)`.
@@ -246,7 +246,7 @@ status: <seed|developing|mature|evergreen>
 related:
   - "[[Other Page]]"
 sources:
-  - "[[.raw/articles/source-file.md]]"
+  - "[[raw/articles/source-file.md]]"
 ---
 ```
 
@@ -300,7 +300,7 @@ You can combine modes. "GitHub repo + research on the AI approach" uses Mode B f
 
 ```
 vault/
-├── .raw/              # crawl exports, analytics, GSC data
+├── raw/              # crawl exports, analytics, GSC data
 ├── wiki/
 │   ├── pages/         # one note per URL
 │   ├── structure/     # site architecture, nav hierarchy
@@ -319,7 +319,7 @@ Key pages: `[[Site Overview]]`, `[[Navigation Structure]]`, `[[Content Gaps]]`, 
 
 ```
 vault/
-├── .raw/              # README, git log exports, code dumps
+├── raw/              # README, git log exports, code dumps
 ├── wiki/
 │   ├── modules/       # one note per module / package / service
 │   ├── components/    # reusable components
@@ -338,7 +338,7 @@ Key pages: `[[Architecture Overview]]`, `[[Data Flow]]`, `[[Tech Stack]]`, `[[De
 
 ```
 vault/
-├── .raw/              # meeting transcripts, Slack exports, docs
+├── raw/              # meeting transcripts, Slack exports, docs
 ├── wiki/
 │   ├── stakeholders/  # people, companies, decision-makers
 │   ├── decisions/     # key decisions with rationale and date
@@ -357,7 +357,7 @@ Key pages: `[[Project Overview]]`, `[[Stakeholder Map]]`, `[[Decision Log]]`, `[
 
 ```
 vault/
-├── .raw/              # journal entries, articles, voice transcripts
+├── raw/              # journal entries, articles, voice transcripts
 ├── wiki/
 │   ├── goals/         # personal and professional goals
 │   ├── learning/      # concepts being mastered
@@ -378,7 +378,7 @@ Key pages: `[[North Star]]`, `[[Weekly Review Template]]`, `[[Annual Goals]]`
 
 ```
 vault/
-├── .raw/              # PDFs, web clips, raw notes
+├── raw/              # PDFs, web clips, raw notes
 ├── wiki/
 │   ├── papers/        # paper summaries with key claims
 │   ├── concepts/      # extracted concepts, models, frameworks
@@ -397,7 +397,7 @@ Key pages: `[[Research Overview]]`, `[[Key Claims Map]]`, `[[Open Questions]]`, 
 
 ```
 vault/
-├── .raw/              # chapter notes, highlights, exercises
+├── raw/              # chapter notes, highlights, exercises
 ├── wiki/
 │   ├── characters/    # characters, personas, experts
 │   ├── themes/        # major themes with evidence
@@ -430,20 +430,20 @@ Created: YYYY-MM-DD
 
 - All notes use YAML frontmatter: type, status, created, updated, tags (minimum)
 - Wikilinks use [[Note Name]] format — filenames are unique, no paths needed
-- .raw/ contains source documents — never modify them
+- raw/ contains source documents — never modify them
 - wiki/index.md is the master catalog — update on every ingest
 - wiki/log.md is append-only — new entries go at the TOP, never edit past entries
 
 ## Operations
 
-- Ingest: drop source in .raw/, say "ingest [filename]"
+- Ingest: drop source in raw/, say "ingest [filename]"
 - Query: ask any question — Claude reads index first, then drills in
 - Lint: say "lint the wiki" to run a health check
 ```
 
 ### 4.2 INGEST — Single Source
 
-Trigger: user drops a file into `.raw/` or pastes content.
+Trigger: user drops a file into `raw/` or pastes content.
 
 1. Read the source completely.
 2. Discuss key takeaways with the user. Skip if user says "just ingest it."
@@ -457,7 +457,7 @@ Trigger: user drops a file into `.raw/` or pastes content.
 10. Append to `wiki/log.md` (new entries at the TOP):
     ```markdown
     ## [2026-04-07] ingest | Source Title
-    - Source: `.raw/articles/filename.md`
+    - Source: `raw/articles/filename.md`
     - Summary: [[Source Title]]
     - Pages created: [[Page 1]], [[Page 2]]
     - Pages updated: [[Page 3]], [[Page 4]]
@@ -598,7 +598,7 @@ Apply during scaffold. Create `.obsidian/snippets/vault-colors.css`:
 .nav-folder-title[data-path^="wiki/questions"]   { color: var(--wiki-5); }
 .nav-folder-title[data-path^="wiki/comparisons"] { color: var(--wiki-6); }
 .nav-folder-title[data-path^="wiki/meta"]        { color: var(--wiki-7); }
-.nav-folder-title[data-path=".raw"]              { color: #808080; opacity: 0.6; }
+.nav-folder-title[data-path="raw"]              { color: #808080; opacity: 0.6; }
 
 .callout[data-callout='contradiction'] { --callout-color: 209, 105, 105; --callout-icon: lucide-alert-triangle; }
 .callout[data-callout='gap']           { --callout-color: 220, 220, 170; --callout-icon: lucide-help-circle; }
@@ -619,7 +619,7 @@ Set in Graph View settings:
 | `path:wiki/concepts` | Yellow |
 | `path:wiki/sources` | Orange |
 | `path:wiki/questions` | Green |
-| `path:.raw` | Gray (dimmed) |
+| `path:raw` | Gray (dimmed) |
 
 ---
 
@@ -778,13 +778,13 @@ Created: YYYY-MM-DD
 
 - All notes use YAML frontmatter: type, status, created, updated, tags (minimum)
 - Wikilinks use [[Note Name]] format
-- .raw/ contains source documents — never modify them
+- raw/ contains source documents — never modify them
 - wiki/index.md is the master catalog — update on every ingest
 - wiki/log.md is append-only — new entries go at the TOP
 
 ## Operations
 
-- Ingest: drop source in .raw/, say "ingest [filename]"
+- Ingest: drop source in raw/, say "ingest [filename]"
 - Query: ask any question
 - Lint: say "lint the wiki"
 ```
@@ -850,7 +850,7 @@ Your job as the LLM:
 5. Answer questions using index > relevant pages > synthesis
 6. File good answers back into the wiki
 7. Lint periodically: find and fix health issues
-8. Never modify .raw/ sources
+8. Never modify raw/ sources
 9. Always update index, sub-indexes, log, and hot cache
 10. Always use frontmatter and wikilinks
 

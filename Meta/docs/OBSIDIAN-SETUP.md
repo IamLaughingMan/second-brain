@@ -11,24 +11,42 @@
 ## 一、Karpathy LLM Wiki Pattern（方法論）
 
 **來源連結**
-- 原始 gist（llm-wiki）：https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- 原始 gist（llm-wiki）：https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f（2026-04-04）
 - 解說文章（DAIR.ai Academy）：https://academy.dair.ai/blog/llm-knowledge-bases-karpathy
 
+> [!warning] § 一 出處標記：**K** = Karpathy 一手 / **D** = DAIR.ai 解說 / **V** = 本 vault 自加
+> Karpathy 原 gist 故意 abstract，明言「The exact directory structure ... will depend on your domain」—— 即係實作細節留俾 LLM agent 同你拼。本 § 一以下嘅描述屬 K + D + V 嘅混合：
+> - **K**：3 層架構、`index.md`/`log.md`、3 個操作（Ingest/Query/Lint）、Obsidian-as-IDE 比喻、`raw/assets/` 圖片下載、Marp/Dataview/graph view tips
+> - **D**：將 3 ops 拆成 **4 階段**（加入「Compile」）、「LLM 當 compiler」一句式 phrasing、「~100 篇文章、~40 萬字」嘅 paraphrase
+> - **V**：`hot.md`、HKT 時間戳、dual-log CSV、`Inbox/`／`Projects/`／`Bookmarks/`／`Meta/`、PostToolUse auto-commit hook、`found-by-claude` tag
+
 ### 核心理念
-> **把 LLM 當 compiler（編譯器），而不是 retriever（檢索器）。**
+> **把 LLM 當 compiler（編譯器），而不是 retriever（檢索器）。**（D）
 
-- 不靠 RAG pipeline、不靠向量資料庫（vector DB）。
-- 在個人知識庫規模（~100 篇文章、~40 萬字）下，**`index.md` + LLM context window 就足以檢索**。
-- 維護知識庫最累的是**雜務記帳（bookkeeping）**——摘要、連結、一致性、更新傳播。LLM 不會累，把這成本壓到趨近於零。這正是 1945 年 Vannevar Bush「Memex」當年解不了的「誰來維護」問題。
+- 不靠 RAG pipeline、不靠向量資料庫（vector DB）。（K + D）
+- 在個人知識庫規模（Karpathy 原話：「~100 sources / hundreds of pages」(K)；DAIR.ai paraphrase：「~100 篇、~40 萬字」(D)）下，**`index.md` + LLM context window 就足以檢索**。
+- 維護知識庫最累的是**雜務記帳（bookkeeping）**——摘要、連結、一致性、更新傳播。LLM 不會累，把這成本壓到趨近於零。這正是 1945 年 Vannevar Bush「Memex」當年解不了的「誰來維護」問題。（K）
 
-### 三層結構
+### 三層結構（K）
 1. **`raw/`（不可變來源）**：文章、論文、截圖、PDF。LLM 只讀不改，是事實來源（source of truth）。
-2. **`wiki/`（維基層，混合結構）**：LLM 生成的 Markdown——實體頁、概念頁、摘要、總覽、交叉引用。**靠 `index.md` 當目錄、`[[wikilink]]` 當連結；meta／方法頁平放根層，領域內容入領域資料夾（鏡射 MOC hub，如 `Health/Oral/Periodontal Disease/`）。** LLM 完全擁有。
-3. **`CLAUDE.md`（行為契約）**：定義結構、慣例、工作流程。
+2. **`wiki/`（維基層，混合結構）**：LLM 生成的 Markdown——實體頁、概念頁、摘要、總覽、交叉引用。**靠 `index.md` 當目錄、`[[wikilink]]` 當連結；meta／方法頁平放根層，領域內容入領域資料夾（鏡射 MOC hub，如 `Health/Oral/Periodontal Disease/`）—— V**。 LLM 完全擁有。
+3. **`CLAUDE.md`（行為契約）**：定義結構、慣例、工作流程（Karpathy 講 `CLAUDE.md` 或 `AGENTS.md`）。
 
-支援檔：`index.md`（目錄＝查詢入口）、`log.md`（append-only 時序紀錄，前綴可 grep）、`hot.md`（熱頁快取）。
+支援檔：
+- `index.md`（目錄＝查詢入口）—— **K**
+- `log.md`（append-only 時序紀錄，前綴可 grep）—— **K**（本 vault HKT prefix 屬 **V**）
+- `hot.md`（熱頁快取）—— **V**（Karpathy 原 gist 冇提）
 
-### 四階段迴圈（Build flow）
+### 操作迴圈
+
+**Karpathy 原話：3 個操作（K）**
+
+```
+INGEST ─▶ QUERY ─▶ LINT
+```
+
+**本 vault 採用 DAIR.ai 嘅 4 階段版（D）**（將 Ingest 拆做「drop」+「Compile」嚟強調 compiler 哲學）
+
 ```
         ┌──────────────────────────────────────────────┐
         ▼                                              │
@@ -92,7 +110,7 @@ npx skills add https://github.com/kepano/obsidian-skills
 把 repo 內容放進 Obsidian vault 根目錄的 `.claude/` 資料夾。
 
 ### 在本 vault 怎麼用（流程）
-1. **Ingest 前**：對網頁用 `defuddle` 清成乾淨 markdown → 落進 `.raw/`。
+1. **Ingest 前**：對網頁用 `defuddle` 清成乾淨 markdown → 落進 `raw/`。
 2. **Compile 時**：用 `obsidian-markdown` 確保產出的 wikilink／callout／properties 格式正確。
 3. **視覺化**：用 `json-canvas` 把概念頁排成 graph／canvas；用 `obsidian-bases` 對 frontmatter 建動態表（如依 `type`、`status` 篩選）。
 4. **批次操作**：用 `obsidian-cli` 做跨檔讀寫、搜尋、每日筆記。
@@ -117,7 +135,7 @@ npx skills add https://github.com/kepano/obsidian-skills
 
 | Layout 元素 | 來源 | 點解 / 角色 |
 |---|---|---|
-| `.raw/`（不可變來源） | **Karpathy** | 三層結構：事實 source of truth，LLM 只讀 |
+| `raw/`（不可變來源） | **Karpathy** | 三層結構：事實 source of truth，LLM 只讀 |
 | `wiki/`（含 `index.md` + `log.md` + `hot.md`） | **Karpathy** | LLM 編譯出嚟嘅綜合層，靠 `index.md` 檢索（取代 RAG／向量 DB） |
 | 四階段迴圈（Ingest → Compile → Query → Lint） | **Karpathy** | 維護機制，LLM 做雜務 bookkeeping |
 | `wiki/<Domain>/`（領域內容入領域夾、鏡射 MOC hub） | **Nick Milo / LYT**（Maps of Content） | MOC = 領域入口；hub-and-spoke |
@@ -129,7 +147,7 @@ npx skills add https://github.com/kepano/obsidian-skills
 | Status field over Archive folder（`status: active/archived`，唔起 `Archive/`） | **LYT** + **Matuschak** + **kepano** | 唔搬檔，metadata view 篩 |
 | `[[wikilink]]` 不帶路徑、檔名全 vault 唯一 | **Obsidian native** + **Matuschak**（atomic note + 穩定 ID） | 搬夾零斷連，呢個係上面所有「不搬檔」決定嘅技術基礎 |
 | `obsidian-skills` 工具層（markdown / bases / canvas / cli / defuddle） | **kepano / Steph Ango** | 動手嘅 5 把刀 |
-| Native PostToolUse auto-commit hook（`wiki/ .raw/ .vault-meta/`） | vault 內生（取代已移除嘅 AgriciDaniel `claude-obsidian` plugin） | git 自動 stage；hook 只 commit／唔 push |
+| Native PostToolUse auto-commit hook（`wiki/ raw/ .vault-meta/`） | vault 內生（取代已移除嘅 AgriciDaniel `claude-obsidian` plugin） | git 自動 stage；hook 只 commit／唔 push |
 | HKT 時間戳 + dual-log（vault `log.md` + 全局 CSV） | vault 內生規矩（見 `~/AI/Claude/CLAUDE.md` + memory） | 跨時區一致；跨 project 一條 timeline |
 | `found-by-claude` provenance tag | vault 內生規矩（2026-06-17） | 分清 Claude research 搵到 vs 你親手掉嘅 link |
 

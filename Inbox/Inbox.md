@@ -14,8 +14,8 @@ tags:
 
 未整理嘅嘢全部丟呢度——URL、idea、scratch、screenshot、todo、半成形嘅諗法。**Capture first, sort later**（GTD 原則）。
 
-> 同 `.raw/` 嘅分工：
-> - **`.raw/`** = formal sources，要 compile 入 wiki（articles、papers、transcripts、PDFs）
+> 同 `raw/` 嘅分工：
+> - **`raw/`** = formal sources，要 compile 入 wiki（articles、papers、transcripts、PDFs）
 > - **`Inbox/`** = informal capture，未確定要做乜（idea、scratch、bookmark）
 
 ## 結構
@@ -34,7 +34,7 @@ Inbox/
 
 | 結局 | 動作 |
 |------|------|
-| ✅ 確定係源、要 compile | defuddle / cleanup → `.raw/articles/` → `ingest` |
+| ✅ 確定係源、要 compile | defuddle / cleanup → `raw/articles/` → `ingest` |
 | ✅ 變成 active project | 搬 `Projects/<name>.md`、frontmatter `para: project` |
 | ✅ 變成 knowledge | 搬 `wiki/<topic>.md`、跟 type/domain 規矩 |
 | ✅ Long-term reference 但唔做 | 搬 `wiki/`（`para: resource`） |
@@ -48,7 +48,7 @@ Inbox 入面超過 7 日仍未 triage 嘅嘢 = 信號，要嘛你冇興趣（刪
 |--------|------|
 | 「未定，可能想睇」 | `Inbox/<title>.md`（URL + 一句註） |
 | 「Web Clipper 自動 clip」 | `Inbox/clippings/<title>.md` |
-| 「確定係源、要 compile」 | 直接 defuddle → `.raw/articles/<slug>.md` →`ingest`（**跳過 Inbox**）|
+| 「確定係源、要 compile」 | 直接 defuddle → `raw/articles/<slug>.md` →`ingest`（**跳過 Inbox**）|
 | 「即時答 question」 | `query:` 或 `autoresearch`、URL 餵入 query、答案歸 `wiki/` |
 
 ## Frontmatter 慣例

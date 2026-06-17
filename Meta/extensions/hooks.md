@@ -28,11 +28,11 @@ Catalog 頁。Hub：[[extensions]]。Claude Code hook 文檔：https://code.clau
 
 | Event | 用途 | Command |
 |---|---|---|
-| **PostToolUse** | wiki/.raw/.vault-meta auto-commit（HKT 時間戳） | 自含 shell：`git add -- wiki/ .raw/ .vault-meta/`、檢查 `.vault-meta/auto-commit.disabled` toggle、有改動就 `git commit ... -m "wiki: auto-commit <HKT>"` |
+| **PostToolUse** | wiki/raw/.vault-meta auto-commit（HKT 時間戳） | 自含 shell：`git add -- wiki/ raw/ .vault-meta/`、檢查 `.vault-meta/auto-commit.disabled` toggle、有改動就 `git commit ... -m "wiki: auto-commit <HKT>"` |
 
-**重要 caveat（記低 2026-06-17）**：實測 hook **可靠咁 stage 檔**，但 PostToolUse 入面執行嘅 `git commit` 步驟**有時唔生效**——只 stage、唔 commit。Workaround：收工時手動 `git commit -- wiki/ .raw/ .vault-meta/ -m "wiki: auto-commit $(TZ='Asia/Hong_Kong' date '+%Y-%m-%d %H:%M %Z')"` finalise。詳見 memory `[[project-auto-commit-hook-bug]]`。
+**重要 caveat（記低 2026-06-17）**：實測 hook **可靠咁 stage 檔**，但 PostToolUse 入面執行嘅 `git commit` 步驟**有時唔生效**——只 stage、唔 commit。Workaround：收工時手動 `git commit -- wiki/ raw/ .vault-meta/ -m "wiki: auto-commit $(TZ='Asia/Hong_Kong' date '+%Y-%m-%d %H:%M %Z')"` finalise。詳見 memory `[[project-auto-commit-hook-bug]]`。
 
-Hook **只 commit、不 push**（Claude bash 無 TTY；push 自己終端機行）。Scope 只覆蓋 `wiki/ .raw/ .vault-meta/` —— `Meta/`／`Bookmarks/`／`Projects/`／`Inbox/`／`CLAUDE.md`／`.claude/`／`.obsidian/` 都係**手動 commit**。
+Hook **只 commit、不 push**（Claude bash 無 TTY；push 自己終端機行）。Scope 只覆蓋 `wiki/ raw/ .vault-meta/` —— `Meta/`／`Bookmarks/`／`Projects/`／`Inbox/`／`CLAUDE.md`／`.claude/`／`.obsidian/` 都係**手動 commit**。
 
 ### User-level（`~/.claude/settings.json`，跨 project）
 

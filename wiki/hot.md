@@ -23,7 +23,7 @@ updated: 2026-06-12
 - 14 pages created: 6 sources, 5 concepts, 2 entities, 1 synthesis.
 - Synthesis: [[Research - Severe Periodontitis and Tooth Loss]]
 - 全部內容已中文化、價格改 HKD 為主；新增 [[Karpathy LLM Wiki Pattern]]。
-- 已啟用 git 版本控制；採用 claude-obsidian 外掛內建的「改完 wiki 自動 commit」(PostToolUse)。已補 `.raw/.gitkeep`、`.vault-meta/.gitkeep` 修復自動 commit（先前因缺目錄/無追蹤檔而靜默失敗）。
+- 已啟用 git 版本控制；採用 claude-obsidian 外掛內建的「改完 wiki 自動 commit」(PostToolUse)。已補 `raw/.gitkeep`、`.vault-meta/.gitkeep` 修復自動 commit（先前因缺目錄/無追蹤檔而靜默失敗）。
 
 - Zygomatic vs grafted implants: both >90% long-term. Zygomatic ~96%@5yr / 95.21%@12yr + same-day teeth; main risk sinusitis (anatomy-guided cuts it to ~4.4%). Grafted-sinus 90-98% but +months healing. Zygomatic wins as atrophy worsens. See [[Zygomatic Implants vs Bone Graft Implants]].
 

@@ -26,7 +26,7 @@ tags:
 > 同其他 URL 容器嘅分工：
 > - **Bookmarks/** = 指標（URL + 一句註），**長期**快存
 > - **`Inbox/clippings/`** = Web Clipper 全文 clip（全文 markdown，會 triage）
-> - **`.raw/articles/`** = formal sources to compile（會 ingest 入 wiki）
+> - **`raw/articles/`** = formal sources to compile（會 ingest 入 wiki）
 > - **`wiki/<topic>/`** = compiled knowledge（已 refined）
 
 ## 視圖（**不搬檔**，靠 frontmatter `status`）

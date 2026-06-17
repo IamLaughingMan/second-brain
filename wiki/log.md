@@ -6,6 +6,10 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-17 22:15 HKT] refactor | rename .raw/ → raw/（不再隱藏，align Karpathy 一手 gist）；全 vault 12 處 references 同步（CLAUDE.md / WIKI.md / OBSIDIAN-SETUP.md / Inbox / Bookmarks / hooks / source template / hot / settings.json hook / css snippet）
+
+## [2026-06-17 22:00 HKT] doc | Karpathy attribution 重整：wiki/Karpathy LLM Wiki Pattern.md ＋ Meta/docs/OBSIDIAN-SETUP.md § 一 加 K/D/V 出處標記（Karpathy 一手 / DAIR.ai 解說 / 本 vault 自加），明確分清 3 ops vs 4 階段、hot.md 屬 V
+
 ## [2026-06-17 21:50 HKT] bookmark | user-supplied Karpathy LLM Wiki 一手 gist → Bookmarks/AI/LLM Wiki/（domain pkm；vault 嘅 foundational source）
 
 ## [2026-06-17 21:30 HKT] cleanup | 刪走 Bookmarks/active.md + archive.md（同 Bookmarks.base 嘅 Active/Archive view 完全重複）；教學文字搬入 Bookmarks.md hub；update wiki/index.md ＋ vault CLAUDE.md 嘅 broken refs

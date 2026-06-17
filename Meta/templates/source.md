@@ -16,7 +16,7 @@ key_claims:
 related:
   - ""
 sources:
-  - "[[.raw/articles/filename]]"
+  - "[[raw/articles/filename]]"
 ---
 
 # {{title}}
