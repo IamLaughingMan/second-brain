@@ -274,7 +274,7 @@ Trigger: user describes what the vault is for.
 2. Ask one question: "What is this vault for?"
 3. Create full folder structure under `wiki/`.
 4. Create a domain page + `_index.md` sub-index for each domain.
-5. Create `wiki/overview.md`, `wiki/index.md`, `wiki/log.md`, `wiki/hot.md`.
+5. Create `wiki/index.md`, `wiki/log.md`, `wiki/hot.md`. (Root vault-wide `overview.md` is NOT created — overview is per-domain only; see CLAUDE.md "Domain-level typed-folder pattern".)
 6. Create `_templates/` with templates for each note type.
 7. Apply visual customization (Section 7). Create `.obsidian/snippets/vault-colors.css`.
 8. Create vault CLAUDE.md (template in Section 4.1b).
@@ -451,7 +451,7 @@ Trigger: user drops a file into `raw/` or pastes content.
 4. Create or update entity pages for every person/org/product/repo mentioned.
 5. Create or update concept pages for significant ideas.
 6. Update relevant domain pages and their `_index.md` sub-indexes.
-7. Update `wiki/overview.md` if the big picture changed.
+7. Update the affected domain's per-domain `overview.md` (e.g. `Health/Oral/Periodontal Disease/overview.md`) if the domain big picture changed. Root has no vault-wide overview.
 8. Update `wiki/index.md`. Add entries for all new pages.
 9. Update `wiki/hot.md` with this ingest's context.
 10. Append to `wiki/log.md` (new entries at the TOP):
