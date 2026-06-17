@@ -6,6 +6,8 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-17 21:30 HKT] cleanup | 刪走 Bookmarks/active.md + archive.md（同 Bookmarks.base 嘅 Active/Archive view 完全重複）；教學文字搬入 Bookmarks.md hub；update wiki/index.md ＋ vault CLAUDE.md 嘅 broken refs
+
 ## [2026-06-17 21:00 HKT] bookmark | user-supplied 思思醫師「納豆激酶與血管斑塊」一篇入 Bookmarks/Health/Cardiovascular/Nattokinase/（新領域夾；冇 found-by-claude）
 
 ## [2026-06-17 20:45 HKT] doc | Meta/extensions/skills.md 重整：分「一般 Claude skills」（14 built-in + 4 user-level commands）vs「Obsidian Claude skills」（5 kepano，`obsidian:` namespace）兩條軸；補充 commands vs skills 嘅 fs 區分 footnote

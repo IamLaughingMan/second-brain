@@ -29,12 +29,33 @@ tags:
 > - **`.raw/articles/`** = formal sources to compile（會 ingest 入 wiki）
 > - **`wiki/<topic>/`** = compiled knowledge（已 refined）
 
-## 兩條視圖（**不搬檔**，靠 frontmatter `status`）
+## 視圖（**不搬檔**，靠 frontmatter `status`）
 
-- [[active]] — `status != "archived"`（包括 active／reading／useful／inbox／無 status）
-- [[archive]] — `status == "archived"`
+睇 [[Bookmarks.base]]，4 個 tab：
+- **Active** — `status != "archived"`（包括 active／reading／useful／inbox／無 status）
+- **Archive** — `status == "archived"`
+- **All bookmarks** — 全部
+- **By domain** — 按 `domain` group
 
-或者直接睇 [[Bookmarks.base]]（兩個 tab）。
+### 點 archive 一條
+
+唔搬檔——改 frontmatter `status: archived`：
+
+```yaml
+status: archived
+```
+
+下次 reload／rerender，呢條會由 Active view 跳去 Archive view。
+
+### 點 unarchive
+
+`status` 改返非 `archived` 嘅值（`active`、`reading`、`useful` 等）。
+
+### 為何唔 delete 而 archive？
+
+- **保留歷史**：日後想搵返「嗰個 deep dental clinic 嘅鏈接」可以查回
+- **不污染 active 視圖**：archived 唔再出現喺主畫面
+- **低成本**：純改 frontmatter，唔搬檔／唔斷 wikilink
 
 ## 規矩
 

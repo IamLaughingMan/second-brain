@@ -38,8 +38,6 @@ second-brain-2026-06-06/
 │   └── clippings/             # Web Clipper 預留 subfolder
 ├── Bookmarks/               # 長期 URL 指標（深層細分 tree、獨立於 wiki，2026-06-17；archive 仍靠 status 欄、不搬檔）
 │   ├── Bookmarks.md          # hub（規矩 + frontmatter 例）
-│   ├── active.md             # view: status != "archived"
-│   ├── archive.md            # view: status == "archived"
 │   ├── Bookmarks.base         # 視圖：Active / Archive / All / By domain
 │   ├── AI/                    # 深層 tree 示例（命名按 bookmark 自己順手，唔跟 wiki）
 │   │   ├── Claude Code/Tools/   # `type: bookmark` + `domain:`（domain 同 folder 可唔同）
@@ -88,7 +86,7 @@ second-brain-2026-06-06/
 **Active view（`.base`）：** filter `status != "archived"`（即包括 active／draft／developing／無 status）
 **Archive view（`.base`）：** filter `status == "archived"`
 
-示例：`Bookmarks/active.md` + `Bookmarks/archive.md` + `Bookmarks/Bookmarks.base`。同樣模式可推到 Projects、Resources、任何 collection。
+示例：`Bookmarks/Bookmarks.base` 嘅 Active／Archive 兩個 view（hub `Bookmarks/Bookmarks.md` 入面有教學）。同樣模式可推到 Projects、Resources、任何 collection。
 
 **反例：** Tiago Forte PARA 用 `Archive/` folder 搬檔——本 vault **唔跟呢個**（保留 Inbox / Projects / Resources 概念，但 archive 改用 status field）。
 

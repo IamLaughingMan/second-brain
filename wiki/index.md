@@ -19,7 +19,7 @@ updated: 2026-06-12
 
 ## Root hubs（vault-wide MOC）
 - [[Inbox]] — 未整理 catch-all，root 級 `Inbox/`（GTD pattern；7 日 triage SLA）
-- [[Bookmarks]] — 長期 URL 指標，root 級 `Bookmarks/`（status 欄分 [[active]] / [[archive]]，不搬檔）
+- [[Bookmarks]] — 長期 URL 指標，root 級 `Bookmarks/`（`status` 欄分 active / archived，靠 [[Bookmarks.base]] 嘅 view 篩，不搬檔）
 - [[Projects]] → [[AI Arcade]] — 專案領域 hub，root 級 `Projects/`（PARA pattern）
 
 ## Maps of Content（領域 hub）
