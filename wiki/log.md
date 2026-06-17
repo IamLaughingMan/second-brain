@@ -6,6 +6,8 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-17 22:45 HKT] fix | unhide raw 後 Obsidian sidebar 仲灰：刪 .obsidian/snippets/vault-colors.css 入面 dim raw 嘅 CSS rule；同步 Meta/docs/WIKI.md 移走 raw=Gray 嘅文檔
+
 ## [2026-06-17 22:30 HKT] config | Obsidian attachmentFolderPath: Meta/attachments → raw/assets（align Karpathy）；raw/ 5 個 subfolder 加 .gitkeep（articles/assets/data/screenshots/transcripts，git 追蹤 + 新 clone 唔失）；CLAUDE.md tree 標 Meta/attachments 棄用
 
 ## [2026-06-17 22:15 HKT] refactor | rename .raw/ → raw/（不再隱藏，align Karpathy 一手 gist）；全 vault 12 處 references 同步（CLAUDE.md / WIKI.md / OBSIDIAN-SETUP.md / Inbox / Bookmarks / hooks / source template / hot / settings.json hook / css snippet）

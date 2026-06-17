@@ -598,7 +598,6 @@ Apply during scaffold. Create `.obsidian/snippets/vault-colors.css`:
 .nav-folder-title[data-path^="wiki/questions"]   { color: var(--wiki-5); }
 .nav-folder-title[data-path^="wiki/comparisons"] { color: var(--wiki-6); }
 .nav-folder-title[data-path^="wiki/meta"]        { color: var(--wiki-7); }
-.nav-folder-title[data-path="raw"]              { color: #808080; opacity: 0.6; }
 
 .callout[data-callout='contradiction'] { --callout-color: 209, 105, 105; --callout-icon: lucide-alert-triangle; }
 .callout[data-callout='gap']           { --callout-color: 220, 220, 170; --callout-icon: lucide-help-circle; }
@@ -619,7 +618,6 @@ Set in Graph View settings:
 | `path:wiki/concepts` | Yellow |
 | `path:wiki/sources` | Orange |
 | `path:wiki/questions` | Green |
-| `path:raw` | Gray (dimmed) |
 
 ---
 
