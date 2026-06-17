@@ -111,6 +111,39 @@ npx skills add https://github.com/kepano/obsidian-skills
 
 ---
 
+## 四、Layout sources 全面 audit
+
+§ 一／§ 二只列了 vault 兩大支柱（方法論／工具）。實際 folder ontology 同操作慣例還借了其他幾個 PKM 大神嘅嘢，全部喺 vault `CLAUDE.md` ／ memory 散落寫過——呢度匯一張總表，方便日後追源。
+
+| Layout 元素 | 來源 | 點解 / 角色 |
+|---|---|---|
+| `.raw/`（不可變來源） | **Karpathy** | 三層結構：事實 source of truth，LLM 只讀 |
+| `wiki/`（含 `index.md` + `log.md` + `hot.md`） | **Karpathy** | LLM 編譯出嚟嘅綜合層，靠 `index.md` 檢索（取代 RAG／向量 DB） |
+| 四階段迴圈（Ingest → Compile → Query → Lint） | **Karpathy** | 維護機制，LLM 做雜務 bookkeeping |
+| `wiki/<Domain>/`（領域內容入領域夾、鏡射 MOC hub） | **Nick Milo / LYT**（Maps of Content） | MOC = 領域入口；hub-and-spoke |
+| `Meta/`（system／operational 夾） | **Bryan Hogan plain mode** | docs／templates／attachments／bases／scripts 集中放系統檔 |
+| `Inbox/`（catch-all + 7 日 triage SLA） | **GTD / David Allen**（capture-first） | 未定嘅嘢即時 capture，唔逼即時歸類；後續 triage |
+| `Projects/` + `para: project` frontmatter | **PARA / Tiago Forte**（透過 **stefanimhoff** plain 詮釋） | 有完成日嘅嘢 = project；`code_path:` = Model B 對應 repo |
+| `para:` 全套（project/area/resource/archive/inbox） | **PARA**（Tiago Forte）概念 + **kepano** 做法（properties-over-folders） | 攞 PARA 分類 ontology，但唔起 PARA folder tree，做成 metadata 鏡頭 |
+| `Bookmarks/`（深層細分 tree + `status:` + `.base`、獨立於 wiki、多 folder 用 pointer stub） | **kepano**（file-over-app + properties-over-folders）+ **LYT**（fluid folders、不搬檔）+ **Andy Matuschak**（evergreen notes） | URL 指標長期保留；archive 不搬檔靠 metadata；多 folder 用 `type: pointer` + `![[正本]]` |
+| Status field over Archive folder（`status: active/archived`，唔起 `Archive/`） | **LYT** + **Matuschak** + **kepano** | 唔搬檔，metadata view 篩 |
+| `[[wikilink]]` 不帶路徑、檔名全 vault 唯一 | **Obsidian native** + **Matuschak**（atomic note + 穩定 ID） | 搬夾零斷連，呢個係上面所有「不搬檔」決定嘅技術基礎 |
+| `obsidian-skills` 工具層（markdown / bases / canvas / cli / defuddle） | **kepano / Steph Ango** | 動手嘅 5 把刀 |
+| Native PostToolUse auto-commit hook（`wiki/ .raw/ .vault-meta/`） | vault 內生（取代已移除嘅 AgriciDaniel `claude-obsidian` plugin） | git 自動 stage；hook 只 commit／唔 push |
+| HKT 時間戳 + dual-log（vault `log.md` + 全局 CSV） | vault 內生規矩（見 `~/AI/Claude/CLAUDE.md` + memory） | 跨時區一致；跨 project 一條 timeline |
+| `found-by-claude` provenance tag | vault 內生規矩（2026-06-17） | 分清 Claude research 搵到 vs 你親手掉嘅 link |
+
+**一句綜述：**
+- 方法論／workflow → **Karpathy**
+- 工具／動手 → **kepano**（obsidian-skills + properties-over-folders 哲學）
+- folder ontology → mix：**Bryan Hogan plain**（`Meta/`）、**GTD**（`Inbox/`）、**PARA／Tiago Forte**（`Projects/` + `para:`）、**LYT／Nick Milo**（領域夾鏡射 MOC + 不搬檔）、**Matuschak**（evergreen + 穩定檔名）
+- archive 哲學 → **「不搬檔、靠 metadata」共識**（kepano + LYT + Matuschak）
+- 其餘（auto-commit hook、HKT、dual-log、provenance tag） → vault 內生規矩
+
+> Mapping 源：`CLAUDE.md`（vault root）、`~/AI/Claude/CLAUDE.md`（parent，記 HKT／CSV／bookmark 規矩）、memory（`feedback-obsidian-setup-research-community`、`project-flat-bookmarks-decision`、`feedback-mark-claude-found-links` 等）。
+
+---
+
 ## 出處
 - Karpathy llm-wiki gist：https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 - DAIR.ai 解說：https://academy.dair.ai/blog/llm-knowledge-bases-karpathy

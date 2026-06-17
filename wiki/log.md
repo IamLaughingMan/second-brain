@@ -6,6 +6,8 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-17 20:05 HKT] doc | OBSIDIAN-SETUP.md 加 §四「Layout sources 全面 audit」：一張表列晒每個 layout 元素來自邊個 source（Karpathy/kepano/Bryan Hogan/PARA/GTD/LYT/Matuschak/vault 內生）
+
 ## [2026-06-17 19:50 HKT] doc | sync bookmark 規矩到實況：Bookmarks/Bookmarks.md hub ＋ vault CLAUDE.md Structure tree 改用「深層細分 tree、獨立於 wiki、pointer stub 多 folder」（取代舊 by-domain 淺層 / 鏡射 wiki 嘅講法）
 
 ## [2026-06-17 19:35 HKT] doc | 將 `found-by-claude` provenance 約定 checked-in：寫入 Bookmarks/Bookmarks.md 規矩＋frontmatter 例子，同 Meta/templates/bookmark.md（commented-out 預設不帶）
