@@ -6,6 +6,8 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-17 17:45 HKT] bookmark | 加 3 個 Claude Code 用量/歷史工具入 Bookmarks/AI（usage、Claude Code History Viewer、ccusage）
+
 Append-only. New entries go at the TOP. Never edit past entries.
 
 ---
