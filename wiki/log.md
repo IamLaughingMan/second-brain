@@ -6,6 +6,8 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-17 18:20 HKT] reorg | bookmark 深層細分 tree（續）：usage/ccusage/History Viewer → AI/Claude Code/Tools/；Ponytail → AI/Coding Agents/
+
 ## [2026-06-17 18:05 HKT] reorg | bookmark 改用深層細分 tree：Web Clipper 3 篇由 Bookmarks/PKM/ 搬入 Bookmarks/AI/Obsidian/Tools/Web Clipper/（domain 留 pkm；推翻舊 shallow 決定）
 
 ## [2026-06-17 17:45 HKT] bookmark | 加 3 個 Claude Code 用量/歷史工具入 Bookmarks/AI（usage、Claude Code History Viewer、ccusage）
