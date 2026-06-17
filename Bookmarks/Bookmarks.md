@@ -12,12 +12,13 @@ tags:
 
 # Bookmarks
 
-> [!note] 結構：by-domain 淺層資料夾（2026-06-17 起；取代已停用嘅 flat 規則）
-> Bookmark **按 `domain` 入頂層資料夾**（鏡射 `wiki/` 嘅領域命名，如 `Bookmarks/AI/`、`Bookmarks/Health/`），同全 vault 一致。原則：
-> - **淺層**：只起頂層 domain 夾，某 domain 多到先深落去（如 `AI/Agents/`）——同 wiki「按需自建」一致。
+> [!note] 結構：深層細分 tree、獨立於 wiki（2026-06-17 起；取代之前嘅 flat → 淺層 by-domain）
+> Bookmark folder tree **獨立於 `wiki/`** —— 唔使跟 wiki 領域命名，按 bookmark 自己順手嚟分。原則：
+> - **深層／細分（preferred）**：建議用 `AI/<app>/<Tools|Setup>/<thing>/` 呢類 pattern，例 `Bookmarks/AI/Obsidian/Tools/Web Clipper/`、`Bookmarks/AI/Claude Code/Tools/`、`Bookmarks/AI/Coding Agents/`。
 > - **未分類**留 `Bookmarks/` root（唔逼即時歸類）。
-> - `domain` frontmatter 欄係**真分類軸**（同時驅動「放邊個夾」同 `[[Bookmarks.base]]` 嘅 group/filter）；資料夾只係人類瀏覽動線。`.base` filter 靠 `type`/`status`/`domain`、**非 path** → 搬夾零斷連。
-> - **檔名仍須全 vault 唯一**（資料夾唔放寬呢條）。
+> - `domain` frontmatter 仍係 `[[Bookmarks.base]]` 嘅**分類軸**（驅動 By domain group/filter），**但同 folder 路徑可以唔同**——folder = 人類瀏覽動線，domain = metadata 軸。`.base` filter 靠 `type`/`status`/`domain`，**非 path** → 搬夾零斷連。
+> - **多 folder 出現（lightweight）**：一個 bookmark suit 多個 folder 時，**唔好複製成個 note**。次序：①最輕 = `tags` 跨領域 + `.base` view；② MOC/索引 note 連去正本；③ **pointer stub**（喺第二個 folder 整個 `type: pointer` 嘅薄檔，body `![[正本]]` 嵌入）。stub 檔名**必須**同正本唔同（用 `(↪ <home>)` suffix），否則 wikilink 解析撞、autocomplete 亂。例：`Coding Agents/ccusage (↪ Claude Code Tools).md`。
+> - **檔名仍須全 vault 唯一**（深層唔放寬呢條）。
 > - 不受影響：active/archive 仍「不搬檔、靠 `status` 欄」（見下）。
 
 長期保留嘅 URL 指標——你想隨手返到嘅網站／工具／文章。
@@ -41,7 +42,8 @@ tags:
 - 不再用：改 frontmatter `status: archived`，**唔搬檔**（檔留喺原本 domain 夾）
 - 想 promote 做 wiki 內容：搬去 `wiki/<topic>.md`、改 `type` + `para: resource`
 - **Provenance（`found-by-claude` tag）**：凡 **Claude 自己**喺網上 research／答問時搵到嘅有用 link，Claude 會主動 bookmark 並加 tag **`found-by-claude`**，同你親手掉嘅 link 區分（方便 prune／判斷信任度）。你親手加嘅 bookmark **唔使**加呢個 tag。
-- 結構：**by-domain 淺層資料夾**（見頂部 note）。~~舊 flat / 唔起-subfolder 規則已於 2026-06-17 停用~~
+- 結構：**深層細分 tree、獨立於 wiki**（見頂部 note）。~~舊 flat（停用）→ by-domain 淺層（亦已 supersede）~~
+- 跨 folder：用 pointer stub（`type: pointer` + `![[正本]]`，檔名加 `(↪ <home>)` suffix）；**唔好** copy 整個 note。
 
 ## Bookmark frontmatter（最少）
 
@@ -49,7 +51,7 @@ tags:
 ---
 type: bookmark
 para: resource
-domain: ai-tools      # 分類主軸＋決定放邊個 Bookmarks/<Domain>/ 夾（未定可留空）
+domain: ai-tools      # .base 分類軸（同 folder 路徑可以唔同；未定可留空）
 title: "..."
 url: "https://..."
 status: active        # active / archived

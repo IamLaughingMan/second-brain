@@ -36,13 +36,15 @@ second-brain-2026-06-06/
 │   ├── Inbox.md              # hub（7 日 triage SLA 規矩）
 │   ├── <random captures>.md
 │   └── clippings/             # Web Clipper 預留 subfolder
-├── Bookmarks/               # 長期 URL 指標（by-domain 淺層資料夾，2026-06-17 起；archive 仍靠 status 欄、不搬檔）
-│   ├── Bookmarks.md          # hub
+├── Bookmarks/               # 長期 URL 指標（深層細分 tree、獨立於 wiki，2026-06-17；archive 仍靠 status 欄、不搬檔）
+│   ├── Bookmarks.md          # hub（規矩 + frontmatter 例）
 │   ├── active.md             # view: status != "archived"
 │   ├── archive.md            # view: status == "archived"
 │   ├── Bookmarks.base         # 視圖：Active / Archive / All / By domain
-│   ├── AI/                    # domain 夾（鏡射 wiki 領域命名），如 Bookmarks/AI/Ponytail.md
-│   │   └── <title>.md          # 個別 bookmark，frontmatter `type: bookmark` + `domain:`
+│   ├── AI/                    # 深層 tree 示例（命名按 bookmark 自己順手，唔跟 wiki）
+│   │   ├── Claude Code/Tools/   # `type: bookmark` + `domain:`（domain 同 folder 可唔同）
+│   │   ├── Coding Agents/       # 含 pointer stub：`type: pointer` + `![[正本]]`，檔名加 `(↪ <home>)`
+│   │   └── Obsidian/Tools/Web Clipper/
 │   └── <title>.md             # 未分類 bookmark 留 root（domain 留空）
 ├── Projects/                # PARA-style active projects（root，跟 Tiago Forte / stefanimhoff 模式）
 │   ├── Projects.md           # hub
