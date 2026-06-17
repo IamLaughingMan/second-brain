@@ -6,6 +6,8 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-17 21:50 HKT] bookmark | user-supplied Karpathy LLM Wiki 一手 gist → Bookmarks/AI/LLM Wiki/（domain pkm；vault 嘅 foundational source）
+
 ## [2026-06-17 21:30 HKT] cleanup | 刪走 Bookmarks/active.md + archive.md（同 Bookmarks.base 嘅 Active/Archive view 完全重複）；教學文字搬入 Bookmarks.md hub；update wiki/index.md ＋ vault CLAUDE.md 嘅 broken refs
 
 ## [2026-06-17 21:00 HKT] bookmark | user-supplied 思思醫師「納豆激酶與血管斑塊」一篇入 Bookmarks/Health/Cardiovascular/Nattokinase/（新領域夾；冇 found-by-claude）
