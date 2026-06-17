@@ -15,7 +15,7 @@ tags:
 
 # Periodontal Disease Overview
 
-← 上層：[[Periodontal Disease|hub/MOC]] ・ [[Oral Health]] ・ vault [[index]]
+← 上層：[[Periodontal Disease|hub/MOC]] ・ [[Oral]] ・ vault [[index]]
 
 > 牙周病 domain 嘅高層 narrative —— 一頁睇晒呢個 domain 入面有咩、主軸去到邊。**Catalog-style** synthesis：分頁類列示、附現況 takeaway。需要深度織入嘅 argument 見 [[Research - Severe Periodontitis and Tooth Loss]]；按主題瀏覽見 [[Periodontal Disease|hub]]；動態 view 見 [[Periodontal Disease.base]]。
 
@@ -66,4 +66,4 @@ tags:
 - 按主題瀏覽：[[Periodontal Disease|hub]]
 - 動態 query：[[Periodontal Disease.base]]
 - 深度 synthesis：[[Research - Severe Periodontitis and Tooth Loss]]
-- 上層：[[Oral Health]]、[[Health]]、vault [[index]]
+- 上層：[[Oral]]、[[Health]]、vault [[index]]

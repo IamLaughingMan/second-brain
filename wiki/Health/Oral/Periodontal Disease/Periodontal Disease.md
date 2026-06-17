@@ -15,7 +15,7 @@ tags:
 
 # Periodontal Disease（牙周病）
 
-← 上層：[[Oral Health]] ・ [[Health]]
+← 上層：[[Oral]] ・ [[Health]]
 
 本頁是**牙周病**研究的 Map of Content（MOC）——彙整所有 `domain: periodontal-disease` 的頁面。涵蓋範圍超出單純牙齦發炎：從診斷、治療、再生、缺牙重建、到價格與診所。近期脈絡見 [[hot]]。
 

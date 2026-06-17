@@ -1,17 +1,17 @@
 ---
 type: moc
 para: area
-title: "Oral Health（口腔健康）"
+title: "Oral（口腔健康）"
 status: developing
 created: 2026-06-11
-updated: 2026-06-11
+updated: 2026-06-18
 tags:
   - moc
   - health
   - oral-health
 ---
 
-# Oral Health（口腔健康）
+# Oral（口腔健康）
 
 ← 上層：[[Health]]
 

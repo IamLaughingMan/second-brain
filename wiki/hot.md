@@ -18,7 +18,7 @@ updated: 2026-06-12
 
 ## Recent Changes
 - **2026-06-12 改混合結構**：22 個牙周病檔（3 hub＋`.base`＋20 內容頁）`git mv` 入 `wiki/Health/Oral/Periodontal Disease/`，鏡射 MOC 階層。`CLAUDE.md` 由「扁平禁建資料夾」改為混合模型：meta／方法頁平放、領域內容入領域夾。git 全認純 rename、零內容改、零斷連（wikilink 不帶路徑、`.base` 靠 `domain` filter）。同步更新 `index.md`／`hot.md`。
-- **2026-06-11 領域歸檔**：牙周病 20 篇研究歸入三層 MOC hub [[Health]] → [[Oral Health]] → [[Periodontal Disease]]，各頁加 `domain: periodontal-disease`。「Gum disease」採臨床標準名 **Periodontal Disease（牙周病）**。
+- **2026-06-11 領域歸檔**：牙周病 20 篇研究歸入三層 MOC hub [[Health]] → [[Oral]] → [[Periodontal Disease]]，各頁加 `domain: periodontal-disease`。「Gum disease」採臨床標準名 **Periodontal Disease（牙周病）**。
 - **2026-06-11 結構重構**：wiki/ 攤平成扁平 Karpathy 結構——21 篇內容頁從 6 個分類資料夾搬到 `wiki/` 根層，刪掉 9 個空 `_index.md` 與所有分類資料夾。重寫 `index.md`（單一目錄、frontmatter type 分組）、`CLAUDE.md`（compiler 模型＋四階段迴圈＋禁建資料夾）。新增根層 [[OBSIDIAN-SETUP]]（Karpathy + kepano 建置藍圖）。更新 [[Karpathy LLM Wiki Pattern]]（DAIR.ai：compiler 框架、no vector DB、合成訓練資料）。WIKI.md 加覆蓋聲明。wikilink 不帶路徑故零損壞。
 - 14 pages created: 6 sources, 5 concepts, 2 entities, 1 synthesis.
 - Synthesis: [[Research - Severe Periodontitis and Tooth Loss]]

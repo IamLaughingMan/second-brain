@@ -6,6 +6,8 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-18 01:15 HKT] rename | Oral Health.md → Oral.md（align folder-note 命名統一：folder name = note name，同 Health/Bookmarks/Inbox/Projects 一致）；title/H1 同步收短「Oral（口腔健康）」；5 處 [[Oral Health]] wikilink update
+
 ## [2026-06-18 01:00 HKT] fix | Bookmarks.base 無法解析：groupBy: domain（bare string 短形）改用 structured form `{property: domain, direction: ASC}`，align Periodontal Disease.base 工作版本；Obsidian Bases plugin 升級後似乎唔再 accept 短形
 
 ## [2026-06-18 00:45 HKT] move | Karpathy LLM Wiki Pattern.md：wiki/ → Meta/docs/（同 OBSIDIAN-SETUP / WIKI 一齊做 vault setup 三件套，性質係靜態 spec、唔屬 compounding knowledge）；wikilink path-indep 自動 work；wiki/index.md Resources 移走加 [!info] 註；CLAUDE.md tree 同步
