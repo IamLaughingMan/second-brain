@@ -6,6 +6,8 @@ updated: 2026-06-07
 
 # Wiki Log
 
+## [2026-06-17 23:00 HKT] restructure | wiki/ split overview ↔ index（align Karpathy 一手）+ 喺 wiki/Health/Oral/ 起 mini-wiki：Oral overview / Oral index / Oral log + 4 typed folder（analyses/concepts/entities/sources）；Oral Health hub 補連結；檔名加 "Oral " prefix 避撞 root 同名
+
 ## [2026-06-17 22:45 HKT] fix | unhide raw 後 Obsidian sidebar 仲灰：刪 .obsidian/snippets/vault-colors.css 入面 dim raw 嘅 CSS rule；同步 Meta/docs/WIKI.md 移走 raw=Gray 嘅文檔
 
 ## [2026-06-17 22:30 HKT] config | Obsidian attachmentFolderPath: Meta/attachments → raw/assets（align Karpathy）；raw/ 5 個 subfolder 加 .gitkeep（articles/assets/data/screenshots/transcripts，git 追蹤 + 新 clone 唔失）；CLAUDE.md tree 標 Meta/attachments 棄用
