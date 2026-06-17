@@ -8,10 +8,10 @@ updated: 2026-06-12
 
 本 wiki 的**純目錄（catalog）**＝查詢入口（每頁 + 一句註，按 `type` 分組）。**混合結構**：meta 與跨領域方法頁平放 `wiki/` 根層，領域內容入領域資料夾（鏡射 MOC hub，如 `Health/Oral/Periodontal Disease/`）。檢索靠本目錄分組＋`[[wikilink]]`（不帶路徑、零斷連），資料夾只是人類瀏覽動線。分組標題對應每頁 frontmatter 的 `type`。更新於每次 ingest。
 
-→ 高層綜述見 [[overview]]・近期脈絡見 [[hot]]・操作日誌見 [[log]]
+→ 近期脈絡見 [[hot]]・操作日誌見 [[log]]
 
-> [!note] 2026-06-17 起 overview ↔ index 分家
-> Karpathy 一手 gist 將 **overview**（synthesis narrative）同 **index**（catalog with one-line summaries）分開講。本 vault 之前合二為一，2026-06-17 拆返兩份。本頁淨係 catalog；綜述、現況、未來方向去 [[overview]]。
+> [!note] Overview 採 multi-wiki（per-domain）模式，root 唔保留
+> Karpathy 一手 gist 將 **overview** 同 **index** 分開講。本 vault 採用「**root index/log 統管全 vault，overview 落每個 domain hub 入面**」嘅 multi-wiki 拆法。例：[[Health/Oral/Periodontal Disease/overview|Periodontal Disease overview]]。Root 嘅 vault-wide overview 已於 2026-06-17 撤銷（合理 scope 過大）。
 
 ## Root hubs（vault-wide MOC）
 - [[Inbox]] — 未整理 catch-all，root 級 `Inbox/`（GTD pattern；7 日 triage SLA）

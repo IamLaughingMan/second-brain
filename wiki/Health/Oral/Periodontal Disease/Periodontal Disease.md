@@ -20,7 +20,7 @@ tags:
 本頁是**牙周病**研究的 Map of Content（MOC）——彙整所有 `domain: periodontal-disease` 的頁面。涵蓋範圍超出單純牙齦發炎：從診斷、治療、再生、缺牙重建、到價格與診所。近期脈絡見 [[hot]]。
 
 > [!note] 2026-06-17 起：本子領域改採 typed-folder 結構
-> 20 篇內容頁按 frontmatter `type:` 入 **5 個 folder**：`sources/`（8）、`concepts/`（5）、`entities/`（2）、`analyses/`（4 = 2 comparison + 2 resource）、`synthesis/`（1）。**Root 留 3 件 meta**：本 hub（moc）、[[Periodontal Disease overview]]、`Periodontal Disease.base`。Wikilink **path-independent**，下面所有 link 不變、自動指向新位置。`.base` 視圖靠 `domain` filter，亦不受影響。
+> 20 篇內容頁按 frontmatter `type:` 入 **5 個 folder**：`sources/`（8）、`concepts/`（5）、`entities/`（2）、`analyses/`（4 = 2 comparison + 2 resource）、`synthesis/`（1）。**Root 留 3 件 meta**：本 hub（moc）、`overview.md`（type: overview）、`Periodontal Disease.base`。Wikilink **path-independent**，下面所有 link 不變、自動指向新位置。`.base` 視圖靠 `domain` filter，亦不受影響。
 
 ## 動態資料表
 依 `domain: periodontal-disease` 自動更新——新增同 domain 的頁面會自動進表（含「全部研究頁」「來源 Sources」「卡片總覽」三檢視）。
@@ -28,7 +28,7 @@ tags:
 ![[Periodontal Disease.base]]
 
 ## 領域 meta
-- [[Periodontal Disease overview]] — 高層 catalog-narrative（一頁睇晒 domain 主軸 + 19 篇分佈 + takeaway + gap）
+- [[Health/Oral/Periodontal Disease/overview|overview]] — 高層 catalog-narrative（一頁睇晒 domain 主軸 + 19 篇分佈 + takeaway + gap）
 - [[Research - Severe Periodontitis and Tooth Loss]] — synthesis：嚴重牙周、治療、價格、近未來的深度 argument
 
 ## 診斷與分類
