@@ -56,7 +56,9 @@ views:
       and:
         - type == "bookmark"
         - status != "archived"
-    groupBy: domain
+    groupBy:
+      property: domain
+      direction: ASC
     order:
       - file.name
       - status
