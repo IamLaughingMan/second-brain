@@ -64,10 +64,6 @@ tags:
 
 ## Major Sponsors
 
-[
-
-](https://linkjolt.io/l/ryotaro-kimura-ryoppippi)
-
 [Lineman.io — a Team & Enterprise solution for Claude Code:
 40% lower token usage, full teams spend visibility, and unauthorized-spend alerts.](https://linkjolt.io/l/ryotaro-kimura-ryoppippi)
 
@@ -252,10 +248,6 @@ The scheduled `update pricing` workflow runs the same update and validation, the
 ## GitHub Sponsors
 
 ## Star History
-
-[
-
-](https://www.star-history.com/#ccusage/ccusage&Date)
 
 ## License
 
