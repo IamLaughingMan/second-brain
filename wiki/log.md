@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-18 20:58 HKT] backfill | 現有 9 個 bookmark 套用新全文預設：defuddle 抽全文（剝 badge/圖片雜訊、natto trim sidebar nav）寫入各檔尾 `## Full Content (archived)` + `## Key Comments`（全屬 reference source/非社媒 → 留言不適用）；frontmatter 補 `summary:`、bump `updated: 2026-06-18`。YAML 全驗過。Bookmarks/ 手動 commit。另全局裝 defuddle 0.19.0
+
 ## [2026-06-18 20:22 HKT] config | bookmark 降掃描成本（全文仍 inline）：全文 + 留言移到檔尾 + 分隔線 `<!-- ARCHIVE BELOW -->`、frontmatter 加 `summary:`（triage 零 body 成本）、search-first triage 守則（get_frontmatter / Read limit / search_notes，唔 bulk full-read）。`.base` 本來只讀 frontmatter，inline 全文對佢零影響。改：Meta/templates/bookmark.md、parent CLAUDE.md pipeline、memory
 
 ## [2026-06-18 20:06 HKT] config | bookmark 改預設：自動連全文 + 重要留言一齊存入 bookmark 檔本身（## Full Content / ## Key Comments，防 link-rot 尤其社媒）；留言抓唔到明寫「未能抓取」、唔扮抓；raw/ 不受影響（raw_source 仍為 Layer 2 bridge pointer）。改：parent CLAUDE.md pipeline、Meta/templates/bookmark.md、Bookmarks/Bookmarks.md、vault CLAUDE.md + memory
