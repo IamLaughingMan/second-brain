@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-18 21:12 HKT] config | bookmark pipeline 寫入「存全文前 cleanup」標準步驟（parent CLAUDE.md step 1 + memory）：剝 badge/圖片、剝空連結殼、trim sidebar nav、存前驗 0 殘跡（附確切 perl regex）。另記 defuddle CLI 用法 + zsh/RTK 批次處理改用 Python
+
 ## [2026-06-18 20:58 HKT] backfill | 現有 9 個 bookmark 套用新全文預設：defuddle 抽全文（剝 badge/圖片雜訊、natto trim sidebar nav）寫入各檔尾 `## Full Content (archived)` + `## Key Comments`（全屬 reference source/非社媒 → 留言不適用）；frontmatter 補 `summary:`、bump `updated: 2026-06-18`。YAML 全驗過。Bookmarks/ 手動 commit。另全局裝 defuddle 0.19.0
 
 ## [2026-06-18 20:22 HKT] config | bookmark 降掃描成本（全文仍 inline）：全文 + 留言移到檔尾 + 分隔線 `<!-- ARCHIVE BELOW -->`、frontmatter 加 `summary:`（triage 零 body 成本）、search-first triage 守則（get_frontmatter / Read limit / search_notes，唔 bulk full-read）。`.base` 本來只讀 frontmatter，inline 全文對佢零影響。改：Meta/templates/bookmark.md、parent CLAUDE.md pipeline、memory
