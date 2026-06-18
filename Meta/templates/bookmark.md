@@ -30,6 +30,12 @@ tags:
 
 ## Key Takeaways
 
+## Full Content (archived)
+<!-- defuddle 抽嘅乾淨全文（防 link-rot；社媒尤其常改/死 link）。源頭不可變語義屬 raw/，呢度只係 bookmark 自存 snapshot。 -->
+
+## Key Comments
+<!-- 有重要內容嘅留言，逐條附作者/出處。抓唔到（JS/login wall）就明寫「留言未能抓取」，唔扮抓到。 -->
+
 ## My Notes
 
 ## Related

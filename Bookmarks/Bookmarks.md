@@ -21,12 +21,15 @@ tags:
 > - **檔名仍須全 vault 唯一**（深層唔放寬呢條）。
 > - 不受影響：active/archive 仍「不搬檔、靠 `status` 欄」（見下）。
 
-長期保留嘅 URL 指標——你想隨手返到嘅網站／工具／文章。
+長期保留嘅 URL 指標 ＋ **自存全文 snapshot**——你想隨手返到嘅網站／工具／文章。
+
+> [!important] 全文自存（2026-06-18 起改預設）
+> 新 bookmark **自動連全文一齊存**入 bookmark 檔本身（`## Full Content (archived)`），有重要留言亦一同記低（`## Key Comments`）——防 link-rot，**社交媒體尤其常改／死 link**。留言抓唔到（JS／login wall）就明寫「留言未能抓取」、唔扮抓到。`raw/` 不受影響：只有正式 ingest 入 wiki 先行 Layer 2（defuddle→`raw/articles/`、填 `raw_source`）。
 
 > 同其他 URL 容器嘅分工：
-> - **Bookmarks/** = 指標（URL + 一句註），**長期**快存
+> - **Bookmarks/** = 指標（URL + 摘要）＋ **自存全文 snapshot ＋ 重要留言**，**長期**快存
 > - **`Inbox/clippings/`** = Web Clipper 全文 clip（全文 markdown，會 triage）
-> - **`raw/articles/`** = formal sources to compile（會 ingest 入 wiki）
+> - **`raw/articles/`** = formal sources to compile（會 ingest 入 wiki；bookmark 只在 Layer 2 promote 時先寫入呢度）
 > - **`wiki/<topic>/`** = compiled knowledge（已 refined）
 
 ## 視圖（**不搬檔**，靠 frontmatter `status`）

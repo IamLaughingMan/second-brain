@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-18 20:06 HKT] config | bookmark 改預設：自動連全文 + 重要留言一齊存入 bookmark 檔本身（## Full Content / ## Key Comments，防 link-rot 尤其社媒）；留言抓唔到明寫「未能抓取」、唔扮抓；raw/ 不受影響（raw_source 仍為 Layer 2 bridge pointer）。改：parent CLAUDE.md pipeline、Meta/templates/bookmark.md、Bookmarks/Bookmarks.md、vault CLAUDE.md + memory
+
 ## [2026-06-18 02:15 HKT] style | 縮細 wiki/log.md 嘅 H2 字體：log.md frontmatter 加 cssclasses: [log]，.obsidian/snippets/vault-colors.css 加 `.log h2` rule（font-size 1.05rem、無 border-bottom、opacity 0.85）；只影響 cssclasses 有 log 嘅檔，唔波及其他 H2
 
 ## [2026-06-18 02:00 HKT] doc | 加 Bookmark↔raw↔wiki bridge 3-layer architecture：(i) CLAUDE.md 新章節（Karpathy 性質保留＋frontmatter triangle raw_source/wiki_page/bookmark）；(ii) Bookmarks.md hub 加 promote workflow；(iii) Meta/templates/bookmark.md 加 commented bridge fields；(iv) memory 新增 project-bookmark-raw-wiki-bridge

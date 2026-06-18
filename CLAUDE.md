@@ -105,7 +105,9 @@ second-brain-2026-06-06/
 
 ## Bookmark ↔ raw ↔ wiki bridge（2026-06-18 起）
 
-`Bookmarks/` 嘅檔本質係 **URL pointer + 短註腳**（`type: bookmark`），同 `raw/` 嘅 source-of-truth、同 `wiki/` 嘅 compiled knowledge **三者唔同**。當 bookmark 嘅 URL 內容值得**做嚴肅 ingest**時，跟以下 3 層 bridge promote，**唔好混淆三者嘅 layer**。
+`Bookmarks/` 嘅檔本質係 **URL pointer + 短註腳 + 自存全文 snapshot**（`type: bookmark`），同 `raw/` 嘅 source-of-truth、同 `wiki/` 嘅 compiled knowledge **三者唔同**。當 bookmark 嘅 URL 內容值得**做嚴肅 ingest**時，跟以下 3 層 bridge promote，**唔好混淆三者嘅 layer**。
+
+> **全文自存（2026-06-18 起改預設）**：新 bookmark **自動連全文一齊存**入 bookmark 檔本身（`## Full Content (archived)`）＋ 重要留言（`## Key Comments`，社媒尤其，因常改／死 link）。呢個 snapshot 屬 bookmark 自身防 link-rot 之用，**唔等於** `raw/` 嘅不可變 source-of-truth：日常 bookmark **唔郁** `raw/`，只有正式 ingest 入 wiki 先行下面 Layer 2（defuddle→`raw/articles/`、填 `raw_source`）。留言抓唔到（JS／login wall）就明寫「留言未能抓取」、唔扮抓到。
 
 ### Layer 1：lightweight wikilink（最輕、零搬）
 
