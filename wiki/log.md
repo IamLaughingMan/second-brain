@@ -1,12 +1,14 @@
 ---
 type: meta
 title: "Wiki Log"
-updated: 2026-06-18
+updated: 2026-06-19
 cssclasses:
   - log
 ---
 
 # Wiki Log
+
+## [2026-06-19 02:30 HKT] config | Domain typed-folder trigger rule 改寫：由「累積到 ~15+ 頁」單一閾值 → **「≥3 個 type 各 ≥2 頁」**（distribution > raw count）。理由：5 typed folder 嘅意義喺於 type 之間分得開；20 頁全 piled 落 sources/ 反而 noise > signal。改 vault CLAUDE.md「Domain-level typed-folder pattern」section（兩處）+ memory project-domain-typed-folder-pattern + MEMORY.md index
 
 ## [2026-06-18 21:40 HKT] research | 歸檔研究頁 [[Recording Claude Conversations in Obsidian]]（type: synthesis, domain: pkm）：大家點用 Obsidian 記錄 Claude 對話——兩派哲學（存原始 vs 蒸餾）、A–E 五類做法、GitHub 高星 landscape（REST API by stars）。更新 index.md（filed answers）+ hot.md（session 摘要）。Sources 含 cctrace/claudian/NicholasSpisak-second-brain 等
 

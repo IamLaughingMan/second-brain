@@ -170,7 +170,9 @@ bookmark:   "[[<bookmark>]]"   # backlink to bookmark（Layer 2 step 5）
 
 ## Domain-level typed-folder pattern（2026-06-17 起，跟 Karpathy 6 page types）
 
-某 sub-domain 內容**累積到 ~15+ 頁**先採用呢個 pattern（避免 over-engineering）。已實作例：`wiki/Health/Oral/Periodontal Disease/`。
+某 sub-domain 內容**type 分佈成熟**先採用呢個 pattern（避免 over-engineering）。
+
+**Trigger rule（type-distribution，2026-06-19 取代「~15+ 頁」單一閾值）**：至少 **3 個 type 各 ≥2 頁**——即起碼 6 頁、跨 ≥3 個 type，確保開夾後每個 folder 都有 representative、唔會見一堆空夾或得 1 頁嘅 folder。理由：5 typed folder 嘅意義喺於 type 之間分得開；如果 20 頁全 piled 落 `sources/`、其他 folder 各 0–1 頁，分夾反而 noise > signal，留 flat 仲清。已實作例：`wiki/Health/Oral/Periodontal Disease/`（20 頁；sources 8／concepts 5／entities 2／analyses 4／synthesis 1——5 個 type 各 ≥1，其中 4 個 ≥2，遠超 trigger）。
 
 **Root 留 3 件 meta**：
 - `<Domain hub>.md`（`type: moc`）—— 主題式 wikilink 導覽
@@ -188,7 +190,7 @@ bookmark:   "[[<bookmark>]]"   # backlink to bookmark（Layer 2 step 5）
 
 **Filename uniqueness 例外**：`overview.md`、`<Domain hub>.md`、`<Domain hub>.base` 喺每 domain 可以重複；wikilink 用 path 限定（如 `[[Health/Oral/Periodontal Disease/overview|overview]]`）。
 
-**新 domain ingest 時 Claude 行為**：累積到頁數門檻（~15+）或者使用者 explicit 講「typed folder」時，按上面 5 folder + 3 root meta 建構；未到門檻則用 flat folder + frontmatter `type:` 標記，由 `.base` view 做 type 篩選即可。
+**新 domain ingest 時 Claude 行為**：每次新增頁先睇 type 分佈——當 sub-domain 達 **≥3 個 type 各 ≥2 頁**（或使用者 explicit 講「typed folder」），按上面 5 folder + 3 root meta 建構；未到門檻則用 flat folder + frontmatter `type:` 標記，由 `.base` view 做 type 篩選即可。判斷方法：對該 domain 跑 `.base` 嘅 group-by-type、或者 grep frontmatter `type:` 點算分佈。
 
 ## Log conventions（vault 專屬；通用 HKT／CSV 機制見 [`../CLAUDE.md`](../CLAUDE.md)）
 
