@@ -179,18 +179,20 @@ bookmark:   "[[<bookmark>]]"   # backlink to bookmark（Layer 2 step 5）
 - `overview.md`（`type: overview`）—— Karpathy 講嘅「an overview」：catalog-narrative，列 domain 主軸 + 各 type 分佈 + 現況 takeaway + gap
 - `<Domain hub>.base`（Obsidian Base）—— 動態 view（filter 靠 `domain`）
 
-**5 個 typed-folder**（鏡 Karpathy 6 page types；overview 留 root，唔開夾）：
+**Typed-folder catalogue（最多 5 個；按實際 type 分佈建夾，零頁嘅 type 唔起空夾）**（鏡 Karpathy 6 page types；overview 留 root，唔開夾）：
 - `sources/` ← `type: source`（Karpathy「summaries」：一手來源 summary）
 - `concepts/` ← `type: concept`
 - `entities/` ← `type: entity`
 - `analyses/` ← `type: comparison` + `type: resource`（vault-added type 跟 comparison 並合）
 - `synthesis/` ← `type: synthesis`（Karpathy「a synthesis」：deep-integration narrative）
 
+**Folder 建唔建（precedent）**：某 type **≥1 頁**先起對應 folder；**0 頁就唔起**，避免空夾 noise。Periodontal Disease 嘅 `synthesis/` 喺得 1 頁時都起咗（type 已出現＋預期會加），即係門檻係「type 有冇出現」、唔係「該 type 自己有冇夠多」。Trigger rule（≥3 types each ≥2 pages）只 gate 「使唔使開始用 typed-folder pattern」；一旦開始，每個 type 嘅 folder 起唔起睇該 type 嘅實際出現。
+
 **Vault-wide overview 不設**：跟 multi-wiki 拆法，overview 只 per-domain；root 統管靠 `index.md` + `log.md` + `hot.md`，唔起 vault-wide overview（scope 過大、同 index 重複）。
 
 **Filename uniqueness 例外**：`overview.md`、`<Domain hub>.md`、`<Domain hub>.base` 喺每 domain 可以重複；wikilink 用 path 限定（如 `[[Health/Oral/Periodontal Disease/overview|overview]]`）。
 
-**新 domain ingest 時 Claude 行為**：每次新增頁先睇 type 分佈——當 sub-domain 達 **≥3 個 type 各 ≥2 頁**（或使用者 explicit 講「typed folder」），按上面 5 folder + 3 root meta 建構；未到門檻則用 flat folder + frontmatter `type:` 標記，由 `.base` view 做 type 篩選即可。判斷方法：對該 domain 跑 `.base` 嘅 group-by-type、或者 grep frontmatter `type:` 點算分佈。
+**新 domain ingest 時 Claude 行為**：每次新增頁先睇 type 分佈——當 sub-domain 達 **≥3 個 type 各 ≥2 頁**（或使用者 explicit 講「typed folder」），起 3 root meta + **只建已出現嘅 type folder**（≥1 頁先建、0 頁跳過）；未到門檻則用 flat folder + frontmatter `type:` 標記，由 `.base` view 做 type 篩選即可。日後出現新 type 嘅第一頁時補建對應 folder。判斷方法：對該 domain 跑 `.base` 嘅 group-by-type、或者 grep frontmatter `type:` 點算分佈。
 
 ## Log conventions（vault 專屬；通用 HKT／CSV 機制見 [`../CLAUDE.md`](../CLAUDE.md)）
 
