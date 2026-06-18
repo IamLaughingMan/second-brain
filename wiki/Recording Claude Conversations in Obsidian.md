@@ -17,18 +17,18 @@ tags:
 
 # Recording Claude Conversations in Obsidian
 
-> 研究：大家點用 Obsidian 記錄同 Claude 嘅對話（2026-06-18，雙 bucket：大神 + community + GitHub-by-stars）。本 vault 已企喺最成熟嗰派（蒸餾派），呢頁係 landscape 同可補強嘅點。
+> 研究：大家點用 Obsidian 記錄同 Claude 嘅對話（2026-06-18，雙 bucket：大神 + community + GitHub-by-stars）。本 vault 屬 **mixed-mode**——`wiki/` 部份跟 Karpathy ②蒸餾派、其他 root folder 各有邏輯（bookmark hybrid、inbox GTD、project PARA…），原始對話 archive 屬獨立 category（提議中嘅 `Claude history/`）。
 
 ## 核心：兩種對立哲學
 
 | | ① 存原始對話（archive raw） | ② 蒸餾唔倒垃圾（distill, don't dump） |
 |---|---|---|
 | 做法 | 成段 chat 匯出 → markdown log，全文可搜 | 好答案先 compile 入 wiki，chat noise 掉 |
-| 代表 | export 工具、Claude Vault、memory pipeline | **Karpathy LLM Wiki**、本 vault「收工」workflow |
+| 代表 | export 工具、Claude Vault、memory pipeline、`cctrace` | **Karpathy LLM Wiki**、本 vault `wiki/` 嘅「收工」workflow |
 | 好處 | 完整、零遺漏、可 re-feed AI | wiki compounding、無雜訊 |
 | 痛點 | vault 充斥低密度 chat、難搵 | 要人手 curate 邊句值得留 |
 
-大神 bucket（**Karpathy** / **kepano**）明確企②：Karpathy「good answers can be filed back into the wiki」，raw chat 唔係資產；kepano file-over-app 重點係擁有 plain markdown。**本 vault 已是②派成熟實作**（收工蒸餾、raw/wiki 分層、bookmark 全文 snapshot）。
+大神 bucket（**Karpathy** / **kepano**）明確企②：Karpathy「good answers can be filed back into the wiki」，raw chat 唔係資產；kepano file-over-app 重點係擁有 plain markdown。**本 vault 嘅 `wiki/` 部份係②派成熟實作**（收工蒸餾、raw/wiki 分層）；但 vault 並非單一哲學——其他 root folder 各有邏輯，原始對話 archive 可以行①派而**唔違反**整個 vault（因 ② 只 gate `wiki/`）。
 
 ## 四大類具體做法（community）
 
@@ -40,14 +40,14 @@ tags:
 
 ## GitHub 高星 landscape（REST API by stars，2026-06-18）
 
-**Karpathy 自建 KB（同本 vault 同派，最值參考其 CLAUDE.md / 結構）**
+**Karpathy 自建 KB（同本 vault `wiki/` 同派，最值參考其 CLAUDE.md / 結構）**
 | ★ | repo |
 |---|---|
 | 2.97k | SamurAIGPT/llm-wiki-agent |
 | 2.5k | eugeniughelbur/obsidian-second-brain |
 | 1.5k | ballred/obsidian-claude-pkm（Obsidian+Claude Code PKM starter kit）|
 | 1.2k | alchaincyf/obsidian-ai-orange-book（中文）|
-| 400 | NicholasSpisak/second-brain（明言 based on Karpathy LLM Wiki pattern ＝本 vault 孖生）|
+| 400 | NicholasSpisak/second-brain（明言 based on Karpathy LLM Wiki pattern ＝本 vault `wiki/` 孖生）|
 | 110 | helloianneo/obsidian-ai-second-brain（中文・4 階段 12 步）|
 
 **工具層 / plugin / 記憶**
@@ -62,14 +62,15 @@ tags:
 | ★ | repo |
 |---|---|
 | 563 | agarwalvishal/claude-chat-exporter |
-| **195** | **jimmc414/cctrace（匯出 Claude Code session → md+XML，最啱本 vault 模式）** |
+| **195** | **jimmc414/cctrace（匯出 Claude Code session → md+XML，最啱本 vault 補①派 raw archive 嘅 gap）** |
 | 167 | ryanschiang/claude-export |
 
 ## Takeaway / 可補強
 
-- 本 vault 有明確高星 peer（NicholasSpisak/second-brain、SamurAIGPT/llm-wiki-agent、ballred/obsidian-claude-pkm）→ 抄佢哋 `CLAUDE.md`／資料夾慣例最對路。
-- 最啱「Claude Code 模式」嘅完整對話留底工具 ＝ **`cctrace`**（補「收工蒸餾」之外嘅 raw session 留底）。
+- 本 vault `wiki/` 有明確高星 peer（NicholasSpisak/second-brain、SamurAIGPT/llm-wiki-agent、ballred/obsidian-claude-pkm）→ 抄佢哋 `CLAUDE.md`／資料夾慣例最對路。
+- 最啱「Claude Code 模式」嘅完整對話留底工具 ＝ **`cctrace`**——本 vault 想補 raw archive gap 時可直接套用（提議中 `Claude history/`）；唔需要將原始對話強行入 `wiki/`。
 - 純網頁對話留底 → claudian / export script 類。
+- **重要 framing**：raw archive 同 wiki compounding **唔對立**——前者係 audit／回顧層、後者係 compounding 知識層。Vault mixed-mode 容納兩者同時存在於唔同 root folder。
 
 ## Open / Next actions
 - [ ] 深挖 peer vault `NicholasSpisak/second-brain` + `ballred/obsidian-claude-pkm` 嘅 CLAUDE.md，比對有冇好慣例可抄

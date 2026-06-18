@@ -14,7 +14,7 @@ updated: 2026-06-18
 - **降掃描成本**：全文移檔尾 + 分隔線、frontmatter 加 `summary:`（triage 用 `get_frontmatter`/`Read --limit` 零 body 成本）、search-first 守則。`.base` 本來只讀 frontmatter。改 raw/ 唔慳 disk（搬層問題、非空間問題）。
 - **Backfill**：9 個現有 bookmark 全部套用（defuddle 全文、剝 badge/圖片/空連結殼、natto trim sidebar）。全屬 reference source（非社媒）→ Key Comments 不適用 → **社媒留言抓取路徑仍未真正測過**。
 - **工具**：全局裝 `defuddle 0.19.0`。cleanup 慣例（剝 badge/圖片/空連結殼 + trim nav + 驗 0 殘跡）已寫入 parent `~/AI/Claude/CLAUDE.md` pipeline。
-- **研究歸檔**：[[Recording Claude Conversations in Obsidian]]（兩派哲學：存原始 vs 蒸餾；本 vault 屬蒸餾派；GitHub 高星 peer：NicholasSpisak/second-brain 400★、SamurAIGPT/llm-wiki-agent 2.97k★、ballred/obsidian-claude-pkm 1.5k★；最啱本模式嘅對話留底工具 = jimmc414/cctrace 195★）。
+- **研究歸檔**：[[Recording Claude Conversations in Obsidian]]（兩派哲學：存原始 vs 蒸餾；本 vault 屬 **mixed-mode**——`wiki/` 跟蒸餾派、其他 root folder 各有邏輯，原始對話 archive 唔屬 Karpathy 範圍；GitHub 高星 peer：NicholasSpisak/second-brain 400★、SamurAIGPT/llm-wiki-agent 2.97k★、ballred/obsidian-claude-pkm 1.5k★；補 raw archive gap 工具 = jimmc414/cctrace 195★）。
 - 未 push commit 多個（bookmark convention + backfill + research）→ 用戶喺自己終端機 push。
 
 ## Key Recent Facts

@@ -6,3 +6,8 @@
 .trash/
 .DS_Store
 node_modules/
+
+# Claude history/: 原始對話 archive，含 prompt/response、可能夾 secret/PII
+# Hub MOC + .base 保留追蹤；session 內容唔 push
+Claude history/20*/
+

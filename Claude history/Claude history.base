@@ -1,0 +1,69 @@
+properties:
+  type:
+    displayName: 類型
+  project:
+    displayName: Project
+  date:
+    displayName: 日期
+  started:
+    displayName: 開始
+  updated:
+    displayName: 更新
+  turns:
+    displayName: 對話數
+  model:
+    displayName: Model
+  git_branch:
+    displayName: Branch
+  status:
+    displayName: 狀態
+  tags:
+    displayName: Tags
+views:
+  - type: table
+    name: All sessions
+    filters:
+      and:
+        - type == "claude-session"
+    order:
+      - file.name
+      - project
+      - date
+      - turns
+      - model
+      - updated
+  - type: table
+    name: Active (not archived)
+    filters:
+      and:
+        - type == "claude-session"
+        - status != "archived"
+    order:
+      - file.name
+      - project
+      - date
+      - turns
+      - updated
+  - type: table
+    name: By project
+    filters:
+      and:
+        - type == "claude-session"
+    groupBy:
+      property: project
+      direction: ASC
+    order:
+      - file.name
+      - date
+      - turns
+      - updated
+  - type: cards
+    name: Recent
+    filters:
+      and:
+        - type == "claude-session"
+    order:
+      - file.name
+      - project
+      - turns
+      - updated
