@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-18 21:40 HKT] research | 歸檔研究頁 [[Recording Claude Conversations in Obsidian]]（type: synthesis, domain: pkm）：大家點用 Obsidian 記錄 Claude 對話——兩派哲學（存原始 vs 蒸餾）、A–E 五類做法、GitHub 高星 landscape（REST API by stars）。更新 index.md（filed answers）+ hot.md（session 摘要）。Sources 含 cctrace/claudian/NicholasSpisak-second-brain 等
+
 ## [2026-06-18 21:12 HKT] config | bookmark pipeline 寫入「存全文前 cleanup」標準步驟（parent CLAUDE.md step 1 + memory）：剝 badge/圖片、剝空連結殼、trim sidebar nav、存前驗 0 殘跡（附確切 perl regex）。另記 defuddle CLI 用法 + zsh/RTK 批次處理改用 Python
 
 ## [2026-06-18 20:58 HKT] backfill | 現有 9 個 bookmark 套用新全文預設：defuddle 抽全文（剝 badge/圖片雜訊、natto trim sidebar nav）寫入各檔尾 `## Full Content (archived)` + `## Key Comments`（全屬 reference source/非社媒 → 留言不適用）；frontmatter 補 `summary:`、bump `updated: 2026-06-18`。YAML 全驗過。Bookmarks/ 手動 commit。另全局裝 defuddle 0.19.0
