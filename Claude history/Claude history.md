@@ -46,9 +46,17 @@ Claude history/
 ## 技術細節
 
 - Hook script：`~/.claude/hooks/log-claude-session.py`（Python 3、~200 行）
-- State：`~/.claude/state/claude-history-sessions.json`（`session_id → {file_path, last_uuid, turn_count}`）
+- Backfill script：`~/.claude/hooks/backfill-claude-history.py`（一次性掃 `~/.claude/projects/` 全部 jsonl，冪等；backfilled 檔有 `status: archived` + `backfilled` tag + `> Backfilled from...` 註）
+- State：`~/.claude/state/claude-history-sessions.json`（`session_id → {file_path, last_uuid, turn_count}`，hook ＋ backfill 共用，做 dedup）
 - Errors：`~/.claude/state/claude-history-errors.log`（hook 永不 block Claude Code）
 - 數據源：Claude Code 自己嘅 transcript jsonl `~/.claude/projects/<hash>/<session>.jsonl`（source-of-truth，呢度只係 mirror／human-readable view）
+- **Mid-session activation**：實測 Claude Code 喺改 `~/.claude/settings.json` 之後 mid-session 都會 pick up Stop hook（唔需重開 session）；2026-06-19 setup 嗰陣本身 session 嘅對話從第 1 turn 起就完整 mirror 落 vault
+
+## 初始 backfill（2026-06-19）
+
+- 31 個 jsonl 掃完：29 個 .md 創建（2026-05-31 → 2026-06-19）、1 個跳過（current session by hook）、1 個跳過（empty／純 queue meta jsonl）、0 error
+- 每個 backfilled 檔 frontmatter：`status: archived`、`tags: [claude-history, backfilled]`、加 `ended:` 欄
+- 重跑 `backfill-claude-history.py` 安全（state file dedup）
 
 ## Related
 

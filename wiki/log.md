@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 03:35 HKT] backfill | Claude history 一次性 backfill：`~/.claude/hooks/backfill-claude-history.py`（重用 hook 嘅 parsing／filter／format 邏輯、state-file dedup、idempotent）掃 `~/.claude/projects/` 全部 jsonl→29 個 session .md 創建（2026-05-31 → 2026-06-19），1 跳過（current session by hook）、1 跳過 empty、0 error。Backfilled 檔有 `status: archived` + `tags: [claude-history, backfilled]` + `ended:` 欄、頂部「> Backfilled from...」註。**意外發現：Stop hook 喺改 settings.json 之後 mid-session 即時 picked up**——current session 從第 1 turn 起已完整 mirror 入 vault；唔需重開先 work，記憶已 update。Hub MOC（`Claude history/Claude history.md`）加 backfill 章。
+
 ## [2026-06-19 03:15 HKT] feature | 新增 Claude history 自動記錄系統：(i) `~/.claude/hooks/log-claude-session.py`（Python，per-turn Stop hook，parse transcript jsonl、剝 `<system-reminder>`/`<local-command-*>` CLI 雜訊、frontmatter `type: claude-session`、HKT 時間戳）；(ii) `~/.claude/settings.json` 加 Stop hook 註冊；(iii) vault root 新增 `Claude history/`（hub MOC + .base 4 view）；(iv) `.gitignore` exclude session 內容（保留 hub）；(v) `Meta/extensions/hooks.md` catalog 新增。Smoke test 通過。**Settings load only at session start → 要新開 session 先生效**
 
 ## [2026-06-19 03:00 HKT] fix | Framing 修正：之前研究頁/hot 寫「本 vault 屬蒸餾派」係錯——vault 係 **mixed-mode**，Karpathy ②派只 gate `wiki/` + 部份 `raw/`；其他 root folder（Bookmarks/Inbox/Projects/Meta/提議中 Claude history/）各有自己邏輯。改：[[Recording Claude Conversations in Obsidian]] 6 處標籤 + hot.md 對應行 + 新 memory feedback-vault-mixed-mode
