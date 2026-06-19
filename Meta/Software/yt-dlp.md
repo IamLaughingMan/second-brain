@@ -50,7 +50,8 @@ yt-dlp -x --audio-format mp3 <URL>   # 然後餵 Whisper
 
 ## Gotcha
 
-- **`ffmpeg` 未裝** —— 純抓字幕／info-json **唔需要**；只有 merge 影音、轉檔、抽音（`-x`）先要 `brew install ffmpeg`。
+- **YouTube bot-wall（重要，2026-06-19 實測）**：headless IP 常見「Sign in to confirm you're not a bot」，換 player_client（tv/ios/web_safari/mweb）**冇用**。解法：`--cookies-from-browser chrome`（✓ work）。`safari` cookies 受 macOS sandbox 保護（`Operation not permitted`）攞唔到。⇒ **YouTube SOP**：`yt-dlp --skip-download --write-info-json --write-auto-sub --sub-lang "en,en-orig,zh-Hant" --cookies-from-browser chrome -o "/tmp/ytdl/%(id)s.%(ext)s" <URL>`。
+- **`ffmpeg` 未裝** —— 純抓字幕／info-json **唔需要**；但 `--convert-subs srt` 會因冇 ffmpeg 失敗 → 改 parse 原始 `.vtt`（去時間碼/去重即得乾淨逐字稿）。merge 影音/抽音（`-x`）先要 `brew install ffmpeg`。
 - Bash 有網絡（實測 YouTube 200）⇒ Claude 可自行跑，毋須開終端。
 - yt-dlp 更新快，YouTube 一改格式舊版易壞 → 偶爾 `brew upgrade yt-dlp`。
 
