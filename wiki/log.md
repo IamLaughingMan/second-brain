@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 23:16 HKT] bookmark | Serena心心加州「Obsidian+AI 第二大腦保姆級教程」YouTube（`RZEb6FLZSHE`，15:47，99k views）→ `Bookmarks/AI/LLM Wiki/`（user-supplied）。實戰 workflow 片：人手 zh-CN 字幕 → yt-dlp + opencc s2hk 轉正體（~5.7k 字）。**亮點技巧 = 兩層導航控 token**（root CLAUDE.md 文件夾地圖 + 每夾 instructions.md，漸進式披露）；另 context/ 夾、Web Clipper/Apple Books/iPhone Action Button 語音捕捉、Canvas、daily notes handoff、Obsidian CLI 省 token。My Notes 對照本 vault：兩層 CLAUDE.md 可評估、daily handoff≈收工workflow+history hook 已有。link Dustin/杰森。Bookmarks/ 手動 commit。
+
 ## [2026-06-19 23:04 HKT] bookmark | Jason（杰森）「Karpathy LLM Wiki 完整實作指南」（jasonai.me）→ `Bookmarks/AI/LLM Wiki/`（user-supplied）。= 杰森影片嘅**完整文字版** + jason-effi-lab repo 嘅散文來源：核心理念（RAG→Compilation）、三層架構、終極比喻（Obsidian=IDE/LLM=程序員/Wiki=代碼庫）、完整目錄結構 + CLAUDE.md 範例 + ingest/query/lint 三 skill 全文。defuddle 抽 + **opencc s2hk 轉正體**（39.5KB）。同已存兩條（影片+repo）高度重疊，已三方互 link。My Notes 重申 skill 化藍本＋適配本 vault（archive→status、HKT/dual-log、繁體）。Bookmarks/ 手動 commit。
 
 ## [2026-06-19 22:52 HKT] install | 裝咗 Obsidian community plugin **Excalidraw**（`obsidian-excalidraw-plugin` v2.24.2，zsviczian）—— 經 GUI Browse 裝（Restricted Mode 關咗），為配合 `obsidian-visual-skills:excalidraw-diagram` skill（skill 生成 `.excalidraw`，要呢插件 render）。**本 vault 首個 community plugin**（之前刻意 0，只為視覺 skill 破例）。`[[plugins]]` catalog community 段更新。`.obsidian/` 喺 auto-commit + 手動 commit scope 外（Obsidian 自管），唔入 git。
