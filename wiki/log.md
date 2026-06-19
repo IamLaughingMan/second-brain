@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 21:54 HKT] config | 簡→正體中文（香港）：使用者指示「存檔內容轉正體，下次記住」。① 裝 `opencc 1.3.1`（brew，入 [[Software]] catalog）② 用 `s2hk` 轉柒星棧 bookmark 全文（簡→繁香港），檔名 `git mv` 柒星栈→柒星棧、实践→實踐 ③ 把「簡體→正體」加做 `~/AI/Claude/CLAUDE.md` bookmark cleanup **step 5**（s2hk、只轉中文唔郁 code/URL、code block 保留）④ 新 memory `feedback-convert-simplified-to-traditional` + MEMORY.md index。以後存簡體源內容自動轉正體。Bookmarks/+Meta/ 手動 commit；CLAUDE.md/memory 喺 vault repo 外。
+
 ## [2026-06-19 21:40 HKT] bookmark | 柒星栈（知乎）「Claude Code 最佳实践三件套」→ `Bookmarks/AI/Claude Code/`（user-supplied URL）。**知乎封自動抓取**（defuddle/WebFetch/curl 全 403，login+anti-bot）→ **全文由使用者 paste**（誠實標 provenance）。內容 = 三件套：`andrej-karpathy-skills`（13.7K★，**= 你 ~/.claude/CLAUDE.md 四原則**）+ `claude-mem`（46.1K★，記憶系統）+ `claude-code-best-practice`（42.3K★，L1-L4 配置，已喺雷蒙 hub）。My Notes 映射本 vault：karpathy skills 你已裝、best-practice 已 bookmark、claude-mem vs 你 curated memory+history hook、CLAUDE.md<150 條 vs 你偏長、permissions.deny 可考慮。Bookmarks/ 手動 commit。
 
 ## [2026-06-19 21:26 HKT] bookmark | 雷蒙（Raymond Hou）Lifehacker 台灣「Claude Code 學習資源 hub」（cc.lifehacker.tw/#resources）→ `Bookmarks/AI/Claude Code/`（user-supplied）。策展頁：官方文件＋Anthropic 課程＋社群指南＋雷蒙系列中文文章＋影片，逐條附 URL/程度標註，整理落 Key Takeaways。defuddle 抽資源區（37KB 頁只取 #resources，略 promo/評價）。My Notes 標 3 篇 ⭐ 呼應本 vault 近期決定（AGENTS.md/CLAUDE.md/SSOT 分層、唔起 Agent Team、Skill=點做事）；雷蒙=早前 Raymond Hou Starter Kit 同源。status active（持續更新）。Bookmarks/ 手動 commit。

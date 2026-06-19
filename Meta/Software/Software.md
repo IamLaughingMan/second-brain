@@ -47,6 +47,7 @@ tags:
 | claude-auto-retry | 0.2.2 | npm -g | `~/.npm-global/…/claude-auto-retry` | 2026-06-06 | — | Claude Code auto-retry（zshrc wrapper） | 使用中 |
 | claude-conversation-extractor | 1.1.2 | pip | `~/opt/anaconda3/bin/claude-extract` | 2026-06-04 | — | 抽取/搜尋 Claude 對話（claude-extract/search/logs） | 使用中 |
 | happy (Happy Coder) | 1.1.9 | npm -g | `/usr/local/lib/node_modules/happy-coder` | 2026-05-26 | — | Happy harness CLI（呢個 session 跑緊；zsh function wrapper） | 使用中 |
+| opencc | 1.3.1 | brew | `/opt/homebrew/bin/opencc` | 2026-06-19 | Claude 幫手 | 簡↔繁中文轉換；bookmark 存檔簡體轉正體用 `s2hk`（簡→繁香港） | 使用中 |
 
 > `uvx` 由 `uv` 提供、`npx` 由 `node`（npm）提供 —— 兩個係 **runner，唔係獨立 install**，故併入母工具 row。`npm -g` 嘅工具（defuddle / claude-auto-retry / happy）全部靠上面個 `node`。
 
