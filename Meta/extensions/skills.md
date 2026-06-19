@@ -4,7 +4,7 @@ title: "Skills"
 para: resource
 status: active
 created: 2026-06-16
-updated: 2026-06-17
+updated: 2026-06-19
 tags:
   - meta
   - extensions
