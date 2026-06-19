@@ -21,6 +21,9 @@ tags:
 - [[plugins]] — Obsidian plugins（`.obsidian/plugins/`）+ Claude Code plugins（`~/.claude/plugins/`）
 - [[hooks]] — Claude Code hooks（`*/settings.json`：PostToolUse / UserPromptSubmit / Stop / statusLine 等）
 
+> [!info] 唔屬擴充嘅系統工具睇 [[tools]]
+> 獨立 CLI／app／套件（如 `yt-dlp`，brew/pip 裝、喺 shell/OS 層跑、唔係 agent 擴充）歸 `Meta/tools/`，唔放呢度。
+
 ## 規矩
 
 - **唔搬真身入 vault**：每類嘅物理載入路徑都由 tool spec 寫死（例 Claude Code 嘅 `.claude/skills/`），呢個 folder 只係 catalog／文檔。
