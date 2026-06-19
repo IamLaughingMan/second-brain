@@ -38,7 +38,8 @@ Catalog 頁。Hub：[[extensions]]。
 
 ### Obsidian community plugins
 
-（暫時零安裝。）
+- **`obsidian-excalidraw-plugin`**（Excalidraw，作者 zsviczian，`v2.24.2`，2026-06-19 裝）—— 手繪風白板/圖；**為配合 `obsidian-visual-skills:excalidraw-diagram` skill 而裝**（skill 生成 `.excalidraw`，要呢個插件先 render/編輯）。物理位置 `.obsidian/plugins/obsidian-excalidraw-plugin/`，enable 喺 `.obsidian/community-plugins.json`。
+- **註**：本 vault 首個 community plugin（之前刻意 0）；只為視覺 skill 而破例。經 Obsidian GUI（Browse → Install → Enable）裝，有 auto-update。
 
 ### Claude Code plugins（**user-level**，`~/.claude/settings.json` 嘅 `enabledPlugins`）
 
