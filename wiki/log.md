@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 23:04 HKT] bookmark | Jason（杰森）「Karpathy LLM Wiki 完整實作指南」（jasonai.me）→ `Bookmarks/AI/LLM Wiki/`（user-supplied）。= 杰森影片嘅**完整文字版** + jason-effi-lab repo 嘅散文來源：核心理念（RAG→Compilation）、三層架構、終極比喻（Obsidian=IDE/LLM=程序員/Wiki=代碼庫）、完整目錄結構 + CLAUDE.md 範例 + ingest/query/lint 三 skill 全文。defuddle 抽 + **opencc s2hk 轉正體**（39.5KB）。同已存兩條（影片+repo）高度重疊，已三方互 link。My Notes 重申 skill 化藍本＋適配本 vault（archive→status、HKT/dual-log、繁體）。Bookmarks/ 手動 commit。
+
 ## [2026-06-19 22:52 HKT] install | 裝咗 Obsidian community plugin **Excalidraw**（`obsidian-excalidraw-plugin` v2.24.2，zsviczian）—— 經 GUI Browse 裝（Restricted Mode 關咗），為配合 `obsidian-visual-skills:excalidraw-diagram` skill（skill 生成 `.excalidraw`，要呢插件 render）。**本 vault 首個 community plugin**（之前刻意 0，只為視覺 skill 破例）。`[[plugins]]` catalog community 段更新。`.obsidian/` 喺 auto-commit + 手動 commit scope 外（Obsidian 自管），唔入 git。
 
 ## [2026-06-19 22:40 HKT] install | 裝咗 Axton 視覺 skill plugin `obsidian-visual-skills@axton-obsidian-visual-skills`（Axton Liu / 回到Axton，~3k★ MIT）—— 3 個 skill：`obsidian-canvas-creator`（文字→.canvas 心智圖，補 json-canvas 排版洞）、`mermaid-visualizer`（文字→Mermaid，零依賴）、`excalidraw-diagram`（手繪風，需 Obsidian Excalidraw 插件）。**user-level**（第二個 Claude Code plugin，並存 obsidian-skills）。經 `/plugin` TUI 裝（CLI 無 TTY 跑唔到；一行式 install 唔 work，要入 TUI user-scope 確認 + reload；reload 報「0 skills」係 quirk，實際 3 skill 已 active）。catalog 更新：`[[skills]]`（Obsidian 5→8、2 plugin）+ `[[plugins]]`。CSV install start/success。Meta/ 手動 commit。
