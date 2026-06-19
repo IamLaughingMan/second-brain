@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 19:38 HKT] install | `yt-dlp 2026.06.09`（brew，`/opt/homebrew/bin/yt-dlp`，12 deps 含 python@3.14）—— 開啟 YouTube 記錄能力。Bash 實測有網絡（YouTube 200）⇒ Claude 可自行跑。用途：抓 metadata（`--write-info-json --write-description`）+ **字幕/transcript**（`--write-auto-sub --write-sub --sub-lang en,zh-Hant,zh-Hans --convert-subs srt`）→ 落 `raw/transcripts/<slug>.md`（不可變 source）→ ingest 入 wiki，或塞 YouTube bookmark 嘅 `## Full Content`。`ffmpeg` 未裝（字幕唔需要；冇字幕嘅片要抽音轉錄先補 ffmpeg + Whisper）。install start/success 兩 row 已入 CSV。
+
 ## [2026-06-19 19:30 HKT] config | Superpowers 記入 extensions catalog，marker = **候選**（揀「候選/candidate」勝過「備用/未用」——評估過＋特定情境會採用之意）。`Meta/extensions/plugins.md`：頂部立 catalog 狀態詞彙（使用中／候選／已移除）+ 新「## 候選（評估過・未採用）」段（superpowers 全評估＋採用條件 per-project enable＋跨 project 提醒指標）。`skills.md`：加「## 候選 skill-bundle」一行 pointer（14 dev skill、重疊 built-in code-review/verify/write-tests）。兩檔 updated 已係 06-19。Meta/ 手動 commit。
 
 ## [2026-06-19 19:24 HKT] config | Superpowers 決定 = 擺住 reference 先（唔裝）。喺 `~/AI/Claude/CLAUDE.md`（跨 project shared，loose config 非 repo、即改即生效）加「## 候選工具提醒（parked）」段：將來喺**實質 code project** 要結構化 TDD/plan/review 嗰陣，輕提使用者試 Superpowers（per-project enable、唔好 user-level、講埋 SessionStart 同 CLAUDE.md 競爭 trade-off），唔硬推、純筆記工作唔提。Bookmark Status 改 parked reference。跨 project memory 唔靠 vault memory（只 load 本 vault），靠 shared CLAUDE.md 機制。
