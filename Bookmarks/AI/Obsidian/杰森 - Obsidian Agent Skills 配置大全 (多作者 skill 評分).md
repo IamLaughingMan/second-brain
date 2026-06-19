@@ -56,7 +56,7 @@ tags:
 
 ## My Notes
 
-- **⭐ defuddle 支援 YouTube（官方 API，非 yt-dlp）**：文章話 defuddle 最近更新支援 YouTube 連結，抓字幕用 **YouTube 官方 API**。⇒ **可試**用 defuddle 取代 yt-dlp 抓 YouTube（避開 bot-wall + cookies 麻煩，見 [[yt-dlp]] gotcha）。注意本機 defuddle 係 0.19.0，要確認版本有無此功能。
+- **defuddle YouTube：實測唔掂（2026-06-19 已驗）**：文章話 defuddle 支援 YouTube 官方 API 抓字幕，但**實測 npm `defuddle` CLI `0.19.0`（= 最新版）抓 YouTube 直接報錯 `Invalid URL`**，攞唔到 metadata/字幕。⇒ 文章嘅 YouTube 支援**唔喺 npm CLI**（或係指 obsidian-skills skill 層／未 ship）。**結論：抓 YouTube 仍用 [[yt-dlp]] + `--cookies-from-browser chrome`**，defuddle 唔係替代品。
 - **Axton 視覺系 3 skill = 最值得考慮嘅 candidate**：obsidian-canvas-creator（json-canvas 加強，自動排版唔重疊）、mermaid-visualizer、excalidraw-diagram —— 本 vault 重 wikilink/graph，視覺化輸出或有用。
 - **kepano 評分對照**：你全裝 5 個；文章畀 `json-canvas` ❌（建議用 Axton canvas-creator 替）、`obsidian-markdown` ⚠️（但可塞自己格式偏好入 skill）。
 - **插件部分（claudian / obsidian-agent-client）**：本 vault **CLI-first 唔用**（見 [[杰森 - Obsidian 接入 Claude Skill 教程 (Claudian + obsidian-skills)]]）。`obsidian-agent-client` 係新嘢（適配 Claude Code/Codex/Gemini/OpenCode/Qwen，BRAT 裝），純參考。

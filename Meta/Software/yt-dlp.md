@@ -54,6 +54,7 @@ yt-dlp -x --audio-format mp3 <URL>   # 然後餵 Whisper
 - **`ffmpeg` 未裝** —— 純抓字幕／info-json **唔需要**；但 `--convert-subs srt` 會因冇 ffmpeg 失敗 → 改 parse 原始 `.vtt`（去時間碼/去重即得乾淨逐字稿）。merge 影音/抽音（`-x`）先要 `brew install ffmpeg`。
 - Bash 有網絡（實測 YouTube 200）⇒ Claude 可自行跑，毋須開終端。
 - yt-dlp 更新快，YouTube 一改格式舊版易壞 → 偶爾 `brew upgrade yt-dlp`。
+- **defuddle 唔係替代品（2026-06-19 實測）**：有文章話 `defuddle` 支援 YouTube 官方 API 抓字幕，但 npm `defuddle` CLI `0.19.0`（最新）抓 YouTube 直接 `Invalid URL` 報錯。⇒ YouTube 仍靠 yt-dlp + chrome cookies，**唔好再試 defuddle 抓 YouTube**。
 
 ## 接 vault pipeline
 
