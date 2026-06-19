@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 20:12 HKT] feature | 新增**跨-AI 溝通**機制（雙向）：(1) root **`AGENTS.md`**（vendor-neutral，俾 Codex/Gemini/Cursor 等其他 AI 自動讀）—— 介紹 vault 由 Claude 維護、指引其他 AI ① 讀 `CLAUDE.md` ② 去溝通頻道讀/留言 ③ 回應時報名（AI 名+model）。(2) **`Meta/ai-comms/ai-comms.md`** —— protocol + append-only 訊息板二合一，報名格式 `[<AI>/<model> · HKT]`，seed 訊息由 Claude(Opus 4.8) 開張。CLAUDE.md 加「跨-AI 溝通」section（教 Claude 自己點用 + 手動 commit）+ root 樹補 AGENTS.md/ai-comms + auto-commit scope 註加 AGENTS.md。夾名選 `ai-comms`。全部 hook scope 外、手動 commit。
+
 ## [2026-06-19 20:08 HKT] config | `Meta/Software/Software.md` 補 runtime row：新增 **node（帶 npm/npx，v24.16.0 / npm·npx 11.13.0，`.pkg/manual` @ `/usr/local/bin`，非 brew）**；`uv` row 標明帶 `uvx`。核實：`uvx`⊂uv（brew Cellar 同帶 bin/uv+bin/uvx）、`npx`⊂node（npm 一齊嚟）→ 兩個係 runner 非獨立 install，併入母工具 row 並加註解行。`npm -g` 工具（defuddle/claude-auto-retry/happy）全靠呢個 node。Meta/ 手動 commit。
 
 ## [2026-06-19 20:02 HKT] config | 兩件：(1) **補 MCP catalog 頁** `Meta/extensions/mcp.md`（對 `~/.claude.json` 核實）：`obsidian-vault`（user scope，npx @bitbonsai/mcpvault）、`filesystem`+`fetch`（**project-scoped 落 `~/AI/Claude/General`**，故本 vault session 見唔到）、`happy`（Happy harness 注入）。記低 user/project/harness 三 scope + scope 陷阱。extensions hub 由「三類」改「四類」加 [[mcp]]。(2) **`Meta/tools/` 改名 `Meta/Software/`**（使用者選 Software，涵蓋 CLI+macOS app+套件勝過「tools」）：`git mv` folder + `tools.md`→`Software.md`；更新 title/heading/tags(tools→software)、自引用、`[[tools]]`→`[[Software]]`（yt-dlp.md、extensions.md）；MCP gap 註改為已建。CLAUDE.md Meta 樹補 `Software/` + `mcp.md`。殘留 `[[tools]]` 只剩 append-only log + Claude history transcript（不改）。Meta/ + CLAUDE.md 手動 commit。
