@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 20:40 HKT] bookmark | 杰森的效率工坊「Karpathy LLM Wiki 進階」YouTube（`CTyx5XF2KVA`）→ `Bookmarks/AI/LLM Wiki/`（user-supplied）。同 Paula 入門版同主題但**進階**：三層架構 + 三操作（ingest/query/lint）**skill 化**、Obsidian CLI 省 token、Skill Creator、配套 repo `jason-effi-lab/karpathy-llm-wiki-vault`。今次有**人手繁體字幕** zh-Hant → yt-dlp `--write-sub --cookies-from-browser chrome` 攞到，parse vtt 得 ~5.3k 字繁體逐字稿全 archive。多處同本 vault 重疊（AGENTS.md、synthesis type、obsidian-cli、lint），My Notes 標咗可借鏡 skill 化。link 返 Paula 版 + karpathy gist。Bookmarks/ 手動 commit。
+
 ## [2026-06-19 20:28 HKT] bookmark | Paula 寶拉「Karpathy 筆記術」YouTube（`FdSO1Yhr76I`）→ `Bookmarks/AI/LLM Wiki/`（user-supplied）。**首次實戰 yt-dlp**：YouTube 出 bot-wall，換 player_client 無效，靠 `--cookies-from-browser chrome` 攞到 info-json + en 自動字幕（safari cookies 受 sandbox 擋）；srt 轉換因冇 ffmpeg 失敗 → parse 原 `.vtt` 去碼去重得 ~10k 字逐字稿，連中文章節描述全 archive。內容正係本 vault 基礎方法（Karpathy LLM-wiki：raw+wiki+index+log+claude.md、無 RAG）。YouTube cookies SOP 補入 `[[yt-dlp]]` gotcha。Bookmarks/ 手動 commit。
 
 ## [2026-06-19 20:18 HKT] config | 修正 `AGENTS.md`：原本只 pointer 指住 `CLAUDE.md`，但其他 AI 唔會自動有 CLAUDE.md 內容（佢哋只 auto-read AGENTS.md），且 CLAUDE.md 多嘢 Claude 專屬。改為 **AGENTS.md 自含「Vault conventions」section**（agent-agnostic 子集:frontmatter／wikilink uniqueness／raw 唯讀／index／log append-only＋format／dual-log／HKT／status-over-folder／commit scope／no-push／ask-before-destructive），令其他 AI 淨讀 AGENTS.md 都有齊核心規矩。確立 **AGENTS.md ⊂ CLAUDE.md** 兩層拆分:通用規矩兩檔同步、Claude 專屬只入 CLAUDE.md、衝突 CLAUDE.md 為準。CLAUDE.md 跨-AI section 補同步責任。
