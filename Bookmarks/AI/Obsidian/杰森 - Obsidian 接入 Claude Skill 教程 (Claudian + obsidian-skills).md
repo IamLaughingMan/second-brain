@@ -2,7 +2,7 @@
 type: bookmark
 para: resource
 domain: ai-tools
-title: "Obsidian 接入 Claude Skill 教程：CEO亲自下场写的Skill如何使用？"
+title: "Obsidian 接入 Claude Skill 教程：CEO親自下場寫的Skill如何使用？"
 url: "https://jasonai.me/blog/obsidian-ceo-claude-skill-tutorial/"
 author: "Jason（杰森的效率工坊）"
 published: 2026-01-16
@@ -66,47 +66,47 @@ tags:
 
 ## Obsidian AI Agent 配置指南：Claudian + Obsidian Skills
 
-### 1. 核心组件
-- **Claudian**: Obsidian 第三方插件（暂未上架官方市场），适配 Claude Code。
-- **Obsidian Skills**: 由 Obsidian CEO (Kepano) 发布的 Skill 包，赋予 AI 处理 Canvas、Markdown 及数据库的能力。
+### 1. 核心組件
+- **Claudian**: Obsidian 第三方插件（暫未上架官方市場），適配 Claude Code。
+- **Obsidian Skills**: 由 Obsidian CEO (Kepano) 發佈的 Skill 包，賦予 AI 處理 Canvas、Markdown 及數據庫的能力。
 
-### 2. 环境部署流程
+### 2. 環境部署流程
 
-#### 2.1 安装 Claudian 插件 (手动旁加载)
-1. **获取文件**: 访问 GitHub 仓库 `claudian`，下载三个核心文件。
-2. **放置插件**: 进入 Obsidian 仓库根目录 → `.obsidian/plugins/` → 新建文件夹 `claudian` → 将三个文件放入。
-3. **启用**: 重启 Obsidian，在"第三方插件"中开启 Claudian。
+#### 2.1 安裝 Claudian 插件 (手動旁加載)
+1. **獲取文件**: 訪問 GitHub 倉庫 `claudian`，下載三個核心文件。
+2. **放置插件**: 進入 Obsidian 倉庫根目錄 → `.obsidian/plugins/` → 新建文件夾 `claudian` → 將三個文件放入。
+3. **啓用**: 重啓 Obsidian，在"第三方插件"中開啓 Claudian。
 
-#### 2.2 配置模型参数
-1. 打开 Claudian 设置页。
-2. **基础设置**: 设置 `User Name` (如 Jason)。
-3. **自定义AI模型**: 使用智谱GLM或DeepSeek来替换Claude模型：
+#### 2.2 配置模型參數
+1. 打開 Claudian 設置頁。
+2. **基礎設置**: 設置 `User Name` (如 Jason)。
+3. **自定義AI模型**: 使用智譜GLM或DeepSeek來替換Claude模型：
 ```bash
 ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic
-ANTHROPIC_API_KEY=你的智谱api key
+ANTHROPIC_API_KEY=你的智譜api key
 ANTHROPIC_DEFAULT_OPUS_MODEL=GLM-4.6
 ```
-4. **连通性验证**: `Ctrl/Cmd + P` 调出命令面板 → 输入 `claudian` → 选择 `Open chat view` → 发送"你好"，回复正常则成功。
+4. **連通性驗證**: `Ctrl/Cmd + P` 調出命令面板 → 輸入 `claudian` → 選擇 `Open chat view` → 發送"你好"，回覆正常則成功。
 
 #### 2.3 部署 Obsidian Skills
-1. **下载**: 访问 GitHub 仓库 `kepano/obsidian-skills`，下载 ZIP 并解压。
-2. **安装**: 复制解压后的 `skills` 文件夹 → 进入 Obsidian 仓库根目录 → 进入或新建 `.claude` 隐藏文件夹 → 粘贴（最终路径 `[Vault Root]/.claude/skills/`）。
-3. **验证**: 在 Claudian 对话框输入 `/skills`，应显示三个 Skill：`obsidian-markdown`（专有 Markdown 语法）、`json-canvas`（生成/编辑无限画布）、`obsidian-bases`（数据库管理）。
+1. **下載**: 訪問 GitHub 倉庫 `kepano/obsidian-skills`，下載 ZIP 並解壓。
+2. **安裝**: 複製解壓後的 `skills` 文件夾 → 進入 Obsidian 倉庫根目錄 → 進入或新建 `.claude` 隱藏文件夾 → 粘貼（最終路徑 `[Vault Root]/.claude/skills/`）。
+3. **驗證**: 在 Claudian 對話框輸入 `/skills`，應顯示三個 Skill：`obsidian-markdown`（專有 Markdown 語法）、`json-canvas`（生成/編輯無限畫布）、`obsidian-bases`（數據庫管理）。
 
-### 3. 实战应用与技巧
+### 3. 實戰應用與技巧
 
-#### 3.1 典型用例：生成知识图谱
-- **指令**: "使用无限画布 canvas 画出地中海饮食的知识结构图，并保存到根目录。"
-- **流程**: AI 自动调用 `json-canvas` skill → 分析逻辑 → 在根目录直接生成 `.canvas` 文件。
+#### 3.1 典型用例：生成知識圖譜
+- **指令**: "使用無限畫布 canvas 畫出地中海飲食的知識結構圖，並保存到根目錄。"
+- **流程**: AI 自動調用 `json-canvas` skill → 分析邏輯 → 在根目錄直接生成 `.canvas` 文件。
 
-#### 3.2 优化
-Skill 定义为英文，中文指令可能导致匹配偏差，建议：
-- **显式指令**: 在 Prompt 中明确指定工具名（如"请使用 json-canvas skill…"）。
-- **系统提示词**: 在插件设置中添加规则 ——"收到指令后优先思考并匹配最合适的 Skill"。
+#### 3.2 優化
+Skill 定義為英文，中文指令可能導致匹配偏差，建議：
+- **顯式指令**: 在 Prompt 中明確指定工具名（如"請使用 json-canvas skill…"）。
+- **系統提示詞**: 在插件設置中添加規則 ——"收到指令後優先思考並匹配最合適的 Skill"。
 
 ### 4. 理念解析：Why Local Agent?
-- **官方态度 (Stephan Ango/Kepano)**: 选择在个人 GitHub 账号而非 Obsidian 官方账号发布，体现"非官方强制"的定位。核心哲学：知行合一，坚持 **Local-first** 和 **Privacy-first**，不构建封闭的官方 AI 环境，也不参与 AI 军备竞赛。
-- **差异化优势**: 不同于 Notion 的云端封闭生态；Obsidian 文件完全本地化，鼓励用户基于隐私安全"手搓"适合自己的 AI Agent。
+- **官方態度 (Stephan Ango/Kepano)**: 選擇在個人 GitHub 賬號而非 Obsidian 官方賬號發佈，體現"非官方強制"的定位。核心哲學：知行合一，堅持 **Local-first** 和 **Privacy-first**，不構建封閉的官方 AI 環境，也不參與 AI 軍備競賽。
+- **差異化優勢**: 不同於 Notion 的雲端封閉生態；Obsidian 文件完全本地化，鼓勵用户基於隱私安全"手搓"適合自己的 AI Agent。
 
 ## Key Comments
 （部落格文章，原頁無公開留言區 → 不適用。reference source link-rot 風險中等，已 archive 全文。）
