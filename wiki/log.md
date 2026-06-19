@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 22:18 HKT] bookmark | Jason（杰森）部落格「Obsidian AI Agent Skills 配置大全」（jasonai.me）→ `Bookmarks/AI/Obsidian/`（user-supplied）。多作者 11 個 Obsidian skill 評分表（kepano 5／Axton 視覺 3／OpenClaw／tutor／scholar）。**新規矩首次實戰**：簡體 defuddle 全文 → `opencc s2hk` 轉正體先存（append 入檔免重打）。核實使用者裝況：kepano 5 個全裝（plugin 版），Axton 3 個 + tutor/scholar 未裝。**關鍵發現**：文章話 defuddle 已支援 YouTube（官方 API、非 yt-dlp）→ 標記可試替代我哋撞過嘅 yt-dlp bot-wall（My Notes ⭐ + link [[yt-dlp]]）。Bookmarks/ 手動 commit。
+
 ## [2026-06-19 22:02 HKT] config | 轉 Jason 部落格 bookmark（jasonai.me）→ 正體（opencc s2hk）。**踩到 caveat**：s2hk 連專有名 杰森→傑森 都轉，整斷指向「杰森的效率工坊…」影片 bookmark 嘅 wikilink → 已把該檔 傑森 revert 返 杰森（保 link resolve）。memory `feedback-convert-simplified-to-traditional` 補咗呢個 proper-noun/wikilink caveat。Bookmarks/ 手動 commit。
 
 ## [2026-06-19 21:54 HKT] config | 簡→正體中文（香港）：使用者指示「存檔內容轉正體，下次記住」。① 裝 `opencc 1.3.1`（brew，入 [[Software]] catalog）② 用 `s2hk` 轉柒星棧 bookmark 全文（簡→繁香港），檔名 `git mv` 柒星栈→柒星棧、实践→實踐 ③ 把「簡體→正體」加做 `~/AI/Claude/CLAUDE.md` bookmark cleanup **step 5**（s2hk、只轉中文唔郁 code/URL、code block 保留）④ 新 memory `feedback-convert-simplified-to-traditional` + MEMORY.md index。以後存簡體源內容自動轉正體。Bookmarks/+Meta/ 手動 commit；CLAUDE.md/memory 喺 vault repo 外。
