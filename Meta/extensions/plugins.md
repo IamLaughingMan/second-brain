@@ -40,7 +40,7 @@ Catalog 頁。Hub：[[extensions]]。
 ### Claude Code plugins（**user-level**，`~/.claude/settings.json` 嘅 `enabledPlugins`）
 
 - **`obsidian@obsidian-skills`**（kepano / Steph Ango，~35k★，MIT）—— 提供 5 個 obsidian skill（見 [[skills]]）+ obsidian-cli 整合。cache：`~/.claude/plugins/cache/obsidian-skills/obsidian/1.0.1/`。Repo：https://github.com/kepano/obsidian-skills
-- **注意（2026-06-19 reconcile 修正）**：實際 enable 喺 **user-level**（`~/.claude/settings.json`），**唔係** vault-level —— vault `.claude/settings.json` 冇 `enabledPlugins`。故此 5 個 obsidian skill 喺**任何 project** 都 load 到，唔淨止本 vault。
+- **enable 喺 user-level = 刻意決定（唔好當 drift 改返 vault-level）**：實際 enable 喺 **user-level**（`~/.claude/settings.json`），vault `.claude/settings.json` 冇 `enabledPlugins`。理由（2026-06-19 使用者確認）：開**其他 project 時都可能要用 obsidian**（記筆記／操作本 vault），所以 5 個 obsidian skill 要喺**任何 project** 都 load 到。⇒ 保持 user-level，**唔搬去 vault-level**。
 
 ## 歷史
 
