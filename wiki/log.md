@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 19:52 HKT] backfill | `Meta/tools/tools.md` 回溯 activity CSV 補入既往工具，逐個 `which`/`/Applications` 核實仍在：**CLI 7**（yt-dlp / uv / rtk / defuddle / claude-auto-retry / claude-conversation-extractor / happy）+ **macOS app 3**（Obsidian brew-cask / cmux / Amphetamine Enhancer）。新增**裝法詞彙**答 macOS app 命名問題：`brew`/`brew-cask`/`npm -g`/`pip`/`App Store`/`.dmg/manual`；類型 `CLI`/`app`。**唔歸 tools/** 嘅 CSV install 標明去向：MCP Filesystem/Fetch→extensions（gap：無 MCP 頁）、claude-obsidian→plugins 歷史、Karpathy/Raymond Hou→config/reference。規矩放寬：table row mandatory、工具頁 optional。backfill 舊 row CSV 未記裝者 → 留「—」。Meta/ 手動 commit。
+
 ## [2026-06-19 19:44 HKT] feature | 新增 `Meta/tools/` catalog —— 記錄「我裝／Claude 幫手裝」嘅系統工具（CLI/app/套件），同 `extensions/`（Claude/Obsidian skills/plugins/hooks）+ activity CSV（事件流）分工清楚：tools = 當前狀態人類索引。組件：`tools.md` hub（清單表 + 狀態詞彙 使用中/候選/已移除 + 規矩 + 同 extensions/CSV 邊界）、`yt-dlp.md` 首頁（係咩/點裝/點用/gotcha/接 vault pipeline，frontmatter `type: tool` + `version/install_path/installed_by` 等）。`extensions.md` hub 加指返 [[tools]] 嘅邊界 callout。Meta/ 手動 commit。
 
 ## [2026-06-19 19:38 HKT] install | `yt-dlp 2026.06.09`（brew，`/opt/homebrew/bin/yt-dlp`，12 deps 含 python@3.14）—— 開啟 YouTube 記錄能力。Bash 實測有網絡（YouTube 200）⇒ Claude 可自行跑。用途：抓 metadata（`--write-info-json --write-description`）+ **字幕/transcript**（`--write-auto-sub --write-sub --sub-lang en,zh-Hant,zh-Hans --convert-subs srt`）→ 落 `raw/transcripts/<slug>.md`（不可變 source）→ ingest 入 wiki，或塞 YouTube bookmark 嘅 `## Full Content`。`ffmpeg` 未裝（字幕唔需要；冇字幕嘅片要抽音轉錄先補 ffmpeg + Whisper）。install start/success 兩 row 已入 CSV。

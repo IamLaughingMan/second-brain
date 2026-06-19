@@ -24,20 +24,47 @@ tags:
 > `~/AI/Claude/General/claude-activity-log.csv` = **append-only 事件流**（每個 install 有 start + success row，係不可變歷史）。
 > 呢個 catalog = **當前狀態快照**（裝咗啲乜、用嚟做咩、狀態）。新裝一個工具 → 兩邊都寫（CSV 記事件、呢度記狀態）。
 
-## 狀態詞彙
+## 詞彙
 
-`使用中`（裝咗在用）・`候選`（評估過未採用）・`已移除`（裝過又移除）。
+- **類型**：`CLI`（命令列）・`app`（macOS GUI app）。（`MCP server` / `plugin` / `hook` / `skill` 唔歸呢度 → [[extensions]]。）
+- **裝法（install_method）**：`brew`（formula CLI）・`brew-cask`（GUI app，`brew install --cask`）・`npm -g`・`pip`・`App Store`・`.dmg/manual`（直接下載 .dmg/.app）。
+- **狀態**：`使用中`・`候選`（評估過未採用）・`已移除`。
+- **裝者**：`我`（使用者自己）／`Claude 幫手`。backfill 嘅舊 row CSV 未逐筆記 → 留 `—`（未明）。
 
 ## 清單
 
-| 工具 | 類型 | 版本 | 裝法 | 路徑 | 日期(HKT) | 裝者 | 用途 | 狀態 |
-|------|------|------|------|------|-----------|------|------|------|
-| [[yt-dlp]] | brew CLI | 2026.06.09 | `brew install yt-dlp` | `/opt/homebrew/bin/yt-dlp` | 2026-06-19 | Claude 幫手 | YouTube metadata + 字幕抓取 | 使用中 |
+> 2026-06-19 backfill 自 `claude-activity-log.csv` 並逐個核實仍在（`which` / `/Applications`）。
+
+### CLI 命令列
+
+| 工具 | 版本 | 裝法 | 路徑 | 日期 | 裝者 | 用途 | 狀態 |
+|------|------|------|------|------|------|------|------|
+| [[yt-dlp]] | 2026.06.09 | brew | `/opt/homebrew/bin/yt-dlp` | 2026-06-19 | Claude 幫手 | YouTube metadata + 字幕抓取 | 使用中 |
+| uv | 0.11.19 | brew | `/opt/homebrew/bin/uv` | 2026-06-04 | — | Python pkg runner（mcp-server-fetch 依賴） | 使用中 |
+| rtk (RTK) | 0.42.1 | brew | `/opt/homebrew/bin/rtk` | 2026-06-05 | — | token 節省 proxy（PreToolUse hook 用） | 使用中 |
+| defuddle | 0.19.0 | npm -g | `~/.npm-global/bin/defuddle` | 2026-06-18 | — | URL→乾淨 markdown（bookmark 全文抽取） | 使用中 |
+| claude-auto-retry | 0.2.2 | npm -g | `~/.npm-global/…/claude-auto-retry` | 2026-06-06 | — | Claude Code auto-retry（zshrc wrapper） | 使用中 |
+| claude-conversation-extractor | 1.1.2 | pip | `~/opt/anaconda3/bin/claude-extract` | 2026-06-04 | — | 抽取/搜尋 Claude 對話（claude-extract/search/logs） | 使用中 |
+| happy (Happy Coder) | 1.1.9 | npm -g | `/usr/local/lib/node_modules/happy-coder` | 2026-05-26 | — | Happy harness CLI（呢個 session 跑緊；zsh function wrapper） | 使用中 |
+
+### macOS app（GUI）
+
+| App | 版本 | 裝法 | 路徑 | 日期 | 裝者 | 用途 | 狀態 |
+|-----|------|------|------|------|------|------|------|
+| Obsidian | 1.12.7 | brew-cask | `/Applications/Obsidian.app` | 2026-06-06 | — | 本 vault 嘅 Obsidian app | 使用中 |
+| cmux | 0.64.10 | .dmg/manual | `/Applications/cmux.app` | 2026-06-04 | — | terminal multiplexer，跑 Claude Code session | 使用中 |
+| Amphetamine Enhancer | — | .dmg/manual | `/Applications/Amphetamine Enhancer.app` | 2026-06-03 | — | Amphetamine（防瞓）增強 | 使用中 |
+
+## CSV 內唔歸 tools/ 嘅 install（記低去向，免重覆撈）
+
+- **MCP Filesystem / MCP Fetch**（2026-06-04）→ 屬 **MCP server**，應歸 [[extensions]]（**gap**：未有 MCP catalog 頁）。
+- **claude-obsidian plugin**（2026-06-08，已移除/永久 ban）→ [[plugins]] §歷史。
+- **Karpathy CLAUDE.md / Raymond Hou Starter Kit**（2026-06-04）→ config / reference，非工具。
 
 ## 規矩
 
-- **新增／更新／移除一個工具** → ① append activity CSV（install/uninstall start+success row）② update 呢個清單 + 開／改對應工具頁 ③ append `wiki/log.md`（HKT）④ 手動 commit（`Meta/` 喺 auto-commit hook scope 外）。
-- 每個工具一頁（`Meta/tools/<name>.md`，`type: tool`）放：係咩／點裝／點用／gotcha／接咩 vault pipeline。
+- **table row mandatory**；**工具頁 optional** —— 有用法／gotcha／接 vault pipeline 先開（如 [[yt-dlp]]），純粹一行記低嘅唔使開頁。
+- **新增／更新／移除一個工具** → ① append activity CSV（install/uninstall start+success row）② update 呢個清單（+ 工具頁，如需）③ append `wiki/log.md`（HKT）④ 手動 commit（`Meta/` 喺 auto-commit hook scope 外）。
 - 工具若同某 bookmark 對應（如評估時 bookmark 過 repo），互相 wikilink。
 
 ## 相關
