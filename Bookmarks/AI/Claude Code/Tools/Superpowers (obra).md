@@ -26,7 +26,7 @@ tags:
 - URL: https://github.com/obra/superpowers
 - Saved date: 2026-06-19
 - Topic: Claude Code plugin —— 一套「coding agent 開發方法論」（skills library + session-start hook）
-- Status: active（**未安裝**——評估緊同現有 extensions 撞唔撞，見 My Notes）
+- Status: active（**未安裝・parked reference**——評估完，使用者決定擺住先；已喺 `~/AI/Claude/CLAUDE.md` 加「候選工具提醒」，將來 code project 啱用先輕提，見 My Notes）
 
 ## Why I saved this
 
