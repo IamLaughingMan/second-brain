@@ -1,0 +1,75 @@
+properties:
+  stage:
+    displayName: 進度
+  status:
+    displayName: 狀態
+  para:
+    displayName: PARA
+  tags:
+    displayName: Tags
+  created:
+    displayName: 建立
+  updated:
+    displayName: 更新
+views:
+  - type: table
+    name: 00 全部
+    filters:
+      and:
+        - type == "idea"
+    order:
+      - file.name
+      - stage
+      - status
+      - updated
+  - type: table
+    name: 01 未做
+    filters:
+      and:
+        - type == "idea"
+        - stage == "未做"
+    order:
+      - file.name
+      - created
+      - updated
+  - type: table
+    name: 02 做緊
+    filters:
+      and:
+        - type == "idea"
+        - stage == "做緊"
+    order:
+      - file.name
+      - created
+      - updated
+  - type: table
+    name: 03 完成
+    filters:
+      and:
+        - type == "idea"
+        - stage == "完成"
+    order:
+      - file.name
+      - updated
+  - type: table
+    name: 04 可能開project
+    filters:
+      and:
+        - type == "idea"
+        - stage == "可能開project"
+    order:
+      - file.name
+      - created
+      - updated
+  - type: cards
+    name: Board
+    filters:
+      and:
+        - type == "idea"
+    groupBy:
+      property: stage
+      direction: ASC
+    order:
+      - file.name
+      - stage
+      - updated
