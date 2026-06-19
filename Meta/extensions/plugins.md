@@ -43,7 +43,8 @@ Catalog 頁。Hub：[[extensions]]。
 ### Claude Code plugins（**user-level**，`~/.claude/settings.json` 嘅 `enabledPlugins`）
 
 - **`obsidian@obsidian-skills`**（kepano / Steph Ango，~35k★，MIT）—— 提供 5 個 obsidian skill（見 [[skills]]）+ obsidian-cli 整合。cache：`~/.claude/plugins/cache/obsidian-skills/obsidian/1.0.1/`。Repo：https://github.com/kepano/obsidian-skills
-- **enable 喺 user-level = 刻意決定（唔好當 drift 改返 vault-level）**：實際 enable 喺 **user-level**（`~/.claude/settings.json`），vault `.claude/settings.json` 冇 `enabledPlugins`。理由（2026-06-19 使用者確認）：開**其他 project 時都可能要用 obsidian**（記筆記／操作本 vault），所以 5 個 obsidian skill 要喺**任何 project** 都 load 到。⇒ 保持 user-level，**唔搬去 vault-level**。
+- **`obsidian-visual-skills@axton-obsidian-visual-skills`**（Axton Liu / 回到Axton，~3k★，MIT，**2026-06-19 裝**）—— 提供 3 個視覺 skill：`obsidian-canvas-creator` / `mermaid-visualizer` / `excalidraw-diagram`（文字→圖，見 [[skills]]）。cache：`~/.claude/plugins/cache/axton-obsidian-visual-skills/obsidian-visual-skills/<sha>/`。Repo：https://github.com/axtonliu/axton-obsidian-visual-skills。⚠️ `excalidraw-diagram` 用 output 需另裝 Obsidian Excalidraw 社群插件。
+- **enable 喺 user-level = 刻意決定（唔好當 drift 改返 vault-level）**：兩個 plugin 都 enable 喺 **user-level**（`~/.claude/settings.json` 嘅 `enabledPlugins`），vault `.claude/settings.json` 冇。理由（2026-06-19 使用者確認）：開**其他 project 時都可能要用 obsidian**（記筆記／操作本 vault），所以呢啲 obsidian skill 要喺**任何 project** 都 load 到。⇒ 保持 user-level，**唔搬去 vault-level**。安裝經 `/plugin` TUI（user scope）→ marketplace add + install + reload，CLI 無 TTY 跑唔到。
 
 ## 候選（評估過・未採用）
 

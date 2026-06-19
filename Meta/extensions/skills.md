@@ -37,13 +37,21 @@ session-start 出現、**非** `obsidian:` namespace 嘅都歸呢度。物理上
 
 ### 🟦 Obsidian Claude skills（Obsidian-specific，淨係 vault 工作有用）
 
-由 plugin `obsidian@obsidian-skills`（kepano，~35k★，MIT）提供，物理位置 `~/.claude/plugins/cache/obsidian-skills/obsidian/1.0.1/skills/`。5 個全部用 `obsidian:` namespace：
+由**兩個** Claude Code plugin 提供，共 8 個 skill（兩個 namespace）：
+
+**A. `obsidian@obsidian-skills`**（kepano，~35k★，MIT）—— `~/.claude/plugins/cache/obsidian-skills/obsidian/1.0.1/skills/`，5 個 `obsidian:` namespace：
 
 - `obsidian:defuddle` — URL → 乾淨 Markdown（ingest 前清雜訊、省 token）
 - `obsidian:json-canvas` — `.canvas`（nodes / edges / groups）
 - `obsidian:obsidian-bases` — `.base`（views / filters / formulas / summaries）
 - `obsidian:obsidian-cli` — Obsidian CLI 操作（含 plugin/theme 開發）
 - `obsidian:obsidian-markdown` — Obsidian Flavored Markdown（wikilinks / embeds / callouts / properties）
+
+**B. `obsidian-visual-skills@axton-obsidian-visual-skills`**（Axton Liu / 回到Axton，~3k★，MIT，2026-06-19 裝）—— `~/.claude/plugins/cache/axton-obsidian-visual-skills/obsidian-visual-skills/<sha>/`，3 個 `obsidian-visual-skills:` namespace（文字 → 視覺圖）：
+
+- `obsidian-visual-skills:obsidian-canvas-creator` — 文字 → `.canvas` 心智圖（MindMap/Freeform 自動排版、算 X/Y 唔重疊；補 `obsidian:json-canvas` 排版洞）
+- `obsidian-visual-skills:mermaid-visualizer` — 文字 → Mermaid 流程/架構圖（內置語法糾錯；**零額外依賴**，Obsidian 原生 render）
+- `obsidian-visual-skills:excalidraw-diagram` — 文字 → Excalidraw 手繪風圖（⚠️ 用 output 需 Obsidian **Excalidraw 社群插件**；本 vault 未裝）
 
 Plugin 來源：[[plugins]] § Claude Code plugins。
 
@@ -52,7 +60,7 @@ Plugin 來源：[[plugins]] § Claude Code plugins。
 | 來源 | 物理位置 | Load 機制 | 而家有幾多 |
 |---|---|---|---|
 | **Built-in Claude Code** | binary 內，無 fs path | Claude Code 啟動時內建 | 14（用途係 general） |
-| **Plugin-bundled skills** | `~/.claude/plugins/cache/<marketplace>/<plugin>/<ver>/skills/` | enabled plugin 自動註冊 | 5（用途係 obsidian-specific） |
+| **Plugin-bundled skills** | `~/.claude/plugins/cache/<marketplace>/<plugin>/<ver>/skills/` | enabled plugin 自動註冊 | 8（2 plugin：obsidian-skills 5 + obsidian-visual-skills 3） |
 | **User-level commands** | `~/.claude/commands/<name>.md` | Claude Code spec 寫死 | 4（用途係 general） |
 | **User-level skills** | `~/.claude/skills/<name>/SKILL.md` | Claude Code spec 寫死 | 0 |
 | **Project-level commands** | `<vault>/.claude/commands/<name>.md` | Claude Code spec 寫死 | 0 |

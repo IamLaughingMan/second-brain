@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 22:40 HKT] install | 裝咗 Axton 視覺 skill plugin `obsidian-visual-skills@axton-obsidian-visual-skills`（Axton Liu / 回到Axton，~3k★ MIT）—— 3 個 skill：`obsidian-canvas-creator`（文字→.canvas 心智圖，補 json-canvas 排版洞）、`mermaid-visualizer`（文字→Mermaid，零依賴）、`excalidraw-diagram`（手繪風，需 Obsidian Excalidraw 插件）。**user-level**（第二個 Claude Code plugin，並存 obsidian-skills）。經 `/plugin` TUI 裝（CLI 無 TTY 跑唔到；一行式 install 唔 work，要入 TUI user-scope 確認 + reload；reload 報「0 skills」係 quirk，實際 3 skill 已 active）。catalog 更新：`[[skills]]`（Obsidian 5→8、2 plugin）+ `[[plugins]]`。CSV install start/success。Meta/ 手動 commit。
+
 ## [2026-06-19 22:18 HKT] bookmark | Jason（杰森）部落格「Obsidian AI Agent Skills 配置大全」（jasonai.me）→ `Bookmarks/AI/Obsidian/`（user-supplied）。多作者 11 個 Obsidian skill 評分表（kepano 5／Axton 視覺 3／OpenClaw／tutor／scholar）。**新規矩首次實戰**：簡體 defuddle 全文 → `opencc s2hk` 轉正體先存（append 入檔免重打）。核實使用者裝況：kepano 5 個全裝（plugin 版），Axton 3 個 + tutor/scholar 未裝。**關鍵發現**：文章話 defuddle 已支援 YouTube（官方 API、非 yt-dlp）→ 標記可試替代我哋撞過嘅 yt-dlp bot-wall（My Notes ⭐ + link [[yt-dlp]]）。Bookmarks/ 手動 commit。
 
 ## [2026-06-19 22:02 HKT] config | 轉 Jason 部落格 bookmark（jasonai.me）→ 正體（opencc s2hk）。**踩到 caveat**：s2hk 連專有名 杰森→傑森 都轉，整斷指向「杰森的效率工坊…」影片 bookmark 嘅 wikilink → 已把該檔 傑森 revert 返 杰森（保 link resolve）。memory `feedback-convert-simplified-to-traditional` 補咗呢個 proper-noun/wikilink caveat。Bookmarks/ 手動 commit。
