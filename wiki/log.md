@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 19:30 HKT] config | Superpowers 記入 extensions catalog，marker = **候選**（揀「候選/candidate」勝過「備用/未用」——評估過＋特定情境會採用之意）。`Meta/extensions/plugins.md`：頂部立 catalog 狀態詞彙（使用中／候選／已移除）+ 新「## 候選（評估過・未採用）」段（superpowers 全評估＋採用條件 per-project enable＋跨 project 提醒指標）。`skills.md`：加「## 候選 skill-bundle」一行 pointer（14 dev skill、重疊 built-in code-review/verify/write-tests）。兩檔 updated 已係 06-19。Meta/ 手動 commit。
+
 ## [2026-06-19 19:24 HKT] config | Superpowers 決定 = 擺住 reference 先（唔裝）。喺 `~/AI/Claude/CLAUDE.md`（跨 project shared，loose config 非 repo、即改即生效）加「## 候選工具提醒（parked）」段：將來喺**實質 code project** 要結構化 TDD/plan/review 嗰陣，輕提使用者試 Superpowers（per-project enable、唔好 user-level、講埋 SessionStart 同 CLAUDE.md 競爭 trade-off），唔硬推、純筆記工作唔提。Bookmark Status 改 parked reference。跨 project memory 唔靠 vault memory（只 load 本 vault），靠 shared CLAUDE.md 機制。
 
 ## [2026-06-19 19:18 HKT] bookmark | Superpowers (obra) → `Bookmarks/AI/Claude Code/Tools/Superpowers (obra).md`（user-supplied，無 found-by-claude）。Claude Code plugin：14 skill + session-start hook，強制 brainstorm→design→plan→TDD→review→finish-branch 方法論（Jesse Vincent / Prime Radiant，MIT）。全文 archive（README 結構化摘錄）。**Overlap 評估**：無硬碰撞（skill namespaced、SessionStart event 你未用）；功能重疊 built-in code-review/verify/write-tests + user security-audit；主風險＝SessionStart 每 session 注入 opinionated 重流程，競爭 ~/.claude CLAUDE.md「Simplicity/Surgical」+ vault session-start 協定；對 vault 筆記無關、值喺 code project。建議若試 = per-project enable、唔好 user-level。Bookmarks/ 手動 commit。

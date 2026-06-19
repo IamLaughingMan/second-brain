@@ -15,6 +15,9 @@ tags:
 
 Catalog 頁。Hub：[[extensions]]。
 
+> [!note] 狀態詞彙（catalog 通用）
+> `使用中`（已 enable，落「而家裝咗」）・`候選`（評估過、刻意未採用、啱用先採，落「候選」）・`已移除`（裝過又移除／ban，落「歷史」）。
+
 ## 兩個 plugin 系統
 
 | 系統                             | 物理位置                                                    | enable 喺邊                                                                                      |
@@ -41,6 +44,13 @@ Catalog 頁。Hub：[[extensions]]。
 
 - **`obsidian@obsidian-skills`**（kepano / Steph Ango，~35k★，MIT）—— 提供 5 個 obsidian skill（見 [[skills]]）+ obsidian-cli 整合。cache：`~/.claude/plugins/cache/obsidian-skills/obsidian/1.0.1/`。Repo：https://github.com/kepano/obsidian-skills
 - **enable 喺 user-level = 刻意決定（唔好當 drift 改返 vault-level）**：實際 enable 喺 **user-level**（`~/.claude/settings.json`），vault `.claude/settings.json` 冇 `enabledPlugins`。理由（2026-06-19 使用者確認）：開**其他 project 時都可能要用 obsidian**（記筆記／操作本 vault），所以 5 個 obsidian skill 要喺**任何 project** 都 load 到。⇒ 保持 user-level，**唔搬去 vault-level**。
+
+## 候選（評估過・未採用）
+
+- **`obra/superpowers`**（Claude Code plugin・Jesse Vincent / Prime Radiant・MIT）—— **狀態：候選**（2026-06-19 評估完、刻意擱置）。14 skill + session-start hook，強制 brainstorm→design→plan→**TDD**→code-review→finish-branch 開發方法論。**評估結論**：無硬技術碰撞（skill `superpowers:` namespaced、SessionStart event 未被佔用），但同 built-in `code-review`/`verify` + user command `write-tests`/`security-audit` **功能重疊**；主風險＝SessionStart **每 session 注入** opinionated 重流程，競爭 `~/.claude/CLAUDE.md`「Simplicity／Surgical」+ vault session-start 協定。對 vault 筆記工作無關、值喺 **code project**。
+  - **採用條件**：若試 → **per-project enable**（嗰個 code repo 嘅 `.claude/settings.json`），**唔好** user-level（避免污染每個 vault session）。
+  - **跨 project 提醒已設**：`~/AI/Claude/CLAUDE.md` 嘅「候選工具提醒」段 —— 將來 code project 啱用先輕提，唔硬推、非筆記工作唔提。
+  - **詳評＋全文**：bookmark `[[Superpowers (obra)]]`（`Bookmarks/AI/Claude Code/Tools/`）。安裝指令：`/plugin install superpowers@claude-plugins-official`。
 
 ## 歷史
 

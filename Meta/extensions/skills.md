@@ -78,6 +78,10 @@ echo "Your task: $ARGUMENTS" > .claude/commands/<name>.md
 User-level enable：改 `~/.claude/settings.json` 嘅 `enabledPlugins`。
 Vault-level enable：改 `<vault>/.claude/settings.json` 嘅 `enabledPlugins`。
 
+## 候選 skill-bundle（未採用）
+
+- **`obra/superpowers`**（**狀態：候選**）—— bundle 14 個 dev-workflow skill（`superpowers:` namespace；TDD / debugging / brainstorming / planning / code-review / git-worktrees…）。同 built-in `code-review`/`verify`/`write-tests` 功能重疊。詳評＋採用條件見 [[plugins]] §候選；bookmark `[[Superpowers (obra)]]`。
+
 ## 歷史
 
 - 2026-06-16：本 vault 曾用 `AgriciDaniel/claude-obsidian` plugin（v1.9.2，bundle 15 個 skill 含 `wiki/autoresearch/save/think/canvas/wiki-ingest/wiki-lint/...`）。同日移除，所有功能改用：① kepano `obsidian-skills`（5 skill）+ ② 本 vault 嘅 native hook + Claude 手動執行 ingest／save。**永久 ban**：見 memory `[[feedback-no-claude-obsidian-plugin]]`。
