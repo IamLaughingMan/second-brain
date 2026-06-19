@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 21:02 HKT] bookmark | `jason-effi-lab/karpathy-llm-wiki-vault` GitHub repo（607★）→ `Bookmarks/AI/LLM Wiki/`（user-supplied，杰森條片配套 repo）。可下載嘅 Karpathy LLM Wiki Obsidian 範本：ingest/query/lint **三個 SKILL.md** + CLAUDE.md + 完整 wiki（concepts/entities/sources/syntheses + index/log）+ raw 五分類。**三個 SKILL.md 全文 archive**（GitHub API tree + raw fetch）。My Notes 標借鏡價值：本 vault project skill = 0，呢個係 skill 化藍本，但要適配（archive→status-over-folder、加 HKT/dual-log、繁體、type 詞彙）；**repo 無 license** → 借鏡寫法可、照搬檔案小心。link 返杰森片 + karpathy gist + [[skills]]。Bookmarks/ 手動 commit。
+
 ## [2026-06-19 20:52 HKT] bookmark | AgentCrew Academy (Dustin)「跨專案知識庫」YouTube（`EhMKfG1dvnI`）→ `Bookmarks/AI/LLM Wiki/`（user-supplied）。系列第三條、**最貼本 vault 實作**：角度係跨專案 Claude Code 記憶（解失憶/上下文爆滿），用緊**同一個 kepano obsidian-skills** + Obsidian CLI + wikilink 跨夾連線 + 計劃模式設計結構 + 「projects/pillars 慢慢長出」務實態度。人手 zh-TW 字幕 → yt-dlp chrome cookies，~8.5k 字繁體逐字稿全 archive。My Notes 標可借鏡 Dustin 嘅 pillars/insight/weekly 主檔自動更新。三條互 link（Paula 入門／杰森 skill 化／Dustin 跨專案）。Bookmarks/ 手動 commit。
 
 ## [2026-06-19 20:40 HKT] bookmark | 杰森的效率工坊「Karpathy LLM Wiki 進階」YouTube（`CTyx5XF2KVA`）→ `Bookmarks/AI/LLM Wiki/`（user-supplied）。同 Paula 入門版同主題但**進階**：三層架構 + 三操作（ingest/query/lint）**skill 化**、Obsidian CLI 省 token、Skill Creator、配套 repo `jason-effi-lab/karpathy-llm-wiki-vault`。今次有**人手繁體字幕** zh-Hant → yt-dlp `--write-sub --cookies-from-browser chrome` 攞到，parse vtt 得 ~5.3k 字繁體逐字稿全 archive。多處同本 vault 重疊（AGENTS.md、synthesis type、obsidian-cli、lint），My Notes 標咗可借鏡 skill 化。link 返 Paula 版 + karpathy gist。Bookmarks/ 手動 commit。
