@@ -62,5 +62,5 @@ YouTube URL --[yt-dlp 字幕]--> raw/transcripts/<slug>.md（不可變 source）
 ```
 
 ## 相關
-- [[tools]] —— 工具 catalog hub
+- [[Software]] —— 軟件 catalog hub
 - [[ccusage]] —— 另一個 coding-agent CLI（bookmark 過、未裝）

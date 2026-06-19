@@ -13,16 +13,17 @@ tags:
 
 # Extensions
 
-統稱「擴充」—— Claude Code 同 Obsidian 嘅 **skills / plugins / hooks**（將來可加 MCP servers、statusLine 等）。呢度係 hub 目錄頁，**catalog only**：真實 code／config 嘅物理位置寫死喺各 tool spec，唔搬入 vault。
+統稱「擴充」—— Claude Code 同 Obsidian 嘅 **skills / plugins / hooks / MCP servers**（將來可加 statusLine 等）。呢度係 hub 目錄頁，**catalog only**：真實 code／config 嘅物理位置寫死喺各 tool spec，唔搬入 vault。
 
-## 三類擴充（hub）
+## 四類擴充（hub）
 
 - [[skills]] — agent skills（Anthropic spec）：plugin-bundled / project-level（`.claude/skills/`）/ user-level（`~/.claude/skills/`）
 - [[plugins]] — Obsidian plugins（`.obsidian/plugins/`）+ Claude Code plugins（`~/.claude/plugins/`）
 - [[hooks]] — Claude Code hooks（`*/settings.json`：PostToolUse / UserPromptSubmit / Stop / statusLine 等）
+- [[mcp]] — MCP servers（`~/.claude.json` 嘅 `mcpServers`：obsidian-vault / filesystem / fetch / happy）
 
-> [!info] 唔屬擴充嘅系統工具睇 [[tools]]
-> 獨立 CLI／app／套件（如 `yt-dlp`，brew/pip 裝、喺 shell/OS 層跑、唔係 agent 擴充）歸 `Meta/tools/`，唔放呢度。
+> [!info] 唔屬擴充嘅系統軟件睇 [[Software]]
+> 獨立 CLI／macOS app／套件（如 `yt-dlp`，brew/pip 裝、喺 shell/OS 層跑、唔係 agent 擴充）歸 `Meta/Software/`，唔放呢度。MCP server 嘅**底層 CLI**（uvx/npx）都喺 [[Software]]。
 
 ## 規矩
 

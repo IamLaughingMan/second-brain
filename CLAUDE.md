@@ -60,11 +60,15 @@ second-brain-2026-06-06/
 │   ├── bases/                     # Obsidian Bases 動態檢視
 │   │   └── PARA.base
 │   ├── scripts/                   # 將來放可執行嘢
-│   └── extensions/                # Skills / plugins / hooks 嘅 catalog（真身唔住 vault）
-│       ├── extensions.md            # hub
-│       ├── skills.md                # plugin-bundled / project / user 三層
-│       ├── plugins.md               # Obsidian + Claude Code plugins
-│       └── hooks.md                 # vault + user settings hooks
+│   ├── extensions/                # Skills / plugins / hooks / MCP 嘅 catalog（真身唔住 vault）
+│   │   ├── extensions.md            # hub（四類擴充）
+│   │   ├── skills.md                # plugin-bundled / project / user 三層
+│   │   ├── plugins.md               # Obsidian + Claude Code plugins（含「候選」section）
+│   │   ├── hooks.md                 # vault + user settings hooks
+│   │   └── mcp.md                   # MCP servers（obsidian-vault / filesystem / fetch / happy）
+│   └── Software/                  # 裝咗嘅系統軟件 catalog（CLI/macOS app/套件；≠ agent 擴充）
+│       ├── Software.md              # hub（清單表 + 裝法詞彙 + 狀態）
+│       └── <tool>.md                # 工具頁 optional（有用法/gotcha 先開，如 yt-dlp）
 ├── .claude/                  # Claude Code project config
 │   ├── settings.json          # PostToolUse auto-commit hook（HKT，wiki/raw/.vault-meta）
 │   └── skills/                # 自製 skills（Claude Code spec 寫死路徑；現空）

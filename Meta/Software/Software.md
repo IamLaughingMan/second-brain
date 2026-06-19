@@ -1,23 +1,23 @@
 ---
 type: moc
-title: "Tools"
+title: "Software"
 para: resource
 status: active
 created: 2026-06-19
 updated: 2026-06-19
 tags:
   - moc
-  - tools
+  - software
   - meta
 ---
 
-# Tools
+# Software
 
-我裝（或 Claude 幫手裝）嘅**系統工具／CLI／app／套件**目錄。**Catalog only** —— 真身裝喺系統（brew / pip / app），呢度只係人類可讀嘅當前狀態索引。
+我裝（或 Claude 幫手裝）嘅**系統軟件／CLI／macOS app／套件**目錄。**Catalog only** —— 真身裝喺系統（brew / pip / app），呢度只係人類可讀嘅當前狀態索引。
 
 > [!info] 同 [[extensions]] 點分
-> `extensions/` = **Claude Code／Obsidian 嘅 skills / plugins / hooks**（喺 agent／app 內載入）。
-> `tools/`（呢度）= **獨立系統工具**（brew/pip CLI、GUI app、套件），喺 shell／OS 層執行，唔係 agent 擴充。
+> `extensions/` = **Claude Code／Obsidian 嘅 skills / plugins / hooks / [[mcp\|MCP servers]]**（喺 agent／app 內載入）。
+> `Software/`（呢度）= **獨立系統軟件**（brew/pip CLI、macOS GUI app、套件），喺 shell／OS 層執行，唔係 agent 擴充。
 > 兩邊都唔搬真身入 vault，只做 catalog。
 
 > [!info] 同 activity CSV 點分
@@ -55,9 +55,9 @@ tags:
 | cmux | 0.64.10 | .dmg/manual | `/Applications/cmux.app` | 2026-06-04 | — | terminal multiplexer，跑 Claude Code session | 使用中 |
 | Amphetamine Enhancer | — | .dmg/manual | `/Applications/Amphetamine Enhancer.app` | 2026-06-03 | — | Amphetamine（防瞓）增強 | 使用中 |
 
-## CSV 內唔歸 tools/ 嘅 install（記低去向，免重覆撈）
+## CSV 內唔歸 Software/ 嘅 install（記低去向，免重覆撈）
 
-- **MCP Filesystem / MCP Fetch**（2026-06-04）→ 屬 **MCP server**，應歸 [[extensions]]（**gap**：未有 MCP catalog 頁）。
+- **MCP Filesystem / MCP Fetch**（2026-06-04）→ 屬 **MCP server**，歸 [[mcp]]（已建；scope 落 `~/AI/Claude/General`）。底層 `uvx`（fetch 依賴）就喺本清單。
 - **claude-obsidian plugin**（2026-06-08，已移除/永久 ban）→ [[plugins]] §歷史。
 - **Karpathy CLAUDE.md / Raymond Hou Starter Kit**（2026-06-04）→ config / reference，非工具。
 
