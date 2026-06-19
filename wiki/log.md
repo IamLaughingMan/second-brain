@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 21:40 HKT] bookmark | 柒星栈（知乎）「Claude Code 最佳实践三件套」→ `Bookmarks/AI/Claude Code/`（user-supplied URL）。**知乎封自動抓取**（defuddle/WebFetch/curl 全 403，login+anti-bot）→ **全文由使用者 paste**（誠實標 provenance）。內容 = 三件套：`andrej-karpathy-skills`（13.7K★，**= 你 ~/.claude/CLAUDE.md 四原則**）+ `claude-mem`（46.1K★，記憶系統）+ `claude-code-best-practice`（42.3K★，L1-L4 配置，已喺雷蒙 hub）。My Notes 映射本 vault：karpathy skills 你已裝、best-practice 已 bookmark、claude-mem vs 你 curated memory+history hook、CLAUDE.md<150 條 vs 你偏長、permissions.deny 可考慮。Bookmarks/ 手動 commit。
+
 ## [2026-06-19 21:26 HKT] bookmark | 雷蒙（Raymond Hou）Lifehacker 台灣「Claude Code 學習資源 hub」（cc.lifehacker.tw/#resources）→ `Bookmarks/AI/Claude Code/`（user-supplied）。策展頁：官方文件＋Anthropic 課程＋社群指南＋雷蒙系列中文文章＋影片，逐條附 URL/程度標註，整理落 Key Takeaways。defuddle 抽資源區（37KB 頁只取 #resources，略 promo/評價）。My Notes 標 3 篇 ⭐ 呼應本 vault 近期決定（AGENTS.md/CLAUDE.md/SSOT 分層、唔起 Agent Team、Skill=點做事）；雷蒙=早前 Raymond Hou Starter Kit 同源。status active（持續更新）。Bookmarks/ 手動 commit。
 
 ## [2026-06-19 21:14 HKT] bookmark | Jason（杰森）部落格「Obsidian 接入 Claude Skill 教程」（jasonai.me，2026-01-16）→ `Bookmarks/AI/Obsidian/`（user-supplied）。同 LLM Wiki 影片同一作者。教 Claudian 插件 + kepano `obsidian-skills` 喺 Obsidian 內接 Claude；含 `ANTHROPIC_BASE_URL` override 換 GLM/DeepSeek model、canvas 知識圖譜實戰、kepano local-first 理念。defuddle 抽全文 archive。My Notes 標路線對照：本 vault 唔用 Claudian（CLI + native hook，claude-obsidian 已 ban）但用緊同套 obsidian-skills。link 杰森片 + skills + plugins。Bookmarks/ 手動 commit。
