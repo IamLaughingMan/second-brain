@@ -78,6 +78,26 @@ second-brain-2026-06-06/
 └── CLAUDE.md                  # 本檔：行為契約（root 強制，Anthropic spec）
 ```
 
+## 文件夾導航地圖（漸進式披露 / 兩層導航）
+
+**目的：控 token + 加速。** Claude 做嘢前**唔好掃全 vault**——先用下面 router 搵啱嘅 folder，再**只讀該 folder 嘅 hub（＝該夾 instructions 層）＋ 當下需要嗰幾頁**。呢個係 Serena/Anthropic「漸進式披露」嘅 vault 版：**本檔 CLAUDE.md＝第一層 router；各 folder 嘅 hub MOC＝第二層 per-folder instructions**（本 vault 用既有 hub，不另起 `instructions.md` 重複）。
+
+| 意圖 / task | 去邊個 folder | **先讀（= 該夾 instructions）** |
+|---|---|---|
+| 查問題 / 找知識 | `wiki/` | `wiki/hot.md`（近期脈絡）→ `wiki/index.md`（目錄）→ 指到嘅頁 |
+| 領域內容（如健康） | `wiki/<Domain>/` | 該領域 hub（如 `Health.md`）＋ `overview.md`（如有 typed-folder） |
+| ingest 來源 | `raw/`（唯讀）→ `wiki/` | 規則＝`raw/` 只讀不改；compile 流程見本檔「四階段迴圈」 |
+| 未分類捕捉 / triage | `Inbox/` | `Inbox.md`（7 日 triage SLA） |
+| URL 書籤 | `Bookmarks/` | `Bookmarks.md`（規矩）＋ `Bookmarks.base`（視圖） |
+| 專案 / 收工 | `Projects/` | `Projects.md` hub；流程見本檔「收工 workflow」 |
+| 個人念頭 | `Personal/` | `Personal/Ideas.md`（stage 詞彙 + promote 流程） |
+| 擴充 / 工具 / MCP | `Meta/extensions/`、`Meta/Software/` | `extensions.md`（四類）、`Software.md`（裝咗乜）、`mcp.md` |
+| 完整 LLM 操作手冊 | `Meta/docs/` | `WIKI.md`（深入流程）、`OBSIDIAN-SETUP.md`（建置藍圖） |
+| 同其他 AI 溝通 | `Meta/ai-comms/` | `ai-comms.md`（protocol + 訊息板） |
+| 過往對話記錄 | `Claude history/` | `Claude history/Claude history.md` hub（.gitignore 排內容） |
+
+**規則：** 深入某 folder 工作**前**，先讀佢個 hub（局部地圖：結構/命名/操作），跟住只讀當下需要嗰層；唔好一次過 full-read 成個 folder body（尤其 `Bookmarks/` 全文 archive、`Claude history/`）。triage 用 frontmatter（`get_frontmatter`）或 `Read` 加 `limit` 讀頭部即可。
+
 ## Status field over archive folder（檔不搬，靠 metadata view）
 
 **核心規則：唔起 `Archive/` folder、唔搬檔。** 用 frontmatter `status` 欄分類，配 `.base` view 篩。理由：

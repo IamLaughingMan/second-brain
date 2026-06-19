@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 23:28 HKT] config | 試 Serena 兩層導航模式：CLAUDE.md 加「文件夾導航地圖（漸進式披露 / 兩層導航）」section —— 第一層 router（意圖→folder→先讀邊個 hub 表）+ 規則（深入 folder 前先讀其 hub、唔掃全 vault、唔 bulk full-read）。**適配**：用 vault **既有 hub MOC 做第二層 per-folder instructions**（Bookmarks.md / Inbox.md / Projects.md / Ideas.md / extensions.md / WIKI.md 等），**不另起 instructions.md** 避免同 hub 重複（守 vault anti-duplication）。CLAUDE.md 喺 auto-commit scope 外、手動 commit。
+
 ## [2026-06-19 23:16 HKT] bookmark | Serena心心加州「Obsidian+AI 第二大腦保姆級教程」YouTube（`RZEb6FLZSHE`，15:47，99k views）→ `Bookmarks/AI/LLM Wiki/`（user-supplied）。實戰 workflow 片：人手 zh-CN 字幕 → yt-dlp + opencc s2hk 轉正體（~5.7k 字）。**亮點技巧 = 兩層導航控 token**（root CLAUDE.md 文件夾地圖 + 每夾 instructions.md，漸進式披露）；另 context/ 夾、Web Clipper/Apple Books/iPhone Action Button 語音捕捉、Canvas、daily notes handoff、Obsidian CLI 省 token。My Notes 對照本 vault：兩層 CLAUDE.md 可評估、daily handoff≈收工workflow+history hook 已有。link Dustin/杰森。Bookmarks/ 手動 commit。
 
 ## [2026-06-19 23:04 HKT] bookmark | Jason（杰森）「Karpathy LLM Wiki 完整實作指南」（jasonai.me）→ `Bookmarks/AI/LLM Wiki/`（user-supplied）。= 杰森影片嘅**完整文字版** + jason-effi-lab repo 嘅散文來源：核心理念（RAG→Compilation）、三層架構、終極比喻（Obsidian=IDE/LLM=程序員/Wiki=代碼庫）、完整目錄結構 + CLAUDE.md 範例 + ingest/query/lint 三 skill 全文。defuddle 抽 + **opencc s2hk 轉正體**（39.5KB）。同已存兩條（影片+repo）高度重疊，已三方互 link。My Notes 重申 skill 化藍本＋適配本 vault（archive→status、HKT/dual-log、繁體）。Bookmarks/ 手動 commit。
