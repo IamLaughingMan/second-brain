@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 20:08 HKT] config | `Meta/Software/Software.md` 補 runtime row：新增 **node（帶 npm/npx，v24.16.0 / npm·npx 11.13.0，`.pkg/manual` @ `/usr/local/bin`，非 brew）**；`uv` row 標明帶 `uvx`。核實：`uvx`⊂uv（brew Cellar 同帶 bin/uv+bin/uvx）、`npx`⊂node（npm 一齊嚟）→ 兩個係 runner 非獨立 install，併入母工具 row 並加註解行。`npm -g` 工具（defuddle/claude-auto-retry/happy）全靠呢個 node。Meta/ 手動 commit。
+
 ## [2026-06-19 20:02 HKT] config | 兩件：(1) **補 MCP catalog 頁** `Meta/extensions/mcp.md`（對 `~/.claude.json` 核實）：`obsidian-vault`（user scope，npx @bitbonsai/mcpvault）、`filesystem`+`fetch`（**project-scoped 落 `~/AI/Claude/General`**，故本 vault session 見唔到）、`happy`（Happy harness 注入）。記低 user/project/harness 三 scope + scope 陷阱。extensions hub 由「三類」改「四類」加 [[mcp]]。(2) **`Meta/tools/` 改名 `Meta/Software/`**（使用者選 Software，涵蓋 CLI+macOS app+套件勝過「tools」）：`git mv` folder + `tools.md`→`Software.md`；更新 title/heading/tags(tools→software)、自引用、`[[tools]]`→`[[Software]]`（yt-dlp.md、extensions.md）；MCP gap 註改為已建。CLAUDE.md Meta 樹補 `Software/` + `mcp.md`。殘留 `[[tools]]` 只剩 append-only log + Claude history transcript（不改）。Meta/ + CLAUDE.md 手動 commit。
 
 ## [2026-06-19 19:52 HKT] backfill | `Meta/tools/tools.md` 回溯 activity CSV 補入既往工具，逐個 `which`/`/Applications` 核實仍在：**CLI 7**（yt-dlp / uv / rtk / defuddle / claude-auto-retry / claude-conversation-extractor / happy）+ **macOS app 3**（Obsidian brew-cask / cmux / Amphetamine Enhancer）。新增**裝法詞彙**答 macOS app 命名問題：`brew`/`brew-cask`/`npm -g`/`pip`/`App Store`/`.dmg/manual`；類型 `CLI`/`app`。**唔歸 tools/** 嘅 CSV install 標明去向：MCP Filesystem/Fetch→extensions（gap：無 MCP 頁）、claude-obsidian→plugins 歷史、Karpathy/Raymond Hou→config/reference。規矩放寬：table row mandatory、工具頁 optional。backfill 舊 row CSV 未記裝者 → 留「—」。Meta/ 手動 commit。
