@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 21:26 HKT] bookmark | 雷蒙（Raymond Hou）Lifehacker 台灣「Claude Code 學習資源 hub」（cc.lifehacker.tw/#resources）→ `Bookmarks/AI/Claude Code/`（user-supplied）。策展頁：官方文件＋Anthropic 課程＋社群指南＋雷蒙系列中文文章＋影片，逐條附 URL/程度標註，整理落 Key Takeaways。defuddle 抽資源區（37KB 頁只取 #resources，略 promo/評價）。My Notes 標 3 篇 ⭐ 呼應本 vault 近期決定（AGENTS.md/CLAUDE.md/SSOT 分層、唔起 Agent Team、Skill=點做事）；雷蒙=早前 Raymond Hou Starter Kit 同源。status active（持續更新）。Bookmarks/ 手動 commit。
+
 ## [2026-06-19 21:14 HKT] bookmark | Jason（杰森）部落格「Obsidian 接入 Claude Skill 教程」（jasonai.me，2026-01-16）→ `Bookmarks/AI/Obsidian/`（user-supplied）。同 LLM Wiki 影片同一作者。教 Claudian 插件 + kepano `obsidian-skills` 喺 Obsidian 內接 Claude；含 `ANTHROPIC_BASE_URL` override 換 GLM/DeepSeek model、canvas 知識圖譜實戰、kepano local-first 理念。defuddle 抽全文 archive。My Notes 標路線對照：本 vault 唔用 Claudian（CLI + native hook，claude-obsidian 已 ban）但用緊同套 obsidian-skills。link 杰森片 + skills + plugins。Bookmarks/ 手動 commit。
 
 ## [2026-06-19 21:02 HKT] bookmark | `jason-effi-lab/karpathy-llm-wiki-vault` GitHub repo（607★）→ `Bookmarks/AI/LLM Wiki/`（user-supplied，杰森條片配套 repo）。可下載嘅 Karpathy LLM Wiki Obsidian 範本：ingest/query/lint **三個 SKILL.md** + CLAUDE.md + 完整 wiki（concepts/entities/sources/syntheses + index/log）+ raw 五分類。**三個 SKILL.md 全文 archive**（GitHub API tree + raw fetch）。My Notes 標借鏡價值：本 vault project skill = 0，呢個係 skill 化藍本，但要適配（archive→status-over-folder、加 HKT/dual-log、繁體、type 詞彙）；**repo 無 license** → 借鏡寫法可、照搬檔案小心。link 返杰森片 + karpathy gist + [[skills]]。Bookmarks/ 手動 commit。
