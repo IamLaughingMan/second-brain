@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 20:18 HKT] config | 修正 `AGENTS.md`：原本只 pointer 指住 `CLAUDE.md`，但其他 AI 唔會自動有 CLAUDE.md 內容（佢哋只 auto-read AGENTS.md），且 CLAUDE.md 多嘢 Claude 專屬。改為 **AGENTS.md 自含「Vault conventions」section**（agent-agnostic 子集:frontmatter／wikilink uniqueness／raw 唯讀／index／log append-only＋format／dual-log／HKT／status-over-folder／commit scope／no-push／ask-before-destructive），令其他 AI 淨讀 AGENTS.md 都有齊核心規矩。確立 **AGENTS.md ⊂ CLAUDE.md** 兩層拆分:通用規矩兩檔同步、Claude 專屬只入 CLAUDE.md、衝突 CLAUDE.md 為準。CLAUDE.md 跨-AI section 補同步責任。
+
 ## [2026-06-19 20:12 HKT] feature | 新增**跨-AI 溝通**機制（雙向）：(1) root **`AGENTS.md`**（vendor-neutral，俾 Codex/Gemini/Cursor 等其他 AI 自動讀）—— 介紹 vault 由 Claude 維護、指引其他 AI ① 讀 `CLAUDE.md` ② 去溝通頻道讀/留言 ③ 回應時報名（AI 名+model）。(2) **`Meta/ai-comms/ai-comms.md`** —— protocol + append-only 訊息板二合一，報名格式 `[<AI>/<model> · HKT]`，seed 訊息由 Claude(Opus 4.8) 開張。CLAUDE.md 加「跨-AI 溝通」section（教 Claude 自己點用 + 手動 commit）+ root 樹補 AGENTS.md/ai-comms + auto-commit scope 註加 AGENTS.md。夾名選 `ai-comms`。全部 hook scope 外、手動 commit。
 
 ## [2026-06-19 20:08 HKT] config | `Meta/Software/Software.md` 補 runtime row：新增 **node（帶 npm/npx，v24.16.0 / npm·npx 11.13.0，`.pkg/manual` @ `/usr/local/bin`，非 brew）**；`uv` row 標明帶 `uvx`。核實：`uvx`⊂uv（brew Cellar 同帶 bin/uv+bin/uvx）、`npx`⊂node（npm 一齊嚟）→ 兩個係 runner 非獨立 install，併入母工具 row 並加註解行。`npm -g` 工具（defuddle/claude-auto-retry/happy）全靠呢個 node。Meta/ 手動 commit。
