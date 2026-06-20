@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 15:20 HKT] bookmark | 2 個 AI YouTube 頻道 + 1 條 Vibe Coding 片
+① @lazy_kar（AI 工具/音樂/影片教學，廣東話）② @zhentanai（AI 影片生成教學，簡體→標題 s2hk）入新夾 `Bookmarks/AI/Channels/`；③ Hei_Ai Vibe Coding（ChatGPT+Lovable 無 code 做 App）入新夾 `Bookmarks/AI/Vibe Coding/`。頻道做指標（非單片）；③ 存描述、transcript 因 caption 429 暫不搶抓。
+
 ## [2026-06-21 15:05 HKT] bookmark | Reddit 鼻甲肥大（頸姿勢成因）＋ Regenetiss EX 聚磷酸
 兩條 Health bookmark：① r/Sinusitis 帖（Playwright 過 403 bot 牆，存全文＋25 留言；頸姿勢↔鼻甲，連 [[Coach Jason Yang - 為什麼脖子總是很緊及真正有效的解法 (YouTube)]]）入 `Health/ENT/`；② Regenetiss EXポリリン酸 開發故事（日文不 s2hk，聚磷酸牙周/骨再生，42 論文）入 `Health/Oral/Periodontal/`，連 [[Periodontal Regenerative Therapy]]。
 
