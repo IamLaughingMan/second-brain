@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 02:20 HKT] bookmark | 紫微AI 價格坍縮時代以量打質（簡書商業觀點）
+商業策略觀點文 bookmark 入 `Bookmarks/` root（domain 待定留空——AI 商業策略類）。defuddle 全文，簡體 s2hk 轉正體（户/閲 屬 s2hk HK 字形、非殘留，已單字測試核實不動）。案例數字標明當 idea 非 verified data。
+
 ## [2026-06-21 02:05 HKT] bookmark | Porter科技迷 白嫖 Google AI Pro 答疑合集
 deals/薅羊毛影片 bookmark 入 `Bookmarks/Shopping/`（domain shopping）。無字幕 → 存描述快照（簡體 s2hk 轉正體，URL/邀請碼保留）。My Notes 誠實標 affiliate/referral + TOS 封號風險、非背書。連 [[App Store Price - 全球 App Store 最低價比較]]。
 
