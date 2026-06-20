@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 14:35 HKT] bookmark | PubMed 40036296 牙周再生＋牙髓保留（5 年個案）
+學術 bookmark 入新夾 `Bookmarks/Health/Oral/Periodontal/`（domain health，鏡 wiki 牙周領域）。abstract 全文存檔（英文）。直接對應 [[Periodontal Disease]] 領域、屬 Layer-2 ingest 候選。作者因 eutils 連唔到未抓。
+
 ## [2026-06-21 14:20 HKT] bookmark | r/GPT_jailbreaks Reddit 社群（AI Safety）
 中性 pointer bookmark 入 `Bookmarks/AI/AI Safety/`（domain ai-safety）。GPT/LLM 越獄社群。reddit.com URL 防毒唔 flag、正常存到。不 archive payload。連 [[r-ClaudeAIJailbreak - Reddit 社群（Claude AI 越獄 紅隊）]] 等同類。
 
