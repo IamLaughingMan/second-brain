@@ -19,9 +19,19 @@ pixeldrain 上一個檔案 list（標題 **「Gemini-GEM-spicy」**，建立 202
 ## Key Facts
 
 - **平台**：pixeldrain 檔案寄存 list（指標；檔案隨上載者可隨時刪）
-- **內容（檔名 metadata，未下載內文）**：5 個 `.txt` —— 一個 Gemini 越獄 prompt、`smut guidelines`、`smut example`、`attachment`、`message`
 - **性質**：Gemini 安全護欄繞過 + **NSFW 成人內容**生成；屬 TOS／使用政策敏感
-- **大小**：全部極細（純文字，合共 < 0.02 MB）
+
+### 5 份檔（title + size，僅 metadata，未下載內文）
+
+| # | 檔名 | 大小 | 類型 |
+|---|---|---|---|
+| 1 | `2.5-crazy-20250816.txt` | 2,476 bytes | text/plain |
+| 2 | `smut guidelines.txt` | 347 bytes | text/plain |
+| 3 | `smut example.txt` | 4,776 bytes | text/plain |
+| 4 | `attachment.txt` | 190 bytes | text/plain |
+| 5 | `message.txt` | 6,194 bytes | text/plain |
+
+> 合共 ~13.98 KB（純文字）。**只記檔名／大小層 metadata，刻意不下載／不 archive 內文**（理由見 My Notes）。
 
 ## My Notes
 
