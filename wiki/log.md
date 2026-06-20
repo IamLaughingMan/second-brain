@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 01:05 HKT] bookmark | 雷蒙三十 Claude Code 零基礎入門（上）YouTube 教學
+YouTube 影片 bookmark 入 `Bookmarks/AI/Claude Code/`。yt-dlp（Chrome cookies 過 bot 牆）抽 metadata + zh-Hant 自動字幕 transcript（去時間碼/去重，11K 字）+ 描述全文存檔。原文正體台灣中文（毋須 s2hk）。留言抓唔到（YT 評論被 bot 擋，誠實標技術失敗非 0 留言）。連去同作者 [[雷蒙 Lifehacker - Claude Code 學習資源 hub]]。
+
 ## [2026-06-21 00:35 HKT] test | Playwright MCP 實測 smzdm — 雙層牆，過唔到第 2 層 captcha
 Playwright 啟動正常、破到第 1 層 `probe.js`，但 smzdm 升級去第 2 層騰訊 WAF captcha（`TCaptcha.js`）headless 過唔到 → 呢篇 smzdm 全文自動抓唔到。修正「smzdm = probe.js 單層」假設。Playwright 對 probe.js-only／純 JS render 站仍有效。詳見 [[mcp]]。
 
