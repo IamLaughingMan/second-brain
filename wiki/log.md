@@ -8,6 +8,13 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-20 23:08 HKT] install | Playwright MCP server（`@playwright/mcp@latest`，user scope）
+
+起因：smzdm（`anvwm2e0`）用 `probe.js` JS bot 挑戰，`defuddle`/`curl`(HTTP 202, 209 bytes)/`WebFetch` 全部只攞到挑戰殼、抓唔到全文 → 之前要使用者手 paste。查得本機**無** Playwright/Puppeteer（npm/npx/python/MCP/browser-cache 全 miss），但**有** `/Applications/Google Chrome.app`。使用者揀 **B（MCP server，通用瀏覽器工具）**。寫入 `~/.claude.json` root `mcpServers.playwright` = `npx -y @playwright/mcp@latest --browser chrome`（借系統 Chrome 免 download Chromium；預設 headed 過 bot 成功率最高）。已備份 `~/.claude.json.bak-*`、驗 JSON valid、預熱 npx cache。Catalog `Meta/extensions/mcp.md` 更新（新 row + note）。**MCP 開 session 時 spawn → 要重啟 Claude Code 先載入。**
+
+## [2026-06-20 22:48 HKT] bookmark | Happy Coder 手機遠端操控 Claude Code（什麼值得買 smzdm）
+
+
 ## [2026-06-19 23:52 HKT] bookmark | `cheapestinference/claude-auto-retry`（126★ MIT）→ `Bookmarks/AI/Claude Code/Tools/`（user-supplied）。= 你已裝工具嘅源 repo。**順手驗證 work**：binary 0.2.2（=npm 最新）+ zshrc `claude()` wrapper（re-entrancy guard 寫得好）+ launcher.js + tmux 3.6b + `status` 健康（被動，hit limit 先動）→ **裝得啱、work**。機制：tmux 內背景 monitor 每 5s poll，偵測 rate-limit→parse reset(timezone/DST-safe)→等→送 continue；tmux 令斷線都續。README 摘錄 archive。Software.md row 雙向 link 咗。Bookmarks/ + Meta/ 手動 commit。
 
 ## [2026-06-19 23:40 HKT] session-end | 收工。本 session 大件：① extensions catalog reconcile + `Meta/tools`→`Meta/Software` + 新 `mcp.md`（四類擴充）② 裝 yt-dlp/opencc/obsidian-visual-skills(3 視覺 skill)/Excalidraw ③ root `AGENTS.md` + `Meta/ai-comms/`（跨-AI，AGENTS⊂CLAUDE 兩層）④ 新 `Personal/` 念頭簿 ⑤ 簡→正體 opencc 規矩（pipeline+memory）⑥ Bookmarks/AI Karpathy/Obsidian/Claude-Code cluster 大批（YouTube via yt-dlp+cookies+opencc）⑦ Superpowers 候選 ⑧ CLAUDE.md 兩層導航 router。`.obsidian/plugins/` 加 .gitignore。**~40 commit 待用戶終端機 push**（Claude 無 TTY）。hot.md 已刷新。
