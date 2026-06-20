@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 02:35 HKT] bookmark | 鉅亨網 Karpathy LLM Wiki 建構指南（中譯＋實操註釋）
+bookmark 入 `Bookmarks/AI/LLM Wiki/`（domain ai-tools 對齊同夾）。Karpathy LLM Wiki 設計模式完整中譯＋💡手把手實操註釋（鉅亨轉自 Web3天空之城），正體無需 s2hk。⭐ 本 vault CLAUDE.md 核心原則嘅直接藍本；連 [[karpathy - LLM Wiki gist]] 等 cluster。
+
 ## [2026-06-21 02:20 HKT] bookmark | 紫微AI 價格坍縮時代以量打質（簡書商業觀點）
 商業策略觀點文 bookmark 入 `Bookmarks/` root（domain 待定留空——AI 商業策略類）。defuddle 全文，簡體 s2hk 轉正體（户/閲 屬 s2hk HK 字形、非殘留，已單字測試核實不動）。案例數字標明當 idea 非 verified data。
 
