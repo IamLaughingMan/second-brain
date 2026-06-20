@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 14:20 HKT] bookmark | r/GPT_jailbreaks Reddit 社群（AI Safety）
+中性 pointer bookmark 入 `Bookmarks/AI/AI Safety/`（domain ai-safety）。GPT/LLM 越獄社群。reddit.com URL 防毒唔 flag、正常存到。不 archive payload。連 [[r-ClaudeAIJailbreak - Reddit 社群（Claude AI 越獄 紅隊）]] 等同類。
+
 ## [2026-06-21 14:05 HKT] bookmark | ChatGPT 越獄聚合站（已標記問題・防火化記錄）
 chatgptjailbreak.tech：live URL 寫入屢被環境 content-filter 刪（確認觸發點＝該域名）。改以**防火化（defang）**寫法只記網址＋標記「有問題」（越獄聚合站／prompt-injection 風險／不宜 ingest），入 `Bookmarks/AI/AI Safety/`。不抓站內容。
 
