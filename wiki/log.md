@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 02:05 HKT] bookmark | Porter科技迷 白嫖 Google AI Pro 答疑合集
+deals/薅羊毛影片 bookmark 入 `Bookmarks/Shopping/`（domain shopping）。無字幕 → 存描述快照（簡體 s2hk 轉正體，URL/邀請碼保留）。My Notes 誠實標 affiliate/referral + TOS 封號風險、非背書。連 [[App Store Price - 全球 App Store 最低價比較]]。
+
 ## [2026-06-21 01:50 HKT] bookmark | 科技翰林院 Happy Coder 教學與 6 方案比較
 深入長文 bookmark 入 `Bookmarks/AI/Claude Code/Tools/`。defuddle 抽全文（清 11 圖/0 空殼），正體台灣中文（毋須 s2hk）。同已有 [[Happy Coder 手機遠端操控 Claude Code（什麼值得買）]] 互補（比較/資安 vs 體驗），已建雙向連結。
 
