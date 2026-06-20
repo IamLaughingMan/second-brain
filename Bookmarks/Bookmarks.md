@@ -36,7 +36,7 @@ tags:
 
 某個 sub-folder 收藏夠多、夠成 cluster 時，會喺該夾開一個輕量 hub（`type: moc`）分組列項。現有：
 
-- [[LLM Wiki]] — `AI/LLM Wiki/`：Karpathy LLM Wiki 模式收藏（11 條，分一手／文章／影片／repo）；權威 spec 見 [[Karpathy LLM Wiki Pattern]]
+- [[LLM Wiki]] — `AI/LLM Wiki/`：Karpathy LLM Wiki 模式收藏（12 條，分一手／文章／影片／repo）；權威 spec 見 [[Karpathy LLM Wiki Pattern]]
 
 ## 視圖（**不搬檔**，靠 frontmatter `status`）
 

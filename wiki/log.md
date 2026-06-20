@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 04:10 HKT] bookmark | Nico投資有道 Obsidian+Claudian 個人知識庫（第 12 條）
+bookmark 入 `Bookmarks/AI/LLM Wiki/`。角度差異：用 Claudian 社區插件（Obsidian 內 chat Claude）非 Claude Code agent。zh-Hans 人手字幕+描述 s2hk 轉正體（户=s2hk HK 字形）。誠實標 broker/crypto affiliate（影片正經、歸 cluster 非 Shopping）。更新 [[LLM Wiki]] hub 11→12 + Bookmarks.md。
+
 ## [2026-06-21 03:55 HKT] bookmark | 余小章 大內殿堂 Karpathy 筆記術實戰（點部落，第 11 條）
 bookmark 入 `Bookmarks/AI/LLM Wiki/`。最 step-by-step 實作＋唯一 Windows 視角。原文 5 截圖係 base64 內嵌（~24KB）已按 cleanup 剝走、文字步驟完整。更新 [[LLM Wiki]] hub（10→11）＋ Bookmarks.md 計數。純 reference 不增強 spec。
 
