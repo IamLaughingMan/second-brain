@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 01:35 HKT] bookmark | App Store Price 全球比價工具站
+工具站 bookmark 入 `Bookmarks/` root（domain 待定留空——購物/工具類，未有對應 domain 夾）。defuddle 抽 landing（SPA，動態比價未能靜態抓取，只存首屏快照）+ meta 描述；簡體經 s2hk 轉正體。非文章無留言區。
+
 ## [2026-06-21 01:20 HKT] bookmark | HC AI說人話 用 NotebookLM 升級 Claude Code YouTube 教學
 YouTube 影片 bookmark 入 `Bookmarks/AI/Claude Code/`。yt-dlp 抽 metadata + zh-Hant **人手字幕** transcript（6.3K 字）+ 描述存檔。正體中文（毋須 s2hk）。留言抓唔到（誠實標技術失敗）。交叉連 [[yt-dlp]]（Software）＋ [[skills]]（影片教自製 yt-search skill）。
 
