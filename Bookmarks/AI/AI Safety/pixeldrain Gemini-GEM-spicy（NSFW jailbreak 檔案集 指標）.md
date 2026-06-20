@@ -40,9 +40,28 @@ pixeldrain 上一個檔案 list（標題 **「Gemini-GEM-spicy」**，建立 202
 - 使用須守 pixeldrain 及 Google／Gemini 使用政策；越獄繞過安全限制屬違規。**本 vault 收錄係作 awareness／紅隊認知，非鼓勵濫用**。
 - 內容屬成人向（NSFW），已用 `nsfw` tag 標明，方便日後 filter／prune。
 
+## 逐份 Summary（自填）
+
+> 框架由 Claude 搭、**內容由你自己填**（Claude 不下載／不代寫越獄或露骨內容）。每份寫你自己嘅一句概括／用途備註即可。
+
+### 1. `2.5-crazy-20250816.txt`（2,476 bytes）
+-
+
+### 2. `smut guidelines.txt`（347 bytes）
+-
+
+### 3. `smut example.txt`（4,776 bytes）
+-
+
+### 4. `attachment.txt`（190 bytes）
+-
+
+### 5. `message.txt`（6,194 bytes）
+-
+
 ## Full Content (archived)
 
-不適用／刻意不存：本條為 pixeldrain list 指標，內容為 Gemini 越獄＋NSFW payload，**不下載亦不 archive**（理由見 My Notes）。
+不適用／刻意不存：本條為 pixeldrain list 指標，內容為 Gemini 越獄＋NSFW payload，**不下載亦不 archive**（理由見 My Notes）。逐份概括請見上面「逐份 Summary（自填）」。
 
 ## Key Comments
 
