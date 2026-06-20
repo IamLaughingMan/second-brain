@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 00:35 HKT] test | Playwright MCP 實測 smzdm — 雙層牆，過唔到第 2 層 captcha
+Playwright 啟動正常、破到第 1 層 `probe.js`，但 smzdm 升級去第 2 層騰訊 WAF captcha（`TCaptcha.js`）headless 過唔到 → 呢篇 smzdm 全文自動抓唔到。修正「smzdm = probe.js 單層」假設。Playwright 對 probe.js-only／純 JS render 站仍有效。詳見 [[mcp]]。
+
 ## [2026-06-20 23:20 HKT] fix | Happy Coder bookmark — 移除錯誤 `found-by-user` tag ＋ 補官方 pointer
 
 修上次 session 留低嘅兩個 bookmark 問題：(1) `found-by-user` 唔係 convention tag（使用者掉嘅 link 唔加 provenance tag、只有 Claude 自搵先標 `found-by-claude`）→ 移除；(2) 篇文係 smzdm 第三方體驗文，缺官方 canonical 來源 → `## Related` 補 Happy Coder 官網 <https://happy.engineering/> + App repo `slopus/happy`（>17k★ MIT）+ CLI repo `slopus/happy-cli`。

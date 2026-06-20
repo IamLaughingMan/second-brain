@@ -4,7 +4,7 @@ title: "MCP servers"
 para: resource
 status: active
 created: 2026-06-19
-updated: 2026-06-20
+updated: 2026-06-21
 tags:
   - meta
   - extensions
@@ -35,6 +35,9 @@ Catalog 頁。Hub：[[extensions]]。MCP（Model Context Protocol）server = 畀
 
 > [!note] Playwright MCP（2026-06-20 裝）
 > 為咗抓 **JS bot-wall 站**（smzdm `probe.js` 挑戰、知乎 login/anti-bot）而裝——`defuddle`/`curl`/`WebFetch` 都唔識執行 JS，只攞到挑戰殼。Playwright 開真瀏覽器執行 JS 過挑戰先攞到 rendered 內容，再餵落 bookmark pipeline（cleanup→s2hk）。**MCP server 開 session 時 spawn → 改完要重啟 Claude Code 先載入。** 首次用會 `npx` 拉 package（已預熱 cache）。
+
+> [!warning] smzdm 實測（2026-06-21）= 雙層牆，Playwright 過唔到
+> 對 `post.smzdm.com/p/anvwm2e0/` 實測：Playwright **啟動正常**（navigate/evaluate 都 work、借到系統 Chrome），亦**破到第 1 層 `probe.js`**；但 smzdm 跟住升級去**第 2 層騰訊 WAF captcha**（`https://ssl.captcha.qq.com/TCaptcha.js`、`new TencentCaptcha(...)` → POST `/WafCaptcha`），係**互動式滑塊／點選驗證**，headless 自動化**過唔到**，文章 `title`/`body` 一直空。即係**淨靠 Playwright 抓唔到呢篇 smzdm 全文**。修正之前「smzdm = probe.js 單層」嘅假設。Playwright 本身冇壞，對「只得 probe.js／純 JS render」嘅站仍有效。smzdm 剩低 fallback 要使用者出手：(A) 自己瀏覽器過 captcha → copy／Web Clipper clip 落 `Inbox/clippings/` → 再跑 cleanup→s2hk；(B) 只存 URL pointer + 人手摘要，標明「全文受 captcha 牆未抓」。
 
 > [!warning] Scope 陷阱
 > `filesystem` / `fetch` **只 scoped 落 `~/AI/Claude/General`**，所以喺**本 vault** session 用唔到佢哋（呢個 session 只見 `obsidian-vault` + `happy`）。CSV 2026-06-04 記嘅 MCP install 就係呢兩個，當時 scope 落 General。若想喺其他 project 用 → 喺嗰個 project 嘅 `mcpServers` 加，或搬上 user-level top-level `mcpServers`。
