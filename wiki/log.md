@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 03:55 HKT] bookmark | 余小章 大內殿堂 Karpathy 筆記術實戰（點部落，第 11 條）
+bookmark 入 `Bookmarks/AI/LLM Wiki/`。最 step-by-step 實作＋唯一 Windows 視角。原文 5 截圖係 base64 內嵌（~24KB）已按 cleanup 剝走、文字步驟完整。更新 [[LLM Wiki]] hub（10→11）＋ Bookmarks.md 計數。純 reference 不增強 spec。
+
 ## [2026-06-21 03:40 HKT] bookmark | DAIR.ai (Elvis Saravia) LLM Knowledge Bases（spec 的 D 層出處）
 bookmark 入 `Bookmarks/AI/LLM Wiki/`（第 10 條）。compiler 比喻＋4 階段 framing 嘅一手英文出處（[[Karpathy LLM Wiki Pattern]] spec「D 層」）。清 iframe/tag湯/newsletter。更新 [[LLM Wiki]] hub（9→10，加一手來源組＋速查）＋ Bookmarks.md 計數。
 
