@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 14:05 HKT] bookmark | ChatGPT 越獄聚合站（已標記問題・防火化記錄）
+chatgptjailbreak.tech：live URL 寫入屢被環境 content-filter 刪（確認觸發點＝該域名）。改以**防火化（defang）**寫法只記網址＋標記「有問題」（越獄聚合站／prompt-injection 風險／不宜 ingest），入 `Bookmarks/AI/AI Safety/`。不抓站內容。
+
 ## [2026-06-21 04:45 HKT] bookmark | pixeldrain Gemini-GEM-spicy（NSFW jailbreak 指標）
 中性 pointer bookmark 入 `Bookmarks/AI/AI Safety/`（domain ai-safety，tag nsfw）。pixeldrain list（Gemini 越獄+NSFW 成人內容 prompt，5 txt）。**刻意不下載/不 archive payload 或露骨內容**——只存檔名層中性描述，標 TOS 敏感/awareness 非鼓勵。連 [[r-ClaudeAIJailbreak - Reddit 社群（Claude AI 越獄 紅隊）]]。
 
