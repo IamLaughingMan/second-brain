@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 15:45 HKT] note | 頸片 transcript 補抓失敗・停自動重試
+Coach Jason Yang 頸片只有 auto-caption；YouTube auto-caption 端點對本機 IP 持續 429（連 Playwright 開片都被導去 Google 登入牆），跨 ~2.5h 試 5+ 次皆敗。對比 Veo3 成功＝因有人手字幕（manual subs 端點未限）。已停自動重試，檔內「### Transcript」更新為手動補法。
+
 ## [2026-06-21 15:35 HKT] bookmark | 電腦王阿達 Veo3 影片製作全攻略
 入新夾 `Bookmarks/AI/AI Video/`（domain ai-tools）。Google Veo3 text-to-video 教學；zh-Hant 人手字幕 transcript + 描述存檔（正體無需 s2hk）。caption rate-limit 似已清（今次成功抓字幕）。連 [[@lazy_kar - AI 工具音樂影片教學頻道（YouTube）]]、[[@zhentanai - AI 影片生成教學頻道（YouTube）]]。
 
