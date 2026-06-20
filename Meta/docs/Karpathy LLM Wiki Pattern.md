@@ -5,7 +5,7 @@ para: resource
 title: "Karpathy's LLM Wiki Pattern"
 status: developing
 created: 2026-06-08
-updated: 2026-06-17
+updated: 2026-06-21
 tags:
   - resource
   - reference
@@ -80,6 +80,15 @@ Karpathy 明確嘅 2 個 support files（**K**）：
 3. **Query & Enhance（查詢與增益）**：對 wiki 提問、帶引用作答；**查詢輸出再歸檔回 wiki 成新頁**——「每次探索都會累積。」
 4. **Lint & Maintain（健檢與維護）**：掃矛盾、過時聲明、孤兒頁、缺交叉引用；用 web search 補洞、找跨概念連結成新頁、建議下一步研究，然後回到 Compile。
 
+## 實操補充（cnyes 中譯＋實操註釋，2026-06-21 補入）
+
+來源：鉅亨號轉載「Web3天空之城」嘅 Karpathy gist 中譯＋💡實操註釋版（bookmark：[[鉅亨網 - Karpathy LLM Wiki 建構指南（中譯＋手把手實操註釋）]]）。以下只摘錄現有 spec **未涵蓋、且有實操增值**嘅點（純新手建夾教學從略，因 vault 結構已遠超）：
+
+- **上手 bootstrap**：唔使從零寫 code —— 直接把方法論文檔餵畀有「讀取本地檔案」能力嘅 AI agent，一句「閱讀呢篇、理解 LLM Wiki 理念，以後你就係我嘅 Wiki 維護員」即可起步。
+- **具體 Ingest prompt 範例**（spec 原本只抽象描述 Ingest，呢個係 copy-paste 模板）：
+  > 「請閱讀 `raw/` 中剛放入嘅《X.pdf》。讀完後：① 喺 wiki 建立該來源嘅摘要頁；② 若提到 Y 主題，去更新已有嘅 `Y.md`；③ 更新 `index.md`。」
+- **點解 `index.md`／`log.md` 極重要**：因為 context window 有限，AI 無法一次睇清幾百個檔。`index.md` = 全域地圖，每次接到任務先睇地圖、再決定改邊個具體檔 —— 同本 vault `CLAUDE.md`「漸進式披露／兩層導航」係同一原理。
+
 ## 為何會複利（Why it compounds）
 > 「The wiki is a persistent, compounding artifact.」（wiki 是一個持續、會複利的成品。）
 
@@ -109,5 +118,6 @@ Karpathy 原 gist 講「moderate scale（~100 sources、~hundreds of pages）」
 - claude-obsidian（曾試用以自動化此模式，2026-06-16 已移除；automation 改用原生 hook）：https://github.com/AgriciDaniel/claude-obsidian
 - kepano/obsidian-skills（建議搭檔，底層格式 substrate）：https://github.com/kepano/obsidian-skills
 - 報導整理（Techstrong.ai）：https://techstrong.ai/features/karpathys-instructions-for-building-an-ai-driven-second-brain/
+- cnyes 中譯＋💡實操註釋（鉅亨號 Anue，轉自 Web3天空之城；2026-06-21 補入實操點）：https://hao.cnyes.com/post/240756
 
 相關：本 vault 的 [[Research - Severe Periodontitis and Tooth Loss]] 即依此模式建立。

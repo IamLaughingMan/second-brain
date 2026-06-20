@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 02:50 HKT] enhance | Karpathy LLM Wiki Pattern spec 補入 cnyes 3 點實操
+選 Layer-2 替代方案（B）：唔 ingest 入 wiki（避重複 Meta/docs spec + 違反 2026-06-17 決定），改為把 cnyes 中譯版 3 點實操增值（bootstrap／具體 Ingest prompt 範例／index.md context-window rationale）補入 `Meta/docs/Karpathy LLM Wiki Pattern.md` 新「實操補充」節 + Sources 連結。bookmark My Notes 標明處置。
+
 ## [2026-06-21 02:35 HKT] bookmark | 鉅亨網 Karpathy LLM Wiki 建構指南（中譯＋實操註釋）
 bookmark 入 `Bookmarks/AI/LLM Wiki/`（domain ai-tools 對齊同夾）。Karpathy LLM Wiki 設計模式完整中譯＋💡手把手實操註釋（鉅亨轉自 Web3天空之城），正體無需 s2hk。⭐ 本 vault CLAUDE.md 核心原則嘅直接藍本；連 [[karpathy - LLM Wiki gist]] 等 cluster。
 
