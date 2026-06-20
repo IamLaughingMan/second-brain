@@ -9,7 +9,7 @@ published: "2026-04-03"
 status: active
 created: 2026-06-20
 updated: 2026-06-20
-tags: [bookmark, happy-coder, claude-code, mobile, found-by-user]
+tags: [bookmark, happy-coder, claude-code, mobile]
 summary: "什麼值得買用家分享 Happy Coder 使用體驗——透過 AES 端對端加密中繼，用手機遠端操控 Claude Code/Codex，解決「必須守在電腦前等確認」痛點；支援推播通知、語音操控、多任務並行。"
 ---
 
@@ -36,6 +36,12 @@ smzdm（什麼值得買）用家分享親身體驗：用 Happy Coder 把 Claude 
 
 ## Related
 
+**官方來源（canonical，本篇為第三方體驗文）：**
+- 官網：<https://happy.engineering/>
+- App（手機/Web client，>17k★ · MIT）：<https://github.com/slopus/happy>
+- CLI（電腦端 `happy claude`）：<https://github.com/slopus/happy-cli>
+
+**其他 Claude Code 工具：**
 - [[Superpowers (obra)]] — 另一個 Claude Code 增強工具（TDD + plan + review 方法論）
 - [[claude-auto-retry (cheapestinference)]] — 自動重試 rate limit（已知與 cmux 不相容）
 

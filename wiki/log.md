@@ -8,6 +8,10 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-20 23:20 HKT] fix | Happy Coder bookmark — 移除錯誤 `found-by-user` tag ＋ 補官方 pointer
+
+修上次 session 留低嘅兩個 bookmark 問題：(1) `found-by-user` 唔係 convention tag（使用者掉嘅 link 唔加 provenance tag、只有 Claude 自搵先標 `found-by-claude`）→ 移除；(2) 篇文係 smzdm 第三方體驗文，缺官方 canonical 來源 → `## Related` 補 Happy Coder 官網 <https://happy.engineering/> + App repo `slopus/happy`（>17k★ MIT）+ CLI repo `slopus/happy-cli`。
+
 ## [2026-06-20 23:08 HKT] install | Playwright MCP server（`@playwright/mcp@latest`，user scope）
 
 起因：smzdm（`anvwm2e0`）用 `probe.js` JS bot 挑戰，`defuddle`/`curl`(HTTP 202, 209 bytes)/`WebFetch` 全部只攞到挑戰殼、抓唔到全文 → 之前要使用者手 paste。查得本機**無** Playwright/Puppeteer（npm/npx/python/MCP/browser-cache 全 miss），但**有** `/Applications/Google Chrome.app`。使用者揀 **B（MCP server，通用瀏覽器工具）**。寫入 `~/.claude.json` root `mcpServers.playwright` = `npx -y @playwright/mcp@latest --browser chrome`（借系統 Chrome 免 download Chromium；預設 headed 過 bot 成功率最高）。已備份 `~/.claude.json.bak-*`、驗 JSON valid、預熱 npx cache。Catalog `Meta/extensions/mcp.md` 更新（新 row + note）。**MCP 開 session 時 spawn → 要重啟 Claude Code 先載入。**
