@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 15:35 HKT] bookmark | 電腦王阿達 Veo3 影片製作全攻略
+入新夾 `Bookmarks/AI/AI Video/`（domain ai-tools）。Google Veo3 text-to-video 教學；zh-Hant 人手字幕 transcript + 描述存檔（正體無需 s2hk）。caption rate-limit 似已清（今次成功抓字幕）。連 [[@lazy_kar - AI 工具音樂影片教學頻道（YouTube）]]、[[@zhentanai - AI 影片生成教學頻道（YouTube）]]。
+
 ## [2026-06-21 15:20 HKT] bookmark | 2 個 AI YouTube 頻道 + 1 條 Vibe Coding 片
 ① @lazy_kar（AI 工具/音樂/影片教學，廣東話）② @zhentanai（AI 影片生成教學，簡體→標題 s2hk）入新夾 `Bookmarks/AI/Channels/`；③ Hei_Ai Vibe Coding（ChatGPT+Lovable 無 code 做 App）入新夾 `Bookmarks/AI/Vibe Coding/`。頻道做指標（非單片）；③ 存描述、transcript 因 caption 429 暫不搶抓。
 
