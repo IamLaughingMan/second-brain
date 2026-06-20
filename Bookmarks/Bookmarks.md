@@ -4,7 +4,7 @@ title: "Bookmarks"
 para: resource
 status: active
 created: 2026-06-16
-updated: 2026-06-17
+updated: 2026-06-21
 tags:
   - moc
   - bookmark
@@ -31,6 +31,12 @@ tags:
 > - **`Inbox/clippings/`** = Web Clipper 全文 clip（全文 markdown，會 triage）
 > - **`raw/articles/`** = formal sources to compile（會 ingest 入 wiki；bookmark 只在 Layer 2 promote 時先寫入呢度）
 > - **`wiki/<topic>/`** = compiled knowledge（已 refined）
+
+## 夾內 hub（cluster 索引）
+
+某個 sub-folder 收藏夠多、夠成 cluster 時，會喺該夾開一個輕量 hub（`type: moc`）分組列項。現有：
+
+- [[LLM Wiki]] — `AI/LLM Wiki/`：Karpathy LLM Wiki 模式收藏（9 條，分一手／文章／影片／repo）；權威 spec 見 [[Karpathy LLM Wiki Pattern]]
 
 ## 視圖（**不搬檔**，靠 frontmatter `status`）
 
