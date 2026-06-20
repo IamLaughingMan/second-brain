@@ -36,6 +36,7 @@ updated: 2026-06-12
 ## Sources
 - [[2018 Periodontitis Classification]] — Tonetti 2018 分期/分級（high）
 - [[Regenerative Therapies in Periodontology 2025]] — MDPI 綜述（high）
+- [[Apical 2mm-Sparing Debridement Pulp Vitality Case 2025]] — 保留根尖 2mm＋EMD 再生、5 年保牙髓個案（medium）
 - [[TRG-035 Anti-USAG-1 Antibody]] — Toregem 長牙藥（medium）
 - [[Allogeneic Dental Pulp Stem Cell RCT 2025]] — Nature STTT 試驗（high）
 - [[Global Dental Implant Cost Guide 2025-2026]] — 價格彙整（medium）

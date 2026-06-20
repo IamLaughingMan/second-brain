@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 14:50 HKT] ingest | Layer-2：PubMed 40036296 → wiki 牙周 source
+Layer-2 ingest 完成：defuddle → `raw/articles/pubmed-40036296-apical-2mm-pulp-vitality.md` → compile 成 [[Apical 2mm-Sparing Debridement Pulp Vitality Case 2025]]（`sources/`，type: source，連 [[Periodontal Regenerative Therapy]]）。bridge 三角互指（bookmark↔raw↔wiki）。index.md Sources 已加。
+
 ## [2026-06-21 14:35 HKT] bookmark | PubMed 40036296 牙周再生＋牙髓保留（5 年個案）
 學術 bookmark 入新夾 `Bookmarks/Health/Oral/Periodontal/`（domain health，鏡 wiki 牙周領域）。abstract 全文存檔（英文）。直接對應 [[Periodontal Disease]] 領域、屬 Layer-2 ingest 候選。作者因 eutils 連唔到未抓。
 
