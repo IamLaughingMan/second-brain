@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 23:40 HKT] session-end | 收工。本 session 大件：① extensions catalog reconcile + `Meta/tools`→`Meta/Software` + 新 `mcp.md`（四類擴充）② 裝 yt-dlp/opencc/obsidian-visual-skills(3 視覺 skill)/Excalidraw ③ root `AGENTS.md` + `Meta/ai-comms/`（跨-AI，AGENTS⊂CLAUDE 兩層）④ 新 `Personal/` 念頭簿 ⑤ 簡→正體 opencc 規矩（pipeline+memory）⑥ Bookmarks/AI Karpathy/Obsidian/Claude-Code cluster 大批（YouTube via yt-dlp+cookies+opencc）⑦ Superpowers 候選 ⑧ CLAUDE.md 兩層導航 router。`.obsidian/plugins/` 加 .gitignore。**~40 commit 待用戶終端機 push**（Claude 無 TTY）。hot.md 已刷新。
+
 ## [2026-06-19 23:28 HKT] config | 試 Serena 兩層導航模式：CLAUDE.md 加「文件夾導航地圖（漸進式披露 / 兩層導航）」section —— 第一層 router（意圖→folder→先讀邊個 hub 表）+ 規則（深入 folder 前先讀其 hub、唔掃全 vault、唔 bulk full-read）。**適配**：用 vault **既有 hub MOC 做第二層 per-folder instructions**（Bookmarks.md / Inbox.md / Projects.md / Ideas.md / extensions.md / WIKI.md 等），**不另起 instructions.md** 避免同 hub 重複（守 vault anti-duplication）。CLAUDE.md 喺 auto-commit scope 外、手動 commit。
 
 ## [2026-06-19 23:16 HKT] bookmark | Serena心心加州「Obsidian+AI 第二大腦保姆級教程」YouTube（`RZEb6FLZSHE`，15:47，99k views）→ `Bookmarks/AI/LLM Wiki/`（user-supplied）。實戰 workflow 片：人手 zh-CN 字幕 → yt-dlp + opencc s2hk 轉正體（~5.7k 字）。**亮點技巧 = 兩層導航控 token**（root CLAUDE.md 文件夾地圖 + 每夾 instructions.md，漸進式披露）；另 context/ 夾、Web Clipper/Apple Books/iPhone Action Button 語音捕捉、Canvas、daily notes handoff、Obsidian CLI 省 token。My Notes 對照本 vault：兩層 CLAUDE.md 可評估、daily handoff≈收工workflow+history hook 已有。link Dustin/杰森。Bookmarks/ 手動 commit。

@@ -1,15 +1,26 @@
 ---
 type: meta
 title: "Hot Cache"
-updated: 2026-06-18
+updated: 2026-06-19
 ---
 
 # Recent Context
 
 ## Last Updated
-2026-06-18 — bookmark 全文預設 + backfill 9 篇 + 研究「Obsidian 記錄 Claude 對話」
+2026-06-19 — extensions/Software/MCP catalog + AGENTS.md 跨-AI + Personal/Ideas + 簡→正體規矩 + Claude Code/Obsidian bookmark 大批 + 視覺 skill 裝 + 兩層導航
 
-## 2026-06-18 session 摘要（最新，session 前重開）
+## 2026-06-19 session 摘要（最新）
+- **Extensions catalog 整頓**：reconcile vs fs；`Meta/tools/` → **`Meta/Software/`**（裝咗嘅系統軟件 10+ 條）；新增 `Meta/extensions/mcp.md`（obsidian-vault/filesystem/fetch/happy）；extensions hub 升「四類」。
+- **裝咗工具/插件**：`yt-dlp`（YouTube，需 `--cookies-from-browser chrome` 過 bot-wall）、`opencc`（簡↔繁）、**`obsidian-visual-skills@axton`** plugin（3 視覺 skill：canvas-creator/mermaid/excalidraw，user-level）、**Excalidraw** community plugin（vault 首個）。defuddle 抓唔到 YouTube（實測）。
+- **跨-AI 機制**：root **`AGENTS.md`**（其他 AI 自動讀，自含通用規矩子集，指去 `Meta/ai-comms/ai-comms.md` 溝通板、要報名）；**AGENTS.md ⊂ CLAUDE.md** 兩層拆分 + 同步責任。
+- **新 root folder `Personal/`**：念頭簿（一念一檔 `type: idea` + `stage` 未做/做緊/完成/可能開project + `Ideas.base`）。
+- **簡→正體規矩（新）**：存簡體源內容自動 `opencc s2hk` 轉正體（pipeline cleanup step 5 + memory `feedback-convert-simplified-to-traditional`）；caveat：專有名（杰森）勿斷 wikilink。
+- **Bookmark 大批**（`Bookmarks/AI/`）：Karpathy/Obsidian/Claude Code cluster —— Paula、杰森（影片+repo+3 部落格）、Dustin、Serena、知乎柒星棧（三件套）、雷蒙 hub。YouTube 全靠 yt-dlp+cookies+opencc。
+- **Superpowers** 評估後 = **候選**（parked，code project 啱用先提、per-project 唔好 user-level）。
+- **兩層導航**：CLAUDE.md 加「文件夾導航地圖（漸進式披露）」router；第二層用既有 hub MOC（不另起 instructions.md）。
+- **待 push**：~40 commit 喺 main。`.obsidian/plugins/` 已加 .gitignore（4.9MB binary 不入 git）。
+
+## 2026-06-18 session 摘要
 - **Bookmark 改預設**：每個 bookmark **自動連全文 + 重要留言一齊存入 bookmark 檔本身**（`## Full Content (archived)` / `## Key Comments`，防 link-rot 尤其社媒）；留言抓唔到明寫「未能抓取」、唔扮抓。`raw/` 不受影響（`raw_source` 仍為 Layer 2 bridge pointer）。
 - **降掃描成本**：全文移檔尾 + 分隔線、frontmatter 加 `summary:`（triage 用 `get_frontmatter`/`Read --limit` 零 body 成本）、search-first 守則。`.base` 本來只讀 frontmatter。改 raw/ 唔慳 disk（搬層問題、非空間問題）。
 - **Backfill**：9 個現有 bookmark 全部套用（defuddle 全文、剝 badge/圖片/空連結殼、natto trim sidebar）。全屬 reference source（非社媒）→ Key Comments 不適用 → **社媒留言抓取路徑仍未真正測過**。
