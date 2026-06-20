@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 04:25 HKT] bookmark | Coach Jason Yang 頸肩緊繃解法（Health）
+健康 bookmark 入 `Bookmarks/Health/Musculoskeletal/Neck & Shoulder/`（domain health，鏡 Health/<系統>/<主題>/ 深樹）。描述完整存檔（正體無需 s2hk）。⚠️ transcript 因 yt-dlp 連抽多條撞 HTTP 429 未抓（非無字幕，可補）。連同 domain 嘅 [[思思醫師 - 納豆激酶與血管斑塊]]。
+
 ## [2026-06-21 04:10 HKT] bookmark | Nico投資有道 Obsidian+Claudian 個人知識庫（第 12 條）
 bookmark 入 `Bookmarks/AI/LLM Wiki/`。角度差異：用 Claudian 社區插件（Obsidian 內 chat Claude）非 Claude Code agent。zh-Hans 人手字幕+描述 s2hk 轉正體（户=s2hk HK 字形）。誠實標 broker/crypto affiliate（影片正經、歸 cluster 非 Shopping）。更新 [[LLM Wiki]] hub 11→12 + Bookmarks.md。
 
