@@ -53,7 +53,11 @@ tags:
 - 喺 **cmux**（Ghostty-based workspace manager，有自己嘅 `claude-teams`/hooks）下，claude-auto-retry **唔 work**。實證：session 內 `$CLAUDE_AUTO_RETRY_ACTIVE` 未 set、`$TMUX` 空、process tree = `node → claude binary`（**冇經** zsh `claude()` wrapper）。
 - **兩個原因**：① cmux 直接 spawn `claude` binary，繞過 `.zshrc` 個 `claude()` shell function（auto-retry 唯一 hook 點）② cmux 本身係 multiplexer，同 claude-auto-retry 自起嘅 tmux 互斥。
 - **生效條件**：要喺**普通 terminal（ghostty/Terminal）直接打 `claude`**（interactive zsh）先 trigger wrapper → 起 tmux + monitor。用 cmux／Happy 跑就唔 trigger。
-- **替代**：cmux 有自己嘅 hooks／claude-teams，rate-limit 處理應睇 cmux 原生機制（未查證）。
+- **cmux 原生 rate-limit 能力（2026-06-19 查證 cmux live schema/docs，manaflow-ai/cmux）**：
+  - cmux **只 detect + notify**：撞 limit 顯示 status「Rate limit / Waiting」+ 通知（en.lproj 有 `agent.codex.error.status.rateLimit`）。
+  - **`autoResumeAgentSessions`**（default true）＝ **session 還原**：cmux **重開／revisit hibernated tab** 時自動跑 `claude --resume <id>`；連同 Agent Hibernation（`idleSeconds`）係慳 RAM/CPU + 還原。**唔係**偵測 reset 時間後自動送「continue」。
+  - **定案：cmux 冇 claude-auto-retry 等價物**（等 reset → 自動 continue）。cmux 畀你嘅係 **session 持久（唔丟失、reopen 自動 resume）+ 通知**；但 rate limit 後仍要**你手動 continue**。
+  - ⇒ **想完全無人值守自動續（如過夜）**：要喺普通 terminal 用 claude-auto-retry；**接受「回來見通知、手動 continue」**：cmux 單獨夠用。
 
 ## Related
 - [[Software]] —— 本工具喺裝咗嘅軟件 catalog（claude-auto-retry 0.2.2）
