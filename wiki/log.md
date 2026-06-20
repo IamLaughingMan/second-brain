@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 03:05 HKT] bookmark | 數位時代 bnext Karpathy LLM 知識庫系統（第 3 篇）
+bookmark 入 `Bookmarks/AI/LLM Wiki/`（domain ai-tools）。第 3 篇 Karpathy LLM Wiki 文，記者化最易讀，含 paste-ready 英文 4-phase 架構文件。內容無超出 [[Karpathy LLM Wiki Pattern]] spec → 純 reference 唔再增強 spec。連 cluster（gist／cnyes 中譯／spec）。
+
 ## [2026-06-21 02:50 HKT] enhance | Karpathy LLM Wiki Pattern spec 補入 cnyes 3 點實操
 選 Layer-2 替代方案（B）：唔 ingest 入 wiki（避重複 Meta/docs spec + 違反 2026-06-17 決定），改為把 cnyes 中譯版 3 點實操增值（bootstrap／具體 Ingest prompt 範例／index.md context-window rationale）補入 `Meta/docs/Karpathy LLM Wiki Pattern.md` 新「實操補充」節 + Sources 連結。bookmark My Notes 標明處置。
 
