@@ -49,6 +49,12 @@ tags:
 - **被動性質**：平時靜，**淨係 hit rate limit 先動**；要真正見到 retry 要真係撞 limit。log 喺 `~/.claude-auto-retry/logs`。
 - 子指令：`install` / `uninstall` / `status` / `logs`（tail 今日 log）/ `version`。
 
+### ⚠️ 與 cmux 不相容（2026-06-19 實證）
+- 喺 **cmux**（Ghostty-based workspace manager，有自己嘅 `claude-teams`/hooks）下，claude-auto-retry **唔 work**。實證：session 內 `$CLAUDE_AUTO_RETRY_ACTIVE` 未 set、`$TMUX` 空、process tree = `node → claude binary`（**冇經** zsh `claude()` wrapper）。
+- **兩個原因**：① cmux 直接 spawn `claude` binary，繞過 `.zshrc` 個 `claude()` shell function（auto-retry 唯一 hook 點）② cmux 本身係 multiplexer，同 claude-auto-retry 自起嘅 tmux 互斥。
+- **生效條件**：要喺**普通 terminal（ghostty/Terminal）直接打 `claude`**（interactive zsh）先 trigger wrapper → 起 tmux + monitor。用 cmux／Happy 跑就唔 trigger。
+- **替代**：cmux 有自己嘅 hooks／claude-teams，rate-limit 處理應睇 cmux 原生機制（未查證）。
+
 ## Related
 - [[Software]] —— 本工具喺裝咗嘅軟件 catalog（claude-auto-retry 0.2.2）
 - [[Bookmarks]]
