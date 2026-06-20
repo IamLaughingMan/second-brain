@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 01:20 HKT] bookmark | HC AI說人話 用 NotebookLM 升級 Claude Code YouTube 教學
+YouTube 影片 bookmark 入 `Bookmarks/AI/Claude Code/`。yt-dlp 抽 metadata + zh-Hant **人手字幕** transcript（6.3K 字）+ 描述存檔。正體中文（毋須 s2hk）。留言抓唔到（誠實標技術失敗）。交叉連 [[yt-dlp]]（Software）＋ [[skills]]（影片教自製 yt-search skill）。
+
 ## [2026-06-21 01:05 HKT] bookmark | 雷蒙三十 Claude Code 零基礎入門（上）YouTube 教學
 YouTube 影片 bookmark 入 `Bookmarks/AI/Claude Code/`。yt-dlp（Chrome cookies 過 bot 牆）抽 metadata + zh-Hant 自動字幕 transcript（去時間碼/去重，11K 字）+ 描述全文存檔。原文正體台灣中文（毋須 s2hk）。留言抓唔到（YT 評論被 bot 擋，誠實標技術失敗非 0 留言）。連去同作者 [[雷蒙 Lifehacker - Claude Code 學習資源 hub]]。
 
