@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 03:40 HKT] bookmark | DAIR.ai (Elvis Saravia) LLM Knowledge Bases（spec 的 D 層出處）
+bookmark 入 `Bookmarks/AI/LLM Wiki/`（第 10 條）。compiler 比喻＋4 階段 framing 嘅一手英文出處（[[Karpathy LLM Wiki Pattern]] spec「D 層」）。清 iframe/tag湯/newsletter。更新 [[LLM Wiki]] hub（9→10，加一手來源組＋速查）＋ Bookmarks.md 計數。
+
 ## [2026-06-21 03:20 HKT] hub | 開 AI/LLM Wiki/ 輕量 bookmark hub（LLM Wiki.md）
 `Bookmarks/AI/LLM Wiki/LLM Wiki.md`（type: moc）：分 4 組列 9 條外部收藏（1 一手 gist／3 中文文章／4 影片／1 repo）+ 定位速查表 + 指向 authoritative spec [[Karpathy LLM Wiki Pattern]]。10 個 wikilink 全解析。
 
