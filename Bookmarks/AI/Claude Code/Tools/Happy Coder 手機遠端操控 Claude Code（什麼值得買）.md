@@ -41,6 +41,9 @@ smzdm（什麼值得買）用家分享親身體驗：用 Happy Coder 把 Claude 
 - App（手機/Web client，>17k★ · MIT）：<https://github.com/slopus/happy>
 - CLI（電腦端 `happy claude`）：<https://github.com/slopus/happy-cli>
 
+**同主題（互補）：**
+- [[Happy Coder 手機控制 Claude Code 教學與 6 方案比較（科技翰林院）]] — 深入比較文（6 方案橫向＋資安＋FAQ），相對本篇嘅主觀體驗
+
 **其他 Claude Code 工具：**
 - [[Superpowers (obra)]] — 另一個 Claude Code 增強工具（TDD + plan + review 方法論）
 - [[claude-auto-retry (cheapestinference)]] — 自動重試 rate limit（已知與 cmux 不相容）

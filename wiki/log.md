@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 01:50 HKT] bookmark | 科技翰林院 Happy Coder 教學與 6 方案比較
+深入長文 bookmark 入 `Bookmarks/AI/Claude Code/Tools/`。defuddle 抽全文（清 11 圖/0 空殼），正體台灣中文（毋須 s2hk）。同已有 [[Happy Coder 手機遠端操控 Claude Code（什麼值得買）]] 互補（比較/資安 vs 體驗），已建雙向連結。
+
 ## [2026-06-21 01:35 HKT] bookmark | App Store Price 全球比價工具站
 工具站 bookmark 入 `Bookmarks/` root（domain 待定留空——購物/工具類，未有對應 domain 夾）。defuddle 抽 landing（SPA，動態比價未能靜態抓取，只存首屏快照）+ meta 描述；簡體經 s2hk 轉正體。非文章無留言區。
 
