@@ -44,7 +44,7 @@ tags:
 | uv（帶 uvx） | 0.11.19 | brew | `/opt/homebrew/bin/uv`、`uvx` | 2026-06-04 | — | Python pkg/工具 runner；`uvx` 跑 MCP [[mcp\|fetch]]（mcp-server-fetch） | 使用中 |
 | rtk (RTK) | 0.42.1 | brew | `/opt/homebrew/bin/rtk` | 2026-06-05 | — | token 節省 proxy（PreToolUse hook 用） | 使用中 |
 | defuddle | 0.19.0 | npm -g | `~/.npm-global/bin/defuddle` | 2026-06-18 | — | URL→乾淨 markdown（bookmark 全文抽取） | 使用中 |
-| claude-auto-retry | 0.2.2 | npm -g | `~/.npm-global/…/claude-auto-retry` | 2026-06-06 | — | Claude Code auto-retry（zshrc wrapper） | 使用中 |
+| [[claude-auto-retry (cheapestinference)\|claude-auto-retry]] | 0.2.2 | npm -g | `~/.npm-global/…/claude-auto-retry` | 2026-06-06 | — | 撞 rate limit 自動等 reset 送「continue」（zshrc wrapper + tmux；2026-06-19 驗 work） | 使用中 |
 | claude-conversation-extractor | 1.1.2 | pip | `~/opt/anaconda3/bin/claude-extract` | 2026-06-04 | — | 抽取/搜尋 Claude 對話（claude-extract/search/logs） | 使用中 |
 | happy (Happy Coder) | 1.1.9 | npm -g | `/usr/local/lib/node_modules/happy-coder` | 2026-05-26 | — | Happy harness CLI（呢個 session 跑緊；zsh function wrapper） | 使用中 |
 | opencc | 1.3.1 | brew | `/opt/homebrew/bin/opencc` | 2026-06-19 | Claude 幫手 | 簡↔繁中文轉換；bookmark 存檔簡體轉正體用 `s2hk`（簡→繁香港） | 使用中 |

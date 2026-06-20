@@ -8,6 +8,8 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-19 23:52 HKT] bookmark | `cheapestinference/claude-auto-retry`（126★ MIT）→ `Bookmarks/AI/Claude Code/Tools/`（user-supplied）。= 你已裝工具嘅源 repo。**順手驗證 work**：binary 0.2.2（=npm 最新）+ zshrc `claude()` wrapper（re-entrancy guard 寫得好）+ launcher.js + tmux 3.6b + `status` 健康（被動，hit limit 先動）→ **裝得啱、work**。機制：tmux 內背景 monitor 每 5s poll，偵測 rate-limit→parse reset(timezone/DST-safe)→等→送 continue；tmux 令斷線都續。README 摘錄 archive。Software.md row 雙向 link 咗。Bookmarks/ + Meta/ 手動 commit。
+
 ## [2026-06-19 23:40 HKT] session-end | 收工。本 session 大件：① extensions catalog reconcile + `Meta/tools`→`Meta/Software` + 新 `mcp.md`（四類擴充）② 裝 yt-dlp/opencc/obsidian-visual-skills(3 視覺 skill)/Excalidraw ③ root `AGENTS.md` + `Meta/ai-comms/`（跨-AI，AGENTS⊂CLAUDE 兩層）④ 新 `Personal/` 念頭簿 ⑤ 簡→正體 opencc 規矩（pipeline+memory）⑥ Bookmarks/AI Karpathy/Obsidian/Claude-Code cluster 大批（YouTube via yt-dlp+cookies+opencc）⑦ Superpowers 候選 ⑧ CLAUDE.md 兩層導航 router。`.obsidian/plugins/` 加 .gitignore。**~40 commit 待用戶終端機 push**（Claude 無 TTY）。hot.md 已刷新。
 
 ## [2026-06-19 23:28 HKT] config | 試 Serena 兩層導航模式：CLAUDE.md 加「文件夾導航地圖（漸進式披露 / 兩層導航）」section —— 第一層 router（意圖→folder→先讀邊個 hub 表）+ 規則（深入 folder 前先讀其 hub、唔掃全 vault、唔 bulk full-read）。**適配**：用 vault **既有 hub MOC 做第二層 per-folder instructions**（Bookmarks.md / Inbox.md / Projects.md / Ideas.md / extensions.md / WIKI.md 等），**不另起 instructions.md** 避免同 hub 重複（守 vault anti-duplication）。CLAUDE.md 喺 auto-commit scope 外、手動 commit。
