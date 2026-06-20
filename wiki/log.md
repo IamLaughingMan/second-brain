@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 03:20 HKT] hub | 開 AI/LLM Wiki/ 輕量 bookmark hub（LLM Wiki.md）
+`Bookmarks/AI/LLM Wiki/LLM Wiki.md`（type: moc）：分 4 組列 9 條外部收藏（1 一手 gist／3 中文文章／4 影片／1 repo）+ 定位速查表 + 指向 authoritative spec [[Karpathy LLM Wiki Pattern]]。10 個 wikilink 全解析。
+
 ## [2026-06-21 03:05 HKT] bookmark | 數位時代 bnext Karpathy LLM 知識庫系統（第 3 篇）
 bookmark 入 `Bookmarks/AI/LLM Wiki/`（domain ai-tools）。第 3 篇 Karpathy LLM Wiki 文，記者化最易讀，含 paste-ready 英文 4-phase 架構文件。內容無超出 [[Karpathy LLM Wiki Pattern]] spec → 純 reference 唔再增強 spec。連 cluster（gist／cnyes 中譯／spec）。
 
