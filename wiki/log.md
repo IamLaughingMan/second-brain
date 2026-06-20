@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 04:45 HKT] bookmark | pixeldrain Gemini-GEM-spicy（NSFW jailbreak 指標）
+中性 pointer bookmark 入 `Bookmarks/AI/AI Safety/`（domain ai-safety，tag nsfw）。pixeldrain list（Gemini 越獄+NSFW 成人內容 prompt，5 txt）。**刻意不下載/不 archive payload 或露骨內容**——只存檔名層中性描述，標 TOS 敏感/awareness 非鼓勵。連 [[r-ClaudeAIJailbreak - Reddit 社群（Claude AI 越獄 紅隊）]]。
+
 ## [2026-06-21 04:35 HKT] bookmark | r/ClaudeAIJailbreak Reddit 社群（AI Safety）
 中性 pointer bookmark 入新夾 `Bookmarks/AI/AI Safety/`（domain ai-safety）。dual-use 社群（Claude 越獄/紅隊）。Reddit bot-wall，metadata 未抓。**刻意不 archive jailbreak prompt/payload**——只存中性指標＋防禦角度註，標明 awareness/非鼓勵濫用。
 
