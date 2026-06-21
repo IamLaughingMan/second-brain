@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 03:12 HKT] bookmark | BusinessFocus Michael Albaum 32 歲房地產 61 套（Finance/Real Estate）
+2022 BusinessFocus 編譯 CNBC：消防工程師 Michael Albaum 10 年由 1 套 → 61 套出租單位、年租 $431K、月淨 $6K passive。My Notes 警告 3 大 caveat（Roofstock Academy 導師＝商業利益／2013-2022 低息週期 survivorship／net margin 17% 嘅真實 cashflow vs marketing narrative），對標 [[神魚 4 大攻略]] 策略框架。新建 `Bookmarks/Finance/Real Estate/`。
+
 ## [2026-06-22 03:08 HKT] bookmark | HKanime 香港動畫網 粵語配音動畫平台（Entertainment/Anime，grey-area）
 Fan-run Discuz-based HK 粵語配音動畫站；主打 TVB／本港台舊年代 dub 動畫（進擊的巨人、美少女戰士、數碼暴龍、魔神英雄傳）；**geo-restricted（不在港澳必須登入會員）**；社群活躍 191 在線（max 6,796 於 2026-4-15）。My Notes 標 grey-area（fan-rip／無正版授權）、列同類 HK 站對比（D7CC/A4ED/myTV SUPER）+ 文化保育議題。新建 `Bookmarks/Entertainment/Anime/`、新 domain `Entertainment`。
 
