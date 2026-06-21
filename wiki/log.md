@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 19:39 HKT] bookmark | Nutraceuticals World B2B trade publication（Health/Supplements，site root）
+Rodman Media 旗下嘅 nutraceutical／supplement／functional food B2B 行業 publication；My Notes 標明 trade press 有 promotional bias、配 Examine.com + PubMed 平衡使用；homepage 內容每日變、snapshot 唔係 evergreen。新建 `Bookmarks/Health/Supplements/`。
+
 ## [2026-06-21 18:50 HKT] bookmark | T客邦 2025 台日 TOP 30 景點（去趣 App 數據）（Travel/Rankings）
 台灣旅遊 App「去趣」130 萬會員 behavior data 摘要：日本榜文化／歷史最多（淺草寺／清水寺）；台灣榜夜市佔 10/30、文化、自然、文創各有代表。**原文唔列齊 30 個**，My Notes 標註係去趣 App 改版 PR、和泰集團背景＋selection bias。新建 `Bookmarks/Travel/Rankings/`。
 
