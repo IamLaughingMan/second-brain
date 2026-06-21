@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 19:54 HKT] bookmark | Hairguard YouTube — Cheapest Topical DHT Blocker（Health/Hair）
+2022 影片，外用 DHT blocker 加強 minoxidil；description 455 字，未抓 transcript（YouTube anti-bot，per memory）。My Notes 警告 Hairguard 係 commercial channel（自己有賣脫髮產品 → 推薦成分可能 = 自家貨）、列可能候選成分（caffeine／saw palmetto／rosemary oil 2015 study）、外用 DHT blocker 避口服 finasteride 副作用係主賣點。新建 `Bookmarks/Health/Hair/` 子夾。
+
 ## [2026-06-21 19:50 HKT] update | 神魚 4 大賺錢攻略 partial→full（user paste 全文補完）
 之前抓唔到正文（疑 member-only），由 user 直接 paste 全文補完——重寫 Summary／Key Takeaways／Full Content，加 4 階段詳細策略表＋My Notes（時光機法則背景、survivorship bias 重申、可對標 KOL）；剝 `partial-content` tag。
 
