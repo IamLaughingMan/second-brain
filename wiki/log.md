@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 03:46 HKT] idea | 補充品行業入場研究（Personal/Ideas）
+使用者 flag Nutraceuticals + CMC 兩條 supplement bookmark 屬「搵錢 idea」→ 喺 `Personal/Ideas/` 建立 entry-research 頁：拆 5 條 path（DTC own brand / private label / cross-border importer / ingredient supplier / media content-first）、列 regulatory mapping 8 jurisdictions、risk + adjacent opportunities + 9 條 next steps（含對比 [[美國跨州 SFR]] idea risk-adjusted return）。兩條 source bookmark frontmatter `related:` 加 backlink。
+
 ## [2026-06-22 03:43 HKT] bookmark | Satur 薩圖爾 — 咖啡杯測 SCA 標準（Coffee/Cupping）
 台南薩圖爾精品咖啡部落格：SCA 杯測完整 SOP 中文 cheatsheet — 標準化烘焙（Agtron 58/63、8-12min、8h 內）、萃取（粉水比 1:18.18、92-94°C、TDS 150ppm、研磨 850μm）、6 步流程（乾香→濕香→破渣→71/38/21°C 三段啜吸）、SCAA 10 項評分（含 Flavor Wheel）、分數對照（80+ 精品、85+ 競賽級 COE）。My Notes 對 SCA 原 protocol fidelity 比對（71/38/21 vs SCA 70/60/22）、提家用 cupping setup、Q Grader/COE 認證路徑。新建 `Bookmarks/Coffee/Cupping/`、新 domain `Coffee`。
 
