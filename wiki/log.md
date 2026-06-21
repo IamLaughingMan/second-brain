@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 19:50 HKT] update | 神魚 4 大賺錢攻略 partial→full（user paste 全文補完）
+之前抓唔到正文（疑 member-only），由 user 直接 paste 全文補完——重寫 Summary／Key Takeaways／Full Content，加 4 階段詳細策略表＋My Notes（時光機法則背景、survivorship bias 重申、可對標 KOL）；剝 `partial-content` tag。
+
 ## [2026-06-21 19:47 HKT] bookmark | CryptoCity 神魚 4 大賺錢攻略（Finance/Crypto，partial content）
 F2Pool 創辦人神魚（毛世行）幣圈分階段財富觀；CryptoCity 公開頁**只示一句摘要**：「個人財富增長最艱難階段係 $100K–$1M」；defuddle + Playwright（無 login）兩種方法都只攞到 252 字，疑似要登入睇正文。新建 `Bookmarks/Finance/Crypto/`、新 domain `Finance`；My Notes 標 partial-content + 建議 fallback 路徑（登入／搵 MarsBit 原文／神魚 X post）。
 
