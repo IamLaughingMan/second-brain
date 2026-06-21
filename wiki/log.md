@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 20:28 HKT] bookmark | HKPDR 雀鳥急救指南（Animals/Rescue）
+HK 本地 NGO 鳩鴿 first-aid protocol：初檢（呼吸／溫度／AVPU／年齡／刀肚）→止血／骨折→便便監察→安置 4 步（30°C 保暖／黑暗防休克／葡萄糖鹽水補水／首食 Baby Size 全熟青豆）；3 大禁忌『不要急餵食物』『身體仍冷時切勿餵食』『純水避免』。My Notes 補充 ORS 原理、刀肚 = 胸骨突出 BCS 指標、其他鳥種搵 KFBG/SPCA、handling 有 cryptococcus/psittacosis 公衛 risk。新建 `Bookmarks/Animals/Rescue/`、新 domain `Animals`。
+
 ## [2026-06-21 20:09 HKT] bookmark | Laureys 2014 Water Kefir AEM peer-reviewed paper（Health/Fermentation）
 PMC3993195 / DOI 10.1128/AEM.03978-13；VUB Belgian 組第一份 multiphasic 192h water kefir 系統分析；主菌相 Lb. casei/paracasei + Lb. hilgardii + Lb. harbinensis（首次水克菲爾鑑出，產抗真菌化合物）+ B. psychraerophilum + S. cerevisiae + D. bruxellensis；蔗糖 24h 耗盡同步產 grain polysaccharide；pH 4.26→3.45（72h）；4 ester 主導 fruity/floral aroma（ethyl octanoate 688× threshold）。My Notes 加家用發酵 timing implication（24h 低酒精、72h 酸性、>144h vinegar-like）。新建 `Bookmarks/Health/Fermentation/`；ref-list 60+ 條未 archive（PMC stable）。
 
