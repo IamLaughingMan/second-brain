@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 21:19 HKT] bookmark | 巴哈 kenny04s 日本演唱會手機認證篇（Travel/Japan/Concerts，已失效）
+2019 kenny04s 巴哈姆特小屋 protocol：B Mobile SIM 070+轉運+Line Out 破日本演唱會購票網（CN/BGD/l-tike/Pia）通話認證。**作者親標「已失效」**（b-mobile 2019.8.21 改例需日本門號）—— bookmark 為 historical reference + baseline understanding 兩道牆（SMS 認證／call 認證）；My Notes 列 2026 可能 working successor（代購／租 eSIM／在日朋友／黃牛）；status: archived。新建 `Bookmarks/Travel/Japan/Concerts/`。
+
 ## [2026-06-21 20:58 HKT] bookmark | Penana 中文小說平台（Writing/Platforms，site root）
 繁中／港台社群小說連載／創作／閱讀平台，12 大分類＋創作挑戰；港式廣東話作品比例高（甚至允許粵語書寫）。**Cloudflare 反 bot**（defuddle／curl 403「Just a moment...」），Playwright（headed Chrome）過 CF challenge 成功。新建 `Bookmarks/Writing/Platforms/`、新 domain `Writing`；My Notes 對比晉江／起點／痞客邦／方格子、提到粵語作品保育意義。
 
