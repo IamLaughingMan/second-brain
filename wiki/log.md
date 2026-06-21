@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 03:15 HKT] idea | 美國跨州 SFR 出租物業組合（仿 Albaum）（Personal/Ideas）
+使用者 flag 個 Albaum 故事屬其「搵錢 idea」→ 喺 `Personal/Ideas/` 新建一頁 `type: idea / stage: 未做`：拆解 4 條路徑（直接買／Roofstock platform／syndication-REIT／JV with US partner）、起步估算、risk、HK alternative（日本/英國/葡萄牙/東南亞）、7 條 next steps（含 build cashflow model → 若 ROI > 港股 dividend ETF 2-3pp 升 stage 可能開project）。Bookmark frontmatter `related:` 加 backlink。
+
 ## [2026-06-22 03:12 HKT] bookmark | BusinessFocus Michael Albaum 32 歲房地產 61 套（Finance/Real Estate）
 2022 BusinessFocus 編譯 CNBC：消防工程師 Michael Albaum 10 年由 1 套 → 61 套出租單位、年租 $431K、月淨 $6K passive。My Notes 警告 3 大 caveat（Roofstock Academy 導師＝商業利益／2013-2022 低息週期 survivorship／net margin 17% 嘅真實 cashflow vs marketing narrative），對標 [[神魚 4 大攻略]] 策略框架。新建 `Bookmarks/Finance/Real Estate/`。
 

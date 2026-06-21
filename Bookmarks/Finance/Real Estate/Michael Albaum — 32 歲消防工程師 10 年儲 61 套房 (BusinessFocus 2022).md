@@ -10,6 +10,7 @@ created: 2026-06-21
 updated: 2026-06-21
 related:
   - "[[神魚 4 大賺錢攻略（1000 鎂到 1 億鎂）]]"
+  - "[[美國跨州 SFR 出租物業組合（仿 Albaum 路線）]]"
 tags:
   - bookmark
   - finance
@@ -116,6 +117,7 @@ tags:
 - 「死慳死抵」標題嘅 sensationalism 多於分析
 
 ## Related
+- [[美國跨州 SFR 出租物業組合（仿 Albaum 路線）]] — **使用者個人 idea**（`Personal/Ideas/`）；本文係佢嘅 reference 點
 - [[神魚 4 大賺錢攻略（1000 鎂到 1 億鎂）]] — 同 domain Finance，不同 asset class（crypto vs real estate），策略框架可對讀
 
 <!-- ===== ARCHIVE BELOW — 全文 snapshot，掃描/triage 時可跳過（Read 用 limit 只讀上半；要全文先讀落呢度） ===== -->
