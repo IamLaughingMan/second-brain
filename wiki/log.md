@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 03:43 HKT] bookmark | Satur 薩圖爾 — 咖啡杯測 SCA 標準（Coffee/Cupping）
+台南薩圖爾精品咖啡部落格：SCA 杯測完整 SOP 中文 cheatsheet — 標準化烘焙（Agtron 58/63、8-12min、8h 內）、萃取（粉水比 1:18.18、92-94°C、TDS 150ppm、研磨 850μm）、6 步流程（乾香→濕香→破渣→71/38/21°C 三段啜吸）、SCAA 10 項評分（含 Flavor Wheel）、分數對照（80+ 精品、85+ 競賽級 COE）。My Notes 對 SCA 原 protocol fidelity 比對（71/38/21 vs SCA 70/60/22）、提家用 cupping setup、Q Grader/COE 認證路徑。新建 `Bookmarks/Coffee/Cupping/`、新 domain `Coffee`。
+
 ## [2026-06-22 03:25 HKT] bookmark | 香港新聞連線 Hong Kong Matters（News/HK，site root）
 海外港人視角 HK／中共／國際新聞 daily aggregator；係更大「**香港元宇宙‧香港文化傳承計劃**」Phase 1（後續：時間軸／今日情懷／互助組／保存廣東話／3D 元宇宙重現 HK）；**diaspora-pro／反共**立場（「愛國新聞」係 ironic category collect propaganda）；non-profit volunteer-driven。My Notes 對比同類 diaspora 媒體（Witness HK 已 shutdown／Photon／集誌社／HKFP）、煽情風格警告、唔好當 primary source、verify 建議。新建 `Bookmarks/News/HK/`。
 
