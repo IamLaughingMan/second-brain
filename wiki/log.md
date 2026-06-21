@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 18:20 HKT] bookmark | T客邦 iPhone 備忘錄上鎖管理帳密（Tech/iOS）
+10 步教學：備忘錄 → ⋯ → 鎖定 →（iPhone 密碼／自訂）→ Face/Touch ID 解鎖；「設定 → App → 備忘錄 → 密碼」改解鎖方式。My Notes 補充 iOS 18 內建 Passwords app 對比、適合場景 = 有 context 嘅密碼類筆記。新建 `Bookmarks/Tech/iOS/`、新 domain `Tech`。
+
 ## [2026-06-21 18:08 HKT] bookmark | T客邦 Perplexity Labs 2025 上手攻略（AI/Perplexity）
 多代理研究平台介紹＋5 條 prompt 進階技巧；標註為**台灣大哥大 advertorial**（599 月租送 Pro 一年，HK 不適用）。新建 `Bookmarks/AI/Perplexity/` 子夾。
 
