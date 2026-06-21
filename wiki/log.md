@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 20:09 HKT] bookmark | Laureys 2014 Water Kefir AEM peer-reviewed paper（Health/Fermentation）
+PMC3993195 / DOI 10.1128/AEM.03978-13；VUB Belgian 組第一份 multiphasic 192h water kefir 系統分析；主菌相 Lb. casei/paracasei + Lb. hilgardii + Lb. harbinensis（首次水克菲爾鑑出，產抗真菌化合物）+ B. psychraerophilum + S. cerevisiae + D. bruxellensis；蔗糖 24h 耗盡同步產 grain polysaccharide；pH 4.26→3.45（72h）；4 ester 主導 fruity/floral aroma（ethyl octanoate 688× threshold）。My Notes 加家用發酵 timing implication（24h 低酒精、72h 酸性、>144h vinegar-like）。新建 `Bookmarks/Health/Fermentation/`；ref-list 60+ 條未 archive（PMC stable）。
+
 ## [2026-06-21 19:59 HKT] bookmark | Fanatical 繁中（Gaming/Stores，site root）
 官方授權 Steam key／PC 遊戲／bundle 零售；260 萬+ 用戶。SPA 站，defuddle 0、Playwright 攞到 meta + nav + 主打 sections。My Notes 對比 Humble Bundle／G2A／Steam 直購、警告 Mystery Box 風險、提到 2024 起屬 IGN Entertainment。新建 `Bookmarks/Gaming/Stores/`、新 domain `Gaming`。
 
