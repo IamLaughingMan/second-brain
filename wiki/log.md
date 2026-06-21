@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 03:08 HKT] bookmark | HKanime 香港動畫網 粵語配音動畫平台（Entertainment/Anime，grey-area）
+Fan-run Discuz-based HK 粵語配音動畫站；主打 TVB／本港台舊年代 dub 動畫（進擊的巨人、美少女戰士、數碼暴龍、魔神英雄傳）；**geo-restricted（不在港澳必須登入會員）**；社群活躍 191 在線（max 6,796 於 2026-4-15）。My Notes 標 grey-area（fan-rip／無正版授權）、列同類 HK 站對比（D7CC/A4ED/myTV SUPER）+ 文化保育議題。新建 `Bookmarks/Entertainment/Anime/`、新 domain `Entertainment`。
+
 ## [2026-06-22 03:01 HKT] bookmark | Henkel WO2011079971 EUK-134/118 hair pigmentation patent（Health/Hair，Ceased）
 Henkel 2010 PCT 申請 WO2011079971A2，cosmetic 配方含 EUK-134/EUK-118（Mn-salen SOD/catalase mimetic，原 Eukarion Inc.），0.001–1 wt% 加入 shampoo/conditioner/tonic 等，影響 hair follicle pigmentation（抑灰髮）。Mechanism: 抗 oxidative stress 保護 melanocyte，通過 MCR1/gp100/c-kit/α-MSH/SCF 信號。Status **Ceased**（patent 已失效，IP 可能 public domain）。同 [[Sumitomo 2020 Dupilumab]] 一夾，My Notes 對比 mechanism/cost/risk/evidence 兩條 anti-graying 路線；補 broader landscape（Wood 2009 H2O2 paper、PC-KUS、JAK inhibitor、PRP）。Google Patents 抓取無 CF／無 paywall（CC0 markup）。
 
