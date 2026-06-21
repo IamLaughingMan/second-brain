@@ -1,7 +1,7 @@
 ---
 type: bookmark
 para: resource
-domain: Language
+domain: News
 title: "YauNews 看國際新聞學英文 | Master English with Global News"
 url: "https://www.yaunews.com"
 summary: "英語學習網站／PWA，以每日國際新聞為素材教道地英文表達；homepage 係 SPA shell，內容靠站內導覽搵每日 article。"
@@ -12,9 +12,8 @@ related:
   - ""
 tags:
   - bookmark
-  - language
-  - english-learning
   - news
+  - english-learning
   - tool
 ---
 

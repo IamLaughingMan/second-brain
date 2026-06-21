@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 15:34 HKT] reclassify | YauNews domain Language→News
+按使用者要求 reclassify：`Bookmarks/Language/English/` → `Bookmarks/News/`，domain `Language`→`News`，刪走空嘅 Language 樹；tag `language` 換走、保留 `english-learning`。
+
 ## [2026-06-21 15:32 HKT] bookmark | YauNews 看國際新聞學英文（Language/English，site root）
 站根頁，新建 `Bookmarks/Language/English/` 子夾＋新 domain Language。Homepage 係 SPA shell（defuddle 抽唔到正文），只 archive `<head>` metadata；具體 article 需 Playwright 或直連 URL 再 ingest。
 
