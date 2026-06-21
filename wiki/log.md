@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 22:15 HKT] bookmark | Sumitomo 2020 Dupilumab Reverses Hair Graying（Health/Hair, paywalled）
+J Dermatol 2020;47(9):e316-e317 Letter to the Editor（Sumitomo/Akita/Sugiura @ Fujita Health U）；DOI 10.1111/1346-8138.15472；報 dupilumab（IL-4Rα 抗體）causing 白髮重新長黑色 unexpected side-effect。Wiley **Cloudflare + paywall**：Playwright 過 CF 攞到完整 citation meta，但 full body paywalled；My Notes 列 7 條 fallback（PubMed/Scholar/ResearchGate/ILL/Sci-Hub etc），並警告唔好為「白變黑」off-label 用 dupilumab（藥費 $3.8K/月、conjunctivitis 風險、純 cosmetic risk-benefit 唔合理）。文件入 `Bookmarks/Health/Hair/`，related Hairguard YT。
+
 ## [2026-06-21 21:31 HKT] bookmark | KKNews 小米電視屏蔽開機廣告（Tech/SmartHome）
 2017 路由器 DNS 黑名單法屏蔽小米電視廣告：核心 3 域名（ad.xiaomi.com / ad1 / ad.mi.com）+ 完整 15 條清單；無需 root 電視；原理通用其他互聯網電視。My Notes 警告：文章 9 年前清單可能過時，2026 建議改用 Pi-hole/AdGuard Home，並列 side effects（屏 upgrade.* 會冇 OTA、屏 mishop.* 會掛應用商店）。**Cloudflare-walled，Playwright 過 challenge 成功**（同 Penana 一樣）。新建 `Bookmarks/Tech/SmartHome/`。
 
