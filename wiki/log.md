@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 15:25 HKT] bookmark | T客邦 NVIDIA AI 晶片設計（AI/Industry News）
+NB-Cell（RL）將標準單元庫移植由 80 人月→單 GPU 一晚、Prefix RL 加位佈局 +20–30%、ChipNeMo/Bug Nemo 內部 LLM；新建 `Bookmarks/AI/Industry News/` 子夾、全文 snapshot。
+
 ## [2026-06-21 15:15 HKT] bookmark | 造咖 cava.tw 水果清洗去農藥法（Health/Nutrition）
 玉米粉＋小蘇打雙步驟洗水果法（2025《Foods》研究，去除率 94%），bookmark 連全文 snapshot 落 `Bookmarks/Health/Nutrition/`；新建 Nutrition 子夾。
 
