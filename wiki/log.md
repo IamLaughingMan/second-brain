@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 18:08 HKT] bookmark | T客邦 Perplexity Labs 2025 上手攻略（AI/Perplexity）
+多代理研究平台介紹＋5 條 prompt 進階技巧；標註為**台灣大哥大 advertorial**（599 月租送 Pro 一年，HK 不適用）。新建 `Bookmarks/AI/Perplexity/` 子夾。
+
 ## [2026-06-21 17:58 HKT] bookmark | v2money Tello 美國手機卡 2025 全流程（Telecom/US SIM）
 雲用戶／cross-border 用：大陸地址＋大陸 IP＋大陸信用卡可註冊；WiFi Calling 海外保美國號；paygo 漫遊攞美國原生 IP 申 SoFi/Credit Karma。新建 `Bookmarks/Telecom/US SIM/`、新 domain `Telecom`。原文簡體，已 OpenCC s2hk 轉正體（HK），artifact scan 通過。
 
