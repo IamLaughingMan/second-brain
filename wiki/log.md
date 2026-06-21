@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 20:58 HKT] bookmark | Penana 中文小說平台（Writing/Platforms，site root）
+繁中／港台社群小說連載／創作／閱讀平台，12 大分類＋創作挑戰；港式廣東話作品比例高（甚至允許粵語書寫）。**Cloudflare 反 bot**（defuddle／curl 403「Just a moment...」），Playwright（headed Chrome）過 CF challenge 成功。新建 `Bookmarks/Writing/Platforms/`、新 domain `Writing`；My Notes 對比晉江／起點／痞客邦／方格子、提到粵語作品保育意義。
+
 ## [2026-06-21 20:28 HKT] bookmark | HKPDR 雀鳥急救指南（Animals/Rescue）
 HK 本地 NGO 鳩鴿 first-aid protocol：初檢（呼吸／溫度／AVPU／年齡／刀肚）→止血／骨折→便便監察→安置 4 步（30°C 保暖／黑暗防休克／葡萄糖鹽水補水／首食 Baby Size 全熟青豆）；3 大禁忌『不要急餵食物』『身體仍冷時切勿餵食』『純水避免』。My Notes 補充 ORS 原理、刀肚 = 胸骨突出 BCS 指標、其他鳥種搵 KFBG/SPCA、handling 有 cryptococcus/psittacosis 公衛 risk。新建 `Bookmarks/Animals/Rescue/`、新 domain `Animals`。
 
