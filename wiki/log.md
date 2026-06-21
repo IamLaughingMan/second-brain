@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 18:32 HKT] bookmark | NYU Langone Joint-Preserving Surgery for Osteonecrosis（Health/Musculoskeletal/Osteonecrosis）
+Reference-grade NYU Langone 骨科 patient education 頁：osteonecrosis 早期保關節手術三類（Core Decompression 含 5 種 graft／注射 ‧ Arthroscopic Cleansing ‧ Osteotomy）＋候選人準則＋recovery timeline。新建 `Bookmarks/Health/Musculoskeletal/Osteonecrosis/` 子夾。
+
 ## [2026-06-21 18:24 HKT] bookmark | T客邦 AI 模型語言差異審查研究（AI/AI Safety）
 xlr8harder 用英文 vs 簡中問 11 個 LLM × 50 中國敏感題；中文場景拒答／規避率明顯高過英文（連 Claude 3.7 中招、Qwen 中文 ~50%、Grok-2 最敢答）。專家點出成因＝中文訓練資料受審查、分佈偏差。原 source TechCrunch。
 
