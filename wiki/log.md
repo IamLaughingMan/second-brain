@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 19:42 HKT] bookmark | CMC 公開上市補充品公司 market cap 排名（Health/Supplements，live data）
+9 間總 $17.29B、中國 Zhejiang NHU 一家獨大 $12.71B（73%）；其後 Herbalife／BellRing／Jamieson／NATR／USANA／Niagen／Medifast／Lifevantage。My Notes 標明 live data 會過時、唔包大型 consumer health 集團（Haleon/Kenvue/Nestlé Health Science）同私營行業巨頭（GNC/Now Foods/Thorne）；與 [[Nutraceuticals World]] 互連。
+
 ## [2026-06-21 19:39 HKT] bookmark | Nutraceuticals World B2B trade publication（Health/Supplements，site root）
 Rodman Media 旗下嘅 nutraceutical／supplement／functional food B2B 行業 publication；My Notes 標明 trade press 有 promotional bias、配 Examine.com + PubMed 平衡使用；homepage 內容每日變、snapshot 唔係 evergreen。新建 `Bookmarks/Health/Supplements/`。
 
