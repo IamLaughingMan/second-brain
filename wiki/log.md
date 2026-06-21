@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 19:47 HKT] bookmark | CryptoCity 神魚 4 大賺錢攻略（Finance/Crypto，partial content）
+F2Pool 創辦人神魚（毛世行）幣圈分階段財富觀；CryptoCity 公開頁**只示一句摘要**：「個人財富增長最艱難階段係 $100K–$1M」；defuddle + Playwright（無 login）兩種方法都只攞到 252 字，疑似要登入睇正文。新建 `Bookmarks/Finance/Crypto/`、新 domain `Finance`；My Notes 標 partial-content + 建議 fallback 路徑（登入／搵 MarsBit 原文／神魚 X post）。
+
 ## [2026-06-21 19:42 HKT] bookmark | CMC 公開上市補充品公司 market cap 排名（Health/Supplements，live data）
 9 間總 $17.29B、中國 Zhejiang NHU 一家獨大 $12.71B（73%）；其後 Herbalife／BellRing／Jamieson／NATR／USANA／Niagen／Medifast／Lifevantage。My Notes 標明 live data 會過時、唔包大型 consumer health 集團（Haleon/Kenvue/Nestlé Health Science）同私營行業巨頭（GNC/Now Foods/Thorne）；與 [[Nutraceuticals World]] 互連。
 
