@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 18:24 HKT] bookmark | T客邦 AI 模型語言差異審查研究（AI/AI Safety）
+xlr8harder 用英文 vs 簡中問 11 個 LLM × 50 中國敏感題；中文場景拒答／規避率明顯高過英文（連 Claude 3.7 中招、Qwen 中文 ~50%、Grok-2 最敢答）。專家點出成因＝中文訓練資料受審查、分佈偏差。原 source TechCrunch。
+
 ## [2026-06-21 18:20 HKT] bookmark | T客邦 iPhone 備忘錄上鎖管理帳密（Tech/iOS）
 10 步教學：備忘錄 → ⋯ → 鎖定 →（iPhone 密碼／自訂）→ Face/Touch ID 解鎖；「設定 → App → 備忘錄 → 密碼」改解鎖方式。My Notes 補充 iOS 18 內建 Passwords app 對比、適合場景 = 有 context 嘅密碼類筆記。新建 `Bookmarks/Tech/iOS/`、新 domain `Tech`。
 
