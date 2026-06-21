@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 21:31 HKT] bookmark | KKNews 小米電視屏蔽開機廣告（Tech/SmartHome）
+2017 路由器 DNS 黑名單法屏蔽小米電視廣告：核心 3 域名（ad.xiaomi.com / ad1 / ad.mi.com）+ 完整 15 條清單；無需 root 電視；原理通用其他互聯網電視。My Notes 警告：文章 9 年前清單可能過時，2026 建議改用 Pi-hole/AdGuard Home，並列 side effects（屏 upgrade.* 會冇 OTA、屏 mishop.* 會掛應用商店）。**Cloudflare-walled，Playwright 過 challenge 成功**（同 Penana 一樣）。新建 `Bookmarks/Tech/SmartHome/`。
+
 ## [2026-06-21 21:19 HKT] bookmark | 巴哈 kenny04s 日本演唱會手機認證篇（Travel/Japan/Concerts，已失效）
 2019 kenny04s 巴哈姆特小屋 protocol：B Mobile SIM 070+轉運+Line Out 破日本演唱會購票網（CN/BGD/l-tike/Pia）通話認證。**作者親標「已失效」**（b-mobile 2019.8.21 改例需日本門號）—— bookmark 為 historical reference + baseline understanding 兩道牆（SMS 認證／call 認證）；My Notes 列 2026 可能 working successor（代購／租 eSIM／在日朋友／黃牛）；status: archived。新建 `Bookmarks/Travel/Japan/Concerts/`。
 
