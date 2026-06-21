@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 17:58 HKT] bookmark | v2money Tello 美國手機卡 2025 全流程（Telecom/US SIM）
+雲用戶／cross-border 用：大陸地址＋大陸 IP＋大陸信用卡可註冊；WiFi Calling 海外保美國號；paygo 漫遊攞美國原生 IP 申 SoFi/Credit Karma。新建 `Bookmarks/Telecom/US SIM/`、新 domain `Telecom`。原文簡體，已 OpenCC s2hk 轉正體（HK），artifact scan 通過。
+
 ## [2026-06-21 15:34 HKT] reclassify | YauNews domain Language→News
 按使用者要求 reclassify：`Bookmarks/Language/English/` → `Bookmarks/News/`，domain `Language`→`News`，刪走空嘅 Language 樹；tag `language` 換走、保留 `english-learning`。
 
