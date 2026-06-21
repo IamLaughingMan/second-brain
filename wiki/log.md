@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 19:59 HKT] bookmark | Fanatical 繁中（Gaming/Stores，site root）
+官方授權 Steam key／PC 遊戲／bundle 零售；260 萬+ 用戶。SPA 站，defuddle 0、Playwright 攞到 meta + nav + 主打 sections。My Notes 對比 Humble Bundle／G2A／Steam 直購、警告 Mystery Box 風險、提到 2024 起屬 IGN Entertainment。新建 `Bookmarks/Gaming/Stores/`、新 domain `Gaming`。
+
 ## [2026-06-21 19:54 HKT] bookmark | Hairguard YouTube — Cheapest Topical DHT Blocker（Health/Hair）
 2022 影片，外用 DHT blocker 加強 minoxidil；description 455 字，未抓 transcript（YouTube anti-bot，per memory）。My Notes 警告 Hairguard 係 commercial channel（自己有賣脫髮產品 → 推薦成分可能 = 自家貨）、列可能候選成分（caffeine／saw palmetto／rosemary oil 2015 study）、外用 DHT blocker 避口服 finasteride 副作用係主賣點。新建 `Bookmarks/Health/Hair/` 子夾。
 
