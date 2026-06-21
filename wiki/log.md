@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 18:39 HKT] bookmark | Mobile01 大塚太太 日本草莓品種＋吃法（Travel/Japan/Food）
+日本 300+ 草莓品種圖鑑＋市售四大（甘王／栃木少女／紅臉頰／佐賀穗香）＋夢幻品種（淡雪／初戀之香／幸之香／伊賀の里モクモク）＋吃法（從蒂端吃、煉乳冷凍 DIY）。**Mobile01 對 defuddle/curl 回 403**，改用 Playwright 抓 SSR 後 DOM 成功；原文 0 留言（18954 瀏覽）係站方真實狀態、非抓取失敗。新建 `Bookmarks/Travel/Japan/Food/`、新 domain `Travel`。
+
 ## [2026-06-21 18:32 HKT] bookmark | NYU Langone Joint-Preserving Surgery for Osteonecrosis（Health/Musculoskeletal/Osteonecrosis）
 Reference-grade NYU Langone 骨科 patient education 頁：osteonecrosis 早期保關節手術三類（Core Decompression 含 5 種 graft／注射 ‧ Arthroscopic Cleansing ‧ Osteotomy）＋候選人準則＋recovery timeline。新建 `Bookmarks/Health/Musculoskeletal/Osteonecrosis/` 子夾。
 
