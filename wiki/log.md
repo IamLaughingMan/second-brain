@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 15:32 HKT] bookmark | YauNews 看國際新聞學英文（Language/English，site root）
+站根頁，新建 `Bookmarks/Language/English/` 子夾＋新 domain Language。Homepage 係 SPA shell（defuddle 抽唔到正文），只 archive `<head>` metadata；具體 article 需 Playwright 或直連 URL 再 ingest。
+
 ## [2026-06-21 15:25 HKT] bookmark | T客邦 NVIDIA AI 晶片設計（AI/Industry News）
 NB-Cell（RL）將標準單元庫移植由 80 人月→單 GPU 一晚、Prefix RL 加位佈局 +20–30%、ChipNeMo/Bug Nemo 內部 LLM；新建 `Bookmarks/AI/Industry News/` 子夾、全文 snapshot。
 
