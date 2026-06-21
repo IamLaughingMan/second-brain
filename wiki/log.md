@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 03:01 HKT] bookmark | Henkel WO2011079971 EUK-134/118 hair pigmentation patent（Health/Hair，Ceased）
+Henkel 2010 PCT 申請 WO2011079971A2，cosmetic 配方含 EUK-134/EUK-118（Mn-salen SOD/catalase mimetic，原 Eukarion Inc.），0.001–1 wt% 加入 shampoo/conditioner/tonic 等，影響 hair follicle pigmentation（抑灰髮）。Mechanism: 抗 oxidative stress 保護 melanocyte，通過 MCR1/gp100/c-kit/α-MSH/SCF 信號。Status **Ceased**（patent 已失效，IP 可能 public domain）。同 [[Sumitomo 2020 Dupilumab]] 一夾，My Notes 對比 mechanism/cost/risk/evidence 兩條 anti-graying 路線；補 broader landscape（Wood 2009 H2O2 paper、PC-KUS、JAK inhibitor、PRP）。Google Patents 抓取無 CF／無 paywall（CC0 markup）。
+
 ## [2026-06-21 22:15 HKT] bookmark | Sumitomo 2020 Dupilumab Reverses Hair Graying（Health/Hair, paywalled）
 J Dermatol 2020;47(9):e316-e317 Letter to the Editor（Sumitomo/Akita/Sugiura @ Fujita Health U）；DOI 10.1111/1346-8138.15472；報 dupilumab（IL-4Rα 抗體）causing 白髮重新長黑色 unexpected side-effect。Wiley **Cloudflare + paywall**：Playwright 過 CF 攞到完整 citation meta，但 full body paywalled；My Notes 列 7 條 fallback（PubMed/Scholar/ResearchGate/ILL/Sci-Hub etc），並警告唔好為「白變黑」off-label 用 dupilumab（藥費 $3.8K/月、conjunctivitis 風險、純 cosmetic risk-benefit 唔合理）。文件入 `Bookmarks/Health/Hair/`，related Hairguard YT。
 
