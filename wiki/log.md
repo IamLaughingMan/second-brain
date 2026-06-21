@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 03:25 HKT] bookmark | 香港新聞連線 Hong Kong Matters（News/HK，site root）
+海外港人視角 HK／中共／國際新聞 daily aggregator；係更大「**香港元宇宙‧香港文化傳承計劃**」Phase 1（後續：時間軸／今日情懷／互助組／保存廣東話／3D 元宇宙重現 HK）；**diaspora-pro／反共**立場（「愛國新聞」係 ironic category collect propaganda）；non-profit volunteer-driven。My Notes 對比同類 diaspora 媒體（Witness HK 已 shutdown／Photon／集誌社／HKFP）、煽情風格警告、唔好當 primary source、verify 建議。新建 `Bookmarks/News/HK/`。
+
 ## [2026-06-22 03:15 HKT] idea | 美國跨州 SFR 出租物業組合（仿 Albaum）（Personal/Ideas）
 使用者 flag 個 Albaum 故事屬其「搵錢 idea」→ 喺 `Personal/Ideas/` 新建一頁 `type: idea / stage: 未做`：拆解 4 條路徑（直接買／Roofstock platform／syndication-REIT／JV with US partner）、起步估算、risk、HK alternative（日本/英國/葡萄牙/東南亞）、7 條 next steps（含 build cashflow model → 若 ROI > 港股 dividend ETF 2-3pp 升 stage 可能開project）。Bookmark frontmatter `related:` 加 backlink。
 
