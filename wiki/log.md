@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-21 15:15 HKT] bookmark | 造咖 cava.tw 水果清洗去農藥法（Health/Nutrition）
+玉米粉＋小蘇打雙步驟洗水果法（2025《Foods》研究，去除率 94%），bookmark 連全文 snapshot 落 `Bookmarks/Health/Nutrition/`；新建 Nutrition 子夾。
+
 ## [2026-06-21 15:45 HKT] note | 頸片 transcript 補抓失敗・停自動重試
 Coach Jason Yang 頸片只有 auto-caption；YouTube auto-caption 端點對本機 IP 持續 429（連 Playwright 開片都被導去 Google 登入牆），跨 ~2.5h 試 5+ 次皆敗。對比 Veo3 成功＝因有人手字幕（manual subs 端點未限）。已停自動重試，檔內「### Transcript」更新為手動補法。
 
