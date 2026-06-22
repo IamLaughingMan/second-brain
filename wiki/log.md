@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 18:30 HKT] bookmark | FluentPet Community Welcome（Animals/AIC Communication/FluentPet）
+FluentPet 官方社群嘅 Welcome 區：教 dog／cat 等寵物用 soundboard AIC（Augmentative Interspecies Communication）按鈕溝通。免費社群 + 付費 Academy tier；核心免費資源 FP 101 8 課；Discussion 板塊 7-8 個（tips/board building/wins/videos/soundboard/resources/cooperative care）。Founder Leo Trottier UCSD cog-sci PhD、研究 arm TheyCanTalk.org（>10K 寵物 longitudinal study）。My Notes 補科學成熟度警告（observational study 未 peer-reviewed conclusive、Wynne/Horowitz 等持保留意見）、產品 cost reality（Get Started Kit US$60-80、Academy ~US$30/月、vs Amazon generic button US$10-15 嘅 premium）、HK 適配（按鈕語言 agnostic、可錄廣東話）、個人 actionable 4-step path。**抓取技術 note**：defuddle 403、curl Cloudflare wall、**Playwright headed Chrome 過**——加入 known-sites table（FluentPet ✅，同 Penana/Mobile01 class）。新建 `Bookmarks/Animals/AIC Communication/FluentPet/` deep tree。
+
 ## [2026-06-22 17:35 HKT] bookmark | 2FA Directory HK locale 眾包 2FA 支援目錄（Tech/Security/2FA）
 2factorauth non-profit GitHub-hosted 眾包 web app：列出網絡服務嘅 2FA 支援狀態（SMS／email／phone call／TOTP／U2F／FIDO2／hardware key／backup codes），HK locale 過濾 HK-relevant 服務，37+ categories。SPA 設計，defuddle/curl 抓唔到，**Playwright 成功**（categories index 拎到，個別 sub-page 2026-06-22 backend「Failed to load」可能 outage）。My Notes 補 2FA 強度 hierarchy（FIDO2 > TOTP > Push > SMS > Email；NIST 2017 已棄 SMS）、HK banking reality（仍 SMS-OTP 為主，hardware key 接受度低）、個人 stack 建議（YubiKey×2 + Bitwarden integrated TOTP + secondary phone + printed backup codes）、API 可做 Claude Code skill enrichment idea。新建 `Bookmarks/Tech/Security/2FA/` deep tree。
 
