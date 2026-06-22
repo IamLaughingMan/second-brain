@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 14:58 HKT] bookmark | Eddie Dilleen 澳洲公屋仔 30 歲 40 套樓（Finance/Real Estate）
+經一 EDigest 2022-01 編譯澳洲傳媒：Eddie Dilleen（IG @dilleenpropertyau）NSW 單親公屋出身 → 15 歲麥當勞兼職（週入 AUD$500） → 19 歲 AUD$20K 首期買 NSW $138K AUD 兩房 → 25 歲 10 套 → 疫情「人棄我取」一年半掃 20 套 → 30 歲 40 套（昆士蘭／黃金海岸／布里斯班）。Eddie 心得：先小物業、跨州擴、半成首期、租金 yield 優先、撈急售。My Notes 列 4 大 caveat（survivorship／高 leverage／IG influencer 商業利益／award internal）、HK 人 cross-border friction（FIRB／foreign stamp surcharge／cross-border PM）、對比 [[Albaum]] trustworthiness（Eddie < Albaum）、2026 update（仍活躍／RBA 4.35% cashflow positive 物業稀缺）、source typo flag「積植→積極」。同 [[Albaum]] / [[美國跨州 SFR idea]] 一系列「搵錢 idea source bookmark」dataset。OpenCC s2hk 後保留 HK 字形（脱／説／閲／分佈／避兇）。
+
 ## [2026-06-22 14:42 HKT] idea | 自家品牌金屬錶微創業（LIHKG 啟發）（Personal/Ideas，stage: 未做）
 使用者 flag [[LIHKG 2022 月入 25-30 萬創業帖（賣錶／你問我答）|LIHKG 帖]] 屬「搵錢 idea」→ 喺 `Personal/Ideas/` 新建 entry-research 頁。使用 [[補充品行業 入場研究]] 嘅 5-path framework apply 落自家品牌錶：① OEM 自牌 ② dropshipping ③ 純 reseller ④ high-end white-label（NH35 機芯）⑤ content-first。Reality-check 4 大關鍵問題（成本／真實 net margin／OP 證據／市場 saturation）；起步門檻 3 路徑對比表；6 條主要 risk（unverified／價格戰／IP／品控／心血機會成本）；4 條 alternative path（皮具／HK merch／代購／content-first niche）；8 條 next steps（含 1688 quote、IG hashtag 偵察、Reddit r/microbrand AMA、Excel cashflow model）。Bookmark frontmatter `related:` 加 backlink、My Notes 由「唔建議開 idea」更新為「已 promote」。
 
