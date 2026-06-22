@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 22:00 HKT] bookmark | 蘋果日報脫髮專題 + 聞庫 collection.news 保育站（Health/Hair + News/HK）
+雙 bookmark：使用者掉 dead applehealth.com.hk URL（蘋果日報 健康版 2021-03 脫髮專題），同時叫我查 collection.news。**Discovery chain**：applehealth DNS dead 2022 後（Wayback 個別 article 0 snapshot）→ collection.news = **聞庫** 完整 mirror **2,321,702 篇蘋果日報＋立場新聞文章** + 3.04M 圖片。**Article URL ULID pattern**：原 applehealth `O2U2INCTKZDHJDKKYVO64UD3QI_<title>` 嘅 26-char ULID 直接拼上 `collection.news/appledaily/articles/<ULID>` 即 access full article。**Bookmark 1**（脫髮專題，Health/Hair/）：西醫 DHT 機轉 + Xq11-12 基因 evidence + 4 條 PLoS/Science peer-ref + 中醫肝腎不足 + 4 穴位（百會／四神聰／頭維／印堂）+ 首烏桑椹生髮湯方；同 Hair cluster 既有 [[Hairguard]]／[[Henkel WO2011079971]]／[[Sumitomo Dupilumab]] 並排。**Bookmark 2**（聞庫，News/HK/）：HK 重大新聞保育、匿名 + open-source + Vercel hosted + 2023-09 DMCA takedown brief 下線 incident + 2025-12 加搜尋；命名典故唐君毅「花果飄零，靈根自植」→《果靈》→《聞庫》。**`status: active` for dead-URL article**（因內容由聞庫永久 mirror、唔走 archive folder convention 死路）。Memory `project-playwright-mcp` known-sites 加 collection.news ✅／applehealth.com.hk ❌（DNS dead）。
+
 ## [2026-06-22 20:10 HKT] bookmark | GroupBuya HK Jetso 每日優惠聚合（Shopping/HK Deals）
 HK 著數／Jetso 每日 aggregation site：covers 11 categories（保險／美食／旅遊／購物／自助餐／開倉／信用卡／美容／電訊／集運／理財）+ 優惠碼／酒店／現金回贈／會員。Brand coverage：麥當勞／KFC／大家樂／譚仔三哥／壽司郎／元氣壽司／7-Eleven／OK／759／yuu／易賞錢／誠品／商務／雅蘭床褥／AIG／藍十字等。**Cloudflare 5-sec challenge**（「請稍候...」title）defuddle 403／curl UA 403、**Playwright headed Chrome wait 8 秒過**（無 CAPTCHA）。Memory `project-playwright-mcp` known-sites table 加 groupbuya.com ✅。My Notes flag aggregator affiliate conflict（priority ≠ 最抵、官方 App／IG／信用卡 banking app exclusive promo aggregator 通常 underrepresent）、列同類 HK Jetso 站對比（JetsoDigest／JetsoToday／HKJetso／Money Hero）。新建 `Bookmarks/Shopping/HK Deals/` deep tree。
 
