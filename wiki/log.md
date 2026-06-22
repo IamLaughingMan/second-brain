@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 20:10 HKT] bookmark | GroupBuya HK Jetso 每日優惠聚合（Shopping/HK Deals）
+HK 著數／Jetso 每日 aggregation site：covers 11 categories（保險／美食／旅遊／購物／自助餐／開倉／信用卡／美容／電訊／集運／理財）+ 優惠碼／酒店／現金回贈／會員。Brand coverage：麥當勞／KFC／大家樂／譚仔三哥／壽司郎／元氣壽司／7-Eleven／OK／759／yuu／易賞錢／誠品／商務／雅蘭床褥／AIG／藍十字等。**Cloudflare 5-sec challenge**（「請稍候...」title）defuddle 403／curl UA 403、**Playwright headed Chrome wait 8 秒過**（無 CAPTCHA）。Memory `project-playwright-mcp` known-sites table 加 groupbuya.com ✅。My Notes flag aggregator affiliate conflict（priority ≠ 最抵、官方 App／IG／信用卡 banking app exclusive promo aggregator 通常 underrepresent）、列同類 HK Jetso 站對比（JetsoDigest／JetsoToday／HKJetso／Money Hero）。新建 `Bookmarks/Shopping/HK Deals/` deep tree。
+
 ## [2026-06-22 20:00 HKT] folder-rename | Bookmarks/Audit → Adult（s0931.net 重新分類）
 使用者澄清原意係 Adult（即係成人主題分類）而非 Audit。git mv 全 folder `Bookmarks/Audit/archive/ → Bookmarks/Adult/archive/`、bookmark frontmatter `domain: Audit→Adult`、tag `audit→adult`、檔內 Adult folder 用途描述更新。空 `Audit/` 已 rmdir。
 
