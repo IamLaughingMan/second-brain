@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-23 03:55 HKT] bookmark | 明報健康網 — 蜘蛛網膜下腔出血五成奪命（Health/Neurological，新 subfolder）
+使用者掉 `health.mingpao.com` 2018-05 專題（蔡德康/養和腦神經科，費格遜中風事件契機）。**內容核心**：SAH（蜘蛛網膜下腔出血）= 罕見出血性中風死亡率 50%（vs 缺血性 <10%），全港每年數十至百宗；主因腦動脈瘤（≠癌症）破裂；hallmark 徵狀**雷擊頭痛**（1 分鐘內 peak、頸無法轉動、可短暫昏迷）；輕量警號頭痛持續數小時可作前哨；動脈瘤壓第三神經線出現眼皮下垂／視覺重影／瞳孔放大；CT 為主診斷；手術階梯：>5mm 必切／4mm 邊緣／<4mm 觀察；介入性微創（鉑線圈/支架）vs 開顱權衡；復發大多 2-3 月內、半年無 = 痊癒；ICH/AVM 兩類延伸出血性中風。**Cleanup**：defuddle 後剝 bare image line 1、剝 ad table（醫生黃頁 PowerUp 連結圖）、剝結尾 raw 圖片 caption 串、保留「專題系列文章」7 條 internal 內鏈做 Related (from source)；正體無需 OpenCC；empty-link-shells=0 通過。**新 subfolder**：`Bookmarks/Health/Neurological/`（首條，將來收 migraine/dementia/stroke 等）；`domain: Health` 跟既有 Hair/Cardiovascular 一致 single-level 命名。Article URL 截至 2026-06-23 仍 alive。Tags 唔加 `found-by-claude`（使用者掉 link、非 Claude research 主動搵），初版誤加已 patch 移除。
+
 ## [2026-06-22 22:00 HKT] bookmark | 蘋果日報脫髮專題 + 聞庫 collection.news 保育站（Health/Hair + News/HK）
 雙 bookmark：使用者掉 dead applehealth.com.hk URL（蘋果日報 健康版 2021-03 脫髮專題），同時叫我查 collection.news。**Discovery chain**：applehealth DNS dead 2022 後（Wayback 個別 article 0 snapshot）→ collection.news = **聞庫** 完整 mirror **2,321,702 篇蘋果日報＋立場新聞文章** + 3.04M 圖片。**Article URL ULID pattern**：原 applehealth `O2U2INCTKZDHJDKKYVO64UD3QI_<title>` 嘅 26-char ULID 直接拼上 `collection.news/appledaily/articles/<ULID>` 即 access full article。**Bookmark 1**（脫髮專題，Health/Hair/）：西醫 DHT 機轉 + Xq11-12 基因 evidence + 4 條 PLoS/Science peer-ref + 中醫肝腎不足 + 4 穴位（百會／四神聰／頭維／印堂）+ 首烏桑椹生髮湯方；同 Hair cluster 既有 [[Hairguard]]／[[Henkel WO2011079971]]／[[Sumitomo Dupilumab]] 並排。**Bookmark 2**（聞庫，News/HK/）：HK 重大新聞保育、匿名 + open-source + Vercel hosted + 2023-09 DMCA takedown brief 下線 incident + 2025-12 加搜尋；命名典故唐君毅「花果飄零，靈根自植」→《果靈》→《聞庫》。**`status: active` for dead-URL article**（因內容由聞庫永久 mirror、唔走 archive folder convention 死路）。Memory `project-playwright-mcp` known-sites 加 collection.news ✅／applehealth.com.hk ❌（DNS dead）。
 
