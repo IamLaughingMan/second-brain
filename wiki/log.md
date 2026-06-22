@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 14:42 HKT] idea | 自家品牌金屬錶微創業（LIHKG 啟發）（Personal/Ideas，stage: 未做）
+使用者 flag [[LIHKG 2022 月入 25-30 萬創業帖（賣錶／你問我答）|LIHKG 帖]] 屬「搵錢 idea」→ 喺 `Personal/Ideas/` 新建 entry-research 頁。使用 [[補充品行業 入場研究]] 嘅 5-path framework apply 落自家品牌錶：① OEM 自牌 ② dropshipping ③ 純 reseller ④ high-end white-label（NH35 機芯）⑤ content-first。Reality-check 4 大關鍵問題（成本／真實 net margin／OP 證據／市場 saturation）；起步門檻 3 路徑對比表；6 條主要 risk（unverified／價格戰／IP／品控／心血機會成本）；4 條 alternative path（皮具／HK merch／代購／content-first niche）；8 條 next steps（含 1688 quote、IG hashtag 偵察、Reddit r/microbrand AMA、Excel cashflow model）。Bookmark frontmatter `related:` 加 backlink、My Notes 由「唔建議開 idea」更新為「已 promote」。
+
 ## [2026-06-22 14:30 HKT] bookmark | LIHKG 2022 月入 25-30 萬創業帖（賣錶）（Business/HK/LIHKG）
 LIHKG 2022-02 創業 AMA 帖：OP「我愛韓妹」聲稱搵到月入 250-300K HKD 巴打實例及貨源，後續回覆透露係**金屬錶**（成本 $150-350／隻、自家定價利潤 $1000-1500／隻）。18 回覆 / 11 like / 6 dislike，留言主流質疑（同華強北抄錶冇分別／阿里巴巴幾十蚊／競爭多／「劉明睇你捱到幾耐」）。OP 自認「未研究華強北」「唔重要」屬典型 due-diligence red flag。**unverified anecdotal**，當 HK 微創業心態觀察留底，唔當 reference-grade。Frontmatter related 連 [[美國跨州 SFR]] + [[Albaum]] + [[補充品行業入場研究]] entry-framework，提供「搵錢 idea bookmark」對比 dataset。新建 `Bookmarks/Business/HK/LIHKG/`（scalable LIHKG thread 收集點）。OpenCC 後手動 revert 搵 字（HK 標準）。
 
