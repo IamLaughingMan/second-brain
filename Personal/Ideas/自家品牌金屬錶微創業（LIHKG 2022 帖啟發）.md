@@ -52,6 +52,11 @@ tags:
 3. **品牌設計**：logo + 包裝（unboxing experience 係 IG-able 一大半銷售動能）
 4. **渠道**：自設 Shopify + IG／TikTok organic + paid ads + KOL seeding；後期上 HKTV／Shopee／Carousell
 5. **成本估算**：first batch HK$30-60K（貨 + 包裝 + ads + Shopify）；月銷 50 隻 @ $800/隻 net = $40K/月（純樂觀）
+6. **Marketing stack 3-tier progression**（已建 bookmark 對比）：
+   - **Month 0-3**：[[Klaviyo — AI Email + SMS B2C CRM omnichannel（landing）|Klaviyo free plan]]（≤250 contacts、core features） + Shopify 自家 popup → 試水
+   - **Month 3-12（$5K-100K USD GMV）**：[[Privy — Shopify Email + SMS + Popup 一站式（landing）|Privy]]（$30-150/mo + CSM coaching）或 [[Klaviyo — AI Email + SMS B2C CRM omnichannel（landing）|Klaviyo paid]]
+   - **Month 12+（$50K+ USD GMV）**：[[Klaviyo — AI Email + SMS B2C CRM omnichannel（landing）|Klaviyo]] full suite + AI agents + Claude Connector + MCP（leverage own LLM workflow）
+   - **Bundle 替代**：[[Zotabox — 20+ e-commerce 推廣轉換工具（landing）|Zotabox]] 20+ widget bundle，適合想 1 vendor 簡化 stack 但功能 shallow
 
 #### 路徑 B：dropshipping（無 inventory risk）
 

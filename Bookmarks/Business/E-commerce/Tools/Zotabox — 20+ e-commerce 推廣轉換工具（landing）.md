@@ -9,6 +9,8 @@ published: 2024-10-07
 summary: "E-commerce conversion SaaS：聲稱 10,000+ 商戶／3,000+ review、提供 20+ marketing tools（popup builder、header/footer bar、社交分享、cart abandonment、cross-sell／upsell 等）。**1-click install no-code**，整合 Shopify／BigCommerce／WooCommerce／Wix／Magento／OpenCart／PrestaShop／3dcart／Volusion／Blogger。Shopify App Store partner、提供 free trial。Landing page 對 features／pricing／真實 review 詳情薄弱，需要實際試 free trial 或睇 Shopify App Store 評分先 evaluate。"
 status: active
 related:
+  - "[[Privy — Shopify Email + SMS + Popup 一站式（landing）|Privy]]"
+  - "[[Klaviyo — AI Email + SMS B2C CRM omnichannel（landing）|Klaviyo]]"
   - "[[自家品牌金屬錶微創業（LIHKG 2022 帖啟發）]]"
 tags:
   - bookmark
@@ -70,10 +72,12 @@ Zotabox 係**多功能 e-commerce 推廣 widget SaaS**，集成 20+ 工具（pop
 - **Pricing 估算**（landing 唔顯示，industry guess）：類似 SaaS 通常 **$15-50/mo entry, $100-300/mo growth tier**。
 - **Free trial 必試先 commit**：呢類 multi-widget SaaS 嘅實際 conversion lift 因 store 而異、跟 traffic source、AOV、product type 強 correlate；唔試實際 install 講唔到 worth your time。
 
-## Related
+## Related（3-way stack 對比）
 
-- [[自家品牌金屬錶微創業（LIHKG 2022 帖啟發）]] — e-commerce idea，呢個 tool 屬 tooling stack candidate
-- *(同類競品都未 bookmark，需要時可 add：Privy / OptinMonster / Klaviyo / Optimonk 等)*
+- **本 bookmark Zotabox** — Tier 1：cheapest 20+ widget bundle，breadth > depth，month 0-3 試水
+- [[Privy — Shopify Email + SMS + Popup 一站式（landing）|Privy]] — Tier 2：focused Email + SMS + Popup + CSM coaching
+- [[Klaviyo — AI Email + SMS B2C CRM omnichannel（landing）|Klaviyo]] — Tier 3：B2C CRM + AI agents（K:AI / Composer）+ MCP + 350 integrations，市場領導
+- [[自家品牌金屬錶微創業（LIHKG 2022 帖啟發）]] — 對應 idea（e-commerce stack candidate group）
 
 <!-- ===== ARCHIVE BELOW · 防 link-rot 全文與留言 ===== -->
 

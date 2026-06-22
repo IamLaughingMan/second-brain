@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 15:58 HKT] bookmark | Privy + Klaviyo 3-tier e-commerce stack 對比（Business/E-commerce/Tools）
+順手 bookmark Zotabox 嘅兩個主要競品做 stack 對比。**Privy**：Shopify ecosystem Email + SMS + Popup 三合一，10K customers，主打 CSM coaching included + 透明 pricing（vs Klaviyo「active profiles」billing），SMB-focused，15-day trial。**Klaviyo**：市場領導，196K 商戶 / 100 國家、350+ integrations、AI agents 矩陣（Composer / Marketing Agent / Customer Agent 65% 自動解決 support），omnichannel email/SMS/RCS/WhatsApp/push；**罕見 LLM-side integration**（ChatGPT app + Claude Connector + MCP）；free plan available；公開上市（NYSE: KVYO 2023-09 IPO）。3 個 bookmark 互相 cross-link 形成 3-tier stack：Tier 1 Zotabox（cheapest widget bundle，month 0-3）、Tier 2 Privy（focused + CSM，month 3-12 $5K-100K GMV）、Tier 3 Klaviyo（B2C CRM + AI，month 12+ $50K+ GMV）。同步更新 [[自家品牌金屬錶微創業]] idea「路徑 A」加入 stack progression 表，將 Klaviyo MCP/Claude Connector 標為 user own LLM workflow leverage 點。
+
 ## [2026-06-22 15:36 HKT] bookmark | Zotabox e-commerce conversion SaaS landing（Business/E-commerce/Tools）
 Zotabox landing page：多功能 e-commerce conversion widget SaaS（popup／header bar／cross-sell／social proof／cart recovery），1-click install no-code，整合 Shopify／BigCommerce／WooCommerce／Wix／Magento／OpenCart／PrestaShop／3dcart／Volusion／Blogger／Zid。聲明 10K+ 商戶 + 3K+ reviews + free trial。My Notes flag landing 盲點（無 pricing／20+ tools 具體 list 唔列／3K reviews 來源不明／vendor 規模低調）、列 6 個同類競品（Privy／OptinMonster／Klaviyo／Optimonk／Convertful／Sumo）、HK 商戶 default stack（Klaviyo + Privy + Loox／Yotpo）、reality-check（Shopify App Store rating／G2／TrustPilot 自查、2024-10 page 可能 stale）。Frontmatter `related:` 連 [[自家品牌金屬錶微創業]] idea（tooling stack candidate）。新建 `Bookmarks/Business/E-commerce/Tools/`。
 
