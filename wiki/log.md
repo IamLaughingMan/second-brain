@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 19:30 HKT] folder-move | GameOver HK 由 Gaming/GameOver HK/ → Gaming/archive/（per 使用者，shared archive convention）
+使用者澄清 archive folder convention：**每個 domain folder（Gaming／Tech／...）共用一個 `archive/` subfolder 收 dead sites**，唔每 site 開獨立 subfolder。git mv `Gaming/GameOver HK/GameOver HK — *.md → Gaming/archive/`、git rm `Gaming/GameOver HK/archive/.gitkeep`；空 `Gaming/GameOver HK/` 自動清。Bookmark `## My Notes` 更新 folder convention 描述。**Lesson 更新**：dead site bookmark 用 `<domain>/archive/<filename>` flat structure；若日後 capture 個別 article 落 archive/，filename 用 `<site> — <news-id>` prefix 區分。
+
 ## [2026-06-22 19:20 HKT] folder-move | GameOver HK 由 Entertainment/HK Comics → Gaming（per 使用者）
 使用者指 site 命名 = primary classification key（即使內容主軸係港漫，folder 跟 site name）。git mv 全 folder（bookmark .md + archive/.gitkeep）由 `Bookmarks/Entertainment/HK Comics/GameOver HK/` 搬到 `Bookmarks/Gaming/GameOver HK/`；frontmatter `domain` `Entertainment → Gaming`，tag `entertainment → gaming`（保留 `hk-comics`）；空 `Entertainment/HK Comics/` 已 rmdir。**Lesson**：之後 dead/personal-blog bookmark 揀 folder 預設跟 site name／identifier，唔猜內容主軸。
 
