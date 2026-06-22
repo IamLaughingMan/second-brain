@@ -76,6 +76,7 @@ tags:
 
 ### Alternative path（FIRE 但唔走 SFR）
 
+- **澳洲 BTL**：見 [[澳洲 BTL 出租物業組合（仿 Dilleen 路線）]]（Eddie Dilleen 路線）— 含 US vs AU 對比表；HK 客 risk-adjusted 初步結論係 **US 仍 dominant**（AU foreign surcharge + 無 CGT discount 殺 yield）
 - **日本不動產 FIRE**（部分 HK 港人路線）：地方城市 yield 5-8%，文化／距離較近
 - **英國 BTL**（Buy-to-Let）：金邊／曼徹斯特等大學城，rental demand 穩
 - **葡萄牙／西班牙 Golden Visa**：投資 + 居留權雙得

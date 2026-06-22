@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 15:12 HKT] idea | 澳洲 BTL 出租物業組合（仿 Dilleen 路線）（Personal/Ideas，stage: 未做）
+使用者 flag [[Eddie Dilleen — 澳洲公屋仔 麥當勞兼職 30 歲 40 套樓（經一 2022）|Dilleen bookmark]] 屬「搵錢 idea」→ 喺 `Personal/Ideas/` 新建 entry-research 頁，仿 [[美國跨州 SFR idea]] framework 改寫澳洲版。5 路徑（直接買／buyers agency／A-REIT-syndication／JV with PR partner／移居後本地買）；起步門檻表（QLD regional 二房 AUD$550K + FIRB fee + 7% stamp duty + 7% foreign surcharge ≈ HKD$2.6-3.9M 入場）；8 大 risk（unverified／survivorship／foreign surcharge 8%／**non-resident 無 CGT 50% discount**致命／FIRB 限 new build／currency ±25%／PM 7 時區／policy reform）；**US vs AU 對比表 12 行**初步結論：**HK 客 risk-adjusted US > AU**（除非 ① 有 PR ② 已移居 ③ 用 nominee 變相 resident）；9 條 next steps。雙向 link：Dilleen bookmark `related:` 加 backlink、My Notes 補「已 promote」、[[美國跨州 SFR idea]] alternative path section 加 AU 連結。
+
 ## [2026-06-22 14:58 HKT] bookmark | Eddie Dilleen 澳洲公屋仔 30 歲 40 套樓（Finance/Real Estate）
 經一 EDigest 2022-01 編譯澳洲傳媒：Eddie Dilleen（IG @dilleenpropertyau）NSW 單親公屋出身 → 15 歲麥當勞兼職（週入 AUD$500） → 19 歲 AUD$20K 首期買 NSW $138K AUD 兩房 → 25 歲 10 套 → 疫情「人棄我取」一年半掃 20 套 → 30 歲 40 套（昆士蘭／黃金海岸／布里斯班）。Eddie 心得：先小物業、跨州擴、半成首期、租金 yield 優先、撈急售。My Notes 列 4 大 caveat（survivorship／高 leverage／IG influencer 商業利益／award internal）、HK 人 cross-border friction（FIRB／foreign stamp surcharge／cross-border PM）、對比 [[Albaum]] trustworthiness（Eddie < Albaum）、2026 update（仍活躍／RBA 4.35% cashflow positive 物業稀缺）、source typo flag「積植→積極」。同 [[Albaum]] / [[美國跨州 SFR idea]] 一系列「搵錢 idea source bookmark」dataset。OpenCC s2hk 後保留 HK 字形（脱／説／閲／分佈／避兇）。
 
