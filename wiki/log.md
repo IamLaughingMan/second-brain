@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 19:05 HKT] bookmark | GameOver HK 港漫+hi-fi 個人 blog 已停運（Entertainment/HK Comics）
+HK 個人 blog 2012-2024 活躍（Wayback 月度 snapshot 120+）、2024-09 後網域離線。內容主軸：港漫（新著龍虎門 2500 期／火武耀揚／神兵玄奇／黃玉郎／王澤老夫子／廖光祖貓面具少年／Felix Ip 燈箱君／港漫動力 2／曹偉樑國士無雙）＋ hi-fi（B&W Pi6/Pi8、Denon PerL、B&W × Beckham）＋ 杜比小説《四環 命運規劃委員會》。**Live URL 已死**——直接從 Wayback `web.archive.org/web/20240918162949` snapshot 抽 homepage 30+ 篇 articles excerpts。`status: archived` 標記。建 `Bookmarks/Entertainment/HK Comics/GameOver HK/` + per 使用者要求嘅 `archive/` subfolder（.gitkeep 預留俾日後 capture 12 條 Wayback article URL，文件入面有完整 article list table）。Wayback CDX 年度分佈：2012-2021 月度 11-12 個 → 2022 減 → 2024-09 後 0，net 12 年生命週期。HK culture preservation cluster（同 [[HKanime]]／[[Hong Kong Matters]]）。
+
 ## [2026-06-22 18:30 HKT] bookmark | FluentPet Community Welcome（Animals/AIC Communication/FluentPet）
 FluentPet 官方社群嘅 Welcome 區：教 dog／cat 等寵物用 soundboard AIC（Augmentative Interspecies Communication）按鈕溝通。免費社群 + 付費 Academy tier；核心免費資源 FP 101 8 課；Discussion 板塊 7-8 個（tips/board building/wins/videos/soundboard/resources/cooperative care）。Founder Leo Trottier UCSD cog-sci PhD、研究 arm TheyCanTalk.org（>10K 寵物 longitudinal study）。My Notes 補科學成熟度警告（observational study 未 peer-reviewed conclusive、Wynne/Horowitz 等持保留意見）、產品 cost reality（Get Started Kit US$60-80、Academy ~US$30/月、vs Amazon generic button US$10-15 嘅 premium）、HK 適配（按鈕語言 agnostic、可錄廣東話）、個人 actionable 4-step path。**抓取技術 note**：defuddle 403、curl Cloudflare wall、**Playwright headed Chrome 過**——加入 known-sites table（FluentPet ✅，同 Penana/Mobile01 class）。新建 `Bookmarks/Animals/AIC Communication/FluentPet/` deep tree。
 
