@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 14:30 HKT] bookmark | LIHKG 2022 月入 25-30 萬創業帖（賣錶）（Business/HK/LIHKG）
+LIHKG 2022-02 創業 AMA 帖：OP「我愛韓妹」聲稱搵到月入 250-300K HKD 巴打實例及貨源，後續回覆透露係**金屬錶**（成本 $150-350／隻、自家定價利潤 $1000-1500／隻）。18 回覆 / 11 like / 6 dislike，留言主流質疑（同華強北抄錶冇分別／阿里巴巴幾十蚊／競爭多／「劉明睇你捱到幾耐」）。OP 自認「未研究華強北」「唔重要」屬典型 due-diligence red flag。**unverified anecdotal**，當 HK 微創業心態觀察留底，唔當 reference-grade。Frontmatter related 連 [[美國跨州 SFR]] + [[Albaum]] + [[補充品行業入場研究]] entry-framework，提供「搵錢 idea bookmark」對比 dataset。新建 `Bookmarks/Business/HK/LIHKG/`（scalable LIHKG thread 收集點）。OpenCC 後手動 revert 搵 字（HK 標準）。
+
 ## [2026-06-22 14:18 HKT] bookmark | TechBang 2022 Studio Display 接 PC 半殘實測（Tech/Apple/Studio Display）
 T客邦 TechBang 2022-03 譯介 Justin Searls（Test Double 共同創辦人）blog post：Apple Studio Display 5K 接 Windows PC 嘅實戰。蘋果預警嘅閹割（Center Stage／空間音訊／Siri）係小事，接線先係地獄 — RTX 3090 直接 DP→USB-C 完全無反應，要走兩條路：① DP 1.4（8K）USB-C 轉換器（畫面 OK 喇叭死）② PCIe Thunderbolt 卡＋BIOS USB＋Boot Camp（全功能但複雜）。$1,599 USD 換 60Hz + 半殘，原文結論勸 PC 玩家行 144Hz 替代品。標註時效（2026 角度 Apple 仍未鬆綁／無 Studio Display 後繼）、列 cross-platform 5K 替代（Dell U3224KB／Samsung ViewFinity S9／ProArt）。同 [[TechBang Windows 11]] 標 dataset = OS／硬體生態磨合 reference 集。新建 `Bookmarks/Tech/Apple/Studio Display/`。
 
