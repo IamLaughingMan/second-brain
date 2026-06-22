@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 20:00 HKT] folder-rename | Bookmarks/Audit → Adult（s0931.net 重新分類）
+使用者澄清原意係 Adult（即係成人主題分類）而非 Audit。git mv 全 folder `Bookmarks/Audit/archive/ → Bookmarks/Adult/archive/`、bookmark frontmatter `domain: Audit→Adult`、tag `audit→adult`、檔內 Adult folder 用途描述更新。空 `Audit/` 已 rmdir。
+
 ## [2026-06-22 19:55 HKT] bookmark | s0931.net 多代身份 dead domain（Audit/archive）
 20 年生命週期 dead domain forensic：2004-12 首 archive、2024-09 最後 working、2025 全 404。三段身份：① 2004-2010 早期 cgi-bin forum + image-only landing 鏈 `/ttt//msdd//555/SPA` subdir、Big5 mojibake「寶山綠營眷協會 承租」、`s0931` + cgi forum + 無語意 subdir = 早期 2000s 台灣灰色／成人 forum signature；② 2021-2022 完全變身台灣機場接送服務 apscar（02-7730-8814、Line@、NT$799 送機 + NT$2,490 包車 4H）；③ 2023-2024 變 301 redirect。**Forum 子頁面 0 Wayback snapshot**（forums.cgi?forum=N 全 lost）。User-supplied URL `/cgi-bin/cgi-bin/` double-prefix 應為 typo。建 `Bookmarks/Audit/` 新 domain folder（首條），收 domain forensic／site investigation／forensic case study；按 dead-link convention 直放 `Audit/archive/` flat。同 [[GameOver HK]] 2024-09 同期死、可能同 hosting provider issue。Alternative archive lookups table 列 archive.today／PTT 等追尋路徑。
 
