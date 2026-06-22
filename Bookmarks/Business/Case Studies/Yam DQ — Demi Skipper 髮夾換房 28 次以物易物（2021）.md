@@ -9,6 +9,7 @@ published: 2021-12-21
 summary: "Yam DQ（地球圖輯隊）2021-12 編譯 WaPo/NBC/Guardian：美國舊金山上班族 Demi Skipper（@Trademeproject）2020 年發起 TikTok 大挑戰，18 個月用一根黑色髮夾經 28 次以物易物換到田納西州一棟兩房獨棟屋。鐵律：只跟陌生人交易、不花錢。物品鏈包括 macbook／iPhone 11 Max／Peloton／2008 Mustang／拖拉機／Chipotle 名人卡（$20K USD 一年免費餐）／Tesla Powerwall 露營車。期間 TikTok 帳號漲到 500 萬 followers，粉絲牽線／借倉／代駕。靈感來自 Kyle MacDonald 2005 紅迴紋針換房（14 次）。仲打算再做一次。"
 status: active
 related:
+  - "[[公開 grind 內容創業（仿 Skipper 髮夾換房 audience play）]]"
   - "[[BusinessFocus Michael Albaum 32 歲房地產 61 套]]"
   - "[[Eddie Dilleen — 澳洲公屋仔 麥當勞兼職 30 歲 40 套樓（經一 2022）]]"
   - "[[LIHKG 2022 月入 25-30 萬創業帖（賣錶／你問我答）]]"

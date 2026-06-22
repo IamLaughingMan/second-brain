@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 16:48 HKT] idea | 公開 grind 內容創業（仿 Skipper audience play）（Personal/Ideas，stage: 未做）
+使用者 flag [[Yam DQ — Demi Skipper 髮夾換房 28 次以物易物（2021）|Skipper bookmark]] 屬 idea。**Reframe**：唔 copy 表象（barter challenge N=2 lottery 唔可 reproduce），抽 generalizable lesson（public-grind documentation premium / narrative arc 設計 / honest failure broadcasting / audience-driven validation / single thesis long horizon）。5 路徑：A 公開記錄 second-brain vault grow up（meta-productivity niche，material 已有，**initial bet**）／B 公開 idea triage workflow（HK FIRE community）／C 垂直 niche long grind（同 [[自家品牌錶 Path E]]／[[補充品]] 並行）／D barter challenge HK 版（**不建議**，列為完整性）／E hybrid（content + product layer 一 niche 兩 use）。7 條 Risk（lottery／time sink／burnout／plateau／niche 揀錯／HK 受眾細／AI 內容洪流）；4-week minimum test 指標 30 天 1K view / 5% engagement；7 條 next steps（initial bet path A、4-week beta、organic-only baseline）。Bookmark `related:` 加 backlink。
+
 ## [2026-06-22 16:25 HKT] bookmark | Yam DQ Demi Skipper 髮夾換房 28 次以物易物（Business/Case Studies）
 Yam 地球圖輯隊 DQ 2021-12 編譯 WaPo/NBC/Guardian：舊金山 Demi Skipper（@Trademeproject）18 個月 28 次以物易物，由黑髮夾換到田納西州兩房獨棟屋；TikTok 漲到 500 萬粉絲。靈感來自 Kyle MacDonald 2005 紅迴紋針換房（14 次）。物品鏈含 MacBook／iPhone 11 Max／Peloton／2008 Mustang／3 拖拉機 → Chipotle 名人卡 → Tesla Powerwall 露營車 → 房子。Mini Cooper 換項鍊嘅 75% 縮水誠實上鏡。My Notes 嘅核心觀察：**表象係 barter、本質係 TikTok audience play**（粉絲牽線/借倉/代駕、Chipotle 卡爛 trade 即有頭號粉用 $40K 露營車承接 = fan-driven 拍賣非 fair value barter）；N=2 lottery sample 唔可 reproduce；對比 Albaum／Dilleen grinder narrative，risk-adjusted 搵錢結論差；可遷移 lesson 係「公開記錄 grind + 誠實分享失敗 = audience-building」，同 [[自家品牌金屬錶 idea Path E content-first]]／[[補充品行業 5-path framework]] 同根。新建 `Bookmarks/Business/Case Studies/` deep tree（搵錢 idea source narrative 集合點）。OpenCC s2hk 修正 `枱幣→台幣` over-conversion artifact。
 
