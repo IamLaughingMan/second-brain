@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 16:25 HKT] bookmark | Yam DQ Demi Skipper 髮夾換房 28 次以物易物（Business/Case Studies）
+Yam 地球圖輯隊 DQ 2021-12 編譯 WaPo/NBC/Guardian：舊金山 Demi Skipper（@Trademeproject）18 個月 28 次以物易物，由黑髮夾換到田納西州兩房獨棟屋；TikTok 漲到 500 萬粉絲。靈感來自 Kyle MacDonald 2005 紅迴紋針換房（14 次）。物品鏈含 MacBook／iPhone 11 Max／Peloton／2008 Mustang／3 拖拉機 → Chipotle 名人卡 → Tesla Powerwall 露營車 → 房子。Mini Cooper 換項鍊嘅 75% 縮水誠實上鏡。My Notes 嘅核心觀察：**表象係 barter、本質係 TikTok audience play**（粉絲牽線/借倉/代駕、Chipotle 卡爛 trade 即有頭號粉用 $40K 露營車承接 = fan-driven 拍賣非 fair value barter）；N=2 lottery sample 唔可 reproduce；對比 Albaum／Dilleen grinder narrative，risk-adjusted 搵錢結論差；可遷移 lesson 係「公開記錄 grind + 誠實分享失敗 = audience-building」，同 [[自家品牌金屬錶 idea Path E content-first]]／[[補充品行業 5-path framework]] 同根。新建 `Bookmarks/Business/Case Studies/` deep tree（搵錢 idea source narrative 集合點）。OpenCC s2hk 修正 `枱幣→台幣` over-conversion artifact。
+
 ## [2026-06-22 15:58 HKT] bookmark | Privy + Klaviyo 3-tier e-commerce stack 對比（Business/E-commerce/Tools）
 順手 bookmark Zotabox 嘅兩個主要競品做 stack 對比。**Privy**：Shopify ecosystem Email + SMS + Popup 三合一，10K customers，主打 CSM coaching included + 透明 pricing（vs Klaviyo「active profiles」billing），SMB-focused，15-day trial。**Klaviyo**：市場領導，196K 商戶 / 100 國家、350+ integrations、AI agents 矩陣（Composer / Marketing Agent / Customer Agent 65% 自動解決 support），omnichannel email/SMS/RCS/WhatsApp/push；**罕見 LLM-side integration**（ChatGPT app + Claude Connector + MCP）；free plan available；公開上市（NYSE: KVYO 2023-09 IPO）。3 個 bookmark 互相 cross-link 形成 3-tier stack：Tier 1 Zotabox（cheapest widget bundle，month 0-3）、Tier 2 Privy（focused + CSM，month 3-12 $5K-100K GMV）、Tier 3 Klaviyo（B2C CRM + AI，month 12+ $50K+ GMV）。同步更新 [[自家品牌金屬錶微創業]] idea「路徑 A」加入 stack progression 表，將 Klaviyo MCP/Claude Connector 標為 user own LLM workflow leverage 點。
 
