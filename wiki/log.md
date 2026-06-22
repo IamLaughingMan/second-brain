@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 17:05 HKT] bookmark | TechBang 2021 Backblaze Q3 硬碟可靠性（Tech/Storage）
+T客邦 TechBang 2021-11 轉載 cnBeta：Backblaze 2021 Q3 hard drive reliability report — 190,826 顆採樣。HGST 12TB（HUH721212ALE600，阿姆斯特丹 Dell server）**唯一零故障**；4 款僅 1 次故障（Seagate 6TB ST6000DX000／Toshiba 4TB MD04ABA400V／Toshiba 14TB MG07ACA14TEY／WDC 16TB WUH721816ALE6L0），Seagate 6TB + Toshiba 4TB 平均壽命 >75 個月。Lifetime AFR 1.43%（2013-2021 累積）。SSD 故障率較 HDD 低、但 wear-out 時間後 AFR 同樣上升。My Notes 補時效檢查（2026 角度：HAMR + enterprise SSD 入 fleet）、個人用戶 NAS 揀牌指引（避 Barracuda/Blue/Green）、3-2-1 backup rule、Backblaze quarterly stats 真實 vs MTBF spec implied gap、survivorship/sample-size limitations。新建 `Bookmarks/Tech/Storage/` deep tree。
+
 ## [2026-06-22 16:48 HKT] idea | 公開 grind 內容創業（仿 Skipper audience play）（Personal/Ideas，stage: 未做）
 使用者 flag [[Yam DQ — Demi Skipper 髮夾換房 28 次以物易物（2021）|Skipper bookmark]] 屬 idea。**Reframe**：唔 copy 表象（barter challenge N=2 lottery 唔可 reproduce），抽 generalizable lesson（public-grind documentation premium / narrative arc 設計 / honest failure broadcasting / audience-driven validation / single thesis long horizon）。5 路徑：A 公開記錄 second-brain vault grow up（meta-productivity niche，material 已有，**initial bet**）／B 公開 idea triage workflow（HK FIRE community）／C 垂直 niche long grind（同 [[自家品牌錶 Path E]]／[[補充品]] 並行）／D barter challenge HK 版（**不建議**，列為完整性）／E hybrid（content + product layer 一 niche 兩 use）。7 條 Risk（lottery／time sink／burnout／plateau／niche 揀錯／HK 受眾細／AI 內容洪流）；4-week minimum test 指標 30 天 1K view / 5% engagement；7 條 next steps（initial bet path A、4-week beta、organic-only baseline）。Bookmark `related:` 加 backlink。
 
