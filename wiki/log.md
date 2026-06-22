@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 15:36 HKT] bookmark | Zotabox e-commerce conversion SaaS landing（Business/E-commerce/Tools）
+Zotabox landing page：多功能 e-commerce conversion widget SaaS（popup／header bar／cross-sell／social proof／cart recovery），1-click install no-code，整合 Shopify／BigCommerce／WooCommerce／Wix／Magento／OpenCart／PrestaShop／3dcart／Volusion／Blogger／Zid。聲明 10K+ 商戶 + 3K+ reviews + free trial。My Notes flag landing 盲點（無 pricing／20+ tools 具體 list 唔列／3K reviews 來源不明／vendor 規模低調）、列 6 個同類競品（Privy／OptinMonster／Klaviyo／Optimonk／Convertful／Sumo）、HK 商戶 default stack（Klaviyo + Privy + Loox／Yotpo）、reality-check（Shopify App Store rating／G2／TrustPilot 自查、2024-10 page 可能 stale）。Frontmatter `related:` 連 [[自家品牌金屬錶微創業]] idea（tooling stack candidate）。新建 `Bookmarks/Business/E-commerce/Tools/`。
+
 ## [2026-06-22 15:12 HKT] idea | 澳洲 BTL 出租物業組合（仿 Dilleen 路線）（Personal/Ideas，stage: 未做）
 使用者 flag [[Eddie Dilleen — 澳洲公屋仔 麥當勞兼職 30 歲 40 套樓（經一 2022）|Dilleen bookmark]] 屬「搵錢 idea」→ 喺 `Personal/Ideas/` 新建 entry-research 頁，仿 [[美國跨州 SFR idea]] framework 改寫澳洲版。5 路徑（直接買／buyers agency／A-REIT-syndication／JV with PR partner／移居後本地買）；起步門檻表（QLD regional 二房 AUD$550K + FIRB fee + 7% stamp duty + 7% foreign surcharge ≈ HKD$2.6-3.9M 入場）；8 大 risk（unverified／survivorship／foreign surcharge 8%／**non-resident 無 CGT 50% discount**致命／FIRB 限 new build／currency ±25%／PM 7 時區／policy reform）；**US vs AU 對比表 12 行**初步結論：**HK 客 risk-adjusted US > AU**（除非 ① 有 PR ② 已移居 ③ 用 nominee 變相 resident）；9 條 next steps。雙向 link：Dilleen bookmark `related:` 加 backlink、My Notes 補「已 promote」、[[美國跨州 SFR idea]] alternative path section 加 AU 連結。
 
