@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 14:18 HKT] bookmark | TechBang 2022 Studio Display 接 PC 半殘實測（Tech/Apple/Studio Display）
+T客邦 TechBang 2022-03 譯介 Justin Searls（Test Double 共同創辦人）blog post：Apple Studio Display 5K 接 Windows PC 嘅實戰。蘋果預警嘅閹割（Center Stage／空間音訊／Siri）係小事，接線先係地獄 — RTX 3090 直接 DP→USB-C 完全無反應，要走兩條路：① DP 1.4（8K）USB-C 轉換器（畫面 OK 喇叭死）② PCIe Thunderbolt 卡＋BIOS USB＋Boot Camp（全功能但複雜）。$1,599 USD 換 60Hz + 半殘，原文結論勸 PC 玩家行 144Hz 替代品。標註時效（2026 角度 Apple 仍未鬆綁／無 Studio Display 後繼）、列 cross-platform 5K 替代（Dell U3224KB／Samsung ViewFinity S9／ProArt）。同 [[TechBang Windows 11]] 標 dataset = OS／硬體生態磨合 reference 集。新建 `Bookmarks/Tech/Apple/Studio Display/`。
+
 ## [2026-06-22 14:10 HKT] bookmark | TechBang 2022 Windows 11 缺失功能對比 Win10（Tech/Windows）
 T客邦 TechBang 2022-04 轉載網易文章：列 Windows 11 RTM／21H2 相對 Windows 10 三個元件嘅退步 — 開始選單（無動態磁貼／無圖示尺寸調整／無分組／取消全螢幕／無徽章）、工作列（鎖底部／不可拖檔／右鍵砍 Task Manager／無電池彈窗／無日曆事件）、檔案總管（無更新鍵／右鍵不全且慢／無快速存取／RTM 無資料夾預覽）。原文已提示部分缺失會喺 22H2 補返。Bookmark 標明係 **歷史 reference**（2026 已修復多項）；提到 Win10 延伸支援實際 EoL = 2025-10-14 可付費 ESU。新建 `Bookmarks/Tech/Windows/` subfolder。
 
