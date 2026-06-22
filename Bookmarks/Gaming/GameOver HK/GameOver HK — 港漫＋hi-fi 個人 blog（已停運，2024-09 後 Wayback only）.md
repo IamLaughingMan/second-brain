@@ -1,7 +1,7 @@
 ---
 type: bookmark
 para: resource
-domain: Entertainment
+domain: Gaming
 title: "GameOver HK — 港漫 + hi-fi 個人 blog（homepage）"
 url: "https://www.gameover.com.hk/"
 url_archived: "https://web.archive.org/web/20240918162949/https://www.gameover.com.hk/"
@@ -12,7 +12,7 @@ related:
   - ""
 tags:
   - bookmark
-  - entertainment
+  - gaming
   - hk-comics
   - hk-pop-culture
   - port-comics

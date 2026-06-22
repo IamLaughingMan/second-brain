@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-22 19:20 HKT] folder-move | GameOver HK 由 Entertainment/HK Comics → Gaming（per 使用者）
+使用者指 site 命名 = primary classification key（即使內容主軸係港漫，folder 跟 site name）。git mv 全 folder（bookmark .md + archive/.gitkeep）由 `Bookmarks/Entertainment/HK Comics/GameOver HK/` 搬到 `Bookmarks/Gaming/GameOver HK/`；frontmatter `domain` `Entertainment → Gaming`，tag `entertainment → gaming`（保留 `hk-comics`）；空 `Entertainment/HK Comics/` 已 rmdir。**Lesson**：之後 dead/personal-blog bookmark 揀 folder 預設跟 site name／identifier，唔猜內容主軸。
+
 ## [2026-06-22 19:05 HKT] bookmark | GameOver HK 港漫+hi-fi 個人 blog 已停運（Entertainment/HK Comics）
 HK 個人 blog 2012-2024 活躍（Wayback 月度 snapshot 120+）、2024-09 後網域離線。內容主軸：港漫（新著龍虎門 2500 期／火武耀揚／神兵玄奇／黃玉郎／王澤老夫子／廖光祖貓面具少年／Felix Ip 燈箱君／港漫動力 2／曹偉樑國士無雙）＋ hi-fi（B&W Pi6/Pi8、Denon PerL、B&W × Beckham）＋ 杜比小説《四環 命運規劃委員會》。**Live URL 已死**——直接從 Wayback `web.archive.org/web/20240918162949` snapshot 抽 homepage 30+ 篇 articles excerpts。`status: archived` 標記。建 `Bookmarks/Entertainment/HK Comics/GameOver HK/` + per 使用者要求嘅 `archive/` subfolder（.gitkeep 預留俾日後 capture 12 條 Wayback article URL，文件入面有完整 article list table）。Wayback CDX 年度分佈：2012-2021 月度 11-12 個 → 2022 減 → 2024-09 後 0，net 12 年生命週期。HK culture preservation cluster（同 [[HKanime]]／[[Hong Kong Matters]]）。
 
