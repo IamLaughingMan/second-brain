@@ -5,7 +5,7 @@ title: English Vocabulary
 status: active
 created: 2026-06-23
 updated: 2026-06-23
-last_added: autist
+last_added: flair
 tags:
   - learning
   - vocabulary
@@ -28,6 +28,7 @@ Append-only 生字表。新詞**置頂**（最近學起）；舊詞往下推。
 
 | Word | 詞性 | 中文 | 例句／備註 |
 |------|------|------|------------|
+| **flair** | n. | **(1) 天份／本能感覺／自然才能**（for doing sth）——做某啲嘢有 instinctive aptitude，唔靠死練；**(2) 風格／韻味／別致**——加入嘅 distinctive touch，令件嘢有 personality（衣著／設計／文字／菜式）；**(3) Reddit／論壇 UI 用語**：username 旁邊嘅 tag/badge（如 r/wallstreetbets 嘅 `🐂 Bull Gang` flair）顯示用戶 affiliation／status。⚠️ **唔好同 `flare`（火焰／信號彈／喇叭褲）混淆**——讀音相同 `/flɛər/`，意思不同。**文化 ref**：1999 電影《**Office Space**》嘅 "**pieces of flair**" 梗——TGI Friday's parody 餐廳要員工戴 15 件以上 flair pins，象徵 forced corporate personality | She has a flair for languages — picks them up in weeks. ／ The chef adds Cantonese flair to French classics. ／ His writing has real flair. ／ Add some flair to your CV design. ／ Your Reddit flair says "ape" — nice. ／ "I'm wearing 37 pieces of flair." (Office Space) |
 | **autist** | n. (slang, ambiguous register) | （字面醫學）患自閉症嘅人；**現代正式語境多用 `autistic person`／`person on the spectrum`**，`autist` 名詞用法被視為 outdated／potentially offensive。**WSB／4chan／crypto／DD 圈 reclaim slang**：自稱／戲稱**對 ticker、圖表、on-chain data、財報細節有 obsessive hyper-focus** 嘅深度 DD 用家（同 [[degen]] 並列嘅自嘲 badge——「我哋係 autist／我哋鍾意盯數字盯到天光」）。**WSB lore**：「If you're autistic enough to read the 10-K, you might just outperform Wall Street」。⚠️ **注意語境**：圈內口語 OK，圈外／同非熟人講有冒犯風險。  | The WSB autists found a 200% revenue beat hidden in the footnotes. ／ Only an autist would chart this volatility decay manually. ／ I am autist for SOL on-chain analytics. ／ ⚠️ Don't use in HR/medical contexts — say "autistic person" instead. |
 | **dread** | v. / n. (/ adj. rare) | （v.）害怕／恐懼／極度抗拒**將要發生**嘅事（≠ generic fear，**強調 anticipatory**——你知佢就嚟、唔想佢嚟）；（n.）那種預期性嘅恐懼、忐忑、不祥預感。形容詞 `dreadful`（可怕／糟糕透頂、或誇張口語＝差到不得了）／`dreaded`（被惡名 attached 嘅，e.g. `the dreaded Monday meeting`）。**文化 ref**：Rastafarian `dreadlocks`（髮型）名源係「對神嘅 dread/awe」；牙買加 reggae／Bob Marley 文化嘅 spiritual reverence | I dread Monday mornings. ／ She felt a sense of dread as she opened the email. ／ The dreaded annual review is tomorrow. ／ Filling tax forms is dreadful. ／ He had been awake all night, full of dread. |
 | **groundskeeper** | n. | 場地管理員、園丁、護理員 —— 負責維護**戶外場地**（球場／高爾夫球場／cemetery／莊園／大宅／公園）嘅人；剪草、修樹、清葉、修整地面、灑水。**Compound 詞** `grounds + keeper`，較 `gardener`（花圃）／`janitor`（室內清潔）更 specific（戶外大面積場地）。**文化 reference**：The Simpsons 嘅「**Groundskeeper Willie**」（蘇格蘭口音 Springfield Elementary 校工）；2018 Dewayne Johnson v. Monsanto 案（前 school groundskeeper 患 non-Hodgkin lymphoma 控告 Roundup 致癌，獲判賠數千萬美元，掀草甘膦致癌訴訟潮）  | The groundskeeper mowed the lawn at 6am. ／ Augusta National employs over 100 groundskeepers for the Masters. ／ Groundskeeper Willie hates "those snobs at Yale." ／ A groundskeeper's lawsuit against Monsanto ignited the Roundup-cancer litigation wave. |
