@@ -5,7 +5,7 @@ title: English Vocabulary
 status: active
 created: 2026-06-23
 updated: 2026-06-23
-last_added: plummet
+last_added: counterfeit
 tags:
   - learning
   - vocabulary
@@ -28,6 +28,7 @@ Append-only 生字表。新詞**置頂**（最近學起）；舊詞往下推。
 
 | Word | 詞性 | 中文 | 例句／備註 |
 |------|------|------|------------|
+| **counterfeit** | adj. / n. / v. | （adj.）偽造嘅、冒牌嘅、假嘅；（n.）偽造品、冒牌貨、假鈔；（v.）偽造、仿冒（常涉貨幣／文件／名牌貨／藥品）。比 `fake`／`imitation` 更**法律意味重**，常用於犯罪／執法／海關語境。讀音 `/ˈkaʊntərfɪt/`。常見搭配 `counterfeit money/bills/currency`／`counterfeit goods`／`counterfeit luxury bags`／`counterfeit drugs`／`counterfeit passport`／`anti-counterfeit measures` | Customs seized $2M of counterfeit watches at the border. ／ He was arrested for counterfeiting US dollars. ／ The market is flooded with counterfeit AirPods. ／ Banknotes have anti-counterfeit holograms. |
 | **plummet** | v. (/ n. rare) | 暴跌、驟降、垂直墜落（價格／溫度／信心／物件 free fall 式急跌）；強調**又快又深又直**，比 `drop`／`fall` 更戲劇化。詞源：來自 `plumb`（鉛錘）—— plummet＝鉛錘綁線垂直下墜。常見搭配 `prices plummeted`／`stock plummeted`／`temperatures plummeted`／`confidence plummeted`／`plummeted to a new low` | The stock plummeted 80% after the earnings miss. ／ Temperatures plummeted overnight. ／ Her confidence plummeted after the rejection. ／ TQQQ plummeted 69% during the COVID crash. |
 | **cliché** / **cliche** | n. / adj. | （n.）陳腔濫調、老套說法、用到爛嘅念頭／橋段／意象（原本印象深、用多咗就 lose impact）；（adj.）老套嘅、用爛嘅、cliché 嘅。法語借詞，原指印刷術嘅 stereotype plate（成塊預鑄版重複印），引申「重複過頭」。讀音 `/kliːˈʃeɪ/` (klee-SHAY)；正寫帶 acute `é`，口語／鍵盤常省略。常見搭配 `tired cliché`／`stale cliché`／`avoid clichés` | "It's not you, it's me" is the ultimate breakup cliché. ／ His writing relies too much on clichés. ／ That plot twist felt cliché. ／ I know it's a cliché, but time really does heal. |
 | **tendies** | n. (slang, pl.) | （字面）chicken tenders 雞柳／雞肉條（兒童套餐）。**WSB / r/wallstreetbets slang**：**交易盈利、賺到嘅錢**——出處係自嘲 lore「媽咪會獎雞柳俾乖仔」，將成年投機客 infantilize 成「等媽咪畀獎」嘅 kidult；同 [[degen]] 同源 self-deprecating crypto/stock culture。常見搭配 `secure the tendies`（鎖利／止盈）／`tendieman`（賺到嘅人）／`lost my tendies`（蝕咗）  | I just secured the tendies on my GME calls. ／ Diamond hands or lose your tendies. ／ Mom's basement smells like tendies tonight — winning. ／ All my SOL tendies went into a new memecoin. |
