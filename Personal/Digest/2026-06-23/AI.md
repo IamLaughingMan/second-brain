@@ -20,12 +20,12 @@ tags:
 ## TL;DR
 
 - **OpenAI DayBreak — GPT-5.5-Cyber** 發佈，security/cyber focused 新 model 線。
-- **GLM-5.2 釋出**：unsloth 出本地運行 guide；中國開源 model 持續 push。
-- **VibeThinker**：**3B param model** 喺 reasoning task **beats Claude Opus 4.5**（用 novel SFT + GRPO 訓練法）—— 細 model 突破大 model 上限再一例。
-- **Moebius**：0.2B param image inpainting model 達 **10B-level 效能** —— 細模 efficiency 戰線繼續。
+- **GLM-5.2 釋出**：Unsloth 出本地運行 guide；中國開源 model 持續 push（智譜 (Zhipu AI) 出品）。
+- **VibeThinker**：**3B param model** 喺 reasoning task **跑贏 Claude Opus 4.5**（用 novel SFT + GRPO 訓練法）—— 細 model 突破大 model 上限再一例。
+- **Moebius**：0.2B param image inpainting model 達 **10B 級效能** —— 細模 efficiency 戰線繼續。
 - **Computer vision**：YOLO26（Ultralytics 新一代 unified real-time end-to-end vision models）發 paper 同 introduction blog。
-- **Agentic infra**：Show HN: **Oak** —— git alternative designed for agents（為 AI agent 工作流重構 git 範式）。
-- **Owulveryck blog**：「Team Topologies for the Agentic Platform」—— org/team structure 啱 agentic system 嘅討論。
+- **Agentic infra**：Show HN: **Oak** —— 為 AI agent 重新設計嘅 git alternative。
+- **Wulveryck blog**：「Team Topologies for the Agentic Platform」—— org/team 結構配合 agentic system 嘅討論。
 
 ## Top AI Stories
 
@@ -42,7 +42,7 @@ OpenAI 推「DayBreak — Securing the World」初步揭曉 GPT-5.5-Cyber 線；
 
 ### 3. GLM-5.2 — How to Run Locally（420 pts / 185 comments）
 
-Unsloth 出 GLM-5.2（中國 Zhipu AI 開源 model）本地運行 guide。
+Unsloth 出 GLM-5.2（中國智譜 (Zhipu AI) 開源 model）本地運行 guide。
 - Link: `unsloth.ai/docs/models/glm-5.2`
 - 開源 model 競賽延續；中國 lab 出版速度 step-up。
 
@@ -66,13 +66,13 @@ Ultralytics 新一代 real-time end-to-end CV models。
 
 ### 7. Team Topologies for the Agentic Platform（24 pts）
 
-Olivier Wulveryck 文：org structure 點 align agentic system 開發。
-- Org / process design 嘅 agentic-adaptation 思考剛起步。
+Wulveryck（Olivier Wulveryck）文：org structure 點 align agentic system 開發。
+- Org/process design 嘅 agentic-adaptation 思考剛起步。
 
 ## 其他 ML/CS adjacent
 
 - **HTTP QUERY method explained**（kreya.app）：HTTP 新 method 講解；agent API design 可能受影響。
-- **Polymarket** 被指用 paid creators 灌水社媒（WSJ）—— prediction market integrity 議題。
+- **Polymarket** 被指用 paid creators 灌水社媒（華爾街日報 (WSJ) 報導）—— prediction market integrity 議題。
 - **Memcached 仍寶**（jchri.st）：infra evergreen，agentic system caching layer 適用。
 - **YOLO26 introduction** + **Plotnine**（python grammar of graphics）等 dev tools tier。
 

@@ -19,9 +19,9 @@ tags:
 
 ## TL;DR
 
-- **比特幣跌穿 $62k**，晶片股重挫疊加**地緣政治緊張**（荷姆茲海峽）引發 risk-off 拋售。
+- **比特幣 (Bitcoin/BTC) 跌穿 $62k**，晶片股重挫疊加**地緣政治緊張**（荷姆茲海峽 (Strait of Hormuz)）引發 risk-off 拋售。
 - **韓股驚傳熔斷**、科技巨頭慘跌——亞太 risk asset 同步受壓。
-- **AI 淘金熱擴散**：瑞銀點名台韓供應鏈，**台灣晶圓代工**＝「鏟子與圓鍬」beneficiary。
+- **AI 淘金熱擴散**：瑞銀 (UBS) 點名台韓供應鏈，**台灣晶圓代工 (foundry)**＝「鏟子與圓鍬」beneficiary。
 - 台股個股動態：嘉晶／大中／世芯點名 7 月潛力股；旭然 7/9 除息（0.6 元股息）。
 - 監管／scandal：**壽險公司內鬼侵吞 1658 萬元 + 偷禮券**，金管會啟動金檢。
 
@@ -32,10 +32,10 @@ tags:
 
 ### 亞太股市
 - **韓股熔斷**（科技巨頭慘跌、追價意願創本月新低），但仍有兩檔逆勢鎖漲停（cnyes 標題未列名）。
-- **台股**：法人預期 7 月反彈空間，點名嘉晶（碳化矽）、大中（功率半導體）、世芯（ASIC 設計服務）為潛力股。
+- **台股**：法人預期 7 月反彈空間，點名嘉晶（碳化矽 SiC）、大中（功率半導體）、世芯（ASIC 設計服務）為潛力股。
 
 ### Macro／Geopolitics
-- **荷姆茲海峽**緊張持續觸發**油價**＋風險資產 spillover；FED yield 觀察 ongoing。
+- **荷姆茲海峽**緊張持續觸發**油價**＋風險資產 spillover；聯儲局 (Fed) yield 觀察 ongoing。
 
 ## Equity 個股要點
 
@@ -48,8 +48,8 @@ tags:
 
 ## AI Supply Chain 焦點
 
-**瑞銀（UBS）報告**：AI 淘金熱擴散，**台灣晶圓代工**（TSMC 為首）成最強「鏟子與圓鍬」beneficiary；**台韓供應鏈** broader pick：
-- 半導體記憶體（美光／三星 / SK Hynix）
+**瑞銀報告**：AI 淘金熱擴散，**台灣晶圓代工**（台積電 (TSMC) 為首）成最強「鏟子與圓鍬」beneficiary；**台韓供應鏈** broader pick：
+- 半導體記憶體（美光 (Micron)／三星 (Samsung)／SK Hynix）
 - AI PC（Computex 主題）
 - 廣達等 server ODM
 
@@ -59,7 +59,7 @@ tags:
 
 ## 熱搜 tags（snapshot 反映 market 共識焦點）
 
-`Computex` · `黃仁勳` · `AI PC` · `輝達 (Nvidia)` · `三星` · `廣達` · `記憶體` · `美光` · `殖利率` · `SpaceX` · `韓股` · `AMD` · `台積電` · `FED` · `半導體` · `荷姆茲海峽` · `油價` · `OpenAI` · `黃金` · `比特幣` · `日元` · `馬斯克` · `谷歌` · `AI` · `台幣` · `美元指數` · `蘋果` · `統一發票` · `ETF`
+`Computex` · `黃仁勳 (Jensen Huang)` · `AI PC` · `輝達 (Nvidia)` · `三星 (Samsung)` · `廣達 (Quanta)` · `記憶體 (memory)` · `美光 (Micron)` · `殖利率 (yield)` · `SpaceX` · `韓股 (KOSPI)` · `AMD` · `台積電 (TSMC)` · `Fed` · `半導體 (semiconductor)` · `荷姆茲海峽` · `油價` · `OpenAI` · `黃金 (gold)` · `比特幣 (BTC)` · `日元 (JPY)` · `馬斯克 (Musk)` · `谷歌 (Google)` · `AI` · `台幣 (TWD)` · `美元指數 (DXY)` · `蘋果 (Apple)` · `統一發票` · `ETF`
 
 ## My Take / Action Items
 

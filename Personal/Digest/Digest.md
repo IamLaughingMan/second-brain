@@ -14,7 +14,7 @@ tags:
 
 # Daily Digest（每日新聞精選）
 
-每日 3 類新聞精煉：**Finance**（台美股／加密／macro）／**International**（地緣／政策／大事件）／**AI**（model／paper／industry）。一日一夾，每夾 3 個檔，方便 parallel query。
+每日 4 類新聞精煉：**Finance**（台美股／加密／macro）／**International**（地緣／政策／大事件）／**AI**（model／paper／industry）／**Trending**（三圈混合 Top 5：英文圈 HN+Reddit+X、中圈 bilibili+微博、港圈 LIHKG）。一日一夾，每夾 4 個檔，方便 parallel query。
 
 ## 結構
 
@@ -24,17 +24,19 @@ Personal/Digest/
 └── <YYYY-MM-DD>/             # 一日一 subfolder
     ├── Finance.md            # 台美股／crypto／央行／macro
     ├── International.md      # 地緣／政策／大事件
-    └── AI.md                  # model release／paper／industry move
+    ├── AI.md                  # model release／paper／industry move
+    └── Trending.md             # 三圈混合 top 5 (HN/Reddit/X+bilibili/微博+LIHKG)
 ```
 
 ## ⚠️ Filename 唯一性例外
 
-跟 vault `Domain typed-folder pattern` 嘅 filename uniqueness exception 原則：每日 subfolder 內三個檔（`Finance.md`／`International.md`／`AI.md`）會喺多日重複出現，**唔算撞名 violation**，但 wikilink 必須**用 path 限定**：
+跟 vault `Domain typed-folder pattern` 嘅 filename uniqueness exception 原則：每日 subfolder 內四個檔（`Finance.md`／`International.md`／`AI.md`／`Trending.md`）會喺多日重複出現，**唔算撞名 violation**，但 wikilink 必須**用 path 限定**：
 
 ```markdown
 [[Digest/2026-06-23/Finance|Finance 2026-06-23]]
 [[Digest/2026-06-23/International|Intl 2026-06-23]]
 [[Digest/2026-06-23/AI|AI 2026-06-23]]
+[[Digest/2026-06-23/Trending|Trending 2026-06-23]]
 ```
 
 唔可以淨用 `[[Finance]]`（會 ambiguous）。
@@ -44,8 +46,11 @@ Personal/Digest/
 | 領域 | 主 source | 備用 |
 |------|-----------|------|
 | Finance | [[鉅亨網 — 頭條新聞 cnyes（TW 金融全方位新聞 portal）\|鉅亨網 cnyes]] | Bloomberg／WSJ／Yahoo Finance |
-| International | BBC World / Reuters | The Guardian／NYT World／NHK |
+| International | BBC World／Reuters | The Guardian／NYT World／NHK |
 | AI | Hacker News (`news.ycombinator.com`) | The Information／Decoder／OpenAI/Anthropic blogs／HuggingFace daily |
+| Trending — 英文圈 | Hacker News (non-AI top) | Reddit (r/all r/wsb r/worldnews r/ML r/LocalLLaMA — Playwright needed)／X trending (Playwright + login) |
+| Trending — 中圈 | bilibili 熱門（JSON API） | 微博熱搜 (Playwright + login) |
+| Trending — 港圈 | LIHKG topics | X HK trending (Playwright + login) |
 
 ## Frontmatter convention
 
@@ -54,7 +59,7 @@ Personal/Digest/
 ```yaml
 ---
 type: digest
-category: Finance | International | AI
+category: Finance | International | AI | Trending
 date: YYYY-MM-DD
 sources:
   - <url1>
@@ -69,6 +74,16 @@ tags:
 ---
 ```
 
+## 翻譯規矩
+
+per [[feedback-translate-non-hk-to-zh-hk]]：
+
+- **Body prose**：用正體中文（HK 寫法 + 廣東話語感）
+- **Proper nouns**：第一次出現用 `中文 (原文)`，後文純中文。例：`勒科爾尼 (Lecornu)`／`杜林普 (Trump)`／`加沙 (Gaza)`／`滴露 (Dettol)`
+- **保留原文**：純英文 brand identifiers（OpenAI／Anthropic／GPT-5.5／GLM-5.2／Bloomberg）／model 名／stock tickers／URLs／code／量詞單位
+- **簡體 source** 先 OpenCC `s2hk` 再 swap mainland-only terms 去 HK
+- **TW source**：可保留 TW 用語（輝達／殖利率／鎖漲停）配 `(英文)`，或用 HK alt name；揀一致即可
+
 ## 流程
 
 1. 使用者話「digest today」／「digest <date>」/ 「today's news」等指令
@@ -79,9 +94,9 @@ tags:
 
 ## Log
 
-| 日期 | Finance | International | AI |
-|------|---------|---------------|-----|
-| 2026-06-23 | ✅ | ✅ | ✅ |
+| 日期 | Finance | International | AI | Trending |
+|------|---------|---------------|-----|----------|
+| 2026-06-23 | ✅ | ✅ | ✅ | ✅（Reddit/微博/X 未抓） |
 
 ## Related
 
