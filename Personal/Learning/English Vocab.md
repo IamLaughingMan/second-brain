@@ -5,7 +5,7 @@ title: English Vocabulary
 status: active
 created: 2026-06-23
 updated: 2026-06-23
-last_added: groundskeeper
+last_added: dread
 tags:
   - learning
   - vocabulary
@@ -28,6 +28,7 @@ Append-only 生字表。新詞**置頂**（最近學起）；舊詞往下推。
 
 | Word | 詞性 | 中文 | 例句／備註 |
 |------|------|------|------------|
+| **dread** | v. / n. (/ adj. rare) | （v.）害怕／恐懼／極度抗拒**將要發生**嘅事（≠ generic fear，**強調 anticipatory**——你知佢就嚟、唔想佢嚟）；（n.）那種預期性嘅恐懼、忐忑、不祥預感。形容詞 `dreadful`（可怕／糟糕透頂、或誇張口語＝差到不得了）／`dreaded`（被惡名 attached 嘅，e.g. `the dreaded Monday meeting`）。**文化 ref**：Rastafarian `dreadlocks`（髮型）名源係「對神嘅 dread/awe」；牙買加 reggae／Bob Marley 文化嘅 spiritual reverence | I dread Monday mornings. ／ She felt a sense of dread as she opened the email. ／ The dreaded annual review is tomorrow. ／ Filling tax forms is dreadful. ／ He had been awake all night, full of dread. |
 | **groundskeeper** | n. | 場地管理員、園丁、護理員 —— 負責維護**戶外場地**（球場／高爾夫球場／cemetery／莊園／大宅／公園）嘅人；剪草、修樹、清葉、修整地面、灑水。**Compound 詞** `grounds + keeper`，較 `gardener`（花圃）／`janitor`（室內清潔）更 specific（戶外大面積場地）。**文化 reference**：The Simpsons 嘅「**Groundskeeper Willie**」（蘇格蘭口音 Springfield Elementary 校工）；2018 Dewayne Johnson v. Monsanto 案（前 school groundskeeper 患 non-Hodgkin lymphoma 控告 Roundup 致癌，獲判賠數千萬美元，掀草甘膦致癌訴訟潮）  | The groundskeeper mowed the lawn at 6am. ／ Augusta National employs over 100 groundskeepers for the Masters. ／ Groundskeeper Willie hates "those snobs at Yale." ／ A groundskeeper's lawsuit against Monsanto ignited the Roundup-cancer litigation wave. |
 | **counterfeit** | adj. / n. / v. | （adj.）偽造嘅、冒牌嘅、假嘅；（n.）偽造品、冒牌貨、假鈔；（v.）偽造、仿冒（常涉貨幣／文件／名牌貨／藥品）。比 `fake`／`imitation` 更**法律意味重**，常用於犯罪／執法／海關語境。讀音 `/ˈkaʊntərfɪt/`。常見搭配 `counterfeit money/bills/currency`／`counterfeit goods`／`counterfeit luxury bags`／`counterfeit drugs`／`counterfeit passport`／`anti-counterfeit measures` | Customs seized $2M of counterfeit watches at the border. ／ He was arrested for counterfeiting US dollars. ／ The market is flooded with counterfeit AirPods. ／ Banknotes have anti-counterfeit holograms. |
 | **plummet** | v. (/ n. rare) | 暴跌、驟降、垂直墜落（價格／溫度／信心／物件 free fall 式急跌）；強調**又快又深又直**，比 `drop`／`fall` 更戲劇化。詞源：來自 `plumb`（鉛錘）—— plummet＝鉛錘綁線垂直下墜。常見搭配 `prices plummeted`／`stock plummeted`／`temperatures plummeted`／`confidence plummeted`／`plummeted to a new low` | The stock plummeted 80% after the earnings miss. ／ Temperatures plummeted overnight. ／ Her confidence plummeted after the rejection. ／ TQQQ plummeted 69% during the COVID crash. |
