@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-23 22:49 HKT] bookmark | TechCrunch 2018 跌機自彈簧手機殼 active damping case（Tech/ root）
+使用者掉 `techcrunch.com/2018/06/27/this-clever-case-pops-open-...`。**內容核心**：德國亞倫應用科技大學 (Aalen University) 工程系學生弗倫策爾 (Philip Frenzel) 發明嘅 "active damping" 手機殼——感測 free fall → 彈出 8 條金屬曲簧 curl 環繞手機邊緣緩衝；獲德國機電一體化學會 (German Society for Mechatronics) 全國 student 大獎；patent applied + T-shirt 印好 + Kickstarter 即將。**機制細節**：sensor 觸發、防袋內誤觸用 proximity sensor、手動 reset 折回收納。**Folder**：`Tech/` root（gadget invention 單條，未夠 trigger 起 Tech/Gadgets sub）。**Cleanup**：defuddle 19 行／2.6KB → 剝 image／empty links → empty-link-shells=0。**翻譯應用** per [[feedback-translate-non-hk-to-zh-hk]]：英文原文 → HK 中文，proper nouns 用 `中文 (原文)` 格式（亞倫大學 / 弗倫策爾 / 德國機電一體化學會）；TechCrunch／Kickstarter／Devin Coldewey 保留原文（媒體名／品牌／作者）。**Why matters**：active damping 思路（同 airbag／smart insurance），learning：student invention → 國家獎 → patent → Kickstarter 四步路徑經典 2018 hardware crowdfunding 黃金期 sample；**2026 回看**：呢類主流 phone 保護未走出 niche（推測：折屏／陶瓷 back／Gorilla Glass 推進+MagSafe 生態鎖死殼形+Kickstarter hardware 量產失敗率高）。**Key Comments**：TC 2018 vintage 文當年用 Livefyre/Disqus，TC redesign 後棄用，現時頁面無留言區 — **原文無留言系統、非抓取失敗**。Tags 唔加 `found-by-claude`（使用者掉 link）。
+
 ## [2026-06-23 19:41 HKT] folder-move | 鉅亨網 cnyes 由 News/TW → Finance/News（per 使用者「按主軸 finance 算」）
 使用者更正定位：cnyes 雖然跨域（AI／國際／半導體／macro），但主軸係 finance；改放 `Bookmarks/Finance/News/`（新 subfolder，並列 Crypto／Stocks／Real Estate）。**Wikilink path-independent**，所有引用呢 bookmark 嘅 [[鉅亨網 — 頭條新聞 cnyes...]] 自動 resolve 唔斷連（包括 [[Digest/2026-06-23/Finance|Finance digest]] 嘅 source 引用同 [[Digest.md]] hub 嘅 source pool table）。**News/TW/ 變空** → rmdir 移除（將來如有新 TW news source 再建）。.base filter 靠 `domain: News` frontmatter — **未動 frontmatter**，呢 entry 仍會出現喺 News 嘅 .base view（因 domain 未改）。⚠️ **Open question**：domain 要唔要改去 Finance？保留 News 顯示「呢條係 news source」屬性、改 Finance 則跟新 folder。Pending 使用者決定。
 
