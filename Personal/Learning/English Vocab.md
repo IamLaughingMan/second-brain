@@ -5,7 +5,7 @@ title: English Vocabulary
 status: active
 created: 2026-06-23
 updated: 2026-06-23
-last_added: normies
+last_added: trench
 tags:
   - learning
   - vocabulary
@@ -28,6 +28,7 @@ Append-only 生字表。新詞**置頂**（最近學起）；舊詞往下推。
 
 | Word | 詞性 | 中文 | 例句／備註 |
 |------|------|------|------------|
+| **trench / trenches** | n. | （字面）戰壕、壕溝（WWI 西線戰壕）／溝渠。**Idiom `in the trenches`**＝喺前線實幹、做粗活、爛攤子裡 grinding（軍事 → 商業／創業／工程／戰術延伸）。**Crypto slang「the trenches」**＝ Solana／Base meme coin 鏈上交易嘅狂野前線（24/7 監視新發 token、`pump.fun`、極高頻 dump-buy、psy-warfare）；自稱 `trencher` 帶 [[degen]] 自豪感（風險、紀律、視覺疲勞、PTSD 般嘅交易現場）| Soldiers lived in muddy trenches for years. ／ Our PM is still in the trenches with the engineering team. ／ I'm grinding the SOL trenches all night, ape or die. ／ Real trenchers don't sleep — they refresh DexScreener. |
 | **normies** | n. (slang, pl.) | （網絡 slang）「正常人」、「普通人」、「主流大眾」—— 由 niche／subculture 社群（4chan／reddit／crypto／gaming／meme／twitch）出發，用嚟形容**唔屬於自己圈嘅大多數人**，帶輕微 condescending／調侃語氣。對應「local」概念：normies = 唔識本圈梗、唔玩本圈嘢嘅 outsider。單數 normie | Don't show this meme to the normies, they won't get it. ／ Crypto Twitter still hasn't onboarded the normies. ／ He went mainstream — now he's just a normie. |
 | **scant** | adj. (/ v. rare) | 不足嘅、稀少嘅、僅僅嘅（quantity 唔夠；勉強夠；幾近於無）；常見搭配 `scant evidence`／`scant attention`／`scant regard`／`a scant 5 minutes`（前綴量度＝勉強得） | There is scant evidence to support his claim. ／ She paid scant attention to the warnings. ／ It took a scant 5 minutes to finish. ／ He showed scant regard for the rules. |
 | **degenerate** | adj. / v. / n. | （adj.）墮落嘅、頹廢嘅、退化嘅；（v.）墮落、退化、惡化；（n.）墮落者／敗類。**Crypto 圈 slang「degen」**＝ 高槓桿／meme coin／無腦衝嘅自嘲投機客（接近「賭徒」但帶 ironic 自豪感）。**數學**：退化解、退化情況（degenerate case） | The neighborhood has degenerated into chaos. ／ He's a self-proclaimed degen aping into shitcoins. ／ A degenerate triangle has zero area. |
