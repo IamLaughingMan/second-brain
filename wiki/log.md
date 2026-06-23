@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-23 15:34 HKT] bookmark | BlockTempo 藍狐筆記 DeFi 入門全導覽（Finance/Crypto，2019 historical baseline）
+使用者掉 `blocktempo.com/defi-101/`。**內容核心**：藍狐筆記（橙皮書）2019-11-28 撰、BlockTempo（TW）轉載嘅 DeFi 101 框架性長文。定義 DeFi＝智能合約上嘅金融資產／合約／協議「貨幣樂高」；加密史第二個 product-market fit（第一個係比特幣）；同傳統金融係**平行＋融合**（USDC／Dai 為例）；以太坊壟斷因市值賦予安全 + 智能合約 + 開發者生態。**撰稿時 historical baseline**：TVL 6.86 億 USD、鎖 ETH 270 萬／BTC 1400／DAI 2200 萬+；三小巨頭 MakerDAO 3.29 億／Synthetix 1.76 億／Compound 9960 萬 USD。**2026 回看價值**：呢篇喺 **DeFi Summer（2020 Q3）爆發前夕**，記錄 pre-yield-farming era 嘅 DeFi 觀，可日後對比 2020/2021/2024 RWA 等變化。**Cleanup**：defuddle 124 行 → 剝 banner／icon／empty links → empty-link-shells=0；正體 TW variant 原文（「對像」「藉貸」）保留，**OpenCC `s2hk` 只 gate 簡→繁、唔郁 TW↔HK variant**（per memory）。**檔放 `Finance/Crypto/`**（既有 1 條 [[神魚 4 大賺錢攻略（1000 鎂到 1 億鎂）]]，未夠 trigger 起 DeFi/ sub-folder）。**Key Comments**：BlockTempo 文章頁無留言區（社群討論喺 Telegram／Facebook），**屬原文無留言區、非抓取失敗**。Tags 唔加 `found-by-claude`（使用者掉 link）。
+
 ## [2026-06-23 15:27 HKT] bookmark | Charley Wong 和你查 黃色經濟圈 directory（News/HK/Yellow，新 subfolder）
 使用者掉 `charleywong.info`。**內容核心**：HK 黃色經濟圈開放源碼／開放數據資料庫，收錄 9136+ 商店／創作人／專頁，識別第一身表態支持 #香港人／#自由／#民主 嘅良心商戶；directory／查詢工具，唔做篩選；雙開放授權（原碼 GPL-3.0-or-later、數據 ODbL-1.0）；GitHub `giffon/charleywong`。**Cleanup**：defuddle 抽 22 行 raw → 剝 banner 圖／icon images／empty links → empty-link-shells=0；正體 Cantonese 原文無需 OpenCC。**冇作者／日期 metadata**（landing page）。**新 subfolder**：`Bookmarks/News/HK/Yellow/`（首條，將來收黃店／黃店地圖／文宣等 HK 政治消費類）；`domain: News` 跟既有 News/HK 一致。**Related**：[[聞庫 collection.news — 蘋果日報＋立場新聞文章存檔（HK 新聞保育）]]／[[香港新聞連線 Hong Kong Matters (香港元宇宙文化傳承計劃 Phase 1)]] — 同係 HK open-data／保育思路。**Tags 唔加 `found-by-claude`**（使用者掉 link）。**Key Comments**：landing page 無留言系統（非抓取失敗），社群討論需另查 GitHub Issues／Discussions。
 
