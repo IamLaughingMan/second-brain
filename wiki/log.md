@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-23 15:27 HKT] bookmark | Charley Wong 和你查 黃色經濟圈 directory（News/HK/Yellow，新 subfolder）
+使用者掉 `charleywong.info`。**內容核心**：HK 黃色經濟圈開放源碼／開放數據資料庫，收錄 9136+ 商店／創作人／專頁，識別第一身表態支持 #香港人／#自由／#民主 嘅良心商戶；directory／查詢工具，唔做篩選；雙開放授權（原碼 GPL-3.0-or-later、數據 ODbL-1.0）；GitHub `giffon/charleywong`。**Cleanup**：defuddle 抽 22 行 raw → 剝 banner 圖／icon images／empty links → empty-link-shells=0；正體 Cantonese 原文無需 OpenCC。**冇作者／日期 metadata**（landing page）。**新 subfolder**：`Bookmarks/News/HK/Yellow/`（首條，將來收黃店／黃店地圖／文宣等 HK 政治消費類）；`domain: News` 跟既有 News/HK 一致。**Related**：[[聞庫 collection.news — 蘋果日報＋立場新聞文章存檔（HK 新聞保育）]]／[[香港新聞連線 Hong Kong Matters (香港元宇宙文化傳承計劃 Phase 1)]] — 同係 HK open-data／保育思路。**Tags 唔加 `found-by-claude`**（使用者掉 link）。**Key Comments**：landing page 無留言系統（非抓取失敗），社群討論需另查 GitHub Issues／Discussions。
+
 ## [2026-06-23 03:55 HKT] bookmark | 明報健康網 — 蜘蛛網膜下腔出血五成奪命（Health/Neurological，新 subfolder）
 使用者掉 `health.mingpao.com` 2018-05 專題（蔡德康/養和腦神經科，費格遜中風事件契機）。**內容核心**：SAH（蜘蛛網膜下腔出血）= 罕見出血性中風死亡率 50%（vs 缺血性 <10%），全港每年數十至百宗；主因腦動脈瘤（≠癌症）破裂；hallmark 徵狀**雷擊頭痛**（1 分鐘內 peak、頸無法轉動、可短暫昏迷）；輕量警號頭痛持續數小時可作前哨；動脈瘤壓第三神經線出現眼皮下垂／視覺重影／瞳孔放大；CT 為主診斷；手術階梯：>5mm 必切／4mm 邊緣／<4mm 觀察；介入性微創（鉑線圈/支架）vs 開顱權衡；復發大多 2-3 月內、半年無 = 痊癒；ICH/AVM 兩類延伸出血性中風。**Cleanup**：defuddle 後剝 bare image line 1、剝 ad table（醫生黃頁 PowerUp 連結圖）、剝結尾 raw 圖片 caption 串、保留「專題系列文章」7 條 internal 內鏈做 Related (from source)；正體無需 OpenCC；empty-link-shells=0 通過。**新 subfolder**：`Bookmarks/Health/Neurological/`（首條，將來收 migraine/dementia/stroke 等）；`domain: Health` 跟既有 Hair/Cardiovascular 一致 single-level 命名。Article URL 截至 2026-06-23 仍 alive。Tags 唔加 `found-by-claude`（使用者掉 link、非 Claude research 主動搵），初版誤加已 patch 移除。
 
