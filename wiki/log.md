@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-23 15:43 HKT] bookmark | 番鬼佬月餅 廣東話歇後語＝悶極（Culture/HK/Cantonese 新 top-level root）
+使用者掉 `ourchinastory.com/zh/amp/4733`。**內容核心**：Our China Story（當代中國）2024-09-14 中秋短文（4 段 8 行），拆解廣東話歇後語「番鬼佬月餅 ── 悶極」：mooncake 諧音「悶極」+「番鬼佬」舊指英人 →「番鬼佬讀月餅」= 悶到極。**新 top-level domain**：建 `Bookmarks/Culture/HK/Cantonese/` 收語言文化類（首條，將來收歇後語／俗語／etymology／粵語掌故等）；經使用者揀（4 option vote），優先 Culture/ 過 Language/／News/HK/Culture/／Writing/Cantonese/。**Cleanup**：defuddle 8 行極短 → 剝 0 image／0 empty link（已淨），shells=0；正體原文（非簡轉繁、無需 OpenCC）。**Source provenance 註**：ourchinastory.com 屬 CCP-aligned 中港文化推廣平台，**事實內容 neutral（粵語歇後語 etymology）但 framing 帶官方文化敘事 lens**——記入 My Notes 作 source provenance，唔貶低 entry 事實價值。**Key Comments**：平台無公開留言區 — **原文無留言、非抓取失敗**。Tags 唔加 `found-by-claude`（使用者掉 link）。
+
 ## [2026-06-23 15:34 HKT] bookmark | BlockTempo 藍狐筆記 DeFi 入門全導覽（Finance/Crypto，2019 historical baseline）
 使用者掉 `blocktempo.com/defi-101/`。**內容核心**：藍狐筆記（橙皮書）2019-11-28 撰、BlockTempo（TW）轉載嘅 DeFi 101 框架性長文。定義 DeFi＝智能合約上嘅金融資產／合約／協議「貨幣樂高」；加密史第二個 product-market fit（第一個係比特幣）；同傳統金融係**平行＋融合**（USDC／Dai 為例）；以太坊壟斷因市值賦予安全 + 智能合約 + 開發者生態。**撰稿時 historical baseline**：TVL 6.86 億 USD、鎖 ETH 270 萬／BTC 1400／DAI 2200 萬+；三小巨頭 MakerDAO 3.29 億／Synthetix 1.76 億／Compound 9960 萬 USD。**2026 回看價值**：呢篇喺 **DeFi Summer（2020 Q3）爆發前夕**，記錄 pre-yield-farming era 嘅 DeFi 觀，可日後對比 2020/2021/2024 RWA 等變化。**Cleanup**：defuddle 124 行 → 剝 banner／icon／empty links → empty-link-shells=0；正體 TW variant 原文（「對像」「藉貸」）保留，**OpenCC `s2hk` 只 gate 簡→繁、唔郁 TW↔HK variant**（per memory）。**檔放 `Finance/Crypto/`**（既有 1 條 [[神魚 4 大賺錢攻略（1000 鎂到 1 億鎂）]]，未夠 trigger 起 DeFi/ sub-folder）。**Key Comments**：BlockTempo 文章頁無留言區（社群討論喺 Telegram／Facebook），**屬原文無留言區、非抓取失敗**。Tags 唔加 `found-by-claude`（使用者掉 link）。
 
