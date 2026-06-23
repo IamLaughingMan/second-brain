@@ -1,7 +1,7 @@
 ---
 type: bookmark
 para: resource
-domain: News
+domain: Finance
 title: 鉅亨網 頭條新聞
 url: https://news.cnyes.com/news/cat/headline
 publisher: 鉅亨網（Anue / cnyes）
