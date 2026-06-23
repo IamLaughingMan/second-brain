@@ -4,8 +4,8 @@ para: resource
 title: English Vocabulary
 status: active
 created: 2026-06-23
-updated: 2026-06-23
-last_added: catalyst
+updated: 2026-06-24
+last_added: illustrate
 tags:
   - learning
   - vocabulary
@@ -28,6 +28,7 @@ Append-only 生字表。新詞**置頂**（最近學起）；舊詞往下推。
 
 | Word | 詞性 | 中文 | 例句／備註 |
 |------|------|------|------------|
+| **illustrate** | v. | **(1) 說明／闡明／用例子解釋**——透過 example／analogy／故事令一個抽象概念**變清晰**（≈ explain by example）；**(2) 配圖／加插畫**——書本／文章／教材加 drawings／diagrams／photos 輔助理解（名詞 `illustration` = 插畫／插圖／例證；`illustrator` = 插畫師／Adobe Illustrator 軟件）；**(3) 證明／顯示（某 point／trend）**——`X illustrates Y` ＝ X 係 Y 嘅好例子（≈ demonstrate／exemplify）。讀音 `/ˈɪləstreɪt/`。**常見搭配** `illustrate a point`／`illustrate with an example`／`as illustrated in Figure 3`／`a book illustrated by ...`／`to illustrate, ...`（句首插入語）。**Vault context**：「illustrate vocab」可解作「用視覺方式呈現 vocab 表」（如 Excalidraw／Canvas／emoji mnemonic）—— 跨第 (1) 同 (2) 義。 | The teacher illustrated the concept with a real-world example. ／ This chart illustrates the trend clearly. ／ The children's book is beautifully illustrated. ／ To illustrate, consider the following case. ／ Her career illustrates how hard work pays off. ／ The 2008 crash illustrates systemic risk. |
 | **catalyst** | n. | **(1) 化學原意**：催化劑——加速化學反應但本身不被消耗嘅物質（e.g. enzymes、Pt／Pd metals）；**(2) 通用 metaphor**：觸發／加速某 change 嘅人／事件／決策（無自己被改變嘅意味）；**(3) 金融／投資術語**：令股價／資產價格**短期顯著郁動**嘅 news event——earnings beat／miss、FDA approval、M&A、lawsuit、CEO change、regulatory ruling、macro data 等；分 **hard catalyst**（確定日子，如 earnings date）／ **soft catalyst**（時間不定，如 takeover rumor）。讀音 `/ˈkætəlɪst/` | Hydrogen peroxide decomposes faster with a manganese catalyst. ／ The arrest was the catalyst for nationwide protests. ／ FDA approval will be the key catalyst for the stock. ／ My idea looks for hard catalysts within 30 days. ／ The earnings beat was the catalyst for a 40% gap up. |
 | **flair** | n. | **(1) 天份／本能感覺／自然才能**（for doing sth）——做某啲嘢有 instinctive aptitude，唔靠死練；**(2) 風格／韻味／別致**——加入嘅 distinctive touch，令件嘢有 personality（衣著／設計／文字／菜式）；**(3) Reddit／論壇 UI 用語**：username 旁邊嘅 tag/badge（如 r/wallstreetbets 嘅 `🐂 Bull Gang` flair）顯示用戶 affiliation／status。⚠️ **唔好同 `flare`（火焰／信號彈／喇叭褲）混淆**——讀音相同 `/flɛər/`，意思不同。**文化 ref**：1999 電影《**Office Space**》嘅 "**pieces of flair**" 梗——TGI Friday's parody 餐廳要員工戴 15 件以上 flair pins，象徵 forced corporate personality | She has a flair for languages — picks them up in weeks. ／ The chef adds Cantonese flair to French classics. ／ His writing has real flair. ／ Add some flair to your CV design. ／ Your Reddit flair says "ape" — nice. ／ "I'm wearing 37 pieces of flair." (Office Space) |
 | **autist** | n. (slang, ambiguous register) | （字面醫學）患自閉症嘅人；**現代正式語境多用 `autistic person`／`person on the spectrum`**，`autist` 名詞用法被視為 outdated／potentially offensive。**WSB／4chan／crypto／DD 圈 reclaim slang**：自稱／戲稱**對 ticker、圖表、on-chain data、財報細節有 obsessive hyper-focus** 嘅深度 DD 用家（同 [[degen]] 並列嘅自嘲 badge——「我哋係 autist／我哋鍾意盯數字盯到天光」）。**WSB lore**：「If you're autistic enough to read the 10-K, you might just outperform Wall Street」。⚠️ **注意語境**：圈內口語 OK，圈外／同非熟人講有冒犯風險。  | The WSB autists found a 200% revenue beat hidden in the footnotes. ／ Only an autist would chart this volatility decay manually. ／ I am autist for SOL on-chain analytics. ／ ⚠️ Don't use in HR/medical contexts — say "autistic person" instead. |
