@@ -96,7 +96,7 @@ per [[feedback-translate-non-hk-to-zh-hk]]：
 
 | 日期 | Finance | International | AI | Trending |
 |------|---------|---------------|-----|----------|
-| 2026-06-23 | ✅ | ✅ | ✅ | ✅（Reddit/微博/X 未抓） |
+| 2026-06-23 | ✅ | ✅ | ✅ | ✅ Playwright backfilled（X HK 服務缺失） |
 
 ## Related
 
