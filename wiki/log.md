@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-23 15:50 HKT] bookmark | Groups.hk 香港群組合集 directory（Community/HK 新 top-level root）
+使用者掉 `groups.hk`。**內容核心**：HK 眾包跨平台群組 directory（MeWe／Signal／WhatsApp／Telegram），分 18+ 大類（飲食／興趣／親子／教育／移民／旅遊／地區／運動健康／寵物／行業／吹水／動漫電玩／科技／傳媒社會／工作室／Sticker／創業／其他）；每 entry 帶平台 icon／簡介／成員數，user-submitted、無 strict curation。**新 top-level domain**：使用者經 4-option vote 揀 `Bookmarks/Community/HK/`（vs News/HK/Community／Culture/HK/Communities／Tech/Messaging），純社群類獨立 root。**Cleanup**：defuddle 462 行 → 剝 image／empty links → empty-link-shells=0；**snapshot 取頭 ~14 個代表 entry（非全 462 行）**：homepage 列表動態旋轉、全 archive 反 noise，價值在 site／directory tool 本身、唔在 snapshot 內容（明寫 link-rot 防護＋一時 baseline，full lookup 上 live site）；最大成員數 entry 係 ANi 動漫站 37,851。**Why matters 註入**：HK 2020+ social/messaging fragmented（FB 衰退、Signal/Telegram 上升、MeWe 一時冒），cross-platform directory 解 fragmentation。**Related**：[[Charley Wong 和你查（黃色經濟圈 directory）]]（同係 HK 眾包 directory，呢個 community-generic／嗰個 politics-aligned）／[[聞庫 collection.news — 蘋果日報＋立場新聞文章存檔（HK 新聞保育）]]。**Key Comments**：directory site-level 無留言區（entry 跳去 source platform invite）— **原文無留言、非抓取失敗**。Tags 唔加 `found-by-claude`（使用者掉 link）。
+
 ## [2026-06-23 15:43 HKT] bookmark | 番鬼佬月餅 廣東話歇後語＝悶極（Culture/HK/Cantonese 新 top-level root）
 使用者掉 `ourchinastory.com/zh/amp/4733`。**內容核心**：Our China Story（當代中國）2024-09-14 中秋短文（4 段 8 行），拆解廣東話歇後語「番鬼佬月餅 ── 悶極」：mooncake 諧音「悶極」+「番鬼佬」舊指英人 →「番鬼佬讀月餅」= 悶到極。**新 top-level domain**：建 `Bookmarks/Culture/HK/Cantonese/` 收語言文化類（首條，將來收歇後語／俗語／etymology／粵語掌故等）；經使用者揀（4 option vote），優先 Culture/ 過 Language/／News/HK/Culture/／Writing/Cantonese/。**Cleanup**：defuddle 8 行極短 → 剝 0 image／0 empty link（已淨），shells=0；正體原文（非簡轉繁、無需 OpenCC）。**Source provenance 註**：ourchinastory.com 屬 CCP-aligned 中港文化推廣平台，**事實內容 neutral（粵語歇後語 etymology）但 framing 帶官方文化敘事 lens**——記入 My Notes 作 source provenance，唔貶低 entry 事實價值。**Key Comments**：平台無公開留言區 — **原文無留言、非抓取失敗**。Tags 唔加 `found-by-claude`（使用者掉 link）。
 
