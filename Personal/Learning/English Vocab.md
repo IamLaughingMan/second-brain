@@ -5,7 +5,7 @@ title: English Vocabulary
 status: active
 created: 2026-06-23
 updated: 2026-06-23
-last_added: break-cherry
+last_added: tendies
 tags:
   - learning
   - vocabulary
@@ -28,6 +28,7 @@ Append-only 生字表。新詞**置頂**（最近學起）；舊詞往下推。
 
 | Word | 詞性 | 中文 | 例句／備註 |
 |------|------|------|------------|
+| **tendies** | n. (slang, pl.) | （字面）chicken tenders 雞柳／雞肉條（兒童套餐）。**WSB / r/wallstreetbets slang**：**交易盈利、賺到嘅錢**——出處係自嘲 lore「媽咪會獎雞柳俾乖仔」，將成年投機客 infantilize 成「等媽咪畀獎」嘅 kidult；同 [[degen]] 同源 self-deprecating crypto/stock culture。常見搭配 `secure the tendies`（鎖利／止盈）／`tendieman`（賺到嘅人）／`lost my tendies`（蝕咗）  | I just secured the tendies on my GME calls. ／ Diamond hands or lose your tendies. ／ Mom's basement smells like tendies tonight — winning. ／ All my SOL tendies went into a new memecoin. |
 | **break (one's) cherry** / **pop (one's) cherry** | idiom (vulgar origin) | （字面 vulgar）破處／第一次性經驗（cherry = 處女膜 metaphor，粗俗用語）。**引申為「首次做某件事」**：開市第一單、第一個 kill、第一次比賽、第一次嫁／娶／搬／玩某遊戲——任何 break-the-seal 嘅 first time。**注意語境**：辦公室／正式場合用「first sale／first time」唔用呢句；同朋友／sports／gaming／創業圈口語 OK 但仍帶輕微 cheeky 語氣。「pop」比「break」常見。  | He just broke his cherry on his first sales call. ／ Don't worry, everyone has to pop their cherry at some point. ／ My first marathon — broke my cherry today. ／ ⚠️ 慎用於正式 email／同陌生人講 |
 | **excessive** | adj. | 過度嘅、過分嘅、超出合理／必要範圍嘅（quantity／degree／behavior 都用）；中性偏負面語感（implies 唔好），常見搭配 `excessive force`／`excessive drinking`／`excessive spending`／`excessive heat`／`excessive use of`。副詞 `excessively`、名詞 `excess` | The police used excessive force during the arrest. ／ His excessive drinking ruined his health. ／ Excessive screen time affects sleep. ／ The product comes with excessive packaging. |
 | **trench / trenches** | n. | （字面）戰壕、壕溝（WWI 西線戰壕）／溝渠。**Idiom `in the trenches`**＝喺前線實幹、做粗活、爛攤子裡 grinding（軍事 → 商業／創業／工程／戰術延伸）。**Crypto slang「the trenches」**＝ Solana／Base meme coin 鏈上交易嘅狂野前線（24/7 監視新發 token、`pump.fun`、極高頻 dump-buy、psy-warfare）；自稱 `trencher` 帶 [[degen]] 自豪感（風險、紀律、視覺疲勞、PTSD 般嘅交易現場）| Soldiers lived in muddy trenches for years. ／ Our PM is still in the trenches with the engineering team. ／ I'm grinding the SOL trenches all night, ape or die. ／ Real trenchers don't sleep — they refresh DexScreener. |
