@@ -22,7 +22,7 @@ related:
 > 來源:使用者 × ChatGPT brief → Claude 批判 + 深化。
 
 ## 0. 已鎖定輸入（使用者 2026-06-24）
-- **目標市場**:美國 / 北美 ⚠️(NMN 法規雷區 — 見 §9 gating)
+- **目標市場**:美國 / 北美 ✅(2025-09-29 FDA 逆轉:NMN 已合法作 supplement;timing 啱 — 見 §9)
 - **定位**:大眾平價 → 解讀為 **masstige / decoded-commodity**(平價但 presentation 高可信)
 - **品牌資產**:已有 name + logo;**無攝影**
 - **商業模式**:先 2 隻 NMN(single hero category, 2 variant)→ 之後加 products
@@ -123,15 +123,26 @@ related:
 
 ---
 
-## 9. ⚠️ Gating action items（design 之前/平行必須解決）
-1. **Payment processor** 肯收 NMN(Shopify Payments/Stripe 可能拒;或需 supplement-friendly high-risk gateway)。
-2. **法律姿態:** 美國照賣 supplement / research-framing / 避美 —— 揀一個。
-3. **Claim 紅線 review**(FTC + FDA)。
+## 9. 法規現狀 + Gating action items（2026-06 更新）
+
+**美國法規已逆轉(好消息):**
+- **2025-09-29 FDA 正式裁定 NMN 不再被剔出 dietary supplement 定義**(推翻 2022 drug-exclusion;NPA + ANH Citizen Petition/訴訟促成)。
+- **2025-12 FDA 去信 SyncoZymes / Kingdomway 等確認 NDI 狀態**;NMN 已重返 Amazon → 收款/marketplace 風險大降。
+- EU 仍 Novel Food 審緊(未通);中國禁 NMN 入食品。→ **美國 timing 啱(啱啱開放)。**
+
+**🔑 新關卡(取代舊「賣唔賣得」問題)= NDIN 合規:**
+NMN 仍屬 NDI,要合法賣須被 accepted NDIN 覆蓋 —— ①(易,推薦)向**已有 accepted NDIN 嘅原料商**(SyncoZymes / Kingdomway)入貨 → 唔使自己 file;②(難)向無 NDIN 供應商入貨 → 要自己 file NDIN(錢+時間)。**→ 直接綁 sourcing:供應商「有冇 accepted NDIN」= 硬性篩選。**
+
+**Gating action items:**
+1. **Sourcing 篩 NDIN:** 揀有 accepted NDIN 嘅原料商 / OEM(否則要自 file NDIN)。
+2. **DSHEA 合規:** structure/function claim + disclaimer、**禁 disease claim**、cGMP、labeling。(claims-safe datasheet 設計正好對應。)
+3. **Payment:** 確認 Shopify Payments / processor 接受 supplement(風險已降,仍要 confirm)。
 4. **2 隻 NMN 嘅差異**(劑量/容量/劑型)→ 影響 PDP variant 設計。
-5. **真 assets:** COA 有冇?cGMP 廠?創辦人故事?(全部係 trust 底料,無就要補)。
+5. **真 assets:** COA / cGMP 廠 / 創辦人故事(trust 底料)。
 
 ## 10. 待補 input
 產品純度/劑量規格 ・ 你欣賞嘅參考品牌 ・ budget ・ timeline ・ brand name + logo(睇實物判斷 visual fit)。
 
 ## Log
 - 2026-06-24:Phase 1 design brief v0.1(draft)。鎖定 clinical-transparent spine;推薦 Direction A。
+- 2026-06-24:§9 法規修正 —— web check 確認 2025-09-29 FDA 逆轉 NMN 合法作 supplement(舊 2022 ban 已推翻);關卡由「賣唔賣得」改為「NDIN 合規 / sourcing 篩選」。
