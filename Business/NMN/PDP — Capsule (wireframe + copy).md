@@ -99,7 +99,7 @@ related:
 |---|---|
 | NMN per capsule | **300 mg** |
 | Capsules | **60** (≈ 60-day supply at 1/day) |
-| Purity | **[≥ __% — G3, per COA]** |
+| Purity | **≥ 99%** (per COA) |
 | Form | Vegetable cellulose capsule |
 | Price per serving | **$0.50** (subscribe) / $0.58 |
 | Price per gram NMN | **$1.66** (subscribe) / $1.94 |
@@ -115,7 +115,7 @@ related:
 |---|---|---|---|
 | Price / bottle | **$34.95** | $50–58 | $25–30 |
 | NMN / serving | 300 mg | 250–500 mg | 250–500 mg |
-| Purity stated | **[__%] ✓** | sometimes | rarely |
+| Purity stated | **≥ 99% ✓** | sometimes | rarely |
 | Third-party COA shown | **Yes, on this page** | sometimes "on request" | rarely |
 | NDI-compliant ingredient | **Yes** | varies | often unclear |
 > We're not the cheapest. We're the one that shows you the lab report and skips the luxury markup.
@@ -143,7 +143,7 @@ related:
 ### 11. FAQ
 - **Is NMN legal to sell in the US?** Yes. In 2025 the FDA confirmed NMN is not excluded from the dietary supplement definition. Our ingredient is NDI-compliant.
 - **Why are you cheaper than premium brands?** No luxury markup and no celebrity marketing — same documented purity, fairer price.
-- **What's the purity?** [__%], confirmed by third-party COA (above).
+- **What's the purity?** ≥ 99%, confirmed by third-party COA (above).
 - **How many capsules per day?** [1 / 2 — confirm].
 - **Is it third-party tested?** Yes — full COA on this page.
 - **Shipping & returns?** [Ships from US via Amazon · free over $39 · 60-day money-back].
@@ -156,7 +156,8 @@ related:
 ---
 
 ## 待補 → 換走 `[…]`
-G3 純度 % ・ COA PDF + lab 名 + batch ・ cGMP 廠名 ・ other ingredients ・ 劑量(1 vs 2 粒)・ NMN/NAD⁺ 兩條中性 citation ・ 運費/免運確認。
+~~G3 純度 %~~ ✅ ≥99% ・ COA PDF + lab 名 + batch ・ cGMP 廠名 ・ other ingredients ・ 劑量(1 vs 2 粒)・ NMN/NAD⁺ 兩條中性 citation ・ 運費/免運確認。
+> 待 confirm:99% 係咪 G1 / G3 兩 grade 都一樣(分兩 grade 通常有差異)。
 
 ## Powder PDP（同骨架,差異)
 Hero 改打 **$/g $0.45 hero number**;spec 加「scoop = 500mg」+ 量匙說明;對比表 powder $/g 殺全場;其餘 section 沿用。

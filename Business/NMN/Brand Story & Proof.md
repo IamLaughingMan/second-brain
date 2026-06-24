@@ -54,7 +54,7 @@ related:
 
 | 底料 | 狀態 | 用途 / 下一步 |
 |---|---|---|
-| **COA**(第三方檢測) | 🟡 可申請 | **要 upgrade 成「PDP 顯示 + 可下載」** —— 呢個係透明派策略核心,唔可以只係「on request」。要:lab 名 + G1/G3 純度 %。 |
+| **COA**(第三方檢測) | 🟡 可申請(純度 **≥99%**) | **要 upgrade 成「PDP 顯示 + 可下載」** —— 呢個係透明派策略核心,唔可以只係「on request」。要:lab 名 + batch +(confirm 99% 是否 G1/G3 同值)。 |
 | **cGMP** | ✅ 有 | 攞 cert / 廠名,放 trust 區(「Made in a cGMP facility」)。 |
 | **NDIN** | ✅ 有 | **強差異化 + claims-safe**:「Made from an NDI-compliant ingredient」。多數平價 grey-market 貨無 → 攞文件/供應商名備證。 |
 | **Brand story** | ✅ draft v1(上) | 待 founder 角度定案。 |
@@ -62,7 +62,7 @@ related:
 | **Founder / 真人面孔** | ❓ 未定 | 實名創辦人 = 信任大躍升。**問:你想唔想做品牌面孔 / 有冇真人可實名?** 可寫「founder's note」。 |
 
 ## 待補
-1. **G1 / G3 純度 %** + **COA lab 名**(spec sheet / COA 顯示要用)。
+1. ~~G1 / G3 純度 %~~ ✅ ≥99%(待 confirm 兩 grade 是否同值)+ **COA lab 名 + batch**(顯示要用)。
 2. **cGMP 廠名 / cert**、**NDIN 文件 / 供應商名**(trust 區展示)。
 3. **Founder 取向**(實名出面 vs 公司口吻)。
 4. Logo 檔(睇字體/間距,夾 Direction A typography)。
