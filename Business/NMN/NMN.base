@@ -1,0 +1,44 @@
+filters:
+  and:
+    - domain == "nmn"
+    - type != "moc"
+    - type != "overview"
+properties:
+  type:
+    displayName: 類型
+  status:
+    displayName: 狀態
+  entity_type:
+    displayName: 子類
+  updated:
+    displayName: 更新
+views:
+  - type: table
+    name: 全部內容頁
+    filters:
+      and:
+        - status != "archived"
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - entity_type
+      - status
+      - updated
+  - type: table
+    name: 供應商 Suppliers
+    filters:
+      and:
+        - entity_type == "supplier"
+    order:
+      - file.name
+      - status
+      - updated
+  - type: cards
+    name: 卡片總覽
+    order:
+      - file.name
+      - type
+      - status

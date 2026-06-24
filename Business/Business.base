@@ -1,0 +1,47 @@
+properties:
+  type:
+    displayName: 類型
+  domain:
+    displayName: 領域
+  status:
+    displayName: 狀態
+  para:
+    displayName: PARA
+  updated:
+    displayName: 更新
+views:
+  - type: table
+    name: Active
+    filters:
+      and:
+        - domain != ""
+        - status != "archived"
+        - type != "moc"
+    groupBy:
+      property: domain
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - status
+      - updated
+  - type: table
+    name: Archive
+    filters:
+      and:
+        - status == "archived"
+    order:
+      - file.name
+      - domain
+      - type
+      - updated
+  - type: cards
+    name: All
+    filters:
+      and:
+        - type != "moc"
+    order:
+      - file.name
+      - domain
+      - type
+      - status

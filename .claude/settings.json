@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "[ -d .git ] || exit 0; [ -f .vault-meta/auto-commit.disabled ] && exit 0; git add -- wiki/ raw/ .vault-meta/ 2>/dev/null; git diff --cached --quiet -- wiki/ raw/ .vault-meta/ 2>/dev/null && exit 0; HKT=$(TZ='Asia/Hong_Kong' date '+%Y-%m-%d %H:%M %Z'); git commit -- wiki/ raw/ .vault-meta/ -m \"wiki: auto-commit $HKT\" 2>/dev/null || true"
+            "command": "[ -d .git ] || exit 0; [ -f .vault-meta/auto-commit.disabled ] && exit 0; git add -- wiki/ raw/ .vault-meta/ Business/ 2>/dev/null; git diff --cached --quiet -- wiki/ raw/ .vault-meta/ Business/ 2>/dev/null && exit 0; HKT=$(TZ='Asia/Hong_Kong' date '+%Y-%m-%d %H:%M %Z'); git commit -- wiki/ raw/ .vault-meta/ Business/ -m \"wiki: auto-commit $HKT\" 2>/dev/null || true"
           }
         ]
       }

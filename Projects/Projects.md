@@ -14,6 +14,7 @@ tags: [moc, projects]
 ## Active
 
 - [[AI Arcade]] — mobile-first 趣味 AI 工具集(v1 完成,5 工具,未部署)
+- [[NMN (project)]] — NMN 補充品電商/零售(剛起步;知識層 [[NMN]] / [[Business]])
 
 ## Archived
 

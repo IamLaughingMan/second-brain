@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-24 20:55 HKT] project-start | NMN 公司 project + Business/ 知識層
+新開 **NMN 補充品電商/零售** project（Model B 三件對應）：① 外部 folder `~/AI/Claude/nmn-2026-06-24/`（git init、CLAUDE.md 反指 vault、`docs/`+`suppliers/`+`products/`+`research/`）；② vault 新 root **`Business/`** 知識層（自成 Karpathy 機制，平 `wiki/`）—— `Business.md` hub + `Business.base`，領域 `Business/NMN/`（`NMN.md` hub + `overview.md` + `NMN.base`，typed-folder 待內容觸發、暫 flat）；③ 控制頁 `Projects/NMN (project).md`（`para: project`、`code_path:` 指外部 folder、Next Actions / Open Questions / Log），並 link 入 [[Projects]] hub。**檔名**：控制頁用 `NMN (project)` 避開同 `Business/NMN/NMN.md`（`[[NMN]]` 知識 hub）撞名。**Hook**：`.claude/settings.json` auto-commit 加入 `Business/` pathspec（settings 下次 session start 才生效，本次手動 commit）。**對應軸**：folder ↔ project 頁 ↔ Business 域 frontmatter 互指；分類靠 `domain: nmn`、`.base` path-independent。
+
 ## [2026-06-24 00:58 HKT] bookmark | T客邦 2021 手機品牌折舊排行榜（Tech/ root）
 使用者掉 `techbang.com/posts/83992`（UTM strip 後 canonical）。**內容核心**：T客邦 2021-01 編譯二手交易網 **BankMyCell** 報告（每小時追蹤 310 款流行手機回購價）——旗艦級 (USD 700+) **iPhone 1 年僅貶 16.7%／2 年 35.47%**；同級 Android 1 年 33.62%／2 年 61.50%（差約 2x）；低階 Android (<USD 350) 4 年累積貶 94.9%（近乎歸零）；4 年後兩派差距收窄至 66.4% vs 81.1%；品牌排行 **Apple 最保值 (年貶 22.35%) → HTC 最差 (53.08%，缺二手市場)**；個案 9 個月 iPhone 11 Pro Max 67.78% vs Samsung S20 Ultra 64.71%。**Folder**：`Tech/` root（cross-platform mobile，非 Apple/iOS-only sub；與 [[TechCrunch 2018 — 跌機自彈簧手機殼 active damping case（Aalen 大學發明）]] 同層）。**Cleanup**：defuddle 7 段乾淨 md／無 badge／無圖（剝走 2 個 cdn 圖片）→ empty-link-shells=0。**翻譯應用**：原文已 Traditional（T客邦 = 台灣 zh-TW），保留；author「歐巴‧馬拉桑」(Obama·Marasan，疑筆名) 保原文。**Why matters**：手機 TCO 計算重要參考（高入手價 + 低折舊 = iPhone 兩年實際成本可能反低過 Android）；HTC 案例反映「品牌生態 + 二手市場深度」係保值關鍵、非單機質量。**2026 回看**：Pixel/Samsung 軟體支援拉長至 7 年後 Android 旗艦折舊應已改善；報告盲點 = 西方市場、無小米/華為等中國品牌；二手交易結構大致應同 2021。**Key Comments**：portal 文章本身無公開留言區（已核對、**非抓取失敗**）。Tags 不加 `found-by-claude`（使用者掉 link）。
 
