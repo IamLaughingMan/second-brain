@@ -70,22 +70,44 @@ related:
 
 > 兩 grade 同價 $180/kg。**待補:G1 / G3 純度 %**(spec sheet / COA 要用,亦解釋點解分兩 grade)。
 
-### Margin（NMN 原料 = 實數;其餘為估算,待你補)
+### 已知:入樽廠成本（turnkey,客供 NMN;2026-06-24）
+| SKU | 首批數量 | 入樽 $/單位 | 入樽小計 |
+|---|---|---|---|
+| Capsule | 2,000 樽 | $3.61 | $7,220 |
+| Powder | 1,000 包 | $2.50 | $2,500 |
+| 合計 | 3,000 | | **$9,720** |
+
+> 假設 $3.61 / $2.50 = turnkey(空膠囊/樽/袋/標+入樽,**不含** NMN 原料,你自供)。**待 confirm 是否已含全部包材。**
+
+### Landed COGS（NMN + 入樽 = 實數;履約另計）
 ```
-Contribution = Retail − landed COGS − 付款費(~3% + $0.30) − fulfillment(US ~$5)
+Contribution = Retail − landed COGS − 付款費(~3% + $0.30) − Amazon 履約費(MCF/FBA, TBD)
 ```
 | | Capsule $34.95 | Powder $44.95 |
 |---|---|---|
 | NMN 原料(實) | $3.24 | $18.00 |
-| 其餘(膠囊/樽/袋/標/入樽,**估**) | ~$3.8 | ~$2.5 |
-| **landed COGS(估)** | **~$7** | **~$20.5** |
-| **毛利 GM%**(扣 COGS) | **~80%** | **~54%** |
+| 入樽(實) | $3.61 | $2.50 |
+| **landed COGS** | **$6.85** | **$20.50** |
+| **毛利 GM%**(扣 COGS) | **80.4%** ✅ | **54.4%** ✅ |
 | 訂閱價 GM%(−15%) | ~77% | ~46% |
-| Contribution(扣費+運,one-time) | ~$21.6 (62%) | ~$17.8 (40%) |
+| Contribution(估 Amazon 履約後,one-time) | ~$21.3 (61%) | ~$16.3 (36%) |
 
-**結論:兩隻都健康賺,powder 唔蝕。** Capsule margin% 高(便利溢價);powder margin% 低啲但正常(bulk-value),靠 $/g 同訂閱回購補。
+**結論:兩隻都健康賺。** Capsule margin% 高(便利溢價);powder 低啲但 bulk-value 正常,靠 $/g + 訂閱回購補。
 
-**要你補(定死全 COGS):** 空膠囊(60 粒)・樽+蓋 ・powder 袋/罐 ・標籤 ・入樽/入袋 labor ・進口運費。→ 補齊即定死價、算 break-even 單位數。
+### 履約:Amazon（存倉 + ship）
+- 計劃用 **Amazon 做存倉 + 出貨**。Shopify 訂單 → 應用 **Amazon MCF（Multi-Channel Fulfillment）**;若同時上 Amazon marketplace 則 FBA。
+- **MCF 費 > 標準 FBA 費**;按尺寸/重量計,粗估 capsule ~$5–6、powder(100g 較大)~$6–7。**確實數待 Amazon dimension 報價。**
+- 衍生 channel 問題(later):純 Shopify vs Shopify + Amazon listing(NMN 已重返 Amazon)。
+
+### 已投入 + break-even（產品成本層,未計 marketing/CAC)
+- 原料 $25,560 + 入樽 $9,720 = **$35,280**(首批 3,000 單位;另加運去 Amazon + Amazon 費)。
+- 潛在 gross revenue(全 one-time 價):2,000×$34.95 + 1,000×$44.95 = **$114,850**。
+- 產品成本回本:約需賣 ~1,800 單位(/3,000)→ **餘量即利潤緩衝**。⚠️ 真正變數係 **marketing/CAC**(下階段)。
+
+### 待補(完全鎖死)
+1. Amazon MCF/FBA 實際 per-unit 費(尺寸/重量報價)。
+2. 運原料/成品去 Amazon 倉嘅 inbound 費。
+3. G1 / G3 純度 %(spec/COA 用)。
 
 ## 7. 待定 / 下一步
 - 服用劑量:capsule 1 粒(300mg/日,60 日)定 2 粒(600mg/日,30 日)?影響 $/日 message。
@@ -95,3 +117,4 @@ Contribution = Retail − landed COGS − 付款費(~3% + $0.30) − fulfillment
 ## Log
 - 2026-06-24:Offer architecture v0.1(draft)。SKU A capsule 300mg×60 / SKU B powder 100g;credible-value 定價;訂閱 −15%;待 COGS 定死、驗 powder margin。
 - 2026-06-24:記錄原料 NMN 成本 —— G1 powder 104kg/$18,720、G3 capsule 38kg/$6,840(同 $180/kg = $0.18/g)。Powder margin 警報解除(GM ~54%);待補包裝/入樽/運費定死全 COGS。
+- 2026-06-24:記錄入樽廠 —— capsule 2,000 樽 ×$3.61、powder 1,000 包 ×$2.50(共 $9,720)。Landed COGS 定死:capsule $6.85(GM 80%)/ powder $20.50(GM 54%)。履約用 Amazon(MCF/FBA),per-unit 費待報。首批投入 $35,280 / 3,000 單位。
