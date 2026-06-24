@@ -38,11 +38,12 @@ related:
 | SKU | One-time | Subscribe (−15%) | $/日 | $/g |
 |---|---|---|---|---|
 | Capsule 300mg×60 | **$34.95** | **$29.95** | $0.58 → $0.50 | ~$1.94 → $1.66 |
-| Powder 100g | **$44.95**〜$49.95 ⚠️ | **$38.20**〜 | — | **~$0.45 → $0.38** ✅ |
+| Powder 100g | **$44.95** ✅ | **$38.20** | — | **~$0.45 → $0.38** ✅ |
 
 - Capsule $/g 必然高(encapsulation 溢價 + 總量低)→ 正常,便利客埋單。
 - **Powder $/g ~$0.45 = 抵用 hero number**,殺多數 capsule 對手。
-- ⚠️ **Powder 價未能定死** —— 100g 純 NMN 原料成本可能高(raw NMN landed 約 $0.3–1.0/g → 100g = $30–100 raw)。**$44.95 有機會 margin 負**,必須等你 COGS 先 confirm(見 §6)。
+- ✅ **Powder margin 警報解除**(raw NMN 實際 $0.18/g,非 $0.3–1.0):$44.95 健康賺(見 §6)。
+- 可選:powder 劈到 **$39.95** 換更鋒利 $/g($0.40)、GM 仍 ~49% —— 但 $44.95 留多 margin,$/g 已夠殺。
 
 ## 3. 透明 conversion 武器（非 dark pattern）
 - **PDP 明寫 `$/serving` + `$/gram` + `$/day`**,並附**誠實對標表**(vs 平價底 / vs 透明溢價)。Value 客最食;平價底品牌通常唔敢擺。
@@ -58,17 +59,33 @@ related:
 - **免運**:所有訂閱免運;一次性 **過 $39 免運**(US 境內)→ 推 capsule 客加購或上 powder。
 - 國際運費 later。
 
-## 6. Margin model（待你填 COGS）
-```
-Contribution margin = Retail − COGS − 付款費(~3% + $0.30) − fulfillment(US pick/pack/ship ~$4–7)
-目標:blended 毛利(扣 COGS,未計運費/手續)≥ 70%
-```
-**要你提供(大概數即可):**
-1. Capsule 300mg×60 **每樽 landed COGS**(原料+膠囊+樽+標+入樽,到你手)。
-2. Powder 100g **每包 landed COGS**(原料+袋/罐+標)。
-3. NMN raw **$/g**(NDIN-covered 供應商)—— 直接決定 powder 抵唔抵賣。
+## 6. Margin model
 
-→ 收到即可定死兩個價 + 驗證 powder 唔蝕。
+### 已知:原料 NMN 成本（2026-06-24 記錄）
+| Grade | 用途 | 數量 | 總額 | $/kg | $/g | 可做單位 | 每單位原料 |
+|---|---|---|---|---|---|---|---|
+| **G1 powder** | Powder SKU | 104 kg | $18,720 | $180 | **$0.18** | ~1,040 包(100g) | **$18.00** |
+| **G3 capsule** | Capsule SKU | 38 kg | $6,840 | $180 | **$0.18** | ~2,111 樽(18g) | **$3.24** |
+| 合計 | | 142 kg | **$25,560** | | | | |
+
+> 兩 grade 同價 $180/kg。**待補:G1 / G3 純度 %**(spec sheet / COA 要用,亦解釋點解分兩 grade)。
+
+### Margin（NMN 原料 = 實數;其餘為估算,待你補)
+```
+Contribution = Retail − landed COGS − 付款費(~3% + $0.30) − fulfillment(US ~$5)
+```
+| | Capsule $34.95 | Powder $44.95 |
+|---|---|---|
+| NMN 原料(實) | $3.24 | $18.00 |
+| 其餘(膠囊/樽/袋/標/入樽,**估**) | ~$3.8 | ~$2.5 |
+| **landed COGS(估)** | **~$7** | **~$20.5** |
+| **毛利 GM%**(扣 COGS) | **~80%** | **~54%** |
+| 訂閱價 GM%(−15%) | ~77% | ~46% |
+| Contribution(扣費+運,one-time) | ~$21.6 (62%) | ~$17.8 (40%) |
+
+**結論:兩隻都健康賺,powder 唔蝕。** Capsule margin% 高(便利溢價);powder margin% 低啲但正常(bulk-value),靠 $/g 同訂閱回購補。
+
+**要你補(定死全 COGS):** 空膠囊(60 粒)・樽+蓋 ・powder 袋/罐 ・標籤 ・入樽/入袋 labor ・進口運費。→ 補齊即定死價、算 break-even 單位數。
 
 ## 7. 待定 / 下一步
 - 服用劑量:capsule 1 粒(300mg/日,60 日)定 2 粒(600mg/日,30 日)?影響 $/日 message。
@@ -77,3 +94,4 @@ Contribution margin = Retail − COGS − 付款費(~3% + $0.30) − fulfillment
 
 ## Log
 - 2026-06-24:Offer architecture v0.1(draft)。SKU A capsule 300mg×60 / SKU B powder 100g;credible-value 定價;訂閱 −15%;待 COGS 定死、驗 powder margin。
+- 2026-06-24:記錄原料 NMN 成本 —— G1 powder 104kg/$18,720、G3 capsule 38kg/$6,840(同 $180/kg = $0.18/g)。Powder margin 警報解除(GM ~54%);待補包裝/入樽/運費定死全 COGS。
