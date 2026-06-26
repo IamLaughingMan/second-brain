@@ -69,6 +69,20 @@ updated: 2026-06-12
 ## Comparisons (新增)
 - [[Claude + Obsidian Workflow Pattern Comparison]] — A vs B vs C 全 dimension matrix + decision tree；`domain: obsidian-ai`
 
+## Entities（key tools／repos／projects, `domain: obsidian-ai`）
+- [[ballred-obsidian-claude-pkm]] — Pattern A starter kit (1.5k★)，4 agents + 10 slash commands
+- [[kepano-obsidian]] — 大神 vault template (kepano = Obsidian CEO)
+- [[Obsidian Skills (kepano)]] — 官方 agent skill kit (35.9k★)
+- [[jacksteamdev obsidian-mcp-tools]] — Pattern C MCP server (semantic search + Templater)
+- [[iansinnott obsidian-claude-code-mcp]] — Pattern C 純 Claude-Code WebSocket bridge
+
+## Sources（蒸餾 long-form summary, `domain: obsidian-ai`）
+- [[starmorph integration guide]] — 3 strategies framework（A/B/C concept 來源）
+- [[parazettel Theo Stowell]] — B + C hybrid practitioner
+- [[whytryai Build Second Brain]] — Pattern A vault-as-subfolder, interview-driven
+- [[mindstudio AI Second Brain Guide]] — Pattern A 7-folder + CLAUDE.md 5-component
+- [[jdhwilkins AI Task System]] — Pattern A custom-skill task system
+
 ## Questions（filed answers）
 - [[Research - Severe Periodontitis and Tooth Loss]] — 綜述：嚴重牙周、治療、價格、近未來
 - [[Recording Claude Conversations in Obsidian]] — 研究：大家點記錄 Claude 對話（兩派哲學＋GitHub 高星 landscape＋本 vault peer/可補強）`domain: pkm`

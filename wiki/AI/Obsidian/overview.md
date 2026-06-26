@@ -16,17 +16,18 @@ tags:
 
 呢個 sub-area 整理「Claude Code（同其他 agent／MCP client）點同 Obsidian vault 整合做 project workflow」嘅三大主流 pattern + 大神 + 社群實踐。**核心問題**：你 Obsidian vault 已經係 PKM（個人知識管理 / Personal Knowledge Management），新開 code／research project 時 Claude 點同 vault 嘅 knowledge 配合，又**唔好** mix 到 personal note + code git history。
 
-## Type 分佈（2026-06-26 起步）
+## Type 分佈（2026-06-26 起步，update 同日）
 
 | Type | 數量 | 備註 |
 |---|---|---|
 | concept | 3 | Pattern A / B / C，三個 mainstream pattern |
 | comparison (analyses) | 1 | 全 dimension matrix + decision tree |
 | synthesis | 1 | Practical 決策 + Pattern B 詳細 recipe |
-| source | 0 | 暫用 `Bookmarks/AI/Claude Code/Obsidian Integration/` 嘅 ~12 條 reference-grade bookmark，per [[project-bookmark-raw-wiki-bridge]] Layer 1 |
-| entity | 0 | Key tools／repos 同上做法、bookmark 形式 |
+| **source** | **5** | starmorph / parazettel / whytryai / mindstudio / jdhwilkins —— 蒸餾 summary，link 返 bookmark 攞 full content |
+| **entity** | **5** | ballred / kepano-obsidian / Obsidian Skills / jacksteamdev / iansinnott —— key tools / repos / projects |
 
-未到原 trigger threshold（≥3 types × ≥2 頁），用 typed-folder 係按 user explicit override。
+**5/5 types 都 ≥1 頁，現已過原 trigger threshold（≥3 types × ≥2 頁）並超出**：entity 5 / source 5 / concept 3、analyses 1 / synthesis 1。
+初版（2026-06-26 早段）只有 concept/analyses/synthesis 3 types；同日 user 要求補 sources + entities，遂跑全 5-type Karpathy typed-folder。Bookmark 12 條保留喺 `Bookmarks/AI/Claude Code/Obsidian Integration/` 做 full-content archive layer，wiki entity/source 做蒸餾 layer，per [[project-bookmark-raw-wiki-bridge]] Layer 1 cite-without-promote。
 
 ## 主軸（三條結論）
 
@@ -53,10 +54,11 @@ tags:
 
 ## Gap / 未做
 
-- **Sources 0 頁**：bookmarks 已收 12 條（`Bookmarks/AI/Claude Code/Obsidian Integration/`）但未 Layer-2 promote 入 `raw/articles/` → wiki source page。如果某 article 變成 重要 reference 持續引用就做。
-- **Entities 0 頁**：key tools 如 `kepano-obsidian` vault template、`obsidian-skills`、`ballred/obsidian-claude-pkm`、`obsidian-mcp-tools` 都係 bookmark 形式，唔 promote 做 entity page（避免 duplication）。需要時補。
-- **Multi-AI integration（Codex/Cursor/Gemini）**：而家 focus Claude；其他 AI agent 嘅 vault integration 未 cover，可以開 [[Codex × Obsidian Integration]] 等 sibling concept page。
-- **Plugin 開發 angle**：Obsidian plugin development by AI（agent-assisted plugin coding）冇 covered，獨立 topic。
+- ~~**Sources 0 頁**~~ —— 2026-06-26 同日補咗 5 篇蒸餾 source page；剩 stephango.com vault / educalvolopez Obsidian Agents / dev.to stevengonsalvez Obsidian Skills review 3 篇 bookmark 暫無對應 wiki source（lower signal、可日後補）
+- ~~**Entities 0 頁**~~ —— 同日補咗 5 個 entity page；剩 Theo Stowell（人）/ Steph Ango（人）等個別人物 entity 未起，因 covered by parent kepano-obsidian / parazettel source
+- **Multi-AI integration（Codex/Cursor/Gemini）**：而家 focus Claude；其他 AI agent 嘅 vault integration 未 cover，可以開 [[Codex × Obsidian Integration]] 等 sibling concept page
+- **Plugin 開發 angle**：Obsidian plugin development by AI（agent-assisted plugin coding）冇 covered，獨立 topic
+- **Bookmark Layer-2 promote**：12 條 bookmark 暫停喺 Layer 1（cite without raw/）；如果某 article 變成持續引用嘅 source-of-truth 就做 Layer-2（defuddle → `raw/articles/` → wiki source page）
 
 ## 連同你 vault 嘅 prior art
 

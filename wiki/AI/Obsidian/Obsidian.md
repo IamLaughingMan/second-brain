@@ -33,10 +33,25 @@ Claude Code、agents、MCP 同 Obsidian vault 嘅整合 pattern 研究 hub。屬
 ## Synthesis
 - [[Claude + Obsidian Project Workflow]] —— 揀 pattern 嘅 practical 決策 + Pattern B 詳細 recipe（recommended for code projects）
 
+## Entities（key tools / repos / projects）
+- [[ballred-obsidian-claude-pkm]] —— Pattern A starter kit (1.5k★)，4 agents + 10 slash commands
+- [[kepano-obsidian]] —— 大神 vault template (kepano = Obsidian CEO)，minimal folder + properties-over-folders
+- [[Obsidian Skills (kepano)]] —— 官方 agent skill kit (35.9k★)；你已裝；obsidian-markdown / bases / cli / canvas / defuddle
+- [[jacksteamdev obsidian-mcp-tools]] —— Pattern C MCP server plugin (semantic search + Templater)
+- [[iansinnott obsidian-claude-code-mcp]] —— Pattern C 純 Claude-Code MCP bridge (WebSocket :22360, simpler)
+
+## Sources（long-form articles / guides）
+- [[starmorph integration guide]] —— 3 strategies framework（呢個 vault A/B/C concept 嘅來源）
+- [[parazettel Theo Stowell]] —— B + C hybrid practitioner，single vault + Hugo repo
+- [[whytryai Build Second Brain]] —— Pattern A vault-as-subfolder variant，interview-driven setup
+- [[mindstudio AI Second Brain Guide]] —— Pattern A 7-folder + CLAUDE.md 5-component template
+- [[jdhwilkins AI Task System]] —— Pattern A 嘅 custom-skill task system，skill atop CLI pattern
+
 ## Related external
 - 你嘅 vault 本身 = Pattern A + B 混合實作（[[Recording Claude Conversations in Obsidian]] 屬呢類）
 - NMN project = Pattern B 純粹實作（external repo + `Projects/NMN (project).md` + `Business/NMN/`）
 
 ## 規矩
-- 暫未到 typed-folder 原 trigger（≥3 types × ≥2 頁）—— user 明示要 typed structure，override；synthesis/concepts/analyses 各 ≥1 頁先建夾，entities/sources 未起（用 bookmarks 代）
-- 命名沿用「`<Pattern Name>` 全 vault unique」原則
+- 原 typed-folder trigger（≥3 types × ≥2 頁）未到、但 user 明示要 typed structure → override；**5 個 type 全部至少 ≥1 頁**：synthesis (1) / analyses (1) / concepts (3) / entities (5) / sources (5)
+- entities + sources 唔重複 bookmark 全文 archive；page = 蒸餾 summary + link 返 [[<bookmark>]] 攞 full content（[[project-bookmark-raw-wiki-bridge]] Layer 1）
+- 命名沿用「全 vault unique」原則；唔同 type 嘅 page 用唔同 stem 區分（如 entity `kepano-obsidian` vs source `stephango.com vault`）
