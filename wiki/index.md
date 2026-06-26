@@ -21,6 +21,7 @@ updated: 2026-06-12
 ## Maps of Content（領域 hub）
 - [[Health]] → [[Oral]] → [[Periodontal Disease]] — 牙周病研究的三層導覽 hub，對應資料夾 `wiki/Health/Oral/Periodontal Disease/`（含全部 20 篇 `domain: periodontal-disease` 頁）
 - `Periodontal Disease.base` — 牙周病領域的動態資料表（Obsidian Bases；嵌在 [[Periodontal Disease]] hub 內，靠 `domain` filter 非路徑）
+- [[Consumer]] → [[Pillow]] — 個人消費品研究 hub（自己買 POV，與 [[Business]] 銷售側分層），目前 1 個子領域：枕頭研究
 
 ## Concepts
 - [[Stage IV Grade C Periodontitis]] — 最嚴重的牙周診斷（2018 分類）
@@ -54,6 +55,9 @@ updated: 2026-06-12
 
 > [!info] Vault 方法論 reference 已搬離 wiki/
 > `Karpathy LLM Wiki Pattern` 由 2026-06-17 起住 `Meta/docs/`（同 [[OBSIDIAN-SETUP]] / [[WIKI]] 一齊做 vault setup 三件套）—— 唔再屬 wiki 嘅 compounding knowledge，係靜態 spec。Wikilink `[[Karpathy LLM Wiki Pattern]]` path-independent，仍然解得到。
+
+## Syntheses
+- [[Side Sleeper Broad Shoulder Pillow Research]] — 側睡 × 廣肩 × fetal curl 揀枕／DIY 研究：Reddit 4 年 long-form review + PubMed 2024 individualized loft + buckwheat/latex/Serene foam DIY recipe；`domain: pillow`
 
 ## Questions（filed answers）
 - [[Research - Severe Periodontitis and Tooth Loss]] — 綜述：嚴重牙周、治療、價格、近未來
