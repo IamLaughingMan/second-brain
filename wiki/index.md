@@ -22,6 +22,7 @@ updated: 2026-06-12
 - [[Health]] → [[Oral]] → [[Periodontal Disease]] — 牙周病研究的三層導覽 hub，對應資料夾 `wiki/Health/Oral/Periodontal Disease/`（含全部 20 篇 `domain: periodontal-disease` 頁）
 - `Periodontal Disease.base` — 牙周病領域的動態資料表（Obsidian Bases；嵌在 [[Periodontal Disease]] hub 內，靠 `domain` filter 非路徑）
 - [[Consumer]] → [[Pillow]] — 個人消費品研究 hub（自己買 POV，與 [[Business]] 銷售側分層），目前 1 個子領域：枕頭研究
+- [[AI]] → [[Obsidian]] — Claude Code／agent／MCP 同 Obsidian vault 整合 pattern 研究，typed-folder 結構（`wiki/AI/Obsidian/`，含 `Obsidian.base` 動態 view）
 
 ## Concepts
 - [[Stage IV Grade C Periodontitis]] — 最嚴重的牙周診斷（2018 分類）
@@ -58,6 +59,15 @@ updated: 2026-06-12
 
 ## Syntheses
 - [[Side Sleeper Broad Shoulder Pillow Research]] — 側睡 × 廣肩 × fetal curl 揀枕／DIY 研究：Reddit 4 年 long-form review + PubMed 2024 individualized loft + buckwheat/latex/Serene foam DIY recipe；`domain: pillow`
+- [[Claude + Obsidian Project Workflow]] — Claude Code + Obsidian vault 整合 3 patterns (A vault-as-everything / B linked / C MCP) 決策框架 + Pattern B recipe；`domain: obsidian-ai`
+
+## Concepts (新增)
+- [[Vault-as-Everything (Pattern A)]] — Claude Code 直接喺 vault folder run；starter-kit 最多 star；`domain: obsidian-ai`
+- [[Linked Repo + Vault (Pattern B)]] — Code 喺 repo run、vault 分開，`code_path:` 雙向 pointer；你 NMN 用緊；`domain: obsidian-ai`
+- [[Unified via MCP (Pattern C)]] — Code 喺 repo + MCP server bridge vault；最 flexible 最高 setup；`domain: obsidian-ai`
+
+## Comparisons (新增)
+- [[Claude + Obsidian Workflow Pattern Comparison]] — A vs B vs C 全 dimension matrix + decision tree；`domain: obsidian-ai`
 
 ## Questions（filed answers）
 - [[Research - Severe Periodontitis and Tooth Loss]] — 綜述：嚴重牙周、治療、價格、近未來
