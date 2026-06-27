@@ -5,7 +5,7 @@ para: area
 title: "NMN"
 status: active
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-27
 tags:
   - moc
   - business
@@ -26,6 +26,13 @@ NMN 補充品(Nicotinamide Mononucleotide,β-菸鹼醯胺單核苷酸)電商/零
 ## 領域導覽（MOC）
 
 睇全景 → [[Business/NMN/overview|overview]](catalog-narrative:主軸 + type 分佈 + 現況 + gap)
+
+### 品牌 / Offer / Web 策略（deliverables,V2）
+- [[Brand & Web Design Brief]] — 定位、客群、Direction A、法規關卡、claims-safe 教育
+- [[Brand Story & Proof]] — HYGIEIAS 故事(客向英文)+ proof inventory
+- [[Offer Architecture]] — SKU + 定價 + 真 COGS + 競品 $/g + margin model
+- [[PDP — Capsule (wireframe + copy)]] — hero PDP wireframe + 客向 copy
+> V1 存檔 → `NMN/V1/`(status: archived)。配套 web build 喺 repo `web/`(V1 喺 `web/V1/`)。
 
 ### 供應商 Suppliers
 _（暫無 — 加第一個供應商頁時開 `suppliers/`,用 `Meta/templates/supplier.md`）_
