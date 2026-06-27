@@ -6,7 +6,7 @@ title: "claude-auto-retry"
 url: "https://github.com/cheapestinference/claude-auto-retry"
 status: active
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-06-27
 related:
   - "[[Software]]"
 tags:
@@ -58,8 +58,10 @@ tags:
   - **`autoResumeAgentSessions`**（default true）＝ **session 還原**：cmux **重開／revisit hibernated tab** 時自動跑 `claude --resume <id>`；連同 Agent Hibernation（`idleSeconds`）係慳 RAM/CPU + 還原。**唔係**偵測 reset 時間後自動送「continue」。
   - **定案：cmux 冇 claude-auto-retry 等價物**（等 reset → 自動 continue）。cmux 畀你嘅係 **session 持久（唔丟失、reopen 自動 resume）+ 通知**；但 rate limit 後仍要**你手動 continue**。
   - ⇒ **想完全無人值守自動續（如過夜）**：要喺普通 terminal 用 claude-auto-retry；**接受「回來見通知、手動 continue」**：cmux 單獨夠用。
+  - **🆕 2026-06-27 更新（上述結論已過時）**：「cmux 冇等價物」唔再成立 —— 自建咗 cmux 原生等價 [[cmux-autoretry]]（`~/.config/cmux-autoretry/`，行成 cmux workspace；用 `cmux read-screen`+`send-key` 做 tmux `capture-pane`/`send-keys` 嘅嘢，等 reset／API-error 後自動送「continue」）。**關鍵**：launchd 唔得（cmux socket `cmuxOnly` 靠 process-tree 授權），所以必須行喺 cmux 內。⇒ cmux 下亦可無人值守自動續。
 
 ## Related
+- [[cmux-autoretry]] —— **cmux 原生等價**（本工具 cmux 下失效，2026-06-27 自建補替）
 - [[Software]] —— 本工具喺裝咗嘅軟件 catalog（claude-auto-retry 0.2.2）
 - [[Bookmarks]]
 
