@@ -3,7 +3,7 @@ type: resource
 domain: nmn
 para: resource
 title: "NMN — PDP Capsule (wireframe + copy)"
-status: draft
+status: archived
 version: v2
 created: 2026-06-24
 updated: 2026-06-27
