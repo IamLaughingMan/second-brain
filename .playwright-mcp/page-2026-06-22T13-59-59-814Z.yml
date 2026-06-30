@@ -1,0 +1,171 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "Menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Media Home" [ref=e9] [cursor=pointer]:
+          - /url: /appledaily
+          - button "Media Home" [ref=e10]:
+            - img "logo" [ref=e11]
+        - link "當年今日" [ref=e12] [cursor=pointer]:
+          - /url: /appledaily/history/2021
+          - button "當年今日" [ref=e13]
+        - button "Search" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - generic [ref=e18]:
+      - heading "脫髮是遺傳的｜男比女易禿頭同激素及基因有關 中西醫拆解治療與預防方法 日敲4穴位防脫髮" [level=2] [ref=e19]
+      - generic [ref=e20]:
+        - paragraph [ref=e21]: 蘋果日報 2021/03/23 15:28
+        - button "share" [ref=e22] [cursor=pointer]:
+          - img [ref=e23]
+      - generic [ref=e25]:
+        - generic [ref=e26]: 十萬個為甚麼
+        - generic [ref=e27]: 脫髮
+        - generic [ref=e28]: 禿頭
+        - generic [ref=e29]: 地中海
+        - generic [ref=e30]: 胡惠福
+        - generic [ref=e31]: 頭髮基因測試
+        - generic [ref=e32]: 雄激素脫髮
+        - generic [ref=e33]: 男性型脫髮
+        - generic [ref=e34]: 性功能障礙
+        - generic [ref=e35]: 植髮
+        - generic [ref=e36]: 彭子芯
+      - separator [ref=e37]
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - list [ref=e41]:
+            - generic "next" [ref=e42] [cursor=pointer]
+          - button "prev" [disabled] [ref=e44]:
+            - img [ref=e45]
+          - list [ref=e48]:
+            - listitem [ref=e49]:
+              - generic [ref=e53]: Your browser does not support the video tag.
+          - button "next" [disabled] [ref=e55]:
+            - img [ref=e56]
+        - generic:
+          - generic:
+            - list
+      - generic [ref=e59]:
+        - text: 脫髮禿頭問題困擾不少男士，
+        - link "成因大多與體內激素及基因遺傳有關" [ref=e60] [cursor=pointer]:
+          - /url: https://hk.appledaily.com/lifestyle/20210105/2KZP3S2UO5AK5OA6E2PVA65OHE/
+        - text: ，西醫和中醫亦各有說法。如果你們有留意，男性比女性更大機會有禿頭問題，在香港，當我們看見中年男人有禿頭問題時，都會稱這個現象為「
+        - link "地中海" [ref=e61] [cursor=pointer]:
+          - /url: https://hk.appledaily.com/lifestyle/20190428/NR4ZMLPLWGSEKRVJL4J6CLS4EI/
+        - text: 」。引致禿頭的原因人人都不同，包括壓力、營養攝取量、藥物影響等，不過當中最重要的成因，必定是受到體內激素和基因遺傳影響。
+      - generic [ref=e64]:
+        - img "脫髮禿頭問題困擾不少男士，原來體內激素影響及基因遺傳都是主因。" [ref=e67]
+        - generic [ref=e68]: 脫髮禿頭問題困擾不少男士，原來體內激素影響及基因遺傳都是主因。
+      - heading "體內激素影響──睾酮（testosterone）" [level=2] [ref=e70]:
+        - generic [ref=e71]: 體內激素影響──睾酮（testosterone）
+      - generic [ref=e73]:
+        - text: 其中一個原因是受到體內激素
+        - link "睾酮" [ref=e74] [cursor=pointer]:
+          - /url: https://hk.appledaily.com/lifestyle/20200917/HE63UORO3ZFEPLOCIYFUGCF3Q4/
+        - text: （testosterone）影響，我們的體內有一種酶，把睾酮轉化稱為二氫睾酮（dihydrotestosterone）的物質。二氫睾酮會令到毛囊的血液和營養供應減少，使毛囊縮小，隨着卵泡縮小，生長周期越來越短，新的毛髮就會變得更細，最終停止產生毛髮。這個現象會從頭皮的頂部開始，然後向下移動，最終導致「地中海」的現象。
+      - generic [ref=e76]: 都市流傳男性有更高濃度的睾酮，禿頭的機會亦會更高，其實這說法是錯的。脱髮的真正原因，是因為禿頭男仕的毛囊對二氫酮更敏感，導到毛囊停止產生毛髮。換句話說，無論是否有脫髮危機，大家體內的睾酮量都是差不多。
+      - heading "基因遺傳影響" [level=2] [ref=e78]:
+        - generic [ref=e79]: 基因遺傳影響
+      - generic [ref=e81]: 人的細胞內總共有23對的染色體，當中有63組基因都會令到身體出現脫髮現象。科學家指，因為多組基因引致一個結果的情況為多基因性（Polygentic）。在63組基因之中，有6個是來自「X」染色體。
+      - generic [ref=e83]:
+        - text: 在「X」染色體裏的Xq11–12，與雄激素受體有關的基因，對人體是否禿頭有很大的影響。外國有一個大型的研究，檢查了12,806位帶有歐洲血統的男性是否帶有Xq11–12的基因，並了解其脫髮程度。結果發現帶有該基因的男人，比沒有該基因的男人出現禿頭情的機會高出兩倍。另外，因為「X」染色體都是來自父親，所以亦都證明禿頭是遺傳的。在2017年的
+        - link "另一個研究" [ref=e84] [cursor=pointer]:
+          - /url: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1006594
+        - text: 中，80%有禿頭情況的受訪者的父親亦是禿頭的。
+      - generic [ref=e86]: 如果你懷疑自己有禿頭現象，記得保持心境開朗、減少自己的壓力，或者有更加均衡的飲食，都對頭髮健康有正面的影響。
+      - heading "基因測試非100％準確 不建議使用" [level=2] [ref=e88]:
+        - generic [ref=e89]: 基因測試非100％準確 不建議使用
+      - generic [ref=e91]: 雄激素脫髮或稱為男性型脫髮，大部份均為基因遺傳，皮膚科專科醫生胡惠福指男女均有機會擁有脫髮基因，「脫髮的基因可以遺傳給兒子或女兒；而該基因除了遺傳自爸爸外，也可以遺傳自媽媽。」
+      - generic [ref=e93]: 遺傳基因會導致頭皮的毛囊對男性荷爾蒙較為敏感，因而造成雄激素脫髮。雖然女性都有機會遺傳脫髮基因，但女性的男性荷爾蒙較少，所以出現雄激素脫髮的機會亦較低。
+      - generic [ref=e95]: 坊間有不少頭髮基因測試服務，聲稱可檢測用家有否脫髮基因，但胡惠福醫生不建議市民進行這些測試，「這類測試多以口腔拭子、唾液檢查來篩選出毛髮關聯遺傳因子，從而判斷病人是否有雄激素脫髮風險，但這項技術現時仍然未成熟和可靠。」胡惠福醫生指這類測試結果並非100%準確，報告結果亦不一定反映現實，「就算檢測報告屬陽性（即有脫髮遺傳基因），也不一定會出現早年脫髮。脫髮的成因複雜繁多，遺傳基因只佔一部份，還要配合後天或環境因素，例如營養不良及精神壓力，才會誘發脫髮問題。反之亦然，報告結果呈陰性，亦不等於一定不會脫髮。」
+      - generic [ref=e98]:
+        - img "empty" [ref=e105]
+        - generic [ref=e106]: 皮膚科專科醫生胡惠福。
+      - generic [ref=e109]:
+        - img "empty" [ref=e116]
+        - generic [ref=e117]: 胡惠福醫生指，雄激素脫髮受多組遺傳因影響，現今仍未有一套基因測試能準確預知會否一定出現雄激素脫髮。
+      - heading "肉眼觀察脫髮更實際" [level=2] [ref=e119]:
+        - generic [ref=e120]: 肉眼觀察脫髮更實際
+      - generic [ref=e122]: 如受遺傳影響，胡惠福醫生指病人一般由20多歲開始病發，如果想知自己是否開始脫髮，肉眼觀察最實際，「病人可觀察髮線有否上移、有否出現M字額、頭頂頭髮有否變稀疏、頭髮變幼細等，這些都是早期男性脫髮的症狀。」
+      - generic [ref=e124]: 發現開始脫髮，應盡早治療，「脫髮的首三至六個月進行治療成效會較佳；如果脫髮持續超過半年，毛囊開始萎縮，一至兩年後毛囊變得不再活躍，甚至縮小到看不見，治療效果便未必理想。」
+      - generic [ref=e126]:
+        - text: 胡惠福醫生又列舉現時常用的三種治療方法，病人通常會先用外用生髮水，進一步或會用到
+        - link "口服藥物" [ref=e127] [cursor=pointer]:
+          - /url: https://hk.appledaily.com/local/20051028/IWLWAL3I6ICYKBWVEWHNBRW7LI/
+        - text: 、甚至植髮手術。「口服藥物可能會導致性功能障礙，如暫時沒有任何脫髮跡象，就不建議利用藥物來作預防，因為預防脫髮的藥物副作用較多，不值得為了預防而冒險。」無論哪種方法，病人都應先衡量，並向醫生諮詢和商量才使用。
+      - generic [ref=e130]:
+        - img "empty" [ref=e137]
+        - generic [ref=e138]: 治療脫髮常用的三種方法。
+      - heading "男士以腎為本 先天不足易脫髮" [level=2] [ref=e140]:
+        - generic [ref=e141]: 男士以腎為本 先天不足易脫髮
+      - generic [ref=e143]: 在中醫角度，脫髮其實與腎氣不足有關，註冊中醫彭子芯指不論男女，大約在30至40歲時，腎氣就會開始衰減，加劇脫髮情況。「臨床所見，男士地中海脫髮者的體質通常為肝腎不足型，加上都市人生活作息不定時、經常捱夜、飲食習慣等問題，都會加速這個臟腑的衰減。」肝腎不足者還會表現得精力不足、易疲累、睡眠質素變差及性功能下降等。
+      - generic [ref=e145]: 而脫髮與基因遺傳有關的說法，彭子芯醫師指這相對於中醫的「先天不足」，「男士以腎為本，腎功能對男士特別重要。如果父輩或直系親屬也有嚴重脫髮，那麼病人可能先天腎氣不足而令頭髮較脆弱，也較同齡的人更容易出現脫髮。」
+      - generic [ref=e147]: 彭子芯醫師強調，先天只是一部份因素，後天因素影響亦十分重要。「先天不足加上後天失調，亦可靠中藥或其他方法來強健肝腎。另外有些病人因濕熱而導致頭油或頭瘡較多，或睡眠不佳、腸胃失調等，亦可以服藥改善體質。」彭子芯醫師提醒，有脫髮遺傳風險的男士，應由20歲開始便保養身體，除了戒煙酒、不捱夜外，房事亦不宜過多，否則會損傷腎精。
+      - generic [ref=e150]:
+        - img "empty" [ref=e157]
+        - generic [ref=e158]: 註冊中醫彭子芯。
+      - heading "生薑磨頭皮有用" [level=2] [ref=e160]:
+        - generic [ref=e161]: 生薑磨頭皮有用
+      - generic [ref=e163]:
+        - link "傳說生薑磨頭皮能治脫髮和生髮" [ref=e164] [cursor=pointer]:
+          - /url: https://hk.appledaily.com/lifestyle/20190426/X6WKMQ4XVQSXXRKPBW2WOMDCC4/
+        - text: ，彭子芯醫生指這方法有一定效用，但並非人人適合，「如果病人體質偏熱，頭皮偏紅，容易出油和出瘡，便不適合使用生薑。」
+      - generic [ref=e166]: 如病人脫髮年期較長，除了以中藥治療改善體質外，亦可配合頭皮針灸治療，以刺激毛囊生長頭髮。平日輕敲百會穴、四神聰、頭維、印堂四個穴位，有助預防脫髮和改善睡眠質素，另外平日亦可多飲湯水來預防脫髮。
+      - generic [ref=e169]:
+        - img "empty" [ref=e176]
+        - generic [ref=e177]: 彭子芯醫師建議病人可以指腹輕力敲打頭皮穴位，而眉心的印堂穴有助安眠，一覺好眠有助提升整體健康，從而改善脫髮問題。
+      - generic [ref=e180]:
+        - img "empty" [ref=e187]
+        - generic [ref=e188]: 病人亦可輕敲頭頂的百會穴及四神聰穴，四神聰穴位於百會穴的前後左右各一吋位置。
+      - generic [ref=e190]: 彭子芯醫師教大家煲一款「首烏桑椹生髮湯」，適合肝腎不足型、脫髮、白髮多的人士飲用。湯水的材料如製首烏、桑椹及熟地，可補肝腎、益精血生髮和令頭髮烏黑；黑豆和合桃亦補腎健脾胃、烏髮明目。每星期飲用1至2次，除預防脫髮，亦改善輕度脫髮問題。如體質濕熱、大便稀溏人士則不適合服用。
+      - generic [ref=e192]: 首烏桑椹生髮湯
+      - generic [ref=e194]: 材料（1人份量）：
+      - generic [ref=e196]: 製首烏 10克
+      - generic [ref=e198]: 熟地 10克
+      - generic [ref=e200]: 桑椹 10克
+      - generic [ref=e202]: 合桃 30克
+      - generic [ref=e204]: 黑豆30克
+      - generic [ref=e206]: 紅棗 2粒
+      - generic [ref=e208]: 生薑 2片
+      - generic [ref=e210]: 栗米 1條
+      - generic [ref=e212]: 甘筍 2條
+      - generic [ref=e214]: 做法：
+      - generic [ref=e216]: 1.洗淨所有材料、紅棗去核。
+      - generic [ref=e218]: 2.先用清水浸泡黑豆約3小時。
+      - generic [ref=e220]: 3.栗米、甘筍切件。
+      - generic [ref=e222]: 4.煲內放入所有材料，加入清水蓋過面，大火煲滾後轉細火。蓋上蓋，煲約一小時，加鹽調味即可。
+      - generic [ref=e225]:
+        - img "empty" [ref=e232]
+        - generic [ref=e233]: 首烏桑椹生髮湯適合肝腎不足型、白髮多、脫髮人士飲用。
+      - generic [ref=e236]:
+        - img "empty" [ref=e243]
+        - generic [ref=e244]: 製首烏、桑椹及熟地可以補肝腎、益精血、生髮和令頭髮烏黑。
+      - generic [ref=e246]: "Reference:"
+      - link "https://www.bbc.com/future/article/20121210-are-bald-men-more-virile" [ref=e249] [cursor=pointer]:
+        - /url: https://www.bbc.com/future/article/20121210-are-bald-men-more-virile
+      - generic [ref=e251]: Hagenaars, Saskia P, Hill, W David, Harris, Sarah E, Ritchie, Stuart J, Davies, Gail, Liewald, David C, . . . Marioni, Riccardo E. (2017). Genetic prediction of male pattern baldness. PLoS Genetics, 13(2), E1006594.
+      - generic [ref=e253]: Li, R, Brockschmidt, F.F, Kiefer, A.K, Stefansson, H, Nyholt, D.R, Song, K, . . . Richards, J.B. (2012). Six novel susceptibility Loci for early-onset androgenetic alopecia and their unexpected association with common diseases. PLoS Genetics, 8(5), E1002746.
+      - generic [ref=e255]: Chawnshang Chang, John Kokontis, & Shutsung Liao. (1988). Molecular Cloning of Human and Rat Complementary DNA Encoding Androgen Receptors. Science (American Association for the Advancement of Science), 240(4850), 324-326.
+      - generic [ref=e257]:
+        - text: Cranwell, W. (2016, February 29). Male androgenetic alopecia. Retrieved March 12, 2021, from
+        - link "https://www.ncbi.nlm.nih.gov/books/NBK278957/" [ref=e258] [cursor=pointer]:
+          - /url: https://www.ncbi.nlm.nih.gov/books/NBK278957/
+      - generic [ref=e260]: 撰文：inscie、黃以聲
+      - generic [ref=e262]: 拍攝：周芝瑩、張志孟
+      - generic [ref=e264]: 動畫：怪奇
+      - generic [ref=e266]: 編輯：鄒仲安
+      - generic [ref=e268]: "-----------------------------"
+      - generic [ref=e270]:
+        - text: 支持蘋果深度報道，深入社區，踢爆權貴，即Like
+        - link "蘋果專題及調查組FB專頁" [ref=e271] [cursor=pointer]:
+          - /url: http://facebook.com/AD.Feature.Investigation
+        - text: ！
+  - alert [ref=e272]
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"

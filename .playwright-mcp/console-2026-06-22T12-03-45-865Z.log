@@ -1,0 +1,4 @@
+[     435ms] [ERROR] Error with Permissions-Policy header: Parse of permissions policy failed because of errors reported by structured header parser. @ :0
+[    1232ms] [LOG] Service Worker registered with scope: https://2fa.directory/ @ https://2fa.directory/assets/style-Co8W0NqF.js:0
+[    1237ms] [WARNING] Language file for zh not found at ../lang/zh.json, falling back to default language. @ https://2fa.directory/assets/main-BlaM6nbe.js:1
+[    1702ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.2fa.directory/frontend/v1/hk/banking/categories.json:0

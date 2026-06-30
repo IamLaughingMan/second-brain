@@ -1,0 +1,554 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "導覽" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - link "YouTube 首頁" [ref=e14] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e19]:
+            - img
+        - button "略過導覽功能" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: 略過導覽功能
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e30]:
+            - combobox "搜尋" [expanded] [ref=e33]
+            - button "Search" [ref=e34] [cursor=pointer]:
+              - generic [ref=e37]:
+                - img
+        - generic [ref=e39]:
+          - button "使用語音搜尋" [ref=e41] [cursor=pointer]:
+            - generic [ref=e45]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e50]:
+        - button "設定" [ref=e55] [cursor=pointer]:
+          - generic [ref=e58]:
+            - img
+        - link "登入" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-TW%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D65Dy8jbuEkc&hl=zh-TW&ec=65620
+          - generic [ref=e65]:
+            - img
+          - generic [ref=e66]: 登入
+  - main [ref=e71]:
+    - generic [ref=e72]:
+      - generic [ref=e74]:
+        - generic [ref=e79]:
+          - generic [ref=e82]:
+            - img
+          - generic [ref=e83]:
+            - generic [ref=e84]: 登入帳戶以確認你不是機器人
+            - generic [ref=e85]:
+              - text: 這有助於保護我們的社群。
+              - link "瞭解詳情" [ref=e86] [cursor=pointer]:
+                - /url: https://support.google.com/youtube/answer/3037019#zippy=%2Ccheck-that-youre-signed-into-youtube
+            - link "登入" [ref=e90] [cursor=pointer]:
+              - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-TW%26next%3D%252Fwatch%253Fv%253D65Dy8jbuEkc&hl=zh-TW
+              - generic [ref=e91]: 登入
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - generic [ref=e98]:
+              - heading "Cheapest Topical DHT Blocker - Max Out Your Minoxidil Gains!!" [level=1] [ref=e100]
+              - generic [ref=e101]:
+                - generic [ref=e102]:
+                  - generic [ref=e103]:
+                    - link "Hairguard" [ref=e104] [cursor=pointer]:
+                      - /url: /@Hairguard
+                      - img "Hairguard" [ref=e106]
+                    - generic [ref=e107]:
+                      - generic "Hairguard" [ref=e111]:
+                        - link "Hairguard" [ref=e112] [cursor=pointer]:
+                          - /url: /@Hairguard
+                      - generic "12.2萬位訂閱者" [ref=e113]
+                  - generic [ref=e117]:
+                    - button "訂閱「Hairguard」。" [ref=e119] [cursor=pointer]:
+                      - generic [ref=e120]: 訂閱
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                      - generic:
+                        - img
+                - generic [ref=e127]:
+                  - generic [ref=e128]:
+                    - generic [ref=e132]:
+                      - button "和另外 433 人都喜歡這部影片" [ref=e136] [cursor=pointer]:
+                        - generic [ref=e140]:
+                          - img
+                        - generic [ref=e141]: "433"
+                      - button "對這部影片表示不喜歡" [ref=e148] [cursor=pointer]:
+                        - generic [ref=e152]:
+                          - img
+                    - button "分享" [ref=e158] [cursor=pointer]:
+                      - generic [ref=e162]:
+                        - img
+                      - generic [ref=e163]: 分享
+                  - button "儲存至播放清單" [ref=e170] [cursor=pointer]:
+                    - generic [ref=e174]:
+                      - img
+                    - generic [ref=e175]: 儲存
+                  - button "其他動作" [ref=e180] [cursor=pointer]:
+                    - generic [ref=e184]:
+                      - img
+              - generic [ref=e190] [cursor=pointer]:
+                - generic [ref=e191]:
+                  - generic [ref=e193]: 觀看次數：2.4萬次 4 年前
+                  - tooltip "tooltip"
+                - generic [ref=e194]:
+                  - generic [ref=e195]:
+                    - generic [ref=e198]:
+                      - text: The Truth About Hair Loss -
+                      - 'link "YouTube Channel Link: Hair Loss Industry Exposed! - How I regrew my hair after 10 years of male pattern baldness" [ref=e201]':
+                        - /url: /watch?v=BlPb46W0Fm4
+                        - text: • Hair Loss Industry Exposed! - How I regrew...
+                      - text: Tried minoxidil but not seeing results?
+                    - generic: …
+                  - button "...更多內容" [ref=e203]
+            - text: •
+          - heading "留言" [level=2] [ref=e210]:
+            - generic [ref=e211]: 留言
+      - generic [ref=e289]:
+        - generic [ref=e298]:
+          - generic [ref=e299] [cursor=pointer]:
+            - generic [ref=e300]:
+              - link "Switch to Google Chrome" [ref=e303]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CY5uJjdA3au_yLvT9v8IPnPXQkQu86LrXhwHNhPGAgxVkEAEgAGDJ3uiGyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGOkNyxKKgDBMgDCqoE3gJP0Fo0CtwLTIdoCBjY7GipW1qynfZna1nybFPGEeCihOuMpSp1BQiYeKWJdlQEeUJEbhvKdqyGal42DxR5CY0RQFy8ylFLihbfxqMtvBbRet8BDp6RObHv3atL74MBe-LsCDIL64o3oLUV7A2O8yvPFM-AiLEsa2IBnzCwf8Np_w7U7S1WbvH-I_faNqRn3XexUuThwjiT09ph4zMm5pgedEeIn1MoaUlDfpXlNtKbidzBhFoZY8UeWlkqeR9t5tySr8knThZZhJIp0TJV9MoAv5YvicQywf2GLNiEG016mvxg2e1TYPtPm0bx17tBMJ5aoMGzPtXyxzeVJBuJ-nOI_xhQi8VebqU9vp2nObyn4bMV79YAAUusp1oAKyTP9x_r7eCLAQrLshj2U6-70cHG6rIhUiOEsy_AUom_NqodLo5Vh1AEBmglf72DjQX9kjh0Bb-E83-CL9l7lctHH4gF7MOpgVGSBQkIE2gCeKvVsyOgBm6AB-OJzSKQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgHvtmxAqgHq8UbqAe3obECqAfVqbECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECqAfCyLEC0gguCIBBEAEYXjICggI6D4BjgMCAgICAgIACqoCAEEjZoNI1UBRY8Nqc0KKYlQNgAfIIH2NhLXl0LWhvc3QtcHViLTg2NTMyOTUxMDY1MTk4MDaaCS5odHRwczovL3d3dy5nb29nbGUuY29tL2Nocm9tZS9kb3dubG9hZC1jaHJvbWUvsQmAqmPXQs0qZcgJAMgJigKhCxozsnM-5q9iugtBCAEQBRgEIAgoATAaQAFIAFgBYABoAHABiAEAmAEBogEMCgBYAXABqAIB2AICqAEB2AEBgAIBiAIGugMFdmljYmbQCxLgCwGiDEEqCgoIleKxAo7fsQJiFwoVY29tLmdvb2dsZS5jaHJvbWUuaW9zahUKE2NvbS53YWxtYXJ0LmFuZHJvaWR4AIgBANIMAhAB2gwlCgoQgP7-xsC858wlEgIBAxoNGOzDqYFRIPH3xsfvBEABSgIQH5oNARKqDQJVU8gNAdINiwNodHRwczovL2FkLmRvdWJsZWNsaWNrLm5ldC9kZG0vdHJhY2tjbGsvTjUyOTUuNTA4NzgxM0RFTUFOREdFTi9CMzQ2MTgwNDkuNDM1MjQxOTQ4O2RjX3Rya19haWQ9NjI4NTE5MzgwO2RjX3Rya19jaWQ9MjQ2NzU3NTYzO2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2dkcHI9JHtHRFBSfTtnZHByX2NvbnNlbnQ9JHtHRFBSX0NPTlNFTlRfNzU1fTtsdGQ9O2RjX3Rkdj0xO2RjX3J1aT0xO2RjX2Vwcz1BSGFzOGNDYXluN2lxTlZzSFNZaUhSLVhrN3lwdWVpSFNRZWRHaVBfbXBJUFRKenhCaTByM0p5MkNUSzJtcGJQZ1dhRTJsV0d2MjhpUnFGczZyb0tldztkY19wdWJpZD02P2dhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMTc0NjA0OTUxNrgT____________AYgUA7AUAcAVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIr-2c0KKYlQMV9P5PAh2cOjSyEAEYASAAEgIjHPD_BwE&num=1&cid=CAASqgHkaNcBH27jy9V3gU_A-IeUha7brOtna02up7FjYoF4-s_3QU4VyQbU1_SiiGGKCTO9LvqctS0NPcQLxujWhC1tLvX_4it-k8U4TgKS5TPgA8OmRrbQVjmhLia_UzJIfE5DGa_kyR9AuUrb0ZKzDzag7oLa00tAfRVZcOukDSXZdEmnq95EnI978jUG9hVZFpJgPPYJzq-bojK5RKD8yG_TehlEO7yGWY5yXw&sig=AOD64_2dIcWCI0lA6h3nJeabtgtXZ-BeBA&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - link "Block phishing attempts and websites with malware. Switch to Chrome to browse securely." [ref=e306]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CY5uJjdA3au_yLvT9v8IPnPXQkQu86LrXhwHNhPGAgxVkEAEgAGDJ3uiGyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGOkNyxKKgDBMgDCqoE3gJP0Fo0CtwLTIdoCBjY7GipW1qynfZna1nybFPGEeCihOuMpSp1BQiYeKWJdlQEeUJEbhvKdqyGal42DxR5CY0RQFy8ylFLihbfxqMtvBbRet8BDp6RObHv3atL74MBe-LsCDIL64o3oLUV7A2O8yvPFM-AiLEsa2IBnzCwf8Np_w7U7S1WbvH-I_faNqRn3XexUuThwjiT09ph4zMm5pgedEeIn1MoaUlDfpXlNtKbidzBhFoZY8UeWlkqeR9t5tySr8knThZZhJIp0TJV9MoAv5YvicQywf2GLNiEG016mvxg2e1TYPtPm0bx17tBMJ5aoMGzPtXyxzeVJBuJ-nOI_xhQi8VebqU9vp2nObyn4bMV79YAAUusp1oAKyTP9x_r7eCLAQrLshj2U6-70cHG6rIhUiOEsy_AUom_NqodLo5Vh1AEBmglf72DjQX9kjh0Bb-E83-CL9l7lctHH4gF7MOpgVGSBQkIE2gCeKvVsyOgBm6AB-OJzSKQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgHvtmxAqgHq8UbqAe3obECqAfVqbECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECqAfCyLEC0gguCIBBEAEYXjICggI6D4BjgMCAgICAgIACqoCAEEjZoNI1UBRY8Nqc0KKYlQNgAfIIH2NhLXl0LWhvc3QtcHViLTg2NTMyOTUxMDY1MTk4MDaaCS5odHRwczovL3d3dy5nb29nbGUuY29tL2Nocm9tZS9kb3dubG9hZC1jaHJvbWUvsQmAqmPXQs0qZcgJAMgJigKhCxozsnM-5q9iugtBCAEQBRgEIAgoATAaQAFIAFgBYABoAHABiAEAmAEBogEMCgBYAXABqAIB2AICqAEB2AEBgAIBiAIGugMFdmljYmbQCxLgCwGiDEEqCgoIleKxAo7fsQJiFwoVY29tLmdvb2dsZS5jaHJvbWUuaW9zahUKE2NvbS53YWxtYXJ0LmFuZHJvaWR4AIgBANIMAhAB2gwlCgoQgP7-xsC858wlEgIBAxoNGOzDqYFRIPH3xsfvBEABSgIQH5oNARKqDQJVU8gNAdINiwNodHRwczovL2FkLmRvdWJsZWNsaWNrLm5ldC9kZG0vdHJhY2tjbGsvTjUyOTUuNTA4NzgxM0RFTUFOREdFTi9CMzQ2MTgwNDkuNDM1MjQxOTQ4O2RjX3Rya19haWQ9NjI4NTE5MzgwO2RjX3Rya19jaWQ9MjQ2NzU3NTYzO2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2dkcHI9JHtHRFBSfTtnZHByX2NvbnNlbnQ9JHtHRFBSX0NPTlNFTlRfNzU1fTtsdGQ9O2RjX3Rkdj0xO2RjX3J1aT0xO2RjX2Vwcz1BSGFzOGNDYXluN2lxTlZzSFNZaUhSLVhrN3lwdWVpSFNRZWRHaVBfbXBJUFRKenhCaTByM0p5MkNUSzJtcGJQZ1dhRTJsV0d2MjhpUnFGczZyb0tldztkY19wdWJpZD02P2dhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMTc0NjA0OTUxNrgT____________AYgUA7AUAcAVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIr-2c0KKYlQMV9P5PAh2cOjSyEAEYASAAEgIjHPD_BwE&num=1&cid=CAASqgHkaNcBH27jy9V3gU_A-IeUha7brOtna02up7FjYoF4-s_3QU4VyQbU1_SiiGGKCTO9LvqctS0NPcQLxujWhC1tLvX_4it-k8U4TgKS5TPgA8OmRrbQVjmhLia_UzJIfE5DGa_kyR9AuUrb0ZKzDzag7oLa00tAfRVZcOukDSXZdEmnq95EnI978jUG9hVZFpJgPPYJzq-bojK5RKD8yG_TehlEO7yGWY5yXw&sig=AOD64_2dIcWCI0lA6h3nJeabtgtXZ-BeBA&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - generic [ref=e307]:
+                - generic [ref=e309]:
+                  - generic [ref=e310]: 贊助商廣告
+                  - text: ·
+                - generic [ref=e312]: Google Chrome
+            - button "我的廣告中心" [ref=e315]:
+              - generic [ref=e319]:
+                - img
+          - link "Download" [ref=e324] [cursor=pointer]:
+            - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CY5uJjdA3au_yLvT9v8IPnPXQkQu86LrXhwHNhPGAgxVkEAEgAGDJ3uiGyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGOkNyxKKgDBMgDCqoE3gJP0Fo0CtwLTIdoCBjY7GipW1qynfZna1nybFPGEeCihOuMpSp1BQiYeKWJdlQEeUJEbhvKdqyGal42DxR5CY0RQFy8ylFLihbfxqMtvBbRet8BDp6RObHv3atL74MBe-LsCDIL64o3oLUV7A2O8yvPFM-AiLEsa2IBnzCwf8Np_w7U7S1WbvH-I_faNqRn3XexUuThwjiT09ph4zMm5pgedEeIn1MoaUlDfpXlNtKbidzBhFoZY8UeWlkqeR9t5tySr8knThZZhJIp0TJV9MoAv5YvicQywf2GLNiEG016mvxg2e1TYPtPm0bx17tBMJ5aoMGzPtXyxzeVJBuJ-nOI_xhQi8VebqU9vp2nObyn4bMV79YAAUusp1oAKyTP9x_r7eCLAQrLshj2U6-70cHG6rIhUiOEsy_AUom_NqodLo5Vh1AEBmglf72DjQX9kjh0Bb-E83-CL9l7lctHH4gF7MOpgVGSBQkIE2gCeKvVsyOgBm6AB-OJzSKQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgHvtmxAqgHq8UbqAe3obECqAfVqbECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECqAfCyLEC0gguCIBBEAEYXjICggI6D4BjgMCAgICAgIACqoCAEEjZoNI1UBRY8Nqc0KKYlQNgAfIIH2NhLXl0LWhvc3QtcHViLTg2NTMyOTUxMDY1MTk4MDaaCS5odHRwczovL3d3dy5nb29nbGUuY29tL2Nocm9tZS9kb3dubG9hZC1jaHJvbWUvsQmAqmPXQs0qZcgJAMgJigKhCxozsnM-5q9iugtBCAEQBRgEIAgoATAaQAFIAFgBYABoAHABiAEAmAEBogEMCgBYAXABqAIB2AICqAEB2AEBgAIBiAIGugMFdmljYmbQCxLgCwGiDEEqCgoIleKxAo7fsQJiFwoVY29tLmdvb2dsZS5jaHJvbWUuaW9zahUKE2NvbS53YWxtYXJ0LmFuZHJvaWR4AIgBANIMAhAB2gwlCgoQgP7-xsC858wlEgIBAxoNGOzDqYFRIPH3xsfvBEABSgIQH5oNARKqDQJVU8gNAdINiwNodHRwczovL2FkLmRvdWJsZWNsaWNrLm5ldC9kZG0vdHJhY2tjbGsvTjUyOTUuNTA4NzgxM0RFTUFOREdFTi9CMzQ2MTgwNDkuNDM1MjQxOTQ4O2RjX3Rya19haWQ9NjI4NTE5MzgwO2RjX3Rya19jaWQ9MjQ2NzU3NTYzO2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2dkcHI9JHtHRFBSfTtnZHByX2NvbnNlbnQ9JHtHRFBSX0NPTlNFTlRfNzU1fTtsdGQ9O2RjX3Rkdj0xO2RjX3J1aT0xO2RjX2Vwcz1BSGFzOGNDYXluN2lxTlZzSFNZaUhSLVhrN3lwdWVpSFNRZWRHaVBfbXBJUFRKenhCaTByM0p5MkNUSzJtcGJQZ1dhRTJsV0d2MjhpUnFGczZyb0tldztkY19wdWJpZD02P2dhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMTc0NjA0OTUxNrgT____________AYgUA7AUAcAVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIr-2c0KKYlQMV9P5PAh2cOjSyEAEYASAAEgIjHPD_BwE&num=1&cid=CAASqgHkaNcBH27jy9V3gU_A-IeUha7brOtna02up7FjYoF4-s_3QU4VyQbU1_SiiGGKCTO9LvqctS0NPcQLxujWhC1tLvX_4it-k8U4TgKS5TPgA8OmRrbQVjmhLia_UzJIfE5DGa_kyR9AuUrb0ZKzDzag7oLa00tAfRVZcOukDSXZdEmnq95EnI978jUG9hVZFpJgPPYJzq-bojK5RKD8yG_TehlEO7yGWY5yXw&sig=AOD64_2dIcWCI0lA6h3nJeabtgtXZ-BeBA&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+            - generic [ref=e325]: Download
+        - generic [ref=e330] [cursor=pointer]:
+          - link [ref=e331]:
+            - /url: /watch?v=fEvqF36dWiQ&pp=ugUEEgJlbtIHCQk_CwGHKiGM7w%3D%3D
+            - generic [ref=e338]: 12:47
+          - generic [ref=e340]:
+            - generic [ref=e341]:
+              - 'heading "Topical Minoxidil vs. Oral Minoxidil: Which Regrows More Hair?" [level=3] [ref=e342]':
+                - 'link "Topical Minoxidil vs. Oral Minoxidil: Which Regrows More Hair? 12 分鐘 47 秒" [ref=e343]':
+                  - /url: /watch?v=fEvqF36dWiQ&pp=ugUEEgJlbtIHCQk_CwGHKiGM7w%3D%3D
+                  - text: "Topical Minoxidil vs. Oral Minoxidil: Which Regrows More Hair?"
+              - generic [ref=e345]:
+                - group [ref=e346]:
+                  - generic [ref=e347]: Perfect Hair Health
+                - group [ref=e348]:
+                  - generic [ref=e349]: 觀看次數：9233次
+                  - generic [ref=e350]: •
+                  - generic "1 個月前" [ref=e351]
+            - button "其他動作" [ref=e354]:
+              - generic [ref=e358]:
+                - img
+        - generic [ref=e363] [cursor=pointer]:
+          - link [ref=e364]:
+            - /url: /watch?v=bj2s23k7ktY&pp=0gcJCT8LAYcqIYzv
+            - generic [ref=e371]: 21:17
+          - generic [ref=e373]:
+            - generic [ref=e374]:
+              - heading "6 DHT Blockers For Men Ranked (Worst to Best!)" [level=3] [ref=e375]:
+                - link "6 DHT Blockers For Men Ranked (Worst to Best!) 21 分鐘" [ref=e376]:
+                  - /url: /watch?v=bj2s23k7ktY&pp=0gcJCT8LAYcqIYzv
+                  - text: 6 DHT Blockers For Men Ranked (Worst to Best!)
+              - generic [ref=e378]:
+                - group [ref=e379]:
+                  - generic [ref=e380]: Perfect Hair Health
+                - group [ref=e381]:
+                  - generic [ref=e382]: 觀看次數：75萬次
+                  - generic [ref=e383]: •
+                  - generic "4 年前" [ref=e384]
+            - button "其他動作" [ref=e387]:
+              - generic [ref=e391]:
+                - img
+        - generic [ref=e396] [cursor=pointer]:
+          - link [ref=e397]:
+            - /url: /watch?v=OEhHR3qsCek&pp=0gcJCT8LAYcqIYzv
+            - generic [ref=e404]: 17:16
+          - generic [ref=e406]:
+            - generic [ref=e407]:
+              - heading "Minoxidil & Hair Growth Hacks That Will Change Your Life | Doctorly Tips" [level=3] [ref=e408]:
+                - link "Minoxidil & Hair Growth Hacks That Will Change Your Life | Doctorly Tips 17 分鐘" [ref=e409]:
+                  - /url: /watch?v=OEhHR3qsCek&pp=0gcJCT8LAYcqIYzv
+                  - text: Minoxidil & Hair Growth Hacks That Will Change Your Life | Doctorly Tips
+              - generic [ref=e411]:
+                - group [ref=e412]:
+                  - generic [ref=e413]:
+                    - text: Doctorly
+                    - img [ref=e416]:
+                      - generic [ref=e418]:
+                        - img
+                - group [ref=e419]:
+                  - generic [ref=e420]: 觀看次數：143萬次
+                  - generic [ref=e421]: •
+                  - generic "1 年前" [ref=e422]
+            - button "其他動作" [ref=e425]:
+              - generic [ref=e429]:
+                - img
+        - generic [ref=e434] [cursor=pointer]:
+          - link [ref=e435]:
+            - /url: /watch?v=1qHd1rs2PR4&pp=ugUHEgVlbi1DQdIHCQk_CwGHKiGM7w%3D%3D
+            - generic [ref=e442]: 10:43
+          - generic [ref=e444]:
+            - generic [ref=e445]:
+              - heading "Does Topical Minoxidil Actually Work? - Doctor of Pharmacy Reviews" [level=3] [ref=e446]:
+                - link "Does Topical Minoxidil Actually Work? - Doctor of Pharmacy Reviews 10 分鐘 43 秒" [ref=e447]:
+                  - /url: /watch?v=1qHd1rs2PR4&pp=ugUHEgVlbi1DQdIHCQk_CwGHKiGM7w%3D%3D
+                  - text: Does Topical Minoxidil Actually Work? - Doctor of Pharmacy Reviews
+              - generic [ref=e449]:
+                - group [ref=e450]:
+                  - generic [ref=e451]: Isaac Wade PharmD
+                - group [ref=e452]:
+                  - generic [ref=e453]: 觀看次數：1.1萬次
+                  - generic [ref=e454]: •
+                  - generic "2 年前" [ref=e455]
+            - button "其他動作" [ref=e458]:
+              - generic [ref=e462]:
+                - img
+        - generic [ref=e467] [cursor=pointer]:
+          - link [ref=e468]:
+            - /url: /watch?v=r4JmFvXZoW0&pp=0gcJCT8LAYcqIYzv
+            - generic [ref=e475]: 27:14
+          - generic [ref=e477]:
+            - generic [ref=e478]:
+              - heading "DHT Related Hair Loss - Everything You Need to Know | The Trichologist Podcast 002" [level=3] [ref=e479]:
+                - link "DHT Related Hair Loss - Everything You Need to Know | The Trichologist Podcast 002 27 分鐘" [ref=e480]:
+                  - /url: /watch?v=r4JmFvXZoW0&pp=0gcJCT8LAYcqIYzv
+                  - text: DHT Related Hair Loss - Everything You Need to Know | The Trichologist Podcast 002
+              - generic [ref=e482]:
+                - group [ref=e483]:
+                  - generic [ref=e484]: William Gaunitz Trichologist - Hair Loss Expert
+                - group [ref=e485]:
+                  - generic [ref=e486]: 觀看次數：12萬次
+                  - generic [ref=e487]: •
+                  - generic "3 年前" [ref=e488]
+            - button "其他動作" [ref=e491]:
+              - generic [ref=e495]:
+                - img
+        - generic [ref=e500] [cursor=pointer]:
+          - link [ref=e501]:
+            - /url: /watch?v=6ZrlsVx85ek
+            - generic [ref=e508]: 2:04:48
+          - generic [ref=e510]:
+            - generic [ref=e511]:
+              - heading "The Science of Healthy Hair, Hair Loss and How to Regrow Hair" [level=3] [ref=e512]:
+                - link "The Science of Healthy Hair, Hair Loss and How to Regrow Hair 2 小時 4 分鐘" [ref=e513]:
+                  - /url: /watch?v=6ZrlsVx85ek
+                  - text: The Science of Healthy Hair, Hair Loss and How to Regrow Hair
+              - generic [ref=e515]:
+                - group [ref=e516]:
+                  - generic [ref=e517]:
+                    - text: Andrew Huberman
+                    - img [ref=e520]:
+                      - generic [ref=e522]:
+                        - img
+                - group [ref=e523]:
+                  - generic [ref=e524]: 觀看次數：320萬次
+                  - generic [ref=e525]: •
+                  - generic "3 年前" [ref=e526]
+            - button "其他動作" [ref=e529]:
+              - generic [ref=e533]:
+                - img
+        - generic [ref=e538] [cursor=pointer]:
+          - link [ref=e539]:
+            - /url: /watch?v=F7LFg_TtfCw&pp=ugUEEgJlbg%3D%3D
+            - generic [ref=e546]: 23:39
+          - generic [ref=e548]:
+            - generic [ref=e549]:
+              - heading "The EXACT Massage Techniques That Regrow Hair (Step By Step)" [level=3] [ref=e550]:
+                - link "The EXACT Massage Techniques That Regrow Hair (Step By Step) 23 分鐘" [ref=e551]:
+                  - /url: /watch?v=F7LFg_TtfCw&pp=ugUEEgJlbg%3D%3D
+                  - text: The EXACT Massage Techniques That Regrow Hair (Step By Step)
+              - generic [ref=e553]:
+                - group [ref=e554]:
+                  - generic [ref=e555]: Hairguard
+                - group [ref=e556]:
+                  - generic [ref=e557]: 觀看次數：1.1萬次
+                  - generic [ref=e558]: •
+                  - generic "2 週前" [ref=e559]
+            - button "其他動作" [ref=e562]:
+              - generic [ref=e566]:
+                - img
+        - generic [ref=e571] [cursor=pointer]:
+          - link [ref=e572]:
+            - /url: /watch?v=a5LE59W0H_M
+            - generic [ref=e579]: 13:22
+          - generic [ref=e581]:
+            - generic [ref=e582]:
+              - heading "免手術免吃藥！台大獨創「20天生髮液」真的有效嗎？" [level=3] [ref=e583]:
+                - link "免手術免吃藥！台大獨創「20天生髮液」真的有效嗎？ 13 分鐘 22 秒" [ref=e584]:
+                  - /url: /watch?v=a5LE59W0H_M
+                  - text: 免手術免吃藥！台大獨創「20天生髮液」真的有效嗎？
+              - generic [ref=e586]:
+                - group [ref=e587]:
+                  - generic [ref=e588]: 挺健康 Team Health
+                - group [ref=e589]:
+                  - generic [ref=e590]: 觀看次數：9.4萬次
+                  - generic [ref=e591]: •
+                  - generic "6 個月前" [ref=e592]
+            - button "其他動作" [ref=e595]:
+              - generic [ref=e599]:
+                - img
+        - generic [ref=e604] [cursor=pointer]:
+          - link [ref=e605]:
+            - /url: /watch?v=xehCXI2JzZ0&pp=ugUHEgVlbi1VU9IHCQk_CwGHKiGM7w%3D%3D
+            - generic [ref=e612]: 13:15
+          - generic [ref=e614]:
+            - generic [ref=e615]:
+              - heading "10 Minoxidil Hacks for REAL Hair Growth from a Dermatologist! | Dr. Shereene Idriss" [level=3] [ref=e616]:
+                - link "10 Minoxidil Hacks for REAL Hair Growth from a Dermatologist! | Dr. Shereene Idriss 13 分鐘 15 秒" [ref=e617]:
+                  - /url: /watch?v=xehCXI2JzZ0&pp=ugUHEgVlbi1VU9IHCQk_CwGHKiGM7w%3D%3D
+                  - text: 10 Minoxidil Hacks for REAL Hair Growth from a Dermatologist! | Dr. Shereene Idriss
+              - generic [ref=e619]:
+                - group [ref=e620]:
+                  - generic [ref=e621]:
+                    - text: Dr. Shereene Idriss
+                    - img [ref=e624]:
+                      - generic [ref=e626]:
+                        - img
+                - group [ref=e627]:
+                  - generic [ref=e628]: 觀看次數：61萬次
+                  - generic [ref=e629]: •
+                  - generic "1 年前" [ref=e630]
+            - button "其他動作" [ref=e633]:
+              - generic [ref=e637]:
+                - img
+        - generic [ref=e642] [cursor=pointer]:
+          - link [ref=e643]:
+            - /url: /watch?v=8MHUO5nxvwI&pp=ugUEEgJlbg%3D%3D
+            - generic [ref=e650]: 57:25
+          - generic [ref=e652]:
+            - generic [ref=e653]:
+              - 'heading "Men: How To Fix Hair Loss At Home (Full Guide)" [level=3] [ref=e654]':
+                - 'link "Men: How To Fix Hair Loss At Home (Full Guide) 57 分鐘" [ref=e655]':
+                  - /url: /watch?v=8MHUO5nxvwI&pp=ugUEEgJlbg%3D%3D
+                  - text: "Men: How To Fix Hair Loss At Home (Full Guide)"
+              - generic [ref=e657]:
+                - group [ref=e658]:
+                  - generic [ref=e659]: Perfect Hair Health
+                - group [ref=e660]:
+                  - generic [ref=e661]: 觀看次數：37萬次
+                  - generic [ref=e662]: •
+                  - generic "2 年前" [ref=e663]
+            - button "其他動作" [ref=e666]:
+              - generic [ref=e670]:
+                - img
+        - generic [ref=e675] [cursor=pointer]:
+          - link [ref=e676]:
+            - /url: /watch?v=W-vbcLp2Ss8&pp=0gcJCT8LAYcqIYzv
+            - generic [ref=e683]: 12:03
+          - generic [ref=e685]:
+            - generic [ref=e686]:
+              - heading "How to Reverse Hair Loss" [level=3] [ref=e687]:
+                - link "How to Reverse Hair Loss 12 分鐘 3 秒" [ref=e688]:
+                  - /url: /watch?v=W-vbcLp2Ss8&pp=0gcJCT8LAYcqIYzv
+                  - text: How to Reverse Hair Loss
+              - generic [ref=e690]:
+                - group [ref=e691]:
+                  - generic [ref=e692]:
+                    - text: Dr. Eric Berg DC
+                    - img [ref=e695]:
+                      - generic [ref=e697]:
+                        - img
+                - group [ref=e698]:
+                  - generic [ref=e699]: 觀看次數：194萬次
+                  - generic [ref=e700]: •
+                  - generic "8 個月前" [ref=e701]
+            - button "其他動作" [ref=e704]:
+              - generic [ref=e708]:
+                - img
+        - generic [ref=e713] [cursor=pointer]:
+          - link [ref=e714]:
+            - /url: /watch?v=bbWflhrZdCQ&pp=ugUHEgVlbi1VUw%3D%3D
+            - generic [ref=e721]: 11:18
+          - generic [ref=e723]:
+            - generic [ref=e724]:
+              - 'heading "Oral vs. Topical Minoxidil for Hair Loss: Which is Best? | Derm Explains" [level=3] [ref=e725]':
+                - 'link "Oral vs. Topical Minoxidil for Hair Loss: Which is Best? | Derm Explains 11 分鐘 18 秒" [ref=e726]':
+                  - /url: /watch?v=bbWflhrZdCQ&pp=ugUHEgVlbi1VUw%3D%3D
+                  - text: "Oral vs. Topical Minoxidil for Hair Loss: Which is Best? | Derm Explains"
+              - generic [ref=e728]:
+                - group [ref=e729]:
+                  - generic [ref=e730]: The Budget Dermatologist
+                - group [ref=e731]:
+                  - generic [ref=e732]: 觀看次數：8381次
+                  - generic [ref=e733]: •
+                  - generic "2 個月前" [ref=e734]
+            - button "其他動作" [ref=e737]:
+              - generic [ref=e741]:
+                - img
+        - generic [ref=e746] [cursor=pointer]:
+          - link [ref=e747]:
+            - /url: /watch?v=CM9F_7pQOEU
+            - generic [ref=e754]: 8:19
+          - generic [ref=e756]:
+            - generic [ref=e757]:
+              - heading "別再亂擦生髮水！專科醫師公開正確用法與NG地雷" [level=3] [ref=e758]:
+                - link "別再亂擦生髮水！專科醫師公開正確用法與NG地雷 8 分鐘 19 秒" [ref=e759]:
+                  - /url: /watch?v=CM9F_7pQOEU
+                  - text: 別再亂擦生髮水！專科醫師公開正確用法與NG地雷
+              - generic [ref=e761]:
+                - group [ref=e762]:
+                  - generic [ref=e763]: 【植髮專家】蔡宗樺醫師
+                - group [ref=e764]:
+                  - generic [ref=e765]: 觀看次數：2.8萬次
+                  - generic [ref=e766]: •
+                  - generic "9 個月前" [ref=e767]
+            - button "其他動作" [ref=e770]:
+              - generic [ref=e774]:
+                - img
+        - generic [ref=e779] [cursor=pointer]:
+          - link [ref=e780]:
+            - /url: /watch?v=jztEaZKVz1Y&pp=ugUHEgVlbi1BVQ%3D%3D
+            - generic [ref=e787]: 20:56
+          - generic [ref=e789]:
+            - generic [ref=e790]:
+              - heading "Minoxidil and Hair Loss" [level=3] [ref=e791]:
+                - link "Minoxidil and Hair Loss 20 分鐘" [ref=e792]:
+                  - /url: /watch?v=jztEaZKVz1Y&pp=ugUHEgVlbi1BVQ%3D%3D
+                  - text: Minoxidil and Hair Loss
+              - generic [ref=e794]:
+                - group [ref=e795]:
+                  - generic [ref=e796]: The Hair Loss Show
+                - group [ref=e797]:
+                  - generic [ref=e798]: 觀看次數：94萬次
+                  - generic [ref=e799]: •
+                  - generic "6 年前" [ref=e800]
+            - button "其他動作" [ref=e803]:
+              - generic [ref=e807]:
+                - img
+        - generic [ref=e812] [cursor=pointer]:
+          - link [ref=e813]:
+            - /url: /watch?v=3h6LLcznI4A&pp=ugUEEgJlbg%3D%3D
+            - generic [ref=e820]: 44:00
+          - generic [ref=e822]:
+            - generic [ref=e823]:
+              - heading "The Truth About Inflammation and Hair Loss | The Trichologist Podcast 004" [level=3] [ref=e824]:
+                - link "The Truth About Inflammation and Hair Loss | The Trichologist Podcast 004 44 分鐘" [ref=e825]:
+                  - /url: /watch?v=3h6LLcznI4A&pp=ugUEEgJlbg%3D%3D
+                  - text: The Truth About Inflammation and Hair Loss | The Trichologist Podcast 004
+              - generic [ref=e827]:
+                - group [ref=e828]:
+                  - generic [ref=e829]: William Gaunitz Trichologist - Hair Loss Expert
+                - group [ref=e830]:
+                  - generic [ref=e831]: 觀看次數：29萬次
+                  - generic [ref=e832]: •
+                  - generic "3 年前" [ref=e833]
+            - button "其他動作" [ref=e836]:
+              - generic [ref=e840]:
+                - img
+        - generic [ref=e845] [cursor=pointer]:
+          - link [ref=e846]:
+            - /url: /watch?v=mQR5boIg2xs
+            - generic [ref=e853]: 24:53
+          - generic [ref=e855]:
+            - generic [ref=e856]:
+              - heading "Dermaroller For Hair Growth" [level=3] [ref=e857]:
+                - link "Dermaroller For Hair Growth 24 分鐘" [ref=e858]:
+                  - /url: /watch?v=mQR5boIg2xs
+                  - text: Dermaroller For Hair Growth
+              - generic [ref=e860]:
+                - group [ref=e861]:
+                  - generic [ref=e862]: Hairguard
+                - group [ref=e863]:
+                  - generic [ref=e864]: 觀看次數：11萬次
+                  - generic [ref=e865]: •
+                  - generic "5 年前" [ref=e866]
+            - button "其他動作" [ref=e869]:
+              - generic [ref=e873]:
+                - img
+        - generic [ref=e878] [cursor=pointer]:
+          - link [ref=e879]:
+            - /url: /watch?v=kX0SsgDRF7A&pp=ugUEEgJlbg%3D%3D
+            - generic [ref=e886]: 16:22
+          - generic [ref=e888]:
+            - generic [ref=e889]:
+              - heading "Finasteride Q+A" [level=3] [ref=e890]:
+                - link "Finasteride Q+A 16 分鐘" [ref=e891]:
+                  - /url: /watch?v=kX0SsgDRF7A&pp=ugUEEgJlbg%3D%3D
+                  - text: Finasteride Q+A
+              - generic [ref=e893]:
+                - group [ref=e894]:
+                  - generic [ref=e895]: The Hair Loss Show
+                - group [ref=e896]:
+                  - generic [ref=e897]: 觀看次數：41萬次
+                  - generic [ref=e898]: •
+                  - generic "6 年前" [ref=e899]
+            - button "其他動作" [ref=e902]:
+              - generic [ref=e906]:
+                - img
+        - generic [ref=e911] [cursor=pointer]:
+          - link [ref=e912]:
+            - /url: /watch?v=SB2mJLwDjfg&pp=ugUEEgJlbg%3D%3D
+            - generic [ref=e919]: 10:07
+          - generic [ref=e921]:
+            - generic [ref=e922]:
+              - heading "Hair Loss Treatments For Men (According To Science)" [level=3] [ref=e923]:
+                - link "Hair Loss Treatments For Men (According To Science) 10 分鐘 7 秒" [ref=e924]:
+                  - /url: /watch?v=SB2mJLwDjfg&pp=ugUEEgJlbg%3D%3D
+                  - text: Hair Loss Treatments For Men (According To Science)
+              - generic [ref=e926]:
+                - group [ref=e927]:
+                  - generic [ref=e928]:
+                    - text: DocUnlock
+                    - img [ref=e931]:
+                      - generic [ref=e933]:
+                        - img
+                - group [ref=e934]:
+                  - generic [ref=e935]: 觀看次數：249萬次
+                  - generic [ref=e936]: •
+                  - generic "5 年前" [ref=e937]
+            - button "其他動作" [ref=e940]:
+              - generic [ref=e944]:
+                - img
+        - generic [ref=e949] [cursor=pointer]:
+          - link [ref=e950]:
+            - /url: /watch?v=thQ1taoKoo4
+            - generic [ref=e957]: 15:16
+          - generic [ref=e959]:
+            - generic [ref=e960]:
+              - heading "Microneedling / Derma Rolling for Hair Regrowth" [level=3] [ref=e961]:
+                - link "Microneedling / Derma Rolling for Hair Regrowth 15 分鐘" [ref=e962]:
+                  - /url: /watch?v=thQ1taoKoo4
+                  - text: Microneedling / Derma Rolling for Hair Regrowth
+              - generic [ref=e964]:
+                - group [ref=e965]:
+                  - generic [ref=e966]:
+                    - text: Doctor Gary Linkov
+                    - img [ref=e969]:
+                      - generic [ref=e971]:
+                        - img
+                - group [ref=e972]:
+                  - generic [ref=e973]: 觀看次數：486萬次
+                  - generic [ref=e974]: •
+                  - generic "4 年前" [ref=e975]
+            - button "其他動作" [ref=e978]:
+              - generic [ref=e982]:
+                - img
+        - generic [ref=e987] [cursor=pointer]:
+          - link [ref=e988]:
+            - /url: /watch?v=udiz44pE6_c&pp=ugUEEgJlbg%3D%3D
+            - generic [ref=e995]: 18:38
+          - generic [ref=e997]:
+            - generic [ref=e998]:
+              - heading "I Tried Minoxidil For 3 Years... Here's What Happened" [level=3] [ref=e999]:
+                - link "I Tried Minoxidil For 3 Years... Here's What Happened 18 分鐘" [ref=e1000]:
+                  - /url: /watch?v=udiz44pE6_c&pp=ugUEEgJlbg%3D%3D
+                  - text: I Tried Minoxidil For 3 Years... Here's What Happened
+              - generic [ref=e1002]:
+                - group [ref=e1003]:
+                  - generic [ref=e1004]: Zeph Sanders
+                - group [ref=e1005]:
+                  - generic [ref=e1006]: 觀看次數：5.7萬次
+                  - generic [ref=e1007]: •
+                  - generic "1 個月前" [ref=e1008]
+            - button "其他動作" [ref=e1011]:
+              - generic [ref=e1015]:
+                - img

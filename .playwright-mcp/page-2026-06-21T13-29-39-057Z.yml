@@ -1,0 +1,188 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "每日頭條" [ref=e4] [cursor=pointer]:
+        - /url: https://kknews.cc/
+    - article [ref=e5]:
+      - heading "小米電視開機廣告很煩？一招教你去除" [level=1] [ref=e6]
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - text: 分類＼
+          - link "科技" [ref=e10] [cursor=pointer]:
+            - /url: /tech/
+        - listitem [ref=e11]:
+          - text: 時間＼
+          - link "2017-06-30" [ref=e12] [cursor=pointer]:
+            - /url: /archive/20170630/
+      - separator [ref=e13]
+      - generic [ref=e15]:
+        - heading "soul技巧" [level=1] [ref=e16]: soul技巧
+        - paragraph [ref=e17]:
+          - text: 眾所周知，小米的廣告一直都很多，小米手機的MIUI系統升級後，廣告明顯減少，但是小米電視的廣告卻沒有多少改變。經過幾天的摸索，小編找到了一種
+          - strong [ref=e18]: 無需root
+          - text: 電視的超簡單方法。
+        - paragraph [ref=e19]:
+          - text: 先說一下原理，大多數互聯網電視都是通過連接WLAN進行網絡通訊，進而獲取開機時的廣告，而大多數家用路由器都會有網址訪問黑名單，我們可以利用該功能，屏蔽廣告源網址，實現去除開機廣告的目的。
+          - strong [ref=e20]: （PS：其他品牌的互聯網電視大多也可使用）
+        - generic [ref=e21]:
+          - text: 贊助廣告 ▼
+          - generic [ref=e22]:
+            - text: Ad
+            - iframe [ref=e23]:
+              
+        - figure [ref=e24]:
+          - img [ref=e27]
+        - paragraph [ref=e28]: 小米路由器設置界面
+        - paragraph [ref=e29]: 其他品牌的路由器同理，在後台管理網站，進行設置。
+        - paragraph [ref=e30]: 最重要的當然是廣告源網址咯！
+        - paragraph [ref=e31]: ad.xiaomi.com ad1.xiaomi.com ad.mi.com （一般情況，屏蔽這三個即可達到目的）
+        - paragraph [ref=e32]: 廣告源網址：
+        - paragraph [ref=e33]: tat.pandora.xiaomi.com
+        - paragraph [ref=e34]: upgrade.mishop.pandora.xiaomi.com
+        - paragraph [ref=e35]: logonext.tv.kuyun.com
+        - paragraph [ref=e36]: config.kuyun.com
+        - paragraph [ref=e37]: api.io.mi.com
+        - paragraph [ref=e38]: mishop.pandora.xiaomi.com
+        - paragraph [ref=e39]: dvb.pandora.xiaomi.com
+        - paragraph [ref=e40]: api.ad.xiaomi.com
+        - paragraph [ref=e41]: de.pandora.xiaomi.com
+        - generic [ref=e42]:
+          - text: 贊助廣告 ▼
+          - generic [ref=e43]:
+            - text: Ad
+            - iframe [ref=e44]:
+              
+        - paragraph [ref=e45]: data.mistat.xiaomi.com
+        - paragraph [ref=e46]: jellyfish.pandora.xiaomi.com
+        - paragraph [ref=e47]: gallery.pandora.xiaomi.com
+        - paragraph [ref=e48]: o2o.api.xiaomi.com
+        - paragraph [ref=e49]: bss.pandora.xiaomi.com
+        - paragraph [ref=e50]: gvod.aiseejapp.atianqi.com
+        - heading "編輯----傲魂" [level=1] [ref=e51]: 編輯----傲魂
+      - list [ref=e53]:
+        - listitem [ref=e54]:
+          - link [ref=e56] [cursor=pointer]:
+            - /url: /digital/ovnnej6.html
+          - link "小米電視四大使用技巧：屏蔽開機廣告+看直播！" [ref=e60] [cursor=pointer]:
+            - /url: /digital/ovnnej6.html
+        - listitem [ref=e61]:
+          - link [ref=e63] [cursor=pointer]:
+            - /url: /tech/59g4rjk.html
+          - link "一款軟件讓你看視頻無廣告" [ref=e67] [cursor=pointer]:
+            - /url: /tech/59g4rjk.html
+        - listitem [ref=e68]:
+          - link [ref=e70] [cursor=pointer]:
+            - /url: /tech/xrazz4g.html
+          - link "智能在哪？ 智能路由器體驗篇" [ref=e74] [cursor=pointer]:
+            - /url: /tech/xrazz4g.html
+        - listitem [ref=e75]:
+          - link [ref=e77] [cursor=pointer]:
+            - /url: /tech/3jmpqg.html
+          - link "休想矇混過關 小竅門教你輕鬆甄別智能路由" [ref=e81] [cursor=pointer]:
+            - /url: /tech/3jmpqg.html
+        - listitem [ref=e82]:
+          - link [ref=e84] [cursor=pointer]:
+            - /url: /tech/ya4jz3a.html
+          - link "小米電視在開關機中強制加入廣告，我已找到破解方法！" [ref=e88] [cursor=pointer]:
+            - /url: /tech/ya4jz3a.html
+        - listitem [ref=e89]:
+          - link [ref=e91] [cursor=pointer]:
+            - /url: /digital/b2ooej.html
+          - link "#本站首曬# 屏蔽廣告的好幫手 — MEIZU 魅族 R18S 智能路由器 極速版 體驗" [ref=e95] [cursor=pointer]:
+            - /url: /digital/b2ooej.html
+        - listitem [ref=e96]:
+          - link [ref=e98] [cursor=pointer]:
+            - /url: /tech/q23jzab.html
+          - link "只需要這4個設置 你的小米電視就可以變得更好用" [ref=e102] [cursor=pointer]:
+            - /url: /tech/q23jzab.html
+        - listitem [ref=e103]:
+          - link [ref=e105] [cursor=pointer]:
+            - /url: /tech/5mjvabl.html
+          - link "小米電視開機播放廣告是否合理？你的電視有嗎？" [ref=e109] [cursor=pointer]:
+            - /url: /tech/5mjvabl.html
+        - listitem [ref=e110]:
+          - link [ref=e112] [cursor=pointer]:
+            - /url: /tech/g88gn2m.html
+          - link "如何防止阿里雲系統自動卸載電視貓" [ref=e116] [cursor=pointer]:
+            - /url: /tech/g88gn2m.html
+        - listitem [ref=e117]:
+          - link [ref=e119] [cursor=pointer]:
+            - /url: /game/oor3qq5.html
+          - link "安卓優酷v6.8.1去毒瘤完美版本" [ref=e123] [cursor=pointer]:
+            - /url: /game/oor3qq5.html
+        - listitem [ref=e124]:
+          - link [ref=e126] [cursor=pointer]:
+            - /url: /tech/mmrjnrz.html
+          - link "用卡巴斯基安全軟件屏蔽網頁廣告教程" [ref=e130] [cursor=pointer]:
+            - /url: /tech/mmrjnrz.html
+        - listitem [ref=e131]:
+          - link [ref=e133] [cursor=pointer]:
+            - /url: /digital/6eav2xp.html
+          - link "關於手機上網連接無線網頁彈出廣告問題" [ref=e137] [cursor=pointer]:
+            - /url: /digital/6eav2xp.html
+        - listitem [ref=e138]:
+          - link [ref=e140] [cursor=pointer]:
+            - /url: /digital/r8yzeon.html
+          - link "居家實用小技巧：不用電腦如何設置無線路由器" [ref=e144] [cursor=pointer]:
+            - /url: /digital/r8yzeon.html
+        - listitem [ref=e145]:
+          - link [ref=e147] [cursor=pointer]:
+            - /url: /tech/b22mql6.html
+          - link "智能離我們有多近？極路由1S體驗" [ref=e151] [cursor=pointer]:
+            - /url: /tech/b22mql6.html
+        - listitem [ref=e152]:
+          - link [ref=e154] [cursor=pointer]:
+            - /url: /digital/qorrxlr.html
+          - link "別動我的WIFI，小米路由器貼心功能分享，一鍵輕鬆設置防蹭網" [ref=e158] [cursor=pointer]:
+            - /url: /digital/qorrxlr.html
+        - listitem [ref=e159]:
+          - link [ref=e161] [cursor=pointer]:
+            - /url: /news/opjoneq.html
+          - link "系統進程優化工具 避免藍屏、假死、進程停止……" [ref=e165] [cursor=pointer]:
+            - /url: /news/opjoneq.html
+        - listitem [ref=e166]:
+          - link [ref=e168] [cursor=pointer]:
+            - /url: /tech/ooabqq.html
+          - link "B-LINK京東微聯BL-D9109安裝設置實測！" [ref=e172] [cursor=pointer]:
+            - /url: /tech/ooabqq.html
+        - listitem [ref=e173]:
+          - link [ref=e175] [cursor=pointer]:
+            - /url: /tech/9mpa2eq.html
+          - link "路由器被入侵了之後究竟有什麼風險？" [ref=e179] [cursor=pointer]:
+            - /url: /tech/9mpa2eq.html
+        - listitem [ref=e180]:
+          - link [ref=e182] [cursor=pointer]:
+            - /url: /digital/jqvm2kl.html
+          - link "屏蔽iPhone應用軟件啟動界面廣告，無需越獄，超好用" [ref=e186] [cursor=pointer]:
+            - /url: /digital/jqvm2kl.html
+        - listitem [ref=e187]:
+          - link [ref=e189] [cursor=pointer]:
+            - /url: /tech/89rny6l.html
+          - link "年度打臉王者——PPTV液晶電視開機強制15秒廣告" [ref=e193] [cursor=pointer]:
+            - /url: /tech/89rny6l.html
+        - listitem [ref=e194]:
+          - link "小米電視開機30秒強制廣告，還有打開app30秒廣告，有沒有去除的方法？" [ref=e196] [cursor=pointer]:
+            - /url: /news/e82mjbq.html
+        - listitem [ref=e197]:
+          - link [ref=e199] [cursor=pointer]:
+            - /url: /tech/p8kgxq8.html
+          - link "一招屏蔽視頻廣告，磊科智能路由N1推出新插件" [ref=e203] [cursor=pointer]:
+            - /url: /tech/p8kgxq8.html
+        - listitem [ref=e204]:
+          - link [ref=e206] [cursor=pointer]:
+            - /url: /digital/qe8rjqb.html
+          - link "魅族路由器極速版評測" [ref=e210] [cursor=pointer]:
+            - /url: /digital/qe8rjqb.html
+        - listitem [ref=e211]:
+          - link [ref=e213] [cursor=pointer]:
+            - /url: /digital/nvqav93.html
+          - link "微鯨電視如何降級、屏蔽自動升級、去除廣告、無線投屏？教你三步搞定！" [ref=e217] [cursor=pointer]:
+            - /url: /digital/nvqav93.html
+      - generic [ref=e219]:
+        - searchbox "找不到想看的？搜尋看看！" [ref=e220]
+        - button "搜尋" [ref=e221]
+  - generic [ref=e222]:
+    - button "Share by facebook" [ref=e223] [cursor=pointer]
+    - button "Share by whatsapp" [ref=e224] [cursor=pointer]
+    - button "Share by line" [ref=e225] [cursor=pointer]
+  - generic [ref=e226]: Ad

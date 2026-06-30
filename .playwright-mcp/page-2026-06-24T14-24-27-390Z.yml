@@ -1,0 +1,150 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: HYGIEIAS
+    - generic [ref=e4]:
+      - generic [ref=e5]: View
+      - button "Mobile" [ref=e6] [cursor=pointer]
+      - button "Desktop" [ref=e7] [cursor=pointer]
+    - generic [ref=e8]:
+      - generic [ref=e9]: Page
+      - button "Home" [ref=e10] [cursor=pointer]
+      - button "Capsule PDP" [ref=e11] [cursor=pointer]
+    - generic [ref=e12]: 1200px
+  - iframe [ref=e15]:
+    - generic [ref=f1e2]:
+      - banner [ref=f1e3]:
+        - generic [ref=f1e4]: HYGIEIAS
+        - navigation [ref=f1e5]:
+          - link "Shop" [ref=f1e6] [cursor=pointer]:
+            - /url: "#shop"
+          - link "Lab reports" [ref=f1e7] [cursor=pointer]:
+            - /url: "#proof"
+          - link "Why us" [ref=f1e8] [cursor=pointer]:
+            - /url: "#why"
+          - link "FAQ" [ref=f1e9] [cursor=pointer]:
+            - /url: "#faq"
+        - generic [ref=f1e10]: CART (0)
+      - generic [ref=f1e11]:
+        - generic [ref=f1e12]: Nicotinamide Mononucleotide
+        - heading "NMN you can actually verify." [level=1] [ref=f1e13]
+        - paragraph [ref=f1e14]: High-purity NMN — third-party tested, NDI-compliant, fairly priced. The molecule, not the marketing.
+        - generic [ref=f1e15]:
+          - link "Shop NMN →" [ref=f1e16] [cursor=pointer]:
+            - /url: "#shop"
+          - link "Read the lab report" [ref=f1e17] [cursor=pointer]:
+            - /url: "#proof"
+      - generic [ref=f1e18]:
+        - generic [ref=f1e19]: ✓ ≥99% purity
+        - generic [ref=f1e20]: ✓ Third-party tested
+        - generic [ref=f1e21]: ✓ cGMP facility
+        - generic [ref=f1e22]: ✓ NDI-compliant
+        - generic [ref=f1e23]: ✓ 60-day money-back
+      - generic [ref=f1e24]:
+        - generic [ref=f1e25]: Two ways to take it
+        - heading "Pick your format." [level=2] [ref=f1e26]
+        - paragraph [ref=f1e27]: Same documented NMN. Capsules for convenience, powder for value.
+        - generic [ref=f1e28]:
+          - link "[ capsule bottle ] Convenience NMN Capsules 300 mg × 60 · ≥99% · ≈60-day supply $29.95 / subscribe · $34.95 once $1.66 / g View →" [ref=f1e29] [cursor=pointer]:
+            - /url: pdp-capsule.html
+            - generic [ref=f1e30]: "[ capsule bottle ]"
+            - generic [ref=f1e31]:
+              - generic [ref=f1e32]: Convenience
+              - heading "NMN Capsules" [level=3] [ref=f1e33]
+              - generic [ref=f1e34]: 300 mg × 60 · ≥99% · ≈60-day supply
+              - generic [ref=f1e35]: $29.95 / subscribe · $34.95 once
+              - generic [ref=f1e36]:
+                - generic [ref=f1e37]: $1.66 / g
+                - generic [ref=f1e38]: View →
+          - link "[ powder pouch ] Best value $0.45/g NMN Powder 100 g · ≥99% · ~200 servings $38.20 / subscribe · $44.95 once lowest $/gram View →" [ref=f1e39] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f1e40]: "[ powder pouch ]"
+            - generic [ref=f1e41]:
+              - generic [ref=f1e42]:
+                - text: Best value
+                - generic [ref=f1e43]: $0.45/g
+              - heading "NMN Powder" [level=3] [ref=f1e44]
+              - generic [ref=f1e45]: 100 g · ≥99% · ~200 servings
+              - generic [ref=f1e46]: $38.20 / subscribe · $44.95 once
+              - generic [ref=f1e47]:
+                - generic [ref=f1e48]: lowest $/gram
+                - generic [ref=f1e49]: View →
+      - generic [ref=f1e50]:
+        - generic [ref=f1e51]: Why HYGIEIAS
+        - heading "Honesty is the whole product." [level=2] [ref=f1e52]
+        - generic [ref=f1e53]:
+          - generic [ref=f1e54]:
+            - generic [ref=f1e55]: "01"
+            - heading "Documented" [level=3] [ref=f1e56]
+            - paragraph [ref=f1e57]: Every batch is third-party tested for identity and purity — and we put the report on the page.
+          - generic [ref=f1e58]:
+            - generic [ref=f1e59]: "02"
+            - heading "Compliant" [level=3] [ref=f1e60]
+            - paragraph [ref=f1e61]: Made in a cGMP facility, from an ingredient that meets the FDA's NDI requirements.
+          - generic [ref=f1e62]:
+            - generic [ref=f1e63]: "03"
+            - heading "Fairly priced" [level=3] [ref=f1e64]
+            - paragraph [ref=f1e65]: No luxury markup, no celebrity marketing. You pay for NMN — not for ads.
+      - generic [ref=f1e67]:
+        - generic [ref=f1e68]:
+          - generic [ref=f1e69]: Read the lab report
+          - heading "Don't take our word for it." [level=2] [ref=f1e70]
+          - paragraph [ref=f1e71]: Purity ≥99%, confirmed by an independent lab. Read the Certificate of Analysis before you buy — for every batch.
+          - link "Download COA (PDF)" [ref=f1e72] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=f1e73]: "Batch #[—] · Lab: [name] · Method: HPLC"
+        - generic [ref=f1e74]: "[ Certificate of Analysis (COA) ]"
+      - generic [ref=f1e75]:
+        - generic [ref=f1e76]: What is NMN?
+        - paragraph [ref=f1e77]: NMN (nicotinamide mononucleotide) is a precursor your body uses to make NAD⁺ — a coenzyme involved in cellular energy metabolism.¹ NAD⁺ is an active area of healthy-aging research.²
+        - paragraph [ref=f1e78]: We share the science so you can make an informed choice — not because we're making a promise about it.
+        - generic [ref=f1e79]: ¹ [citation] ² [citation]
+      - generic [ref=f1e80]:
+        - generic [ref=f1e81]: What you pay for
+        - table [ref=f1e82]:
+          - rowgroup [ref=f1e83]:
+            - row "HYGIEIAS Typical premium Typical budget" [ref=f1e84]:
+              - columnheader [ref=f1e85]
+              - columnheader "HYGIEIAS" [ref=f1e86]
+              - columnheader "Typical premium" [ref=f1e87]
+              - columnheader "Typical budget" [ref=f1e88]
+            - row "Capsule / bottle $34.95 $50–58 $25–30" [ref=f1e89]:
+              - cell "Capsule / bottle" [ref=f1e90]
+              - cell "$34.95" [ref=f1e91]
+              - cell "$50–58" [ref=f1e92]
+              - cell "$25–30" [ref=f1e93]
+            - row "Purity stated ≥99% ✓ sometimes rarely" [ref=f1e94]:
+              - cell "Purity stated" [ref=f1e95]
+              - cell "≥99% ✓" [ref=f1e96]
+              - cell "sometimes" [ref=f1e97]
+              - cell "rarely" [ref=f1e98]
+            - row "COA shown On site ✓ \"on request\" rarely" [ref=f1e99]:
+              - cell "COA shown" [ref=f1e100]
+              - cell "On site ✓" [ref=f1e101]
+              - cell "\"on request\"" [ref=f1e102]
+              - cell "rarely" [ref=f1e103]
+            - row "NDI-compliant Yes ✓ varies unclear" [ref=f1e104]:
+              - cell "NDI-compliant" [ref=f1e105]
+              - cell "Yes ✓" [ref=f1e106]
+              - cell "varies" [ref=f1e107]
+              - cell "unclear" [ref=f1e108]
+      - generic [ref=f1e109]:
+        - generic [ref=f1e110]: Our name
+        - heading "After Hygieia — the goddess of staying well." [level=2] [ref=f1e111]
+        - paragraph [ref=f1e112]: "She didn't stand for the cure. She stood for prevention: the daily practice of staying well. That's the brand — serious nutrition for people who'd rather read the data than the hype."
+        - link "Read our story →" [ref=f1e113] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=f1e114]:
+        - generic [ref=f1e115]: Reviews
+        - paragraph [ref=f1e116]: HYGIEIAS is new. Verified-buyer reviews will appear here as they come in.
+        - paragraph [ref=f1e117]: We will never post fake or incentivized reviews.
+      - generic [ref=f1e118]:
+        - generic [ref=f1e119]: Stay in the loop
+        - heading "Lab reports + launch updates." [level=2] [ref=f1e120]
+        - paragraph [ref=f1e121]: No spam. Just batch COAs and the occasional honest update.
+        - generic [ref=f1e122]:
+          - textbox "you@email.com" [ref=f1e123]
+          - link "Join" [ref=f1e124] [cursor=pointer]:
+            - /url: "#"
+      - contentinfo [ref=f1e125]:
+        - generic [ref=f1e126]: These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.
+        - text: Shop · Lab reports · Story · Contact · Policies · © HYGIEIAS

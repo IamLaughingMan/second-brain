@@ -1,0 +1,458 @@
+- generic [ref=e3]:
+  - alertdialog "Cookie Consent Policy" [ref=e4]:
+    - generic [ref=e6]:
+      - heading "Fanatical Logo 本網站使用 cookie" [level=2] [ref=e7]:
+        - img "Fanatical Logo" [ref=e8]
+        - text: 本網站使用 cookie
+      - paragraph [ref=e10]: 我們使用 cookie 來個人化內容和廣告、提供社群媒體功能並分析我們的流量。我們也與我們的社交媒體、廣告和分析合作夥伴分享您使用我們網站的信息，他們可能會將這些信息與您提供給他們的其他信息或他們從您使用他們的服務中收集的信息結合起來。選擇下面的“接受 Cookie”，您同意我們使用非必要的 Cookie。無論如何，我們將繼續使用某些 cookie 和追蹤技術，只要它們對於本網站的運作是絕對必要的。
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - button "接受所有非必要的 Cookie" [ref=e13] [cursor=pointer]
+          - button "拒絕所有非必要的 Cookie" [ref=e14] [cursor=pointer]
+        - button "設置" [ref=e15] [cursor=pointer]:
+          - text: 設置
+          - img [ref=e16]
+  - generic [ref=e18]:
+    - generic [ref=e20]:
+      - generic [ref=e21]: Would you like to see Fanatical in English?
+      - generic [ref=e22]:
+        - button "Change to English" [ref=e24] [cursor=pointer]
+        - button "Stay in 繁體中文" [ref=e26] [cursor=pointer]
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - img [ref=e31]
+        - text: 獲得超值遊戲優惠！立即註冊狂熱電子報！
+      - generic [ref=e35]:
+        - textbox "email" [ref=e36]:
+          - /placeholder: Enter your email
+        - button "訂閱" [ref=e38] [cursor=pointer]
+    - navigation [ref=e39]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - link "homepage, graphic, Fanatical logo" [ref=e45] [cursor=pointer]:
+            - /url: /zh-hant/
+          - combobox [ref=e48]:
+            - generic [ref=e49]:
+              - textbox "search" [ref=e50]:
+                - /placeholder: 搜尋個人電腦、Mac、Linux遊戲
+              - link "Search" [ref=e51] [cursor=pointer]:
+                - /url: /zh-hant/search
+                - button "Search" [ref=e52]:
+                  - img [ref=e53]
+          - list [ref=e55]:
+            - listitem [ref=e56] [cursor=pointer]:
+              - button "登入" [ref=e59]
+              - link "Wishlist" [ref=e61]:
+                - /url: /zh-hant/wishlist
+                - img [ref=e62]
+                - generic [ref=e64]: "0"
+              - link "Cart" [ref=e66]:
+                - /url: /zh-hant/cart
+                - img [ref=e67]
+                - generic [ref=e69]: "0"
+                - generic [ref=e70]: US$0.00
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - link "discover, dropdown" [ref=e76] [cursor=pointer]:
+              - /url: /zh-hant/search
+              - text: 發現
+            - link "categories, dropdown" [ref=e79] [cursor=pointer]:
+              - /url: /zh-hant/categories
+              - text: 類別
+            - link "bundles, dropdown" [ref=e82] [cursor=pointer]:
+              - /url: /zh-hant/bundle
+              - text: 捆綁包
+            - link "即將舉行的比賽" [ref=e84] [cursor=pointer]:
+              - /url: /zh-hant/upcoming-games
+            - link "最新發行" [ref=e85] [cursor=pointer]:
+              - /url: /zh-hant/new-releases
+            - link "神秘" [ref=e86] [cursor=pointer]:
+              - /url: /zh-hant/mystery
+            - link "fantasyverse, dropdown" [ref=e88] [cursor=pointer]:
+              - /url: /zh-hant/fantasyverse
+              - text: FantasyVerse
+            - link "主打優惠" [ref=e90] [cursor=pointer]:
+              - /url: /zh-hant/game/resident-evil-requiem
+              - generic [ref=e91]: 主打優惠
+          - link "支援" [ref=e93] [cursor=pointer]:
+            - /url: https://support.fanatical.com/hc/zh-tw
+        - region
+  - generic [ref=e94]:
+    - banner [ref=e95]:
+      - link "Red Hot Sale Home Page W1" [ref=e97] [cursor=pointer]:
+        - /url: /zh-hant/on-sale
+        - img "Red Hot Sale Home Page W1" [ref=e98]
+      - link "Red Hot Sale Home Page W1" [ref=e99] [cursor=pointer]:
+        - /url: /zh-hant/on-sale
+        - img "Red Hot Sale Home Page W1" [ref=e100]
+    - button "免費獎勵！消費滿額即可獲得！ US$15.00 單筆訂單即可獲贈免費遊戲或優惠券！點擊了解更多" [ref=e101] [cursor=pointer]:
+      - generic [ref=e102]:
+        - text: 免費獎勵！消費滿額即可獲得！
+        - generic [ref=e103]: US$15.00
+        - text: 單筆訂單即可獲贈免費遊戲或優惠券！點擊了解更多
+    - main [ref=e104]:
+      - generic [ref=e105]:
+        - heading "特色優惠" [level=2] [ref=e106]
+        - generic [ref=e109]:
+          - generic [ref=e111]:
+            - generic [ref=e113]:
+              - article [ref=e115]:
+                - link "Product cover for Bandai Namco Deals Bandai Namco Deals" [ref=e116] [cursor=pointer]:
+                  - /url: /zh-hant/publishers/bandai-namco-entertainment
+                  - generic [ref=e117]:
+                    - img "Product cover for Bandai Namco Deals" [ref=e120]
+                    - generic [ref=e121]: Bandai Namco Deals
+                - generic [ref=e122]:
+                  - generic [ref=e124]: Bandai Namco Deals
+                  - generic [ref=e125]: "包括： Tales of Xillia Remastered, PAC-MAN WORLD 2 Re-PAC, ONE PIECE: PIRATE WARRIORS 4 Legendary Edition 和更多。"
+                  - generic [ref=e126]:
+                    - link "View" [ref=e128] [cursor=pointer]:
+                      - /url: /zh-hant/publishers/bandai-namco-entertainment
+                      - img "View" [ref=e130]
+                    - generic [ref=e132]: 出版商銷售
+              - generic [ref=e133]:
+                - article [ref=e135]:
+                  - link "Product cover for Movember Father's Day Charity Bundle (2026) Movember Father's Day Charity Bundle (2026)" [ref=e136] [cursor=pointer]:
+                    - /url: /zh-hant/bundle/movember-fathers-day-charity-bundle-2026
+                    - generic [ref=e137]:
+                      - img "Product cover for Movember Father's Day Charity Bundle (2026)" [ref=e140]
+                      - generic [ref=e141]: Movember Father's Day Charity Bundle (2026)
+                  - generic [ref=e143]:
+                    - generic [ref=e144]:
+                      - generic [ref=e146]: 31 天 剩餘
+                      - link "View" [ref=e147] [cursor=pointer]:
+                        - /url: /zh-hant/bundle/movember-fathers-day-charity-bundle-2026
+                        - img "View" [ref=e149]
+                    - img "steam logo" [ref=e153]
+                - article [ref=e155]:
+                  - generic [ref=e158]: Star Deal
+                  - link "Product cover for Resident Evil Requiem Resident Evil Requiem" [ref=e161] [cursor=pointer]:
+                    - /url: /zh-hant/game/resident-evil-requiem
+                    - generic [ref=e162]:
+                      - img "Product cover for Resident Evil Requiem" [ref=e165]
+                      - generic [ref=e166]: Resident Evil Requiem
+                  - generic [ref=e168]:
+                    - generic [ref=e169]:
+                      - generic [ref=e170]:
+                        - generic "33 percent off" [ref=e172]: "-33%"
+                        - generic [ref=e173]:
+                          - generic "Original price 69.99 USD" [ref=e174]: US$69.99
+                          - text: US$46.89
+                      - button "Add To Cart" [ref=e175] [cursor=pointer]:
+                        - img "Add To Cart" [ref=e177]
+                    - img "steam logo" [ref=e181]
+                - article [ref=e183]:
+                  - link "Capcom Deals Capcom Deals" [ref=e184] [cursor=pointer]:
+                    - /url: /zh-hant/publishers/capcom
+                    - generic [ref=e185]:
+                      - img "Capcom Deals" [ref=e188]
+                      - generic [ref=e189]: Capcom Deals
+                  - generic [ref=e191]:
+                    - link "View" [ref=e193] [cursor=pointer]:
+                      - /url: /zh-hant/publishers/capcom
+                      - img "View" [ref=e195]
+                    - generic [ref=e197]: 出版商銷售
+                - article [ref=e199]:
+                  - link "Product cover for Build your own Signature Collection Build your own Signature Collection" [ref=e200] [cursor=pointer]:
+                    - /url: /zh-hant/pick-and-mix/build-your-own-signature-collection
+                    - generic [ref=e201]:
+                      - img "Product cover for Build your own Signature Collection" [ref=e204]
+                      - generic [ref=e205]: Build your own Signature Collection
+                  - generic [ref=e207]:
+                    - generic [ref=e208]:
+                      - generic [ref=e210]: 30 天 剩餘
+                      - link "View" [ref=e211] [cursor=pointer]:
+                        - /url: /zh-hant/pick-and-mix/build-your-own-signature-collection
+                        - img "View" [ref=e213]
+                    - img "steam logo" [ref=e217]
+            - generic [ref=e219]:
+              - article [ref=e221]:
+                - link "Product cover for World's Edge Deals World's Edge Deals" [ref=e222] [cursor=pointer]:
+                  - /url: /zh-hant/franchises/age-of-empires
+                  - generic [ref=e223]:
+                    - img "Product cover for World's Edge Deals" [ref=e226]
+                    - generic [ref=e227]: World's Edge Deals
+                - generic [ref=e228]:
+                  - generic [ref=e230]: World's Edge Deals
+                  - generic [ref=e231]: "包括： Age of Empires II: Definitive Edition, Age of Empires IV: Anniversary Edition, Age of Mythology: Retold Premium Edition 和更多。"
+                  - generic [ref=e232]:
+                    - link "View" [ref=e234] [cursor=pointer]:
+                      - /url: /zh-hant/franchises/age-of-empires
+                      - img "View" [ref=e236]
+                    - generic [ref=e238]: 特許經營
+              - generic [ref=e239]:
+                - article [ref=e241]:
+                  - link "Product cover for 2K Deals 2K Deals" [ref=e242] [cursor=pointer]:
+                    - /url: /zh-hant/publishers/2k-games
+                    - generic [ref=e243]:
+                      - img "Product cover for 2K Deals" [ref=e246]
+                      - generic [ref=e247]: 2K Deals
+                  - generic [ref=e249]:
+                    - link "View" [ref=e251] [cursor=pointer]:
+                      - /url: /zh-hant/publishers/2k-games
+                      - img "View" [ref=e253]
+                    - generic [ref=e255]: 出版商銷售
+                - article [ref=e257]:
+                  - link "Product cover for Steam Deck Verified Deals Steam Deck Verified Deals" [ref=e258] [cursor=pointer]:
+                    - /url: /zh-hant/steam-deck-games
+                    - generic [ref=e259]:
+                      - img "Product cover for Steam Deck Verified Deals" [ref=e262]
+                      - generic [ref=e263]: Steam Deck Verified Deals
+                  - generic [ref=e265]:
+                    - link "View" [ref=e267] [cursor=pointer]:
+                      - /url: /zh-hant/steam-deck-games
+                      - img "View" [ref=e269]
+                    - generic [ref=e271]: 類別銷售
+                - article [ref=e273]:
+                  - link "Product cover for VIP Mystery Bundle - Bethesda Edition VIP Mystery Bundle - Bethesda Edition" [ref=e274] [cursor=pointer]:
+                    - /url: /zh-hant/bundle/vip-mystery-bundle-bethesda-edition
+                    - generic [ref=e275]:
+                      - img "Product cover for VIP Mystery Bundle - Bethesda Edition" [ref=e278]
+                      - generic [ref=e279]: VIP Mystery Bundle - Bethesda Edition
+                  - generic [ref=e281]:
+                    - generic [ref=e282]:
+                      - generic "Now 5.59 USD" [ref=e285]:
+                        - generic [ref=e286]: 起始價
+                        - text: US$5.59
+                      - button "Add To Cart" [ref=e287] [cursor=pointer]:
+                        - img "Add To Cart" [ref=e289]
+                    - img "steam logo" [ref=e293]
+                - article [ref=e295]:
+                  - link "Product cover for Marvelous Europe Deals Marvelous Europe Deals" [ref=e296] [cursor=pointer]:
+                    - /url: /zh-hant/publishers/marvelous-europe
+                    - generic [ref=e297]:
+                      - img "Product cover for Marvelous Europe Deals" [ref=e300]
+                      - generic [ref=e301]: Marvelous Europe Deals
+                  - generic [ref=e303]:
+                    - link "View" [ref=e305] [cursor=pointer]:
+                      - /url: /zh-hant/publishers/marvelous-europe
+                      - img "View" [ref=e307]
+                    - generic [ref=e309]: 出版商銷售
+          - button "Previous" [disabled] [ref=e311] [cursor=pointer]:
+            - img "Previous" [ref=e312]
+          - button "Next" [ref=e315] [cursor=pointer]:
+            - img "Next" [ref=e316]
+          - generic [ref=e318]:
+            - button "Go to slide 1 of 2" [ref=e319] [cursor=pointer]
+            - button "Go to slide 2 of 2" [ref=e321] [cursor=pointer]
+            - button "Go to slide 3 of 2" [ref=e323] [cursor=pointer]
+      - generic [ref=e327]:
+        - link "Trustpilot 4.5 stars 4.7 '優秀' (83,097 評論)" [ref=e328] [cursor=pointer]:
+          - /url: https://www.trustpilot.com/review/www.fanatical.com
+          - img "Trustpilot 4.5 stars" [ref=e330]
+          - generic [ref=e331]:
+            - text: 4.7 '優秀'
+            - generic [ref=e332]: (83,097 評論)
+        - generic [ref=e333]:
+          - generic [ref=e334]:
+            - generic [ref=e335]: 145M+
+            - generic [ref=e336]: 官方金鑰出售
+          - generic [ref=e337]:
+            - generic [ref=e338]: 16,000+
+            - generic [ref=e339]: 官方授權遊戲
+          - generic [ref=e340]:
+            - generic [ref=e341]: 1,800+
+            - generic [ref=e342]: 官方出版商
+          - generic [ref=e343]:
+            - generic [ref=e344]: 4M+
+            - generic [ref=e345]: 全球客戶
+      - generic [ref=e346]:
+        - heading "暢銷商品" [level=2] [ref=e348]
+        - generic [ref=e349]:
+          - generic [ref=e350]:
+            - button "所有產品" [ref=e351] [cursor=pointer]
+            - button "遊戲" [ref=e352] [cursor=pointer]
+            - button "遊戲捆綁包" [ref=e353] [cursor=pointer]
+            - button "書籍和漫畫" [ref=e354] [cursor=pointer]
+            - button "其他" [ref=e355] [cursor=pointer]
+          - link "檢視全部" [ref=e356] [cursor=pointer]:
+            - /url: /zh-hant/search
+        - list
+      - generic [ref=e403]:
+        - link "Product cover for Mystery Box Bundle" [ref=e405] [cursor=pointer]:
+          - /url: /zh-hant/bundle/mystery-box-bundle
+          - img "Product cover for Mystery Box Bundle" [ref=e408]
+        - generic [ref=e409]:
+          - generic [ref=e410]:
+            - img "mystery box bundle"
+          - generic [ref=e411]:
+            - button "1" [ref=e412] [cursor=pointer]
+            - button "5" [ref=e413] [cursor=pointer]
+            - button "10" [ref=e414] [cursor=pointer]
+            - button "15" [ref=e415] [cursor=pointer]
+            - button "20" [ref=e416] [cursor=pointer]
+            - button "25" [ref=e417] [cursor=pointer]
+          - generic [ref=e418]:
+            - generic [ref=e419]: 25神秘鑰匙 US$16.99
+            - button "新增到購物車" [ref=e421] [cursor=pointer]:
+              - img [ref=e423]
+              - generic [ref=e425]: 新增到購物車
+        - img "mystery box background" [ref=e427]
+  - contentinfo [ref=e448]:
+    - button "回到頂部" [ref=e451] [cursor=pointer]
+    - generic [ref=e454]:
+      - img "PayPal" [ref=e457]
+      - img "VISA" [ref=e460]
+      - img "Master Card" [ref=e463]
+      - img "Google Pay" [ref=e466]
+      - img "Apple Pay" [ref=e469]
+      - img "Alipay" [ref=e472]
+      - img "American Express" [ref=e475]
+      - img "Discover" [ref=e478]
+      - img "JCB" [ref=e481]
+      - img "ideal" [ref=e484]
+      - img "Cartes Bancaires" [ref=e487]
+      - img "UnionPay" [ref=e490]
+    - generic [ref=e491]:
+      - generic [ref=e492]:
+        - generic [ref=e493]:
+          - heading "瀏覽 類別" [level=2] [ref=e494]:
+            - generic [ref=e495]: 瀏覽
+            - text: 類別
+          - link "黑色星期五" [ref=e496] [cursor=pointer]:
+            - /url: /zh-hant/black-friday
+          - link "遊戲優惠" [ref=e497] [cursor=pointer]:
+            - /url: /zh-hant/on-sale
+          - link "捆綁包" [ref=e498] [cursor=pointer]:
+            - /url: /zh-hant/bundle
+          - link "所有遊戲" [ref=e499] [cursor=pointer]:
+            - /url: /zh-hant/all-games
+          - link "暢銷商品" [ref=e500] [cursor=pointer]:
+            - /url: /zh-hant/top-sellers
+          - link "最新優惠" [ref=e501] [cursor=pointer]:
+            - /url: /zh-hant/latest-deals
+          - link "最新發行" [ref=e502] [cursor=pointer]:
+            - /url: /zh-hant/new-releases
+          - link "即將舉行的比賽" [ref=e503] [cursor=pointer]:
+            - /url: /zh-hant/upcoming-games
+          - link "虛擬現實遊戲" [ref=e504] [cursor=pointer]:
+            - /url: /zh-hant/vr-games
+          - link "Steam 甲板遊戲" [ref=e505] [cursor=pointer]:
+            - /url: /zh-hant/steam-deck-games
+          - link "奇幻詩篇" [ref=e506] [cursor=pointer]:
+            - /url: /zh-hant/fantasyverse
+          - link "特許經營遊戲" [ref=e507] [cursor=pointer]:
+            - /url: /zh-hant/franchises
+          - link "遊戲如" [ref=e508] [cursor=pointer]:
+            - /url: /zh-hant/games-like
+          - link "禮品卡" [ref=e509] [cursor=pointer]:
+            - /url: /zh-hant/gift-cards
+          - link "免費遊戲" [ref=e510] [cursor=pointer]:
+            - /url: /zh-hant/free-to-play
+        - generic [ref=e511]:
+          - heading "遊戲類型" [level=2] [ref=e512]
+          - link "動作" [ref=e513] [cursor=pointer]:
+            - /url: /zh-hant/categories/action
+          - link "冒險" [ref=e514] [cursor=pointer]:
+            - /url: /zh-hant/categories/adventure
+          - link "日本動畫片" [ref=e515] [cursor=pointer]:
+            - /url: /zh-hant/categories/anime
+          - link "隨意的" [ref=e516] [cursor=pointer]:
+            - /url: /zh-hant/categories/casual
+          - link "合作" [ref=e517] [cursor=pointer]:
+            - /url: /zh-hant/categories/co-op
+          - link "賽車" [ref=e518] [cursor=pointer]:
+            - /url: /zh-hant/categories/racing
+          - link "角色扮演遊戲" [ref=e519] [cursor=pointer]:
+            - /url: /zh-hant/categories/rpg
+          - link "射手" [ref=e520] [cursor=pointer]:
+            - /url: /zh-hant/categories/fps
+          - link "模擬" [ref=e521] [cursor=pointer]:
+            - /url: /zh-hant/categories/simulation
+          - link "運動的" [ref=e522] [cursor=pointer]:
+            - /url: /zh-hant/categories/sports
+          - link "策略" [ref=e523] [cursor=pointer]:
+            - /url: /zh-hant/categories/strategy
+          - link "檢視全部" [ref=e524] [cursor=pointer]:
+            - /url: /zh-hant/categories
+        - generic [ref=e525]:
+          - heading "信息" [level=2] [ref=e526]
+          - link "關於狂熱" [ref=e527] [cursor=pointer]:
+            - /url: /zh-hant/about-us
+          - link "支援" [ref=e528] [cursor=pointer]:
+            - /url: https://support.fanatical.com/hc/zh-tw
+          - link "社群" [ref=e529] [cursor=pointer]:
+            - /url: /zh-hant/community
+          - link "狂熱瀏覽器擴充" [ref=e530] [cursor=pointer]:
+            - /url: /zh-hant/browser-extension
+          - link "Fanatical優惠券" [ref=e531] [cursor=pointer]:
+            - /url: /zh-hant/coupons-vouchers-codes
+          - link "發行合作夥伴" [ref=e532] [cursor=pointer]:
+            - /url: /zh-hant/publishers
+          - link "附屬合作夥伴" [ref=e533] [cursor=pointer]:
+            - /url: /zh-hant/affiliates
+          - link "兌換代碼" [ref=e534] [cursor=pointer]:
+            - /url: /zh-hant/redeem-code
+          - link "贈送遊戲" [ref=e535] [cursor=pointer]:
+            - /url: /zh-hant/gift-guide
+          - link "2025 年最佳遊戲" [ref=e536] [cursor=pointer]:
+            - /url: /zh-hant/best-games-of-2025
+        - generic [ref=e537]:
+          - generic [ref=e538]:
+            - heading "訂閱我們的新聞稿" [level=2] [ref=e539]
+            - generic [ref=e542]:
+              - textbox "email" [ref=e543]:
+                - /placeholder: 輸入你的電子郵箱
+              - button "報名" [ref=e545] [cursor=pointer]
+            - paragraph [ref=e546]:
+              - text: 您隨時可以透過新聞稿取消訂閱。訂閱我們的新聞稿即表示您同意我們的
+              - link "私隱權政策" [ref=e547] [cursor=pointer]:
+                - /url: https://www.fandom.com/privacy-policy
+              - text: 。
+          - generic [ref=e548]:
+            - heading "與狂熱者聯繫" [level=2] [ref=e549]
+            - generic [ref=e550]:
+              - link "Reddit, opens in a new tab" [ref=e552] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/fanatical/
+                - img "Reddit, opens in a new tab" [ref=e553]
+              - link "Facebook, opens in a new tab" [ref=e556] [cursor=pointer]:
+                - /url: https://www.facebook.com/wearefanatical
+                - img "Facebook, opens in a new tab" [ref=e557]
+              - link "X, opens in a new tab" [ref=e560] [cursor=pointer]:
+                - /url: https://twitter.com/fanatical
+                - img "X, opens in a new tab" [ref=e561]
+              - link "Discord, opens in a new tab" [ref=e564] [cursor=pointer]:
+                - /url: https://fant.cl/Discord
+                - img "Discord, opens in a new tab" [ref=e565]
+              - link "Steam, opens in a new tab" [ref=e568] [cursor=pointer]:
+                - /url: https://steamcommunity.com/groups/wearefanatical
+                - img "Steam, opens in a new tab" [ref=e569]
+              - link "YouTube, opens in a new tab" [ref=e572] [cursor=pointer]:
+                - /url: https://www.youtube.com/wearefanatical
+                - img "YouTube, opens in a new tab" [ref=e573]
+              - link "Instagram, opens in a new tab" [ref=e576] [cursor=pointer]:
+                - /url: https://www.instagram.com/wearefanatical/
+                - img "Instagram, opens in a new tab" [ref=e577]
+      - generic [ref=e580]:
+        - link "Trustpilot 4.5 stars 被我們的客戶評為「優秀」。 基於 83,097 條評論" [ref=e583] [cursor=pointer]:
+          - /url: https://www.trustpilot.com/review/www.fanatical.com
+          - img "Trustpilot 4.5 stars" [ref=e585]
+          - generic [ref=e586]:
+            - text: 被我們的客戶評為「優秀」。
+            - generic [ref=e587]: 基於 83,097 條評論
+        - generic [ref=e588]:
+          - button "輕主題" [ref=e589] [cursor=pointer]:
+            - generic [ref=e590]:
+              - img [ref=e592]
+              - generic [ref=e594]: 輕主題
+          - button "語" [ref=e595] [cursor=pointer]:
+            - generic [ref=e596]: 語
+            - img [ref=e597]
+    - generic [ref=e601]:
+      - link "Fandom Fanatical 是 Fandom 系列的一部分。" [ref=e604] [cursor=pointer]:
+        - /url: https://www.fandom.com/what-is-fandom
+        - img "Fandom" [ref=e606]
+        - generic [ref=e607]: Fanatical 是 Fandom 系列的一部分。
+      - generic [ref=e609]:
+        - text: © 2026 Focus Multimedia Ltd. 保留一切權利。 所有商標均為各自所有者的財產。
+        - link "條款和條件" [ref=e610] [cursor=pointer]:
+          - /url: https://support.fanatical.com/hc/zh-tw/articles/115005056629-Terms-and-Conditions
+        - text: /
+        - link "私隱權政策" [ref=e611] [cursor=pointer]:
+          - /url: https://www.fandom.com/privacy-policy
+        - text: /
+        - link "餅乾政策" [ref=e612] [cursor=pointer]:
+          - /url: /zh-hant/cookie-policy
+        - text: /
+        - link "無障礙聲明" [ref=e613] [cursor=pointer]:
+          - /url: https://support.fanatical.com/hc/en-us/articles/19478777630738-Accessibility-Statement

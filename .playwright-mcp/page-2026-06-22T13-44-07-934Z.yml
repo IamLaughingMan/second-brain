@@ -1,0 +1,468 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - navigation [ref=e4]:
+        - generic [ref=e5]:
+          - link "GroupBuya 優惠/著數/優惠碼搜索平台" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "GroupBuya 優惠/著數/優惠碼搜索平台" [ref=e7]
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - button " 著數" [ref=e11] [cursor=pointer]
+              - text:             
+            - listitem [ref=e12]:
+              - button " 優惠碼" [ref=e13] [cursor=pointer]
+              - text:                          
+            - listitem [ref=e14]:
+              - button " 優惠" [ref=e15] [cursor=pointer]
+              - text:              
+            - listitem [ref=e16]:
+              - button " 酒店" [ref=e17] [cursor=pointer]
+              - text:                   
+            - listitem [ref=e18]:
+              - button " 理財" [ref=e19] [cursor=pointer]
+            - listitem [ref=e20]:
+              - button " 現金回贈" [ref=e21] [cursor=pointer]
+              - text:                     
+            - listitem [ref=e22]:
+              - button "" [ref=e23] [cursor=pointer]:
+                - generic [ref=e24]: 
+            - listitem [ref=e25]:
+              - button "會員" [ref=e26] [cursor=pointer]
+    - generic [ref=e28]:
+      - generic [ref=e30]:
+        - paragraph [ref=e31]: 著數 · Jetso · 每日更新
+        - generic [ref=e32]:
+          - heading "著數/jetso/著數網" [level=1] [ref=e33]
+          - generic [ref=e34]:
+            - link " 分享" [ref=e36] [cursor=pointer]:
+              - /url: https://api.whatsapp.com/send?text=%E9%A6%99%E6%B8%AF%E8%91%97%E6%95%B8%EF%BD%9CJetso+%E5%84%AA%E6%83%A0%E6%83%85%E5%A0%B1+2026%E5%B9%B46%E6%9C%88%E6%9B%B4%E6%96%B0+-+GroupBuya%0Ahttps%3A%2F%2Fwww.groupbuya.com%2Fjetso
+            - link " 分享" [ref=e38] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.groupbuya.com%2F&quote=%E9%A6%99%E6%B8%AF%E8%91%97%E6%95%B8%EF%BD%9CJetso+%E5%84%AA%E6%83%A0%E6%83%85%E5%A0%B1+2026%E5%B9%B46%E6%9C%88%E6%9B%B4%E6%96%B0+-+GroupBuya%0Ahttps%3A%2F%2Fwww.groupbuya.com%2Fjetso
+            - link " 複製" [ref=e40] [cursor=pointer]:
+              - /url: "#"
+      - region "著數使用指南" [ref=e43]:
+        - button "如何使用 GroupBuya 著數" [ref=e44] [cursor=pointer]:
+          - heading "如何使用 GroupBuya 著數" [level=2] [ref=e45]
+          - generic [ref=e46]: 
+      - list [ref=e50]:
+        - listitem [ref=e51]:
+          - link " 著數" [ref=e52] [cursor=pointer]:
+            - /url: /jetso
+            - generic [ref=e53]: 
+            - text: 著數
+        - listitem [ref=e54]:
+          - link " 優惠碼" [ref=e55] [cursor=pointer]:
+            - /url: /promocode
+            - generic [ref=e56]: 
+            - text: 優惠碼
+        - listitem [ref=e57]:
+          - link " 優惠" [ref=e58] [cursor=pointer]:
+            - /url: /groupbuy
+            - generic [ref=e59]: 
+            - text: 優惠
+        - listitem [ref=e60]:
+          - link " 酒店" [ref=e61] [cursor=pointer]:
+            - /url: /hotels
+            - generic [ref=e62]: 
+            - text: 酒店
+        - listitem [ref=e63]:
+          - link " 理財比較" [ref=e64] [cursor=pointer]:
+            - /url: /travel-insurance
+            - generic [ref=e65]: 
+            - text: 理財比較
+        - listitem [ref=e66]:
+          - link " 現金回贈" [ref=e67] [cursor=pointer]:
+            - /url: /cashback
+            - generic [ref=e68]: 
+            - text: 現金回贈
+      - generic [ref=e69]:
+        - generic [ref=e72]:
+          - article [ref=e73]:
+            - generic [ref=e74]:
+              - heading " 搜索 " [level=6] [ref=e75]:
+                - button " 搜索 " [ref=e76] [cursor=pointer]:
+                  - generic [ref=e77]: 
+                  - text: 搜索
+                  - generic [ref=e78]: 
+              - generic [ref=e79]:
+                - checkbox "And Logic" [checked] [ref=e80]
+                - generic [ref=e81]: And Logic
+                - link "" [ref=e82] [cursor=pointer]:
+                  - /url: /jetso
+                  - generic [ref=e83]: 
+            - generic [ref=e85]:
+              - combobox [ref=e88]:
+                - list [ref=e89]:
+                  - listitem [ref=e90]:
+                    - textbox "搜索..." [ref=e91]
+              - generic [ref=e92]:
+                - text: "熱門搜尋:"
+                - link "信用卡情報" [ref=e93] [cursor=pointer]:
+                  - /url: /jetso/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%83%85%E5%A0%B1
+                - link "開倉" [ref=e94] [cursor=pointer]:
+                  - /url: /jetso/%E9%96%8B%E5%80%89
+                - link "香港迪士尼樂園" [ref=e95] [cursor=pointer]:
+                  - /url: /groupbuy/%E9%A6%99%E6%B8%AF%E8%BF%AA%E5%A3%AB%E5%B0%BC%E6%A8%82%E5%9C%92
+                - link "自助餐" [ref=e96] [cursor=pointer]:
+                  - /url: /groupbuy/自助餐,香港
+                - link "迎新優惠" [ref=e97] [cursor=pointer]:
+                  - /url: /promocode/%E8%BF%8E%E6%96%B0%E5%84%AA%E6%83%A0
+                - link "旅遊保險" [ref=e98] [cursor=pointer]:
+                  - /url: /promocode/%E6%97%85%E9%81%8A%E4%BF%9D%E9%9A%AA
+                - link "香港海洋公園" [ref=e99] [cursor=pointer]:
+                  - /url: /groupbuy/%E9%A6%99%E6%B8%AF%E6%B5%B7%E6%B4%8B%E5%85%AC%E5%9C%92
+                - link "獨家優惠" [ref=e100] [cursor=pointer]:
+                  - /url: /groupbuy/%E7%8D%A8%E5%AE%B6%E5%84%AA%E6%83%A0?sort=_date
+          - article [ref=e101]:
+            - heading " 分類 " [level=6] [ref=e103]:
+              - button " 分類 " [ref=e104] [cursor=pointer]:
+                - generic [ref=e105]: 
+                - text: 分類
+                - generic [ref=e106]: 
+            - tablist [ref=e108]:
+              - listitem [ref=e109]:
+                - link " 保險" [ref=e110] [cursor=pointer]:
+                  - /url: /jetso/%E4%BF%9D%E9%9A%AA#secfilter
+                  - generic [ref=e111]: 
+                  - text: 保險
+              - listitem [ref=e112]:
+                - link " 美食" [ref=e113] [cursor=pointer]:
+                  - /url: /jetso/%E7%BE%8E%E9%A3%9F#secfilter
+                  - generic [ref=e114]: 
+                  - text: 美食
+              - listitem [ref=e115]:
+                - link " 旅遊" [ref=e116] [cursor=pointer]:
+                  - /url: /jetso/%E6%97%85%E9%81%8A#secfilter
+                  - generic [ref=e117]: 
+                  - text: 旅遊
+              - listitem [ref=e118]:
+                - link " 購物" [ref=e119] [cursor=pointer]:
+                  - /url: /jetso/%E8%B3%BC%E7%89%A9#secfilter
+                  - generic [ref=e120]: 
+                  - text: 購物
+              - listitem [ref=e121]:
+                - link " 自助餐" [ref=e122] [cursor=pointer]:
+                  - /url: /jetso/%E8%87%AA%E5%8A%A9%E9%A4%90#secfilter
+                  - generic [ref=e123]: 
+                  - text: 自助餐
+              - listitem [ref=e124]:
+                - link " 開倉" [ref=e125] [cursor=pointer]:
+                  - /url: /jetso/%E9%96%8B%E5%80%89#secfilter
+                  - generic [ref=e126]: 
+                  - text: 開倉
+              - listitem [ref=e127]:
+                - link " 信用卡" [ref=e128] [cursor=pointer]:
+                  - /url: /jetso/%E4%BF%A1%E7%94%A8%E5%8D%A1#secfilter
+                  - generic [ref=e129]: 
+                  - text: 信用卡
+              - listitem [ref=e130]:
+                - link " 美容" [ref=e131] [cursor=pointer]:
+                  - /url: /jetso/%E7%BE%8E%E5%AE%B9#secfilter
+                  - generic [ref=e132]: 
+                  - text: 美容
+              - listitem [ref=e133]:
+                - link " 電訊" [ref=e134] [cursor=pointer]:
+                  - /url: /jetso/%E9%9B%BB%E8%A8%8A#secfilter
+                  - generic [ref=e135]: 
+                  - text: 電訊
+              - listitem [ref=e136]:
+                - link " 集運" [ref=e137] [cursor=pointer]:
+                  - /url: /jetso/%E9%9B%86%E9%81%8B#secfilter
+                  - generic [ref=e138]: 
+                  - text: 集運
+              - listitem [ref=e139]:
+                - link " 理財" [ref=e140] [cursor=pointer]:
+                  - /url: /jetso/%E7%90%86%E8%B2%A1#secfilter
+                  - generic [ref=e141]: 
+                  - text: 理財
+              - listitem [ref=e142]:
+                - link " 瀏覽記錄" [ref=e143] [cursor=pointer]:
+                  - /url: /jetso/%E7%80%8F%E8%A6%BD%E8%A8%98%E9%8C%84#secfilter
+                  - generic [ref=e144]: 
+                  - text: 瀏覽記錄
+              - listitem [ref=e145]:
+                - link " 我的最愛" [ref=e146] [cursor=pointer]:
+                  - /url: /jetso/%E6%88%91%E7%9A%84%E6%9C%80%E6%84%9B#secfilter
+                  - generic [ref=e147]: 
+                  - text: 我的最愛
+          - article [ref=e148]:
+            - heading " 篩選 " [level=6] [ref=e150]:
+              - button " 篩選 " [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]: 
+                - text: 篩選
+                - generic [ref=e153]: 
+        - generic [ref=e155]:
+          - generic: 
+          - generic [ref=e156]:
+            - link "細圖" [ref=e158] [cursor=pointer]:
+              - /url: /jetso?out=s
+            - 'button " 排序: 預設" [ref=e160] [cursor=pointer]':
+              - generic [ref=e161]: 
+              - text: "排序: 預設"
+      - generic [ref=e162]:
+        - generic [ref=e164]:
+          - link "「智在遊」保險計劃 - 單次旅程保障35%保費折扣 或 全年保障25%保費折扣" [ref=e167] [cursor=pointer]:
+            - /url: https://www.bluecross.com.hk/ch/Travel-Smart/Application?utm_source=Groupbuya&utm_medium=Banner&utm_campaign=TRAVEL_Easter23&utm_content=Listing
+            - generic [ref=e168]:
+              - img "「智在遊」保險計劃 - 單次旅程保障35%保費折扣 或 全年保障25%保費折扣" [ref=e169]
+              - text: 
+          - link "家居至專寶保費75折" [ref=e172] [cursor=pointer]:
+            - /url: https://www.bluecross.com.hk/ch/HomeSafe-Protection-Insurance/Application?utm_source=Groupbuya&utm_medium=Banner&utm_campaign=GI1H2023&utm_content=Listing
+            - generic [ref=e173]:
+              - img "家居至專寶保費75折" [ref=e174]
+              - text: 
+          - generic [ref=e176]:
+            - link "2026年旅遊保險優惠碼一覽/比較/最平旅遊保險/旅遊保險攻略/手機/平板/手提電腦保障 比較! 2026年旅遊保險優惠碼一覽/比較/最平旅遊保險/旅遊保險攻略/手機/平板/手提電腦保障 比較!" [ref=e177] [cursor=pointer]:
+              - /url: /jetso/290249-%E6%97%85%E9%81%8A%E4%BF%9D%E9%9A%AA%E5%84%AA%E6%83%A0%E7%A2%BC%E4%B8%80%E8%A6%BD-%E6%AF%94%E8%BC%83-%E6%9C%80%E5%B9%B3%E6%97%85%E9%81%8A%E4%BF%9D%E9%9A%AA
+              - generic [ref=e178]:
+                - img "2026年旅遊保險優惠碼一覽/比較/最平旅遊保險/旅遊保險攻略/手機/平板/手提電腦保障 比較!" [ref=e179]
+                - text: 
+              - heading "2026年旅遊保險優惠碼一覽/比較/最平旅遊保險/旅遊保險攻略/手機/平板/手提電腦保障 比較!" [level=3] [ref=e180]
+            - generic [ref=e181]:
+              - generic [ref=e182]: 04月03日
+              - link "保險情報" [ref=e183] [cursor=pointer]:
+                - /url: /jetso/%E4%BF%9D%E9%9A%AA%E6%83%85%E5%A0%B1
+          - generic [ref=e185]:
+            - link "【最新著數之選】 【最新著數之選】" [ref=e186] [cursor=pointer]:
+              - /url: /jetso/553190-7-Eleven-%E6%9C%80%E6%96%B0%E8%91%97%E6%95%B8%E4%B9%8B%E9%81%B8
+              - generic [ref=e187]:
+                - img "【最新著數之選】" [ref=e188]
+                - text: 
+              - heading "【最新著數之選】" [level=3] [ref=e189]
+            - generic [ref=e190]:
+              - generic [ref=e191]: 06月22日
+              - link "7-Eleven" [ref=e192] [cursor=pointer]:
+                - /url: /jetso/7-Eleven
+          - generic [ref=e194]:
+            - link "珠海長隆橫琴3日2夜慳錢套票旅遊攻略 珠海長隆橫琴3日2夜慳錢套票旅遊攻略" [ref=e195] [cursor=pointer]:
+              - /url: /jetso/487511-%E7%8E%A9%E6%A8%82%E6%83%85%E5%A0%B1-%E7%8F%A0%E6%B5%B7%E9%95%B7%E9%9A%86%E6%A9%AB%E7%90%B43%E6%97%A52%E5%A4%9C
+              - generic [ref=e196]:
+                - img "珠海長隆橫琴3日2夜慳錢套票旅遊攻略" [ref=e197]
+                - text: 
+              - heading "珠海長隆橫琴3日2夜慳錢套票旅遊攻略" [level=3] [ref=e198]
+            - generic [ref=e199]:
+              - generic [ref=e200]: 06月22日
+              - link "玩樂情報" [ref=e201] [cursor=pointer]:
+                - /url: /jetso/%E7%8E%A9%E6%A8%82%E6%83%85%E5%A0%B1
+          - generic [ref=e204]:
+            - insertion
+          - generic [ref=e206]:
+            - link "【yuu~會員限定 搶買1送1優惠券】至28/6/2026 【yuu~會員限定 搶買1送1優惠券】至28/6/2026" [ref=e207] [cursor=pointer]:
+              - /url: /jetso/553168-KFC-%E8%82%AF%E5%BE%B7%E5%9F%BA-yuu
+              - generic [ref=e208]:
+                - img "【yuu~會員限定 搶買1送1優惠券】至28/6/2026" [ref=e209]
+                - text: 
+              - heading "【yuu~會員限定 搶買1送1優惠券】至28/6/2026" [level=3] [ref=e210]
+            - generic [ref=e211]:
+              - generic [ref=e212]: 06月22日
+              - link "KFC 肯德基" [ref=e213] [cursor=pointer]:
+                - /url: /jetso/KFC+%E8%82%AF%E5%BE%B7%E5%9F%BA
+          - generic [ref=e215]:
+            - link "【指定外賣自取 買二送一】至25/6/2026 【指定外賣自取 買二送一】至25/6/2026" [ref=e216] [cursor=pointer]:
+              - /url: /jetso/553169-%E5%A3%BD%E5%8F%B8%E9%83%8E-Sushiro-%E6%8C%87%E5%AE%9A%E5%A4%96%E8%B3%A3%E8%87%AA%E5%8F%96
+              - generic [ref=e217]:
+                - img "【指定外賣自取 買二送一】至25/6/2026" [ref=e218]
+                - text: 
+              - heading "【指定外賣自取 買二送一】至25/6/2026" [level=3] [ref=e219]
+            - generic [ref=e220]:
+              - generic [ref=e221]: 06月22日
+              - link "壽司郎 Sushiro" [ref=e222] [cursor=pointer]:
+                - /url: /jetso/%E5%A3%BD%E5%8F%B8%E9%83%8E+Sushiro
+          - generic [ref=e224]:
+            - link "【Let&#039;s Share! 滋味分享盒 套餐優惠價$49】 【Let's Share! 滋味分享盒 套餐優惠價$49】" [ref=e225] [cursor=pointer]:
+              - /url: /jetso/553184-%E9%BA%A5%E7%95%B6%E5%8B%9E-%E6%BB%8B%E5%91%B3%E6%99%82%E5%88%BB%E7%94%B1%E6%9C%9D%E6%97%A9%E5%BB%B6%E7%BA%8C%E5%88%B0
+              - generic [ref=e226]:
+                - img "【Let&#039;s Share! 滋味分享盒 套餐優惠價$49】" [ref=e227]
+                - text: 
+              - heading "【Let's Share! 滋味分享盒 套餐優惠價$49】" [level=3] [ref=e228]
+            - generic [ref=e229]:
+              - generic [ref=e230]: 06月22日
+              - link "麥當勞" [ref=e231] [cursor=pointer]:
+                - /url: /jetso/%E9%BA%A5%E7%95%B6%E5%8B%9E
+          - generic [ref=e233]:
+            - link "【必試價小食】至28/6/2026 【必試價小食】至28/6/2026" [ref=e234] [cursor=pointer]:
+              - /url: /jetso/553170-%E8%AD%9A%E4%BB%94%E4%B8%89%E5%93%A5%E7%B1%B3%E7%B7%9A-%E5%BF%85%E8%A9%A6%E5%83%B9%E5%B0%8F%E9%A3%9F
+              - generic [ref=e235]:
+                - img "【必試價小食】至28/6/2026" [ref=e236]
+                - text: 
+              - heading "【必試價小食】至28/6/2026" [level=3] [ref=e237]
+            - generic [ref=e238]:
+              - generic [ref=e239]: 06月22日
+              - link "譚仔三哥米線" [ref=e240] [cursor=pointer]:
+                - /url: /jetso/%E8%AD%9A%E4%BB%94%E4%B8%89%E5%93%A5%E7%B1%B3%E7%B7%9A
+          - generic [ref=e242]:
+            - link "香港機場快線票價比較/格價三大購票平台 - Airport Express 香港機場快線票價比較/格價三大購票平台 - Airport Express" [ref=e243] [cursor=pointer]:
+              - /url: /jetso/478530-%E8%91%97%E6%95%B8%E6%83%85%E5%A0%B1-%E9%A6%99%E6%B8%AF%E6%A9%9F%E5%A0%B4%E5%BF%AB%E7%B7%9A%E7%A5%A8%E5%83%B9%E6%AF%94%E8%BC%83
+              - generic [ref=e244]:
+                - img "香港機場快線票價比較/格價三大購票平台 - Airport Express" [ref=e245]
+                - text: 
+              - heading "香港機場快線票價比較/格價三大購票平台 - Airport Express" [level=3] [ref=e246]
+            - generic [ref=e247]:
+              - generic [ref=e248]: 06月22日
+              - link "著數情報" [ref=e249] [cursor=pointer]:
+                - /url: /jetso/%E8%91%97%E6%95%B8%E6%83%85%E5%A0%B1
+          - generic [ref=e252]:
+            - insertion
+          - generic [ref=e254]:
+            - link "【元気網購快閃優惠 特上嚴選壽司盛75折 (至26/6/2026) | 《我的英雄學院》開播10周年限定餐目及禮品登場】 【元気網購快閃優惠 特上嚴選壽司盛75折 (至26/6/2026) | 《我的英雄學院》開播10周年限定餐目及禮品登場】" [ref=e255] [cursor=pointer]:
+              - /url: /jetso/553188-%E5%85%83%E6%B0%A3%E5%A3%BD%E5%8F%B8-%E5%85%83%E6%B0%97%E7%B6%B2%E8%B3%BC%E5%BF%AB%E9%96%83%E5%84%AA%E6%83%A0
+              - generic [ref=e256]:
+                - img "【元気網購快閃優惠 特上嚴選壽司盛75折 (至26/6/2026) | 《我的英雄學院》開播10周年限定餐目及禮品登場】" [ref=e257]
+                - text: 
+              - heading "【元気網購快閃優惠 特上嚴選壽司盛75折 (至26/6/2026) | 《我的英雄學院》開播10周年限定餐目及禮品登場】" [level=3] [ref=e258]
+            - generic [ref=e259]:
+              - generic [ref=e260]: 06月22日
+              - link "元氣壽司" [ref=e261] [cursor=pointer]:
+                - /url: /jetso/%E5%85%83%E6%B0%A3%E5%A3%BD%E5%8F%B8
+          - generic [ref=e263]:
+            - link "【Club 100會員開心星期二 | $99四重芝士焗肉醬意粉＋港式咖喱 】23/6/2026 【Club 100會員開心星期二 | $99四重芝士焗肉醬意粉＋港式咖喱 】23/6/2026" [ref=e264] [cursor=pointer]:
+              - /url: /jetso/553187-%E5%A4%A7%E5%AE%B6%E6%A8%82-Caf%C3%A9-de-Coral-Club
+              - generic [ref=e265]:
+                - img "【Club 100會員開心星期二 | $99四重芝士焗肉醬意粉＋港式咖喱 】23/6/2026" [ref=e266]
+                - text: 
+              - heading "【Club 100會員開心星期二 | $99四重芝士焗肉醬意粉＋港式咖喱 】23/6/2026" [level=3] [ref=e267]
+            - generic [ref=e268]:
+              - generic [ref=e269]: 06月22日
+              - link "大家樂 Café de Coral" [ref=e270] [cursor=pointer]:
+                - /url: /jetso/%E5%A4%A7%E5%AE%B6%E6%A8%82+Caf%C3%A9+de+Coral
+          - generic [ref=e272]:
+            - link "【今 期 勁 筍 推 介】22/6 ~ 5/7/2026 【今 期 勁 筍 推 介】22/6 ~ 5/7/2026" [ref=e273] [cursor=pointer]:
+              - /url: /jetso/553189-759-%E9%98%BF%E4%BF%A1%E5%B1%8B-%E4%BB%8A
+              - generic [ref=e274]:
+                - img "【今 期 勁 筍 推 介】22/6 ~ 5/7/2026" [ref=e275]
+                - text: 
+              - heading "【今 期 勁 筍 推 介】22/6 ~ 5/7/2026" [level=3] [ref=e276]
+            - generic [ref=e277]:
+              - generic [ref=e278]: 06月22日
+              - link "759 阿信屋" [ref=e279] [cursor=pointer]:
+                - /url: /jetso/759+%E9%98%BF%E4%BF%A1%E5%B1%8B
+          - generic [ref=e281]:
+            - link "【樂賞會 x AIG】會員專享免費首六個月大灣區意外保險 賺1,680積分 【樂賞會 x AIG】會員專享免費首六個月大灣區意外保險 賺1,680積分" [ref=e282] [cursor=pointer]:
+              - /url: /jetso/553171-%E6%98%93%E8%B3%9E%E9%8C%A2-%E6%A8%82%E8%B3%9E%E6%9C%83
+              - generic [ref=e283]:
+                - img "【樂賞會 x AIG】會員專享免費首六個月大灣區意外保險 賺1,680積分" [ref=e284]
+                - text: 
+              - heading "【樂賞會 x AIG】會員專享免費首六個月大灣區意外保險 賺1,680積分" [level=3] [ref=e285]
+            - generic [ref=e286]:
+              - generic [ref=e287]: 06月22日
+              - link "易賞錢" [ref=e288] [cursor=pointer]:
+                - /url: /jetso/%E6%98%93%E8%B3%9E%E9%8C%A2
+          - generic [ref=e290]:
+            - link "【解渴至Cool價：均一 $10區】至1/7/2026 【解渴至Cool價：均一 $10區】至1/7/2026" [ref=e291] [cursor=pointer]:
+              - /url: /jetso/553191-OK%E4%BE%BF%E5%88%A9%E5%BA%97-%E8%A7%A3%E6%B8%B4%E8%87%B3Cool%E5%83%B9
+              - generic [ref=e292]:
+                - img "【解渴至Cool價：均一 $10區】至1/7/2026" [ref=e293]
+                - text: 
+              - heading "【解渴至Cool價：均一 $10區】至1/7/2026" [level=3] [ref=e294]
+            - generic [ref=e295]:
+              - generic [ref=e296]: 06月22日
+              - link "OK便利店" [ref=e297] [cursor=pointer]:
+                - /url: /jetso/OK%E4%BE%BF%E5%88%A9%E5%BA%97
+          - generic [ref=e300]:
+            - insertion
+          - generic [ref=e302]:
+            - link "【誠品銅鑼灣店】C.H. Jewelry尋光新櫃開幕 珠寶鑽戒9折 【誠品銅鑼灣店】C.H. Jewelry尋光新櫃開幕 珠寶鑽戒9折" [ref=e303] [cursor=pointer]:
+              - /url: /jetso/553174-%E8%AA%A0%E5%93%81%E9%A6%99%E6%B8%AF-%E8%AA%A0%E5%93%81%E9%8A%85%E9%91%BC%E7%81%A3%E5%BA%97
+              - generic [ref=e304]:
+                - img "【誠品銅鑼灣店】C.H. Jewelry尋光新櫃開幕 珠寶鑽戒9折" [ref=e305]
+                - text: 
+              - heading "【誠品銅鑼灣店】C.H. Jewelry尋光新櫃開幕 珠寶鑽戒9折" [level=3] [ref=e306]
+            - generic [ref=e307]:
+              - generic [ref=e308]: 06月22日
+              - link "誠品香港" [ref=e309] [cursor=pointer]:
+                - /url: /jetso/%E8%AA%A0%E5%93%81%E9%A6%99%E6%B8%AF
+          - generic [ref=e311]:
+            - link "壽司郎 Sushiro：外賣自取優惠（至25/6）" [ref=e312] [cursor=pointer]:
+              - /url: /jetso/553175-%E5%A3%BD%E5%8F%B8%E9%83%8E-Sushiro-%E5%A4%96%E8%B3%A3%E8%87%AA%E5%8F%96%E5%84%AA%E6%83%A0
+              - generic [ref=e314]:
+                - generic [ref=e315]: 
+                - generic [ref=e316]: 壽司郎 Sushiro
+              - heading "壽司郎 Sushiro：外賣自取優惠（至25/6）" [level=3] [ref=e317]
+            - generic [ref=e318]:
+              - generic [ref=e319]: 06月22日
+              - link "壽司郎 Sushiro" [ref=e320] [cursor=pointer]:
+                - /url: /jetso/%E5%A3%BD%E5%8F%B8%E9%83%8E+Sushiro
+          - generic [ref=e322]:
+            - link "【美思工房】直播限定優惠 攪拌碗套裝低至$108 樣板低至$20 【美思工房】直播限定優惠 攪拌碗套裝低至$108 樣板低至$20" [ref=e323] [cursor=pointer]:
+              - /url: /jetso/553186-%E7%BE%8E%E6%80%9D%E5%B7%A5%E6%88%BF-%E7%9B%B4%E6%92%AD%E9%99%90%E5%AE%9A%E5%84%AA%E6%83%A0
+              - generic [ref=e324]:
+                - img "【美思工房】直播限定優惠 攪拌碗套裝低至$108 樣板低至$20" [ref=e325]
+                - text: 
+              - heading "【美思工房】直播限定優惠 攪拌碗套裝低至$108 樣板低至$20" [level=3] [ref=e326]
+            - generic [ref=e327]:
+              - generic [ref=e328]: 06月22日
+              - link "美思工房" [ref=e329] [cursor=pointer]:
+                - /url: /jetso/%E7%BE%8E%E6%80%9D%E5%B7%A5%E6%88%BF
+          - generic [ref=e331]:
+            - link "7-Eleven：最新優惠（至26/6）" [ref=e332] [cursor=pointer]:
+              - /url: /jetso/553176-7-Eleven-%E6%9C%80%E6%96%B0%E5%84%AA%E6%83%A0
+              - generic [ref=e334]:
+                - generic [ref=e335]: 
+                - generic [ref=e336]: 7-Eleven
+              - heading "7-Eleven：最新優惠（至26/6）" [level=3] [ref=e337]
+            - generic [ref=e338]:
+              - generic [ref=e339]: 06月22日
+              - link "7-Eleven" [ref=e340] [cursor=pointer]:
+                - /url: /jetso/7-Eleven
+          - generic [ref=e342]:
+            - link "【雅蘭床褥】香港家居博覽2026 會場限定護脊床褥低至$2,399起 免費登記送門票 【雅蘭床褥】香港家居博覽2026 會場限定護脊床褥低至$2,399起 免費登記送門票" [ref=e343] [cursor=pointer]:
+              - /url: /jetso/553172-%E9%9B%85%E8%98%AD%E5%BA%8A%E8%A4%A5-%E9%A6%99%E6%B8%AF%E5%AE%B6%E5%B1%85%E5%8D%9A%E8%A6%BD2026
+              - generic [ref=e344]:
+                - img "【雅蘭床褥】香港家居博覽2026 會場限定護脊床褥低至$2,399起 免費登記送門票" [ref=e345]
+                - text: 
+              - heading "【雅蘭床褥】香港家居博覽2026 會場限定護脊床褥低至$2,399起 免費登記送門票" [level=3] [ref=e346]
+            - generic [ref=e347]:
+              - generic [ref=e348]: 06月22日
+              - link "雅蘭床褥" [ref=e349] [cursor=pointer]:
+                - /url: /jetso/%E9%9B%85%E8%98%AD%E5%BA%8A%E8%A4%A5
+          - generic [ref=e351]:
+            - link "【商務印書館】尖沙咀圖書中心五周年慶 正價圖書文具85折 精選低至5折 【商務印書館】尖沙咀圖書中心五周年慶 正價圖書文具85折 精選低至5折" [ref=e352] [cursor=pointer]:
+              - /url: /jetso/553185-%E5%95%86%E5%8B%99%E5%8D%B0%E6%9B%B8%E9%A4%A8-%E5%B0%96%E6%B2%99%E5%92%80%E5%9C%96%E6%9B%B8%E4%B8%AD%E5%BF%83%E4%BA%94%E5%91%A8%E5%B9%B4
+              - generic [ref=e353]:
+                - img "【商務印書館】尖沙咀圖書中心五周年慶 正價圖書文具85折 精選低至5折" [ref=e354]
+                - text: 
+              - heading "【商務印書館】尖沙咀圖書中心五周年慶 正價圖書文具85折 精選低至5折" [level=3] [ref=e355]
+            - generic [ref=e356]:
+              - generic [ref=e357]: 06月22日
+              - link "商務印書館" [ref=e358] [cursor=pointer]:
+                - /url: /jetso/%E5%95%86%E5%8B%99%E5%8D%B0%E6%9B%B8%E9%A4%A8
+          - generic [ref=e360]:
+            - link "【屯門愛定商場新店開幕！ 首388位顧客送元気購物袋 + 5日限定壽司優惠】至25/6/2026 【屯門愛定商場新店開幕！ 首388位顧客送元気購物袋 + 5日限定壽司優惠】至25/6/2026" [ref=e361] [cursor=pointer]:
+              - /url: /jetso/553162-%E5%85%83%E6%B0%A3%E5%A3%BD%E5%8F%B8-%E5%B1%AF%E9%96%80%E6%84%9B%E5%AE%9A%E5%95%86%E5%A0%B4%E6%96%B0%E5%BA%97%E9%96%8B%E5%B9%95
+              - generic [ref=e362]:
+                - img "【屯門愛定商場新店開幕！ 首388位顧客送元気購物袋 + 5日限定壽司優惠】至25/6/2026" [ref=e363]
+                - text: 
+              - heading "【屯門愛定商場新店開幕！ 首388位顧客送元気購物袋 + 5日限定壽司優惠】至25/6/2026" [level=3] [ref=e364]
+            - generic [ref=e365]:
+              - generic [ref=e366]: 06月21日
+              - link "元氣壽司" [ref=e367] [cursor=pointer]:
+                - /url: /jetso/%E5%85%83%E6%B0%A3%E5%A3%BD%E5%8F%B8
+          - generic [ref=e369]:
+            - link "【即換即買 | 換7仔現金券買雪糕Sweet住過父親節】 【即換即買 | 換7仔現金券買雪糕Sweet住過父親節】" [ref=e370] [cursor=pointer]:
+              - /url: /jetso/553151-7-Eleven-%E5%8D%B3%E6%8F%9B%E5%8D%B3%E8%B2%B7
+              - generic [ref=e371]:
+                - img "【即換即買 | 換7仔現金券買雪糕Sweet住過父親節】" [ref=e372]
+                - text: 
+              - heading "【即換即買 | 換7仔現金券買雪糕Sweet住過父親節】" [level=3] [ref=e373]
+            - generic [ref=e374]:
+              - generic [ref=e375]: 06月21日
+              - link "7-Eleven" [ref=e376] [cursor=pointer]:
+                - /url: /jetso/7-Eleven
+          - generic [ref=e378]:
+            - link "【大家樂 X DREYER’S® 限時加配優惠加$11 歎美國開心果扭紋脆筒】 【大家樂 X DREYER’S® 限時加配優惠加$11 歎美國開心果扭紋脆筒】" [ref=e379] [cursor=pointer]:
+              - /url: /jetso/553161-%E5%A4%A7%E5%AE%B6%E6%A8%82-Caf%C3%A9-de-Coral-%E5%A4%A7%E5%AE%B6%E6%A8%82
+              - generic [ref=e380]:
+                - img "【大家樂 X DREYER’S® 限時加配優惠加$11 歎美國開心果扭紋脆筒】" [ref=e381]
+                - text: 
+              - heading "【大家樂 X DREYER’S® 限時加配優惠加$11 歎美國開心果扭紋脆筒】" [level=3] [ref=e382]
+            - generic [ref=e383]:
+              - generic [ref=e384]: 06月21日
+              - link "大家樂 Café de Coral" [ref=e385] [cursor=pointer]:
+                - /url: /jetso/%E5%A4%A7%E5%AE%B6%E6%A8%82+Caf%C3%A9+de+Coral
+        - status [ref=e389]:
+          - generic [ref=e390]: Loading...
+  - contentinfo [ref=e391]:
+    - status [ref=e395]:
+      - generic [ref=e396]: Loading...
+  - text: 

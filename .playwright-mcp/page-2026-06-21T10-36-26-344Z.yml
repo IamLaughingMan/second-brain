@@ -1,0 +1,337 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e6]:
+          - link "Mobile01":
+            - /url: tourindex.php
+            - img "Mobile01" [ref=e7] [cursor=pointer]
+          - generic [ref=e8]: 悅遊日本
+        - generic [ref=e9]:
+          - link [ref=e10] [cursor=pointer]:
+            - /url: "#"
+          - link [ref=e11] [cursor=pointer]:
+            - /url: "#"
+      - navigation [ref=e12]:
+        - generic [ref=e13]:
+          - list [ref=e14]:
+            - listitem [ref=e15]:
+              - link "討論區" [ref=e16] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e17]:
+              - link "小惡魔市集" [ref=e18] [cursor=pointer]:
+                - /url: /marketindex.php
+            - listitem [ref=e19]:
+              - link "悅遊日本" [ref=e20] [cursor=pointer]:
+                - /url: "#"
+          - list [ref=e24]:
+            - listitem [ref=e25]:
+              - link "首頁" [ref=e26] [cursor=pointer]:
+                - /url: /tourindex.php
+            - listitem [ref=e27]:
+              - link "關東" [ref=e28] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e29]:
+              - link "近畿" [ref=e30] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e31]:
+              - link "中國" [ref=e32] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e33]:
+              - link "九州" [ref=e34] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e35]:
+              - link "北海道" [ref=e36] [cursor=pointer]:
+                - /url: /tourlist.php?cid=12
+            - listitem [ref=e37]:
+              - link "沖繩" [ref=e38] [cursor=pointer]:
+                - /url: /tourlist.php?cid=7
+            - listitem [ref=e39]:
+              - link "中部" [ref=e40] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e41]:
+              - link "東北" [ref=e42] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e43]:
+              - link "四國" [ref=e44] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=e45]:
+        - generic [ref=e47]: 搜尋
+        - generic [ref=e50]:
+          - textbox "關鍵字" [ref=e51]
+          - link "搜尋" [ref=e52] [cursor=pointer]:
+            - /url: /toursearch.php
+    - main [ref=e53]:
+      - generic [ref=e57]:
+        - list [ref=e59]:
+          - listitem [ref=e60]:
+            - link "悅遊日本" [ref=e61] [cursor=pointer]:
+              - /url: tourindex.php
+          - listitem [ref=e62]:
+            - link "綜合" [ref=e63] [cursor=pointer]:
+              - /url: tourlist.php?cid=4
+          - listitem [ref=e64]:
+            - link "綜合" [ref=e65] [cursor=pointer]:
+              - /url: tourlist.php?cid=4&aid=22
+        - iframe [ref=e69]:
+          
+        - generic [ref=e70]:
+          - heading "來日本就是要吃草莓！日本人氣草莓＆稀有種類介紹以及草莓的美味吃法分享！" [level=1] [ref=e72]
+          - list [ref=e74]:
+            - listitem [ref=e75]:
+              - generic [ref=e77]: "18954"
+            - listitem [ref=e78]:
+              - generic [ref=e80] [cursor=pointer]:
+                - checkbox "0" [ref=e81]
+                - text: "0"
+            - listitem [ref=e83]:
+              - generic [ref=e86]: 回覆
+            - listitem [ref=e87]:
+              - link [ref=e89] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e93]:
+              - img "悅遊日本" [ref=e96]
+              - generic [ref=e97]:
+                - generic [ref=e98]: 悅遊日本
+                - generic [ref=e99]: 11563分
+              - generic [ref=e100]:
+                - generic [ref=e101]: 樓主
+                - generic [ref=e102]: 2020-02-24 10:51
+            - generic [ref=e103]:
+              - article [ref=e104]:
+                - generic [ref=e105]:
+                  - img [ref=e106]
+                  - text: 在日本冬季眾多水果當中，草莓可說是最吸引人的，除了它鮮嫩欲滴頗具魅力的外表外，那甜美多汁的滋味中帶著微微的酸味與迷人的香氣更是大家喜愛的地方。此外用新鮮草莓製作的各式甜點也非常吸引人，這篇文章要介紹日本人氣草莓種類、稀有品種以及草莓的美味吃法，來日本就是要吃草莓啊！
+                  - strong [ref=e107]
+                  - strong [ref=e108]: 日本草莓品種圖鑑
+                  - img [ref=e109]
+                  - img [ref=e110]
+                  - text: 照片來源～
+                  - link "https://www.zenrin.co.jp/magazine/160127/" [ref=e111] [cursor=pointer]:
+                    - /url: https://www.zenrin.co.jp/magazine/160127/
+                  - text: 據日本農林水產省官網的資料顯示，日本的草莓品種竟然多達300多種，其中光是在市面上流通的也有50多種。請看上面的圖片可以發現從南到北日本47都道府縣中就有這麼多的地方盛產草莓，而光是一個茨城縣竟有15個品種，德島縣也有11種。每一個品種都有自己的名字，每一個名字聽起來還真美呢！
+                  - img [ref=e112]
+                  - text: 照片來源～
+                  - link "https://ichigo.walkerplus.com/topics/article/134363/" [ref=e113] [cursor=pointer]:
+                    - /url: https://ichigo.walkerplus.com/topics/article/134363/
+                  - text: 上面這張照片顯示的是各個品種的特性，愈上面的品種是在市面上愈容易看到的，而愈下面的則是稀有品種，例如茨城縣的桃薫（とうくん）是一款淡顏色偏粉白的草莓，吃起來就像水蜜桃一樣散發出淡雅的水蜜桃香甜味，但產量卻極其稀少。另外分布在右側的草莓是偏甜的，左側則是偏酸，例如右上角靜岡縣的章姫（あきひめ）就是市面上常見且偏甜的品種。
+                  - img [ref=e114]
+                  - text: 照片來源～
+                  - link "https://nlab.itmedia.co.jp/nl/articles/1801/15/news112.html" [ref=e115] [cursor=pointer]:
+                    - /url: https://nlab.itmedia.co.jp/nl/articles/1801/15/news112.html
+                  - text: 另外上面這張照片是「築地ドットコム」公布28種大家比較熟悉的草莓品種斷面圖，以柔軟度和外觀圓胖或細尖形來區別，例如新瀉縣產的越後姬口感特別柔軟，在採摘與販賣的過程中很容易被擠壞，讓農民們花費了不少心思。栃木縣的栃木少女（とちおとめ）和福岡縣的甘王（あまおう）都是口感較硬的種類，也是市面上流通量頗大的草莓。愈往上排列的草莓是外觀比較細尖形的，而愈往下的品種則是外型比較圓潤的草莓，可見得每一個品種都有自己不同的個性。
+                  - strong [ref=e116]: 市面上最常見的四大草莓品種
+                  - img [ref=e117]
+                  - img [ref=e118]
+                  - img [ref=e119]
+                  - img [ref=e120]
+                  - text: 根據東京中央批發市場的統計，栃木縣的栃木少女（とちおとめ）、福岡縣的甘王（あまおう）、靜岡縣的紅臉頰（べにほっぺ）和佐賀縣的佐賀穗香（さがほのか）是市面上流通量最大的四個品種，因此大家去日本超市裡看到的草莓大多也是這四個種類居多。超市是最方便與價格合理的草莓購買之處，通常一盒約400～900日幣之間，如果要品嘗高級且精心嚴選過的草莓，建議可以到高級水果專賣店或百貨公司裡的水果販賣區，當然價位可能就不是很便宜囉。
+                  - img [ref=e121]
+                  - img [ref=e122]
+                  - text: 甘王あまおう↑
+                  - img [ref=e123]
+                  - text: 栃木少女とちおとめ↑
+                  - text: 有「草莓國王」之稱的福岡甘王，外觀圓潤保滿，有時還可以看到驚人的超大顆尺寸。鮮嫩欲滴的外表非常討喜，雖然價位比較高一點，但它甜美多汁、甜中帶著微微的酸味是眾多消費者喜愛的品種，許多甜點也會標榜採用甘王為材料來做宣傳。關東地區市占率第一的栃木少女，相比之下尺寸偏小，外觀屬於細長型，但它小巧可愛的模樣、酸味較重與價格便宜的特色也有一群廣大的愛好者。
+                  - img [ref=e124]
+                  - img [ref=e125]
+                  - text: 靜岡縣的紅臉頰べにほっぺ↑
+                  - img [ref=e126]
+                  - text: 佐賀穗香さがほのか↑
+                  - text: 靜岡縣的紅臉頰在外觀和果肉上都呈現濃郁的鮮紅色，好像少女紅潤的臉頰般，因此有如此可愛的名稱叫做紅臉頰。它是一款各方面都平衡得剛剛好的品種，如果大家仔細查看上面的品種圖鑑會發現它幾乎都在中間的位置。甜度酸度剛剛好、軟硬度適中，連外觀也是不會太圓也不會太細長，可說是一款講求中庸之道的草莓。另外佐賀縣的佐賀穗香和甘王一樣同樣屬於九州來的草莓，但它顆粒較小、肉色偏白，吃起來有一種清爽淡雅的內斂風味。在包裝上常常可以看到可愛的人偶莉香娃娃，除了吸引小朋友的注意力外也喚起了主婦群小時候的回憶，可說是一種推銷手法。
+                  - strong [ref=e127]
+                  - strong [ref=e128]: 稀有難入手的草莓品種
+                  - img [ref=e129]
+                  - img [ref=e130]
+                  - text: 初戀之香 初恋の香り↑
+                  - text: 照片來源～
+                  - link "https://www.quil-fait-bon.com/menu/detail.php?tsp=1&tmn=251" [ref=e131] [cursor=pointer]:
+                    - /url: https://www.quil-fait-bon.com/menu/detail.php?tsp=1&tmn=251
+                  - text: 白色的草莓算是非常稀有難入手的品種，通常價位也頗高，其中一款偶爾可以在日本超市裡看到的是名叫淡雪（あわゆき）的白草莓，熊本縣產。此外，山梨縣產的初戀之香（初恋の香り）是一款傳說中的夢幻白草莓，據說是日本耗費20年才成功研發出世上第一款的白色草莓。白裡透著淡淡的粉紅色，看起來清純潔白的模樣，吃起來就像初戀中青澀的滋味，因而名字也取得非常浪漫。但每年出產的數量實在是太有限了，筆者只有在好幾年前的蛋糕塔專賣店QUIL FAIT BON看過它的真面目。
+                  - img [ref=e132]
+                  - img [ref=e133]
+                  - text: 另外如果幸運的話也可以在網路上訂購到一些稀有的夢幻草莓，這款德島縣產的幸之香（べにかつら）是さちのか這個知名品種的新品牌，為了迎合近年來大家瘋狂的德島桃莓（ももいちご）和櫻桃桃莓（さくらももいちご）而培育出來的。利用名產地「勝占」的專業栽培技術栽種出來的幸之香，一盒20粒卻要價4000多日幣，但其濃郁香醇的甜美風味出類拔萃讓人一吃難忘。通常さちのか此品種的草莓是屬於嬌小型的，可是開發出來的幸之香卻奇大無比，請看上面照片中和一般草莓相比就馬上見真章了。
+                  - img [ref=e134]
+                  - img [ref=e135]
+                  - text: 再介紹一款價格超級親民的夢幻稀有草莓，一年只有一次販賣的機會，但只要一開放就秒殺完賣，唯有在盛產季節親自到現場購買可能還有一些機會可以品嘗，那就是「伊賀の里モクモク草莓」。每年約在六月的時候播下種子，九月的時候定植分配溫室，十月中會開花，11月底開始採摘，花一個月的時間慢慢手工採摘收成，所以一年只開放一次網路購買。本來還在納悶為什麼會這麼難訂，後來筆者吃到後著實被它超級甜美多汁的滋味所驚艷，而且一盒才700日幣而已！
+                  - strong [ref=e136]: 草莓的美味吃法
+                  - img
+                  - img
+                  - img
+                  - text: 大家在吃草莓的時候最常從尖端開始吃起，其實尖端是草莓最甜的部位，建議若從蒂端開始吃會有漸入佳境、愈吃愈甜的感覺喔。通常直接吃就很美味了，還可以淋上煉乳一起享用更甜美。日本人從小也知道還可以加在牛奶中用湯匙壓碎後變成草莓牛奶，這裡還有販賣專門用來擠壓草莓的湯匙喔。另外再告訴大家一個更棒的吃法，那就是冷凍起來吃別有一番風味，尤其像草莓這種很快會熟透的水果，冷凍保存也可以延長賞味期限。筆者會在蒂頭的地方挖一個小洞，將煉乳擠進去後再用保鮮膜包起來放進冷凍庫裡，這樣拿出來的時候就是一個自家手做的草莓甜點冰品，大人小孩都很愛，家中有客人來的時候很適合拿出來當點心。當然草莓更是許多甜點的魅力食材之一，拿來做成各種點心絕對會讓人眼睛一亮的。
+                  - table [ref=e137]:
+                    - rowgroup [ref=e138]:
+                      - row "結語" [ref=e139]:
+                        - cell "結語" [ref=e140]:
+                          - generic [ref=e141]: 結語
+                  - img
+                  - img
+                  - text: 每年一月到五月是草莓的盛產季節，建議這段期間來日本旅遊的朋友們一定要到超市裡買幾盒草莓來品嘗一番，另外百貨公司和水果專賣店裡也可以吃得到高級嚴選的草莓。另外除了新鮮草莓外，各式各樣的草莓甜點也不能錯過喔，如果大家有興趣的話，下一集就來介紹日本必吃的草莓甜點吧！
+                  - text: 圖．文／大塚太太
+              - generic [ref=e142]: 2020-02-28 9:00 發佈
+            - list [ref=e144]:
+              - listitem [ref=e145]:
+                - generic [ref=e147]: "18954"
+              - listitem [ref=e148]:
+                - generic [ref=e150] [cursor=pointer]:
+                  - checkbox "0" [ref=e151]
+                  - text: "0"
+              - listitem [ref=e153]:
+                - generic [ref=e156]: 回覆
+              - listitem [ref=e157]:
+                - link [ref=e159] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e162]:
+            - generic [ref=e164]:
+              - img "glay730719" [ref=e167]
+              - generic [ref=e168]:
+                - generic [ref=e169]: glay730719
+                - generic [ref=e170]: 77分
+              - generic [ref=e171]:
+                - generic [ref=e172]: 2樓
+                - generic [ref=e173]: 2020-03-02 0:31
+            - article [ref=e175]: 實用喔!!
+            - list [ref=e177]:
+              - listitem [ref=e178]:
+                - generic [ref=e180] [cursor=pointer]:
+                  - checkbox "0" [ref=e181]
+                  - text: "0"
+              - listitem [ref=e183]:
+                - link "引言" [ref=e184] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e185]: 引言
+              - listitem [ref=e186]:
+                - link [ref=e188] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e189]:
+            - generic [ref=e191]:
+              - img "丹妮莉絲" [ref=e194]
+              - generic [ref=e195]:
+                - generic [ref=e196]: 丹妮莉絲
+                - generic [ref=e197]: 772分
+              - generic [ref=e198]:
+                - generic [ref=e199]: 3樓
+                - generic [ref=e200]: 2020-03-02 16:57
+            - article [ref=e202]: 筆記一下 明年再去日本
+            - list [ref=e204]:
+              - listitem [ref=e205]:
+                - generic [ref=e207] [cursor=pointer]:
+                  - checkbox "0" [ref=e208]
+                  - text: "0"
+              - listitem [ref=e210]:
+                - link "引言" [ref=e211] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e212]: 引言
+              - listitem [ref=e213]:
+                - link [ref=e215] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e216]:
+            - generic [ref=e218]:
+              - img "Michael Li" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Michael Li
+                - generic [ref=e224]: 35241分
+              - generic [ref=e225]:
+                - generic [ref=e226]: 4樓
+                - generic [ref=e227]: 2020-03-03 19:05
+            - article [ref=e229]:
+              - text: 曾吃過茨城縣的いばらキッス，真的超級超級超級好吃～～～～
+              - img "爽"
+              - link "【茨城之旅】現採現吃的草莓早餐Oarai Berry's" [ref=e230] [cursor=pointer]:
+                - /url: https://www.mobile01.com/tourdetail.php?id=484
+            - list [ref=e232]:
+              - listitem [ref=e233]:
+                - generic [ref=e235] [cursor=pointer]:
+                  - checkbox "0" [ref=e236]
+                  - text: "0"
+              - listitem [ref=e238]:
+                - link "引言" [ref=e239] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e240]: 引言
+              - listitem [ref=e241]:
+                - link [ref=e243] [cursor=pointer]:
+                  - /url: "#"
+      - dialog "cookieconsent" [ref=e246]:
+        - generic [ref=e247]:
+          - text: 為提供您更優質的服務，本網站使用cookies。若您繼續瀏覽網頁，即表示您同意我們的cookies政策。
+          - button "了解隱私權條款" [ref=e248] [cursor=pointer]
+        - button "close cookie message" [ref=e250] [cursor=pointer]: 我知道了！請關閉提示
+    - contentinfo [ref=e251]:
+      - generic [ref=e253]:
+        - list [ref=e254]:
+          - listitem [ref=e255]:
+            - link "更多服務" [ref=e256] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e257]: 更多服務
+          - listitem [ref=e258]:
+            - link "light mode" [ref=e260] [cursor=pointer]:
+              - /url: /
+              - img "light mode" [ref=e261]
+          - listitem [ref=e262]:
+            - link "dark mode" [ref=e264] [cursor=pointer]:
+              - /url: /
+              - img "dark mode" [ref=e265]
+          - listitem [ref=e266]:
+            - link "rss" [ref=e267] [cursor=pointer]:
+              - /url: /rss.php
+              - img "rss" [ref=e268]
+          - listitem [ref=e269]:
+            - link "home" [ref=e270] [cursor=pointer]:
+              - /url: /
+              - img "home" [ref=e271]
+        - list [ref=e272]:
+          - listitem [ref=e273]:
+            - link "加入VIP會員" [ref=e274] [cursor=pointer]:
+              - /url: /vipapply.php
+          - listitem [ref=e275]:
+            - link "站務回報" [ref=e276] [cursor=pointer]:
+              - /url: /forumtopic.php?c=9
+          - listitem [ref=e277]:
+            - link "檔案下載" [ref=e278] [cursor=pointer]:
+              - /url: /downloads.php
+          - listitem [ref=e279]:
+            - link "常問問題集" [ref=e280] [cursor=pointer]:
+              - /url: /faq.php
+          - listitem [ref=e281]:
+            - link "服務條款" [ref=e282] [cursor=pointer]:
+              - /url: /tos.php
+          - listitem [ref=e283]:
+            - link "隱私權政策" [ref=e284] [cursor=pointer]:
+              - /url: /privacy.php
+          - listitem [ref=e285]:
+            - link "合作與廣告" [ref=e286] [cursor=pointer]:
+              - /url: /proposal.php
+          - listitem [ref=e287]:
+            - link "聯絡我們" [ref=e288] [cursor=pointer]:
+              - /url: /contactus.php
+          - listitem [ref=e289]:
+            - link "工作機會" [ref=e290] [cursor=pointer]:
+              - /url: /jobs.php
+          - listitem [ref=e291]:
+            - link "線上會員" [ref=e292] [cursor=pointer]:
+              - /url: /memberlist.php
+          - listitem [ref=e293]:
+            - link "活動與報導" [ref=e294] [cursor=pointer]:
+              - /url: /specialevent.php
+          - listitem [ref=e295]:
+            - link "網站地圖" [ref=e296] [cursor=pointer]:
+              - /url: /sitemap.php
+        - generic [ref=e297]:
+          - link "Mobile01 facebook" [ref=e298] [cursor=pointer]:
+            - /url: https://www.facebook.com/TheMobile01
+            - img "Mobile01 facebook" [ref=e299]
+          - link "Mobile01 twitter" [ref=e300] [cursor=pointer]:
+            - /url: https://twitter.com/Mobile01Service
+            - img "Mobile01 twitter" [ref=e301]
+          - link "Mobile01 youtube" [ref=e302] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCUblDAHVdNEMhQ39ahmPFxA
+            - img "Mobile01 youtube" [ref=e303]
+          - link "Mobile01 iOS app" [ref=e304] [cursor=pointer]:
+            - /url: https://apps.apple.com/tw/app/mobile01/id444909583
+            - img "Mobile01 iOS app" [ref=e305]
+          - link "Mobile01 Android app" [ref=e306] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.mobile01.android.forum&hl=zh_TW
+            - img "Mobile01 Android app" [ref=e307]
+      - generic [ref=e309]: © 2026 Yong Sheng Technology Co., Ltd.
+  - status [ref=e310]

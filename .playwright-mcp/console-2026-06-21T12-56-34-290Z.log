@@ -1,0 +1,10 @@
+[    9740ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2 @ https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js:20
+[    9842ms] [LOG] heartbeats undefined @ https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js:2499
+[    9843ms] [LOG] heartbeats undefined @ https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js:2499
+[    9843ms] [LOG] heartbeats undefined @ https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js:2499
+[    9843ms] [LOG] heartbeats undefined @ https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js:2499
+[    9844ms] [LOG] heartbeats undefined @ https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js:2499
+[    9846ms] [LOG] Notification permission default. @ https://m.penana.com/home:3553
+[   15966ms] [LOG] Service Worker Registered @ https://m.penana.com/home:3427
+[   23799ms] [LOG] can install app @ https://m.penana.com/home:3654
+[   23801ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://m.penana.com/home:0

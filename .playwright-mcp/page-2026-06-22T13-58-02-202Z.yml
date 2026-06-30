@@ -1,0 +1,29 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "Menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Media Home" [ref=e9] [cursor=pointer]:
+          - /url: /appledaily
+          - button "Media Home" [ref=e10]:
+            - img "logo" [ref=e11]
+        - link "當年今日" [ref=e12] [cursor=pointer]:
+          - /url: /appledaily/history/2021
+          - button "當年今日" [ref=e13]
+        - button "Search" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - generic [ref=e19]:
+      - img "404icon" [ref=e20]
+      - heading "404 找不到" [level=2] [ref=e21]
+      - link "回到主頁" [ref=e23] [cursor=pointer]:
+        - /url: /
+        - button "回到主頁" [ref=e24]
+  - alert [ref=e25]
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"

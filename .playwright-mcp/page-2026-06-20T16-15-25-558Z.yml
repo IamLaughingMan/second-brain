@@ -1,0 +1,17 @@
+- iframe [active] [ref=e4]:
+  - dialog "验证码" [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - text: 安全验证
+      - button "关闭验证" [ref=f1e5] [cursor=pointer]
+    - generic [ref=f1e6]:
+      - generic "拖动下方滑块完成拼图" [ref=f1e9]
+      - generic [ref=f1e10]:
+        - generic [ref=f1e14]: 混元AI生成
+        - generic "拖动下方滑块完成拼图" [ref=f1e15] [cursor=pointer]:
+          - generic: "&nbsp;"
+          - img "slider"
+        - generic "拖动下方滑块完成拼图" [ref=f1e16] [cursor=pointer]
+        - generic "拖动下方滑块完成拼图" [ref=f1e17]
+      - generic [ref=f1e18]:
+        - button "问题反馈" [ref=f1e20] [cursor=pointer]
+        - button "刷新验证" [ref=f1e22] [cursor=pointer]

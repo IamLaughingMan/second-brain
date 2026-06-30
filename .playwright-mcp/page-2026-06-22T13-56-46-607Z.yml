@@ -1,0 +1,136 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - button "Menu" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+    - generic [ref=e11]:
+      - img "cover" [ref=e13]
+      - generic [ref=e14]:
+        - generic:
+          - img:
+            - img
+        - textbox "搜尋2,321,702篇舊聞..." [ref=e15]
+        - button "搜尋" [ref=e17] [cursor=pointer]
+    - generic [ref=e18]:
+      - heading "我們失去了甚麼？" [level=3] [ref=e20]
+      - generic [ref=e21]:
+        - tablist [ref=e22]:
+          - generic [ref=e24]:
+            - tab "蘋果日報 2021年6月23日" [selected] [ref=e25] [cursor=pointer]:
+              - generic [ref=e26]:
+                - generic [ref=e27]: 蘋果日報
+                - generic [ref=e28]: 2021年6月23日
+            - separator [ref=e29]
+            - tab "立場新聞 2021年12月29日" [ref=e30] [cursor=pointer]:
+              - generic [ref=e31]:
+                - generic [ref=e32]: 立場新聞
+                - generic [ref=e33]: 2021年12月29日
+        - tabpanel "蘋果日報 2021年6月23日" [ref=e35]:
+          - generic [ref=e37]:
+            - paragraph [ref=e39]: 《蘋果日報》創立於 1995 年，曾是香港其中一份最暢銷的中文報紙。2021 年，多名高層因政治原因被捕，香港政府以《港區國安法》凍結報館資金，迫使《蘋果日報》於 6 月 24 日凌晨停止營運。
+            - separator [ref=e40]
+            - generic [ref=e41]:
+              - paragraph [ref=e42]: 《果靈》一名，由唐君毅先生的「花果飄零，靈根自植」演變而來。
+              - paragraph [ref=e43]: 「果」是傳統中華文化，也是《蘋果日報》，更可以是香港人引以為傲的價值。
+              - paragraph [ref=e44]: 昔日，先賢守護著傳統文化，靈根植於香港。如今，香港人的本土文化、抗爭精神隨政府打壓、疫情、移民潮被迫飄零。
+              - paragraph [ref=e45]: 「靈」希望提醒香港人，我們並非失根的花果，我們的靈可以在每一個地方紮根，亦應該在每一顆心裏面生根發芽。
+              - paragraph [ref=e46]: 《蘋果》雖死，但我們每個人都可以有一株小小的蘋果苗。
+          - link "查閱所有文章" [ref=e48] [cursor=pointer]:
+            - /url: /appledaily
+            - button "查閱所有文章" [ref=e49]
+    - generic [ref=e50]:
+      - heading "關於我們" [level=3] [ref=e52]
+      - code [ref=e54]:
+        - paragraph [ref=e55]: 「文庫」（bibliothèque）一詞最早源於 19 世紀法國出版家路易·哈謝特，原指將不同的作品集合於一個標題下，並由一家出版社刊發。日本在明治時期後開始印刷袖珍尺寸的經典名著，引起多次文庫風潮。昭和以後，「文庫」（Bunko）成了廉價、便攜的小型普及讀物代名詞。
+        - paragraph [ref=e56]: 《聞庫》圖標中的一抹綠，是新聞自由燒不盡的生命力。如今，常見於報紙攤檔、茶樓食肆、巴士地鐵的香港報紙一份份消失。《聞庫》團隊以便攜的線上形式，打造保留香港新聞的資料庫。在面臨新聞自由、言論自由逐步縮窄的今天，避免香港的一部分重要歷史隨著《蘋果日報》的消失而被抹去。
+    - generic [ref=e57]:
+      - heading "你問我答" [level=3] [ref=e59]
+      - generic [ref=e60]:
+        - heading "你們是誰？" [level=4] [ref=e61]
+        - paragraph [ref=e62]: 一群希望保留香港歷史的香港人。
+        - heading "將《蘋果日報》等媒體的文章公開，會否造成麻煩？" [level=4] [ref=e63]
+        - paragraph [ref=e64]: 壹傳媒已被多次抄家，國安處一早已經搜集報章證據，我們不想再自設紅線，打一步退一步。
+        - paragraph [ref=e65]: 《聞庫》團隊與任何新聞媒體並無任何關係，所有內容版權仍歸版權持有者所有。如有相關人士、前員工或文章作者希望下架部分或全部內容，請電郵聯絡我們。
+        - heading "你們擔心國安法嗎？" [level=4] [ref=e66]
+        - paragraph [ref=e67]: 不擔心⋯⋯當然是假的。所以我們會保持匿名，亦不會接受任何捐款。
+        - heading "伺服器安全嗎？" [level=4] [ref=e68]
+        - paragraph [ref=e69]:
+          - text: 詳細技術架構已在
+          - link "GitHub" [ref=e70] [cursor=pointer]:
+            - /url: https://github.com/collection-news/collection-news
+          - text: 公開，有興趣者可自行瀏覽。
+        - heading "可以公開整理好的數據嗎？" [level=4] [ref=e71]
+        - paragraph [ref=e72]: 現有文章資源（合計 2,321,702 篇）已全數上傳，並已上傳超過 3,046,000 張圖片，但部分報導可能有未能讀取配圖的情況。
+        - paragraph [ref=e73]: 我們已開放源代碼（open source）和數據，假如《聞庫》因不可控因素被關閉，尚有一絲復活的希望。
+        - heading "可以加入搜尋功能嗎？" [level=4] [ref=e74]
+        - paragraph [ref=e75]: 本身《聞庫》期望利用Google索引功能，令用家可以搜尋到全部文章，但由於我們無法控制Google索引的演算法，所以一直未能索引全部文章。2025年12月已新增搜尋功能。現有的搜尋功能倚賴開源平台預設的中文分詞機制，所以用中文搜尋時，可能會有一些不完美的地方。未來會再作改善。
+        - heading "可以備份其他內容嗎？" [level=4] [ref=e76]
+        - paragraph [ref=e77]: 雖然我們不願看到更多新聞工作者被滅聲，但若有需要，在衡量有關內容的價值和團隊承擔能力後，將會持續更新。
+        - heading "我可否使用爬蟲工具備份你們的網站內容？" [level=4] [ref=e78]
+        - paragraph [ref=e79]: 不可！！！這種做法會令我們的伺服器產生負荷，內容供應商亦可能封鎖你。
+        - paragraph [ref=e80]:
+          - text: 《聞庫》團隊已公開整理好的數據到
+          - link "GitHub" [ref=e81] [cursor=pointer]:
+            - /url: https://github.com/collection-news/appledaily-archive-directory
+          - text: 。
+        - heading "我是開發者（developer），你們需要人手嗎？" [level=4] [ref=e82]
+        - paragraph [ref=e83]:
+          - text: 為保障團隊成員安全，我們暫時不會招募開發者。有興趣幫忙的朋友，所有源代碼（source code）已經上傳
+          - link "GitHub" [ref=e84] [cursor=pointer]:
+            - /url: https://github.com/collection-news/collection-news
+          - text: 。
+        - heading "網站是否靠點擊率盈利？" [level=4] [ref=e85]
+        - paragraph [ref=e86]: 《聞庫》團隊不為牟利，網站沒有任何廣告，點擊率不會帶來任何收入，我們正在自行承擔伺服器費用。
+        - heading "網站會否記錄使用者搜尋哪些關鍵字？" [level=4] [ref=e87]
+        - paragraph [ref=e88]: 網站從未記錄過任何使用者資訊，我們不會知道你搜尋過什麼關鍵字，請放心使用。
+        - heading "我想課金！伺服器要錢維護，你們真的不需要捐款嗎？" [level=4] [ref=e89]
+        - paragraph [ref=e90]: 團隊暫時可以自行承擔支出，有問題會自己解決。
+        - heading "2023 年 9 月，聞庫突然被下線，到底發生了什麼事？" [level=4] [ref=e91]
+        - paragraph [ref=e92]: 我們不時收到個別人士電郵要求刪除聞庫中保存的文章，但通常不會回應這些要求。
+        - paragraph [ref=e93]: 不幸的是，2023 年 9 月，我們收到了 Vercel（本網站服務提供者）的電郵，要求根據數位千禧年著作權法（Digital Millennium Copyright Act，下稱 DMCA）刪除一篇非政治相關文章。由於我們錯過了這封電子郵件，Vercel 關閉了聞庫。發現聞庫遭下線後，我們和 Vercel 密切合作，現時已刪除了該文章，以使網站恢復運作。儘管不情願，但這是我們第一次刪除文章。
+        - paragraph [ref=e94]: 事實上，DMCA 經常被濫用，例如在本次事件中，文章的版權所有者應為《蘋果日報》/壹傳媒集團，而非發起投訴、指責聞庫（或《蘋果日報》）誹謗的個別人士。聞庫無權決定哪些文章值得被保留、哪些不值得。我們開發聞庫的初心非常單純：保留一切。無論文章原本的政治立場為何、是否與政治相關，聞庫保留一切。我們不評斷文章的對錯、價值的高低，只為保留。
+        - heading "我有其他問題，如何聯絡你們？" [level=4] [ref=e95]
+        - paragraph [ref=e96]:
+          - text: 請電郵到
+          - link "info@collection.news" [ref=e97] [cursor=pointer]:
+            - /url: mailto:info@collection.news
+          - text: 。
+    - generic [ref=e99]:
+      - paragraph [ref=e100]:
+        - text: This software is released under the MIT License in
+        - link "GitHub" [ref=e101] [cursor=pointer]:
+          - /url: https://github.com/collection-news/collection-news
+        - text: . Logo the on this site is licensed under a Creative Commons
+        - link "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)" [ref=e102] [cursor=pointer]:
+          - /url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+        - text: . Next Digital Ltd. maintain the copyright of all the content of Apply Daily. Best Pencil (Hong Kong) Ltd. maintain the copyright of all the content of Stand News. For enquiries, please contact us at
+        - link "info@collection.news" [ref=e103] [cursor=pointer]:
+          - /url: mailto:info@collection.news
+        - text: .
+      - paragraph [ref=e104]:
+        - text: 本軟件在 MIT 許可證下發佈在
+        - link "GitHub" [ref=e105] [cursor=pointer]:
+          - /url: https://github.com/collection-news/collection-news
+        - text: ，而本網站上的徽標根據創用 CC
+        - link "姓名標示-非商業性-相同方式分享 4.0 國際 (CC BY-NC-SA 4.0)" [ref=e106] [cursor=pointer]:
+          - /url: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW
+        - text: 分享。「壹傳媒有限公司」保留《蘋果日報》所有內容的版權。「立場新聞信託」保留《立場新聞》所有內容的版權。如有查詢，請聯絡我們
+        - link "info@collection.news" [ref=e107] [cursor=pointer]:
+          - /url: mailto:info@collection.news
+        - text: 。
+      - generic [ref=e108]:
+        - link "Creative Commons License" [ref=e109] [cursor=pointer]:
+          - /url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+          - img "Creative Commons License" [ref=e110]
+        - link "GitHub repository" [ref=e111] [cursor=pointer]:
+          - /url: https://github.com/collection-news/collection-news
+          - button "GitHub repository" [ref=e112]:
+            - img [ref=e113]
+  - alert [ref=e115]
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"

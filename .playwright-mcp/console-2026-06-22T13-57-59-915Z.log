@@ -1,0 +1,3 @@
+[    1421ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://collection.news/appledaily/O2U2INCTKZDHJDKKYVO64UD3QI:0
+[    2251ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://collection.news/manifest.json:0
+[    2251ms] [ERROR] Manifest fetch from https://collection.news/manifest.json failed, code 403 @ https://collection.news/appledaily/O2U2INCTKZDHJDKKYVO64UD3QI:0

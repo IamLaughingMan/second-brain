@@ -1,0 +1,13 @@
+[   12313ms] [WARNING] [GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606150101/pubads_impl.js:18
+[   14437ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606150101/pubads_impl.js:18
+[   17795ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   20387ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://s0.2mdn.net/sadbundle/5785716881283659315/fonts/googlesanstext-medium-webfont.woff2 @ https://s0.2mdn.net/sadbundle/5785716881283659315/js/combined.js:8
+[   20387ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://s0.2mdn.net/sadbundle/5785716881283659315/fonts/GoogleSans-latin-subset-Medium.woff2 @ https://s0.2mdn.net/sadbundle/5785716881283659315/js/combined.js:8
+[   20947ms] [LOG] no video @ https://s0.2mdn.net/sadbundle/5785716881283659315/js/combined.js:8
+[   20948ms] [ERROR] Access denied: Cross-origin restriction. @ https://s0.2mdn.net/sadbundle/5785716881283659315/js/combined.js:8
+[   20949ms] [LOG] headlineLength 45 headlineLongestWord 9 @ https://s0.2mdn.net/sadbundle/5785716881283659315/js/combined.js:8
+[   26969ms] [WARNING] The resource https://attach2.mobile01.com/css/mobile-layout.css?t=1751005800 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://m.mobile01.com/tourdetail.php?id=2707:0
+[   34104ms] [WARNING] The resource https://attach2.mobile01.com/css/mobile-layout.css?t=1751005800 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://m.mobile01.com/tourdetail.php?id=2707:0
+[   43404ms] [WARNING] The resource https://attach2.mobile01.com/css/mobile-layout.css?t=1751005800 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://m.mobile01.com/tourdetail.php?id=2707:0

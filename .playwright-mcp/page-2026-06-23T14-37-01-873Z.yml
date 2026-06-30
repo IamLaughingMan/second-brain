@@ -1,0 +1,882 @@
+- generic [active] [ref=e1]:
+  - link "跳至主要內容" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: 跳至主要內容
+  - generic [ref=e6]:
+    - generic:
+      - generic [ref=e7]:
+        - generic: wallstreetbets
+      - banner [ref=e10]:
+        - navigation [ref=e11]:
+          - link "首頁" [ref=e15] [cursor=pointer]:
+            - /url: https://www.reddit.com/
+            - img [ref=e17]
+          - search [ref=e34]:
+            - generic [ref=e36]:
+              - img [ref=e39]
+              - textbox "詢問" [ref=e43]:
+                - /placeholder: 什麼都可以搜
+              - separator [ref=e44]
+              - link "詢問" [ref=e48] [cursor=pointer]:
+                - /url: /answers/
+                - generic [ref=e49]:
+                  - img [ref=e51]
+                  - generic [ref=e53]: 詢問
+              - generic: 什麼都可以搜
+          - generic [ref=e54]:
+            - link "註冊" [ref=e60] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e62]: 註冊
+            - link "登入" [ref=e66] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e68]: 登入
+            - button "展開使用者選單" [ref=e73] [cursor=pointer]:
+              - img [ref=e76]
+              - generic [ref=e78]:
+                - generic: 展開使用者選單
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - region "社群操作" [ref=e84]:
+            - generic [ref=e85]:
+              - heading "r/wallstreetbets 社群狀態：Loiter and lose money (with friends) in our Daily Discussion threads or check out WSB Discord" [level=1] [ref=e91]:
+                - text: r/wallstreetbets
+                - button "社群狀態：Loiter and lose money (with friends) in our Daily Discussion threads or check out WSB Discord" [ref=e93] [cursor=pointer]:
+                  - img "discord" [ref=e94]
+              - generic [ref=e95]:
+                - button "建立貼文" [ref=e99] [cursor=pointer]:
+                  - generic [ref=e100]:
+                    - img [ref=e102]
+                    - generic [ref=e104]: 建立貼文
+                - button "加入" [ref=e109] [cursor=pointer]
+          - generic [ref=e110]:
+            - generic:
+              - generic:
+                - link "跳至註冊" [ref=e111] [cursor=pointer]:
+                  - /url: "#left-sidebar-container"
+                - link "跳到右側邊欄" [ref=e112] [cursor=pointer]:
+                  - /url: "#right-sidebar-container"
+          - generic [ref=e113]:
+            - main [ref=e114]:
+              - generic [ref=e117]:
+                - generic [ref=e118]:
+                  - generic "排序方式：" [ref=e121]:
+                    - button "排序方式：：人氣" [ref=e123] [cursor=pointer]:
+                      - generic [ref=e125]: 人氣
+                  - generic "排序方式：" [ref=e130]:
+                    - button "排序方式：：今天" [ref=e132] [cursor=pointer]:
+                      - generic [ref=e134]: 今天
+                - generic "檢視" [ref=e140]:
+                  - button "檢視：卡片檢視模式" [ref=e142] [cursor=pointer]
+              - generic [ref=e148]:
+                - button "收合/展開社群精選貼文" [ref=e149] [cursor=pointer]:
+                  - heading "社群精選貼文" [level=3] [ref=e150]:
+                    - img [ref=e151]
+                    - generic [ref=e153]: 社群精選貼文
+                  - button "收合/展開社群精選貼文" [ref=e155]:
+                    - img [ref=e158]
+                - generic:
+                  - list [ref=e162]:
+                    - listitem [ref=e163]:
+                      - link "Weekly Earnings Thread 6/22 - 6/26 73 票 • 288 則留言 OSRSkarma" [ref=e164] [cursor=pointer]:
+                        - /url: /r/wallstreetbets/comments/1u9drsx/weekly_earnings_thread_622_626/
+                        - generic [ref=e170]:
+                          - generic [ref=e171]:
+                            - heading "Weekly Earnings Thread 6/22 - 6/26" [level=2] [ref=e174]
+                            - generic [ref=e177]:
+                              - generic [ref=e178]: "73"
+                              - text: 票 •
+                              - generic [ref=e179]: "288"
+                              - text: 則留言
+                          - img "OSRSkarma" [ref=e186]
+                  - article "Daily Discussion Thread for June 23, 2026" [ref=e188]:
+                    - generic [ref=e189]:
+                      - link "Daily Discussion Thread for June 23, 2026" [ref=e190] [cursor=pointer]:
+                        - /url: /r/wallstreetbets/comments/1udcwfr/daily_discussion_thread_for_june_23_2026/
+                        - generic [ref=e191]:
+                          - generic: Daily Discussion Thread for June 23, 2026
+                      - heading "Daily Discussion Thread for June 23, 2026 verified-trader u/verified-trader" [level=2] [ref=e194]:
+                        - link "Daily Discussion Thread for June 23, 2026 verified-trader u/verified-trader" [ref=e195] [cursor=pointer]:
+                          - /url: /r/wallstreetbets/comments/1udcwfr/daily_discussion_thread_for_june_23_2026/
+                          - generic [ref=e196]: Daily Discussion Thread for June 23, 2026
+                          - generic [ref=e198]:
+                            - img "verified-trader" [ref=e201]
+                            - generic [ref=e202]: u/verified-trader
+                      - iframe [ref=e212]:
+                        - generic [ref=f10e5]:
+                          - generic [ref=f10e8]:
+                            - 'generic "Market Open: Closes 5h 22m" [ref=f10e10]':
+                              - generic [ref=f10e11]: Market Open
+                              - generic [ref=f10e12]: ·Closes 5h 22m
+                            - navigation [ref=f10e14]:
+                              - generic [ref=f10e15]:
+                                - button "Daily Thread" [ref=f10e16]
+                                - button "Me" [ref=f10e17]
+                                - button "Data" [ref=f10e18]
+                                - button "Casino" [ref=f10e19]
+                          - generic [ref=f10e20]:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - button "SPY --":
+                                        - generic: SPY
+                                        - generic: "--"
+                                      - button "QQQ --":
+                                        - generic: QQQ
+                                        - generic: "--"
+                                      - button "DIA --":
+                                        - generic: DIA
+                                        - generic: "--"
+                                      - button "IWM --":
+                                        - generic: IWM
+                                        - generic: "--"
+                                      - button "SPY --":
+                                        - generic: SPY
+                                        - generic: "--"
+                                      - button "QQQ --":
+                                        - generic: QQQ
+                                        - generic: "--"
+                                      - button "DIA --":
+                                        - generic: DIA
+                                        - generic: "--"
+                                      - button "IWM --":
+                                        - generic: IWM
+                                        - generic: "--"
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic:
+                                                  - generic:
+                                                    - generic: Connect & Verify
+                                                - generic:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: W
+                                                        - generic: 100k Coins
+                                                        - generic: For the casino
+                                                      - generic:
+                                                        - generic:
+                                                          - img
+                                                        - generic: Verified Flair
+                                                        - generic: Net worth badge
+                                                      - generic:
+                                                        - generic:
+                                                          - img
+                                                        - generic: Verified Posts
+                                                        - generic: Share with proof
+                                                      - generic:
+                                                        - generic:
+                                                          - img
+                                                        - generic: Scoreboards
+                                                        - generic: Compete on P&L
+                                                    - button "+ Connect Brokerage"
+                                            - generic:
+                                              - generic:
+                                                - generic:
+                                                  - generic:
+                                                    - generic: Top Holdings
+                                                - generic:
+                                                  - generic:
+                                                    - generic: No data
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic:
+                                                  - generic:
+                                                    - generic: Top Trades
+                                                - generic:
+                                                  - generic:
+                                                    - generic: No verified trades
+                                            - generic:
+                                              - generic:
+                                                - generic:
+                                                  - generic:
+                                                    - generic: Mentions 24h
+                                                  - generic:
+                                                    - generic:
+                                                      - button "Table"
+                                                      - button "Chart"
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - button "15m":
+                                                - text: 15m
+                                                - img
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic:
+                                                  - generic: SPY
+                                                - img
+                                              - generic:
+                                                - text: —
+                                                - generic:
+                                                  - generic: ▲ 0.00
+                                                - generic: +0.00%
+                                              - generic:
+                                                - generic:
+                                                  - generic:
+                                                    - generic: —
+                                                    - generic: Holders
+                                                  - generic:
+                                                    - generic: —
+                                                    - generic: Exposure
+                                              - generic:
+                                                - generic:
+                                                  - generic:
+                                                    - generic: —
+                                                    - generic: Mentions
+                                                  - generic:
+                                                    - generic: —
+                                                    - generic: Sentiment
+                                  - generic:
+                                    - generic:
+                                      - button "Customize":
+                                        - img
+                                        - text: Customize
+                                      - button:
+                                        - img
+                                      - button:
+                                        - img
+                                    - button "Auto":
+                                      - img
+                                      - text: Auto
+                      - button "隱私權" [ref=e217] [cursor=pointer]:
+                        - generic [ref=e218]:
+                          - img [ref=e220]
+                          - generic [ref=e222]: 隱私權
+                      - generic "適用於此貼文的操作" [ref=e224]:
+                        - generic [ref=e227]:
+                          - button "推" [ref=e228] [cursor=pointer]:
+                            - img [ref=e230]
+                            - generic [ref=e232]:
+                              - generic: 推
+                          - generic [ref=e234]: "171"
+                          - button "噓" [ref=e235] [cursor=pointer]:
+                            - img [ref=e237]
+                            - generic [ref=e239]:
+                              - generic: 噓
+                        - link "7058 前往留言" [ref=e240] [cursor=pointer]:
+                          - /url: /r/wallstreetbets/comments/1udcwfr/daily_discussion_thread_for_june_23_2026/
+                          - generic [ref=e241]:
+                            - img [ref=e243]
+                            - generic [ref=e246]: "7058"
+                          - generic [ref=e247]:
+                            - generic: 前往留言
+                        - button "分享" [ref=e251] [cursor=pointer]:
+                          - generic [ref=e252]:
+                            - img [ref=e254]
+                            - generic [ref=e256]: 分享
+              - generic [ref=e258]:
+                - generic "wallstreetbets"
+                - separator [ref=e259]
+                - generic [ref=e260]:
+                  - heading "動態摘要" [level=1] [ref=e262]
+                  - generic:
+                    - article "The next Financial Crisis is here, and it's not just AI." [ref=e263]:
+                      - generic [ref=e264] [cursor=pointer]:
+                        - link "The next Financial Crisis is here, and it's not just AI." [ref=e265]:
+                          - /url: https://www.reddit.com/r/wallstreetbets/comments/1ucpnbj/the_next_financial_crisis_is_here_and_its_not/
+                          - generic [ref=e266]:
+                            - generic: The next Financial Crisis is here, and it's not just AI.
+                        - generic [ref=e267]:
+                          - generic [ref=e268]:
+                            - link "作者：u/MeMahi" [ref=e273]:
+                              - /url: https://www.reddit.com/user/MeMahi/
+                              - generic [ref=e274]:
+                                - img "u/MeMahi 虛擬頭像" [ref=e277]
+                                - generic [ref=e278]: u/MeMahi
+                            - generic [ref=e279]: •
+                            - time [ref=e281]: 22 小時前
+                          - button "開啟使用者操作" [ref=e286]:
+                            - img [ref=e289]
+                        - generic [ref=e292]:
+                          - heading "The next Financial Crisis is here, and it's not just AI." [level=2] [ref=e293]:
+                            - link "The next Financial Crisis is here, and it's not just AI." [ref=e294]:
+                              - /url: https://www.reddit.com/r/wallstreetbets/comments/1ucpnbj/the_next_financial_crisis_is_here_and_its_not/
+                              - text: The next Financial Crisis is here, and it's not just AI.
+                          - link "標籤：Discussion" [ref=e297]:
+                            - /url: /r/wallstreetbets/?f=flair_name%3A%22Discussion%22
+                            - generic "標籤：Discussion" [ref=e299]: Discussion
+                          - generic [ref=e300]:
+                            - generic:
+                              - link:
+                                - /url: /r/wallstreetbets/comments/1ucpnbj/the_next_financial_crisis_is_here_and_its_not/
+                                - generic:
+                                  - generic:
+                                    - paragraph:
+                                      - text: It's not just an AI bubble, it's a systemic collapse worse than 2008.
+                                      - superscript: Yes I used the AI sentence structure, beep boop fuck you.
+                                    - blockquote:
+                                      - paragraph:
+                                        - emphasis: Dog shit wrapped in cat shit.
+                                    - paragraph: If you're too dumb to read, feed these points into your favorite AI tool and ask it about the information's reliability. Then ask it how fucked retail is.
+                                    - list:
+                                      - listitem:
+                                        - paragraph:
+                                          - text: Increasing amount of companies are taking on private credit, up from $500B in 2020 to $2+
+                                          - emphasis: trillion
+                                          - text: in 2026, expected to grow past $4 trillion by 2030. For comparison, the 2008 subprime loans were estimated around $2 trillion.
+                                      - listitem:
+                                        - paragraph:
+                                          - text: This private credit market (unironically called
+                                          - emphasis: "\"shadow banking\""
+                                          - text: ) relies almost entirely on Level 3 assets. This means unregulated, often unreported credit that's being valued using the funds' own internal models ("
+                                          - emphasis: mark-to-model
+                                          - text: "\") rather than real-time market prices ("
+                                          - emphasis: "\"mark-to-market"
+                                          - text: "\"). Basically, their analysts decide the price and tell the buyer to trust them."
+                                      - listitem:
+                                        - paragraph:
+                                          - text: Huge portion of these loans were written in 2021-2022 during low interest rates, and are now becoming mature in 2027-2029. We're talking over half a
+                                          - emphasis: trillion
+                                          - text: in leveraged private debt scheduled to mature in 2028 alone.
+                                      - listitem:
+                                        - paragraph:
+                                          - text: It has been labeled
+                                          - emphasis: "\"The Maturity Wall\""
+                                          - text: . If the rates stay high, many borrowers won't be able to refinance, leading to defaults or fire sales. And many of these loans are backed by dead software and depreciating GPUs, zero real assets whatsoever. The bag holders will be left with nothing.
+                                      - listitem:
+                                        - paragraph: And Fed just cancelled rate cuts, now estimating rate hikes for the end of the year. Meaning the companies will be even less capable of making the interest payments.
+                                      - listitem:
+                                        - paragraph:
+                                          - text: The IMF estimates that roughly 40% of private credit borrowers operate with
+                                          - strong: negative free cash flow
+                                          - text: ", up from 25% in 2021."
+                                      - listitem:
+                                        - paragraph:
+                                          - text: And while the reported default rate of this private credit is currently sitting at just 1.5-2%,
+                                          - strong: the real private credit default rate is estimated at 5-6% and increasing
+                                          - text: .
+                                      - listitem:
+                                        - paragraph:
+                                          - text: Why don't the reported and the actual numbers match? Because private credit lenders are offering
+                                          - emphasis: Payment-in-Kinds
+                                          - text: (PIKs) to avoid defaulting the loans, allowing the borrowers to skip the interest payment in favor of increasing the debt. They're literally kicking the can on loans that aren't being paid so they don't have to default them and get margin called themselves.
+                                      - listitem:
+                                        - paragraph: Payment-in-Kinds usage more than doubled from 5% to 11% by late 2025. Out of the 5-6% default rate, estimated 50% is driven by PIKs and interest deferrals.
+                                      - listitem:
+                                        - paragraph:
+                                          - text: However, private credit funds have Payment-in-Kind exposure limits, mandated by the big commercial banks that they loan from. To circumvent these limits and maintain access to bank leverage and not get margin called,
+                                          - emphasis: synthetic PIKs
+                                          - text: were invented to hide PIKs from the books.
+                                      - listitem:
+                                        - paragraph:
+                                          - text: When a borrower fails to pay the interest, they use a secondary
+                                          - emphasis: delayed-draw term loan
+                                          - text: (DDTL) to pay the interest. Technically the first loan is getting cash interest payments, at the cost of a new, bigger loan. It's the private credit equivalent of paying off your credit card debt with another credit card. They invented a new instrument to hide the fact that interest payments are being missed and that these loans are growing into dog shit so that they could leverage more.
+                                      - listitem:
+                                        - paragraph:
+                                          - text: Furthermore, these private loans are increasingly being packaged into
+                                          - emphasis: Private Credit CLOs
+                                          - text: (Collateralized Loan Obligations). The idea is simple; while any one loan might be risky on its own, bundling a bunch of them together reduces the risk. Just like index funds, for example. And similar to Mortgage Backed Securities. What could possibly go wrong?
+                                      - listitem:
+                                        - paragraph: Due to the private nature of these private loans, nobody knows the true health of what's really being packaged into the CLOs. We know synthetic PIKs exist and are being used to some extent, but we don't know the full exposure. There could be defaulting loans of zero-asset software companies marked as AAA due to interest payments being made from DDTLs.
+                                      - listitem:
+                                        - paragraph:
+                                          - text: Who buys these Private Credit CLOs? Mainly pension funds and insurance companies, sometimes retail directly. They commit capital through third-party fund managers like Ares, Blackstone, and Blue Owl, or through
+                                          - emphasis: Business Development Companies
+                                          - text: (BDCs).
+                                      - listitem:
+                                        - paragraph: The SEC is busy ensuring that the big banks aren't secretly leveraged on this. They literally know shit is about to go down, and are only protecting the big money. Retail will hold the bags.
+                                      - listitem:
+                                        - paragraph:
+                                          - text: Worse yet, most of the underlying credit loans mature in 5-7
+                                          - emphasis: years
+                                          - text: ", yet the investors in CLOs are allowed to cash out every quarter. This means the asset managers will have to freeze withdrawals altogether to tackle the illiquidity, meaning that retail won't be able to cash out as the defaults keep happening."
+                                      - listitem:
+                                        - paragraph:
+                                          - text: And
+                                          - strong: this has already begun
+                                          - text: ", with numerous asset managers already freezing withdrawals. Stone Ridge fulfilled only 11% of withdrawals earlier this year, Blackstone raised affiliate capital to meet the withdrawals, and Blue Owl froze all withdrawals indefinitely."
+                                    - paragraph: "TL;DR: They're wrapping dog shit in cat shit as we speak, valuating it themselves as AAA packages with the help of PIKs, and selling those CLOs to pension funds and retail. The assets will be frozen due to liquidity mismatch, and it will be 2008 again but this time unwinding over multiple years of slow-burning crisis. The opacity is even worse, the leverage is hidden, and the buyers are retail. Add in a bit of an AI bubble with increasing rate hikes, and we got the dot-com bubble and the 2008 crisis combined into one bomb from 2027 onward."
+                                    - paragraph:
+                                      - strong: "Edit:"
+                                      - text: And it's not AI you dumb fucks, just because someone can write one page worth of bullet points doesn't mean they're AI. I did get inspired by Tom Bilyeu's video few months ago though, maybe watch that instead of commenting whatever dumb shit you were going to comment.
+                        - generic "適用於此貼文的操作" [ref=e302]:
+                          - generic [ref=e305]:
+                            - button "推" [ref=e306]:
+                              - img [ref=e308]
+                              - generic [ref=e310]:
+                                - generic: 推
+                            - generic [ref=e312]: "9427"
+                            - button "噓" [ref=e313]:
+                              - img [ref=e315]
+                              - generic [ref=e317]:
+                                - generic: 噓
+                          - link "1537 前往留言" [ref=e318]:
+                            - /url: /r/wallstreetbets/comments/1ucpnbj/the_next_financial_crisis_is_here_and_its_not/
+                            - generic [ref=e319]:
+                              - img [ref=e321]
+                              - generic [ref=e324]: "1537"
+                            - generic [ref=e325]:
+                              - generic: 前往留言
+                          - button "給予獎勵，已給予 19 個" [ref=e327]:
+                            - generic [ref=e332]: "19"
+                          - button "分享" [ref=e336]:
+                            - generic [ref=e337]:
+                              - img [ref=e339]
+                              - generic [ref=e341]: 分享
+                    - separator [ref=e342]
+                    - generic [ref=e343]:
+                      - 'generic "Advertisement: From classroom supplies to a new 2026 Honda CR-V from $289/month, the SoCal Honda Dealers are here when it matters." [ref=e344]':
+                        - 'link "Advertisement: From classroom supplies to a new 2026 Honda CR-V from $289/month, the SoCal Honda Dealers are here when it matters." [ref=e345] [cursor=pointer]':
+                          - /url: https://alb.reddit.com/cr?za=9BzvrHitexWDIHACQjoVViwluxnNFFuL_ZHmplnMk-PJIxWoMN8RlAOLELJOCBF8Ru4DA6LwvDSOfDTxEmw1EnrAcPAs6AIH-tCUAylnFswZVrZfVkYLdtwgUYV18LAm0XBAPm1jYoqPN-sCA__JMHRg8LnDmHtQ-hGQwaCHKSPSJDASFIyyJG58S5mxwLtAMp4DvRrgwUo1xgghc9fNKWSXW52aaWewS1jf6WjCCLKzrEVVUpTlfn-6Q_f68v3tzbDMWKckpk-lFED3gPX9rxs1l9egewjed-iiRjevqcUUFIynGBqfHykcV9nigvg8olHnDhZ1uTpBVKOv2_qiIKdY_z3DWRLRDwDXzRfyWHOi7TH-pCntthChrvx0epoEzVwROMVp_vz_HShY-GzlH0z0mbcMckHJGck6BChVSTtS9Y3K6ytELOyCg3mAPO0me2WaBfhQjRLQuCLHxFpyigBNHAch4j6eFgRzhmZMVqqgGnSYOvbg8XHowT2pujA8quKpsdFhPNBW_jAzbyrvV85nrz3IGgQoOlRmTixImdt-wFInN5DtFClE-aCHjW1VzNxzsgXvigtdUi2O5fmbzspSWch2eu00eSFmYNFEAohsN9hI0Wq6quXZH1flTtZP9MzGsNH6j3Olx1TJgIgp9nc8UG-V9dss6NX5YRj5fKtBTEII6KArza1pj9fyo0Mt_RHulWjSxSLE1RwVSmEhQbFFqQR4wkcm0yq0JjZTZrPz83UDKdZhXFlt4w8cJILaHk3geFQbww&zp=YdcDp7FhxNNmjdOe981AIoT0BTFYaIK8JEI4K1ofhA5d3-DnIXLkapce8OUjiJH3r5APBgYyg1CGVusFIm9YKYNWLRLrsCmtZuq7W0TlWDxWIkoxdXhOW-Zqv8LXeSG44FSi5ZocTvr_-VS6S9VzTEUcMdL27Mr0H5_Bj52z7iflOjaDHVrbV7hFHmoEJYWSApV_v4i1Evoo0tIIRVgAs5Futpuszv1Y8FRjmj34RfyVnHnQiA_s0jy3R0aBdKb01LyuxnnlVVLJ2EDb7aLDArLPNXi4CxTUFc4o4O3Eb-ew3_moAQENmPOZxe3bm8gn2KblPGy9TeCo7tPK5jsgiuzmO-TBIWJAc0kxtaPxR9rqeG6-lT37WhEqUQof9tcj2IqATJx0qQ
+                      - generic [ref=e346]:
+                        - generic [ref=e347]:
+                          - link "u/SoCalHondaDealers 虛擬頭像 u/SoCalHondaDealers" [ref=e350] [cursor=pointer]:
+                            - /url: /user/SoCalHondaDealers/
+                            - img "u/SoCalHondaDealers 虛擬頭像" [ref=e353]
+                            - generic [ref=e354]: u/SoCalHondaDealers
+                          - generic [ref=e355]: •
+                          - link "宣傳內容" [ref=e357] [cursor=pointer]:
+                            - /url: /user/SoCalHondaDealers/
+                            - generic [ref=e358]: 宣傳內容
+                          - link [ref=e360] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=9BzvrHitexWDIHACQjoVViwluxnNFFuL_ZHmplnMk-PJIxWoMN8RlAOLELJOCBF8Ru4DA6LwvDSOfDTxEmw1EnrAcPAs6AIH-tCUAylnFswZVrZfVkYLdtwgUYV18LAm0XBAPm1jYoqPN-sCA__JMHRg8LnDmHtQ-hGQwaCHKSPSJDASFIyyJG58S5mxwLtAMp4DvRrgwUo1xgghc9fNKWSXW52aaWewS1jf6WjCCLKzrEVVUpTlfn-6Q_f68v3tzbDMWKckpk-lFED3gPX9rxs1l9egewjed-iiRjevqcUUFIynGBqfHykcV9nigvg8olHnDhZ1uTpBVKOv2_qiIKdY_z3DWRLRDwDXzRfyWHOi7TH-pCntthChrvx0epoEzVwROMVp_vz_HShY-GzlH0z0mbcMckHJGck6BChVSTtS9Y3K6ytELOyCg3mAPO0me2WaBfhQjRLQuCLHxFpyigBNHAch4j6eFgRzhmZMVqqgGnSYOvbg8XHowT2pujA8quKpsdFhPNBW_jAzbyrvV85nrz3IGgQoOlRmTixImdt-wFInN5DtFClE-aCHjW1VzNxzsgXvigtdUi2O5fmbzspSWch2eu00eSFmYNFEAohsN9hI0Wq6quXZH1flTtZP9MzGsNH6j3Olx1TJgIgp9nc8UG-V9dss6NX5YRj5fKtBTEII6KArza1pj9fyo0Mt_RHulWjSxSLE1RwVSmEhQbFFqQR4wkcm0yq0JjZTZrPz83UDKdZhXFlt4w8cJILaHk3geFQbww&zp=YdcDp7FhxNNmjdOe981AIoT0BTFYaIK8JEI4K1ofhA5d3-DnIXLkapce8OUjiJH3r5APBgYyg1CGVusFIm9YKYNWLRLrsCmtZuq7W0TlWDxWIkoxdXhOW-Zqv8LXeSG44FSi5ZocTvr_-VS6S9VzTEUcMdL27Mr0H5_Bj52z7iflOjaDHVrbV7hFHmoEJYWSApV_v4i1Evoo0tIIRVgAs5Futpuszv1Y8FRjmj34RfyVnHnQiA_s0jy3R0aBdKb01LyuxnnlVVLJ2EDb7aLDArLPNXi4CxTUFc4o4O3Eb-ew3_moAQENmPOZxe3bm8gn2KblPGy9TeCo7tPK5jsgiuzmO-TBIWJAc0kxtaPxR9rqeG6-lT37WhEqUQof9tcj2IqATJx0qQ
+                        - button "開啟使用者操作" [ref=e365] [cursor=pointer]:
+                          - img [ref=e368]
+                      - heading "From classroom supplies to a new 2026 Honda CR-V from $289/month, the SoCal Honda Dealers are here when it matters." [level=2] [ref=e372]:
+                        - link "From classroom supplies to a new 2026 Honda CR-V from $289/month, the SoCal Honda Dealers are here when it matters." [ref=e375] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=9BzvrHitexWDIHACQjoVViwluxnNFFuL_ZHmplnMk-PJIxWoMN8RlAOLELJOCBF8Ru4DA6LwvDSOfDTxEmw1EnrAcPAs6AIH-tCUAylnFswZVrZfVkYLdtwgUYV18LAm0XBAPm1jYoqPN-sCA__JMHRg8LnDmHtQ-hGQwaCHKSPSJDASFIyyJG58S5mxwLtAMp4DvRrgwUo1xgghc9fNKWSXW52aaWewS1jf6WjCCLKzrEVVUpTlfn-6Q_f68v3tzbDMWKckpk-lFED3gPX9rxs1l9egewjed-iiRjevqcUUFIynGBqfHykcV9nigvg8olHnDhZ1uTpBVKOv2_qiIKdY_z3DWRLRDwDXzRfyWHOi7TH-pCntthChrvx0epoEzVwROMVp_vz_HShY-GzlH0z0mbcMckHJGck6BChVSTtS9Y3K6ytELOyCg3mAPO0me2WaBfhQjRLQuCLHxFpyigBNHAch4j6eFgRzhmZMVqqgGnSYOvbg8XHowT2pujA8quKpsdFhPNBW_jAzbyrvV85nrz3IGgQoOlRmTixImdt-wFInN5DtFClE-aCHjW1VzNxzsgXvigtdUi2O5fmbzspSWch2eu00eSFmYNFEAohsN9hI0Wq6quXZH1flTtZP9MzGsNH6j3Olx1TJgIgp9nc8UG-V9dss6NX5YRj5fKtBTEII6KArza1pj9fyo0Mt_RHulWjSxSLE1RwVSmEhQbFFqQR4wkcm0yq0JjZTZrPz83UDKdZhXFlt4w8cJILaHk3geFQbww&zp=YdcDp7FhxNNmjdOe981AIoT0BTFYaIK8JEI4K1ofhA5d3-DnIXLkapce8OUjiJH3r5APBgYyg1CGVusFIm9YKYNWLRLrsCmtZuq7W0TlWDxWIkoxdXhOW-Zqv8LXeSG44FSi5ZocTvr_-VS6S9VzTEUcMdL27Mr0H5_Bj52z7iflOjaDHVrbV7hFHmoEJYWSApV_v4i1Evoo0tIIRVgAs5Futpuszv1Y8FRjmj34RfyVnHnQiA_s0jy3R0aBdKb01LyuxnnlVVLJ2EDb7aLDArLPNXi4CxTUFc4o4O3Eb-ew3_moAQENmPOZxe3bm8gn2KblPGy9TeCo7tPK5jsgiuzmO-TBIWJAc0kxtaPxR9rqeG6-lT37WhEqUQof9tcj2IqATJx0qQ
+                          - generic: From classroom supplies to a new 2026 Honda CR-V from $289/month, the SoCal Honda Dealers are here when it matters.
+                      - generic [ref=e376]:
+                        - generic [ref=e381]:
+                          - generic "影片播放器" [ref=e382]
+                          - button "播放" [ref=e383] [cursor=pointer]:
+                            - img [ref=e384]
+                        - separator [ref=e386]
+                        - generic [ref=e387]:
+                          - link [ref=e389] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=9BzvrHitexWDIHACQjoVViwluxnNFFuL_ZHmplnMk-PJIxWoMN8RlAOLELJOCBF8Ru4DA6LwvDSOfDTxEmw1EnrAcPAs6AIH-tCUAylnFswZVrZfVkYLdtwgUYV18LAm0XBAPm1jYoqPN-sCA__JMHRg8LnDmHtQ-hGQwaCHKSPSJDASFIyyJG58S5mxwLtAMp4DvRrgwUo1xgghc9fNKWSXW52aaWewS1jf6WjCCLKzrEVVUpTlfn-6Q_f68v3tzbDMWKckpk-lFED3gPX9rxs1l9egewjed-iiRjevqcUUFIynGBqfHykcV9nigvg8olHnDhZ1uTpBVKOv2_qiIKdY_z3DWRLRDwDXzRfyWHOi7TH-pCntthChrvx0epoEzVwROMVp_vz_HShY-GzlH0z0mbcMckHJGck6BChVSTtS9Y3K6ytELOyCg3mAPO0me2WaBfhQjRLQuCLHxFpyigBNHAch4j6eFgRzhmZMVqqgGnSYOvbg8XHowT2pujA8quKpsdFhPNBW_jAzbyrvV85nrz3IGgQoOlRmTixImdt-wFInN5DtFClE-aCHjW1VzNxzsgXvigtdUi2O5fmbzspSWch2eu00eSFmYNFEAohsN9hI0Wq6quXZH1flTtZP9MzGsNH6j3Olx1TJgIgp9nc8UG-V9dss6NX5YRj5fKtBTEII6KArza1pj9fyo0Mt_RHulWjSxSLE1RwVSmEhQbFFqQR4wkcm0yq0JjZTZrPz83UDKdZhXFlt4w8cJILaHk3geFQbww&zp=YdcDp7FhxNNmjdOe981AIoT0BTFYaIK8JEI4K1ofhA5d3-DnIXLkapce8OUjiJH3r5APBgYyg1CGVusFIm9YKYNWLRLrsCmtZuq7W0TlWDxWIkoxdXhOW-Zqv8LXeSG44FSi5ZocTvr_-VS6S9VzTEUcMdL27Mr0H5_Bj52z7iflOjaDHVrbV7hFHmoEJYWSApV_v4i1Evoo0tIIRVgAs5Futpuszv1Y8FRjmj34RfyVnHnQiA_s0jy3R0aBdKb01LyuxnnlVVLJ2EDb7aLDArLPNXi4CxTUFc4o4O3Eb-ew3_moAQENmPOZxe3bm8gn2KblPGy9TeCo7tPK5jsgiuzmO-TBIWJAc0kxtaPxR9rqeG6-lT37WhEqUQof9tcj2IqATJx0qQ
+                          - generic [ref=e390]:
+                            - link "socal.hondadealers.com" [ref=e393] [cursor=pointer]:
+                              - /url: https://alb.reddit.com/cr?za=9BzvrHitexWDIHACQjoVViwluxnNFFuL_ZHmplnMk-PJIxWoMN8RlAOLELJOCBF8Ru4DA6LwvDSOfDTxEmw1EnrAcPAs6AIH-tCUAylnFswZVrZfVkYLdtwgUYV18LAm0XBAPm1jYoqPN-sCA__JMHRg8LnDmHtQ-hGQwaCHKSPSJDASFIyyJG58S5mxwLtAMp4DvRrgwUo1xgghc9fNKWSXW52aaWewS1jf6WjCCLKzrEVVUpTlfn-6Q_f68v3tzbDMWKckpk-lFED3gPX9rxs1l9egewjed-iiRjevqcUUFIynGBqfHykcV9nigvg8olHnDhZ1uTpBVKOv2_qiIKdY_z3DWRLRDwDXzRfyWHOi7TH-pCntthChrvx0epoEzVwROMVp_vz_HShY-GzlH0z0mbcMckHJGck6BChVSTtS9Y3K6ytELOyCg3mAPO0me2WaBfhQjRLQuCLHxFpyigBNHAch4j6eFgRzhmZMVqqgGnSYOvbg8XHowT2pujA8quKpsdFhPNBW_jAzbyrvV85nrz3IGgQoOlRmTixImdt-wFInN5DtFClE-aCHjW1VzNxzsgXvigtdUi2O5fmbzspSWch2eu00eSFmYNFEAohsN9hI0Wq6quXZH1flTtZP9MzGsNH6j3Olx1TJgIgp9nc8UG-V9dss6NX5YRj5fKtBTEII6KArza1pj9fyo0Mt_RHulWjSxSLE1RwVSmEhQbFFqQR4wkcm0yq0JjZTZrPz83UDKdZhXFlt4w8cJILaHk3geFQbww&zp=YdcDp7FhxNNmjdOe981AIoT0BTFYaIK8JEI4K1ofhA5d3-DnIXLkapce8OUjiJH3r5APBgYyg1CGVusFIm9YKYNWLRLrsCmtZuq7W0TlWDxWIkoxdXhOW-Zqv8LXeSG44FSi5ZocTvr_-VS6S9VzTEUcMdL27Mr0H5_Bj52z7iflOjaDHVrbV7hFHmoEJYWSApV_v4i1Evoo0tIIRVgAs5Futpuszv1Y8FRjmj34RfyVnHnQiA_s0jy3R0aBdKb01LyuxnnlVVLJ2EDb7aLDArLPNXi4CxTUFc4o4O3Eb-ew3_moAQENmPOZxe3bm8gn2KblPGy9TeCo7tPK5jsgiuzmO-TBIWJAc0kxtaPxR9rqeG6-lT37WhEqUQof9tcj2IqATJx0qQ
+                              - generic: socal.hondadealers.com
+                            - link "深入了解" [ref=e395] [cursor=pointer]:
+                              - /url: https://alb.reddit.com/cr?za=9BzvrHitexWDIHACQjoVViwluxnNFFuL_ZHmplnMk-PJIxWoMN8RlAOLELJOCBF8Ru4DA6LwvDSOfDTxEmw1EnrAcPAs6AIH-tCUAylnFswZVrZfVkYLdtwgUYV18LAm0XBAPm1jYoqPN-sCA__JMHRg8LnDmHtQ-hGQwaCHKSPSJDASFIyyJG58S5mxwLtAMp4DvRrgwUo1xgghc9fNKWSXW52aaWewS1jf6WjCCLKzrEVVUpTlfn-6Q_f68v3tzbDMWKckpk-lFED3gPX9rxs1l9egewjed-iiRjevqcUUFIynGBqfHykcV9nigvg8olHnDhZ1uTpBVKOv2_qiIKdY_z3DWRLRDwDXzRfyWHOi7TH-pCntthChrvx0epoEzVwROMVp_vz_HShY-GzlH0z0mbcMckHJGck6BChVSTtS9Y3K6ytELOyCg3mAPO0me2WaBfhQjRLQuCLHxFpyigBNHAch4j6eFgRzhmZMVqqgGnSYOvbg8XHowT2pujA8quKpsdFhPNBW_jAzbyrvV85nrz3IGgQoOlRmTixImdt-wFInN5DtFClE-aCHjW1VzNxzsgXvigtdUi2O5fmbzspSWch2eu00eSFmYNFEAohsN9hI0Wq6quXZH1flTtZP9MzGsNH6j3Olx1TJgIgp9nc8UG-V9dss6NX5YRj5fKtBTEII6KArza1pj9fyo0Mt_RHulWjSxSLE1RwVSmEhQbFFqQR4wkcm0yq0JjZTZrPz83UDKdZhXFlt4w8cJILaHk3geFQbww&zp=YdcDp7FhxNNmjdOe981AIoT0BTFYaIK8JEI4K1ofhA5d3-DnIXLkapce8OUjiJH3r5APBgYyg1CGVusFIm9YKYNWLRLrsCmtZuq7W0TlWDxWIkoxdXhOW-Zqv8LXeSG44FSi5ZocTvr_-VS6S9VzTEUcMdL27Mr0H5_Bj52z7iflOjaDHVrbV7hFHmoEJYWSApV_v4i1Evoo0tIIRVgAs5Futpuszv1Y8FRjmj34RfyVnHnQiA_s0jy3R0aBdKb01LyuxnnlVVLJ2EDb7aLDArLPNXi4CxTUFc4o4O3Eb-ew3_moAQENmPOZxe3bm8gn2KblPGy9TeCo7tPK5jsgiuzmO-TBIWJAc0kxtaPxR9rqeG6-lT37WhEqUQof9tcj2IqATJx0qQ
+                              - generic [ref=e397]:
+                                - generic: 深入了解
+                      - generic "適用於此貼文的操作" [ref=e399]:
+                        - generic [ref=e402]:
+                          - button "推" [ref=e403] [cursor=pointer]:
+                            - img [ref=e405]
+                            - generic [ref=e407]:
+                              - generic: 推
+                          - text: 投票
+                          - button "噓" [ref=e408] [cursor=pointer]:
+                            - img [ref=e410]
+                            - generic [ref=e412]:
+                              - generic: 噓
+                        - link "0 前往留言" [ref=e413] [cursor=pointer]:
+                          - /url: /user/SoCalHondaDealers/comments/1tkor30/from_classroom_supplies_to_a_new_2026_honda_crv/?p=1&impressionid=6097671895178556005
+                          - generic [ref=e414]:
+                            - img [ref=e416]
+                            - generic [ref=e419]: "0"
+                          - generic [ref=e420]:
+                            - generic: 前往留言
+                        - button "分享" [ref=e424] [cursor=pointer]:
+                          - generic [ref=e425]:
+                            - img [ref=e427]
+                            - generic [ref=e429]: 分享
+                        - link [ref=e431] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=9BzvrHitexWDIHACQjoVViwluxnNFFuL_ZHmplnMk-PJIxWoMN8RlAOLELJOCBF8Ru4DA6LwvDSOfDTxEmw1EnrAcPAs6AIH-tCUAylnFswZVrZfVkYLdtwgUYV18LAm0XBAPm1jYoqPN-sCA__JMHRg8LnDmHtQ-hGQwaCHKSPSJDASFIyyJG58S5mxwLtAMp4DvRrgwUo1xgghc9fNKWSXW52aaWewS1jf6WjCCLKzrEVVUpTlfn-6Q_f68v3tzbDMWKckpk-lFED3gPX9rxs1l9egewjed-iiRjevqcUUFIynGBqfHykcV9nigvg8olHnDhZ1uTpBVKOv2_qiIKdY_z3DWRLRDwDXzRfyWHOi7TH-pCntthChrvx0epoEzVwROMVp_vz_HShY-GzlH0z0mbcMckHJGck6BChVSTtS9Y3K6ytELOyCg3mAPO0me2WaBfhQjRLQuCLHxFpyigBNHAch4j6eFgRzhmZMVqqgGnSYOvbg8XHowT2pujA8quKpsdFhPNBW_jAzbyrvV85nrz3IGgQoOlRmTixImdt-wFInN5DtFClE-aCHjW1VzNxzsgXvigtdUi2O5fmbzspSWch2eu00eSFmYNFEAohsN9hI0Wq6quXZH1flTtZP9MzGsNH6j3Olx1TJgIgp9nc8UG-V9dss6NX5YRj5fKtBTEII6KArza1pj9fyo0Mt_RHulWjSxSLE1RwVSmEhQbFFqQR4wkcm0yq0JjZTZrPz83UDKdZhXFlt4w8cJILaHk3geFQbww&zp=YdcDp7FhxNNmjdOe981AIoT0BTFYaIK8JEI4K1ofhA5d3-DnIXLkapce8OUjiJH3r5APBgYyg1CGVusFIm9YKYNWLRLrsCmtZuq7W0TlWDxWIkoxdXhOW-Zqv8LXeSG44FSi5ZocTvr_-VS6S9VzTEUcMdL27Mr0H5_Bj52z7iflOjaDHVrbV7hFHmoEJYWSApV_v4i1Evoo0tIIRVgAs5Futpuszv1Y8FRjmj34RfyVnHnQiA_s0jy3R0aBdKb01LyuxnnlVVLJ2EDb7aLDArLPNXi4CxTUFc4o4O3Eb-ew3_moAQENmPOZxe3bm8gn2KblPGy9TeCo7tPK5jsgiuzmO-TBIWJAc0kxtaPxR9rqeG6-lT37WhEqUQof9tcj2IqATJx0qQ
+                    - separator [ref=e432]
+                    - 'article "Regard Award: Who got the closest to the tippy top? Come out and claim your throne, sir." [ref=e433]':
+                      - generic [ref=e434] [cursor=pointer]:
+                        - 'link "Regard Award: Who got the closest to the tippy top? Come out and claim your throne, sir." [ref=e435]':
+                          - /url: https://www.reddit.com/r/wallstreetbets/comments/1ucykno/regard_award_who_got_the_closest_to_the_tippy_top/
+                          - generic [ref=e436]:
+                            - generic: "Regard Award: Who got the closest to the tippy top? Come out and claim your throne, sir."
+                        - generic [ref=e437]:
+                          - generic [ref=e438]:
+                            - link "作者：u/fffffffffffrrrrrrr" [ref=e443]:
+                              - /url: https://www.reddit.com/user/fffffffffffrrrrrrr/
+                              - generic [ref=e444]:
+                                - img "u/fffffffffffrrrrrrr 虛擬頭像" [ref=e447]
+                                - generic [ref=e448]: u/fffffffffffrrrrrrr
+                            - generic [ref=e449]: •
+                            - time [ref=e451]: 17 小時前
+                          - button "開啟使用者操作" [ref=e456]:
+                            - img [ref=e459]
+                        - generic [ref=e462]:
+                          - 'heading "Regard Award: Who got the closest to the tippy top? Come out and claim your throne, sir." [level=2] [ref=e463]':
+                            - 'link "Regard Award: Who got the closest to the tippy top? Come out and claim your throne, sir." [ref=e464]':
+                              - /url: https://www.reddit.com/r/wallstreetbets/comments/1ucykno/regard_award_who_got_the_closest_to_the_tippy_top/
+                          - link "標籤：Meme" [ref=e467]:
+                            - /url: /r/wallstreetbets/?f=flair_name%3A%22Meme%22
+                            - generic "標籤：Meme" [ref=e469]: Meme
+                        - 'img "r/wallstreetbets - Regard Award: Who got the closest to the tippy top? Come out and claim your throne, sir." [ref=e475]'
+                        - generic "適用於此貼文的操作" [ref=e477]:
+                          - generic [ref=e480]:
+                            - button "推" [ref=e481]:
+                              - img [ref=e483]
+                              - generic [ref=e485]:
+                                - generic: 推
+                            - generic [ref=e487]: "5201"
+                            - button "噓" [ref=e488]:
+                              - img [ref=e490]
+                              - generic [ref=e492]:
+                                - generic: 噓
+                          - link "555 前往留言" [ref=e493]:
+                            - /url: /r/wallstreetbets/comments/1ucykno/regard_award_who_got_the_closest_to_the_tippy_top/
+                            - generic [ref=e494]:
+                              - img [ref=e496]
+                              - generic [ref=e499]: "555"
+                            - generic [ref=e500]:
+                              - generic: 前往留言
+                          - button "給予獎勵，已給予 8 個" [ref=e502]:
+                            - generic [ref=e507]: "8"
+                          - button "分享" [ref=e511]:
+                            - generic [ref=e512]:
+                              - img [ref=e514]
+                              - generic [ref=e516]: 分享
+                    - separator [ref=e517]
+                    - article "SpaceX made me negative" [ref=e518]:
+                      - generic [ref=e519] [cursor=pointer]:
+                        - link "SpaceX made me negative" [ref=e520]:
+                          - /url: https://www.reddit.com/r/wallstreetbets/comments/1ud3hix/spacex_made_me_negative/
+                          - generic [ref=e521]:
+                            - generic: SpaceX made me negative
+                        - generic [ref=e522]:
+                          - generic [ref=e523]:
+                            - link "作者：u/WhoRuleTheWorld" [ref=e528]:
+                              - /url: https://www.reddit.com/user/WhoRuleTheWorld/
+                              - generic [ref=e529]:
+                                - img [ref=e534]
+                                - generic [ref=e536]: u/WhoRuleTheWorld
+                            - generic [ref=e537]: •
+                            - time [ref=e539]: 13 小時前
+                          - button "開啟使用者操作" [ref=e544]:
+                            - img [ref=e547]
+                        - generic [ref=e550]:
+                          - heading "SpaceX made me negative" [level=2] [ref=e551]:
+                            - link "SpaceX made me negative" [ref=e552]:
+                              - /url: https://www.reddit.com/r/wallstreetbets/comments/1ud3hix/spacex_made_me_negative/
+                          - link "標籤：Loss" [ref=e555]:
+                            - /url: /r/wallstreetbets/?f=flair_name%3A%22Loss%22
+                            - generic "標籤：Loss" [ref=e557]: Loss
+                        - generic [ref=e562]:
+                          - generic [ref=e564]:
+                            - generic [ref=e565]:
+                              - generic [ref=e567]:
+                                - button "上一頁" [disabled]:
+                                  - generic:
+                                    - generic:
+                                      - img
+                              - list [ref=e568]:
+                                - listitem [ref=e569]:
+                                  - figure [ref=e570]:
+                                    - img "r/wallstreetbets - SpaceX made me negative" [ref=e571]
+                              - button "下一頁" [ref=e574]:
+                                - img [ref=e577]
+                            - group [ref=e583]:
+                              - button "第 1 頁 (目前頁面)" [ref=e585]:
+                                - generic [ref=e586]:
+                                  - generic: 第 1 頁 (目前頁面)
+                              - button "第 2 頁" [ref=e587]:
+                                - generic [ref=e588]:
+                                  - generic: 第 2 頁
+                          - generic [ref=e589]:
+                            - generic: 第 1 項 (共2 頁)
+                        - generic "適用於此貼文的操作" [ref=e591]:
+                          - generic [ref=e594]:
+                            - button "推" [ref=e595]:
+                              - img [ref=e597]
+                              - generic [ref=e599]:
+                                - generic: 推
+                            - generic [ref=e601]: "4281"
+                            - button "噓" [ref=e602]:
+                              - img [ref=e604]
+                              - generic [ref=e606]:
+                                - generic: 噓
+                          - link "997 前往留言" [ref=e607]:
+                            - /url: /r/wallstreetbets/comments/1ud3hix/spacex_made_me_negative/
+                            - generic [ref=e608]:
+                              - img [ref=e610]
+                              - generic [ref=e613]: "997"
+                            - generic [ref=e614]:
+                              - generic: 前往留言
+                          - button "給予獎勵，已給予 11 個" [ref=e616]:
+                            - generic [ref=e621]: "11"
+                          - button "分享" [ref=e625]:
+                            - generic [ref=e626]:
+                              - img [ref=e628]
+                              - generic [ref=e630]: 分享
+                    - separator [ref=e631]
+                  - img [ref=e637]
+            - generic [ref=e650]:
+              - complementary "社群資訊" [ref=e654]:
+                - generic [ref=e655]:
+                  - generic [ref=e657]:
+                    - heading "社群資訊區" [level=1] [ref=e658]
+                    - generic [ref=e659]:
+                      - generic [ref=e660]: wallstreetbets
+                      - generic [ref=e661]: Like 4chan found a Bloomberg Terminal.
+                      - generic [ref=e662]:
+                        - generic [ref=e664]:
+                          - img [ref=e665]
+                          - text: 於 2012年1月31日建立
+                        - generic [ref=e668]:
+                          - img [ref=e669]
+                          - text: 公開
+                    - generic [ref=e671]:
+                      - generic [ref=e672]:
+                        - strong [ref=e674]:
+                          - generic: 422萬
+                        - generic [ref=e675]: Degenerates
+                      - generic [ref=e676]:
+                        - strong [ref=e678]:
+                          - generic: 18萬
+                        - generic [ref=e679]: Buying FDs
+                  - separator [ref=e680]
+                  - generic [ref=e681]:
+                    - heading "社群書籤" [level=2] [ref=e683]:
+                      - generic [ref=e684]: 社群書籤
+                    - generic [ref=e685]:
+                      - link "知識庫" [ref=e687] [cursor=pointer]:
+                        - /url: /r/wallstreetbets/wiki/index/
+                        - generic [ref=e690]: 知識庫
+                      - link "YouTube" [ref=e692] [cursor=pointer]:
+                        - /url: https://www.youtube.com/@WSBverse?sub_confirmation=1
+                        - generic [ref=e695]: YouTube
+                      - link "Discord" [ref=e697] [cursor=pointer]:
+                        - /url: https://discord.gg/wsbverse
+                        - generic [ref=e700]: Discord
+                      - link "Twitch" [ref=e702] [cursor=pointer]:
+                        - /url: https://twitch.tv/wsbverse
+                        - generic [ref=e705]: Twitch
+                      - button "Thread Filters" [ref=e708] [cursor=pointer]:
+                        - generic [ref=e711]: Thread Filters
+                  - separator [ref=e714]
+                  - generic [ref=e715]:
+                    - heading "WallStreetBets Discord" [level=2] [ref=e717]:
+                      - generic [ref=e718]: WallStreetBets Discord
+                    - link [ref=e719] [cursor=pointer]:
+                      - /url: https://discord.com/invite/wsbverse
+                  - separator [ref=e720]
+                  - generic [ref=e721]:
+                    - heading "r/wallstreetbets規範" [level=2] [ref=e723]:
+                      - generic [ref=e724]: r/wallstreetbets規範
+                    - generic [ref=e725]:
+                      - group [ref=e727]:
+                        - generic "1 Avoid Purely Political Discussion" [ref=e728] [cursor=pointer]:
+                          - generic [ref=e730]:
+                            - generic [ref=e731]:
+                              - generic [ref=e733]: "1"
+                              - heading "Avoid Purely Political Discussion" [level=2] [ref=e737]
+                            - img [ref=e740]
+                      - group [ref=e743]:
+                        - generic "2 Screenshots of Social Media Posts are Prohibited" [ref=e744] [cursor=pointer]:
+                          - generic [ref=e746]:
+                            - generic [ref=e747]:
+                              - generic [ref=e749]: "2"
+                              - heading "Screenshots of Social Media Posts are Prohibited" [level=2] [ref=e753]
+                            - img [ref=e756]
+                      - group [ref=e759]:
+                        - generic "3 Market Cap Must Be Above $500MM USD" [ref=e760] [cursor=pointer]:
+                          - generic [ref=e762]:
+                            - generic [ref=e763]:
+                              - generic [ref=e765]: "3"
+                              - heading "Market Cap Must Be Above $500MM USD" [level=2] [ref=e769]
+                            - img [ref=e772]
+                      - group [ref=e775]:
+                        - generic "4 Keep Threads Interesting, Otherwise Use the Daily!" [ref=e776] [cursor=pointer]:
+                          - generic [ref=e778]:
+                            - generic [ref=e779]:
+                              - generic [ref=e781]: "4"
+                              - heading "Keep Threads Interesting, Otherwise Use the Daily!" [level=2] [ref=e785]
+                            - img [ref=e788]
+                      - group [ref=e791]:
+                        - generic "5 YOLOs Must Be Above $10K or $25K (Options, Shares)" [ref=e792] [cursor=pointer]:
+                          - generic [ref=e794]:
+                            - generic [ref=e795]:
+                              - generic [ref=e797]: "5"
+                              - heading "YOLOs Must Be Above $10K or $25K (Options, Shares)" [level=2] [ref=e801]
+                            - img [ref=e804]
+                      - group [ref=e807]:
+                        - generic "6 Gains and Losses Must Be Above $2.5K or $5K (Options, Shares)" [ref=e808] [cursor=pointer]:
+                          - generic [ref=e810]:
+                            - generic [ref=e811]:
+                              - generic [ref=e813]: "6"
+                              - heading "Gains and Losses Must Be Above $2.5K or $5K (Options, Shares)" [level=2] [ref=e817]
+                            - img [ref=e820]
+                      - group [ref=e823]:
+                        - generic "7 Gains and Losses Must Be Realized" [ref=e824] [cursor=pointer]:
+                          - generic [ref=e826]:
+                            - generic [ref=e827]:
+                              - generic [ref=e829]: "7"
+                              - heading "Gains and Losses Must Be Realized" [level=2] [ref=e833]
+                            - img [ref=e836]
+                      - group [ref=e839]:
+                        - generic "8 Only Crypto Allowed is BTC and ETH" [ref=e840] [cursor=pointer]:
+                          - generic [ref=e842]:
+                            - generic [ref=e843]:
+                              - generic [ref=e845]: "8"
+                              - heading "Only Crypto Allowed is BTC and ETH" [level=2] [ref=e849]
+                            - img [ref=e852]
+                      - group [ref=e855]:
+                        - generic "9 Avoid Pump & Dumps, Short Squeezes, and Market Manipulation" [ref=e856] [cursor=pointer]:
+                          - generic [ref=e858]:
+                            - generic [ref=e859]:
+                              - generic [ref=e861]: "9"
+                              - heading "Avoid Pump & Dumps, Short Squeezes, and Market Manipulation" [level=2] [ref=e865]
+                            - img [ref=e868]
+                      - group [ref=e871]:
+                        - generic "10 No Bullshitting - Only Comment If You Know What You're Talking About" [ref=e872] [cursor=pointer]:
+                          - generic [ref=e874]:
+                            - generic [ref=e875]:
+                              - generic [ref=e877]: "10"
+                              - heading "No Bullshitting - Only Comment If You Know What You're Talking About" [level=2] [ref=e881]
+                            - img [ref=e884]
+                      - group [ref=e887]:
+                        - generic "11 Please Don't Derail Discussion by Brigading, Spreading Hate, or Downvoting Everyone" [ref=e888] [cursor=pointer]:
+                          - generic [ref=e890]:
+                            - generic [ref=e891]:
+                              - generic [ref=e893]: "11"
+                              - heading "Please Don't Derail Discussion by Brigading, Spreading Hate, or Downvoting Everyone" [level=2] [ref=e897]
+                            - img [ref=e900]
+                      - group [ref=e903]:
+                        - generic "12 Don't Shit on the Community" [ref=e904] [cursor=pointer]:
+                          - generic [ref=e906]:
+                            - generic [ref=e907]:
+                              - generic [ref=e909]: "12"
+                              - heading "Don't Shit on the Community" [level=2] [ref=e913]
+                            - img [ref=e916]
+                      - group [ref=e919]:
+                        - generic "13 No Advertisement, Self-Promotion, Fundraising, or Begging" [ref=e920] [cursor=pointer]:
+                          - generic [ref=e922]:
+                            - generic [ref=e923]:
+                              - generic [ref=e925]: "13"
+                              - heading "No Advertisement, Self-Promotion, Fundraising, or Begging" [level=2] [ref=e929]
+                            - img [ref=e932]
+                      - group [ref=e935]:
+                        - generic "14 Content Guidelines" [ref=e936] [cursor=pointer]:
+                          - generic [ref=e938]:
+                            - generic [ref=e939]:
+                              - generic [ref=e941]: "14"
+                              - heading "Content Guidelines" [level=2] [ref=e945]
+                            - img [ref=e948]
+                      - group [ref=e951]:
+                        - generic "15 Glorifying Losses is Unacceptable" [ref=e952] [cursor=pointer]:
+                          - generic [ref=e954]:
+                            - generic [ref=e955]:
+                              - generic [ref=e957]: "15"
+                              - heading "Glorifying Losses is Unacceptable" [level=2] [ref=e961]
+                            - img [ref=e964]
+                  - separator [ref=e966]
+                  - separator [ref=e967]
+                  - generic [ref=e968]:
+                    - heading "已安裝的應用程式" [level=2] [ref=e970]:
+                      - generic [ref=e971]: 已安裝的應用程式
+                    - link "Verified Trader" [ref=e972] [cursor=pointer]:
+                      - /url: https://developers.reddit.com/apps/verified-trader
+                      - generic [ref=e975]: Verified Trader
+                      - img [ref=e978]
+                    - link "Modqueue Nuke" [ref=e980] [cursor=pointer]:
+                      - /url: https://developers.reddit.com/apps/modqueue-nuke
+                      - generic [ref=e983]: Modqueue Nuke
+                      - img [ref=e986]
+                    - link "wsbapp" [ref=e988] [cursor=pointer]:
+                      - /url: https://developers.reddit.com/apps/wsbapp
+                      - generic [ref=e991]: wsbapp
+                      - img [ref=e994]
+                    - link "Comment Mop" [ref=e996] [cursor=pointer]:
+                      - /url: https://developers.reddit.com/apps/comment-nuke
+                      - generic [ref=e999]: Comment Mop
+                      - img [ref=e1002]
+                    - link "wsb-earnings" [ref=e1004] [cursor=pointer]:
+                      - /url: https://developers.reddit.com/apps/wsb-earnings
+                      - generic [ref=e1007]: wsb-earnings
+                      - img [ref=e1010]
+              - list [ref=e1013]:
+                - listitem [ref=e1014]:
+                  - link "首頁" [ref=e1016] [cursor=pointer]:
+                    - /url: /?feed=home
+                - listitem [ref=e1017]:
+                  - link "爆紅" [ref=e1019] [cursor=pointer]:
+                    - /url: /r/popular/
+                - listitem [ref=e1020]:
+                  - link "最新消息" [ref=e1022] [cursor=pointer]:
+                    - /url: /news/
+                - listitem [ref=e1023]:
+                  - link "探索" [ref=e1025] [cursor=pointer]:
+                    - /url: /explore/
+                - listitem [ref=e1026]:
+                  - link "Reddit 精選內容" [ref=e1028] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/global/
+                - listitem [ref=e1029]:
+                  - link "葡萄牙文的 Reddit 精選內容" [ref=e1031] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-pt-BR/
+                - listitem [ref=e1032]:
+                  - link "德文的 Reddit 精選內容" [ref=e1034] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-de/
+                - listitem [ref=e1035]:
+                  - link "Reddit 規範" [ref=e1037] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/content-policy
+                - listitem [ref=e1038]:
+                  - link "《隱私權政策》" [ref=e1040] [cursor=pointer]:
+                    - /url: https://www.reddit.com/policies/privacy-policy
+                - listitem [ref=e1041]:
+                  - link "《使用者協議》" [ref=e1043] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/user-agreement
+                - listitem [ref=e1044]:
+                  - link "你的隱私權選擇" [ref=e1046] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/articles/43980704794004
+                - listitem [ref=e1047]:
+                  - link "輔助功能" [ref=e1049] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+                - listitem [ref=e1050]:
+                  - link "Reddit, Inc. © 2026. 保留所有權利。" [ref=e1051] [cursor=pointer]:
+                    - /url: https://redditinc.com
+        - generic [ref=e1054]:
+          - img
+          - paragraph [ref=e1055]: 加入最真實的網路天地
+          - generic [ref=e1057]:
+            - generic [ref=e1060]:
+              - iframe [ref=e1065]:
+                - button "透過 Google 帳戶繼續操作。在新分頁中開啟" [ref=f8e3] [cursor=pointer]:
+                  - generic [ref=f8e5]:
+                    - img [ref=f8e7]
+                    - generic [ref=f8e14]: 透過 Google 帳戶繼續操作
+              - generic [ref=e1067] [cursor=pointer]:
+                - generic [ref=e1068]:
+                  - img [ref=e1069]
+                  - generic [ref=e1071]: 使用 Apple 帳號繼續
+                - button "Sign in with Apple" [ref=e1074]:
+                  - generic [ref=e1075]:
+                    - img:
+                      - generic:
+                        - img:
+                          - generic:  Sign in with Apple
+                  - img [ref=e1077]
+            - link "使用電話號碼繼續" [ref=e1080] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e1083]:
+                - img [ref=e1084]
+                - generic [ref=e1087]: 使用電話號碼繼續
+            - link "使用電子郵件繼續" [ref=e1089] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e1092]:
+                - img [ref=e1093]
+                - generic [ref=e1095]: 使用電子郵件繼續
+          - paragraph [ref=e1096]:
+            - text: 繼續即表示你同意我們的
+            - link "《使用者協議》" [ref=e1097] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/user-agreement
+            - text: 並確認你已了解
+            - link "《隱私權政策》" [ref=e1098] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/privacy-policy
+            - text: .

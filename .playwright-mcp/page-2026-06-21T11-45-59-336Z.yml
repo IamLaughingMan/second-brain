@@ -1,0 +1,91 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "logo" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img "logo"
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "新聞" [ref=e9] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=e10]
+          - listitem [ref=e11]:
+            - link "專題" [ref=e12] [cursor=pointer]:
+              - /url: /project
+          - listitem [ref=e13]
+          - listitem [ref=e14]:
+            - link "快訊" [ref=e15] [cursor=pointer]:
+              - /url: /flash
+          - listitem [ref=e16]
+          - listitem [ref=e17]:
+            - link "活動" [ref=e18] [cursor=pointer]:
+              - /url: /events
+          - listitem [ref=e19]
+          - listitem [ref=e20]:
+            - link "Podcast" [ref=e21] [cursor=pointer]:
+              - /url: /podcast
+          - listitem [ref=e22]
+          - listitem [ref=e23]:
+            - link "市集" [ref=e24] [cursor=pointer]:
+              - /url: https://shop.cryptocity.tw/
+          - listitem [ref=e25]
+          - listitem [ref=e26]:
+            - link "電子報" [ref=e27] [cursor=pointer]:
+              - /url: /crypto-read
+      - generic [ref=e28]:
+        - button "search-button" [ref=e29] [cursor=pointer]:
+          - img "search-button" [ref=e30]
+        - button "toggle-dark-mode" [ref=e31] [cursor=pointer]:
+          - img "toggle-dark-mode" [ref=e32]
+  - main [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - heading "想暴富很簡單？幣圈大佬神魚揭「4 大賺錢攻略」，教你從 1000 鎂賺到 1 億鎂！" [level=1] [ref=e44]
+          - generic [ref=e45]:
+            - link "MarsBitthumbnail 區塊鏈媒體 MarsBit" [ref=e47] [cursor=pointer]:
+              - /url: /author/MarsBit
+              - img "MarsBitthumbnail" [ref=e48]
+              - generic [ref=e49]: 區塊鏈媒體
+              - generic [ref=e50]: MarsBit
+            - paragraph [ref=e51]:
+              - link "金融" [ref=e52] [cursor=pointer]:
+                - /url: /news?category=DeFi
+              - text: 2024.01.30
+          - paragraph [ref=e53]: 在個人財富增長的旅程中，最艱難的階段是 10 萬-100 萬刀，需要花費大量時間獲取信息，分析研究判斷潛力項目，執行力要強。
+          - generic [ref=e54]:
+            - img "在個人財富增長的旅程中，最艱難的階段是 10 萬-100 萬刀，需要花費大量時間獲取信息，分析研究判斷潛力項目，執行力要強。想暴富很簡單？幣圈大佬神魚揭「4 大賺錢攻略」，教你從 1000 鎂賺到 1 億鎂！"
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - link "DeFi" [ref=e58] [cursor=pointer]:
+              - /url: /search/DeFi
+            - link "區塊鏈" [ref=e59] [cursor=pointer]:
+              - /url: /search/區塊鏈
+            - link "產業" [ref=e60] [cursor=pointer]:
+              - /url: /search/產業
+            - link "神魚" [ref=e61] [cursor=pointer]:
+              - /url: /search/神魚
+          - generic [ref=e62]:
+            - paragraph [ref=e63]: ・ 本文未經同意請勿轉載
+            - paragraph [ref=e64]
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - img "icon" [ref=e67]
+              - generic [ref=e68]: 免責聲明
+            - paragraph [ref=e69]: 市場有風險，投資需謹慎。本文不構成投資建議，使用者應考慮本文的任何意見、觀點或結論是否符合其特定狀況。據此投資，責任自負。
+          - generic [ref=e70]:
+            - link "crypto_city_line" [ref=e71] [cursor=pointer]:
+              - /url: https://line.me/ti/g2/1pEXLLPSV_s3ZOuFFlPCzHD6lwagtDCNF6vh1w?utm_source=invitation&utm_medium=link_copy&utm_campaign=default
+              - img "crypto_city_line"
+            - link "crypto_city_threads" [ref=e72] [cursor=pointer]:
+              - /url: https://www.threads.net/@cryptocitytw
+              - img "crypto_city_threads"
+            - link "crypto_city_telegram" [ref=e73] [cursor=pointer]:
+              - /url: https://t.me/cryptocitytw
+              - img "crypto_city_telegram"
+      - paragraph [ref=e75]: 你可能想知道
+      - generic [ref=e77]:
+        - generic [ref=e78]: 即將開始下一篇
+        - img "upcoming" [ref=e79]
+    - separator [ref=e80]

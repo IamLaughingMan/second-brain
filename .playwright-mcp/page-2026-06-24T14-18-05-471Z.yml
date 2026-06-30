@@ -1,0 +1,149 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]: HYGIEIAS
+    - generic [ref=e5]: MENU CART
+  - generic [ref=e6]:
+    - generic [ref=e8]: "[ product photo — bottle on seamless white ]"
+    - generic [ref=e9]:
+      - generic [ref=e10]: Nicotinamide Mononucleotide
+      - heading "NMN Capsules" [level=1] [ref=e11]
+      - paragraph [ref=e12]: Pure NMN. Documented, third-party tested, fairly priced.
+      - generic [ref=e13]:
+        - generic [ref=e14]: 300 mg / cap
+        - generic [ref=e15]: 60 capsules
+        - generic [ref=e16]: ≥ 99% purity
+        - generic [ref=e17]: Third-party tested
+        - generic [ref=e18]: NDI-compliant
+      - generic [ref=e19] [cursor=pointer]:
+        - radio "One-time purchase $34.95" [ref=e20]
+        - generic [ref=e21]: One-time purchase
+        - generic [ref=e22]: $34.95
+      - generic [ref=e23] [cursor=pointer]:
+        - radio "Subscribe & save −15% $29.95" [checked] [ref=e24]
+        - generic [ref=e25]: Subscribe & save −15%
+        - generic [ref=e26]: $29.95
+      - generic [ref=e27]: $0.50 / day · cancel anytime
+      - button "ADD TO CART →" [ref=e28] [cursor=pointer]
+      - generic [ref=e29]:
+        - generic [ref=e30]: ✓ Made in a cGMP facility
+        - generic [ref=e31]: ✓ Third-party tested
+        - generic [ref=e32]: ✓ NDI-compliant ingredient
+        - generic [ref=e33]: ✓ 60-day money-back
+  - generic [ref=e34]:
+    - generic [ref=e35]: Spec sheet
+    - table [ref=e36]:
+      - rowgroup [ref=e37]:
+        - row "NMN per capsule 300 mg" [ref=e38]:
+          - cell "NMN per capsule" [ref=e39]
+          - cell "300 mg" [ref=e40]
+        - row "Capsules 60 · ≈60-day supply" [ref=e41]:
+          - cell "Capsules" [ref=e42]
+          - cell "60 · ≈60-day supply" [ref=e43]
+        - row "Purity ≥ 99%" [ref=e44]:
+          - cell "Purity" [ref=e45]
+          - cell "≥ 99%" [ref=e46]
+        - row "Form Vegetable capsule" [ref=e47]:
+          - cell "Form" [ref=e48]
+          - cell "Vegetable capsule" [ref=e49]
+        - row "Price / serving $0.50" [ref=e50]:
+          - cell "Price / serving" [ref=e51]
+          - cell "$0.50" [ref=e52]
+        - row "Price / gram NMN $1.66" [ref=e53]:
+          - cell "Price / gram NMN" [ref=e54]
+          - cell "$1.66" [ref=e55]
+        - row "Other ingredients [none — TBC]" [ref=e56]:
+          - cell "Other ingredients" [ref=e57]
+          - cell "[none — TBC]" [ref=e58]
+        - row "Tested by [lab name]" [ref=e59]:
+          - cell "Tested by" [ref=e60]
+          - cell "[lab name]" [ref=e61]
+  - generic [ref=e62]:
+    - generic [ref=e63]: Read the lab report
+    - heading "Don't take our word for it." [level=2] [ref=e64]
+    - paragraph [ref=e65]: Every batch is third-party tested for identity and purity. Read the report before you buy.
+    - generic [ref=e66]: "[ Certificate of Analysis (COA) — embedded PDF ]"
+    - link "Download COA (PDF)" [ref=e67] [cursor=pointer]:
+      - /url: "#"
+    - generic [ref=e68]: "Batch #[—] · Lab: [name] · Method: HPLC"
+  - generic [ref=e69]:
+    - generic [ref=e70]: What you pay for
+    - table [ref=e71]:
+      - rowgroup [ref=e72]:
+        - row "HYGIEIAS Typical premium Typical budget" [ref=e73]:
+          - columnheader [ref=e74]
+          - columnheader "HYGIEIAS" [ref=e75]
+          - columnheader "Typical premium" [ref=e76]:
+            - text: Typical
+            - text: premium
+          - columnheader "Typical budget" [ref=e77]:
+            - text: Typical
+            - text: budget
+        - row "Price / bottle $34.95 $50–58 $25–30" [ref=e78]:
+          - cell "Price / bottle" [ref=e79]
+          - cell "$34.95" [ref=e80]
+          - cell "$50–58" [ref=e81]
+          - cell "$25–30" [ref=e82]
+        - row "NMN / serving 300 mg 250–500 250–500" [ref=e83]:
+          - cell "NMN / serving" [ref=e84]
+          - cell "300 mg" [ref=e85]
+          - cell "250–500" [ref=e86]
+          - cell "250–500" [ref=e87]
+        - row "Purity stated ≥99% ✓ sometimes rarely" [ref=e88]:
+          - cell "Purity stated" [ref=e89]
+          - cell "≥99% ✓" [ref=e90]
+          - cell "sometimes" [ref=e91]
+          - cell "rarely" [ref=e92]
+        - row "COA shown On page ✓ \"on request\" rarely" [ref=e93]:
+          - cell "COA shown" [ref=e94]
+          - cell "On page ✓" [ref=e95]
+          - cell "\"on request\"" [ref=e96]
+          - cell "rarely" [ref=e97]
+        - row "NDI-compliant Yes ✓ varies unclear" [ref=e98]:
+          - cell "NDI-compliant" [ref=e99]
+          - cell "Yes ✓" [ref=e100]
+          - cell "varies" [ref=e101]
+          - cell "unclear" [ref=e102]
+    - paragraph [ref=e103]: We're not the cheapest. We're the one that shows you the lab report and skips the luxury markup.
+  - generic [ref=e104]:
+    - generic [ref=e105]: How to take it
+    - paragraph [ref=e106]: Take 1 capsule daily, with or without food. Many people take it in the morning. That's it.
+    - paragraph [ref=e107]: "[dosage 1 vs 2 caps — to confirm]"
+  - generic [ref=e108]:
+    - generic [ref=e109]: What is NMN?
+    - paragraph [ref=e110]: NMN (nicotinamide mononucleotide) is a precursor your body uses to make NAD⁺ — a coenzyme involved in cellular energy metabolism.¹ NAD⁺ is an active area of healthy-aging research.²
+    - paragraph [ref=e111]: We share the science so you can make an informed choice — not because we're making a promise about it.
+    - generic [ref=e112]: ¹ [citation] ² [citation]
+  - generic [ref=e113]:
+    - generic [ref=e114]: Why HYGIEIAS
+    - paragraph [ref=e115]: "Named after Hygieia, the Greek goddess of health — prevention, not cure. We sell NMN we can document: cGMP-made, NDI-compliant, third-party tested. The milligrams, the purity, the price per gram — then you decide."
+    - link "Read our story →" [ref=e116] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=e117]:
+    - generic [ref=e118]: Subscribe & save
+    - heading "Save 15%. No lock-in." [level=2] [ref=e119]
+    - paragraph [ref=e120]: Skip, change, or cancel anytime. Your NMN arrives before you run out.
+  - generic [ref=e121]:
+    - generic [ref=e122]: Guarantee
+    - heading "60-day money-back." [level=2] [ref=e123]
+    - paragraph [ref=e124]: Try it for 60 days. If it's not for you, we'll refund you — even if the bottle's empty.
+  - generic [ref=e125]:
+    - generic [ref=e126]: Reviews
+    - paragraph [ref=e127]: HYGIEIAS is new. Verified-buyer reviews will appear here as they come in.
+    - paragraph [ref=e128]: We will never post fake or incentivized reviews.
+  - generic [ref=e129]:
+    - generic [ref=e130]: FAQ
+    - group [ref=e131]:
+      - generic "Is NMN legal to sell in the US? +" [ref=e132] [cursor=pointer]
+    - group [ref=e133]:
+      - generic "Why are you cheaper than premium brands? +" [ref=e134] [cursor=pointer]
+    - group [ref=e135]:
+      - generic "What's the purity? +" [ref=e136] [cursor=pointer]
+    - group [ref=e137]:
+      - generic "Is it third-party tested? +" [ref=e138] [cursor=pointer]
+    - group [ref=e139]:
+      - generic "Shipping & returns? +" [ref=e140] [cursor=pointer]
+    - group [ref=e141]:
+      - generic "Is it safe? +" [ref=e142] [cursor=pointer]
+  - contentinfo [ref=e143]:
+    - generic [ref=e144]: These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.
+    - text: Policies · Contact · COA library · © HYGIEIAS

@@ -1,0 +1,3 @@
+[    7920ms] [WARNING] [GSI_LOGGER]: google.accounts.id.initialize() is called multiple times. This could cause unexpected behavior and only the last initialized instance will be used. @ https://www.fanatical.com/zh-hant/:4
+[    8407ms] [WARNING] Extension not installed @ https://www.fanatical.com/zh-hant/:4
+[   20058ms] [ERROR] Not signed in with the identity provider. @ https://www.fanatical.com/zh-hant/:0

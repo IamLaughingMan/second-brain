@@ -1,0 +1,1084 @@
+- generic [active] [ref=e1]:
+  - link "跳至主要內容" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: 跳至主要內容
+  - generic [ref=e6]:
+    - generic:
+      - banner [ref=e9]:
+        - navigation [ref=e10]:
+          - link "首頁" [ref=e14] [cursor=pointer]:
+            - /url: https://www.reddit.com/
+            - img [ref=e16]
+          - search [ref=e33]:
+            - generic [ref=e35]:
+              - img [ref=e38]
+              - textbox "詢問" [ref=e42]:
+                - /placeholder: 什麼都可以搜
+              - separator [ref=e43]
+              - link "詢問" [ref=e47] [cursor=pointer]:
+                - /url: /answers/
+                - generic [ref=e48]:
+                  - img [ref=e50]
+                  - generic [ref=e52]: 詢問
+              - generic: 什麼都可以搜
+          - generic [ref=e53]:
+            - link "註冊" [ref=e59] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e61]: 註冊
+            - link "登入" [ref=e65] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e67]: 登入
+            - button "展開使用者選單" [ref=e72] [cursor=pointer]:
+              - img [ref=e75]
+              - generic [ref=e77]:
+                - generic: 展開使用者選單
+      - generic [ref=e78]:
+        - generic [ref=e81]:
+          - main [ref=e82]:
+            - 'generic "I''m A Side Sleeper Who Reviewed a Bunch of Pillows, and Eventually Made My Own. : r/Mattress"'
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - generic [ref=e85]:
+                  - button "返回" [ref=e87] [cursor=pointer]:
+                    - img [ref=e90]
+                    - generic [ref=e92]:
+                      - generic: 返回
+                  - link "前往 Mattress" [ref=e95] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Mattress/
+                    - generic [ref=e99]:
+                      - generic: 前往 Mattress
+                  - group [ref=e100]:
+                    - generic [ref=e101]:
+                      - link "r/Mattress" [ref=e104] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/Mattress/
+                      - generic [ref=e105]: •
+                      - time [ref=e107]: 1 年前
+                    - link "作者：riotkitty" [ref=e112] [cursor=pointer]:
+                      - /url: https://www.reddit.com/user/riotkitty/
+                      - generic [ref=e113]: riotkitty
+                - button "開啟使用者操作" [ref=e117] [cursor=pointer]:
+                  - img [ref=e120]
+              - heading "貼文標題：I'm A Side Sleeper Who Reviewed a Bunch of Pillows, and Eventually Made My Own." [level=1] [ref=e124]: I'm A Side Sleeper Who Reviewed a Bunch of Pillows, and Eventually Made My Own.
+              - generic [ref=e127]:
+                - generic [ref=e128]:
+                  - paragraph [ref=e129]: "TLDR: I know how to sew, and I made a pillow from an existing shredded Serene foam pillow. I kept the standard length of about 22 inches but reduced the width to about 16 inches, so the pillow was narrower. Reducing the width kept the filling from shifting to the top of the pillow throughout the night."
+                  - paragraph [ref=e130]:
+                    - text: I have a very
+                    - link "popular post" [ref=e131] [cursor=pointer]:
+                      - /url: https://www.reddit.com/r/Mattress/comments/rby562/ive_tested_a_lot_of_pillows_and_while_i_know_they/
+                    - text: where I have reviewed lots of pillows as a side sleeper who sleeps hot. The pillow I've liked the most still available is the Pluto Pillow, as it was customized for me. However, it's just a little firmer than I would like. Several months ago, I bought some pillows from AB Lifestyles filled with shredded Serene foam. I've generally liked Serene foam pillows because they're cooler and more supportive than standard doughy memory foam. The Pluto has a Serene foam core.
+                  - paragraph [ref=e132]: These pillows were initially too soft, so I bought an extra one to get more foam. Making it firmer helped, but I kept noticing that the foam would shift to the top of the pillow overnight, making the pillow too flat for side sleeping. I noticed that buckwheat pillows come in smaller sizes with shorter widths to prevent this, so I figured it would work for foam, too. I emptied the contents of the existing pillows, cut and sewed the existing inner shell to measure 22x16, and then stuffed it until it reached the firmness and loft I wanted. Once I got that, I sewed it up and altered a pillow protector and cover to fit it perfectly.
+                  - paragraph [ref=e133]: So far, it's been exactly what I've been looking for. I get support all night because the foam doesn't shift much. I liked it so much, I made a second one that I keep in my camper. I think I just have a very specific way I want pillows to feel, and that's why customization has been the best solution for me.
+                - button "閱讀更多" [ref=e134] [cursor=pointer]:
+                  - generic [ref=e136]: 閱讀更多
+                  - img [ref=e139]
+              - generic [ref=e141]:
+                - img [ref=e142]
+                - generic [ref=e144]: "12"
+                - img [ref=e145]
+                - generic [ref=e147]: ·
+                - img [ref=e148]
+                - generic [ref=e150]: "10"
+            - separator [ref=e151]
+            - generic "TIL about VELSIPITY." [ref=e152]:
+              - generic [ref=e153]:
+                - 'generic "Advertisement: TIL about VELSIPITY." [ref=e154]':
+                  - 'link "Advertisement: TIL about VELSIPITY." [ref=e155] [cursor=pointer]':
+                    - /url: https://alb.reddit.com/cr?za=4LZrX776tMwKXgKkqXSfW5TWWghPeg5JchzGz96ZoacY5eVfjkZCzSEiZSLuAkkl4tQwjiyedMgP-hDtzjZDbeeRZ8q7dbH8Vmp-PDRZRLSQp_-S7w06E_7IqJfmk_zl8geKDpSYrNzHFsxwASRMaaJvlyf_8zQ8ZLszr467oDDj36B_X2T19KCMOJPg75_JWDLXWeyyHHGTXeiqiYlRB41YBBLvUANJk4-QsY6ZCaH7zxm-n7IzuPLFhlTotdP8rdRZttYHzl_LQNTbgmEDxdlhQQBuvt9TheJNnDbmbwgUR1VamFFvjWnHnohRWmkETtzOq_3tmOeeosIR5OVZTR7cYZUYa4a1Nyb-_c1bn7lgg1f6fP8kMkeNa1jdO1H_fpBlnp3g-idw5ZAe3VSVv2eRkas6ZCZH76Vj1IUbrYp5sitLlcUrlRiXHBK3zfL_erih5CVVPe8rBOyxRIa3HKfqIQh1NzRznWWBUBEPEwTU87dv-rxx7oP_1qu0QM7i919tk1kUqFY001A5W1cD5rq4jk9MlboYWsJdcagMR3wO4ACXU2BSUR7jPPT_brnqyEtofvH_HX-Qqci6jv2iD1fvZOWYTldZHTBVi1-hd2umUmvwuO5y7KOuoQx-HcBrG_5hyDsluOnxsmjsuqwoq9_NLTd_oxtDC2J9r9qgc-wnLxrf04iajDKk2AK3H_yBmyoHmTWzb8Nf4rgjIba3IkLm_4z8VHIcYrzsMaC7r9wIwP4NHQ&zp=3aKAKlHN7K-ryMVIiEyJ-cjRo75swKbED4zR6XWhAa4-CAz1XpxT80DQwLsMouuXkLtAsFygu5LNLUqRCGG0-Knl2qfA4WPKgTzMndD0hjL48yJSzs1KjynMuwNHWglBy0QHor2NgesQNJBFH5q2J_KHNDxGW2Ahx9dFvhUelxoTQq-G_Kn7honS0QhQS1wOiQ2d05-2nAl_a9MdIdfTOK7igfATQUCJCF5ftrkpdifoen_4j6-Bj4XivkvS-tIvwsKi-WixrAJIlRAP7I_SPqAaimaGmdH0ZR0yGpq-dBJPcxBKbG_J-QtQDcu-QS8KOJcX-Y4IeHp0eQlWMuGK7RGieNUzSzvoh5VyE8X04Io0ub8359st-aLP6GYVBK-sNJ99uouRCG54CAMW0Py2SVWiA4j8WdbONZsrhbFt-9E3vdJLqaVwRLzg7PCx17-r0QgZe3HdiRRbgdc73EbVLr7JB4lnDzuETm-IBrs60rdxS3v3
+                - generic [ref=e156]:
+                  - generic [ref=e157]:
+                    - link "VELSIPITY_etrasimod" [ref=e159] [cursor=pointer]:
+                      - /url: /user/VELSIPITY_etrasimod/
+                      - img "u/VELSIPITY_etrasimod 虛擬頭像" [ref=e162]
+                      - generic [ref=e163]: VELSIPITY_etrasimod
+                    - generic [ref=e164]: •
+                    - link "宣傳內容" [ref=e166] [cursor=pointer]:
+                      - /url: /user/VELSIPITY_etrasimod/
+                      - generic [ref=e167]: 宣傳內容
+                    - link [ref=e169] [cursor=pointer]:
+                      - /url: https://alb.reddit.com/cr?za=4LZrX776tMwKXgKkqXSfW5TWWghPeg5JchzGz96ZoacY5eVfjkZCzSEiZSLuAkkl4tQwjiyedMgP-hDtzjZDbeeRZ8q7dbH8Vmp-PDRZRLSQp_-S7w06E_7IqJfmk_zl8geKDpSYrNzHFsxwASRMaaJvlyf_8zQ8ZLszr467oDDj36B_X2T19KCMOJPg75_JWDLXWeyyHHGTXeiqiYlRB41YBBLvUANJk4-QsY6ZCaH7zxm-n7IzuPLFhlTotdP8rdRZttYHzl_LQNTbgmEDxdlhQQBuvt9TheJNnDbmbwgUR1VamFFvjWnHnohRWmkETtzOq_3tmOeeosIR5OVZTR7cYZUYa4a1Nyb-_c1bn7lgg1f6fP8kMkeNa1jdO1H_fpBlnp3g-idw5ZAe3VSVv2eRkas6ZCZH76Vj1IUbrYp5sitLlcUrlRiXHBK3zfL_erih5CVVPe8rBOyxRIa3HKfqIQh1NzRznWWBUBEPEwTU87dv-rxx7oP_1qu0QM7i919tk1kUqFY001A5W1cD5rq4jk9MlboYWsJdcagMR3wO4ACXU2BSUR7jPPT_brnqyEtofvH_HX-Qqci6jv2iD1fvZOWYTldZHTBVi1-hd2umUmvwuO5y7KOuoQx-HcBrG_5hyDsluOnxsmjsuqwoq9_NLTd_oxtDC2J9r9qgc-wnLxrf04iajDKk2AK3H_yBmyoHmTWzb8Nf4rgjIba3IkLm_4z8VHIcYrzsMaC7r9wIwP4NHQ&zp=3aKAKlHN7K-ryMVIiEyJ-cjRo75swKbED4zR6XWhAa4-CAz1XpxT80DQwLsMouuXkLtAsFygu5LNLUqRCGG0-Knl2qfA4WPKgTzMndD0hjL48yJSzs1KjynMuwNHWglBy0QHor2NgesQNJBFH5q2J_KHNDxGW2Ahx9dFvhUelxoTQq-G_Kn7honS0QhQS1wOiQ2d05-2nAl_a9MdIdfTOK7igfATQUCJCF5ftrkpdifoen_4j6-Bj4XivkvS-tIvwsKi-WixrAJIlRAP7I_SPqAaimaGmdH0ZR0yGpq-dBJPcxBKbG_J-QtQDcu-QS8KOJcX-Y4IeHp0eQlWMuGK7RGieNUzSzvoh5VyE8X04Io0ub8359st-aLP6GYVBK-sNJ99uouRCG54CAMW0Py2SVWiA4j8WdbONZsrhbFt-9E3vdJLqaVwRLzg7PCx17-r0QgZe3HdiRRbgdc73EbVLr7JB4lnDzuETm-IBrs60rdxS3v3
+                  - button "開啟使用者操作" [ref=e174] [cursor=pointer]:
+                    - img [ref=e177]
+                - generic [ref=e180]:
+                  - generic [ref=e181]:
+                    - link "TIL about VELSIPITY." [ref=e183] [cursor=pointer]:
+                      - /url: https://alb.reddit.com/cr?za=4LZrX776tMwKXgKkqXSfW5TWWghPeg5JchzGz96ZoacY5eVfjkZCzSEiZSLuAkkl4tQwjiyedMgP-hDtzjZDbeeRZ8q7dbH8Vmp-PDRZRLSQp_-S7w06E_7IqJfmk_zl8geKDpSYrNzHFsxwASRMaaJvlyf_8zQ8ZLszr467oDDj36B_X2T19KCMOJPg75_JWDLXWeyyHHGTXeiqiYlRB41YBBLvUANJk4-QsY6ZCaH7zxm-n7IzuPLFhlTotdP8rdRZttYHzl_LQNTbgmEDxdlhQQBuvt9TheJNnDbmbwgUR1VamFFvjWnHnohRWmkETtzOq_3tmOeeosIR5OVZTR7cYZUYa4a1Nyb-_c1bn7lgg1f6fP8kMkeNa1jdO1H_fpBlnp3g-idw5ZAe3VSVv2eRkas6ZCZH76Vj1IUbrYp5sitLlcUrlRiXHBK3zfL_erih5CVVPe8rBOyxRIa3HKfqIQh1NzRznWWBUBEPEwTU87dv-rxx7oP_1qu0QM7i919tk1kUqFY001A5W1cD5rq4jk9MlboYWsJdcagMR3wO4ACXU2BSUR7jPPT_brnqyEtofvH_HX-Qqci6jv2iD1fvZOWYTldZHTBVi1-hd2umUmvwuO5y7KOuoQx-HcBrG_5hyDsluOnxsmjsuqwoq9_NLTd_oxtDC2J9r9qgc-wnLxrf04iajDKk2AK3H_yBmyoHmTWzb8Nf4rgjIba3IkLm_4z8VHIcYrzsMaC7r9wIwP4NHQ&zp=3aKAKlHN7K-ryMVIiEyJ-cjRo75swKbED4zR6XWhAa4-CAz1XpxT80DQwLsMouuXkLtAsFygu5LNLUqRCGG0-Knl2qfA4WPKgTzMndD0hjL48yJSzs1KjynMuwNHWglBy0QHor2NgesQNJBFH5q2J_KHNDxGW2Ahx9dFvhUelxoTQq-G_Kn7honS0QhQS1wOiQ2d05-2nAl_a9MdIdfTOK7igfATQUCJCF5ftrkpdifoen_4j6-Bj4XivkvS-tIvwsKi-WixrAJIlRAP7I_SPqAaimaGmdH0ZR0yGpq-dBJPcxBKbG_J-QtQDcu-QS8KOJcX-Y4IeHp0eQlWMuGK7RGieNUzSzvoh5VyE8X04Io0ub8359st-aLP6GYVBK-sNJ99uouRCG54CAMW0Py2SVWiA4j8WdbONZsrhbFt-9E3vdJLqaVwRLzg7PCx17-r0QgZe3HdiRRbgdc73EbVLr7JB4lnDzuETm-IBrs60rdxS3v3
+                      - generic: TIL about VELSIPITY.
+                    - generic [ref=e184]:
+                      - link [ref=e186] [cursor=pointer]:
+                        - /url: https://alb.reddit.com/cr?za=4LZrX776tMwKXgKkqXSfW5TWWghPeg5JchzGz96ZoacY5eVfjkZCzSEiZSLuAkkl4tQwjiyedMgP-hDtzjZDbeeRZ8q7dbH8Vmp-PDRZRLSQp_-S7w06E_7IqJfmk_zl8geKDpSYrNzHFsxwASRMaaJvlyf_8zQ8ZLszr467oDDj36B_X2T19KCMOJPg75_JWDLXWeyyHHGTXeiqiYlRB41YBBLvUANJk4-QsY6ZCaH7zxm-n7IzuPLFhlTotdP8rdRZttYHzl_LQNTbgmEDxdlhQQBuvt9TheJNnDbmbwgUR1VamFFvjWnHnohRWmkETtzOq_3tmOeeosIR5OVZTR7cYZUYa4a1Nyb-_c1bn7lgg1f6fP8kMkeNa1jdO1H_fpBlnp3g-idw5ZAe3VSVv2eRkas6ZCZH76Vj1IUbrYp5sitLlcUrlRiXHBK3zfL_erih5CVVPe8rBOyxRIa3HKfqIQh1NzRznWWBUBEPEwTU87dv-rxx7oP_1qu0QM7i919tk1kUqFY001A5W1cD5rq4jk9MlboYWsJdcagMR3wO4ACXU2BSUR7jPPT_brnqyEtofvH_HX-Qqci6jv2iD1fvZOWYTldZHTBVi1-hd2umUmvwuO5y7KOuoQx-HcBrG_5hyDsluOnxsmjsuqwoq9_NLTd_oxtDC2J9r9qgc-wnLxrf04iajDKk2AK3H_yBmyoHmTWzb8Nf4rgjIba3IkLm_4z8VHIcYrzsMaC7r9wIwP4NHQ&zp=3aKAKlHN7K-ryMVIiEyJ-cjRo75swKbED4zR6XWhAa4-CAz1XpxT80DQwLsMouuXkLtAsFygu5LNLUqRCGG0-Knl2qfA4WPKgTzMndD0hjL48yJSzs1KjynMuwNHWglBy0QHor2NgesQNJBFH5q2J_KHNDxGW2Ahx9dFvhUelxoTQq-G_Kn7honS0QhQS1wOiQ2d05-2nAl_a9MdIdfTOK7igfATQUCJCF5ftrkpdifoen_4j6-Bj4XivkvS-tIvwsKi-WixrAJIlRAP7I_SPqAaimaGmdH0ZR0yGpq-dBJPcxBKbG_J-QtQDcu-QS8KOJcX-Y4IeHp0eQlWMuGK7RGieNUzSzvoh5VyE8X04Io0ub8359st-aLP6GYVBK-sNJ99uouRCG54CAMW0Py2SVWiA4j8WdbONZsrhbFt-9E3vdJLqaVwRLzg7PCx17-r0QgZe3HdiRRbgdc73EbVLr7JB4lnDzuETm-IBrs60rdxS3v3
+                      - generic [ref=e187]:
+                        - link "深入了解" [ref=e189] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=4LZrX776tMwKXgKkqXSfW5TWWghPeg5JchzGz96ZoacY5eVfjkZCzSEiZSLuAkkl4tQwjiyedMgP-hDtzjZDbeeRZ8q7dbH8Vmp-PDRZRLSQp_-S7w06E_7IqJfmk_zl8geKDpSYrNzHFsxwASRMaaJvlyf_8zQ8ZLszr467oDDj36B_X2T19KCMOJPg75_JWDLXWeyyHHGTXeiqiYlRB41YBBLvUANJk4-QsY6ZCaH7zxm-n7IzuPLFhlTotdP8rdRZttYHzl_LQNTbgmEDxdlhQQBuvt9TheJNnDbmbwgUR1VamFFvjWnHnohRWmkETtzOq_3tmOeeosIR5OVZTR7cYZUYa4a1Nyb-_c1bn7lgg1f6fP8kMkeNa1jdO1H_fpBlnp3g-idw5ZAe3VSVv2eRkas6ZCZH76Vj1IUbrYp5sitLlcUrlRiXHBK3zfL_erih5CVVPe8rBOyxRIa3HKfqIQh1NzRznWWBUBEPEwTU87dv-rxx7oP_1qu0QM7i919tk1kUqFY001A5W1cD5rq4jk9MlboYWsJdcagMR3wO4ACXU2BSUR7jPPT_brnqyEtofvH_HX-Qqci6jv2iD1fvZOWYTldZHTBVi1-hd2umUmvwuO5y7KOuoQx-HcBrG_5hyDsluOnxsmjsuqwoq9_NLTd_oxtDC2J9r9qgc-wnLxrf04iajDKk2AK3H_yBmyoHmTWzb8Nf4rgjIba3IkLm_4z8VHIcYrzsMaC7r9wIwP4NHQ&zp=3aKAKlHN7K-ryMVIiEyJ-cjRo75swKbED4zR6XWhAa4-CAz1XpxT80DQwLsMouuXkLtAsFygu5LNLUqRCGG0-Knl2qfA4WPKgTzMndD0hjL48yJSzs1KjynMuwNHWglBy0QHor2NgesQNJBFH5q2J_KHNDxGW2Ahx9dFvhUelxoTQq-G_Kn7honS0QhQS1wOiQ2d05-2nAl_a9MdIdfTOK7igfATQUCJCF5ftrkpdifoen_4j6-Bj4XivkvS-tIvwsKi-WixrAJIlRAP7I_SPqAaimaGmdH0ZR0yGpq-dBJPcxBKbG_J-QtQDcu-QS8KOJcX-Y4IeHp0eQlWMuGK7RGieNUzSzvoh5VyE8X04Io0ub8359st-aLP6GYVBK-sNJ99uouRCG54CAMW0Py2SVWiA4j8WdbONZsrhbFt-9E3vdJLqaVwRLzg7PCx17-r0QgZe3HdiRRbgdc73EbVLr7JB4lnDzuETm-IBrs60rdxS3v3
+                          - generic [ref=e191]:
+                            - generic: 深入了解
+                        - link "velsipity.com" [ref=e194] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=4LZrX776tMwKXgKkqXSfW5TWWghPeg5JchzGz96ZoacY5eVfjkZCzSEiZSLuAkkl4tQwjiyedMgP-hDtzjZDbeeRZ8q7dbH8Vmp-PDRZRLSQp_-S7w06E_7IqJfmk_zl8geKDpSYrNzHFsxwASRMaaJvlyf_8zQ8ZLszr467oDDj36B_X2T19KCMOJPg75_JWDLXWeyyHHGTXeiqiYlRB41YBBLvUANJk4-QsY6ZCaH7zxm-n7IzuPLFhlTotdP8rdRZttYHzl_LQNTbgmEDxdlhQQBuvt9TheJNnDbmbwgUR1VamFFvjWnHnohRWmkETtzOq_3tmOeeosIR5OVZTR7cYZUYa4a1Nyb-_c1bn7lgg1f6fP8kMkeNa1jdO1H_fpBlnp3g-idw5ZAe3VSVv2eRkas6ZCZH76Vj1IUbrYp5sitLlcUrlRiXHBK3zfL_erih5CVVPe8rBOyxRIa3HKfqIQh1NzRznWWBUBEPEwTU87dv-rxx7oP_1qu0QM7i919tk1kUqFY001A5W1cD5rq4jk9MlboYWsJdcagMR3wO4ACXU2BSUR7jPPT_brnqyEtofvH_HX-Qqci6jv2iD1fvZOWYTldZHTBVi1-hd2umUmvwuO5y7KOuoQx-HcBrG_5hyDsluOnxsmjsuqwoq9_NLTd_oxtDC2J9r9qgc-wnLxrf04iajDKk2AK3H_yBmyoHmTWzb8Nf4rgjIba3IkLm_4z8VHIcYrzsMaC7r9wIwP4NHQ&zp=3aKAKlHN7K-ryMVIiEyJ-cjRo75swKbED4zR6XWhAa4-CAz1XpxT80DQwLsMouuXkLtAsFygu5LNLUqRCGG0-Knl2qfA4WPKgTzMndD0hjL48yJSzs1KjynMuwNHWglBy0QHor2NgesQNJBFH5q2J_KHNDxGW2Ahx9dFvhUelxoTQq-G_Kn7honS0QhQS1wOiQ2d05-2nAl_a9MdIdfTOK7igfATQUCJCF5ftrkpdifoen_4j6-Bj4XivkvS-tIvwsKi-WixrAJIlRAP7I_SPqAaimaGmdH0ZR0yGpq-dBJPcxBKbG_J-QtQDcu-QS8KOJcX-Y4IeHp0eQlWMuGK7RGieNUzSzvoh5VyE8X04Io0ub8359st-aLP6GYVBK-sNJ99uouRCG54CAMW0Py2SVWiA4j8WdbONZsrhbFt-9E3vdJLqaVwRLzg7PCx17-r0QgZe3HdiRRbgdc73EbVLr7JB4lnDzuETm-IBrs60rdxS3v3
+                          - generic: velsipity.com
+                    - link "Click for full Prescribing Information, Medication Guide, & see Important Safety Info at the end." [ref=e197] [cursor=pointer]:
+                      - /url: https://alb.reddit.com/cr?za=4LZrX776tMwKXgKkqXSfW5TWWghPeg5JchzGz96ZoacY5eVfjkZCzSEiZSLuAkkl4tQwjiyedMgP-hDtzjZDbeeRZ8q7dbH8Vmp-PDRZRLSQp_-S7w06E_7IqJfmk_zl8geKDpSYrNzHFsxwASRMaaJvlyf_8zQ8ZLszr467oDDj36B_X2T19KCMOJPg75_JWDLXWeyyHHGTXeiqiYlRB41YBBLvUANJk4-QsY6ZCaH7zxm-n7IzuPLFhlTotdP8rdRZttYHzl_LQNTbgmEDxdlhQQBuvt9TheJNnDbmbwgUR1VamFFvjWnHnohRWmkETtzOq_3tmOeeosIR5OVZTR7cYZUYa4a1Nyb-_c1bn7lgg1f6fP8kMkeNa1jdO1H_fpBlnp3g-idw5ZAe3VSVv2eRkas6ZCZH76Vj1IUbrYp5sitLlcUrlRiXHBK3zfL_erih5CVVPe8rBOyxRIa3HKfqIQh1NzRznWWBUBEPEwTU87dv-rxx7oP_1qu0QM7i919tk1kUqFY001A5W1cD5rq4jk9MlboYWsJdcagMR3wO4ACXU2BSUR7jPPT_brnqyEtofvH_HX-Qqci6jv2iD1fvZOWYTldZHTBVi1-hd2umUmvwuO5y7KOuoQx-HcBrG_5hyDsluOnxsmjsuqwoq9_NLTd_oxtDC2J9r9qgc-wnLxrf04iajDKk2AK3H_yBmyoHmTWzb8Nf4rgjIba3IkLm_4z8VHIcYrzsMaC7r9wIwP4NHQ&zp=3aKAKlHN7K-ryMVIiEyJ-cjRo75swKbED4zR6XWhAa4-CAz1XpxT80DQwLsMouuXkLtAsFygu5LNLUqRCGG0-Knl2qfA4WPKgTzMndD0hjL48yJSzs1KjynMuwNHWglBy0QHor2NgesQNJBFH5q2J_KHNDxGW2Ahx9dFvhUelxoTQq-G_Kn7honS0QhQS1wOiQ2d05-2nAl_a9MdIdfTOK7igfATQUCJCF5ftrkpdifoen_4j6-Bj4XivkvS-tIvwsKi-WixrAJIlRAP7I_SPqAaimaGmdH0ZR0yGpq-dBJPcxBKbG_J-QtQDcu-QS8KOJcX-Y4IeHp0eQlWMuGK7RGieNUzSzvoh5VyE8X04Io0ub8359st-aLP6GYVBK-sNJ99uouRCG54CAMW0Py2SVWiA4j8WdbONZsrhbFt-9E3vdJLqaVwRLzg7PCx17-r0QgZe3HdiRRbgdc73EbVLr7JB4lnDzuETm-IBrs60rdxS3v3
+                      - paragraph [ref=e199]:
+                        - text: Click for full
+                        - link "Prescribing Information" [ref=e200]:
+                          - /url: https://labeling.pfizer.com/ShowLabeling.aspx?id=19776
+                        - text: ","
+                        - link "Medication Guide" [ref=e201]:
+                          - /url: https://labeling.pfizer.com/ShowLabeling.aspx?id=19776&Section=MedGuide
+                        - text: ", & see Important Safety Info at the end."
+                  - generic [ref=e202] [cursor=pointer]:
+                    - 'img "Clickable image which will reveal the video player: TIL about VELSIPITY." [ref=e203]'
+                    - button "播放影片" [ref=e204]:
+                      - img [ref=e205]
+                - generic:
+                  - generic:
+                    - button "收合影片播放器" [ref=e207] [cursor=pointer]:
+                      - img [ref=e208]
+                      - generic [ref=e210]:
+                        - generic: 收合影片播放器
+                    - generic [ref=e216]:
+                      - generic [ref=e217]:
+                        - button "播放開關" [ref=e218] [cursor=pointer]:
+                          - img [ref=e219]
+                        - generic "媒體播放時間" [ref=e221]
+                        - generic [ref=e226]:
+                          - generic [ref=e227]: 0:00
+                          - generic [ref=e228]: / 0:00
+                        - button "字幕開關" [ref=e229] [cursor=pointer]:
+                          - img [ref=e230]
+                        - generic [ref=e233]:
+                          - button "設定" [ref=e234] [cursor=pointer]:
+                            - img [ref=e235]
+                          - generic:
+                            - button:
+                              - generic:
+                                - img
+                              - generic: 自動
+                        - button "全螢幕開關" [ref=e237] [cursor=pointer]:
+                          - img [ref=e238]
+                      - button "音量開關" [ref=e243] [cursor=pointer]:
+                        - img [ref=e244]
+            - separator [ref=e247]
+            - region "留言" [ref=e250]:
+              - heading "留言區" [level=1] [ref=e251]
+              - article "留言者：Spare-Smile-758 1 年前" [ref=e253]:
+                - generic "Spare-Smile-758 的個人檔案 (虛擬頭像) Spare-Smile-758 的個人檔案 1 年前" [ref=e254] [cursor=pointer]:
+                  - link "Spare-Smile-758 的個人檔案 (虛擬頭像)" [ref=e259]:
+                    - /url: https://www.reddit.com/user/Spare-Smile-758/
+                    - img [ref=e264]
+                  - generic [ref=e269]:
+                    - link "Spare-Smile-758 的個人檔案" [ref=e272]:
+                      - /url: https://www.reddit.com/user/Spare-Smile-758/
+                      - text: Spare-Smile-758
+                    - generic [ref=e273]: •
+                    - link "1 年前" [ref=e275]:
+                      - /url: https://www.reddit.com/r/Mattress/comments/1kml18h/comment/msclto0/
+                      - time [ref=e277]: 1 年前
+                - generic [ref=e279]:
+                  - paragraph [ref=e283]: I have been working on making my own pillow also!!! I’m going to try your idea!!!!!
+                  - generic [ref=e285]:
+                    - img [ref=e286]
+                    - generic [ref=e288]: "2"
+                    - img [ref=e289]
+                  - img
+                  - article "討論串第 1 層：回覆者：riotkitty 1 年前" [ref=e293]:
+                    - generic "riotkitty 的個人檔案 (虛擬頭像) riotkitty 的個人檔案 1 年前" [ref=e294] [cursor=pointer]:
+                      - link "riotkitty 的個人檔案 (虛擬頭像)" [ref=e299]:
+                        - /url: https://www.reddit.com/user/riotkitty/
+                        - img "u/riotkitty 虛擬頭像" [ref=e302]
+                      - generic [ref=e306]:
+                        - link "riotkitty 的個人檔案" [ref=e309]:
+                          - /url: https://www.reddit.com/user/riotkitty/
+                          - text: riotkitty
+                        - generic "已標示留言者為原 PO" [ref=e312]: 原 Po
+                        - generic [ref=e313]: •
+                        - link "1 年前" [ref=e315]:
+                          - /url: https://www.reddit.com/r/Mattress/comments/1kml18h/comment/mscmazo/
+                          - time [ref=e317]: 1 年前
+                    - generic [ref=e319]:
+                      - paragraph [ref=e323]: I hope it works for you!
+                      - generic [ref=e325]:
+                        - img [ref=e326]
+                        - generic [ref=e328]: "1"
+                        - img [ref=e329]
+              - article "留言者：need2knownowplz 1 年前" [ref=e332]:
+                - generic "need2knownowplz 的個人檔案 (虛擬頭像) need2knownowplz 的個人檔案 1 年前" [ref=e333] [cursor=pointer]:
+                  - link "need2knownowplz 的個人檔案 (虛擬頭像)" [ref=e338]:
+                    - /url: https://www.reddit.com/user/need2knownowplz/
+                    - img [ref=e343]
+                  - generic [ref=e348]:
+                    - link "need2knownowplz 的個人檔案" [ref=e351]:
+                      - /url: https://www.reddit.com/user/need2knownowplz/
+                      - text: need2knownowplz
+                    - generic [ref=e352]: •
+                    - link "1 年前" [ref=e354]:
+                      - /url: https://www.reddit.com/r/Mattress/comments/1kml18h/comment/mt5p2o1/
+                      - time [ref=e356]: 1 年前
+                - generic [ref=e358]:
+                  - paragraph [ref=e362]: I’ve been considering the same thing. How many of the serene foam pillows did you end up purchasing to make the one?
+                  - generic [ref=e364]:
+                    - img [ref=e365]
+                    - generic [ref=e367]: "1"
+                    - img [ref=e368]
+                  - img
+                  - article "討論串第 1 層：回覆者：riotkitty 1 年前" [ref=e372]:
+                    - generic "riotkitty 的個人檔案 (虛擬頭像) riotkitty 的個人檔案 1 年前" [ref=e373] [cursor=pointer]:
+                      - link "riotkitty 的個人檔案 (虛擬頭像)" [ref=e378]:
+                        - /url: https://www.reddit.com/user/riotkitty/
+                        - img "u/riotkitty 虛擬頭像" [ref=e381]
+                      - generic [ref=e385]:
+                        - link "riotkitty 的個人檔案" [ref=e388]:
+                          - /url: https://www.reddit.com/user/riotkitty/
+                          - text: riotkitty
+                        - generic "已標示留言者為原 PO" [ref=e391]: 原 Po
+                        - generic [ref=e392]: •
+                        - link "1 年前" [ref=e394]:
+                          - /url: https://www.reddit.com/r/Mattress/comments/1kml18h/comment/mt6ggd2/
+                          - time [ref=e396]: 1 年前
+                    - generic [ref=e398]:
+                      - generic [ref=e401]:
+                        - paragraph [ref=e402]: One altered pillow has all the fill of its original pillow plus a little more. You may only need one because the pillow has less room after the alterations are done, but they are also sold in a pack of two, which is the better deal if you need a second one. I had three and made two altered pillows, and I had foam left over. I looked for shredded Serene foam in other places and could not find any. I can't find any shredded foam that is not memory foam for sale anywhere online.
+                        - paragraph [ref=e403]: Also, I didn't sew a zipper on my shell because I was lazy, but I highly recommend doing it if you know how. Makes adjusting so much easier.
+                      - generic [ref=e405]:
+                        - img [ref=e406]
+                        - generic [ref=e408]: "1"
+                        - img [ref=e409]
+                      - img
+                      - article "討論串第 2 層：回覆者：need2knownowplz 1 年前" [ref=e413]:
+                        - generic "need2knownowplz 的個人檔案 (虛擬頭像) need2knownowplz 的個人檔案 1 年前" [ref=e414] [cursor=pointer]:
+                          - link "need2knownowplz 的個人檔案 (虛擬頭像)" [ref=e419]:
+                            - /url: https://www.reddit.com/user/need2knownowplz/
+                            - img [ref=e424]
+                          - generic [ref=e429]:
+                            - link "need2knownowplz 的個人檔案" [ref=e432]:
+                              - /url: https://www.reddit.com/user/need2knownowplz/
+                              - text: need2knownowplz
+                            - generic [ref=e433]: •
+                            - link "1 年前" [ref=e435]:
+                              - /url: https://www.reddit.com/r/Mattress/comments/1kml18h/comment/mt6odul/
+                              - time [ref=e437]: 1 年前
+                        - generic [ref=e439]:
+                          - paragraph [ref=e443]: I’m not amazing at sewing so a zipper is probably out of the question. I’d love to see a picture.
+                          - generic [ref=e445]:
+                            - img [ref=e446]
+                            - generic [ref=e448]: "1"
+                            - img [ref=e449]
+                          - button "其他 5 則回覆" [ref=e454] [cursor=pointer]:
+                            - generic [ref=e457]:
+                              - generic [ref=e459]:
+                                - text: 其他
+                                - generic [ref=e460]: "5"
+                                - text: 則回覆
+                              - img [ref=e461]
+          - generic [ref=e463]:
+            - generic [ref=e464]:
+              - complementary "「其他人也詢問」區段" [ref=e466]:
+                - heading "「其他人也詢問」區段" [level=1] [ref=e467]
+                - generic [ref=e468]:
+                  - img [ref=e470]
+                  - generic [ref=e472]: 其他人也詢問…
+                - generic [ref=e473]:
+                  - link "Reviews of popular cooling pillows" [ref=e475] [cursor=pointer]:
+                    - /url: https://www.reddit.com/answers/6a1b150f-74d1-437b-a004-096dd9f8633a/?q=Reviews+of+popular+cooling+pillows&source=PDP
+                    - generic [ref=e478]: Reviews of popular cooling pillows
+                    - img [ref=e481]
+                  - link "Best pillows for reducing filling shift" [ref=e484] [cursor=pointer]:
+                    - /url: https://www.reddit.com/answers/bb999cd3-228b-455e-92f3-7b7f483dd98a/?q=Best+pillows+for+reducing+filling+shift&source=PDP
+                    - generic [ref=e487]: Best pillows for reducing filling shift
+                    - img [ref=e490]
+                  - link "Top mattress brands for back pain relief" [ref=e493] [cursor=pointer]:
+                    - /url: https://www.reddit.com/answers/b76329b8-f1bf-4283-b1de-dbbe0f03e4be/?q=Top+mattress+brands+for+back+pain+relief&source=PDP
+                    - generic [ref=e496]: Top mattress brands for back pain relief
+                    - img [ref=e499]
+                  - link "Best mattress types for hot sleepers" [ref=e502] [cursor=pointer]:
+                    - /url: https://www.reddit.com/answers/7a18da00-7cd0-4993-baf9-f4c0dbcb2b4f/?q=Best+mattress+types+for+hot+sleepers&source=PDP
+                    - generic [ref=e505]: Best mattress types for hot sleepers
+                    - img [ref=e508]
+                  - link "How to choose a mattress for side sleepers" [ref=e511] [cursor=pointer]:
+                    - /url: https://www.reddit.com/answers/e86afc83-d0e2-4b6f-a9d1-a57b4e908166/?q=How+to+choose+a+mattress+for+side+sleepers&source=PDP
+                    - generic [ref=e514]: How to choose a mattress for side sleepers
+                    - img [ref=e517]
+              - complementary "相關貼文區塊" [ref=e519]:
+                - heading "相關貼文區塊" [level=1] [ref=e520]: 更多你可能喜歡的貼文
+                - generic [ref=e521]: 相關貼文
+                - list [ref=e525]:
+                  - listitem [ref=e526]:
+                    - generic [ref=e527]:
+                      - generic [ref=e528]:
+                        - link "Your mattress might be fine. Your pillow might be the actual problem" [ref=e529] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/SleepEssentialsIndia/comments/1refmnd/your_mattress_might_be_fine_your_pillow_might_be/
+                          - generic [ref=e530]:
+                            - generic: Your mattress might be fine. Your pillow might be the actual problem
+                        - generic [ref=e532]:
+                          - generic [ref=e534]:
+                            - link "r/SleepEssentialsIndia" [ref=e535] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/SleepEssentialsIndia/
+                              - img [ref=e539]
+                              - generic [ref=e541]: r/SleepEssentialsIndia
+                            - generic [ref=e542]: •
+                            - time [ref=e544]: 4 個月前
+                          - link "清單項目貼文 - Your mattress might be fine. Your pillow might be the actua..." [ref=e546] [cursor=pointer]:
+                            - /url: /r/SleepEssentialsIndia/comments/1refmnd/your_mattress_might_be_fine_your_pillow_might_be/
+                            - heading "清單項目貼文 - Your mattress might be fine. Your pillow might be the actua..." [level=3] [ref=e549]: Your mattress might be fine. Your pillow might be the actual problem
+                        - generic [ref=e551]:
+                          - generic [ref=e552]: "40"
+                          - text: 個推 ·
+                          - generic [ref=e553]: "14"
+                          - text: 則留言
+                      - separator [ref=e554]
+                  - listitem [ref=e555]:
+                    - generic [ref=e556]:
+                      - generic [ref=e557]:
+                        - link "Side sleeper looking for a pillow" [ref=e558] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1rlms41/side_sleeper_looking_for_a_pillow/
+                          - generic [ref=e559]:
+                            - generic: Side sleeper looking for a pillow
+                        - generic [ref=e561]:
+                          - generic [ref=e563]:
+                            - link "r/Pillows" [ref=e564] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e568]
+                              - generic [ref=e570]: r/Pillows
+                            - generic [ref=e571]: •
+                            - time [ref=e573]: 4 個月前
+                          - link "清單項目貼文 - Side sleeper looking for a pillow" [ref=e575] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1rlms41/side_sleeper_looking_for_a_pillow/
+                            - heading "清單項目貼文 - Side sleeper looking for a pillow" [level=3] [ref=e578]: Side sleeper looking for a pillow
+                        - generic [ref=e580]:
+                          - generic [ref=e581]: "23"
+                          - text: 個推 ·
+                          - generic [ref=e582]: "59"
+                          - text: 則留言
+                      - separator [ref=e583]
+                  - listitem [ref=e584]:
+                    - generic [ref=e585]:
+                      - generic [ref=e586]:
+                        - 'link "Side sleepers: what’s your favorite pillow that’s not too firm but not too soft either?" [ref=e587] [cursor=pointer]':
+                          - /url: https://www.reddit.com/r/Pillows/comments/1tq8wxd/side_sleepers_whats_your_favorite_pillow_thats/
+                          - generic [ref=e588]:
+                            - generic: "Side sleepers: what’s your favorite pillow that’s not too firm but not too soft either?"
+                        - generic [ref=e590]:
+                          - generic [ref=e592]:
+                            - link "r/Pillows" [ref=e593] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e597]
+                              - generic [ref=e599]: r/Pillows
+                            - generic [ref=e600]: •
+                            - time [ref=e602]: 1 個月前
+                          - 'link "清單項目貼文 - Side sleepers: what’s your favorite pillow that’s not too f..." [ref=e604] [cursor=pointer]':
+                            - /url: /r/Pillows/comments/1tq8wxd/side_sleepers_whats_your_favorite_pillow_thats/
+                            - 'heading "清單項目貼文 - Side sleepers: what’s your favorite pillow that’s not too f..." [level=3] [ref=e607]': "Side sleepers: what’s your favorite pillow that’s not too firm but not too soft either?"
+                        - generic [ref=e609]:
+                          - generic [ref=e610]: "24"
+                          - text: 個推 ·
+                          - generic [ref=e611]: "43"
+                          - text: 則留言
+                      - separator [ref=e612]
+                  - listitem [ref=e613]:
+                    - article [ref=e616]:
+                      - generic [ref=e617]:
+                        - generic [ref=e618]: 宣傳內容
+                        - button "開啟使用者操作" [ref=e624] [cursor=pointer]:
+                          - img [ref=e627]
+                      - link "sidebar promoted post thumbnail" [ref=e630] [cursor=pointer]:
+                        - /url: https://alb.reddit.com/cr?za=jPmaA_zTP7HGfD0rjw3QyfPSTZqY8Kk32ZJ4u5hlVN8cAvm8GIaW7qdupC8CWyPnWPt16s5ueaaQ-gR5PCetJZO4pANVky6PTNMVlAMxsVSc-0OuAv7tja15XxAMzVqXQg38JKI_EMF0Xh9edmMIPUHOnC_VkNJz14tXV6QQyTWTsLn10G2TxPg9D9-ohAtQW57aCkXEwO3hceliPwLJ3wqBJR04KUcW0D_Uj0ixpV3UKElBMy7fqf8Nri_JvqeAlENNr7OcsqZWLOg2rz2KjYZMugcWGWCxxEfw5-rZRFFlR79sTevbz6QXt3SAcmrd94MVLZ6PPmevMWSzgsQR-LX79aPvU0LFy7_56A8G-m1jIOD1iGCBsNvNuZd38ORNWqLM5YiCTlM42ZcRjPXQbx6iBrrc2a58q1UfFeE5FbWCsVNX5JkypwHVsJj9XfV96hCbjM5bG31cdNWe1DhvuzBp-VjqeHtGNYNmwpq8Zkx9NT6VyueHUZKAPMvoaMB207N1JKeTnRi1VcTeCpQMAcznKNZzTXc5HZtmERBTWAMhRTBJYGIyWyBcHaZQpy6gSB9cVjO6AX1h31YTw7Fcqk2_a0s83Kve3J_-1mjrwPH_PmRNgFIcVoUfSrGPNjbrsu1Nk9gBA1_4Hq3fcPSKHoxfbK6DT55PjP9vI-vtlN-J76--eHcMtJ2SZKmxU0O1YrSJabdbBP_buo0xPNDLXiLDzNE0doXfM4SlHCcp0ZEUNPU5Hg&zp=0FYtZXX3hL3tcCwRt_Mhz-86h1IlvygeZ8skBitX_PRtNR-N7aEb-9JREo5Ew_6v2-BthWjZPXzJdqVwbsXwfWENYzJPAINt5HNt8rDxTiB5lNP63QgOd3A6W92pkiX74tS9uGIIMgQtMUT5mnVGG-hkafbYvbpLyQ0bO9knoZXZC4fPXx5BBwGCihp2mfQ8EUH87IpgP5ARKfJXQMgHue5aF_7DMCwo1GGBgeWyDP7pRqZCDoWITaZsqPMja3K7JwWe4S0VnTZgpnIRapqew_kSDRXO-5uxnnkcjk2xWOYmHgYJPdHeaz7b7hg9UeQUz1RUfF-BfxGsNeTEekzTfaWIrfg6hU0LW8NOe-ycnPk18OD1fqVpBFKB7lwRDXERTmaBa0L6yEUbW2IAFJ4nhw8zzEO_K209Dy0LVplj8SWUbKcXlGk5_ISk5VAMvOKG3mnnsK3Qj4Wkp3rBOYjUu-c--bjyH7SPeVYdtFkqCIJIGC1l
+                        - img "sidebar promoted post thumbnail" [ref=e632]
+                    - separator [ref=e633]
+                  - listitem [ref=e634]:
+                    - generic [ref=e635]:
+                      - generic [ref=e636]:
+                        - link "finally my mattress is here" [ref=e637] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/SleepEssentialsIndia/comments/1tauxua/finally_my_mattress_is_here/
+                          - generic [ref=e638]:
+                            - generic: finally my mattress is here
+                        - generic [ref=e639]:
+                          - generic [ref=e640]:
+                            - generic [ref=e642]:
+                              - link "r/SleepEssentialsIndia" [ref=e643] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/SleepEssentialsIndia/
+                                - img [ref=e647]
+                                - generic [ref=e649]: r/SleepEssentialsIndia
+                              - generic [ref=e650]: •
+                              - time [ref=e652]: 2 個月前
+                            - link "清單項目貼文 - finally my mattress is here" [ref=e654] [cursor=pointer]:
+                              - /url: /r/SleepEssentialsIndia/comments/1tauxua/finally_my_mattress_is_here/
+                              - heading "清單項目貼文 - finally my mattress is here" [level=3] [ref=e657]: finally my mattress is here
+                          - generic [ref=e659]:
+                            - link "r/SleepEssentialsIndia - finally my mattress is here" [ref=e660] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/SleepEssentialsIndia/comments/1tauxua/finally_my_mattress_is_here/
+                              - img "r/SleepEssentialsIndia - finally my mattress is here" [ref=e661]
+                            - generic:
+                              - img
+                              - generic: "2"
+                        - generic [ref=e663]:
+                          - generic [ref=e664]: "89"
+                          - text: 個推 ·
+                          - generic [ref=e665]: "54"
+                          - text: 則留言
+                      - separator [ref=e666]
+                  - listitem [ref=e667]:
+                    - generic [ref=e668]:
+                      - generic [ref=e669]:
+                        - link "Anyone try these for side sleeping? I'm strictly a side sleeper and prone to cervical/occipital flare ups" [ref=e670] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1uatkre/anyone_try_these_for_side_sleeping_im_strictly_a/
+                          - generic [ref=e671]:
+                            - generic: Anyone try these for side sleeping? I'm strictly a side sleeper and prone to cervical/occipital flare ups
+                        - generic [ref=e672]:
+                          - generic [ref=e673]:
+                            - generic [ref=e675]:
+                              - link "r/Pillows" [ref=e676] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/Pillows/
+                                - img [ref=e680]
+                                - generic [ref=e682]: r/Pillows
+                              - generic [ref=e683]: •
+                              - time [ref=e685]: 6 天前
+                            - link "清單項目貼文 - Anyone try these for side sleeping? I'm strictly a side sle..." [ref=e687] [cursor=pointer]:
+                              - /url: /r/Pillows/comments/1uatkre/anyone_try_these_for_side_sleeping_im_strictly_a/
+                              - heading "清單項目貼文 - Anyone try these for side sleeping? I'm strictly a side sle..." [level=3] [ref=e690]: Anyone try these for side sleeping? I'm strictly a side sleeper and prone to cervical/occipital flare ups
+                          - generic [ref=e692]:
+                            - link "r/Pillows - Anyone try these for side sleeping? I'm strictly a side sleeper and prone to cervical/occipital flare ups" [ref=e693] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/comments/1uatkre/anyone_try_these_for_side_sleeping_im_strictly_a/
+                              - img "r/Pillows - Anyone try these for side sleeping? I'm strictly a side sleeper and prone to cervical/occipital flare ups" [ref=e694]
+                            - generic:
+                              - img
+                              - generic: "2"
+                        - generic [ref=e696]:
+                          - generic [ref=e697]: "8"
+                          - text: 個推 ·
+                          - generic [ref=e698]: "27"
+                          - text: 則留言
+                      - separator [ref=e699]
+                  - listitem [ref=e700]:
+                    - generic [ref=e701]:
+                      - generic [ref=e702]:
+                        - link "Mattress- All you need to know and AMA" [ref=e703] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/SleepEssentialsIndia/comments/1tcqkbq/mattress_all_you_need_to_know_and_ama/
+                          - generic [ref=e704]:
+                            - generic: Mattress- All you need to know and AMA
+                        - generic [ref=e706]:
+                          - generic [ref=e708]:
+                            - link "r/SleepEssentialsIndia" [ref=e709] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/SleepEssentialsIndia/
+                              - img [ref=e713]
+                              - generic [ref=e715]: r/SleepEssentialsIndia
+                            - generic [ref=e716]: •
+                            - time [ref=e718]: 1 個月前
+                          - link "清單項目貼文 - Mattress- All you need to know and AMA" [ref=e720] [cursor=pointer]:
+                            - /url: /r/SleepEssentialsIndia/comments/1tcqkbq/mattress_all_you_need_to_know_and_ama/
+                            - heading "清單項目貼文 - Mattress- All you need to know and AMA" [level=3] [ref=e723]: Mattress- All you need to know and AMA
+                        - generic [ref=e725]:
+                          - generic [ref=e726]: "23"
+                          - text: 個推 ·
+                          - generic [ref=e727]: "84"
+                          - text: 則留言
+                      - separator [ref=e728]
+                  - listitem [ref=e729]:
+                    - generic [ref=e730]:
+                      - generic [ref=e731]:
+                        - link "Finding that perfect pillow for side and stomach sleeper" [ref=e732] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1tuw2sv/finding_that_perfect_pillow_for_side_and_stomach/
+                          - generic [ref=e733]:
+                            - generic: Finding that perfect pillow for side and stomach sleeper
+                        - generic [ref=e735]:
+                          - generic [ref=e737]:
+                            - link "r/Pillows" [ref=e738] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e742]
+                              - generic [ref=e744]: r/Pillows
+                            - generic [ref=e745]: •
+                            - time [ref=e747]: 24 天前
+                          - link "清單項目貼文 - Finding that perfect pillow for side and stomach sleeper" [ref=e749] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1tuw2sv/finding_that_perfect_pillow_for_side_and_stomach/
+                            - heading "清單項目貼文 - Finding that perfect pillow for side and stomach sleeper" [level=3] [ref=e752]: Finding that perfect pillow for side and stomach sleeper
+                        - generic [ref=e754]:
+                          - generic [ref=e755]: "13"
+                          - text: 個推 ·
+                          - generic [ref=e756]: "33"
+                          - text: 則留言
+                      - separator [ref=e757]
+                  - listitem [ref=e758]:
+                    - generic [ref=e759]:
+                      - generic [ref=e760]:
+                        - link "I didn’t realize pillows could make such a difference until I started paying attention" [ref=e761] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1tn37nf/i_didnt_realize_pillows_could_make_such_a/
+                          - generic [ref=e762]:
+                            - generic: I didn’t realize pillows could make such a difference until I started paying attention
+                        - generic [ref=e764]:
+                          - generic [ref=e766]:
+                            - link "r/Pillows" [ref=e767] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e771]
+                              - generic [ref=e773]: r/Pillows
+                            - generic [ref=e774]: •
+                            - time [ref=e776]: 1 個月前
+                          - link "清單項目貼文 - I didn’t realize pillows could make such a difference until..." [ref=e778] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1tn37nf/i_didnt_realize_pillows_could_make_such_a/
+                            - heading "清單項目貼文 - I didn’t realize pillows could make such a difference until..." [level=3] [ref=e781]: I didn’t realize pillows could make such a difference until I started paying attention
+                        - generic [ref=e783]:
+                          - generic [ref=e784]: "15"
+                          - text: 個推 ·
+                          - generic [ref=e785]: "32"
+                          - text: 則留言
+                      - separator [ref=e786]
+                  - listitem [ref=e787]:
+                    - article [ref=e790]:
+                      - generic [ref=e791]:
+                        - generic [ref=e792]: 宣傳內容
+                        - button "開啟使用者操作" [ref=e798] [cursor=pointer]:
+                          - img [ref=e801]
+                      - link "sidebar promoted post thumbnail" [ref=e804] [cursor=pointer]:
+                        - /url: https://alb.reddit.com/cr?za=cpmBRBEXemuYV2JLA6scXch9iE3H5CWUwi2AfpCnj62QANyesXPd-yrelhydpmhWaY_gWebuVLiDziVjP1JtYSEzEcuj_c9TP3IKSvLwXO6HExP77stMJpXGICZ1xFAmSQhFZ4W8r8A2Exwnoq0ZRc96I9Q2_Hhv6OdxbilzM44DYxnDupiD4icjw022yyW4nNARzBTVHrAShEaSRhhcC98ciPdW6mdHjvrtrT8DpWV-fMCq7Syzq7kIc-A80jg6TbD9qPLsHe5brvPHdOqtMNiN8k3lWqcIFZTkq45w0ACLg0pukax_0mn3WlPPe8re_kX_eD9f9gYmjIUIMibWHHC0Xa_DB3uUn-piQibU0nXjk77x--RB_OKa594SwCVt_d-1cjHOxkYlnoO6rC5KLqfL57sLoRnEFXS2OMe1UB_KCDUeHXwtoSTTNOyRpK-r3cMkIUOap2aTDrukBC5MyTm-9884mLKGYl9PWM2VSkJnDtdafJrtvVBhocMPcMAXu6889s2dcsZSpUDmImUSGVKFPPlJ40wX6HldNldf1H0zmqZrjvp3KKlL3Od_9u0vW8mI1Ing6SjThOC9xk8M0Bb14iJmpmOFQwaNLH-5IdAa0KhZKpTdYRQi5HDdphReoFUTV1TMEe7lErr1Ko5K-JNoVIWQn38XJvM0Uf6bNrKD2v1qjmH3E9iXsGrxU_Tzbzz4tl25VlMJ3_KjyV0B8l4cr1WOoyQJ38HWJBFxmkuc-wxmPA&zp=YWvQLPk4Oa9WtO9iWVp5yPBvN3oUF7BsOLu09934bjDVXDbae0cCCczMW3hZYiSBIIc7f38T4gJd8TW164hcWOaaq7j7qMrSo60livQxFjCGm8h99vmPZZ8jza98DYEKQUctND0iXlG6TeM4Vt1vZ1St7-YOKnJKLKN9C6TECpwZhOTyuy2xZMQqLISRHl0XHLkzHqv1w9cMMd4POufOr5ernVGVXZji0S32rQ4aVeSkAWWA5xB_UVkqAFMj6dbCkiFzXUYcVu617Mm3WMD_IlJNEfYyGIgr4Y5qIMY_FVltUiwLbxOmzDy2aMhRALSgROx0F1BO06_EjOtBAAeBO25SUR4Z3Q0t_ZDXm0PB6VOokOhXK_7xHVlgvPMfPiuKmqHe-C0EIydd1OdYwEzRPn9IXaIQeYFgbETBWU5vPujTGpwwYKjANxOB8-0nMY-K0_fitIwFcQXh0s9P4KhXDJTivRL2W5o5CLcYiCN6KfUms5yP
+                        - img "sidebar promoted post thumbnail" [ref=e806]
+                    - separator [ref=e807]
+                  - listitem [ref=e808]:
+                    - generic [ref=e809]:
+                      - generic [ref=e810]:
+                        - link "best pillow for side sleepers??" [ref=e811] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1u78ov2/best_pillow_for_side_sleepers/
+                          - generic [ref=e812]:
+                            - generic: best pillow for side sleepers??
+                        - generic [ref=e814]:
+                          - generic [ref=e816]:
+                            - link "r/Pillows" [ref=e817] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e821]
+                              - generic [ref=e823]: r/Pillows
+                            - generic [ref=e824]: •
+                            - time [ref=e826]: 10 天前
+                          - link "清單項目貼文 - best pillow for side sleepers??" [ref=e828] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1u78ov2/best_pillow_for_side_sleepers/
+                            - heading "清單項目貼文 - best pillow for side sleepers??" [level=3] [ref=e831]: best pillow for side sleepers??
+                        - generic [ref=e833]:
+                          - generic [ref=e834]: "20"
+                          - text: 個推 ·
+                          - generic [ref=e835]: "26"
+                          - text: 則留言
+                      - separator [ref=e836]
+                  - listitem [ref=e837]:
+                    - generic [ref=e838]:
+                      - generic [ref=e839]:
+                        - link "\"I'm a side sleeper\"--- maybe not exactly" [ref=e840] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Mattress/comments/1sn5z5v/im_a_side_sleeper_maybe_not_exactly/
+                          - generic [ref=e841]:
+                            - generic: "\"I'm a side sleeper\"--- maybe not exactly"
+                        - generic [ref=e843]:
+                          - generic [ref=e845]:
+                            - link "r/Mattress" [ref=e846] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Mattress/
+                              - generic [ref=e850]: r/Mattress
+                            - generic [ref=e851]: •
+                            - time [ref=e853]: 2 個月前
+                          - link "清單項目貼文 - \"I'm a side sleeper\"--- maybe not exactly" [ref=e855] [cursor=pointer]:
+                            - /url: /r/Mattress/comments/1sn5z5v/im_a_side_sleeper_maybe_not_exactly/
+                            - heading "清單項目貼文 - \"I'm a side sleeper\"--- maybe not exactly" [level=3] [ref=e858]: "\"I'm a side sleeper\"--- maybe not exactly"
+                        - generic [ref=e860]:
+                          - generic [ref=e861]: "17"
+                          - text: 個推 ·
+                          - generic [ref=e862]: "10"
+                          - text: 則留言
+                      - separator [ref=e863]
+                  - listitem [ref=e864]:
+                    - generic [ref=e865]:
+                      - generic [ref=e866]:
+                        - link "In need of a good pillow" [ref=e867] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1qbd9bd/in_need_of_a_good_pillow/
+                          - generic [ref=e868]:
+                            - generic: In need of a good pillow
+                        - generic [ref=e870]:
+                          - generic [ref=e872]:
+                            - link "r/Pillows" [ref=e873] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e877]
+                              - generic [ref=e879]: r/Pillows
+                            - generic [ref=e880]: •
+                            - time [ref=e882]: 5 個月前
+                          - link "清單項目貼文 - In need of a good pillow" [ref=e884] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1qbd9bd/in_need_of_a_good_pillow/
+                            - heading "清單項目貼文 - In need of a good pillow" [level=3] [ref=e887]: In need of a good pillow
+                        - generic [ref=e889]:
+                          - generic [ref=e890]: "17"
+                          - text: 個推 ·
+                          - generic [ref=e891]: "45"
+                          - text: 則留言
+                      - separator [ref=e892]
+                  - listitem [ref=e893]:
+                    - generic [ref=e894]:
+                      - generic [ref=e895]:
+                        - link "Pillow manufacturer here. Let’s talk about why doctors actually recommend down for bad necks." [ref=e896] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1to6v0o/pillow_manufacturer_here_lets_talk_about_why/
+                          - generic [ref=e897]:
+                            - generic: Pillow manufacturer here. Let’s talk about why doctors actually recommend down for bad necks.
+                        - generic [ref=e899]:
+                          - generic [ref=e901]:
+                            - link "r/Pillows" [ref=e902] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e906]
+                              - generic [ref=e908]: r/Pillows
+                            - generic [ref=e909]: •
+                            - time [ref=e911]: 1 個月前
+                          - link "清單項目貼文 - Pillow manufacturer here. Let’s talk about why doctors actu..." [ref=e913] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1to6v0o/pillow_manufacturer_here_lets_talk_about_why/
+                            - heading "清單項目貼文 - Pillow manufacturer here. Let’s talk about why doctors actu..." [level=3] [ref=e916]: Pillow manufacturer here. Let’s talk about why doctors actually recommend down for bad necks.
+                        - generic [ref=e918]:
+                          - generic [ref=e919]: "114"
+                          - text: 個推 ·
+                          - generic [ref=e920]: "66"
+                          - text: 則留言
+                      - separator [ref=e921]
+                  - listitem [ref=e922]:
+                    - generic [ref=e923]:
+                      - generic [ref=e924]:
+                        - link "What’s the best pillow" [ref=e925] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1u1pu2b/whats_the_best_pillow/
+                          - generic [ref=e926]:
+                            - generic: What’s the best pillow
+                        - generic [ref=e928]:
+                          - generic [ref=e930]:
+                            - link "r/Pillows" [ref=e931] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e935]
+                              - generic [ref=e937]: r/Pillows
+                            - generic [ref=e938]: •
+                            - time [ref=e940]: 16 天前
+                          - link "清單項目貼文 - What’s the best pillow" [ref=e942] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1u1pu2b/whats_the_best_pillow/
+                            - heading "清單項目貼文 - What’s the best pillow" [level=3] [ref=e945]: What’s the best pillow
+                        - generic [ref=e947]:
+                          - generic [ref=e948]: "15"
+                          - text: 個推 ·
+                          - generic [ref=e949]: "22"
+                          - text: 則留言
+                      - separator [ref=e950]
+                  - listitem [ref=e951]:
+                    - generic [ref=e952]:
+                      - generic [ref=e953]:
+                        - link "Need a mattress for my unique situation" [ref=e954] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/SleepEssentialsIndia/comments/1ny0joy/need_a_mattress_for_my_unique_situation/
+                          - generic [ref=e955]:
+                            - generic: Need a mattress for my unique situation
+                        - generic [ref=e957]:
+                          - generic [ref=e959]:
+                            - link "r/SleepEssentialsIndia" [ref=e960] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/SleepEssentialsIndia/
+                              - img [ref=e964]
+                              - generic [ref=e966]: r/SleepEssentialsIndia
+                            - generic [ref=e967]: •
+                            - time [ref=e969]: 9 個月前
+                          - link "清單項目貼文 - Need a mattress for my unique situation" [ref=e971] [cursor=pointer]:
+                            - /url: /r/SleepEssentialsIndia/comments/1ny0joy/need_a_mattress_for_my_unique_situation/
+                            - heading "清單項目貼文 - Need a mattress for my unique situation" [level=3] [ref=e974]: Need a mattress for my unique situation
+                        - generic [ref=e976]:
+                          - generic [ref=e977]: "4"
+                          - text: 個推 ·
+                          - generic [ref=e978]: "27"
+                          - text: 則留言
+                      - separator [ref=e979]
+                  - listitem [ref=e980]:
+                    - generic [ref=e981]:
+                      - generic [ref=e982]:
+                        - link "Help me find my wife's favorite pillow!" [ref=e983] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Mattress/comments/1n3p190/help_me_find_my_wifes_favorite_pillow/
+                          - generic [ref=e984]:
+                            - generic: Help me find my wife's favorite pillow!
+                        - generic [ref=e985]:
+                          - generic [ref=e986]:
+                            - generic [ref=e988]:
+                              - link "r/Mattress" [ref=e989] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/Mattress/
+                                - generic [ref=e993]: r/Mattress
+                              - generic [ref=e994]: •
+                              - time [ref=e996]: 10 個月前
+                            - link "清單項目貼文 - Help me find my wife's favorite pillow!" [ref=e998] [cursor=pointer]:
+                              - /url: /r/Mattress/comments/1n3p190/help_me_find_my_wifes_favorite_pillow/
+                              - heading "清單項目貼文 - Help me find my wife's favorite pillow!" [level=3] [ref=e1001]: Help me find my wife's favorite pillow!
+                          - generic [ref=e1003]:
+                            - link "r/Mattress - Help me find my wife's favorite pillow!" [ref=e1004] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Mattress/comments/1n3p190/help_me_find_my_wifes_favorite_pillow/
+                              - img "r/Mattress - Help me find my wife's favorite pillow!" [ref=e1005]
+                            - generic:
+                              - img
+                              - generic: "3"
+                        - generic [ref=e1007]:
+                          - generic [ref=e1008]: "15"
+                          - text: 個推 ·
+                          - generic [ref=e1009]: "43"
+                          - text: 則留言
+                      - separator [ref=e1010]
+                  - listitem [ref=e1011]:
+                    - generic [ref=e1012]:
+                      - generic [ref=e1013]:
+                        - link "Looking for a new pillow that isn't toxic" [ref=e1014] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1mnloyv/looking_for_a_new_pillow_that_isnt_toxic/
+                          - generic [ref=e1015]:
+                            - generic: Looking for a new pillow that isn't toxic
+                        - generic [ref=e1017]:
+                          - generic [ref=e1019]:
+                            - link "r/Pillows" [ref=e1020] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e1024]
+                              - generic [ref=e1026]: r/Pillows
+                            - generic [ref=e1027]: •
+                            - time [ref=e1029]: 1 年前
+                          - link "清單項目貼文 - Looking for a new pillow that isn't toxic" [ref=e1031] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1mnloyv/looking_for_a_new_pillow_that_isnt_toxic/
+                            - heading "清單項目貼文 - Looking for a new pillow that isn't toxic" [level=3] [ref=e1034]: Looking for a new pillow that isn't toxic
+                        - generic [ref=e1036]:
+                          - generic [ref=e1037]: "4"
+                          - text: 個推 ·
+                          - generic [ref=e1038]: "11"
+                          - text: 則留言
+                      - separator [ref=e1039]
+                  - listitem [ref=e1040]:
+                    - generic [ref=e1041]:
+                      - generic [ref=e1042]:
+                        - link "Best firm and cool pillow?" [ref=e1043] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1skfi5i/best_firm_and_cool_pillow/
+                          - generic [ref=e1044]:
+                            - generic: Best firm and cool pillow?
+                        - generic [ref=e1046]:
+                          - generic [ref=e1048]:
+                            - link "r/Pillows" [ref=e1049] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e1053]
+                              - generic [ref=e1055]: r/Pillows
+                            - generic [ref=e1056]: •
+                            - time [ref=e1058]: 2 個月前
+                          - link "清單項目貼文 - Best firm and cool pillow?" [ref=e1060] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1skfi5i/best_firm_and_cool_pillow/
+                            - heading "清單項目貼文 - Best firm and cool pillow?" [level=3] [ref=e1063]: Best firm and cool pillow?
+                        - generic [ref=e1065]:
+                          - generic [ref=e1066]: "10"
+                          - text: 個推 ·
+                          - generic [ref=e1067]: "15"
+                          - text: 則留言
+                      - separator [ref=e1068]
+                  - listitem [ref=e1069]:
+                    - generic [ref=e1070]:
+                      - generic [ref=e1071]:
+                        - link "I compared the 7 most popular pillows on Reddit." [ref=e1072] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1s3nhfw/i_compared_the_7_most_popular_pillows_on_reddit/
+                          - generic [ref=e1073]:
+                            - generic: I compared the 7 most popular pillows on Reddit.
+                        - generic [ref=e1074]:
+                          - generic [ref=e1075]:
+                            - generic [ref=e1077]:
+                              - link "r/Pillows" [ref=e1078] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/Pillows/
+                                - img [ref=e1082]
+                                - generic [ref=e1084]: r/Pillows
+                              - generic [ref=e1085]: •
+                              - time [ref=e1087]: 3 個月前
+                            - link "清單項目貼文 - I compared the 7 most popular pillows on Reddit." [ref=e1089] [cursor=pointer]:
+                              - /url: /r/Pillows/comments/1s3nhfw/i_compared_the_7_most_popular_pillows_on_reddit/
+                              - heading "清單項目貼文 - I compared the 7 most popular pillows on Reddit." [level=3] [ref=e1092]: I compared the 7 most popular pillows on Reddit.
+                          - link "r/Pillows - I compared the 7 most popular pillows on Reddit." [ref=e1095] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/Pillows/comments/1s3nhfw/i_compared_the_7_most_popular_pillows_on_reddit/
+                            - img "r/Pillows - I compared the 7 most popular pillows on Reddit." [ref=e1096]
+                        - generic [ref=e1098]:
+                          - generic [ref=e1099]: "17"
+                          - text: 個推 ·
+                          - generic [ref=e1100]: "11"
+                          - text: 則留言
+                      - separator [ref=e1101]
+                  - listitem [ref=e1102]:
+                    - generic [ref=e1103]:
+                      - generic [ref=e1104]:
+                        - link "The Hunt for a Pillow as a Side Sleeper (Need help)" [ref=e1105] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Bedding/comments/1rxrziq/the_hunt_for_a_pillow_as_a_side_sleeper_need_help/
+                          - generic [ref=e1106]:
+                            - generic: The Hunt for a Pillow as a Side Sleeper (Need help)
+                        - generic [ref=e1108]:
+                          - generic [ref=e1110]:
+                            - link "r/Bedding" [ref=e1111] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Bedding/
+                              - img [ref=e1115]
+                              - generic [ref=e1117]: r/Bedding
+                            - generic [ref=e1118]: •
+                            - time [ref=e1120]: 3 個月前
+                          - link "清單項目貼文 - The Hunt for a Pillow as a Side Sleeper (Need help)" [ref=e1122] [cursor=pointer]:
+                            - /url: /r/Bedding/comments/1rxrziq/the_hunt_for_a_pillow_as_a_side_sleeper_need_help/
+                            - heading "清單項目貼文 - The Hunt for a Pillow as a Side Sleeper (Need help)" [level=3] [ref=e1125]: The Hunt for a Pillow as a Side Sleeper (Need help)
+                        - generic [ref=e1127]:
+                          - generic [ref=e1128]: "9"
+                          - text: 個推 ·
+                          - generic [ref=e1129]: "66"
+                          - text: 則留言
+                      - separator [ref=e1130]
+                  - listitem [ref=e1131]:
+                    - generic [ref=e1132]:
+                      - generic [ref=e1133]:
+                        - link "After Reading Hundreds of BIFL Pillow Threads, Here's My Ranking" [ref=e1134] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/BuyItForLife/comments/1u8ra69/after_reading_hundreds_of_bifl_pillow_threads/
+                          - generic [ref=e1135]:
+                            - generic: After Reading Hundreds of BIFL Pillow Threads, Here's My Ranking
+                        - generic [ref=e1137]:
+                          - generic [ref=e1139]:
+                            - link "r/BuyItForLife" [ref=e1140] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/BuyItForLife/
+                              - generic [ref=e1144]: r/BuyItForLife
+                            - generic [ref=e1145]: •
+                            - time [ref=e1147]: 8 天前
+                          - link "清單項目貼文 - After Reading Hundreds of BIFL Pillow Threads, Here's My Ra..." [ref=e1149] [cursor=pointer]:
+                            - /url: /r/BuyItForLife/comments/1u8ra69/after_reading_hundreds_of_bifl_pillow_threads/
+                            - heading "清單項目貼文 - After Reading Hundreds of BIFL Pillow Threads, Here's My Ra..." [level=3] [ref=e1152]: After Reading Hundreds of BIFL Pillow Threads, Here's My Ranking
+                        - generic [ref=e1154]:
+                          - generic [ref=e1155]: "9"
+                          - text: 則留言
+                      - separator [ref=e1156]
+                  - listitem [ref=e1157]:
+                    - generic [ref=e1158]:
+                      - generic [ref=e1159]:
+                        - link "My comfort blanket of almost 30 years beside an identical one I just bought." [ref=e1160] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Wellworn/comments/1kms035/my_comfort_blanket_of_almost_30_years_beside_an/
+                          - generic [ref=e1161]:
+                            - generic: My comfort blanket of almost 30 years beside an identical one I just bought.
+                        - generic [ref=e1162]:
+                          - generic [ref=e1163]:
+                            - generic [ref=e1165]:
+                              - link "r/Wellworn" [ref=e1166] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/Wellworn/
+                                - img [ref=e1170]
+                                - generic [ref=e1172]: r/Wellworn
+                              - generic [ref=e1173]: •
+                              - time [ref=e1175]: 1 年前
+                            - link "清單項目貼文 - My comfort blanket of almost 30 years beside an identical o..." [ref=e1177] [cursor=pointer]:
+                              - /url: /r/Wellworn/comments/1kms035/my_comfort_blanket_of_almost_30_years_beside_an/
+                              - heading "清單項目貼文 - My comfort blanket of almost 30 years beside an identical o..." [level=3] [ref=e1180]: My comfort blanket of almost 30 years beside an identical one I just bought.
+                          - generic [ref=e1182]:
+                            - link "r/Wellworn - My comfort blanket of almost 30 years beside an identical one I just bought." [ref=e1183] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Wellworn/comments/1kms035/my_comfort_blanket_of_almost_30_years_beside_an/
+                              - img "r/Wellworn - My comfort blanket of almost 30 years beside an identical one I just bought." [ref=e1184]
+                            - generic:
+                              - img
+                              - generic: "2"
+                        - generic [ref=e1186]:
+                          - generic [ref=e1187]: "329"
+                          - text: 個推 ·
+                          - generic [ref=e1188]: "5"
+                          - text: 則留言
+                      - separator [ref=e1189]
+                  - listitem [ref=e1190]:
+                    - generic [ref=e1191]:
+                      - generic [ref=e1192]:
+                        - link "I decided to redesign an intersection in my note book, thoughts?" [ref=e1193] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/murfreesboro/comments/1kcn5mt/i_decided_to_redesign_an_intersection_in_my_note/
+                          - generic [ref=e1194]:
+                            - generic: I decided to redesign an intersection in my note book, thoughts?
+                        - generic [ref=e1195]:
+                          - generic [ref=e1196]:
+                            - generic [ref=e1198]:
+                              - link "r/murfreesboro" [ref=e1199] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/murfreesboro/
+                                - generic [ref=e1203]: r/murfreesboro
+                              - generic [ref=e1204]: •
+                              - time [ref=e1206]: 1 年前
+                            - link "清單項目貼文 - I decided to redesign an intersection in my note book, thou..." [ref=e1208] [cursor=pointer]:
+                              - /url: /r/murfreesboro/comments/1kcn5mt/i_decided_to_redesign_an_intersection_in_my_note/
+                              - heading "清單項目貼文 - I decided to redesign an intersection in my note book, thou..." [level=3] [ref=e1211]: I decided to redesign an intersection in my note book, thoughts?
+                          - generic [ref=e1213]:
+                            - link "r/murfreesboro - I decided to redesign an intersection in my note book, thoughts?" [ref=e1214] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/murfreesboro/comments/1kcn5mt/i_decided_to_redesign_an_intersection_in_my_note/
+                              - img "r/murfreesboro - I decided to redesign an intersection in my note book, thoughts?" [ref=e1215]
+                            - generic:
+                              - img
+                              - generic: "2"
+                        - generic [ref=e1217]:
+                          - generic [ref=e1218]: "27"
+                          - text: 個推 ·
+                          - generic [ref=e1219]: "22"
+                          - text: 則留言
+                      - separator [ref=e1220]
+                  - listitem [ref=e1221]:
+                    - generic [ref=e1222]:
+                      - generic [ref=e1223]:
+                        - link "Big big fan of Mike's channel, though it's hard to find people that explore AI as a use in generating ocean liner designs." [ref=e1224] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/OceanlinerDesigns/comments/1km9jsl/big_big_fan_of_mikes_channel_though_its_hard_to/
+                          - generic [ref=e1225]:
+                            - generic: Big big fan of Mike's channel, though it's hard to find people that explore AI as a use in generating ocean liner designs.
+                        - generic [ref=e1226]:
+                          - generic [ref=e1227]:
+                            - generic [ref=e1229]:
+                              - link "r/OceanlinerDesigns" [ref=e1230] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/OceanlinerDesigns/
+                                - generic [ref=e1234]: r/OceanlinerDesigns
+                              - generic [ref=e1235]: •
+                              - time [ref=e1237]: 1 年前
+                            - link "清單項目貼文 - Big big fan of Mike's channel, though it's hard to find peo..." [ref=e1239] [cursor=pointer]:
+                              - /url: /r/OceanlinerDesigns/comments/1km9jsl/big_big_fan_of_mikes_channel_though_its_hard_to/
+                              - heading "清單項目貼文 - Big big fan of Mike's channel, though it's hard to find peo..." [level=3] [ref=e1242]: Big big fan of Mike's channel, though it's hard to find people that explore AI as a use in generating ocean liner designs.
+                          - link "r/OceanlinerDesigns - Big big fan of Mike's channel, though it's hard to find people that explore AI as a use in generating ocean liner designs." [ref=e1245] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/OceanlinerDesigns/comments/1km9jsl/big_big_fan_of_mikes_channel_though_its_hard_to/
+                            - img "r/OceanlinerDesigns - Big big fan of Mike's channel, though it's hard to find people that explore AI as a use in generating ocean liner designs." [ref=e1246]
+                        - generic [ref=e1248]:
+                          - generic [ref=e1249]: "7"
+                          - text: 則留言
+                      - separator [ref=e1250]
+                  - listitem [ref=e1251]:
+                    - generic [ref=e1252]:
+                      - generic [ref=e1253]:
+                        - link "I was making this blanket for my ex-aww SIL and she’s passed with cancer before I finished it. I repurposed it for my niece 🥰" [ref=e1254] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/crochet/comments/1je5ek1/i_was_making_this_blanket_for_my_exaww_sil_and/
+                          - generic [ref=e1255]:
+                            - generic: I was making this blanket for my ex-aww SIL and she’s passed with cancer before I finished it. I repurposed it for my niece 🥰
+                        - generic [ref=e1256]:
+                          - generic [ref=e1257]:
+                            - generic [ref=e1259]:
+                              - link "r/crochet" [ref=e1260] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/crochet/
+                                - generic [ref=e1264]: r/crochet
+                              - generic [ref=e1265]: •
+                              - time [ref=e1267]: 1 年前
+                            - link "清單項目貼文 - I was making this blanket for my ex-aww SIL and she’s passe..." [ref=e1269] [cursor=pointer]:
+                              - /url: /r/crochet/comments/1je5ek1/i_was_making_this_blanket_for_my_exaww_sil_and/
+                              - heading "清單項目貼文 - I was making this blanket for my ex-aww SIL and she’s passe..." [level=3] [ref=e1272]: I was making this blanket for my ex-aww SIL and she’s passed with cancer before I finished it. I repurposed it for my niece 🥰
+                          - link "r/crochet - I was making this blanket for my ex-aww SIL and she’s passed with cancer before I finished it. I repurposed it for my niece 🥰" [ref=e1275] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/crochet/comments/1je5ek1/i_was_making_this_blanket_for_my_exaww_sil_and/
+                            - img "r/crochet - I was making this blanket for my ex-aww SIL and she’s passed with cancer before I finished it. I repurposed it for my niece 🥰" [ref=e1276]
+                        - generic [ref=e1278]:
+                          - generic [ref=e1279]: "958"
+                          - text: 個推 ·
+                          - generic [ref=e1280]: "22"
+                          - text: 則留言
+                      - separator [ref=e1281]
+                  - listitem [ref=e1282]:
+                    - generic [ref=e1284]:
+                      - link "Suggestions on Pillows" [ref=e1285] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/Occipitalneuralgia/comments/1r3yss4/suggestions_on_pillows/
+                        - generic [ref=e1286]:
+                          - generic: Suggestions on Pillows
+                      - generic [ref=e1288]:
+                        - generic [ref=e1290]:
+                          - link "r/Occipitalneuralgia" [ref=e1291] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/Occipitalneuralgia/
+                            - img [ref=e1295]
+                            - generic [ref=e1297]: r/Occipitalneuralgia
+                          - generic [ref=e1298]: •
+                          - time [ref=e1300]: 4 個月前
+                        - link "清單項目貼文 - Suggestions on Pillows" [ref=e1302] [cursor=pointer]:
+                          - /url: /r/Occipitalneuralgia/comments/1r3yss4/suggestions_on_pillows/
+                          - heading "清單項目貼文 - Suggestions on Pillows" [level=3] [ref=e1305]: Suggestions on Pillows
+                      - generic [ref=e1307]:
+                        - generic [ref=e1308]: "5"
+                        - text: 個推 ·
+                        - generic [ref=e1309]: "16"
+                        - text: 則留言
+              - generic [ref=e1310]:
+                - heading "使用此語言檢視貼文：" [level=2] [ref=e1312]:
+                  - generic [ref=e1313]: 使用此語言檢視貼文：
+                - generic [ref=e1314]:
+                  - link "日本語" [ref=e1316] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Mattress/comments/1kml18h/im_a_side_sleeper_who_reviewed_a_bunch_of_pillows/?tl=ja
+                  - link "简体中文" [ref=e1318] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Mattress/comments/1kml18h/im_a_side_sleeper_who_reviewed_a_bunch_of_pillows/?tl=zh-hans
+                  - link "Русский" [ref=e1320] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Mattress/comments/1kml18h/im_a_side_sleeper_who_reviewed_a_bunch_of_pillows/?tl=ru
+                  - group [ref=e1321]:
+                    - generic "顯示更多" [ref=e1322] [cursor=pointer]:
+                      - generic [ref=e1323]: 顯示更多
+                      - img [ref=e1325]
+              - generic [ref=e1327]:
+                - heading "人氣貼文" [level=2] [ref=e1328]
+                - list [ref=e1329]:
+                  - listitem [ref=e1330]:
+                    - link "Reddit reReddit：2025年5月14日 人氣貼文" [ref=e1331] [cursor=pointer]:
+                      - /url: https://www.reddit.com/posts/2025/may-14-1/global/
+                      - generic [ref=e1332]:
+                        - img [ref=e1333]
+                        - generic [ref=e1346]: Reddit
+                      - generic [ref=e1347]: reReddit：2025年5月14日 人氣貼文
+                      - separator [ref=e1348]
+                  - listitem [ref=e1349]:
+                    - link "Reddit reReddit：2025年5月 人氣貼文" [ref=e1350] [cursor=pointer]:
+                      - /url: https://www.reddit.com/posts/2025/may/global/
+                      - generic [ref=e1351]:
+                        - img [ref=e1352]
+                        - generic [ref=e1365]: Reddit
+                      - generic [ref=e1366]: reReddit：2025年5月 人氣貼文
+                      - separator [ref=e1367]
+                  - listitem [ref=e1368]:
+                    - link "Reddit reReddit：2025年 人氣貼文" [ref=e1369] [cursor=pointer]:
+                      - /url: https://www.reddit.com/posts/2025/global/
+                      - generic [ref=e1370]:
+                        - img [ref=e1371]
+                        - generic [ref=e1384]: Reddit
+                      - generic [ref=e1385]: reReddit：2025年 人氣貼文
+                      - separator [ref=e1386]
+            - list [ref=e1388]:
+              - listitem [ref=e1389]:
+                - link "首頁" [ref=e1391] [cursor=pointer]:
+                  - /url: /?feed=home
+              - listitem [ref=e1392]:
+                - link "爆紅" [ref=e1394] [cursor=pointer]:
+                  - /url: /r/popular/
+              - listitem [ref=e1395]:
+                - link "最新消息" [ref=e1397] [cursor=pointer]:
+                  - /url: /news/
+              - listitem [ref=e1398]:
+                - link "探索" [ref=e1400] [cursor=pointer]:
+                  - /url: /explore/
+              - listitem [ref=e1401]:
+                - link "Reddit 精選內容" [ref=e1403] [cursor=pointer]:
+                  - /url: https://www.reddit.com/posts/2026/global/
+              - listitem [ref=e1404]:
+                - link "葡萄牙文的 Reddit 精選內容" [ref=e1406] [cursor=pointer]:
+                  - /url: https://www.reddit.com/posts/2026/tl-pt-BR/
+              - listitem [ref=e1407]:
+                - link "德文的 Reddit 精選內容" [ref=e1409] [cursor=pointer]:
+                  - /url: https://www.reddit.com/posts/2026/tl-de/
+              - listitem [ref=e1410]:
+                - link "Reddit 規範" [ref=e1412] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/content-policy
+              - listitem [ref=e1413]:
+                - link "《隱私權政策》" [ref=e1415] [cursor=pointer]:
+                  - /url: https://www.reddit.com/policies/privacy-policy
+              - listitem [ref=e1416]:
+                - link "《使用者協議》" [ref=e1418] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/user-agreement
+              - listitem [ref=e1419]:
+                - link "你的隱私權選擇" [ref=e1421] [cursor=pointer]:
+                  - /url: https://support.reddithelp.com/hc/articles/43980704794004
+              - listitem [ref=e1422]:
+                - link "輔助功能" [ref=e1424] [cursor=pointer]:
+                  - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+              - listitem [ref=e1425]:
+                - link "Reddit, Inc. © 2026. 保留所有權利。" [ref=e1426] [cursor=pointer]:
+                  - /url: https://redditinc.com
+        - generic [ref=e1429]:
+          - img
+          - paragraph [ref=e1430]: 加入最真實的網路天地
+          - generic [ref=e1432]:
+            - generic [ref=e1435]:
+              - generic [ref=e1439]:
+                - button "透過 Google 帳戶繼續操作。在新分頁中開啟" [ref=e1441] [cursor=pointer]:
+                  - generic [ref=e1443]:
+                    - img [ref=e1445]
+                    - generic [ref=e1452]: 透過 Google 帳戶繼續操作
+                - iframe
+              - generic [ref=e1454] [cursor=pointer]:
+                - generic [ref=e1455]:
+                  - img [ref=e1456]
+                  - generic [ref=e1458]: 使用 Apple 帳號繼續
+                - button "Sign in with Apple" [ref=e1461]:
+                  - generic [ref=e1462]:
+                    - img:
+                      - generic:
+                        - img:
+                          - generic:  Sign in with Apple
+                  - img [ref=e1464]
+            - link "使用電話號碼繼續" [ref=e1467] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e1470]:
+                - img [ref=e1471]
+                - generic [ref=e1474]: 使用電話號碼繼續
+            - link "使用電子郵件繼續" [ref=e1476] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e1479]:
+                - img [ref=e1480]
+                - generic [ref=e1482]: 使用電子郵件繼續
+          - paragraph [ref=e1483]:
+            - text: 繼續即表示你同意我們的
+            - link "《使用者協議》" [ref=e1484] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/user-agreement
+            - text: 並確認你已了解
+            - link "《隱私權政策》" [ref=e1485] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/privacy-policy
+            - text: .

@@ -1,0 +1,838 @@
+- generic [active] [ref=e1]:
+  - link "跳至主要內容" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: 跳至主要內容
+  - generic [ref=e6]:
+    - generic:
+      - generic [ref=e7]:
+        - generic: Machine Learning
+      - banner [ref=e10]:
+        - navigation [ref=e11]:
+          - link "首頁" [ref=e15] [cursor=pointer]:
+            - /url: https://www.reddit.com/
+            - img [ref=e17]
+          - search [ref=e34]:
+            - generic [ref=e36]:
+              - img [ref=e39]
+              - textbox "詢問" [ref=e43]:
+                - /placeholder: 什麼都可以搜
+              - separator [ref=e44]
+              - link "詢問" [ref=e48] [cursor=pointer]:
+                - /url: /answers/
+                - generic [ref=e49]:
+                  - img [ref=e51]
+                  - generic [ref=e53]: 詢問
+              - generic: 什麼都可以搜
+          - generic [ref=e54]:
+            - link "註冊" [ref=e60] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e62]: 註冊
+            - link "登入" [ref=e66] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e68]: 登入
+            - button "展開使用者選單" [ref=e73] [cursor=pointer]:
+              - img [ref=e76]
+              - generic [ref=e78]:
+                - generic: 展開使用者選單
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - region "社群操作" [ref=e84]:
+            - generic [ref=e85]:
+              - heading "r/MachineLearning" [level=1] [ref=e91]
+              - generic [ref=e92]:
+                - button "建立貼文" [ref=e96] [cursor=pointer]:
+                  - generic [ref=e97]:
+                    - img [ref=e99]
+                    - generic [ref=e101]: 建立貼文
+                - button "加入" [ref=e106] [cursor=pointer]
+          - generic [ref=e107]:
+            - generic:
+              - generic:
+                - link "跳至註冊" [ref=e108] [cursor=pointer]:
+                  - /url: "#left-sidebar-container"
+                - link "跳到右側邊欄" [ref=e109] [cursor=pointer]:
+                  - /url: "#right-sidebar-container"
+          - generic [ref=e110]:
+            - main [ref=e111]:
+              - generic [ref=e114]:
+                - generic [ref=e115]:
+                  - generic "排序方式：" [ref=e118]:
+                    - button "排序方式：：人氣" [ref=e120] [cursor=pointer]:
+                      - generic [ref=e122]: 人氣
+                  - generic "排序方式：" [ref=e127]:
+                    - button "排序方式：：今天" [ref=e129] [cursor=pointer]:
+                      - generic [ref=e131]: 今天
+                - generic "檢視" [ref=e137]:
+                  - button "檢視：卡片檢視模式" [ref=e139] [cursor=pointer]
+              - generic [ref=e145]:
+                - button "收合/展開社群精選貼文" [ref=e146] [cursor=pointer]:
+                  - heading "社群精選貼文" [level=3] [ref=e147]:
+                    - img [ref=e148]
+                    - generic [ref=e150]: 社群精選貼文
+                  - button "收合/展開社群精選貼文" [ref=e152]:
+                    - img [ref=e155]
+                - list [ref=e159]:
+                  - generic:
+                    - listitem [ref=e160]:
+                      - link "[D] Self-Promotion Thread AutoModerator" [ref=e161] [cursor=pointer]:
+                        - /url: /r/MachineLearning/comments/1tudeio/d_selfpromotion_thread/
+                        - generic [ref=e165]:
+                          - heading "[D] Self-Promotion Thread" [level=2] [ref=e169]
+                          - img "AutoModerator" [ref=e176]
+                    - listitem [ref=e177]:
+                      - link "[D] Monthly Who's Hiring and Who wants to be Hired? AutoModerator" [ref=e178] [cursor=pointer]:
+                        - /url: /r/MachineLearning/comments/1tsipvv/d_monthly_whos_hiring_and_who_wants_to_be_hired/
+                        - generic [ref=e182]:
+                          - heading "[D] Monthly Who's Hiring and Who wants to be Hired?" [level=2] [ref=e186]
+                          - img "AutoModerator" [ref=e193]
+              - generic [ref=e195]:
+                - generic "Machine Learning"
+                - separator [ref=e196]
+                - generic [ref=e197]:
+                  - heading "動態摘要" [level=1] [ref=e199]
+                  - generic:
+                    - article "Just landed a Computer Vision internship, here's the preparation list I used [D]" [ref=e200]:
+                      - generic [ref=e201] [cursor=pointer]:
+                        - link "Just landed a Computer Vision internship, here's the preparation list I used [D]" [ref=e202]:
+                          - /url: https://www.reddit.com/r/MachineLearning/comments/1ud8ovs/just_landed_a_computer_vision_internship_heres/
+                          - generic [ref=e203]:
+                            - generic: Just landed a Computer Vision internship, here's the preparation list I used [D]
+                        - generic [ref=e204]:
+                          - generic [ref=e205]:
+                            - link "作者：u/PolarIceBear_" [ref=e210]:
+                              - /url: https://www.reddit.com/user/PolarIceBear_/
+                              - generic [ref=e211]:
+                                - img "u/PolarIceBear_ 虛擬頭像" [ref=e214]
+                                - generic [ref=e215]: u/PolarIceBear_
+                            - generic [ref=e216]: •
+                            - time [ref=e218]: 9 小時前
+                          - button "開啟使用者操作" [ref=e223]:
+                            - img [ref=e226]
+                        - generic [ref=e229]:
+                          - heading "Just landed a Computer Vision internship, here's the preparation list I used [D]" [level=2] [ref=e230]:
+                            - link "Just landed a Computer Vision internship, here's the preparation list I used [D]" [ref=e231]:
+                              - /url: https://www.reddit.com/r/MachineLearning/comments/1ud8ovs/just_landed_a_computer_vision_internship_heres/
+                          - link "標籤：Discussion" [ref=e234]:
+                            - /url: /r/MachineLearning/?f=flair_name%3A%22Discussion%22
+                            - generic "標籤：Discussion" [ref=e236]: Discussion
+                          - generic [ref=e237]:
+                            - generic:
+                              - 'link "Hey everyone, I recently landed a Computer Vision internship after prepping with this checklist I put together. It starts with core math and ML fundamentals, then moves into the specialized CV topics that actually come up in interviews. I compressed it into just 7 days due to time pressure, so it''s very actionable and easy to personalize for your own pace. Sharing it here in case it''s useful for others prepping for ML/CV roles: → https://github.com/David-Magdy/CVIL Would love any feedback or suggestions to improve it too. Hope it helps someone land their next opportunity!"':
+                                - /url: /r/MachineLearning/comments/1ud8ovs/just_landed_a_computer_vision_internship_heres/
+                                - generic:
+                                  - generic:
+                                    - paragraph: Hey everyone,
+                                    - paragraph: I recently landed a Computer Vision internship after prepping with this checklist I put together. It starts with core math and ML fundamentals, then moves into the specialized CV topics that actually come up in interviews.
+                                    - paragraph: "I compressed it into just 7 days due to time pressure, so it's very actionable and easy to personalize for your own pace. Sharing it here in case it's useful for others prepping for ML/CV roles:"
+                                    - paragraph:
+                                      - text: →
+                                      - link "https://github.com/David-Magdy/CVIL":
+                                        - /url: https://github.com/David-Magdy/CVIL
+                                    - paragraph: Would love any feedback or suggestions to improve it too. Hope it helps someone land their next opportunity!
+                        - generic "適用於此貼文的操作" [ref=e239]:
+                          - generic [ref=e242]:
+                            - button "推" [ref=e243]:
+                              - img [ref=e245]
+                              - generic [ref=e247]:
+                                - generic: 推
+                            - generic [ref=e249]: "15"
+                            - button "噓" [ref=e250]:
+                              - img [ref=e252]
+                              - generic [ref=e254]:
+                                - generic: 噓
+                          - link "5 前往留言" [ref=e255]:
+                            - /url: /r/MachineLearning/comments/1ud8ovs/just_landed_a_computer_vision_internship_heres/
+                            - generic [ref=e256]:
+                              - img [ref=e258]
+                              - generic [ref=e261]: "5"
+                            - generic [ref=e262]:
+                              - generic: 前往留言
+                          - button "給予獎勵" [ref=e264]:
+                            - img [ref=e267]
+                          - button "分享" [ref=e272]:
+                            - generic [ref=e273]:
+                              - img [ref=e275]
+                              - generic [ref=e277]: 分享
+                    - separator [ref=e278]
+                    - generic [ref=e279]:
+                      - 'generic "Advertisement: Georgia knows weddings. Copilot knows Word." [ref=e280]':
+                        - 'link "Advertisement: Georgia knows weddings. Copilot knows Word." [ref=e281] [cursor=pointer]':
+                          - /url: https://alb.reddit.com/cr?za=T6HOpFt_7fD3PLUNpYvgRBdzwvma1KRaFrNjmwB2fblYVqXuenVmKg7cyh2VGZ33SX3D5MstdyNWvFfgliyw8x27m90T3OQ90D1q_-WjxOBhtGehkcBMW6rQXXuhgHzYy2qKbEkg1SFaLtmU9sqkqbKkv-1lH8H9-Uk2YPk3fNgzbtr-OB8LnkQncN3YJUe_vhSUWuN97taVfkWMeM_GFaNVg8v01fFgmcKBiwEs6bWEzGZOD2TIO7OiBgiUCOGfzp1p685DhJF_ipYzfYioVxHF-tflgovBok2piTHAYOMKsxQHFkmKGvYIOAEht3Tg_MZWCEwizEXk7qn_SWUJ0d9O9U5WaZRUdqEZtGF_u4ekHz04nXGaVnLWVfg79UtGj3UzCqnGqKDWOSZZXvgkz1J9nOyxTkzeTS7vd0G484mnN8AD9kxfBcnfRFnE7KfbxK4YbYLxne16JgFC0hka0djszqvYwM-BxubOBhNImFJ9FGM7eEEm0zAksE1mamF-2YfUzi4M9zL0qN6jlMTlbN__K5wYBKQQ518bInwUuOz_SB9WrIwde__0HXZbks22JA1KcDuEnxl21qU6SSxipe-qcvTGNyNGzthWBqn_sbtxqAx6VEqSAsm_EKeBbUXX4qdS5kclCXnyBcjudeNVLHcA4XgyCwqAjUiHyp8sKXSuMg7NxW4Ui3dmUcd0c-Xrqr_uu25VRGuKMyZsYwlMX8VQfqpvO2pyp5M0XtHSriACILeV1Su_SkQLalirHjMlhvvBErG0Bac5&zp=IppogfPiUtf7Y3dsktaLFXZ2QSU5ZZ0QFfoam7KxP_jakpAYxGH4jiGdYKbbYiX22gTEIIuWAEjx0p3r4eNsOsz9AKpjoUYn7ZO4RBJw0xO-__VrMEpshpePdCfAhw3-5tW1pM0Is5CYl2ltl1XUZnZW9enNs-fRSxdUxKLgrM8tZ2TbMtpTsv9wfMp8KyZDT3lX66-McZ9AV0LSH4L6Ry2covGzwoN1dpHH32_pV0yDih5WB7ETm5r5vyh4-gFpo_0OA5-1zIKTqAS0lhnYkSPlA0s8i25q0ZyFqFwcLAydgLKh7yVobDKkeYlbqtQjlUgHOlD1H1KPeTD_P-Xs6e9FhKHdS4X8OOO0UhwmxV8AGbAllr_fzcN3fyTv5uRPiuLPmJZT6zZ2KkMNx1QhBeh_J-wHJm5PEIZgJgSK6yhw09L8KvPiRB6PD1CbIs-Tk8Of4mz__aB5biE-5qVJyhvDpgNHZJDthifT7r2iZN0JK08
+                      - generic [ref=e282]:
+                        - generic [ref=e283]:
+                          - link "u/microsoft365 虛擬頭像 u/microsoft365" [ref=e286] [cursor=pointer]:
+                            - /url: /user/microsoft365/
+                            - img "u/microsoft365 虛擬頭像" [ref=e289]
+                            - generic [ref=e290]: u/microsoft365
+                          - generic [ref=e291]: •
+                          - link "宣傳內容" [ref=e293] [cursor=pointer]:
+                            - /url: /user/microsoft365/
+                            - generic [ref=e294]: 宣傳內容
+                          - link [ref=e296] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=T6HOpFt_7fD3PLUNpYvgRBdzwvma1KRaFrNjmwB2fblYVqXuenVmKg7cyh2VGZ33SX3D5MstdyNWvFfgliyw8x27m90T3OQ90D1q_-WjxOBhtGehkcBMW6rQXXuhgHzYy2qKbEkg1SFaLtmU9sqkqbKkv-1lH8H9-Uk2YPk3fNgzbtr-OB8LnkQncN3YJUe_vhSUWuN97taVfkWMeM_GFaNVg8v01fFgmcKBiwEs6bWEzGZOD2TIO7OiBgiUCOGfzp1p685DhJF_ipYzfYioVxHF-tflgovBok2piTHAYOMKsxQHFkmKGvYIOAEht3Tg_MZWCEwizEXk7qn_SWUJ0d9O9U5WaZRUdqEZtGF_u4ekHz04nXGaVnLWVfg79UtGj3UzCqnGqKDWOSZZXvgkz1J9nOyxTkzeTS7vd0G484mnN8AD9kxfBcnfRFnE7KfbxK4YbYLxne16JgFC0hka0djszqvYwM-BxubOBhNImFJ9FGM7eEEm0zAksE1mamF-2YfUzi4M9zL0qN6jlMTlbN__K5wYBKQQ518bInwUuOz_SB9WrIwde__0HXZbks22JA1KcDuEnxl21qU6SSxipe-qcvTGNyNGzthWBqn_sbtxqAx6VEqSAsm_EKeBbUXX4qdS5kclCXnyBcjudeNVLHcA4XgyCwqAjUiHyp8sKXSuMg7NxW4Ui3dmUcd0c-Xrqr_uu25VRGuKMyZsYwlMX8VQfqpvO2pyp5M0XtHSriACILeV1Su_SkQLalirHjMlhvvBErG0Bac5&zp=IppogfPiUtf7Y3dsktaLFXZ2QSU5ZZ0QFfoam7KxP_jakpAYxGH4jiGdYKbbYiX22gTEIIuWAEjx0p3r4eNsOsz9AKpjoUYn7ZO4RBJw0xO-__VrMEpshpePdCfAhw3-5tW1pM0Is5CYl2ltl1XUZnZW9enNs-fRSxdUxKLgrM8tZ2TbMtpTsv9wfMp8KyZDT3lX66-McZ9AV0LSH4L6Ry2covGzwoN1dpHH32_pV0yDih5WB7ETm5r5vyh4-gFpo_0OA5-1zIKTqAS0lhnYkSPlA0s8i25q0ZyFqFwcLAydgLKh7yVobDKkeYlbqtQjlUgHOlD1H1KPeTD_P-Xs6e9FhKHdS4X8OOO0UhwmxV8AGbAllr_fzcN3fyTv5uRPiuLPmJZT6zZ2KkMNx1QhBeh_J-wHJm5PEIZgJgSK6yhw09L8KvPiRB6PD1CbIs-Tk8Of4mz__aB5biE-5qVJyhvDpgNHZJDthifT7r2iZN0JK08
+                        - button "開啟使用者操作" [ref=e301] [cursor=pointer]:
+                          - img [ref=e304]
+                      - heading "Georgia knows weddings. Copilot knows Word." [level=2] [ref=e308]:
+                        - link "Georgia knows weddings. Copilot knows Word." [ref=e311] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=T6HOpFt_7fD3PLUNpYvgRBdzwvma1KRaFrNjmwB2fblYVqXuenVmKg7cyh2VGZ33SX3D5MstdyNWvFfgliyw8x27m90T3OQ90D1q_-WjxOBhtGehkcBMW6rQXXuhgHzYy2qKbEkg1SFaLtmU9sqkqbKkv-1lH8H9-Uk2YPk3fNgzbtr-OB8LnkQncN3YJUe_vhSUWuN97taVfkWMeM_GFaNVg8v01fFgmcKBiwEs6bWEzGZOD2TIO7OiBgiUCOGfzp1p685DhJF_ipYzfYioVxHF-tflgovBok2piTHAYOMKsxQHFkmKGvYIOAEht3Tg_MZWCEwizEXk7qn_SWUJ0d9O9U5WaZRUdqEZtGF_u4ekHz04nXGaVnLWVfg79UtGj3UzCqnGqKDWOSZZXvgkz1J9nOyxTkzeTS7vd0G484mnN8AD9kxfBcnfRFnE7KfbxK4YbYLxne16JgFC0hka0djszqvYwM-BxubOBhNImFJ9FGM7eEEm0zAksE1mamF-2YfUzi4M9zL0qN6jlMTlbN__K5wYBKQQ518bInwUuOz_SB9WrIwde__0HXZbks22JA1KcDuEnxl21qU6SSxipe-qcvTGNyNGzthWBqn_sbtxqAx6VEqSAsm_EKeBbUXX4qdS5kclCXnyBcjudeNVLHcA4XgyCwqAjUiHyp8sKXSuMg7NxW4Ui3dmUcd0c-Xrqr_uu25VRGuKMyZsYwlMX8VQfqpvO2pyp5M0XtHSriACILeV1Su_SkQLalirHjMlhvvBErG0Bac5&zp=IppogfPiUtf7Y3dsktaLFXZ2QSU5ZZ0QFfoam7KxP_jakpAYxGH4jiGdYKbbYiX22gTEIIuWAEjx0p3r4eNsOsz9AKpjoUYn7ZO4RBJw0xO-__VrMEpshpePdCfAhw3-5tW1pM0Is5CYl2ltl1XUZnZW9enNs-fRSxdUxKLgrM8tZ2TbMtpTsv9wfMp8KyZDT3lX66-McZ9AV0LSH4L6Ry2covGzwoN1dpHH32_pV0yDih5WB7ETm5r5vyh4-gFpo_0OA5-1zIKTqAS0lhnYkSPlA0s8i25q0ZyFqFwcLAydgLKh7yVobDKkeYlbqtQjlUgHOlD1H1KPeTD_P-Xs6e9FhKHdS4X8OOO0UhwmxV8AGbAllr_fzcN3fyTv5uRPiuLPmJZT6zZ2KkMNx1QhBeh_J-wHJm5PEIZgJgSK6yhw09L8KvPiRB6PD1CbIs-Tk8Of4mz__aB5biE-5qVJyhvDpgNHZJDthifT7r2iZN0JK08
+                          - generic: Georgia knows weddings. Copilot knows Word.
+                      - generic [ref=e312]:
+                        - generic [ref=e317]:
+                          - generic "影片播放器" [ref=e318]
+                          - button "播放" [ref=e319] [cursor=pointer]:
+                            - img [ref=e320]
+                        - separator [ref=e322]
+                        - generic [ref=e323]:
+                          - link [ref=e325] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=T6HOpFt_7fD3PLUNpYvgRBdzwvma1KRaFrNjmwB2fblYVqXuenVmKg7cyh2VGZ33SX3D5MstdyNWvFfgliyw8x27m90T3OQ90D1q_-WjxOBhtGehkcBMW6rQXXuhgHzYy2qKbEkg1SFaLtmU9sqkqbKkv-1lH8H9-Uk2YPk3fNgzbtr-OB8LnkQncN3YJUe_vhSUWuN97taVfkWMeM_GFaNVg8v01fFgmcKBiwEs6bWEzGZOD2TIO7OiBgiUCOGfzp1p685DhJF_ipYzfYioVxHF-tflgovBok2piTHAYOMKsxQHFkmKGvYIOAEht3Tg_MZWCEwizEXk7qn_SWUJ0d9O9U5WaZRUdqEZtGF_u4ekHz04nXGaVnLWVfg79UtGj3UzCqnGqKDWOSZZXvgkz1J9nOyxTkzeTS7vd0G484mnN8AD9kxfBcnfRFnE7KfbxK4YbYLxne16JgFC0hka0djszqvYwM-BxubOBhNImFJ9FGM7eEEm0zAksE1mamF-2YfUzi4M9zL0qN6jlMTlbN__K5wYBKQQ518bInwUuOz_SB9WrIwde__0HXZbks22JA1KcDuEnxl21qU6SSxipe-qcvTGNyNGzthWBqn_sbtxqAx6VEqSAsm_EKeBbUXX4qdS5kclCXnyBcjudeNVLHcA4XgyCwqAjUiHyp8sKXSuMg7NxW4Ui3dmUcd0c-Xrqr_uu25VRGuKMyZsYwlMX8VQfqpvO2pyp5M0XtHSriACILeV1Su_SkQLalirHjMlhvvBErG0Bac5&zp=IppogfPiUtf7Y3dsktaLFXZ2QSU5ZZ0QFfoam7KxP_jakpAYxGH4jiGdYKbbYiX22gTEIIuWAEjx0p3r4eNsOsz9AKpjoUYn7ZO4RBJw0xO-__VrMEpshpePdCfAhw3-5tW1pM0Is5CYl2ltl1XUZnZW9enNs-fRSxdUxKLgrM8tZ2TbMtpTsv9wfMp8KyZDT3lX66-McZ9AV0LSH4L6Ry2covGzwoN1dpHH32_pV0yDih5WB7ETm5r5vyh4-gFpo_0OA5-1zIKTqAS0lhnYkSPlA0s8i25q0ZyFqFwcLAydgLKh7yVobDKkeYlbqtQjlUgHOlD1H1KPeTD_P-Xs6e9FhKHdS4X8OOO0UhwmxV8AGbAllr_fzcN3fyTv5uRPiuLPmJZT6zZ2KkMNx1QhBeh_J-wHJm5PEIZgJgSK6yhw09L8KvPiRB6PD1CbIs-Tk8Of4mz__aB5biE-5qVJyhvDpgNHZJDthifT7r2iZN0JK08
+                          - generic [ref=e326]:
+                            - link "m365copilot.com" [ref=e329] [cursor=pointer]:
+                              - /url: https://alb.reddit.com/cr?za=T6HOpFt_7fD3PLUNpYvgRBdzwvma1KRaFrNjmwB2fblYVqXuenVmKg7cyh2VGZ33SX3D5MstdyNWvFfgliyw8x27m90T3OQ90D1q_-WjxOBhtGehkcBMW6rQXXuhgHzYy2qKbEkg1SFaLtmU9sqkqbKkv-1lH8H9-Uk2YPk3fNgzbtr-OB8LnkQncN3YJUe_vhSUWuN97taVfkWMeM_GFaNVg8v01fFgmcKBiwEs6bWEzGZOD2TIO7OiBgiUCOGfzp1p685DhJF_ipYzfYioVxHF-tflgovBok2piTHAYOMKsxQHFkmKGvYIOAEht3Tg_MZWCEwizEXk7qn_SWUJ0d9O9U5WaZRUdqEZtGF_u4ekHz04nXGaVnLWVfg79UtGj3UzCqnGqKDWOSZZXvgkz1J9nOyxTkzeTS7vd0G484mnN8AD9kxfBcnfRFnE7KfbxK4YbYLxne16JgFC0hka0djszqvYwM-BxubOBhNImFJ9FGM7eEEm0zAksE1mamF-2YfUzi4M9zL0qN6jlMTlbN__K5wYBKQQ518bInwUuOz_SB9WrIwde__0HXZbks22JA1KcDuEnxl21qU6SSxipe-qcvTGNyNGzthWBqn_sbtxqAx6VEqSAsm_EKeBbUXX4qdS5kclCXnyBcjudeNVLHcA4XgyCwqAjUiHyp8sKXSuMg7NxW4Ui3dmUcd0c-Xrqr_uu25VRGuKMyZsYwlMX8VQfqpvO2pyp5M0XtHSriACILeV1Su_SkQLalirHjMlhvvBErG0Bac5&zp=IppogfPiUtf7Y3dsktaLFXZ2QSU5ZZ0QFfoam7KxP_jakpAYxGH4jiGdYKbbYiX22gTEIIuWAEjx0p3r4eNsOsz9AKpjoUYn7ZO4RBJw0xO-__VrMEpshpePdCfAhw3-5tW1pM0Is5CYl2ltl1XUZnZW9enNs-fRSxdUxKLgrM8tZ2TbMtpTsv9wfMp8KyZDT3lX66-McZ9AV0LSH4L6Ry2covGzwoN1dpHH32_pV0yDih5WB7ETm5r5vyh4-gFpo_0OA5-1zIKTqAS0lhnYkSPlA0s8i25q0ZyFqFwcLAydgLKh7yVobDKkeYlbqtQjlUgHOlD1H1KPeTD_P-Xs6e9FhKHdS4X8OOO0UhwmxV8AGbAllr_fzcN3fyTv5uRPiuLPmJZT6zZ2KkMNx1QhBeh_J-wHJm5PEIZgJgSK6yhw09L8KvPiRB6PD1CbIs-Tk8Of4mz__aB5biE-5qVJyhvDpgNHZJDthifT7r2iZN0JK08
+                              - generic: m365copilot.com
+                            - link "深入了解" [ref=e331] [cursor=pointer]:
+                              - /url: https://alb.reddit.com/cr?za=T6HOpFt_7fD3PLUNpYvgRBdzwvma1KRaFrNjmwB2fblYVqXuenVmKg7cyh2VGZ33SX3D5MstdyNWvFfgliyw8x27m90T3OQ90D1q_-WjxOBhtGehkcBMW6rQXXuhgHzYy2qKbEkg1SFaLtmU9sqkqbKkv-1lH8H9-Uk2YPk3fNgzbtr-OB8LnkQncN3YJUe_vhSUWuN97taVfkWMeM_GFaNVg8v01fFgmcKBiwEs6bWEzGZOD2TIO7OiBgiUCOGfzp1p685DhJF_ipYzfYioVxHF-tflgovBok2piTHAYOMKsxQHFkmKGvYIOAEht3Tg_MZWCEwizEXk7qn_SWUJ0d9O9U5WaZRUdqEZtGF_u4ekHz04nXGaVnLWVfg79UtGj3UzCqnGqKDWOSZZXvgkz1J9nOyxTkzeTS7vd0G484mnN8AD9kxfBcnfRFnE7KfbxK4YbYLxne16JgFC0hka0djszqvYwM-BxubOBhNImFJ9FGM7eEEm0zAksE1mamF-2YfUzi4M9zL0qN6jlMTlbN__K5wYBKQQ518bInwUuOz_SB9WrIwde__0HXZbks22JA1KcDuEnxl21qU6SSxipe-qcvTGNyNGzthWBqn_sbtxqAx6VEqSAsm_EKeBbUXX4qdS5kclCXnyBcjudeNVLHcA4XgyCwqAjUiHyp8sKXSuMg7NxW4Ui3dmUcd0c-Xrqr_uu25VRGuKMyZsYwlMX8VQfqpvO2pyp5M0XtHSriACILeV1Su_SkQLalirHjMlhvvBErG0Bac5&zp=IppogfPiUtf7Y3dsktaLFXZ2QSU5ZZ0QFfoam7KxP_jakpAYxGH4jiGdYKbbYiX22gTEIIuWAEjx0p3r4eNsOsz9AKpjoUYn7ZO4RBJw0xO-__VrMEpshpePdCfAhw3-5tW1pM0Is5CYl2ltl1XUZnZW9enNs-fRSxdUxKLgrM8tZ2TbMtpTsv9wfMp8KyZDT3lX66-McZ9AV0LSH4L6Ry2covGzwoN1dpHH32_pV0yDih5WB7ETm5r5vyh4-gFpo_0OA5-1zIKTqAS0lhnYkSPlA0s8i25q0ZyFqFwcLAydgLKh7yVobDKkeYlbqtQjlUgHOlD1H1KPeTD_P-Xs6e9FhKHdS4X8OOO0UhwmxV8AGbAllr_fzcN3fyTv5uRPiuLPmJZT6zZ2KkMNx1QhBeh_J-wHJm5PEIZgJgSK6yhw09L8KvPiRB6PD1CbIs-Tk8Of4mz__aB5biE-5qVJyhvDpgNHZJDthifT7r2iZN0JK08
+                              - generic [ref=e333]:
+                                - generic: 深入了解
+                      - generic "適用於此貼文的操作" [ref=e335]:
+                        - generic [ref=e338]:
+                          - button "推" [ref=e339] [cursor=pointer]:
+                            - img [ref=e341]
+                            - generic [ref=e343]:
+                              - generic: 推
+                          - text: 投票
+                          - button "噓" [ref=e344] [cursor=pointer]:
+                            - img [ref=e346]
+                            - generic [ref=e348]:
+                              - generic: 噓
+                        - link "0 前往留言" [ref=e349] [cursor=pointer]:
+                          - /url: /user/microsoft365/comments/1sh1mu5/georgia_knows_weddings_copilot_knows_word/?p=1&impressionid=6115836705741222344
+                          - generic [ref=e350]:
+                            - img [ref=e352]
+                            - generic [ref=e355]: "0"
+                          - generic [ref=e356]:
+                            - generic: 前往留言
+                        - button "分享" [ref=e360] [cursor=pointer]:
+                          - generic [ref=e361]:
+                            - img [ref=e363]
+                            - generic [ref=e365]: 分享
+                        - link [ref=e367] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=T6HOpFt_7fD3PLUNpYvgRBdzwvma1KRaFrNjmwB2fblYVqXuenVmKg7cyh2VGZ33SX3D5MstdyNWvFfgliyw8x27m90T3OQ90D1q_-WjxOBhtGehkcBMW6rQXXuhgHzYy2qKbEkg1SFaLtmU9sqkqbKkv-1lH8H9-Uk2YPk3fNgzbtr-OB8LnkQncN3YJUe_vhSUWuN97taVfkWMeM_GFaNVg8v01fFgmcKBiwEs6bWEzGZOD2TIO7OiBgiUCOGfzp1p685DhJF_ipYzfYioVxHF-tflgovBok2piTHAYOMKsxQHFkmKGvYIOAEht3Tg_MZWCEwizEXk7qn_SWUJ0d9O9U5WaZRUdqEZtGF_u4ekHz04nXGaVnLWVfg79UtGj3UzCqnGqKDWOSZZXvgkz1J9nOyxTkzeTS7vd0G484mnN8AD9kxfBcnfRFnE7KfbxK4YbYLxne16JgFC0hka0djszqvYwM-BxubOBhNImFJ9FGM7eEEm0zAksE1mamF-2YfUzi4M9zL0qN6jlMTlbN__K5wYBKQQ518bInwUuOz_SB9WrIwde__0HXZbks22JA1KcDuEnxl21qU6SSxipe-qcvTGNyNGzthWBqn_sbtxqAx6VEqSAsm_EKeBbUXX4qdS5kclCXnyBcjudeNVLHcA4XgyCwqAjUiHyp8sKXSuMg7NxW4Ui3dmUcd0c-Xrqr_uu25VRGuKMyZsYwlMX8VQfqpvO2pyp5M0XtHSriACILeV1Su_SkQLalirHjMlhvvBErG0Bac5&zp=IppogfPiUtf7Y3dsktaLFXZ2QSU5ZZ0QFfoam7KxP_jakpAYxGH4jiGdYKbbYiX22gTEIIuWAEjx0p3r4eNsOsz9AKpjoUYn7ZO4RBJw0xO-__VrMEpshpePdCfAhw3-5tW1pM0Is5CYl2ltl1XUZnZW9enNs-fRSxdUxKLgrM8tZ2TbMtpTsv9wfMp8KyZDT3lX66-McZ9AV0LSH4L6Ry2covGzwoN1dpHH32_pV0yDih5WB7ETm5r5vyh4-gFpo_0OA5-1zIKTqAS0lhnYkSPlA0s8i25q0ZyFqFwcLAydgLKh7yVobDKkeYlbqtQjlUgHOlD1H1KPeTD_P-Xs6e9FhKHdS4X8OOO0UhwmxV8AGbAllr_fzcN3fyTv5uRPiuLPmJZT6zZ2KkMNx1QhBeh_J-wHJm5PEIZgJgSK6yhw09L8KvPiRB6PD1CbIs-Tk8Of4mz__aB5biE-5qVJyhvDpgNHZJDthifT7r2iZN0JK08
+                    - separator [ref=e368]
+                    - article "Syntactically robust NLI for semantics of imperfectly generated text? [R]" [ref=e369]:
+                      - generic [ref=e370] [cursor=pointer]:
+                        - link "Syntactically robust NLI for semantics of imperfectly generated text? [R]" [ref=e371]:
+                          - /url: https://www.reddit.com/r/MachineLearning/comments/1ucy7p3/syntactically_robust_nli_for_semantics_of/
+                          - generic [ref=e372]:
+                            - generic: Syntactically robust NLI for semantics of imperfectly generated text? [R]
+                        - generic [ref=e373]:
+                          - generic [ref=e374]:
+                            - link "作者：u/RepresentativeBee600" [ref=e379]:
+                              - /url: https://www.reddit.com/user/RepresentativeBee600/
+                              - generic [ref=e380]:
+                                - img "u/RepresentativeBee600 虛擬頭像" [ref=e383]
+                                - generic [ref=e384]: u/RepresentativeBee600
+                            - generic [ref=e385]: •
+                            - time [ref=e387]: 17 小時前
+                          - button "開啟使用者操作" [ref=e392]:
+                            - img [ref=e395]
+                        - generic [ref=e398]:
+                          - heading "Syntactically robust NLI for semantics of imperfectly generated text? [R]" [level=2] [ref=e399]:
+                            - link "Syntactically robust NLI for semantics of imperfectly generated text? [R]" [ref=e400]:
+                              - /url: https://www.reddit.com/r/MachineLearning/comments/1ucy7p3/syntactically_robust_nli_for_semantics_of/
+                          - link "標籤：Research" [ref=e403]:
+                            - /url: /r/MachineLearning/?f=flair_name%3A%22Research%22
+                            - generic "標籤：Research" [ref=e405]: Research
+                          - generic [ref=e406]:
+                            - generic:
+                              - link "Hi all, I'm looking for literature on relatively specific tooling. In autoregressive LLMs, there is substantial published work that used NLI on sub-claims produced by LLMs to gauge correctness of LLM answers. In diffusion (or D-) LLMs, the SoTA model generations that I see (outside of perhaps LLaDA) seem to struggle to be as correct syntactically as the generations from premier AR LLMs, in addition to the issue of semantic correctness. My intuition is that this complicates the usage of NLI (the syntactic noise). What is the SoTA on syntax-robust NLI?":
+                                - /url: /r/MachineLearning/comments/1ucy7p3/syntactically_robust_nli_for_semantics_of/
+                                - generic:
+                                  - generic:
+                                    - paragraph: Hi all,
+                                    - paragraph: I'm looking for literature on relatively specific tooling.
+                                    - paragraph: In autoregressive LLMs, there is substantial published work that used NLI on sub-claims produced by LLMs to gauge correctness of LLM answers.
+                                    - paragraph: In diffusion (or D-) LLMs, the SoTA model generations that I see (outside of perhaps LLaDA) seem to struggle to be as correct syntactically as the generations from premier AR LLMs, in addition to the issue of semantic correctness.
+                                    - paragraph: My intuition is that this complicates the usage of NLI (the syntactic noise).
+                                    - paragraph: What is the SoTA on syntax-robust NLI?
+                        - generic "適用於此貼文的操作" [ref=e408]:
+                          - generic [ref=e411]:
+                            - button "推" [ref=e412]:
+                              - img [ref=e414]
+                              - generic [ref=e416]:
+                                - generic: 推
+                            - generic [ref=e418]: "7"
+                            - button "噓" [ref=e419]:
+                              - img [ref=e421]
+                              - generic [ref=e423]:
+                                - generic: 噓
+                          - link "2 前往留言" [ref=e424]:
+                            - /url: /r/MachineLearning/comments/1ucy7p3/syntactically_robust_nli_for_semantics_of/
+                            - generic [ref=e425]:
+                              - img [ref=e427]
+                              - generic [ref=e430]: "2"
+                            - generic [ref=e431]:
+                              - generic: 前往留言
+                          - button "給予獎勵" [ref=e433]:
+                            - img [ref=e436]
+                          - button "分享" [ref=e441]:
+                            - generic [ref=e442]:
+                              - img [ref=e444]
+                              - generic [ref=e446]: 分享
+                    - separator [ref=e447]
+                    - article "Are model security risks (extraction, poisoning) actually being tested in production? [R]" [ref=e448]:
+                      - generic [ref=e449] [cursor=pointer]:
+                        - link "Are model security risks (extraction, poisoning) actually being tested in production? [R]" [ref=e450]:
+                          - /url: https://www.reddit.com/r/MachineLearning/comments/1uddtws/are_model_security_risks_extraction_poisoning/
+                          - generic [ref=e451]:
+                            - generic: Are model security risks (extraction, poisoning) actually being tested in production? [R]
+                        - generic [ref=e452]:
+                          - generic [ref=e453]:
+                            - link "作者：u/Xorphian" [ref=e458]:
+                              - /url: https://www.reddit.com/user/Xorphian/
+                              - generic [ref=e459]:
+                                - img "u/Xorphian 虛擬頭像" [ref=e462]
+                                - generic [ref=e463]: u/Xorphian
+                            - generic [ref=e464]: •
+                            - time [ref=e466]: 4 小時前
+                          - button "開啟使用者操作" [ref=e471]:
+                            - img [ref=e474]
+                        - generic [ref=e477]:
+                          - heading "Are model security risks (extraction, poisoning) actually being tested in production? [R]" [level=2] [ref=e478]:
+                            - link "Are model security risks (extraction, poisoning) actually being tested in production? [R]" [ref=e479]:
+                              - /url: https://www.reddit.com/r/MachineLearning/comments/1uddtws/are_model_security_risks_extraction_poisoning/
+                          - link "標籤：Research" [ref=e482]:
+                            - /url: /r/MachineLearning/?f=flair_name%3A%22Research%22
+                            - generic "標籤：Research" [ref=e484]: Research
+                          - generic [ref=e485]:
+                            - generic:
+                              - link "Talk to a lot of ML teams who ship models but skip any adversarial testing before deployment. Feels like security review for models is way behind where it is for regular software. Anyone here actually doing this at their job?":
+                                - /url: /r/MachineLearning/comments/1uddtws/are_model_security_risks_extraction_poisoning/
+                                - generic:
+                                  - generic:
+                                    - paragraph: Talk to a lot of ML teams who ship models but skip any adversarial testing before deployment. Feels like security review for models is way behind where it is for regular software. Anyone here actually doing this at their job?
+                        - generic "適用於此貼文的操作" [ref=e487]:
+                          - generic [ref=e490]:
+                            - button "推" [ref=e491]:
+                              - img [ref=e493]
+                              - generic [ref=e495]:
+                                - generic: 推
+                            - generic [ref=e497]: "5"
+                            - button "噓" [ref=e498]:
+                              - img [ref=e500]
+                              - generic [ref=e502]:
+                                - generic: 噓
+                          - link "6 前往留言" [ref=e503]:
+                            - /url: /r/MachineLearning/comments/1uddtws/are_model_security_risks_extraction_poisoning/
+                            - generic [ref=e504]:
+                              - img [ref=e506]
+                              - generic [ref=e509]: "6"
+                            - generic [ref=e510]:
+                              - generic: 前往留言
+                          - button "給予獎勵" [ref=e512]:
+                            - img [ref=e515]
+                          - button "分享" [ref=e520]:
+                            - generic [ref=e521]:
+                              - img [ref=e523]
+                              - generic [ref=e525]: 分享
+                    - separator [ref=e526]
+                    - generic [ref=e527]:
+                      - generic:
+                        - article "WACV supp. mat. video [R]" [ref=e528]:
+                          - generic [ref=e529] [cursor=pointer]:
+                            - link "WACV supp. mat. video [R]" [ref=e530]:
+                              - /url: https://www.reddit.com/r/MachineLearning/comments/1udgv9h/wacv_supp_mat_video_r/
+                              - generic [ref=e531]:
+                                - generic: WACV supp. mat. video [R]
+                            - generic [ref=e532]:
+                              - generic [ref=e533]:
+                                - link "作者：u/LetterheadOk7021" [ref=e538]:
+                                  - /url: https://www.reddit.com/user/LetterheadOk7021/
+                                  - generic [ref=e539]:
+                                    - img "u/LetterheadOk7021 虛擬頭像" [ref=e542]
+                                    - generic [ref=e543]: u/LetterheadOk7021
+                                - generic [ref=e544]: •
+                                - time [ref=e546]: 1 小時前
+                              - button "開啟使用者操作" [ref=e551]:
+                                - img [ref=e554]
+                            - generic [ref=e557]:
+                              - heading "WACV supp. mat. video [R]" [level=2] [ref=e558]:
+                                - link "WACV supp. mat. video [R]" [ref=e559]:
+                                  - /url: https://www.reddit.com/r/MachineLearning/comments/1udgv9h/wacv_supp_mat_video_r/
+                              - link "標籤：Research" [ref=e562]:
+                                - /url: /r/MachineLearning/?f=flair_name%3A%22Research%22
+                                - generic "標籤：Research" [ref=e564]: Research
+                              - generic [ref=e565]:
+                                - generic:
+                                  - 'link "Hello, WACV conference submission deadline is by the end of this week, good luck everyone! Does anyone know what the expected format/duration of the video for the supp. mat. is? The guidelines only mention: The supplementary material can be either PDF or ZIP only (maximum 200MB). Supplementary material may include videos, proofs, additional figures or tables, more detailed analysis of experiments presented in the paper, or code. It is a bit vague for a first-time submission to this conference. Any help appreciated."':
+                                    - /url: /r/MachineLearning/comments/1udgv9h/wacv_supp_mat_video_r/
+                                    - generic:
+                                      - generic:
+                                        - paragraph: Hello,
+                                        - paragraph: WACV conference submission deadline is by the end of this week, good luck everyone!
+                                        - paragraph: "Does anyone know what the expected format/duration of the video for the supp. mat. is? The guidelines only mention:"
+                                        - list:
+                                          - listitem:
+                                            - paragraph: The supplementary material can be either PDF or ZIP only (maximum 200MB).
+                                          - listitem:
+                                            - paragraph: Supplementary material may include videos, proofs, additional figures or tables, more detailed analysis of experiments presented in the paper, or code.
+                                        - paragraph: It is a bit vague for a first-time submission to this conference. Any help appreciated.
+                            - generic "適用於此貼文的操作" [ref=e567]:
+                              - generic [ref=e570]:
+                                - button "推" [ref=e571]:
+                                  - img [ref=e573]
+                                  - generic [ref=e575]:
+                                    - generic: 推
+                                - generic [ref=e577]: "2"
+                                - button "噓" [ref=e578]:
+                                  - img [ref=e580]
+                                  - generic [ref=e582]:
+                                    - generic: 噓
+                              - link "2 前往留言" [ref=e583]:
+                                - /url: /r/MachineLearning/comments/1udgv9h/wacv_supp_mat_video_r/
+                                - generic [ref=e584]:
+                                  - img [ref=e586]
+                                  - generic [ref=e589]: "2"
+                                - generic [ref=e590]:
+                                  - generic: 前往留言
+                              - button "給予獎勵" [ref=e592]:
+                                - img [ref=e595]
+                              - button "分享" [ref=e600]:
+                                - generic [ref=e601]:
+                                  - img [ref=e603]
+                                  - generic [ref=e605]: 分享
+                        - separator [ref=e606]
+                        - separator [ref=e607]
+                        - article "Non-deterministic Vulnerability Detection Benchmark System [P]" [ref=e608]:
+                          - generic [ref=e609] [cursor=pointer]:
+                            - link "Non-deterministic Vulnerability Detection Benchmark System [P]" [ref=e610]:
+                              - /url: https://www.reddit.com/r/MachineLearning/comments/1ud0rft/nondeterministic_vulnerability_detection/
+                              - generic [ref=e611]:
+                                - generic: Non-deterministic Vulnerability Detection Benchmark System [P]
+                            - generic [ref=e612]:
+                              - generic [ref=e613]:
+                                - link "作者：u/Psychological_Meat_6" [ref=e618]:
+                                  - /url: https://www.reddit.com/user/Psychological_Meat_6/
+                                  - generic [ref=e619]:
+                                    - img [ref=e624]
+                                    - generic [ref=e626]: u/Psychological_Meat_6
+                                - generic [ref=e627]: •
+                                - time [ref=e629]: 15 小時前
+                              - button "開啟使用者操作" [ref=e634]:
+                                - img [ref=e637]
+                            - generic [ref=e640]:
+                              - heading "Non-deterministic Vulnerability Detection Benchmark System [P]" [level=2] [ref=e641]:
+                                - link "Non-deterministic Vulnerability Detection Benchmark System [P]" [ref=e642]:
+                                  - /url: https://www.reddit.com/r/MachineLearning/comments/1ud0rft/nondeterministic_vulnerability_detection/
+                              - link "標籤：Project" [ref=e645]:
+                                - /url: /r/MachineLearning/?f=flair_name%3A%22Project%22
+                                - generic "標籤：Project" [ref=e647]: Project
+                              - generic [ref=e648]:
+                                - generic:
+                                  - link:
+                                    - /url: /r/MachineLearning/comments/1ud0rft/nondeterministic_vulnerability_detection/
+                                    - generic:
+                                      - generic:
+                                        - paragraph: I work in firmware adjacent to AI, so not an ML guy exactly, so that's why I've come here. For work we got a bit concerned about Mythos and all the hype made me explore some benchmarking work. I now have this pretty cool benchmark that's about 80% done sitting around and haven't had the time to polish it up and show it off.
+                                        - paragraph: I was hoping some more AI focused people could check it out, tell me if it's duplicate work, or if it is worth putting some time into and finishing. Also happy for some help too.
+                                        - paragraph: The rundown of the code is that it is Juliet code that's been "hidden" to look somewhat like a real codebase, removing LLM's natural advantage when viewing known CWEs, while preserving the "ground truth" associated with Juliet. I also used an LLM to inject comments into the code in accurate, misleading, or neutral sentiments, allowing the user to examine how comments and plain English data can manipulate an LLMs ability to identify a CWE.
+                                        - paragraph: There are a couple hundred CWEs, generally enough code to fill up the input context, the work that needs to be done is around presentation, actual benchmarking of publish LLMs, and possibly pruning of a couple CWEs that might occasionally get caught by certain LLMs as Juliet code still.
+                                        - paragraph:
+                                          - link "Here's the project.":
+                                            - /url: https://github.com/galen-f/vulnerable-project
+                                          - text: Hopefully this doesn't break rule 6. I am not a regular here, just looking for advice.
+                            - generic "適用於此貼文的操作" [ref=e650]:
+                              - generic [ref=e653]:
+                                - button "推" [ref=e654]:
+                                  - img [ref=e656]
+                                  - generic [ref=e658]:
+                                    - generic: 推
+                                - generic [ref=e660]: "2"
+                                - button "噓" [ref=e661]:
+                                  - img [ref=e663]
+                                  - generic [ref=e665]:
+                                    - generic: 噓
+                              - link "6 前往留言" [ref=e666]:
+                                - /url: /r/MachineLearning/comments/1ud0rft/nondeterministic_vulnerability_detection/
+                                - generic [ref=e667]:
+                                  - img [ref=e669]
+                                  - generic [ref=e672]: "6"
+                                - generic [ref=e673]:
+                                  - generic: 前往留言
+                              - button "給予獎勵" [ref=e675]:
+                                - img [ref=e678]
+                              - button "分享" [ref=e683]:
+                                - generic [ref=e684]:
+                                  - img [ref=e686]
+                                  - generic [ref=e688]: 分享
+                        - separator [ref=e689]
+                        - article "Recommendations for speech annotation tools [D]" [ref=e690]:
+                          - generic [ref=e691] [cursor=pointer]:
+                            - link "Recommendations for speech annotation tools [D]" [ref=e692]:
+                              - /url: https://www.reddit.com/r/MachineLearning/comments/1ucuohi/recommendations_for_speech_annotation_tools_d/
+                              - generic [ref=e693]:
+                                - generic: Recommendations for speech annotation tools [D]
+                            - generic [ref=e694]:
+                              - generic [ref=e695]:
+                                - link "作者：u/neuralbeans" [ref=e700]:
+                                  - /url: https://www.reddit.com/user/neuralbeans/
+                                  - generic [ref=e701]:
+                                    - img [ref=e706]
+                                    - generic [ref=e708]: u/neuralbeans
+                                - generic [ref=e709]: •
+                                - time [ref=e711]: 19 小時前
+                              - button "開啟使用者操作" [ref=e716]:
+                                - img [ref=e719]
+                            - generic [ref=e722]:
+                              - heading "Recommendations for speech annotation tools [D]" [level=2] [ref=e723]:
+                                - link "Recommendations for speech annotation tools [D]" [ref=e724]:
+                                  - /url: https://www.reddit.com/r/MachineLearning/comments/1ucuohi/recommendations_for_speech_annotation_tools_d/
+                              - link "標籤：Discussion" [ref=e727]:
+                                - /url: /r/MachineLearning/?f=flair_name%3A%22Discussion%22
+                                - generic "標籤：Discussion" [ref=e729]: Discussion
+                              - generic [ref=e730]:
+                                - generic:
+                                  - link "I'm looking for human-in-the-loop platforms that allow you to automatically transcribe audio followed by manually fixing the transcriptions and fine tuning the model. Is there a local (not an online service) installable platform for doing this?":
+                                    - /url: /r/MachineLearning/comments/1ucuohi/recommendations_for_speech_annotation_tools_d/
+                                    - generic:
+                                      - generic:
+                                        - paragraph: I'm looking for human-in-the-loop platforms that allow you to automatically transcribe audio followed by manually fixing the transcriptions and fine tuning the model. Is there a local (not an online service) installable platform for doing this?
+                            - generic "適用於此貼文的操作" [ref=e732]:
+                              - generic [ref=e735]:
+                                - button "推" [ref=e736]:
+                                  - img [ref=e738]
+                                  - generic [ref=e740]:
+                                    - generic: 推
+                                - generic [ref=e742]: "2"
+                                - button "噓" [ref=e743]:
+                                  - img [ref=e745]
+                                  - generic [ref=e747]:
+                                    - generic: 噓
+                              - link "1 前往留言" [ref=e748]:
+                                - /url: /r/MachineLearning/comments/1ucuohi/recommendations_for_speech_annotation_tools_d/
+                                - generic [ref=e749]:
+                                  - img [ref=e751]
+                                  - generic [ref=e754]: "1"
+                                - generic [ref=e755]:
+                                  - generic: 前往留言
+                              - button "給予獎勵" [ref=e757]:
+                                - img [ref=e760]
+                              - button "分享" [ref=e765]:
+                                - generic [ref=e766]:
+                                  - img [ref=e768]
+                                  - generic [ref=e770]: 分享
+                        - separator [ref=e771]
+                        - generic [ref=e772]:
+                          - 'generic "Advertisement: Better agent context = fewer tokens burned" [ref=e773]':
+                            - 'link "Advertisement: Better agent context = fewer tokens burned" [ref=e774] [cursor=pointer]':
+                              - /url: /user/Atlassian_Official/comments/1tx1bw2/better_agent_context_fewer_tokens_burned/?p=1&impressionid=5776232805369406352
+                          - generic [ref=e775]:
+                            - generic [ref=e776]:
+                              - link "u/Atlassian_Official 虛擬頭像 u/Atlassian_Official" [ref=e779] [cursor=pointer]:
+                                - /url: /user/Atlassian_Official/
+                                - img "u/Atlassian_Official 虛擬頭像" [ref=e782]
+                                - generic [ref=e783]: u/Atlassian_Official
+                              - generic [ref=e784]: •
+                              - link "宣傳內容" [ref=e786] [cursor=pointer]:
+                                - /url: /user/Atlassian_Official/
+                                - generic [ref=e787]: 宣傳內容
+                              - link [ref=e789] [cursor=pointer]:
+                                - /url: /user/Atlassian_Official/comments/1tx1bw2/better_agent_context_fewer_tokens_burned/?p=1&impressionid=5776232805369406352
+                            - button "開啟使用者操作" [ref=e794] [cursor=pointer]:
+                              - img [ref=e797]
+                          - generic [ref=e800]:
+                            - heading "Better agent context = fewer tokens burned" [level=2] [ref=e801]:
+                              - link "Better agent context = fewer tokens burned" [ref=e804] [cursor=pointer]:
+                                - /url: /user/Atlassian_Official/comments/1tx1bw2/better_agent_context_fewer_tokens_burned/?p=1&impressionid=5776232805369406352
+                                - generic: Better agent context = fewer tokens burned
+                            - link [ref=e806] [cursor=pointer]:
+                              - /url: /user/Atlassian_Official/comments/1tx1bw2/better_agent_context_fewer_tokens_burned/?p=1&impressionid=5776232805369406352
+                              - generic [ref=e807]:
+                                - paragraph [ref=e808]: Most teams trying to lower AI agent cost are looking in the wrong places. They switch models, tweak prompts, or focus on caching. That can help. But one of the bigger cost drivers shows up earlier, before the agent even starts working.
+                                - paragraph [ref=e809]: If an agent doesn't know what has already been tried, who owns the module, what the spec says, what changed in the last PR, or where the decision history lives, it has to go find that context or ask for it again. That means longer prompts, more retrieval steps, more back-and-forth, and more tokens used to reconstruct what the team already knows.
+                                - paragraph [ref=e810]:
+                                  - strong [ref=e811]: "The most expensive issue: fragmented context."
+                                - paragraph [ref=e812]: Jira helps save tokens by giving teams a shared place for work, decisions, ownership, status, and linked development activity. When that context is structured and easier to access, agents spend less effort piecing together the basics and more effort doing useful work.
+                                - paragraph [ref=e813]: For AI-native teams, better context management isn't just a workflow improvement. It's also a cost saver.
+                                - paragraph [ref=e814]: Learn More
+                          - generic "適用於此貼文的操作" [ref=e816]:
+                            - generic [ref=e819]:
+                              - button "推" [ref=e820] [cursor=pointer]:
+                                - img [ref=e822]
+                                - generic [ref=e824]:
+                                  - generic: 推
+                              - text: 投票
+                              - button "噓" [ref=e825] [cursor=pointer]:
+                                - img [ref=e827]
+                                - generic [ref=e829]:
+                                  - generic: 噓
+                            - link "0 前往留言" [ref=e830] [cursor=pointer]:
+                              - /url: /user/Atlassian_Official/comments/1tx1bw2/better_agent_context_fewer_tokens_burned/?p=1&impressionid=5776232805369406352
+                              - generic [ref=e831]:
+                                - img [ref=e833]
+                                - generic [ref=e836]: "0"
+                              - generic [ref=e837]:
+                                - generic: 前往留言
+                            - button "分享" [ref=e841] [cursor=pointer]:
+                              - generic [ref=e842]:
+                                - img [ref=e844]
+                                - generic [ref=e846]: 分享
+                            - link [ref=e848] [cursor=pointer]:
+                              - /url: /user/Atlassian_Official/comments/1tx1bw2/better_agent_context_fewer_tokens_burned/?p=1&impressionid=5776232805369406352
+                        - separator [ref=e849]
+                        - article "What's your biggest pain point when choosing between cloud GPU providers for LLM inference?[R]" [ref=e850]:
+                          - generic [ref=e851] [cursor=pointer]:
+                            - link "What's your biggest pain point when choosing between cloud GPU providers for LLM inference?[R]" [ref=e852]:
+                              - /url: https://www.reddit.com/r/MachineLearning/comments/1udfovh/whats_your_biggest_pain_point_when_choosing/
+                              - generic [ref=e853]:
+                                - generic: What's your biggest pain point when choosing between cloud GPU providers for LLM inference?[R]
+                            - generic [ref=e854]:
+                              - generic [ref=e855]:
+                                - link "作者：u/Technomadlyf" [ref=e860]:
+                                  - /url: https://www.reddit.com/user/Technomadlyf/
+                                  - generic [ref=e861]:
+                                    - img [ref=e866]
+                                    - generic [ref=e868]: u/Technomadlyf
+                                - generic [ref=e869]: •
+                                - time [ref=e871]: 2 小時前
+                              - button "開啟使用者操作" [ref=e876]:
+                                - img [ref=e879]
+                            - generic [ref=e882]:
+                              - heading "What's your biggest pain point when choosing between cloud GPU providers for LLM inference?[R]" [level=2] [ref=e883]:
+                                - link "What's your biggest pain point when choosing between cloud GPU providers for LLM inference?[R]" [ref=e884]:
+                                  - /url: https://www.reddit.com/r/MachineLearning/comments/1udfovh/whats_your_biggest_pain_point_when_choosing/
+                              - link "標籤：Research" [ref=e887]:
+                                - /url: /r/MachineLearning/?f=flair_name%3A%22Research%22
+                                - generic "標籤：Research" [ref=e889]: Research
+                              - generic [ref=e890]:
+                                - generic:
+                                  - link "Trying to understand how other people make this decision. Do you compare $/hr, $/token, throughput, reliability? Is there a tool or resource you rely on, or are you just doing the math manually? Asking because I'm an ML engineer who's been doing this in spreadsheets and wondering if I'm missing something obvious.":
+                                    - /url: /r/MachineLearning/comments/1udfovh/whats_your_biggest_pain_point_when_choosing/
+                                    - generic:
+                                      - generic:
+                                        - paragraph: Trying to understand how other people make this decision. Do you compare $/hr, $/token, throughput, reliability? Is there a tool or resource you rely on, or are you just doing the math manually?
+                                        - paragraph: Asking because I'm an ML engineer who's been doing this in spreadsheets and wondering if I'm missing something obvious.
+                            - generic "適用於此貼文的操作" [ref=e892]:
+                              - generic [ref=e895]:
+                                - button "推" [ref=e896]:
+                                  - img [ref=e898]
+                                  - generic [ref=e900]:
+                                    - generic: 推
+                                - generic [ref=e902]: "1"
+                                - button "噓" [ref=e903]:
+                                  - img [ref=e905]
+                                  - generic [ref=e907]:
+                                    - generic: 噓
+                              - link "6 前往留言" [ref=e908]:
+                                - /url: /r/MachineLearning/comments/1udfovh/whats_your_biggest_pain_point_when_choosing/
+                                - generic [ref=e909]:
+                                  - img [ref=e911]
+                                  - generic [ref=e914]: "6"
+                                - generic [ref=e915]:
+                                  - generic: 前往留言
+                              - button "給予獎勵" [ref=e917]:
+                                - img [ref=e920]
+                              - button "分享" [ref=e925]:
+                                - generic [ref=e926]:
+                                  - img [ref=e928]
+                                  - generic [ref=e930]: 分享
+                        - separator [ref=e931]
+                  - img [ref=e937]
+            - generic [ref=e950]:
+              - complementary "社群資訊" [ref=e954]:
+                - generic [ref=e955]:
+                  - generic [ref=e957]:
+                    - heading "社群資訊區" [level=1] [ref=e958]
+                    - generic [ref=e959]:
+                      - generic [ref=e960]: Machine Learning
+                      - generic [ref=e961]: Beginners -> /r/mlquestions or /r/learnmachinelearning , AGI -> /r/singularity, career advices -> /r/cscareerquestions, datasets -> r/datasets
+                      - generic [ref=e962]:
+                        - generic [ref=e964]:
+                          - img [ref=e965]
+                          - text: 於 2009年7月29日建立
+                        - generic [ref=e968]:
+                          - img [ref=e969]
+                          - text: 公開
+                    - generic [ref=e971]:
+                      - generic [ref=e972]:
+                        - strong [ref=e974]:
+                          - generic: 12萬
+                        - generic [ref=e975]: 位每週訪客
+                      - generic [ref=e976]:
+                        - strong [ref=e978]:
+                          - generic: "1346"
+                        - generic [ref=e979]: 每週貢獻數
+                  - separator [ref=e980]
+                  - generic [ref=e981]:
+                    - heading "r/MachineLearning規範" [level=2] [ref=e983]:
+                      - generic [ref=e984]: r/MachineLearning規範
+                    - generic [ref=e985]:
+                      - group [ref=e987]:
+                        - generic "1 No Spam" [ref=e988] [cursor=pointer]:
+                          - generic [ref=e990]:
+                            - generic [ref=e991]:
+                              - generic [ref=e993]: "1"
+                              - heading "No Spam" [level=2] [ref=e997]
+                            - img [ref=e1000]
+                      - group [ref=e1003]:
+                        - generic "2 No Self-Promotion" [ref=e1004] [cursor=pointer]:
+                          - generic [ref=e1006]:
+                            - generic [ref=e1007]:
+                              - generic [ref=e1009]: "2"
+                              - heading "No Self-Promotion" [level=2] [ref=e1013]
+                            - img [ref=e1016]
+                      - group [ref=e1019]:
+                        - generic "3 No Marketing Campaigns (SEO)" [ref=e1020] [cursor=pointer]:
+                          - generic [ref=e1022]:
+                            - generic [ref=e1023]:
+                              - generic [ref=e1025]: "3"
+                              - heading "No Marketing Campaigns (SEO)" [level=2] [ref=e1029]
+                            - img [ref=e1032]
+                      - group [ref=e1035]:
+                        - generic "4 No Disrespectful Behavior" [ref=e1036] [cursor=pointer]:
+                          - generic [ref=e1038]:
+                            - generic [ref=e1039]:
+                              - generic [ref=e1041]: "4"
+                              - heading "No Disrespectful Behavior" [level=2] [ref=e1045]
+                            - img [ref=e1048]
+                      - group [ref=e1051]:
+                        - generic "5 No arXiv Links without Body Text" [ref=e1052] [cursor=pointer]:
+                          - generic [ref=e1054]:
+                            - generic [ref=e1055]:
+                              - generic [ref=e1057]: "5"
+                              - heading "No arXiv Links without Body Text" [level=2] [ref=e1061]
+                            - img [ref=e1064]
+                      - group [ref=e1067]:
+                        - generic "6 No Low-Effort, Beginner Questions" [ref=e1068] [cursor=pointer]:
+                          - generic [ref=e1070]:
+                            - generic [ref=e1071]:
+                              - generic [ref=e1073]: "6"
+                              - heading "No Low-Effort, Beginner Questions" [level=2] [ref=e1077]
+                            - img [ref=e1080]
+                  - separator [ref=e1082]
+                  - generic [ref=e1083]:
+                    - heading "Recommended Subreddits" [level=2] [ref=e1085]:
+                      - generic [ref=e1086]: Recommended Subreddits
+                    - generic [ref=e1093]:
+                      - link "r/OpenAI" [ref=e1096] [cursor=pointer]:
+                        - /url: /r/OpenAI
+                      - generic [ref=e1097]: 2,790,139 位成員
+                    - generic [ref=e1104]:
+                      - link "r/Anthropic" [ref=e1107] [cursor=pointer]:
+                        - /url: /r/Anthropic
+                      - generic [ref=e1108]: 165,706 位成員
+                    - generic [ref=e1115]:
+                      - link "r/neuralnetworks" [ref=e1118] [cursor=pointer]:
+                        - /url: /r/neuralnetworks
+                      - generic [ref=e1119]: 41,684 位成員
+                    - generic [ref=e1126]:
+                      - link "r/ResearchML" [ref=e1129] [cursor=pointer]:
+                        - /url: /r/ResearchML
+                      - generic [ref=e1130]: 19,461 位成員
+                    - generic [ref=e1137]:
+                      - link "r/Automate" [ref=e1140] [cursor=pointer]:
+                        - /url: /r/Automate
+                      - generic [ref=e1141]: 155,271 位成員
+                    - generic [ref=e1148]:
+                      - link "r/MLQuestions" [ref=e1151] [cursor=pointer]:
+                        - /url: /r/MLQuestions
+                      - generic [ref=e1152]: 107,900 位成員
+                    - generic [ref=e1154]:
+                      - img [ref=e1159]
+                      - generic [ref=e1161]:
+                        - link "r/learnmachinelearning" [ref=e1164] [cursor=pointer]:
+                          - /url: /r/learnmachinelearning
+                        - generic [ref=e1165]: 653,134 位成員
+                    - generic [ref=e1167]:
+                      - img [ref=e1172]
+                      - generic [ref=e1174]:
+                        - link "r/deeplearning" [ref=e1177] [cursor=pointer]:
+                          - /url: /r/deeplearning
+                        - generic [ref=e1178]: 239,932 位成員
+                    - generic [ref=e1185]:
+                      - link "r/ArtificialInteligence" [ref=e1188] [cursor=pointer]:
+                        - /url: /r/ArtificialInteligence
+                      - generic [ref=e1189]: 1,852,130 位成員
+                    - generic [ref=e1196]:
+                      - link "r/notebooklm" [ref=e1199] [cursor=pointer]:
+                        - /url: /r/notebooklm
+                      - generic [ref=e1200]: 142,524 位成員
+                  - separator [ref=e1201]
+              - list [ref=e1203]:
+                - listitem [ref=e1204]:
+                  - link "首頁" [ref=e1206] [cursor=pointer]:
+                    - /url: /?feed=home
+                - listitem [ref=e1207]:
+                  - link "爆紅" [ref=e1209] [cursor=pointer]:
+                    - /url: /r/popular/
+                - listitem [ref=e1210]:
+                  - link "最新消息" [ref=e1212] [cursor=pointer]:
+                    - /url: /news/
+                - listitem [ref=e1213]:
+                  - link "探索" [ref=e1215] [cursor=pointer]:
+                    - /url: /explore/
+                - listitem [ref=e1216]:
+                  - link "Reddit 精選內容" [ref=e1218] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/global/
+                - listitem [ref=e1219]:
+                  - link "葡萄牙文的 Reddit 精選內容" [ref=e1221] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-pt-BR/
+                - listitem [ref=e1222]:
+                  - link "德文的 Reddit 精選內容" [ref=e1224] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-de/
+                - listitem [ref=e1225]:
+                  - link "Reddit 規範" [ref=e1227] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/content-policy
+                - listitem [ref=e1228]:
+                  - link "《隱私權政策》" [ref=e1230] [cursor=pointer]:
+                    - /url: https://www.reddit.com/policies/privacy-policy
+                - listitem [ref=e1231]:
+                  - link "《使用者協議》" [ref=e1233] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/user-agreement
+                - listitem [ref=e1234]:
+                  - link "你的隱私權選擇" [ref=e1236] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/articles/43980704794004
+                - listitem [ref=e1237]:
+                  - link "輔助功能" [ref=e1239] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+                - listitem [ref=e1240]:
+                  - link "Reddit, Inc. © 2026. 保留所有權利。" [ref=e1241] [cursor=pointer]:
+                    - /url: https://redditinc.com
+        - generic [ref=e1244]:
+          - img
+          - paragraph [ref=e1245]: 加入最真實的網路天地
+          - generic [ref=e1247]:
+            - generic [ref=e1250]:
+              - iframe [ref=e1255]:
+                - button "透過 Google 帳戶繼續操作。在新分頁中開啟" [ref=f21e3] [cursor=pointer]:
+                  - generic [ref=f21e5]:
+                    - img [ref=f21e7]
+                    - generic [ref=f21e14]: 透過 Google 帳戶繼續操作
+              - generic [ref=e1257] [cursor=pointer]:
+                - generic [ref=e1258]:
+                  - img [ref=e1259]
+                  - generic [ref=e1261]: 使用 Apple 帳號繼續
+                - button "Sign in with Apple" [ref=e1264]:
+                  - generic [ref=e1265]:
+                    - img:
+                      - generic:
+                        - img:
+                          - generic:  Sign in with Apple
+                  - img [ref=e1267]
+            - link "使用電話號碼繼續" [ref=e1270] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e1273]:
+                - img [ref=e1274]
+                - generic [ref=e1277]: 使用電話號碼繼續
+            - link "使用電子郵件繼續" [ref=e1279] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e1282]:
+                - img [ref=e1283]
+                - generic [ref=e1285]: 使用電子郵件繼續
+          - paragraph [ref=e1286]:
+            - text: 繼續即表示你同意我們的
+            - link "《使用者協議》" [ref=e1287] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/user-agreement
+            - text: 並確認你已了解
+            - link "《隱私權政策》" [ref=e1288] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/privacy-policy
+            - text: .

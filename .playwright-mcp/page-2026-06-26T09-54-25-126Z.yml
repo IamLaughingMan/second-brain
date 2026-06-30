@@ -1,0 +1,1031 @@
+- generic [active] [ref=e1]:
+  - link "跳至主要內容" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: 跳至主要內容
+  - generic [ref=e6]:
+    - generic:
+      - banner [ref=e9]:
+        - navigation [ref=e10]:
+          - link "首頁" [ref=e14] [cursor=pointer]:
+            - /url: https://www.reddit.com/
+            - img [ref=e16]
+          - generic [ref=e30]:
+            - img [ref=e32]
+            - textbox "什麼都可以搜" [ref=e35]
+          - generic [ref=e36]:
+            - link "註冊" [ref=e42] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e44]: 註冊
+            - link "登入" [ref=e48] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e50]: 登入
+            - button "展開使用者選單" [ref=e55] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e60]:
+                - generic: 展開使用者選單
+      - generic [ref=e61]:
+        - generic [ref=e64]:
+          - main [ref=e65]:
+            - 'generic "I''ve tested a lot of pillows and while I know they are very subjective these are my experiences as a side-sleeper with neck and tmj issues. : r/Mattress"'
+            - generic [ref=e66]:
+              - generic [ref=e67]:
+                - generic [ref=e68]:
+                  - link "前往 Mattress" [ref=e72] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Mattress/
+                    - generic [ref=e76]:
+                      - generic: 前往 Mattress
+                  - group [ref=e77]:
+                    - generic [ref=e78]:
+                      - link "r/Mattress" [ref=e81] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/Mattress/
+                      - generic [ref=e82]: •
+                      - time [ref=e84]: 5 年前
+                    - link "作者：riotkitty" [ref=e89] [cursor=pointer]:
+                      - /url: https://www.reddit.com/user/riotkitty/
+                      - generic [ref=e90]: riotkitty
+                - button "開啟使用者操作" [ref=e93] [cursor=pointer]:
+                  - img [ref=e96]
+              - heading "貼文標題：I've tested a lot of pillows and while I know they are very subjective these are my experiences as a side-sleeper with neck and tmj issues." [level=1] [ref=e98]: I've tested a lot of pillows and while I know they are very subjective these are my experiences as a side-sleeper with neck and tmj issues.
+              - generic [ref=e102]:
+                - paragraph [ref=e103]:
+                  - strong [ref=e104]: "NOTE: Please Read:"
+                  - text: This has gotten a lot of traction over the years. Most people that have posted have been nice and I don't mind answering questions, but I'm not an expert, and I may sleep a particular way that you may not, so what works for me might not work for you. Also, don't spam me. Some of these suggestions are sus, like that weird butterfly-shaped pillow. I read all the other pillow suggestion posts on Reddit, too, and somehow, I keep seeing that pillow on every post, and I see it all over TikTok...I work in marketing; I know how this works. ** Updated 5/14/25. See newest reviews at the bottom:**
+                - paragraph [ref=e105]:
+                  - link "u/pspr33" [ref=e106] [cursor=pointer]:
+                    - /url: /user/pspr33/
+                  - text: kindly put my older reviews in a
+                  - link "spreadsheet" [ref=e107] [cursor=pointer]:
+                    - /url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTE66nMPcXfWRI5IbzpPDmrNKYNiRFhSZObKLnsdKLghTZ6hA-KiyvsuQ995Ff1VWvyThShEG8lJRLK/pubhtml
+                  - text: . I filled out the firmness column, however, keep in mind this all subject to how the pillows felt to me. Things like the weight of your head or the firmness of your mattress/sleeping surface will change how firm a pillow feels. I also added a loft measurement for the pillows I measured.
+                - paragraph [ref=e108]:
+                  - strong [ref=e109]: "Favorites:"
+                - list [ref=e110]:
+                  - listitem [ref=e111]:
+                    - paragraph [ref=e112]:
+                      - text: My current favorite is a [pillow I made on my own] (
+                      - link "https://www.reddit.com/r/Mattress/comments/1kml18h/im_a_side_sleeper_who_reviewed_a_bunch_of_pillows/" [ref=e113] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/Mattress/comments/1kml18h/im_a_side_sleeper_who_reviewed_a_bunch_of_pillows/
+                      - text: ) by modifying the Ab Lifestyle shredded Serene Foam pillow. I shortened the width (short side) from 20 to 16 inches to narrow the pillow. This keeps the foam from shifting to the top of the pillow at night. I made mine firm but a little softer than the Pluto Pillow. It has an almost bouncy feel like my beloved discontinued Leesa pillow, but it's better because I made it to have a higher loft.
+                  - listitem [ref=e114]:
+                    - paragraph [ref=e115]: My last favorite was the Pluto Pillow, a hybrid pillow with an outer fiber fill layer and a Serene foam core. I didn't like it initially because it's super firm, but it is the perfect size. It doesn't get too hot, and I mostly got used to it but always wished it was just a little softer but still had the same amount of support.
+                  - listitem [ref=e116]:
+                    - paragraph [ref=e117]: My third favorite is the now-discontinued Casaluna Foam Pillow from Target. It's another Serene Foam pillow. Comfort Tech makes a dupe on The Company Store.
+                - paragraph [ref=e118]:
+                  - strong [ref=e119]: All my favorite pillows as of right now have Serene Foam. I like it because it doesn't get as hot as memory foam, doesn't squish down as much, and keeps its support better. I am interested in another foam by Comfort Tech called Tranquillity, which the original Leesa was made from. It's similar to Serene Foam but is airier and bouncy.
+                - paragraph [ref=e120]:
+                  - strong [ref=e121]: "A little about my sleep situation:"
+                  - text: I'm in my mid-40s, am 5'3.5", and about 135 lbs—broad shoulders for my size from years of weight lifting (about 40" circumference). I mostly sleep on my side, though I occasionally roll onto my back. I have had neck issues for years, likely due to having a job where I'm at a desk all day. I also have TMJ and am prone to ear pain at night. This means super firm pillows don't work for me. When I started these reviews, I had a king-size soft-side waterbed with a firm latex topper, but now I have a Purple Restore in Soft. I also like sleeping on a wedge because I don't like the feel of lying flat. I cover all my pillows in a silk pillowcase, too, so cover material isn't that important to me as long as I don't feel it through the cover. Here is my review of several pillows I've tried so far.
+                - list [ref=e122]:
+                  - listitem [ref=e123]:
+                    - paragraph [ref=e124]:
+                      - strong [ref=e125]: Coop Eden (the size I used is discontinued)
+                      - text: "-- This pillow worked for me for a couple of years when I got in the standard size. However, it got ruined when I washed it, so I bought a new one. They only come in queen and king now, so I bought a queen, and its not the same at all. The height-to-width ratio to get the support I need has changed. If I put it at the proper height, its too soft. If I put it at the support level I want, it's too tall. Also, even though I returned it a couple of months ago, I'm still finding filling all over my house from adjusting it all the time."
+                  - listitem [ref=e126]:
+                    - paragraph [ref=e127]:
+                      - strong [ref=e128]: Purple Pillow
+                      - text: "-- Recommended by a friend who hated the COOP pillow. I like it stayed cool and the level of neck support and that's it. Way too firm. Hurt my ear and just was not comfortable."
+                  - listitem [ref=e129]:
+                    - paragraph [ref=e130]:
+                      - strong [ref=e131]: Therapedic Shoulder Contour Bed Pillow (discontinued)
+                      - text: "-- This one wasn't terrible. I really liked the shoulder cutout and it was a good loft for me. The core of it is pretty firm though and I got ear pain from it."
+                  - listitem [ref=e132]:
+                    - paragraph [ref=e133]:
+                      - strong [ref=e134]: Purple Harmony
+                      - text: "-- I bought this at a Denver Mattress store and they only had the tall in stock and I wanted it right away. It had a good level of firmness but was way to tall for my neck. So I exchanged it for a medium and it was way softer and I just could not get comfortable with it. Also even with it seeming too soft, it made my ear hurt. I gave it to my husband who is quite a bit larger than me, and it his favorite pillow. Go figure."
+                  - listitem [ref=e135]:
+                    - paragraph [ref=e136]:
+                      - strong [ref=e137]: Tuft & Needle Foam Pillow
+                      - text: "-- I wanted this one to work so bad. The foam is awesome. It's soft enough that it doesn't cause ear pain and it doesn't get too hot. It feels almost between latex and memory foam in the best way. But while my head and ears love it, my neck does not and I think it's because I need more loft, although tricks like putting a folded towel under it didn't help as much as I thought, so maybe it's a support issue. It works a little better when I sleeping on a wedge. I've stuck with it for over a month now, and I haven't returned it yet, but I'm not done looking."
+                      - strong [ref=e138]: EDIT
+                      - text: My mom got one of these too and kept complaining hers was too firm. So I returned this one and got another thinking I had a bad one. Well, the next one I got was even softer. Went right back.
+                  - listitem [ref=e139]:
+                    - paragraph [ref=e140]:
+                      - strong [ref=e141]: Eli and Elm Side Sleeper
+                      - text: "-- This pillow could have been great, but the drawbacks were that it was too big. It stunk like old balloons. Latex can smell weird, but this was on another level. When I got it, I took it out of the top case to check it out and it got white powder, which I assume is latex, all over my bed. The feel was weird. Super firm in some areas and soft in others. I fluffed it a bit to mix the filling and it helped but it had this weird consistency, probably due to the bounciness of the latex. I might have adjusted to it but that smell was too gross. However, I liked that curve at the bottom, it seems to be compatible with how I sleep and that prompted me to test another curved bottom pillow which brings me to:"
+                  - listitem [ref=e142]:
+                    - paragraph [ref=e143]:
+                      - strong [ref=e144]: Sleep Number Comfortfit Pillow Curved
+                      - text: "-- I actually wanted the Nest Easy Breather Side Sleeper but this looks similar and I could buy it at a store instead of ordering it, although it costs more and its not adjustable (but after the COOP and Eli & Elm messes, I might be ok with that). I'm still testing it. It's firmer and a little taller than my Tuft and Needle pillow but it's not super hard and I can punch a hole where my ear sits to relieve pressure. The other promising thing about it is even though it's a polyfill and foam mix, the filling doesn't move around as much as the COOP did. It's not cooling but it hasn't gotten too hot. I don't like that you can't wash the cover but then again the lack of double liner might keep it cooler. I need more time with it though to decide if it is the one."
+                      - strong [ref=e145]: Edit - No this is not the one either. It starts comfortable when its fluffed and as it compresses it gets really firm. I've been switching it out for my Tuft and Needle pillow the last couple of nights
+                - paragraph [ref=e146]: Anyway, I hope this is useful to anyone doing research into a new pillow.
+                - paragraph [ref=e147]: Edit some new ones I've since tried.
+                - list [ref=e148]:
+                  - listitem [ref=e149]:
+                    - paragraph [ref=e150]:
+                      - strong [ref=e151]: Malouf Z Carbon Cool
+                      - text: "-- I liked the initial feel of this, not too soft, not too firm but I found that as the night went on I would sink into it too much and my head would feel too low. If this came in a 7inch loft it probably would have been great."
+                  - listitem [ref=e152]:
+                    - paragraph [ref=e153]:
+                      - strong [ref=e154]: Bed, Bath and Beyond Therapedic TruCool Serene Foam
+                      - text: "-- Bed, Bath and Beyond used to make a TruCool memory foam pillow that was my favorite pillow for a few years. This is the pillow that replaced it and it has Serene Foam that is pumped full of air so it stays cooler than memory foam. It does stay pretty cool. Unfortunately, this pillow is hard as a rock. I gave up on it after about an hour."
+                  - listitem [ref=e155]:
+                    - paragraph [ref=e156]:
+                      - strong [ref=e157]: Target Casaluna Serene Foam Pillow (Discontinued)
+                      - text: "-- Because I did like how Serene foam stays cool, and this felt a bit softer than the TruCool, I decided to try this out. This is actually the most inexpensive of all the pillows on this list at $50 and so far it's the one I am the happiest with. It's still pretty firm, though. I had to take it out of the nice soft case it came in and just put the foam piece in a silk pillowcase to make it soft enough to be comfortable, but it has good, responsive support (not a slow sink like memory foam), a good loft (the Target website says 5 inches but mine measured at 5.5, and that makes a big difference) and it doesn't trap heat, though I wouldn't say its a \"cooling\" pillow. It is a lot like the Tuft and Needle Pillow with a very similar shape but is firmer, taller and a lot cheaper. This one might be the winner, I've been sleeping better since I got it."
+                  - listitem [ref=e158]:
+                    - paragraph [ref=e159]:
+                      - strong [ref=e160]: Sijo Clima Latex Pillow
+                      - text: "-- I did not mean to get this pillow. I ordered it, changed my mind a day later, and canceled it. Then it showed up almost a week later. I figured I'd do the right thing and let them know so they charged me. I slept on it last night and it was not my best sleep. First, that latex smell -- it wasn't so bad especially given the thick cover it has, but it was still there. Then there's the feel. It was better than the Purple Harmony, firmer, and a good loft for both side and back sleeping, but the thing about latex is when I lay on it feels almost like I'm \"fighting\" the push-back it has and can't fully relax as I do with foam. Also, latex is cooler than memory foam but this comes in this thick case. The case feels good and has phase-change material that is supposed to keep it cool. It didn't get super hot but with the Casaluna, I remove the outer cover and just put the lined foam in a silk pillowcase and that combo stays pretty comfortable (I did this with the Coop Eden too). I do not want to try this with a piece of stinky latex. So I tried to return it, and they refunded me and told me to donate it which feels weird in Covid times, so now I'm stuck with it and wondering if I should keep trying to make it work. EDIT - the latex smell kept getting to me so I gave it away."
+                - paragraph [ref=e161]: Edit 2-28-22 - Even more I have tried
+                - list [ref=e162]:
+                  - listitem [ref=e163]:
+                    - paragraph [ref=e164]:
+                      - strong [ref=e165]: Blu Sleep Ceramo Pillow
+                      - text: "-- Absolute garbage. Sunk down to the mattress and it smelled like soap. Returned immediately"
+                  - listitem [ref=e166]:
+                    - paragraph [ref=e167]:
+                      - strong [ref=e168]: Cushion Lab Deep Sleep Pillow
+                      - text: "-- This isn't bad. Its a squishy memory foam and but it is supportive. Its an ergonomic pillow that dips in the middle and is higher on the sides. I only like how it feels on the sides and I roll back down to the middle which feels too low for me. I like to feel a little propped up. So I let my husband try it and he loves it, especially with his CPAP. So its his now."
+                  - listitem [ref=e169]:
+                    - paragraph [ref=e170]:
+                      - strong [ref=e171]: Leesa Foam Pillow (discontinued)
+                      - text: "--"
+                      - strong [ref=e172]: Was my favorite - now it's discontinued
+                      - text: . I've slept the best on it out of all these, good support, no ear crush, and works both with my mattress and on a wedge. I just wish it had a tiny bit more loft. The foam is pretty unique, kind of similar in density to the Tuft and Needle but bouncier with less sink in like latex. Since it doesn't sink in much, it doesn't get too warm. The case is soft and cozy but I cover it up with a silk pillowcase. I can't take it out of the case and sleep on the foam because the foam is much longer and wider than the case it comes with and it gets too flat. My main beef with it is the quality, and I got it direct from Leesa, not Amazon, so it's not a knockoff. This bothers me because this pillow was $80. The outer case had some snags and the seams around the zipper are sloppy. The inner has run all over and few holes. The foam is cut weirdly with uneven holes, but I don't notice it in the case. It is super comfortable and doesn't trap heat like traditional memory foam.
+                - paragraph [ref=e173]: Update 8/15/23 - Note as of 8/27/23 I switched from a soft side waterbed mattress to a Purple Restore Plus in Soft. This actually made an improvement in almost all pillows where I've been able to give them more fair trials.
+                - list [ref=e174]:
+                  - listitem [ref=e175]:
+                    - paragraph [ref=e176]:
+                      - strong [ref=e177]: Casper Essential Cooling Foam Pillow
+                      - text: "-- This pillow felt initially felt like a rock covered in memory foam. It softens a little bit after laying on it awhile but it has that \"slow sink, get stuck in one place feel\" which I do not like and the core of it still feels hard. I was hopeful because this had a higher loft of just over 6 inches. However, its lack of softness made it a little too high."
+                  - listitem [ref=e178]:
+                    - paragraph [ref=e179]:
+                      - strong [ref=e180]: Bear Foam Pillow (discontinued)
+                      - text: "-- I gave it a few weeks but it's going back. It advertises itself as having a feel of a cross between memory foam and latex, so I thought it would be a lot like the Leesa and a good replacement. It's actually more dense and has more of that squishy, sinking feeling than the Leesa does, though it's not quite like regular memory foam. When I first laid down on it, it felt amazing. It's soft but supportive, and the cool fabric feels good even through a silk pillowcase. However, the cooling feeling doesn't last that long, and when the pillow warms up it feels a lot less supportive and the space between my neck and shoulder starts to hurt. If it had about .5 to 1\" more loft it would have a keeper."
+                  - listitem [ref=e181]:
+                    - paragraph [ref=e182]:
+                      - strong [ref=e183]: Sleep Number Responsefit Curved Pillow
+                      - text: "-- Foam on this initially feels good -- soft and supportive, just like the Bear pillow and then it sinks in too much. The pillow cover has this puffy wavy texture on it that feels good when you touch it, but when you sleep on it feels like a lumpy pillow except you can't adjust the lumps. Also, I like the concept of curved pillows, but they don't work for me in practice. I can't easily move around on them; they trap more heat around my neck. Honestly, this pillow was most comfortable when I flipped it around and slept on the flat side, except that's where the \"puffy waves\" stuck out the most."
+                  - listitem [ref=e184]:
+                    - paragraph [ref=e185]:
+                      - strong [ref=e186]: Pillow Cube Pro 5"
+                      - text: "- I hated it at first, and then as I used I kind of liked it. But then I realized it's hurting my neck because I roll onto my back more than I thought. And even on my side It's a little too high for me which is funny because I complain about the loft being too low on every pillow, but I tried the 4\" in a store and did not like the feel of that either. I don't mind the shape and the foam is actually pretty good about not trapping too much heat. I have managed to sleep ok on it but keep swapping it out for my Leesa."
+                      - strong [ref=e187]: "EDIT:"
+                      - text: I've been sleeping on it more and more lately and have had good sleep on it, I don't get any shoulder pinching with it, which I have gotten with most of these pillows, including the Leesa. It's also softened up a little and now the loft works better for me.
+                  - listitem [ref=e188]:
+                    - paragraph [ref=e189]:
+                      - strong [ref=e190]: Yootick Cube Pillow 4" (Amazon Knockoff)
+                      - text: "- I wanted to try the 4\" Pillow Cube, but saw that this had same-day delivery. I figured I could return it if it didn't work so I got it. You could tell it was cheaper. The cover wasn't as soft and the foam felt less soft and spongy. The loft felt comfortable and I fell asleep on it but then woke up so uncomfortable from the firmness. I switched to the real Pillow Cube and it felt super soft compared to the knockoff. I'm definitely returning it and it was a pain in the ass to get back in the box. Hopefully, the real 4\" Pillow Cube will work out better."
+                  - listitem [ref=e191]:
+                    - paragraph [ref=e192]:
+                      - strong [ref=e193]: Pillow Cube Pro 4"
+                      - text: "- The firmness on this felt exactly the same as the knockoff. So if you want to try it, save some money and try a knockoff product. It has a different foam than the 5\", its light gray with copper looking flakes (vs the dark gray you usually see in Pillow Cubes) and feels firmer. I actually contacted them and they said that it's authentic, that they are \"constantly improving their product\" I looked at the manufactured dates and they are both from Jan 2022 so I guess the 4\" have different foam? I don't know. All I know is the loft works now that its firm, but I hate the feel of it, and if it softens at all it will be too low. I got it from Amazon, so it's going back."
+                  - listitem [ref=e194]:
+                    - paragraph [ref=e195]:
+                      - strong [ref=e196]: Tempurpedic Serenity Pillow
+                      - text: "- this is the Costco Tempurpedic pillow and it was only $30, good loft and a decent medium/firm feel for true memory foam with not too much sink-in but absolutely no breathability. This pillow is basically a slab of dough and it got hot right away."
+                  - listitem [ref=e197]:
+                    - paragraph [ref=e198]:
+                      - strong [ref=e199]: Brooklyn Bedding (aka 3Z brands) Luxury Cooling Pillow High Loft
+                      - text: "- If this is what they consider a high loft, the low loft must be flat as a pancake. This pillow has an average loft of 5.25 inches, but it's soft, and it sinks down a lot. also the \"infusion of graphic and copper\" is literally paint that's on the side of it and it makes that side feel a little crunchy. The foam is not bad, it's memory foam but it has a faster bounce back similar to the Bear pillow. I need more loft than this for my shoulders to be comfortable, so It's returning."
+                  - listitem [ref=e200]:
+                    - paragraph [ref=e201]:
+                      - strong [ref=e202]: Pluto Pillow (my current favorite pillow)
+                      - text: "- - Pluto's whole thing is they customize your pillow based on a bunch of info you provide. I was reluctant to get one because no matter what variation, it is always a hybrid pillow that has a fiberfill exterior and a foam interior, and I generally don't like fiberfill, but at this point, I figured why not? I gave them my height, weight, and pillow preferences based on what I liked so far. I wanted a medium pillow for a side sleeper with a loft on the higher side of medium or lower end of high, that had cooling properties and was more \"settled and supportive\" vs \"sink in plushy\". What I got was a pillow with the perfect loft that had a cool quilted cover with a thin layer of fiberfill and about a 3.5\" tall piece of Serene foam inside(the exact same foam that's in the Casaluna pillow - same color, texture, and even smell). Serene foam is pretty firm, and body heat doesn't soften it, so I got a pretty firm pillow. It makes the Pillow Cube seem almost too soft when I switch them out. I didn't like the firmness at first, but in about a month, I started switching back to it, and now it's my favorite pillow. I'm still aware of the firmness as I fall asleep, but I get a pretty quality sleep once I'm out. I'm pretty sure its because it keeps the same support in my neck all night."
+                  - listitem [ref=e203]:
+                    - paragraph [ref=e204]:
+                      - strong [ref=e205]: Purple Dreamlayer
+                      - text: —I didn't buy this pillow; I just tried it in the store and knew it wasn't for me. The base foam is too squishy. I didn't like the booster system, as I felt it might shift around. The grid felt pretty good, but I don't know if I would like feeling that texture all night.
+                  - listitem [ref=e206]:
+                    - paragraph [ref=e207]:
+                      - strong [ref=e208]: AB Lifestyles Perfect Pillow (Modified)
+                      - text: "- These pillows are made in-house by a smaller company that sells RV bedding. They are simple pillows filled with shredded Serene foam. I originally got them for my guest bedroom since they are relatively inexpensive, but we had to try them. I had to buy another set because my husband loved it so much that it became his regular pillow. I had issues with the foam shifting on them at night to the top of the pillow, so [I modified them to be narrower] ("
+                      - link "https://www.reddit.com/r/Mattress/comments/1kml18h/im_a_side_sleeper_who_reviewed_a_bunch_of_pillows/" [ref=e209] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/Mattress/comments/1kml18h/im_a_side_sleeper_who_reviewed_a_bunch_of_pillows/
+                      - text: ) to fix that. It's my favorite pillow now.
+            - separator [ref=e210]
+            - region "留言" [ref=e213]:
+              - heading "留言區" [level=1] [ref=e214]
+              - article "留言者：Tomatillo_Thick 4 年前" [ref=e216]:
+                - generic "Tomatillo_Thick 的個人檔案 (虛擬頭像) Tomatillo_Thick 的個人檔案 4 年前" [ref=e217] [cursor=pointer]:
+                  - link "Tomatillo_Thick 的個人檔案 (虛擬頭像)" [ref=e222]:
+                    - /url: https://www.reddit.com/user/Tomatillo_Thick/
+                    - img "u/Tomatillo_Thick 虛擬頭像" [ref=e225]
+                  - generic [ref=e229]:
+                    - link "Tomatillo_Thick 的個人檔案" [ref=e232]:
+                      - /url: https://www.reddit.com/user/Tomatillo_Thick/
+                      - text: Tomatillo_Thick
+                    - generic [ref=e233]: •
+                    - link "4 年前" [ref=e235]:
+                      - /url: https://www.reddit.com/r/Mattress/comments/rby562/comment/hzyii26/
+                      - time [ref=e237]: 4 年前
+                - generic [ref=e239]:
+                  - generic [ref=e242]:
+                    - paragraph [ref=e243]:
+                      - text: Does your husband know he’s married to the ideal Internet forum citizen? But seriously, thank you for sharing your experiences. I’m sleeping on the
+                      - link "coop Eden pillow" [ref=e246] [cursor=pointer]:
+                        - /url: /search/?q=coop+Eden+pillow+reviews&cId=ab2833c3-0a3f-4278-afdc-7463714aa36c&iId=96ffd390-7bad-4637-a4ae-d2aee1b4c78a
+                        - text: coop Eden pillow
+                        - img [ref=e248]
+                      - text: right now and it’s horrible on my neck.
+                    - paragraph [ref=e250]:
+                      - text: Just ordered a
+                      - link "sleep on latex pillow" [ref=e253] [cursor=pointer]:
+                        - /url: /search/?q=sleep+on+latex+pillow+reviews&cId=d3ff0d82-b029-45ff-86ae-439c7b936fd6&iId=d491cfe5-87c6-49c4-b45a-1390564607eb
+                        - text: sleep on latex pillow
+                        - img [ref=e255]
+                      - text: ", I’m worried about the 6” loft but we’ll see. Definitely do not want to have to shell out the money for the"
+                      - link "purple harmony" [ref=e259] [cursor=pointer]:
+                        - /url: /search/?q=purple+harmony+pillow+reviews&cId=9e044358-86c5-4dd0-af3f-2c657e45013d&iId=5f42a187-8197-478e-b904-1eb8863c5606
+                        - text: purple harmony
+                        - img [ref=e261]
+                      - text: .
+                  - generic [ref=e264]:
+                    - img [ref=e265]
+                    - img [ref=e267]
+                  - img
+                  - generic [ref=e269]:
+                    - article "討論串第 1 層：回覆者：riotkitty 4 年前" [ref=e271]:
+                      - generic "riotkitty 的個人檔案 (虛擬頭像) riotkitty 的個人檔案 4 年前" [ref=e272] [cursor=pointer]:
+                        - link "riotkitty 的個人檔案 (虛擬頭像)" [ref=e277]:
+                          - /url: https://www.reddit.com/user/riotkitty/
+                          - img "u/riotkitty 虛擬頭像" [ref=e280]
+                        - generic [ref=e284]:
+                          - link "riotkitty 的個人檔案" [ref=e287]:
+                            - /url: https://www.reddit.com/user/riotkitty/
+                            - text: riotkitty
+                          - generic [ref=e288]: •
+                          - link "4 年前" [ref=e290]:
+                            - /url: https://www.reddit.com/r/Mattress/comments/rby562/comment/hzz1zte/
+                            - time [ref=e292]: 4 年前
+                      - generic [ref=e294]:
+                        - paragraph [ref=e298]: I'm glad this was helpful. I would like to try more latex pillows but they make nervous because I'm allergic to latex fruits (banana, kiwi). I've heard latex foam is generally safe even with a latex allergy, but the thought of a reaction bothers my sleep plus I hate the smell.
+                        - generic [ref=e300]:
+                          - img [ref=e301]
+                          - img [ref=e303]
+                        - button "其他 則回覆" [ref=e308] [cursor=pointer]:
+                          - generic [ref=e311]:
+                            - generic [ref=e313]:
+                              - text: 其他
+                              - text: 則回覆
+                            - img [ref=e314]
+                    - button "其他 則回覆" [ref=e318] [cursor=pointer]:
+                      - generic [ref=e321]:
+                        - generic [ref=e323]:
+                          - text: 其他
+                          - text: 則回覆
+                        - img [ref=e324]
+              - article "留言者：Murky_Advice 5 年前" [ref=e327]:
+                - generic "Murky_Advice 的個人檔案 (虛擬頭像) Murky_Advice 的個人檔案 5 年前" [ref=e328] [cursor=pointer]:
+                  - link "Murky_Advice 的個人檔案 (虛擬頭像)" [ref=e333]:
+                    - /url: https://www.reddit.com/user/Murky_Advice/
+                    - img [ref=e338]
+                  - generic [ref=e343]:
+                    - link "Murky_Advice 的個人檔案" [ref=e346]:
+                      - /url: https://www.reddit.com/user/Murky_Advice/
+                      - text: Murky_Advice
+                    - generic [ref=e347]: •
+                    - link "5 年前" [ref=e349]:
+                      - /url: https://www.reddit.com/r/Mattress/comments/rby562/comment/hnrew3f/
+                      - time [ref=e351]: 5 年前
+                - generic [ref=e353]:
+                  - paragraph [ref=e357]: I have one of the Nest Side Sleeper pillows and it's the best one I've tried. However, the fill moves around too much and I have to adjust it several times a night. It also seems a bit smaller in one direction than a standard pillow, so it doesn't fill the case and I have to wrap it a bit. I've had it for 2-3 years. Earlier this year I bought the regular Easy Breather pillow and it's nothing like the other one. The fill doesn't move around as much; there isn't as much of the silky fiber to facilitate it. The cover material isn't as soft and stretchy, and the whole thing feels firmer than it should, and a little cheap, to be honest. I tried it again last week for a couple nights, so that opinion is pretty fresh. I'm concerned the side sleeper pillow may have had a similar "update".
+                  - generic [ref=e359]:
+                    - img [ref=e360]
+                    - img [ref=e362]
+                  - img
+                  - article "討論串第 1 層：回覆者：riotkitty 5 年前" [ref=e366]:
+                    - generic "riotkitty 的個人檔案 (虛擬頭像) riotkitty 的個人檔案 5 年前" [ref=e367] [cursor=pointer]:
+                      - link "riotkitty 的個人檔案 (虛擬頭像)" [ref=e372]:
+                        - /url: https://www.reddit.com/user/riotkitty/
+                        - img "u/riotkitty 虛擬頭像" [ref=e375]
+                      - generic [ref=e379]:
+                        - link "riotkitty 的個人檔案" [ref=e382]:
+                          - /url: https://www.reddit.com/user/riotkitty/
+                          - text: riotkitty
+                        - generic [ref=e383]: •
+                        - link "5 年前" [ref=e385]:
+                          - /url: https://www.reddit.com/r/Mattress/comments/rby562/comment/hnrixps/
+                          - time [ref=e387]: 5 年前
+                    - generic [ref=e389]:
+                      - paragraph [ref=e393]: Hmm. Maybe it's best that I went with Sleep Number instead. The material is pretty soft. I actually like when the fill doesn't move too much.
+                      - generic [ref=e395]:
+                        - img [ref=e396]
+                        - img [ref=e398]
+                      - button "其他 則回覆" [ref=e403] [cursor=pointer]:
+                        - generic [ref=e406]:
+                          - generic [ref=e408]:
+                            - text: 其他
+                            - text: 則回覆
+                          - img [ref=e409]
+              - article "留言者：thefinder808 5 年前" [ref=e412]:
+                - generic "thefinder808 的個人檔案 (虛擬頭像) thefinder808 的個人檔案 5 年前" [ref=e413] [cursor=pointer]:
+                  - link "thefinder808 的個人檔案 (虛擬頭像)" [ref=e418]:
+                    - /url: https://www.reddit.com/user/thefinder808/
+                    - img [ref=e423]
+                  - generic [ref=e428]:
+                    - link "thefinder808 的個人檔案" [ref=e431]:
+                      - /url: https://www.reddit.com/user/thefinder808/
+                      - text: thefinder808
+                    - generic [ref=e432]: •
+                    - link "5 年前" [ref=e434]:
+                      - /url: https://www.reddit.com/r/Mattress/comments/rby562/comment/hnta8ek/
+                      - time [ref=e436]: 5 年前
+                - generic [ref=e438]:
+                  - generic [ref=e441]:
+                    - paragraph [ref=e442]: Side and back sleeper here. I've also been through a lot of pillows. The best one by far (of the ones I've tried) is the Malouf Zoned Gel Dough High Loft. It's expensive, but it's the only pillow I've found that supports my neck and is soft enough to not hurt my ear. Definitely get the high loft if you're a side sleeper, they advertise the medium as being 6" but it's really not.
+                    - paragraph [ref=e443]:
+                      - text: Here's a link, might be able to find it cheaper elsewhere.
+                      - link "https://www.maloufhome.com/pillows/zoned-gel-dough/" [ref=e444] [cursor=pointer]:
+                        - /url: https://www.maloufhome.com/pillows/zoned-gel-dough/
+                  - generic [ref=e446]:
+                    - img [ref=e447]
+                    - img [ref=e449]
+                  - img
+                  - generic [ref=e451]:
+                    - article "討論串第 1 層：回覆者：riotkitty 5 年前" [ref=e453]:
+                      - generic "riotkitty 的個人檔案 (虛擬頭像) riotkitty 的個人檔案 5 年前" [ref=e454] [cursor=pointer]:
+                        - link "riotkitty 的個人檔案 (虛擬頭像)" [ref=e459]:
+                          - /url: https://www.reddit.com/user/riotkitty/
+                          - img "u/riotkitty 虛擬頭像" [ref=e462]
+                        - generic [ref=e466]:
+                          - link "riotkitty 的個人檔案" [ref=e469]:
+                            - /url: https://www.reddit.com/user/riotkitty/
+                            - text: riotkitty
+                          - generic [ref=e470]: •
+                          - link "5 年前" [ref=e472]:
+                            - /url: https://www.reddit.com/r/Mattress/comments/rby562/comment/hnv7r2r/
+                            - time [ref=e474]: 5 年前
+                      - generic [ref=e476]:
+                        - paragraph [ref=e480]: This is good to know. Softer memory foam is hard to find. My old favorite pillow was a Bed Bath & Beyond "cooling" memory foam pillow and what it made me love was it was softer than most memory foam pillows I had tried but had a high loft and was still supportive. Unfortunately, they don't make it anymore.
+                        - generic [ref=e482]:
+                          - img [ref=e483]
+                          - img [ref=e485]
+                    - button "其他 則回覆" [ref=e489] [cursor=pointer]:
+                      - generic [ref=e492]:
+                        - generic [ref=e494]:
+                          - text: 其他
+                          - text: 則回覆
+                        - img [ref=e495]
+          - generic [ref=e497]:
+            - generic [ref=e498]:
+              - complementary "「其他人也詢問」區段" [ref=e500]:
+                - heading "「其他人也詢問」區段" [level=1] [ref=e501]
+                - generic [ref=e502]:
+                  - img [ref=e504]
+                  - generic [ref=e506]: 其他人也詢問…
+                - generic [ref=e507]:
+                  - link "Best pillows for TMJ and side sleepers" [ref=e509] [cursor=pointer]:
+                    - /url: https://www.reddit.com/answers/4a177768-5d9b-4222-83ae-b3c8ab037a48/?q=Best+pillows+for+TMJ+and+side+sleepers&source=PDP
+                    - generic [ref=e512]: Best pillows for TMJ and side sleepers
+                    - img [ref=e515]
+                  - link "Cushion Lab pillow reviews" [ref=e518] [cursor=pointer]:
+                    - /url: https://www.reddit.com/answers/3a6ab7e5-5507-4540-a01e-9cce972f0efc/?q=Cushion+Lab+pillow+reviews&source=PDP
+                    - generic [ref=e521]: Cushion Lab pillow reviews
+                    - img [ref=e524]
+                  - link "Best sleep number settings for side sleepers" [ref=e527] [cursor=pointer]:
+                    - /url: https://www.reddit.com/answers/455a3dbf-b820-44bd-9c44-80cffe7d777c/?q=Best+sleep+number+settings+for+side+sleepers&source=PDP
+                    - generic [ref=e530]: Best sleep number settings for side sleepers
+                    - img [ref=e533]
+                  - link "Top mattress brands for back pain relief" [ref=e536] [cursor=pointer]:
+                    - /url: https://www.reddit.com/answers/9ed28800-ecc4-4706-81d1-642cf81547d5/?q=Top+mattress+brands+for+back+pain+relief&source=PDP
+                    - generic [ref=e539]: Top mattress brands for back pain relief
+                    - img [ref=e542]
+                  - link "Best mattress types for side sleepers" [ref=e545] [cursor=pointer]:
+                    - /url: https://www.reddit.com/answers/51e7d573-2368-4c96-be3d-92d8584985ce/?q=Best+mattress+types+for+side+sleepers&source=PDP
+                    - generic [ref=e548]: Best mattress types for side sleepers
+                    - img [ref=e551]
+              - complementary "相關貼文區塊" [ref=e553]:
+                - heading "相關貼文區塊" [level=1] [ref=e554]: 更多你可能喜歡的貼文
+                - generic [ref=e555]: 相關貼文
+                - list [ref=e559]:
+                  - listitem [ref=e560]:
+                    - generic [ref=e561]:
+                      - generic [ref=e562]:
+                        - link "Your mattress might be fine. Your pillow might be the actual problem" [ref=e563] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/SleepEssentialsIndia/comments/1refmnd/your_mattress_might_be_fine_your_pillow_might_be/
+                          - generic [ref=e564]:
+                            - generic: Your mattress might be fine. Your pillow might be the actual problem
+                        - generic [ref=e566]:
+                          - generic [ref=e568]:
+                            - link "r/SleepEssentialsIndia" [ref=e569] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/SleepEssentialsIndia/
+                              - img [ref=e573]
+                              - generic [ref=e575]: r/SleepEssentialsIndia
+                            - generic [ref=e576]: •
+                          - link "清單項目貼文 - Your mattress might be fine. Your pillow might be the actua..." [ref=e578] [cursor=pointer]:
+                            - /url: /r/SleepEssentialsIndia/comments/1refmnd/your_mattress_might_be_fine_your_pillow_might_be/
+                            - heading "清單項目貼文 - Your mattress might be fine. Your pillow might be the actua..." [level=3] [ref=e581]: Your mattress might be fine. Your pillow might be the actual problem
+                        - generic [ref=e583]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e584]
+                  - listitem [ref=e585]:
+                    - generic [ref=e586]:
+                      - generic [ref=e587]:
+                        - link "Just tell me what pillow you have" [ref=e588] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1sqqley/just_tell_me_what_pillow_you_have/
+                          - generic [ref=e589]:
+                            - generic: Just tell me what pillow you have
+                        - generic [ref=e591]:
+                          - generic [ref=e593]:
+                            - link "r/Pillows" [ref=e594] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e598]
+                              - generic [ref=e600]: r/Pillows
+                            - generic [ref=e601]: •
+                          - link "清單項目貼文 - Just tell me what pillow you have" [ref=e603] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1sqqley/just_tell_me_what_pillow_you_have/
+                            - heading "清單項目貼文 - Just tell me what pillow you have" [level=3] [ref=e606]: Just tell me what pillow you have
+                        - generic [ref=e608]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e609]
+                  - listitem [ref=e610]:
+                    - generic [ref=e611]:
+                      - generic [ref=e612]:
+                        - link "I didn’t realize pillows could make such a difference until I started paying attention" [ref=e613] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1tn37nf/i_didnt_realize_pillows_could_make_such_a/
+                          - generic [ref=e614]:
+                            - generic: I didn’t realize pillows could make such a difference until I started paying attention
+                        - generic [ref=e616]:
+                          - generic [ref=e618]:
+                            - link "r/Pillows" [ref=e619] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e623]
+                              - generic [ref=e625]: r/Pillows
+                            - generic [ref=e626]: •
+                          - link "清單項目貼文 - I didn’t realize pillows could make such a difference until..." [ref=e628] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1tn37nf/i_didnt_realize_pillows_could_make_such_a/
+                            - heading "清單項目貼文 - I didn’t realize pillows could make such a difference until..." [level=3] [ref=e631]: I didn’t realize pillows could make such a difference until I started paying attention
+                        - generic [ref=e633]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e634]
+                  - listitem [ref=e635]:
+                    - generic [ref=e637]:
+                      - generic [ref=e638]:
+                        - generic [ref=e639]: 宣傳內容
+                        - button "開啟使用者操作" [ref=e644] [cursor=pointer]:
+                          - img [ref=e647]
+                      - img "sidebar promoted post thumbnail"
+                    - separator [ref=e649]
+                  - listitem [ref=e650]:
+                    - generic [ref=e651]:
+                      - generic [ref=e652]:
+                        - link "Pillow manufacturer here. Let’s talk about why doctors actually recommend down for bad necks." [ref=e653] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1to6v0o/pillow_manufacturer_here_lets_talk_about_why/
+                          - generic [ref=e654]:
+                            - generic: Pillow manufacturer here. Let’s talk about why doctors actually recommend down for bad necks.
+                        - generic [ref=e656]:
+                          - generic [ref=e658]:
+                            - link "r/Pillows" [ref=e659] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e663]
+                              - generic [ref=e665]: r/Pillows
+                            - generic [ref=e666]: •
+                          - link "清單項目貼文 - Pillow manufacturer here. Let’s talk about why doctors actu..." [ref=e668] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1to6v0o/pillow_manufacturer_here_lets_talk_about_why/
+                            - heading "清單項目貼文 - Pillow manufacturer here. Let’s talk about why doctors actu..." [level=3] [ref=e671]: Pillow manufacturer here. Let’s talk about why doctors actually recommend down for bad necks.
+                        - generic [ref=e673]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e674]
+                  - listitem [ref=e675]:
+                    - generic [ref=e676]:
+                      - generic [ref=e677]:
+                        - link "In need of a good pillow" [ref=e678] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1qbd9bd/in_need_of_a_good_pillow/
+                          - generic [ref=e679]:
+                            - generic: In need of a good pillow
+                        - generic [ref=e681]:
+                          - generic [ref=e683]:
+                            - link "r/Pillows" [ref=e684] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e688]
+                              - generic [ref=e690]: r/Pillows
+                            - generic [ref=e691]: •
+                          - link "清單項目貼文 - In need of a good pillow" [ref=e693] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1qbd9bd/in_need_of_a_good_pillow/
+                            - heading "清單項目貼文 - In need of a good pillow" [level=3] [ref=e696]: In need of a good pillow
+                        - generic [ref=e698]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e699]
+                  - listitem [ref=e700]:
+                    - generic [ref=e701]:
+                      - generic [ref=e702]:
+                        - link "I need to find a cheaper pillow" [ref=e703] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1sau5df/i_need_to_find_a_cheaper_pillow/
+                          - generic [ref=e704]:
+                            - generic: I need to find a cheaper pillow
+                        - generic [ref=e706]:
+                          - generic [ref=e708]:
+                            - link "r/Pillows" [ref=e709] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e713]
+                              - generic [ref=e715]: r/Pillows
+                            - generic [ref=e716]: •
+                          - link "清單項目貼文 - I need to find a cheaper pillow" [ref=e718] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1sau5df/i_need_to_find_a_cheaper_pillow/
+                            - heading "清單項目貼文 - I need to find a cheaper pillow" [level=3] [ref=e721]: I need to find a cheaper pillow
+                        - generic [ref=e723]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e724]
+                  - listitem [ref=e725]:
+                    - generic [ref=e726]:
+                      - generic [ref=e727]:
+                        - link "What’s the best pillow" [ref=e728] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1u1pu2b/whats_the_best_pillow/
+                          - generic [ref=e729]:
+                            - generic: What’s the best pillow
+                        - generic [ref=e731]:
+                          - generic [ref=e733]:
+                            - link "r/Pillows" [ref=e734] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e738]
+                              - generic [ref=e740]: r/Pillows
+                            - generic [ref=e741]: •
+                          - link "清單項目貼文 - What’s the best pillow" [ref=e743] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1u1pu2b/whats_the_best_pillow/
+                            - heading "清單項目貼文 - What’s the best pillow" [level=3] [ref=e746]: What’s the best pillow
+                        - generic [ref=e748]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e749]
+                  - listitem [ref=e750]:
+                    - generic [ref=e751]:
+                      - generic [ref=e752]:
+                        - link "Help picking a mattress/narrowing down options, 6' 2\" ~190-200 lbs stomach and side sleeper" [ref=e753] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Mattress/comments/rqxo6e/help_picking_a_mattressnarrowing_down_options_6_2/
+                          - generic [ref=e754]:
+                            - generic: Help picking a mattress/narrowing down options, 6' 2" ~190-200 lbs stomach and side sleeper
+                        - generic [ref=e756]:
+                          - generic [ref=e758]:
+                            - link "r/Mattress" [ref=e759] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Mattress/
+                              - generic [ref=e763]: r/Mattress
+                            - generic [ref=e764]: •
+                          - link "清單項目貼文 - Help picking a mattress/narrowing down options, 6' 2\" ~190-..." [ref=e766] [cursor=pointer]:
+                            - /url: /r/Mattress/comments/rqxo6e/help_picking_a_mattressnarrowing_down_options_6_2/
+                            - heading "清單項目貼文 - Help picking a mattress/narrowing down options, 6' 2\" ~190-..." [level=3] [ref=e769]: Help picking a mattress/narrowing down options, 6' 2" ~190-200 lbs stomach and side sleeper
+                        - generic [ref=e771]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e772]
+                  - listitem [ref=e773]:
+                    - generic [ref=e775]:
+                      - generic [ref=e776]:
+                        - generic [ref=e777]: 宣傳內容
+                        - button "開啟使用者操作" [ref=e782] [cursor=pointer]:
+                          - img [ref=e785]
+                      - img "sidebar promoted post thumbnail"
+                    - separator [ref=e787]
+                  - listitem [ref=e788]:
+                    - generic [ref=e789]:
+                      - generic [ref=e790]:
+                        - link "Help me find my wife's favorite pillow!" [ref=e791] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Mattress/comments/1n3p190/help_me_find_my_wifes_favorite_pillow/
+                          - generic [ref=e792]:
+                            - generic: Help me find my wife's favorite pillow!
+                        - generic [ref=e793]:
+                          - generic [ref=e794]:
+                            - generic [ref=e796]:
+                              - link "r/Mattress" [ref=e797] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/Mattress/
+                                - generic [ref=e801]: r/Mattress
+                              - generic [ref=e802]: •
+                            - link "清單項目貼文 - Help me find my wife's favorite pillow!" [ref=e804] [cursor=pointer]:
+                              - /url: /r/Mattress/comments/1n3p190/help_me_find_my_wifes_favorite_pillow/
+                              - heading "清單項目貼文 - Help me find my wife's favorite pillow!" [level=3] [ref=e807]: Help me find my wife's favorite pillow!
+                          - generic [ref=e809]:
+                            - link "r/Mattress - Help me find my wife's favorite pillow!" [ref=e810] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Mattress/comments/1n3p190/help_me_find_my_wifes_favorite_pillow/
+                              - img "r/Mattress - Help me find my wife's favorite pillow!" [ref=e811]
+                            - generic:
+                              - img
+                              - generic: "3"
+                        - generic [ref=e813]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e814]
+                  - listitem [ref=e815]:
+                    - generic [ref=e816]:
+                      - generic [ref=e817]:
+                        - link "Looking for a new pillow that isn't toxic" [ref=e818] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1mnloyv/looking_for_a_new_pillow_that_isnt_toxic/
+                          - generic [ref=e819]:
+                            - generic: Looking for a new pillow that isn't toxic
+                        - generic [ref=e821]:
+                          - generic [ref=e823]:
+                            - link "r/Pillows" [ref=e824] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e828]
+                              - generic [ref=e830]: r/Pillows
+                            - generic [ref=e831]: •
+                          - link "清單項目貼文 - Looking for a new pillow that isn't toxic" [ref=e833] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1mnloyv/looking_for_a_new_pillow_that_isnt_toxic/
+                            - heading "清單項目貼文 - Looking for a new pillow that isn't toxic" [level=3] [ref=e836]: Looking for a new pillow that isn't toxic
+                        - generic [ref=e838]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e839]
+                  - listitem [ref=e840]:
+                    - generic [ref=e841]:
+                      - generic [ref=e842]:
+                        - link "Please help. I'm Goldilocks-ing." [ref=e843] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Mattress/comments/r44cw8/please_help_im_goldilocksing/
+                          - generic [ref=e844]:
+                            - generic: Please help. I'm Goldilocks-ing.
+                        - generic [ref=e846]:
+                          - generic [ref=e848]:
+                            - link "r/Mattress" [ref=e849] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Mattress/
+                              - generic [ref=e853]: r/Mattress
+                            - generic [ref=e854]: •
+                          - link "清單項目貼文 - Please help. I'm Goldilocks-ing." [ref=e856] [cursor=pointer]:
+                            - /url: /r/Mattress/comments/r44cw8/please_help_im_goldilocksing/
+                            - heading "清單項目貼文 - Please help. I'm Goldilocks-ing." [level=3] [ref=e859]: Please help. I'm Goldilocks-ing.
+                        - generic [ref=e861]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e862]
+                  - listitem [ref=e863]:
+                    - generic [ref=e864]:
+                      - generic [ref=e865]:
+                        - link "IM SO SICK OF BUYING PILLOWS" [ref=e866] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1pooqhx/im_so_sick_of_buying_pillows/
+                          - generic [ref=e867]:
+                            - generic: IM SO SICK OF BUYING PILLOWS
+                        - generic [ref=e869]:
+                          - generic [ref=e871]:
+                            - link "r/Pillows" [ref=e872] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e876]
+                              - generic [ref=e878]: r/Pillows
+                            - generic [ref=e879]: •
+                          - link "清單項目貼文 - IM SO SICK OF BUYING PILLOWS" [ref=e881] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1pooqhx/im_so_sick_of_buying_pillows/
+                            - heading "清單項目貼文 - IM SO SICK OF BUYING PILLOWS" [level=3] [ref=e884]: IM SO SICK OF BUYING PILLOWS
+                        - generic [ref=e886]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e887]
+                  - listitem [ref=e888]:
+                    - generic [ref=e889]:
+                      - generic [ref=e890]:
+                        - link "I compared the 7 most popular pillows on Reddit." [ref=e891] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1s3nhfw/i_compared_the_7_most_popular_pillows_on_reddit/
+                          - generic [ref=e892]:
+                            - generic: I compared the 7 most popular pillows on Reddit.
+                        - generic [ref=e893]:
+                          - generic [ref=e894]:
+                            - generic [ref=e896]:
+                              - link "r/Pillows" [ref=e897] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/Pillows/
+                                - img [ref=e901]
+                                - generic [ref=e903]: r/Pillows
+                              - generic [ref=e904]: •
+                            - link "清單項目貼文 - I compared the 7 most popular pillows on Reddit." [ref=e906] [cursor=pointer]:
+                              - /url: /r/Pillows/comments/1s3nhfw/i_compared_the_7_most_popular_pillows_on_reddit/
+                              - heading "清單項目貼文 - I compared the 7 most popular pillows on Reddit." [level=3] [ref=e909]: I compared the 7 most popular pillows on Reddit.
+                          - link "r/Pillows - I compared the 7 most popular pillows on Reddit." [ref=e912] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/Pillows/comments/1s3nhfw/i_compared_the_7_most_popular_pillows_on_reddit/
+                            - img "r/Pillows - I compared the 7 most popular pillows on Reddit." [ref=e913]
+                        - generic [ref=e915]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e916]
+                  - listitem [ref=e917]:
+                    - generic [ref=e918]:
+                      - generic [ref=e919]:
+                        - link "My partner [6'1, 200] is a back/side sleeper, I [6'4, 230] am side exclusive with terrible hip pain that I'd give just about any amount of money to solve [probably <$6K for King but could go a little higher if worth it]" [ref=e920] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Mattress/comments/r4yel5/my_partner_61_200_is_a_backside_sleeper_i_64_230/
+                          - generic [ref=e921]:
+                            - generic: My partner [6'1, 200] is a back/side sleeper, I [6'4, 230] am side exclusive with terrible hip pain that I'd give just about any amount of money to solve [probably <$6K for King but could go a little higher if worth it]
+                        - generic [ref=e923]:
+                          - generic [ref=e925]:
+                            - link "r/Mattress" [ref=e926] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Mattress/
+                              - generic [ref=e930]: r/Mattress
+                            - generic [ref=e931]: •
+                          - link "清單項目貼文 - My partner [6'1, 200] is a back/side sleeper, I [6'4, 230] ..." [ref=e933] [cursor=pointer]:
+                            - /url: /r/Mattress/comments/r4yel5/my_partner_61_200_is_a_backside_sleeper_i_64_230/
+                            - heading "清單項目貼文 - My partner [6'1, 200] is a back/side sleeper, I [6'4, 230] ..." [level=3] [ref=e936]: My partner [6'1, 200] is a back/side sleeper, I [6'4, 230] am side exclusive with terrible hip pain that I'd give just about any amount of money to solve [probably <$6K for King but could go a little higher if worth it]
+                        - generic [ref=e938]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e939]
+                  - listitem [ref=e940]:
+                    - generic [ref=e941]:
+                      - generic [ref=e942]:
+                        - link "If you’re having a hard time finding the right pillow, read this" [ref=e943] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Bedding/comments/1nj6mz1/if_youre_having_a_hard_time_finding_the_right/
+                          - generic [ref=e944]:
+                            - generic: If you’re having a hard time finding the right pillow, read this
+                        - generic [ref=e946]:
+                          - generic [ref=e948]:
+                            - link "r/Bedding" [ref=e949] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Bedding/
+                              - img [ref=e953]
+                              - generic [ref=e955]: r/Bedding
+                            - generic [ref=e956]: •
+                          - link "清單項目貼文 - If you’re having a hard time finding the right pillow, read..." [ref=e958] [cursor=pointer]:
+                            - /url: /r/Bedding/comments/1nj6mz1/if_youre_having_a_hard_time_finding_the_right/
+                            - heading "清單項目貼文 - If you’re having a hard time finding the right pillow, read..." [level=3] [ref=e961]: If you’re having a hard time finding the right pillow, read this
+                        - generic [ref=e963]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e964]
+                  - listitem [ref=e965]:
+                    - generic [ref=e966]:
+                      - generic [ref=e967]:
+                        - link "Best firm and cool pillow?" [ref=e968] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1skfi5i/best_firm_and_cool_pillow/
+                          - generic [ref=e969]:
+                            - generic: Best firm and cool pillow?
+                        - generic [ref=e971]:
+                          - generic [ref=e973]:
+                            - link "r/Pillows" [ref=e974] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e978]
+                              - generic [ref=e980]: r/Pillows
+                            - generic [ref=e981]: •
+                          - link "清單項目貼文 - Best firm and cool pillow?" [ref=e983] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1skfi5i/best_firm_and_cool_pillow/
+                            - heading "清單項目貼文 - Best firm and cool pillow?" [level=3] [ref=e986]: Best firm and cool pillow?
+                        - generic [ref=e988]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e989]
+                  - listitem [ref=e990]:
+                    - generic [ref=e991]:
+                      - generic [ref=e992]:
+                        - link "Please Please Please Help Me Solve My Very Long, Very Dramatic Struggle With Pillows" [ref=e993] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/BuyItForLife/comments/rk373f/please_please_please_help_me_solve_my_very_long/
+                          - generic [ref=e994]:
+                            - generic: Please Please Please Help Me Solve My Very Long, Very Dramatic Struggle With Pillows
+                        - generic [ref=e996]:
+                          - generic [ref=e998]:
+                            - link "r/BuyItForLife" [ref=e999] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/BuyItForLife/
+                              - generic [ref=e1003]: r/BuyItForLife
+                            - generic [ref=e1004]: •
+                          - link "清單項目貼文 - Please Please Please Help Me Solve My Very Long, Very Drama..." [ref=e1006] [cursor=pointer]:
+                            - /url: /r/BuyItForLife/comments/rk373f/please_please_please_help_me_solve_my_very_long/
+                            - heading "清單項目貼文 - Please Please Please Help Me Solve My Very Long, Very Drama..." [level=3] [ref=e1009]: Please Please Please Help Me Solve My Very Long, Very Dramatic Struggle With Pillows
+                        - generic [ref=e1011]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e1012]
+                  - listitem [ref=e1013]:
+                    - generic [ref=e1014]:
+                      - generic [ref=e1015]:
+                        - link "Advice for a large side sleeper" [ref=e1016] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Mattress/comments/qpesrk/advice_for_a_large_side_sleeper/
+                          - generic [ref=e1017]:
+                            - generic: Advice for a large side sleeper
+                        - generic [ref=e1019]:
+                          - generic [ref=e1021]:
+                            - link "r/Mattress" [ref=e1022] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Mattress/
+                              - generic [ref=e1026]: r/Mattress
+                            - generic [ref=e1027]: •
+                          - link "清單項目貼文 - Advice for a large side sleeper" [ref=e1029] [cursor=pointer]:
+                            - /url: /r/Mattress/comments/qpesrk/advice_for_a_large_side_sleeper/
+                            - heading "清單項目貼文 - Advice for a large side sleeper" [level=3] [ref=e1032]: Advice for a large side sleeper
+                        - generic [ref=e1034]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e1035]
+                  - listitem [ref=e1036]:
+                    - generic [ref=e1037]:
+                      - generic [ref=e1038]:
+                        - link "Looking for my 3rd mattress in past 6 months. Our backs feel broken at this point. Any help would be great." [ref=e1039] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Mattress/comments/qqz33j/looking_for_my_3rd_mattress_in_past_6_months_our/
+                          - generic [ref=e1040]:
+                            - generic: Looking for my 3rd mattress in past 6 months. Our backs feel broken at this point. Any help would be great.
+                        - generic [ref=e1042]:
+                          - generic [ref=e1044]:
+                            - link "r/Mattress" [ref=e1045] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Mattress/
+                              - generic [ref=e1049]: r/Mattress
+                            - generic [ref=e1050]: •
+                          - link "清單項目貼文 - Looking for my 3rd mattress in past 6 months. Our backs fee..." [ref=e1052] [cursor=pointer]:
+                            - /url: /r/Mattress/comments/qqz33j/looking_for_my_3rd_mattress_in_past_6_months_our/
+                            - heading "清單項目貼文 - Looking for my 3rd mattress in past 6 months. Our backs fee..." [level=3] [ref=e1055]: Looking for my 3rd mattress in past 6 months. Our backs feel broken at this point. Any help would be great.
+                        - generic [ref=e1057]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e1058]
+                  - listitem [ref=e1059]:
+                    - generic [ref=e1060]:
+                      - generic [ref=e1061]:
+                        - link "I Want An Affordable Body Pillow ?" [ref=e1062] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1t5e97m/i_want_an_affordable_body_pillow/
+                          - generic [ref=e1063]:
+                            - generic: I Want An Affordable Body Pillow ?
+                        - generic [ref=e1065]:
+                          - generic [ref=e1067]:
+                            - link "r/Pillows" [ref=e1068] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e1072]
+                              - generic [ref=e1074]: r/Pillows
+                            - generic [ref=e1075]: •
+                          - link "清單項目貼文 - I Want An Affordable Body Pillow ?" [ref=e1077] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1t5e97m/i_want_an_affordable_body_pillow/
+                            - heading "清單項目貼文 - I Want An Affordable Body Pillow ?" [level=3] [ref=e1080]: I Want An Affordable Body Pillow ?
+                        - generic [ref=e1082]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e1083]
+                  - listitem [ref=e1084]:
+                    - generic [ref=e1085]:
+                      - generic [ref=e1086]:
+                        - link "A pillow you guys swear by?" [ref=e1087] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Bedding/comments/1qmcn69/a_pillow_you_guys_swear_by/
+                          - generic [ref=e1088]:
+                            - generic: A pillow you guys swear by?
+                        - generic [ref=e1090]:
+                          - generic [ref=e1092]:
+                            - link "r/Bedding" [ref=e1093] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Bedding/
+                              - img [ref=e1097]
+                              - generic [ref=e1099]: r/Bedding
+                            - generic [ref=e1100]: •
+                          - link "清單項目貼文 - A pillow you guys swear by?" [ref=e1102] [cursor=pointer]:
+                            - /url: /r/Bedding/comments/1qmcn69/a_pillow_you_guys_swear_by/
+                            - heading "清單項目貼文 - A pillow you guys swear by?" [level=3] [ref=e1105]: A pillow you guys swear by?
+                        - generic [ref=e1107]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e1108]
+                  - listitem [ref=e1109]:
+                    - generic [ref=e1110]:
+                      - generic [ref=e1111]:
+                        - link "Best value for money pillow for under $50" [ref=e1112] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Pillows/comments/1u4lnhk/best_value_for_money_pillow_for_under_50/
+                          - generic [ref=e1113]:
+                            - generic: Best value for money pillow for under $50
+                        - generic [ref=e1115]:
+                          - generic [ref=e1117]:
+                            - link "r/Pillows" [ref=e1118] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Pillows/
+                              - img [ref=e1122]
+                              - generic [ref=e1124]: r/Pillows
+                            - generic [ref=e1125]: •
+                          - link "清單項目貼文 - Best value for money pillow for under $50" [ref=e1127] [cursor=pointer]:
+                            - /url: /r/Pillows/comments/1u4lnhk/best_value_for_money_pillow_for_under_50/
+                            - heading "清單項目貼文 - Best value for money pillow for under $50" [level=3] [ref=e1130]: Best value for money pillow for under $50
+                        - generic [ref=e1132]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e1133]
+                  - listitem [ref=e1134]:
+                    - generic [ref=e1135]:
+                      - generic [ref=e1136]:
+                        - link "After Reading Hundreds of BIFL Pillow Threads, Here's My Ranking" [ref=e1137] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/BuyItForLife/comments/1u8ra69/after_reading_hundreds_of_bifl_pillow_threads/
+                          - generic [ref=e1138]:
+                            - generic: After Reading Hundreds of BIFL Pillow Threads, Here's My Ranking
+                        - generic [ref=e1140]:
+                          - generic [ref=e1142]:
+                            - link "r/BuyItForLife" [ref=e1143] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/BuyItForLife/
+                              - generic [ref=e1147]: r/BuyItForLife
+                            - generic [ref=e1148]: •
+                          - link "清單項目貼文 - After Reading Hundreds of BIFL Pillow Threads, Here's My Ra..." [ref=e1150] [cursor=pointer]:
+                            - /url: /r/BuyItForLife/comments/1u8ra69/after_reading_hundreds_of_bifl_pillow_threads/
+                            - heading "清單項目貼文 - After Reading Hundreds of BIFL Pillow Threads, Here's My Ra..." [level=3] [ref=e1153]: After Reading Hundreds of BIFL Pillow Threads, Here's My Ranking
+                        - generic [ref=e1155]: 則留言
+                      - separator [ref=e1156]
+                  - listitem [ref=e1157]:
+                    - generic [ref=e1158]:
+                      - generic [ref=e1159]:
+                        - link "Can we compare pillows here? Tempur Pedic vs Tuft & Needle?" [ref=e1160] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Mattress/comments/r3e0q3/can_we_compare_pillows_here_tempur_pedic_vs_tuft/
+                          - generic [ref=e1161]:
+                            - generic: Can we compare pillows here? Tempur Pedic vs Tuft & Needle?
+                        - generic [ref=e1163]:
+                          - generic [ref=e1165]:
+                            - link "r/Mattress" [ref=e1166] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Mattress/
+                              - generic [ref=e1170]: r/Mattress
+                            - generic [ref=e1171]: •
+                          - link "清單項目貼文 - Can we compare pillows here? Tempur Pedic vs Tuft & Needle?" [ref=e1173] [cursor=pointer]:
+                            - /url: /r/Mattress/comments/r3e0q3/can_we_compare_pillows_here_tempur_pedic_vs_tuft/
+                            - heading "清單項目貼文 - Can we compare pillows here? Tempur Pedic vs Tuft & Needle?" [level=3] [ref=e1176]: Can we compare pillows here? Tempur Pedic vs Tuft & Needle?
+                        - generic [ref=e1178]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e1179]
+                  - listitem [ref=e1180]:
+                    - generic [ref=e1182]:
+                      - link "I think I may have found something I like but should I worry about it’s softness?" [ref=e1183] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/Mattress/comments/qt5fdo/i_think_i_may_have_found_something_i_like_but/
+                        - generic [ref=e1184]:
+                          - generic: I think I may have found something I like but should I worry about it’s softness?
+                      - generic [ref=e1186]:
+                        - generic [ref=e1188]:
+                          - link "r/Mattress" [ref=e1189] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/Mattress/
+                            - generic [ref=e1193]: r/Mattress
+                          - generic [ref=e1194]: •
+                        - link "清單項目貼文 - I think I may have found something I like but should I worr..." [ref=e1196] [cursor=pointer]:
+                          - /url: /r/Mattress/comments/qt5fdo/i_think_i_may_have_found_something_i_like_but/
+                          - heading "清單項目貼文 - I think I may have found something I like but should I worr..." [level=3] [ref=e1199]: I think I may have found something I like but should I worry about it’s softness?
+                      - generic [ref=e1201]:
+                        - text: 個推 ·
+                        - text: 則留言
+              - generic [ref=e1202]:
+                - heading "使用此語言檢視貼文：" [level=2] [ref=e1204]:
+                  - generic [ref=e1205]: 使用此語言檢視貼文：
+                - generic [ref=e1206]:
+                  - link "Tiếng Việt" [ref=e1208] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Mattress/comments/rby562/ive_tested_a_lot_of_pillows_and_while_i_know_they/?tl=vi
+                  - link "Français" [ref=e1210] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Mattress/comments/rby562/ive_tested_a_lot_of_pillows_and_while_i_know_they/?tl=fr
+                  - link "简体中文" [ref=e1212] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Mattress/comments/rby562/ive_tested_a_lot_of_pillows_and_while_i_know_they/?tl=zh-hans
+                  - link "हिन्दी" [ref=e1214] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Mattress/comments/rby562/ive_tested_a_lot_of_pillows_and_while_i_know_they/?tl=hi
+                  - group [ref=e1215]:
+                    - generic "顯示更多" [ref=e1216] [cursor=pointer]:
+                      - generic [ref=e1217]: 顯示更多
+                      - img [ref=e1219]
+              - generic [ref=e1221]:
+                - heading "人氣貼文" [level=2] [ref=e1222]
+                - list [ref=e1223]:
+                  - listitem [ref=e1224]:
+                    - link "Reddit reReddit：2021年12月8日 人氣貼文" [ref=e1225] [cursor=pointer]:
+                      - /url: https://www.reddit.com/posts/2021/december-8-1/global/
+                      - generic [ref=e1226]:
+                        - img [ref=e1227]
+                        - generic [ref=e1240]: Reddit
+                      - generic [ref=e1241]: reReddit：2021年12月8日 人氣貼文
+                      - separator [ref=e1242]
+                  - listitem [ref=e1243]:
+                    - link "Reddit reReddit：2021年12月 人氣貼文" [ref=e1244] [cursor=pointer]:
+                      - /url: https://www.reddit.com/posts/2021/december/global/
+                      - generic [ref=e1245]:
+                        - img [ref=e1246]
+                        - generic [ref=e1259]: Reddit
+                      - generic [ref=e1260]: reReddit：2021年12月 人氣貼文
+                      - separator [ref=e1261]
+                  - listitem [ref=e1262]:
+                    - link "Reddit reReddit：2021年 人氣貼文" [ref=e1263] [cursor=pointer]:
+                      - /url: https://www.reddit.com/posts/2021/global/
+                      - generic [ref=e1264]:
+                        - img [ref=e1265]
+                        - generic [ref=e1278]: Reddit
+                      - generic [ref=e1279]: reReddit：2021年 人氣貼文
+                      - separator [ref=e1280]
+            - list [ref=e1282]:
+              - listitem [ref=e1283]:
+                - link "首頁" [ref=e1285] [cursor=pointer]:
+                  - /url: /?feed=home
+              - listitem [ref=e1286]:
+                - link "爆紅" [ref=e1288] [cursor=pointer]:
+                  - /url: /r/popular/
+              - listitem [ref=e1289]:
+                - link "最新消息" [ref=e1291] [cursor=pointer]:
+                  - /url: /news/
+              - listitem [ref=e1292]:
+                - link "探索" [ref=e1294] [cursor=pointer]:
+                  - /url: /explore/
+              - listitem [ref=e1295]:
+                - link "Reddit 精選內容" [ref=e1297] [cursor=pointer]:
+                  - /url: https://www.reddit.com/posts/2026/global/
+              - listitem [ref=e1298]:
+                - link "葡萄牙文的 Reddit 精選內容" [ref=e1300] [cursor=pointer]:
+                  - /url: https://www.reddit.com/posts/2026/tl-pt-BR/
+              - listitem [ref=e1301]:
+                - link "德文的 Reddit 精選內容" [ref=e1303] [cursor=pointer]:
+                  - /url: https://www.reddit.com/posts/2026/tl-de/
+              - listitem [ref=e1304]:
+                - link "Reddit 規範" [ref=e1306] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/content-policy
+              - listitem [ref=e1307]:
+                - link "《隱私權政策》" [ref=e1309] [cursor=pointer]:
+                  - /url: https://www.reddit.com/policies/privacy-policy
+              - listitem [ref=e1310]:
+                - link "《使用者協議》" [ref=e1312] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/user-agreement
+              - listitem [ref=e1313]:
+                - link "你的隱私權選擇" [ref=e1315] [cursor=pointer]:
+                  - /url: https://support.reddithelp.com/hc/articles/43980704794004
+              - listitem [ref=e1316]:
+                - link "輔助功能" [ref=e1318] [cursor=pointer]:
+                  - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+              - listitem [ref=e1319]:
+                - link "Reddit, Inc. © 2026. 保留所有權利。" [ref=e1320] [cursor=pointer]:
+                  - /url: https://redditinc.com
+        - generic [ref=e1323]:
+          - img
+          - paragraph [ref=e1324]: 加入最真實的網路天地
+          - generic [ref=e1326]:
+            - generic [ref=e1331]:
+              - img [ref=e1332]
+              - generic [ref=e1335]: 使用電話號碼繼續
+            - generic [ref=e1339] [cursor=pointer]:
+              - img [ref=e1340]
+              - generic [ref=e1342]: 使用電子郵件繼續
+          - paragraph [ref=e1343]:
+            - text: 繼續即表示你同意我們的
+            - link "《使用者協議》" [ref=e1344] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/user-agreement
+            - text: 並確認你已了解
+            - link "《隱私權政策》" [ref=e1345] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/privacy-policy
+            - text: .

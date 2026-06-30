@@ -1,0 +1,6 @@
+[    3884ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://collection.news/manifest.json:0
+[    3885ms] [ERROR] Manifest fetch from https://collection.news/manifest.json failed, code 403 @ https://collection.news/:0
+[    5361ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://collection.news/_next/data/By2Uahm3AjY-YKZJQar3G/thestandnews.json?media=thestandnews:0
+[    5380ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://collection.news/_next/data/By2Uahm3AjY-YKZJQar3G/appledaily.json?media=appledaily:0
+[    7881ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://collection.news/manifest.json:0
+[    7881ms] [ERROR] Manifest fetch from https://collection.news/manifest.json failed, code 403 @ https://collection.news/:0

@@ -1,0 +1,32 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e10]:
+    - navigation "Main navigation bar" [ref=e11]:
+      - button "FluentPet Community logo" [ref=e16] [cursor=pointer]:
+        - generic [ref=e17]:
+          - generic:
+            - img "FluentPet Community logo"
+          - img [ref=e19]
+      - list [ref=e21]:
+        - listitem [ref=e22]:
+          - link "Home" [ref=e23] [cursor=pointer]:
+            - /url: /feed
+        - listitem [ref=e24]:
+          - link "Courses" [ref=e25] [cursor=pointer]:
+            - /url: /courses
+        - listitem [ref=e26]:
+          - link "Events" [ref=e27] [cursor=pointer]:
+            - /url: /events
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - generic:
+            - img
+          - button "Search" [ref=e30] [cursor=pointer]
+        - generic [ref=e32]:
+          - button "Log in" [ref=e33] [cursor=pointer]
+          - button "Join" [ref=e34] [cursor=pointer]
+    - img [ref=e37]
+  - generic:
+    - region "Notifications"
+  - img
+  - generic:
+    - region "Notifications"

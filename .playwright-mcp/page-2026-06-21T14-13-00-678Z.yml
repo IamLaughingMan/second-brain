@@ -1,0 +1,227 @@
+- generic [ref=e1]:
+  - dialog "Cookie 同意橫幅" [ref=e2]:
+    - button "關閉此對話框" [active] [ref=e3] [cursor=pointer]:
+      - img "關閉此對話框" [ref=e4]
+    - generic [ref=e5]:
+      - generic [ref=e6]: 本網站利用 Cookie 等技術來啟用基本網站功能以及 分析、個人化 和 有針對性的廣告。 要了解更多信息，請查看以下鏈接：
+      - link "隱私權政策" [ref=e7] [cursor=pointer]:
+        - /url: https://www.wiley.com/privacy
+  - navigation:
+    - list:
+      - listitem:
+        - button "Skip to Article Content" [ref=e8]
+      - listitem:
+        - button "Skip to Article Information" [ref=e9]
+  - generic [ref=e11]:
+    - banner [ref=e13]:
+      - generic [ref=e17]:
+        - link "Wiley Online Library" [ref=e20] [cursor=pointer]:
+          - /url: /
+          - img "Wiley Online Library" [ref=e21]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - generic:
+              - text: 
+              - generic [ref=e26]:
+                - searchbox "Search" [ref=e27]
+                - generic [ref=e28]: Search within
+                - combobox "Search within" [ref=e29]:
+                  - option "This Journal" [selected]
+                  - option "Anywhere"
+                - list [ref=e30]:
+                  - listitem [ref=e31]:
+                    - search "Quick Search" [ref=e32]:
+                      - generic [ref=e33]:
+                        - generic [ref=e34]: Search term
+                        - combobox "search text" [ref=e35]
+                        - status [ref=e36]
+                      - button "Submit Search" [ref=e37]: 
+                  - text: 
+          - generic [ref=e40]:
+            - button "Log in or Register" [ref=e42]:
+              - text: 
+              - generic [ref=e43]: Login / Register
+            - text:  
+    - main [ref=e45]:
+      - generic [ref=e47]:
+        - complementary [ref=e51]:
+          - generic [ref=e52]: Advertisement
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - article [ref=e58]:
+              - generic [ref=e59]:
+                - generic [ref=e60]:
+                  - generic [ref=e62]:
+                    - generic [ref=e63]:
+                      - generic:
+                        - link "The Journal of Dermatology":
+                          - /url: /journal/13468138
+                      - link "The Journal of Dermatology" [ref=e64] [cursor=pointer]:
+                        - /url: /journal/13468138
+                        - img "The Journal of Dermatology" [ref=e65]
+                    - generic [ref=e67]: Letter to the Editor
+                    - 'heading "Unexpected side-effect of dupilumab: Reversal of hair graying" [level=1] [ref=e68]'
+                    - text:       
+                    - generic [ref=e72]:
+                      - generic [ref=e73]:
+                        - button "Chiho Sumitomo" [ref=e74] [cursor=pointer]:
+                          - generic [ref=e75]:
+                            - text: Chiho Sumitomo
+                            - generic [ref=e76]: 
+                          - text: 
+                        - generic [ref=e77]: ","
+                        - text:  
+                      - generic [ref=e78]:
+                        - button "Hirotaka Akita" [ref=e79] [cursor=pointer]: Hirotaka Akita 
+                        - generic [ref=e80]: ","
+                        - text: 
+                      - button "Kazumitsu Sugiura" [ref=e82] [cursor=pointer]: Kazumitsu Sugiura 
+                    - generic [ref=e83]:
+                      - generic [ref=e84]: "First published: 23 June 2020 |"
+                      - link "https://doi.org/10.1111/1346-8138.15472 Digital Object Identifier (DOI)" [ref=e86] [cursor=pointer]:
+                        - /url: https://doi.org/10.1111/1346-8138.15472
+                        - text: https://doi.org/10.1111/1346-8138.15472
+                        - generic [ref=e87]: Digital Object Identifier (DOI)
+                      - generic: 
+                    - paragraph [ref=e89]:
+                      - text: Accessibility issue?
+                      - link "Request an accessibility update for this article" [ref=e90] [cursor=pointer]:
+                        - /url: /action/showRequestAccessibilityUpdate?doi=10.1111%2F1346-8138.15472
+                        - text: Request accessibility update.
+                  - navigation "Article navigation and tools" [ref=e92]:
+                    - generic [ref=e93]:
+                      - generic [ref=e94]:
+                        - link "Read the full text" [ref=e96] [cursor=pointer]:
+                          - /url: /doi/full/10.1111/1346-8138.15472
+                          - text: Read the full text
+                          - generic [ref=e97]: 
+                        - generic:    
+                      - generic [ref=e98]:
+                        - link "PDF" [ref=e101] [cursor=pointer]:
+                          - /url: /doi/epdf/10.1111/1346-8138.15472
+                        - button "CITE" [ref=e103] [cursor=pointer]:
+                          - generic [ref=e104]: 
+                          - generic [ref=e105]: CITE
+                        - generic [ref=e106]:
+                          - button "Tools" [ref=e107] [cursor=pointer]:
+                            - generic [ref=e108]: 
+                            - text: Tools
+                          - text:   
+                        - generic [ref=e109]:
+                          - button "Share" [ref=e110] [cursor=pointer]:
+                            - generic [ref=e111]: 
+                            - text: Share
+                          - text:           
+                  - generic [ref=e112]:
+                    - text: No abstract is available for this article.
+                    - generic [ref=e114]:
+                      - heading "REFERENCES" [level=2] [ref=e115]:
+                        - button "REFERENCES" [ref=e116] [cursor=pointer]:
+                          - generic [ref=e117]: REFERENCES
+                          - generic [ref=e118]: 
+                      - text:                
+                    - heading "Citing Literature" [level=2] [ref=e122]:
+                      - button "Citing Literature" [ref=e123] [cursor=pointer]:
+                        - generic [ref=e124]: Citing Literature
+                        - generic [ref=e125]: 
+                - generic [ref=e126]:
+                  - generic [ref=e127]:
+                    - link "View Volume 47, Issue 9" [ref=e129] [cursor=pointer]:
+                      - /url: /toc/13468138/2020/47/9
+                    - generic [ref=e130]:
+                      - paragraph [ref=e131]:
+                        - link "Volume47, Issue9" [ref=e132] [cursor=pointer]:
+                          - /url: /toc/13468138/2020/47/9
+                      - paragraph [ref=e133]: September 2020
+                      - paragraph [ref=e134]: Pages e316-e317
+                  - generic [ref=e136]: Advertisement
+                  - tablist "Article Information" [ref=e139]:
+                    - tab "References" [ref=e140] [cursor=pointer]:
+                      - generic [ref=e141]: 
+                      - heading "References" [level=2] [ref=e142]
+                    - tab "Related" [ref=e143] [cursor=pointer]:
+                      - generic [ref=e144]: 
+                      - heading "Related" [level=2] [ref=e145]
+                    - tab "Information" [ref=e146] [cursor=pointer]:
+                      - generic [ref=e147]: 
+                      - heading "Information" [level=2] [ref=e148]
+                  - complementary [ref=e153]:
+                    - generic [ref=e154]: Advertisement
+            - generic:         
+            - generic:      
+            - generic:       
+            - text:       |
+          - link "Download PDF" [ref=e156] [cursor=pointer]:
+            - /url: /doi/pdf/10.1111/1346-8138.15472
+    - contentinfo [ref=e158]:
+      - generic [ref=e160]:
+        - generic [ref=e161]:
+          - heading "Additional links" [level=2] [ref=e162]
+          - generic [ref=e164]:
+            - generic [ref=e166]:
+              - heading "About Wiley Online Library" [level=3] [ref=e167]
+              - list [ref=e168]:
+                - listitem [ref=e169]:
+                  - link "Privacy Policy" [ref=e170] [cursor=pointer]:
+                    - /url: https://www.wiley.com/privacy
+                - listitem [ref=e171]:
+                  - link "Terms of Use" [ref=e172] [cursor=pointer]:
+                    - /url: https://onlinelibrary.wiley.com/terms-and-conditions
+                - listitem [ref=e173]:
+                  - link "About Cookies" [ref=e174] [cursor=pointer]:
+                    - /url: https://onlinelibrary.wiley.com/cookies
+                - listitem [ref=e175]:
+                  - button "Manage Cookies" [ref=e176] [cursor=pointer]
+                - listitem [ref=e177]:
+                  - link "Accessibility" [ref=e178] [cursor=pointer]:
+                    - /url: https://onlinelibrary.wiley.com/accessibility
+                - listitem [ref=e179]:
+                  - link "Wiley Research DE&I Statement and Publishing Policies" [ref=e180] [cursor=pointer]:
+                    - /url: https://onlinelibrary.wiley.com/publishing-policies
+            - generic [ref=e182]:
+              - heading "Help & Support" [level=3] [ref=e183]
+              - list [ref=e184]:
+                - listitem [ref=e185]:
+                  - link "Contact Us" [ref=e186] [cursor=pointer]:
+                    - /url: https://hub.wiley.com/community/support/onlinelibrary
+                - listitem [ref=e187]:
+                  - link "Training and Support" [ref=e188] [cursor=pointer]:
+                    - /url: https://www.wiley.com/customer-success/wiley-online-library-training-hub
+                - listitem [ref=e189]:
+                  - link "DMCA & Reporting Piracy" [ref=e190] [cursor=pointer]:
+                    - /url: https://onlinelibrary.wiley.com/dmca-notification-policy
+                - listitem [ref=e191]:
+                  - link "Sitemap" [ref=e192] [cursor=pointer]:
+                    - /url: https://onlinelibrary.wiley.com/sitemap
+            - generic [ref=e194]:
+              - heading "Opportunities" [level=3] [ref=e195]
+              - list [ref=e196]:
+                - listitem [ref=e197]:
+                  - link "Subscription Agents" [ref=e198] [cursor=pointer]:
+                    - /url: https://onlinelibrary.wiley.com/agents
+                - listitem [ref=e199]:
+                  - link "Advertisers & Corporate Partners" [ref=e200] [cursor=pointer]:
+                    - /url: https://onlinelibrary.wiley.com/advertisers
+            - generic [ref=e202]:
+              - heading "Connect with Wiley" [level=3] [ref=e203]
+              - list [ref=e204]:
+                - listitem [ref=e205]:
+                  - link "The Wiley Network" [ref=e206] [cursor=pointer]:
+                    - /url: https://www.wiley.com/network
+                - listitem [ref=e207]:
+                  - link "Wiley Press Room" [ref=e208] [cursor=pointer]:
+                    - /url: https://newsroom.wiley.com/
+        - generic [ref=e212]:
+          - generic [ref=e213]:
+            - paragraph [ref=e214]:
+              - text: Copyright © 1999-2026
+              - link "John Wiley & Sons, Inc" [ref=e215] [cursor=pointer]:
+                - /url: https://www.wiley.com
+              - text: or related companies. All rights reserved, including rights for text and data mining and training of artificial intelligence technologies or similar technologies.
+            - paragraph
+          - link "Wiley" [ref=e217] [cursor=pointer]:
+            - /url: https://www.wiley.com
+            - img "Wiley Home Page" [ref=e218]
+    - text:      ▲     
+    - generic:
+      - generic "col-0"

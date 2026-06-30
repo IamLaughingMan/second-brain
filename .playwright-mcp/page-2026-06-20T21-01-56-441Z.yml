@@ -1,0 +1,938 @@
+- generic [active] [ref=e1]:
+  - link "跳至主要內容" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: 跳至主要內容
+  - generic [ref=e6]:
+    - generic:
+      - banner [ref=e9]:
+        - navigation [ref=e10]:
+          - link "首頁" [ref=e14] [cursor=pointer]:
+            - /url: https://www.reddit.com/
+            - img [ref=e16]
+          - generic [ref=e30]:
+            - img [ref=e32]
+            - textbox "搜尋 Reddit" [ref=e35]
+          - generic [ref=e36]:
+            - link "註冊" [ref=e42] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e44]: 註冊
+            - link "登入" [ref=e48] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e50]: 登入
+            - button "展開使用者選單" [ref=e55] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e60]:
+                - generic: 展開使用者選單
+      - generic [ref=e61]:
+        - generic [ref=e64]:
+          - main [ref=e65]:
+            - 'generic "I found my cause of chronic enlarged turbinates : r/Sinusitis"'
+            - generic [ref=e66]:
+              - generic [ref=e67]:
+                - generic [ref=e68]:
+                  - link "前往 Sinusitis" [ref=e72] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Sinusitis/
+                    - generic [ref=e76]:
+                      - generic: 前往 Sinusitis
+                  - group [ref=e77]:
+                    - generic [ref=e78]:
+                      - link "r/Sinusitis" [ref=e82] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/Sinusitis/
+                      - generic [ref=e83]: •
+                      - time [ref=e85]: 2 年前
+                    - link "作者：Remote-Quote-5679" [ref=e91] [cursor=pointer]:
+                      - /url: https://www.reddit.com/user/Remote-Quote-5679/
+                      - generic [ref=e92]: Remote-Quote-5679
+                - button "開啟使用者操作" [ref=e95] [cursor=pointer]:
+                  - img [ref=e98]
+              - heading "貼文標題：I found my cause of chronic enlarged turbinates" [level=1] [ref=e100]: I found my cause of chronic enlarged turbinates
+              - generic [ref=e104]:
+                - paragraph [ref=e105]: "Update:"
+                - paragraph [ref=e106]: 11 days after I found the problem, I am cured.
+                - paragraph [ref=e107]: used to be one nostril consistently blocked (my right) and now I can breath just fine.
+                - paragraph [ref=e108]: you can self test by touching the back scalp of your head and see if they are tender.. if yes, then good chance that your sinus problem might be structural..
+                - paragraph [ref=e109]: I also incorporated some exercises for my suboccipital muscles.. you can google exercises for that.
+                - paragraph [ref=e110]: a whole year and an half struggle, and sometimes the solution can be quite simple.
+                - paragraph [ref=e111]: ————————————-———
+                - paragraph [ref=e112]: I got a really bad cold in March, 2023 and couldn’t breathe for a week. At the same time, my acid reflux was acting up bad again. So ever since then, I have been sleeping on two or three pillows to alleviate my symptoms.
+                - paragraph [ref=e113]: "My symptoms: constant post nasal drips that are clear. symptoms get worse during hot shower, relieved by exercises, standing up and bending over for a while. Massage my head sometimes can get instant relieve with complete open of both nostrils until symptom returns again.."
+                - paragraph [ref=e114]: "I have excluded these things:"
+                - list [ref=e115]:
+                  - listitem [ref=e116]:
+                    - paragraph [ref=e117]: "Rhinitis (allergenic or non-allergenic): I do have seasonal allergies and very sensitive to dusts molds etc. I tried a various method to eliminate this: changing out my feather pillows, changing bedsheet weekly and vacuuming very often; purchased air purifier. sinus wash; taking supplements (quecertin, vitamin C vitamin D etc etc) I definitely sneeze a lot less. But my nose did not improve."
+                  - listitem [ref=e118]:
+                    - paragraph [ref=e119]: "physical obstruction in the nasal cavity: Went to an ENT and checked; no visible polyps or mass obstructing the pathways.Diagnosis: Bilateral turbinate enlargements. Very mild septal deviation but not severe enough to cause obstruction. ENT prescribed antibiotic which I did not take because I dont believe it is bacterial. Bacterial rhinitis usually have more severe symptoms such as pus like nasal discharge, fever, elevated WBC, which I don’t."
+                  - listitem [ref=e120]:
+                    - paragraph [ref=e121]: "Residual fungal infections/nasal bacterial colony imbalance inside the nasal cavity: you either have it or you don’t. I have tried silly things like sticking kimchi juice up into my nostrils. Xylitol added to my sinus wash to get rid of possible fungal colonies. No relieve."
+                  - listitem [ref=e122]:
+                    - paragraph [ref=e123]: Silence reflux disease - that is when the stomach acid goes back up and irritates the inner lining of your throat, nose and ear canals that cause the soft tissue to swell. I adjusted the amount and time that I had my dinner. Continued to sleep on 2-3 pillows. NO RELIEVE. This is when I got really frustrated because I truly believe this was my cause.
+                  - listitem [ref=e124]:
+                    - paragraph [ref=e125]: "Other random things that I have tried: exercises and self massage I found on Youtube to eliminate sinusitis. Minimal relieve."
+                - paragraph [ref=e126]: So after all these trials and errors, my conclusion is that it must be that the blood vessels supplying these turbinates are either compressed or engorged. Turbinates are filled with microvessels and it is very sensitive to any pressure change. I am convinced that it must be something structural, outside of my nose, that leads to this problem.
+                - paragraph [ref=e127]: "SOLUTION:"
+                - paragraph [ref=e128]: I started neck exercises. such as tucking chin straight back, multiple times a day, turn head from side to side, bring ears to each shoulder; as well as TMJ exercises such as place your tongue on top of your mouth roof and open mouth wide; I also have been doing very gentle stretching exercises mostly focusing on whole body extension especially the neck region. I also eliminate my pillows and have been sleeping flat every night.
+                - paragraph [ref=e129]: Let me tell you, my nose is 80% better in just a few days.
+                - paragraph [ref=e130]: What I thought that was helping me (sleeping on two -three pillows), is actually whats making it SO BAD.
+                - paragraph [ref=e131]: I truly hope that my post can help someone like me out there. I hope that you can all breathe through your nose again. It is just an amazing feeling!
+                - paragraph [ref=e132]: God Bless!
+                - paragraph [ref=e133]: "*** edit:"
+                - paragraph [ref=e134]: I forgot to add that diet is also an important component to consider if you haven’t done so. Diet is not the issue in my case but some people do have sinus issue due to chronic inflammation caused by diet and once they eat clean, the sinus problem improve.
+            - generic "The long run super trainer. Helion™ HF hyper foam for extreme responsiveness." [ref=e135]:
+              - 'generic "Advertisement: The long run super trainer. Helion™ HF hyper foam for extreme responsiveness." [ref=e136]'
+              - generic [ref=e137]:
+                - generic [ref=e138]:
+                  - link "u/on_running 虛擬頭像 on_running" [ref=e141] [cursor=pointer]:
+                    - /url: /user/on_running/
+                    - img "u/on_running 虛擬頭像" [ref=e144]
+                    - generic [ref=e145]: on_running
+                  - generic [ref=e146]: •
+                  - link "宣傳內容" [ref=e148] [cursor=pointer]:
+                    - /url: /user/on_running/
+                    - generic [ref=e149]: 宣傳內容
+                - button "開啟使用者操作" [ref=e154] [cursor=pointer]:
+                  - img [ref=e157]
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - generic [ref=e163]: The long run super trainer. Helion™ HF hyper foam for extreme responsiveness.
+                  - generic [ref=e166]:
+                    - generic [ref=e167]: 立即選購
+                    - generic [ref=e169]: on.com
+                - generic [ref=e170] [cursor=pointer]:
+                  - 'img "Clickable image which will reveal the video player: The long run super trainer. Helion™ HF hyper foam for extreme responsiveness." [ref=e171]'
+                  - button "播放影片" [ref=e172]:
+                    - img [ref=e173]
+              - button "收合影片播放器" [ref=e175] [cursor=pointer]:
+                - img [ref=e176]
+                - generic [ref=e178]:
+                  - generic: 收合影片播放器
+            - generic [ref=e183]:
+              - generic:
+                - button "新增留言按鈕"
+              - generic [ref=e187]: 排序方式：
+            - generic [ref=e189]:
+              - article "留言者：wisemeister 2 年前" [ref=e191]:
+                - generic "wisemeister 的個人檔案 (虛擬頭像) wisemeister 的個人檔案 2 年前" [ref=e192] [cursor=pointer]:
+                  - link "wisemeister 的個人檔案 (虛擬頭像)" [ref=e198]:
+                    - /url: https://www.reddit.com/user/wisemeister/
+                    - img "u/wisemeister 虛擬頭像" [ref=e201]
+                  - generic [ref=e205]:
+                    - link "wisemeister 的個人檔案" [ref=e209]:
+                      - /url: https://www.reddit.com/user/wisemeister/
+                      - text: wisemeister
+                    - generic [ref=e210]: •
+                    - link "2 年前" [ref=e212]:
+                      - /url: https://www.reddit.com/r/Sinusitis/comments/1ahzfmw/comment/kosn49v/
+                      - time [ref=e214]: 2 年前
+                - generic [ref=e216]:
+                  - paragraph [ref=e220]:
+                    - text: This is interesting and feels like it fits me kind of well. If it's not too annoying could you share your complete exercise routine? I'd like to give it a go. I have terrible posture. Chronic forward head,
+                    - link "upper cross syndrome" [ref=e223] [cursor=pointer]:
+                      - /url: /search/?q=upper+cross+syndrome+turbinates&cId=a54645bc-fe34-45f3-a3d1-c9d64d91facd&iId=41ccc044-944c-4ebb-9664-a9d55c94ddfb
+                      - text: upper cross syndrome
+                      - img [ref=e225]
+                    - text: . Neck problems, back problems and yes enlarged turbinates and chronic feeling of sinus "stuffiness" even though there's hardly ever any mucous up there (unless I have an active infection). Thanks for sharing this
+                  - img
+                  - generic [ref=e229]:
+                    - article "討論串第 1 層：回覆者：Remote-Quote-5679 2 年前" [ref=e231]:
+                      - generic "Remote-Quote-5679 的個人檔案 (虛擬頭像) Remote-Quote-5679 的個人檔案 2 年前" [ref=e232] [cursor=pointer]:
+                        - link "Remote-Quote-5679 的個人檔案 (虛擬頭像)" [ref=e238]:
+                          - /url: https://www.reddit.com/user/Remote-Quote-5679/
+                          - generic [ref=e240]:
+                            - img [ref=e242]
+                            - img [ref=e246]
+                            - img [ref=e249]
+                        - generic [ref=e254]:
+                          - link "Remote-Quote-5679 的個人檔案" [ref=e258]:
+                            - /url: https://www.reddit.com/user/Remote-Quote-5679/
+                            - text: Remote-Quote-5679
+                          - generic [ref=e259]: •
+                          - link "2 年前" [ref=e261]:
+                            - /url: https://www.reddit.com/r/Sinusitis/comments/1ahzfmw/comment/kost3ee/
+                            - time [ref=e263]: 2 年前
+                      - generic [ref=e265]:
+                        - generic [ref=e268]:
+                          - paragraph [ref=e269]: No problem.
+                          - paragraph [ref=e270]: "Lifestyle modification: sleep flat if you can tolerate"
+                          - paragraph [ref=e271]: "neck stretching exercises: you can do set of 2 or 3 x 10 times with each repetition."
+                          - paragraph [ref=e272]: "what I do:"
+                          - list [ref=e273]:
+                            - listitem [ref=e274]:
+                              - paragraph [ref=e275]: neck tilting backwards and relax; hold 10 seconds x 5 times; deep breathing; neutral head position then look to your right then left as far as you can, hold 10 seconds x 5 times on each side; then bring your ears down to shoulders, hold 10 seconds each side x 5 times. Remember to maintain good posture and relax your shoulders throughout. Take deep breathing.
+                            - listitem [ref=e276]:
+                              - paragraph [ref=e277]:
+                                - link "SCM muscle stretching" [ref=e280] [cursor=pointer]:
+                                  - /url: /search/?q=SCM+muscle+stretching+turbinates&cId=8a68ded4-cf87-4654-a208-3fd3d5c039f2&iId=c79ed8fd-9a8c-497e-81be-d67d59d04505
+                                  - text: SCM muscle stretching
+                                  - img [ref=e282]
+                                - text: . You can find tons of exercises for SCM stretching online, the general idea is you going to bend head sideways and then look away. Do that for 2x10 or 3x10 depends on how much you wanna do
+                            - listitem [ref=e284]:
+                              - paragraph [ref=e285]: chin tuck while keeping a good posture. 2 or 3 sets of 10.
+                            - listitem [ref=e286]:
+                              - paragraph [ref=e287]:
+                                - text: keep tongue to your mouth roof, then try to open your mouth as wide as you can. This is for
+                                - link "TMJ" [ref=e290] [cursor=pointer]:
+                                  - /url: /search/?q=TMJ+turbinates+congestion&cId=37be94ff-e370-45d0-927c-0574446ef25b&iId=dfb896c7-124d-4c87-a641-1db2cd861325
+                                  - text: TMJ
+                                  - img [ref=e292]
+                                - text: . Definitely TMJ connects to you euthistian tube . If your TMJ is malpositioned and causes congestion, TMJ exercises will help. look up internet for more movements.
+                            - listitem [ref=e294]:
+                              - paragraph [ref=e295]: try to lay on your belly and while you hold yourself up with elbows, looking straight up at the ceiling and relax. Deep breathing throughout. You can practice bending neck forward and backward a couple of times.
+                          - paragraph [ref=e296]: Theres tons of variations and methods to move your neck mucles. The key is to loosen them up and keep your flexors and extensors in balance. What I mentioned is just a few simple ones that I do that have been helpful. You can do these exercises throughout the day, while you on the desk or even driving waiting on red lights. I do not know if you have any underlying neck conditions, so do start gentle and see how your neck respond. Some people might have a pinch nerve which moving in a wrong way can make it worse, hehe!
+                          - paragraph [ref=e297]: Good luck to you! :)
+                        - button "其他 則回覆" [ref=e304] [cursor=pointer]:
+                          - img [ref=e306]
+                          - generic [ref=e309]:
+                            - text: 其他
+                            - text: 則回覆
+                    - button "其他 則回覆" [ref=e313] [cursor=pointer]:
+                      - img [ref=e315]
+                      - generic [ref=e318]:
+                        - text: 其他
+                        - text: 則回覆
+              - article "留言者：JustLocksmith2985 2 年前" [ref=e320]:
+                - generic "JustLocksmith2985 的個人檔案 (虛擬頭像) JustLocksmith2985 的個人檔案 2 年前" [ref=e321] [cursor=pointer]:
+                  - link "JustLocksmith2985 的個人檔案 (虛擬頭像)" [ref=e327]:
+                    - /url: https://www.reddit.com/user/JustLocksmith2985/
+                    - img [ref=e332]
+                  - generic [ref=e337]:
+                    - link "JustLocksmith2985 的個人檔案" [ref=e341]:
+                      - /url: https://www.reddit.com/user/JustLocksmith2985/
+                      - text: JustLocksmith2985
+                    - generic [ref=e342]: •
+                    - link "2 年前" [ref=e344]:
+                      - /url: https://www.reddit.com/r/Sinusitis/comments/1ahzfmw/comment/kotjhzm/
+                      - time [ref=e346]: 2 年前
+                - generic [ref=e348]:
+                  - paragraph [ref=e352]: I have done mri and ct scan and both showed massive like huge turbinates idk if those exercises would help cause it’s been like this 3 years. I think I’m gonna have a surgery soon
+                  - img
+                  - generic [ref=e355]:
+                    - article "討論串第 1 層：回覆者：Remote-Quote-5679 2 年前" [ref=e357]:
+                      - generic "Remote-Quote-5679 的個人檔案 (虛擬頭像) Remote-Quote-5679 的個人檔案 2 年前" [ref=e358] [cursor=pointer]:
+                        - link "Remote-Quote-5679 的個人檔案 (虛擬頭像)" [ref=e364]:
+                          - /url: https://www.reddit.com/user/Remote-Quote-5679/
+                          - generic [ref=e366]:
+                            - img [ref=e368]
+                            - img [ref=e372]
+                            - img [ref=e375]
+                        - generic [ref=e380]:
+                          - link "Remote-Quote-5679 的個人檔案" [ref=e384]:
+                            - /url: https://www.reddit.com/user/Remote-Quote-5679/
+                            - text: Remote-Quote-5679
+                          - generic [ref=e385]: •
+                          - link "2 年前" [ref=e387]:
+                            - /url: https://www.reddit.com/r/Sinusitis/comments/1ahzfmw/comment/kotpdv8/
+                            - time [ref=e389]: 2 年前
+                      - paragraph [ref=e395]: Surgery is irreversible and should always be the last resort. Good luck to you
+                    - button "其他 則回覆" [ref=e401] [cursor=pointer]:
+                      - img [ref=e403]
+                      - generic [ref=e406]:
+                        - text: 其他
+                        - text: 則回覆
+              - article "留言者：[已刪除] 2 年前" [ref=e408]:
+                - generic "[已刪除] 2 年前 2 年前 編輯" [ref=e409] [cursor=pointer]:
+                  - img [ref=e418]
+                  - generic [ref=e423]:
+                    - generic [ref=e426]: "[已刪除]"
+                    - generic [ref=e427]: •
+                    - link "2 年前" [ref=e429]:
+                      - /url: https://www.reddit.com/r/Sinusitis/comments/1ahzfmw/comment/kosamrm/
+                      - time [ref=e431]: 2 年前
+                    - generic [ref=e432]: •
+                    - time [ref=e435]: 2 年前
+                    - text: 編輯
+                - generic [ref=e437]:
+                  - generic [ref=e440]:
+                    - paragraph [ref=e441]: Trigeminal-Cervical Nucleus
+                    - paragraph [ref=e442]: Many people will shove all kinds of things in their nose, thinking it’s coming from their nose. NOPE.
+                    - paragraph [ref=e443]: Don’t mention this to an ENT though, because they are the “experts” and no one is teaching this to them in med school so everything is a pathological problem.
+                  - img
+                  - generic [ref=e446]:
+                    - article "討論串第 1 層：回覆者：Remote-Quote-5679 2 年前" [ref=e448]:
+                      - generic "Remote-Quote-5679 的個人檔案 (虛擬頭像) Remote-Quote-5679 的個人檔案 2 年前" [ref=e449] [cursor=pointer]:
+                        - link "Remote-Quote-5679 的個人檔案 (虛擬頭像)" [ref=e455]:
+                          - /url: https://www.reddit.com/user/Remote-Quote-5679/
+                          - generic [ref=e457]:
+                            - img [ref=e459]
+                            - img [ref=e463]
+                            - img [ref=e466]
+                        - generic [ref=e471]:
+                          - link "Remote-Quote-5679 的個人檔案" [ref=e475]:
+                            - /url: https://www.reddit.com/user/Remote-Quote-5679/
+                            - text: Remote-Quote-5679
+                          - generic [ref=e476]: •
+                          - link "2 年前" [ref=e478]:
+                            - /url: https://www.reddit.com/r/Sinusitis/comments/1ahzfmw/comment/kostabw/
+                            - time [ref=e480]: 2 年前
+                      - generic [ref=e482]:
+                        - paragraph [ref=e486]: Is that what it is called? Interesting i need to dig deeper into this.
+                        - button "其他 則回覆" [ref=e493] [cursor=pointer]:
+                          - img [ref=e495]
+                          - generic [ref=e498]:
+                            - text: 其他
+                            - text: 則回覆
+                    - article "討論串第 1 層：回覆者：bayafe8392 2 年前" [ref=e500]:
+                      - generic "bayafe8392 的個人檔案 (虛擬頭像) bayafe8392 的個人檔案 2 年前" [ref=e501] [cursor=pointer]:
+                        - link "bayafe8392 的個人檔案 (虛擬頭像)" [ref=e507]:
+                          - /url: https://www.reddit.com/user/bayafe8392/
+                          - img "u/bayafe8392 虛擬頭像" [ref=e510]
+                        - generic [ref=e514]:
+                          - link "bayafe8392 的個人檔案" [ref=e518]:
+                            - /url: https://www.reddit.com/user/bayafe8392/
+                            - text: bayafe8392
+                          - generic [ref=e519]: •
+                          - link "2 年前" [ref=e521]:
+                            - /url: https://www.reddit.com/r/Sinusitis/comments/1ahzfmw/comment/kosrlbp/
+                            - time [ref=e523]: 2 年前
+                      - generic [ref=e525]:
+                        - paragraph [ref=e529]: I'm interested in hearing more on this topic. Could you please share?
+                        - button "其他 則回覆" [ref=e536] [cursor=pointer]:
+                          - img [ref=e538]
+                          - generic [ref=e541]:
+                            - text: 其他
+                            - text: 則回覆
+          - generic [ref=e542]:
+            - generic [ref=e543]:
+              - complementary "相關貼文區塊" [ref=e544]:
+                - heading "相關貼文區塊" [level=1] [ref=e545]: 更多你可能喜歡的貼文
+                - generic [ref=e546]: 相關貼文
+                - list [ref=e550]:
+                  - listitem [ref=e551]:
+                    - generic [ref=e552]:
+                      - generic [ref=e553]:
+                        - link "What to expect after ~80% Inferior Turbinate Removal? 2 Months Post-Op, Struggling to Sleep & Breathe Normally. 3D CBCT video below." [ref=e554] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/emptynosesyndrome/comments/1mk6h6p/what_to_expect_after_80_inferior_turbinate/
+                          - generic [ref=e555]:
+                            - generic: What to expect after ~80% Inferior Turbinate Removal? 2 Months Post-Op, Struggling to Sleep & Breathe Normally. 3D CBCT video below.
+                        - generic [ref=e556]:
+                          - generic [ref=e557]:
+                            - generic [ref=e560]:
+                              - link "r/emptynosesyndrome" [ref=e561] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/emptynosesyndrome/
+                                - generic [ref=e565]: r/emptynosesyndrome
+                              - generic [ref=e566]: •
+                            - link "清單項目貼文 - What to expect after ~80% Inferior Turbinate Removal? 2 Mon..." [ref=e568] [cursor=pointer]:
+                              - /url: /r/emptynosesyndrome/comments/1mk6h6p/what_to_expect_after_80_inferior_turbinate/
+                              - heading "清單項目貼文 - What to expect after ~80% Inferior Turbinate Removal? 2 Mon..." [level=3] [ref=e571]: What to expect after ~80% Inferior Turbinate Removal? 2 Months Post-Op, Struggling to Sleep & Breathe Normally. 3D CBCT video below.
+                          - generic [ref=e573]:
+                            - link "r/emptynosesyndrome - What to expect after ~80% Inferior Turbinate Removal? 2 Months Post-Op, Struggling to Sleep & Breathe Normally. 3D CBCT video below." [ref=e574] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/emptynosesyndrome/comments/1mk6h6p/what_to_expect_after_80_inferior_turbinate/
+                              - img "r/emptynosesyndrome - What to expect after ~80% Inferior Turbinate Removal? 2 Months Post-Op, Struggling to Sleep & Breathe Normally. 3D CBCT video below." [ref=e575]
+                            - generic:
+                              - img
+                              - generic: 0:19
+                        - generic [ref=e577]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e578]
+                  - listitem [ref=e579]:
+                    - generic [ref=e580]:
+                      - generic [ref=e581]:
+                        - link "Last ditch, non-surgical efforts for swollen turbinates, that have seemed to help me." [ref=e582] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/emptynosesyndrome/comments/1tavhl3/last_ditch_nonsurgical_efforts_for_swollen/
+                          - generic [ref=e583]:
+                            - generic: Last ditch, non-surgical efforts for swollen turbinates, that have seemed to help me.
+                        - generic [ref=e585]:
+                          - generic [ref=e588]:
+                            - link "r/emptynosesyndrome" [ref=e589] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/emptynosesyndrome/
+                              - generic [ref=e593]: r/emptynosesyndrome
+                            - generic [ref=e594]: •
+                          - link "清單項目貼文 - Last ditch, non-surgical efforts for swollen turbinates, th..." [ref=e596] [cursor=pointer]:
+                            - /url: /r/emptynosesyndrome/comments/1tavhl3/last_ditch_nonsurgical_efforts_for_swollen/
+                            - heading "清單項目貼文 - Last ditch, non-surgical efforts for swollen turbinates, th..." [level=3] [ref=e599]: Last ditch, non-surgical efforts for swollen turbinates, that have seemed to help me.
+                        - generic [ref=e601]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e602]
+                  - listitem [ref=e603]:
+                    - generic [ref=e604]:
+                      - generic [ref=e605]:
+                        - link "Why Turbinates Are Important? - Empty Nose Syndrome" [ref=e606] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/emptynosesyndrome/comments/1nej0dq/why_turbinates_are_important_empty_nose_syndrome/
+                          - generic [ref=e607]:
+                            - generic: Why Turbinates Are Important? - Empty Nose Syndrome
+                        - generic [ref=e608]:
+                          - generic [ref=e609]:
+                            - generic [ref=e612]:
+                              - link "r/emptynosesyndrome" [ref=e613] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/emptynosesyndrome/
+                                - generic [ref=e617]: r/emptynosesyndrome
+                              - generic [ref=e618]: •
+                            - link "清單項目貼文 - Why Turbinates Are Important? - Empty Nose Syndrome" [ref=e620] [cursor=pointer]:
+                              - /url: /r/emptynosesyndrome/comments/1nej0dq/why_turbinates_are_important_empty_nose_syndrome/
+                              - heading "清單項目貼文 - Why Turbinates Are Important? - Empty Nose Syndrome" [level=3] [ref=e623]: Why Turbinates Are Important? - Empty Nose Syndrome
+                          - generic [ref=e625]:
+                            - link "r/emptynosesyndrome - Why Turbinates Are Important? - Empty Nose Syndrome" [ref=e626] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/emptynosesyndrome/comments/1nej0dq/why_turbinates_are_important_empty_nose_syndrome/
+                              - img "r/emptynosesyndrome - Why Turbinates Are Important? - Empty Nose Syndrome" [ref=e627]
+                            - generic:
+                              - img
+                              - generic: "4"
+                        - generic [ref=e629]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e630]
+                  - listitem
+                  - listitem [ref=e631]:
+                    - generic [ref=e632]:
+                      - generic [ref=e633]:
+                        - link "You can’t have Empty Nose Syndrome if less than 50% of the turbinates were reduced!!!" [ref=e634] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/emptynosesyndrome/comments/1kca95b/you_cant_have_empty_nose_syndrome_if_less_than_50/
+                          - generic [ref=e635]:
+                            - generic: You can’t have Empty Nose Syndrome if less than 50% of the turbinates were reduced!!!
+                        - generic [ref=e637]:
+                          - generic [ref=e640]:
+                            - link "r/emptynosesyndrome" [ref=e641] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/emptynosesyndrome/
+                              - generic [ref=e645]: r/emptynosesyndrome
+                            - generic [ref=e646]: •
+                          - link "清單項目貼文 - You can’t have Empty Nose Syndrome if less than 50% of the ..." [ref=e648] [cursor=pointer]:
+                            - /url: /r/emptynosesyndrome/comments/1kca95b/you_cant_have_empty_nose_syndrome_if_less_than_50/
+                            - heading "清單項目貼文 - You can’t have Empty Nose Syndrome if less than 50% of the ..." [level=3] [ref=e651]: You can’t have Empty Nose Syndrome if less than 50% of the turbinates were reduced!!!
+                        - generic [ref=e653]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e654]
+                  - listitem [ref=e655]:
+                    - generic [ref=e656]:
+                      - generic [ref=e657]:
+                        - link "Continued congestion after two turbinate reductions" [ref=e658] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/nonallergicrhinitis/comments/1snea4v/continued_congestion_after_two_turbinate/
+                          - generic [ref=e659]:
+                            - generic: Continued congestion after two turbinate reductions
+                        - generic [ref=e661]:
+                          - generic [ref=e664]:
+                            - link "r/nonallergicrhinitis" [ref=e665] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/nonallergicrhinitis/
+                              - img [ref=e669]
+                              - generic [ref=e671]: r/nonallergicrhinitis
+                            - generic [ref=e672]: •
+                          - link "清單項目貼文 - Continued congestion after two turbinate reductions" [ref=e674] [cursor=pointer]:
+                            - /url: /r/nonallergicrhinitis/comments/1snea4v/continued_congestion_after_two_turbinate/
+                            - heading "清單項目貼文 - Continued congestion after two turbinate reductions" [level=3] [ref=e677]: Continued congestion after two turbinate reductions
+                        - generic [ref=e679]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e680]
+                  - listitem [ref=e681]:
+                    - generic [ref=e682]:
+                      - generic [ref=e683]:
+                        - link "Turbinate reduction 2 years later" [ref=e684] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Sinusitis/comments/1t27f3j/turbinate_reduction_2_years_later/
+                          - generic [ref=e685]:
+                            - generic: Turbinate reduction 2 years later
+                        - generic [ref=e687]:
+                          - generic [ref=e690]:
+                            - link "r/Sinusitis" [ref=e691] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Sinusitis/
+                              - generic [ref=e695]: r/Sinusitis
+                            - generic [ref=e696]: •
+                          - link "清單項目貼文 - Turbinate reduction 2 years later" [ref=e698] [cursor=pointer]:
+                            - /url: /r/Sinusitis/comments/1t27f3j/turbinate_reduction_2_years_later/
+                            - heading "清單項目貼文 - Turbinate reduction 2 years later" [level=3] [ref=e701]: Turbinate reduction 2 years later
+                        - generic [ref=e703]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e704]
+                  - listitem [ref=e705]:
+                    - generic [ref=e706]:
+                      - generic [ref=e707]:
+                        - link "'Safest' Turbinates reduction method" [ref=e708] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/emptynosesyndrome/comments/1hsm5tk/safest_turbinates_reduction_method/
+                          - generic [ref=e709]:
+                            - generic: "'Safest' Turbinates reduction method"
+                        - generic [ref=e711]:
+                          - generic [ref=e714]:
+                            - link "r/emptynosesyndrome" [ref=e715] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/emptynosesyndrome/
+                              - generic [ref=e719]: r/emptynosesyndrome
+                            - generic [ref=e720]: •
+                          - link "清單項目貼文 - 'Safest' Turbinates reduction method" [ref=e722] [cursor=pointer]:
+                            - /url: /r/emptynosesyndrome/comments/1hsm5tk/safest_turbinates_reduction_method/
+                            - heading "清單項目貼文 - 'Safest' Turbinates reduction method" [level=3] [ref=e725]: "'Safest' Turbinates reduction method"
+                        - generic [ref=e727]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e728]
+                  - listitem [ref=e729]:
+                    - generic [ref=e730]:
+                      - generic [ref=e731]:
+                        - link "I had a turbinate reduction coupled with a septoplasty two months ago and no the congestion is worse." [ref=e732] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/nonallergicrhinitis/comments/1o8vld9/i_had_a_turbinate_reduction_coupled_with_a/
+                          - generic [ref=e733]:
+                            - generic: I had a turbinate reduction coupled with a septoplasty two months ago and no the congestion is worse.
+                        - generic [ref=e735]:
+                          - generic [ref=e738]:
+                            - link "r/nonallergicrhinitis" [ref=e739] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/nonallergicrhinitis/
+                              - img [ref=e743]
+                              - generic [ref=e745]: r/nonallergicrhinitis
+                            - generic [ref=e746]: •
+                          - link "清單項目貼文 - I had a turbinate reduction coupled with a septoplasty two ..." [ref=e748] [cursor=pointer]:
+                            - /url: /r/nonallergicrhinitis/comments/1o8vld9/i_had_a_turbinate_reduction_coupled_with_a/
+                            - heading "清單項目貼文 - I had a turbinate reduction coupled with a septoplasty two ..." [level=3] [ref=e751]: I had a turbinate reduction coupled with a septoplasty two months ago and no the congestion is worse.
+                        - generic [ref=e753]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e754]
+                  - listitem
+                  - listitem [ref=e755]:
+                    - generic [ref=e756]:
+                      - generic [ref=e757]:
+                        - link "Any of these symptoms seem familiar" [ref=e758] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Sinusitis/comments/1qyi8w9/any_of_these_symptoms_seem_familiar/
+                          - generic [ref=e759]:
+                            - generic: Any of these symptoms seem familiar
+                        - generic [ref=e760]:
+                          - generic [ref=e761]:
+                            - generic [ref=e764]:
+                              - link "r/Sinusitis" [ref=e765] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/Sinusitis/
+                                - generic [ref=e769]: r/Sinusitis
+                              - generic [ref=e770]: •
+                            - link "清單項目貼文 - Any of these symptoms seem familiar" [ref=e772] [cursor=pointer]:
+                              - /url: /r/Sinusitis/comments/1qyi8w9/any_of_these_symptoms_seem_familiar/
+                              - heading "清單項目貼文 - Any of these symptoms seem familiar" [level=3] [ref=e775]: Any of these symptoms seem familiar
+                          - link "r/Sinusitis - Any of these symptoms seem familiar" [ref=e778] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/Sinusitis/comments/1qyi8w9/any_of_these_symptoms_seem_familiar/
+                            - img "r/Sinusitis - Any of these symptoms seem familiar" [ref=e779]
+                        - generic [ref=e781]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e782]
+                  - listitem [ref=e783]:
+                    - generic [ref=e784]:
+                      - generic [ref=e785]:
+                        - link "Had my surgery and found the cause of my issues" [ref=e786] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Sinusitis/comments/1ncgvmn/had_my_surgery_and_found_the_cause_of_my_issues/
+                          - generic [ref=e787]:
+                            - generic: Had my surgery and found the cause of my issues
+                        - generic [ref=e789]:
+                          - generic [ref=e792]:
+                            - link "r/Sinusitis" [ref=e793] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Sinusitis/
+                              - generic [ref=e797]: r/Sinusitis
+                            - generic [ref=e798]: •
+                          - link "清單項目貼文 - Had my surgery and found the cause of my issues" [ref=e800] [cursor=pointer]:
+                            - /url: /r/Sinusitis/comments/1ncgvmn/had_my_surgery_and_found_the_cause_of_my_issues/
+                            - heading "清單項目貼文 - Had my surgery and found the cause of my issues" [level=3] [ref=e803]: Had my surgery and found the cause of my issues
+                        - generic [ref=e805]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e806]
+                  - listitem [ref=e807]:
+                    - generic [ref=e808]:
+                      - generic [ref=e809]:
+                        - link "Two years and finally feel seen." [ref=e810] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Sinusitis/comments/1t1mth3/two_years_and_finally_feel_seen/
+                          - generic [ref=e811]:
+                            - generic: Two years and finally feel seen.
+                        - generic [ref=e813]:
+                          - generic [ref=e816]:
+                            - link "r/Sinusitis" [ref=e817] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Sinusitis/
+                              - generic [ref=e821]: r/Sinusitis
+                            - generic [ref=e822]: •
+                          - link "清單項目貼文 - Two years and finally feel seen." [ref=e824] [cursor=pointer]:
+                            - /url: /r/Sinusitis/comments/1t1mth3/two_years_and_finally_feel_seen/
+                            - heading "清單項目貼文 - Two years and finally feel seen." [level=3] [ref=e827]: Two years and finally feel seen.
+                        - generic [ref=e829]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e830]
+                  - listitem [ref=e831]:
+                    - generic [ref=e832]:
+                      - generic [ref=e833]:
+                        - link "Relief after 5 months!" [ref=e834] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Sinusitis/comments/1sjjcug/relief_after_5_months/
+                          - generic [ref=e835]:
+                            - generic: Relief after 5 months!
+                        - generic [ref=e837]:
+                          - generic [ref=e840]:
+                            - link "r/Sinusitis" [ref=e841] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Sinusitis/
+                              - generic [ref=e845]: r/Sinusitis
+                            - generic [ref=e846]: •
+                          - link "清單項目貼文 - Relief after 5 months!" [ref=e848] [cursor=pointer]:
+                            - /url: /r/Sinusitis/comments/1sjjcug/relief_after_5_months/
+                            - heading "清單項目貼文 - Relief after 5 months!" [level=3] [ref=e851]: Relief after 5 months!
+                        - generic [ref=e853]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e854]
+                  - listitem [ref=e855]:
+                    - generic [ref=e856]:
+                      - generic [ref=e857]:
+                        - link "I'm 6 weeks post-op from my Septoplasty with Turbinate Reduction - some advice and things I used during recovery" [ref=e858] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Septoplasty/comments/1hbcjsr/im_6_weeks_postop_from_my_septoplasty_with/
+                          - generic [ref=e859]:
+                            - generic: I'm 6 weeks post-op from my Septoplasty with Turbinate Reduction - some advice and things I used during recovery
+                        - generic [ref=e861]:
+                          - generic [ref=e864]:
+                            - link "r/Septoplasty" [ref=e865] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Septoplasty/
+                              - img [ref=e869]
+                              - generic [ref=e871]: r/Septoplasty
+                            - generic [ref=e872]: •
+                          - link "清單項目貼文 - I'm 6 weeks post-op from my Septoplasty with Turbinate Redu..." [ref=e874] [cursor=pointer]:
+                            - /url: /r/Septoplasty/comments/1hbcjsr/im_6_weeks_postop_from_my_septoplasty_with/
+                            - heading "清單項目貼文 - I'm 6 weeks post-op from my Septoplasty with Turbinate Redu..." [level=3] [ref=e877]: I'm 6 weeks post-op from my Septoplasty with Turbinate Reduction - some advice and things I used during recovery
+                        - generic [ref=e879]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e880]
+                  - listitem [ref=e881]:
+                    - generic [ref=e882]:
+                      - generic [ref=e883]:
+                        - link "For anyone that has had a turbinate reduction..." [ref=e884] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Sinusitis/comments/1rx4cjy/for_anyone_that_has_had_a_turbinate_reduction/
+                          - generic [ref=e885]:
+                            - generic: For anyone that has had a turbinate reduction...
+                        - generic [ref=e887]:
+                          - generic [ref=e890]:
+                            - link "r/Sinusitis" [ref=e891] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Sinusitis/
+                              - generic [ref=e895]: r/Sinusitis
+                            - generic [ref=e896]: •
+                          - link "清單項目貼文 - For anyone that has had a turbinate reduction..." [ref=e898] [cursor=pointer]:
+                            - /url: /r/Sinusitis/comments/1rx4cjy/for_anyone_that_has_had_a_turbinate_reduction/
+                            - heading "清單項目貼文 - For anyone that has had a turbinate reduction..." [level=3] [ref=e901]: For anyone that has had a turbinate reduction...
+                        - generic [ref=e903]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e904]
+                  - listitem [ref=e905]:
+                    - generic [ref=e906]:
+                      - generic [ref=e907]:
+                        - link "I think they finally figured out what’s wrong with me!" [ref=e908] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Sinusitis/comments/1s8msw4/i_think_they_finally_figured_out_whats_wrong_with/
+                          - generic [ref=e909]:
+                            - generic: I think they finally figured out what’s wrong with me!
+                        - generic [ref=e911]:
+                          - generic [ref=e914]:
+                            - link "r/Sinusitis" [ref=e915] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Sinusitis/
+                              - generic [ref=e919]: r/Sinusitis
+                            - generic [ref=e920]: •
+                          - link "清單項目貼文 - I think they finally figured out what’s wrong with me!" [ref=e922] [cursor=pointer]:
+                            - /url: /r/Sinusitis/comments/1s8msw4/i_think_they_finally_figured_out_whats_wrong_with/
+                            - heading "清單項目貼文 - I think they finally figured out what’s wrong with me!" [level=3] [ref=e925]: I think they finally figured out what’s wrong with me!
+                        - generic [ref=e927]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e928]
+                  - listitem [ref=e929]:
+                    - generic [ref=e930]:
+                      - generic [ref=e931]:
+                        - link "Swollen turbinates for 4 years" [ref=e932] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Sinusitis/comments/1e79elv/swollen_turbinates_for_4_years/
+                          - generic [ref=e933]:
+                            - generic: Swollen turbinates for 4 years
+                        - generic [ref=e935]:
+                          - generic [ref=e938]:
+                            - link "r/Sinusitis" [ref=e939] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Sinusitis/
+                              - generic [ref=e943]: r/Sinusitis
+                            - generic [ref=e944]: •
+                          - link "清單項目貼文 - Swollen turbinates for 4 years" [ref=e946] [cursor=pointer]:
+                            - /url: /r/Sinusitis/comments/1e79elv/swollen_turbinates_for_4_years/
+                            - heading "清單項目貼文 - Swollen turbinates for 4 years" [level=3] [ref=e949]: Swollen turbinates for 4 years
+                        - generic [ref=e951]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e952]
+                  - listitem [ref=e953]:
+                    - generic [ref=e954]:
+                      - generic [ref=e955]:
+                        - link "New turbinate reduction surgery" [ref=e956] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Sinusitis/comments/1ga2dbm/new_turbinate_reduction_surgery/
+                          - generic [ref=e957]:
+                            - generic: New turbinate reduction surgery
+                        - generic [ref=e958]:
+                          - generic [ref=e959]:
+                            - generic [ref=e962]:
+                              - link "r/Sinusitis" [ref=e963] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/Sinusitis/
+                                - generic [ref=e967]: r/Sinusitis
+                              - generic [ref=e968]: •
+                            - link "清單項目貼文 - New turbinate reduction surgery" [ref=e970] [cursor=pointer]:
+                              - /url: /r/Sinusitis/comments/1ga2dbm/new_turbinate_reduction_surgery/
+                              - heading "清單項目貼文 - New turbinate reduction surgery" [level=3] [ref=e973]: New turbinate reduction surgery
+                          - link "r/Sinusitis - New turbinate reduction surgery" [ref=e976] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/Sinusitis/comments/1ga2dbm/new_turbinate_reduction_surgery/
+                            - img "r/Sinusitis - New turbinate reduction surgery" [ref=e977]
+                        - generic [ref=e979]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e980]
+                  - listitem [ref=e981]:
+                    - generic [ref=e982]:
+                      - generic [ref=e983]:
+                        - link "Empty Nose Syndrome Demystified - Part 1" [ref=e984] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/nonallergicrhinitis/comments/1rv5oxp/empty_nose_syndrome_demystified_part_1/
+                          - generic [ref=e985]:
+                            - generic: Empty Nose Syndrome Demystified - Part 1
+                        - generic [ref=e986]:
+                          - generic [ref=e987]:
+                            - generic [ref=e990]:
+                              - link "r/nonallergicrhinitis" [ref=e991] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/nonallergicrhinitis/
+                                - img [ref=e995]
+                                - generic [ref=e997]: r/nonallergicrhinitis
+                              - generic [ref=e998]: •
+                            - link "清單項目貼文 - Empty Nose Syndrome Demystified - Part 1" [ref=e1000] [cursor=pointer]:
+                              - /url: /r/nonallergicrhinitis/comments/1rv5oxp/empty_nose_syndrome_demystified_part_1/
+                              - heading "清單項目貼文 - Empty Nose Syndrome Demystified - Part 1" [level=3] [ref=e1003]: Empty Nose Syndrome Demystified - Part 1
+                          - link "r/nonallergicrhinitis - Empty Nose Syndrome Demystified - Part 1" [ref=e1006] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/nonallergicrhinitis/comments/1rv5oxp/empty_nose_syndrome_demystified_part_1/
+                            - img "r/nonallergicrhinitis - Empty Nose Syndrome Demystified - Part 1" [ref=e1007]
+                        - generic [ref=e1009]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e1010]
+                  - listitem [ref=e1011]:
+                    - generic [ref=e1012]:
+                      - generic [ref=e1013]:
+                        - link "If you are suffering this morning" [ref=e1014] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Sinusitis/comments/1qq28xv/if_you_are_suffering_this_morning/
+                          - generic [ref=e1015]:
+                            - generic: If you are suffering this morning
+                        - generic [ref=e1016]:
+                          - generic [ref=e1017]:
+                            - generic [ref=e1020]:
+                              - link "r/Sinusitis" [ref=e1021] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/Sinusitis/
+                                - generic [ref=e1025]: r/Sinusitis
+                              - generic [ref=e1026]: •
+                            - link "清單項目貼文 - If you are suffering this morning" [ref=e1028] [cursor=pointer]:
+                              - /url: /r/Sinusitis/comments/1qq28xv/if_you_are_suffering_this_morning/
+                              - heading "清單項目貼文 - If you are suffering this morning" [level=3] [ref=e1031]: If you are suffering this morning
+                          - link "r/Sinusitis - If you are suffering this morning" [ref=e1034] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/Sinusitis/comments/1qq28xv/if_you_are_suffering_this_morning/
+                            - img "r/Sinusitis - If you are suffering this morning" [ref=e1035]
+                        - generic [ref=e1037]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e1038]
+                  - listitem [ref=e1039]:
+                    - generic [ref=e1040]:
+                      - generic [ref=e1041]:
+                        - link "Swollen turbinates how to fix" [ref=e1042] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Sinusitis/comments/1rcl1we/swollen_turbinates_how_to_fix/
+                          - generic [ref=e1043]:
+                            - generic: Swollen turbinates how to fix
+                        - generic [ref=e1045]:
+                          - generic [ref=e1048]:
+                            - link "r/Sinusitis" [ref=e1049] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Sinusitis/
+                              - generic [ref=e1053]: r/Sinusitis
+                            - generic [ref=e1054]: •
+                          - link "清單項目貼文 - Swollen turbinates how to fix" [ref=e1056] [cursor=pointer]:
+                            - /url: /r/Sinusitis/comments/1rcl1we/swollen_turbinates_how_to_fix/
+                            - heading "清單項目貼文 - Swollen turbinates how to fix" [level=3] [ref=e1059]: Swollen turbinates how to fix
+                        - generic [ref=e1061]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e1062]
+                  - listitem [ref=e1063]:
+                    - generic [ref=e1064]:
+                      - generic [ref=e1065]:
+                        - link "Empty Nose Syndrome - Curious fact" [ref=e1066] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Sinusitis/comments/1tww9o3/empty_nose_syndrome_curious_fact/
+                          - generic [ref=e1067]:
+                            - generic: Empty Nose Syndrome - Curious fact
+                        - generic [ref=e1069]:
+                          - generic [ref=e1072]:
+                            - link "r/Sinusitis" [ref=e1073] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Sinusitis/
+                              - generic [ref=e1077]: r/Sinusitis
+                            - generic [ref=e1078]: •
+                          - link "清單項目貼文 - Empty Nose Syndrome - Curious fact" [ref=e1080] [cursor=pointer]:
+                            - /url: /r/Sinusitis/comments/1tww9o3/empty_nose_syndrome_curious_fact/
+                            - heading "清單項目貼文 - Empty Nose Syndrome - Curious fact" [level=3] [ref=e1083]: Empty Nose Syndrome - Curious fact
+                        - generic [ref=e1085]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e1086]
+                  - listitem [ref=e1087]:
+                    - generic [ref=e1088]:
+                      - generic [ref=e1089]:
+                        - link "My positive experience with a septoplasty, turbinate reduction, sinus surgery at age 22" [ref=e1090] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Septoplasty/comments/1p7x0g0/my_positive_experience_with_a_septoplasty/
+                          - generic [ref=e1091]:
+                            - generic: My positive experience with a septoplasty, turbinate reduction, sinus surgery at age 22
+                        - generic [ref=e1093]:
+                          - generic [ref=e1096]:
+                            - link "r/Septoplasty" [ref=e1097] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Septoplasty/
+                              - img [ref=e1101]
+                              - generic [ref=e1103]: r/Septoplasty
+                            - generic [ref=e1104]: •
+                          - link "清單項目貼文 - My positive experience with a septoplasty, turbinate reduct..." [ref=e1106] [cursor=pointer]:
+                            - /url: /r/Septoplasty/comments/1p7x0g0/my_positive_experience_with_a_septoplasty/
+                            - heading "清單項目貼文 - My positive experience with a septoplasty, turbinate reduct..." [level=3] [ref=e1109]: My positive experience with a septoplasty, turbinate reduction, sinus surgery at age 22
+                        - generic [ref=e1111]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e1112]
+                  - listitem [ref=e1113]:
+                    - generic [ref=e1114]:
+                      - generic [ref=e1115]:
+                        - link "Turbinate Reduction Success" [ref=e1116] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Sinusitis/comments/1fk1lv8/turbinate_reduction_success/
+                          - generic [ref=e1117]:
+                            - generic: Turbinate Reduction Success
+                        - generic [ref=e1119]:
+                          - generic [ref=e1122]:
+                            - link "r/Sinusitis" [ref=e1123] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Sinusitis/
+                              - generic [ref=e1127]: r/Sinusitis
+                            - generic [ref=e1128]: •
+                          - link "清單項目貼文 - Turbinate Reduction Success" [ref=e1130] [cursor=pointer]:
+                            - /url: /r/Sinusitis/comments/1fk1lv8/turbinate_reduction_success/
+                            - heading "清單項目貼文 - Turbinate Reduction Success" [level=3] [ref=e1133]: Turbinate Reduction Success
+                        - generic [ref=e1135]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e1136]
+                  - listitem [ref=e1137]:
+                    - generic [ref=e1138]:
+                      - generic [ref=e1139]:
+                        - link "Is it possible I’ve just legit had this chronically for almost 2 years?" [ref=e1140] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Sinusitis/comments/1i8kvlh/is_it_possible_ive_just_legit_had_this/
+                          - generic [ref=e1141]:
+                            - generic: Is it possible I’ve just legit had this chronically for almost 2 years?
+                        - generic [ref=e1143]:
+                          - generic [ref=e1146]:
+                            - link "r/Sinusitis" [ref=e1147] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/Sinusitis/
+                              - generic [ref=e1151]: r/Sinusitis
+                            - generic [ref=e1152]: •
+                          - link "清單項目貼文 - Is it possible I’ve just legit had this chronically for alm..." [ref=e1154] [cursor=pointer]:
+                            - /url: /r/Sinusitis/comments/1i8kvlh/is_it_possible_ive_just_legit_had_this/
+                            - heading "清單項目貼文 - Is it possible I’ve just legit had this chronically for alm..." [level=3] [ref=e1157]: Is it possible I’ve just legit had this chronically for almost 2 years?
+                        - generic [ref=e1159]:
+                          - text: 個推 ·
+                          - text: 則留言
+                      - separator [ref=e1160]
+                  - listitem [ref=e1161]:
+                    - generic [ref=e1163]:
+                      - link "For those who have had enlarged turbinates and fatigue/brain fog as a symptom did turbinate reduction improve your energy levels and mental clarity?" [ref=e1164] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/Sinusitis/comments/1jgv64a/for_those_who_have_had_enlarged_turbinates_and/
+                        - generic [ref=e1165]:
+                          - generic: For those who have had enlarged turbinates and fatigue/brain fog as a symptom did turbinate reduction improve your energy levels and mental clarity?
+                      - generic [ref=e1167]:
+                        - generic [ref=e1170]:
+                          - link "r/Sinusitis" [ref=e1171] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/Sinusitis/
+                            - generic [ref=e1175]: r/Sinusitis
+                          - generic [ref=e1176]: •
+                        - link "清單項目貼文 - For those who have had enlarged turbinates and fatigue/brai..." [ref=e1178] [cursor=pointer]:
+                          - /url: /r/Sinusitis/comments/1jgv64a/for_those_who_have_had_enlarged_turbinates_and/
+                          - heading "清單項目貼文 - For those who have had enlarged turbinates and fatigue/brai..." [level=3] [ref=e1181]: For those who have had enlarged turbinates and fatigue/brain fog as a symptom did turbinate reduction improve your energy levels and mental clarity?
+                      - generic [ref=e1183]:
+                        - text: 個推 ·
+                        - text: 則留言
+              - generic [ref=e1184]:
+                - heading "使用此語言檢視貼文：" [level=2] [ref=e1186]:
+                  - generic [ref=e1187]: 使用此語言檢視貼文：
+                - generic [ref=e1188]:
+                  - link "Tiếng Việt" [ref=e1190] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Sinusitis/comments/1ahzfmw/i_found_my_cause_of_chronic_enlarged_turbinates/?tl=vi
+                  - link "Português (Brasil)" [ref=e1192] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Sinusitis/comments/1ahzfmw/i_found_my_cause_of_chronic_enlarged_turbinates/?tl=pt-br
+                  - link "日本語" [ref=e1194] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Sinusitis/comments/1ahzfmw/i_found_my_cause_of_chronic_enlarged_turbinates/?tl=ja
+                  - link "Français" [ref=e1196] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Sinusitis/comments/1ahzfmw/i_found_my_cause_of_chronic_enlarged_turbinates/?tl=fr
+                  - link "Русский" [ref=e1198] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Sinusitis/comments/1ahzfmw/i_found_my_cause_of_chronic_enlarged_turbinates/?tl=ru
+                  - group [ref=e1199]:
+                    - generic "顯示更多" [ref=e1200] [cursor=pointer]:
+                      - generic [ref=e1201]: 顯示更多
+                      - img [ref=e1203]
+              - generic [ref=e1205]:
+                - heading "人氣貼文" [level=2] [ref=e1206]
+                - list [ref=e1207]:
+                  - listitem [ref=e1208]:
+                    - link "Reddit reReddit：2024年2月3日 人氣貼文" [ref=e1209] [cursor=pointer]:
+                      - /url: https://www.reddit.com/posts/2024/february-3-1/global/
+                      - generic [ref=e1210]:
+                        - img [ref=e1211]
+                        - generic [ref=e1224]: Reddit
+                      - generic [ref=e1225]: reReddit：2024年2月3日 人氣貼文
+                      - separator [ref=e1226]
+                  - listitem [ref=e1227]:
+                    - link "Reddit reReddit：2024年2月 人氣貼文" [ref=e1228] [cursor=pointer]:
+                      - /url: https://www.reddit.com/posts/2024/february/global/
+                      - generic [ref=e1229]:
+                        - img [ref=e1230]
+                        - generic [ref=e1243]: Reddit
+                      - generic [ref=e1244]: reReddit：2024年2月 人氣貼文
+                      - separator [ref=e1245]
+                  - listitem [ref=e1246]:
+                    - link "Reddit reReddit：2024年 人氣貼文" [ref=e1247] [cursor=pointer]:
+                      - /url: https://www.reddit.com/posts/2024/global/
+                      - generic [ref=e1248]:
+                        - img [ref=e1249]
+                        - generic [ref=e1262]: Reddit
+                      - generic [ref=e1263]: reReddit：2024年 人氣貼文
+                      - separator [ref=e1264]
+            - list [ref=e1266]:
+              - listitem [ref=e1267]:
+                - link "首頁" [ref=e1269] [cursor=pointer]:
+                  - /url: /?feed=home
+              - listitem [ref=e1270]:
+                - link "爆紅" [ref=e1272] [cursor=pointer]:
+                  - /url: /r/popular/
+              - listitem [ref=e1273]:
+                - link "最新消息" [ref=e1275] [cursor=pointer]:
+                  - /url: /news/
+              - listitem [ref=e1276]:
+                - link "探索" [ref=e1278] [cursor=pointer]:
+                  - /url: /explore/
+              - listitem [ref=e1279]:
+                - link "Reddit 精選內容" [ref=e1281] [cursor=pointer]:
+                  - /url: https://www.reddit.com/posts/2026/global/
+              - listitem [ref=e1282]:
+                - link "葡萄牙文的 Reddit 精選內容" [ref=e1284] [cursor=pointer]:
+                  - /url: https://www.reddit.com/posts/2026/tl-pt-BR/
+              - listitem [ref=e1285]:
+                - link "德文的 Reddit 精選內容" [ref=e1287] [cursor=pointer]:
+                  - /url: https://www.reddit.com/posts/2026/tl-de/
+              - listitem [ref=e1288]:
+                - link "Reddit 規範" [ref=e1290] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/content-policy
+              - listitem [ref=e1291]:
+                - link "《隱私權政策》" [ref=e1293] [cursor=pointer]:
+                  - /url: https://www.reddit.com/policies/privacy-policy
+              - listitem [ref=e1294]:
+                - link "《使用者協議》" [ref=e1296] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/user-agreement
+              - listitem [ref=e1297]:
+                - link "你的隱私權選擇" [ref=e1299] [cursor=pointer]:
+                  - /url: https://support.reddithelp.com/hc/articles/43980704794004
+              - listitem [ref=e1300]:
+                - link "輔助功能" [ref=e1302] [cursor=pointer]:
+                  - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+              - listitem [ref=e1303]:
+                - link "Reddit, Inc. © 2026. 保留所有權利。" [ref=e1304] [cursor=pointer]:
+                  - /url: https://redditinc.com
+        - generic [ref=e1307]:
+          - img
+          - paragraph [ref=e1308]: 加入最真實的網路天地
+          - generic [ref=e1310]:
+            - generic [ref=e1315]:
+              - img [ref=e1316]
+              - generic [ref=e1319]: 使用電話號碼繼續
+            - generic [ref=e1323] [cursor=pointer]:
+              - img [ref=e1324]
+              - generic [ref=e1326]: 使用電子郵件繼續
+          - paragraph [ref=e1327]:
+            - text: 繼續即表示你同意我們的
+            - link "《使用者協議》" [ref=e1328] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/user-agreement
+            - text: 並確認你已了解
+            - link "《隱私權政策》" [ref=e1329] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/privacy-policy
+            - text: .

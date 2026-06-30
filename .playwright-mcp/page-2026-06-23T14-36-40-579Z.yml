@@ -1,0 +1,405 @@
+- generic [active] [ref=e1]:
+  - link "跳至主要內容" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: 跳至主要內容
+  - generic [ref=e6]:
+    - generic:
+      - banner [ref=e9]:
+        - navigation [ref=e10]:
+          - link "首頁" [ref=e14] [cursor=pointer]:
+            - /url: https://www.reddit.com/
+            - img [ref=e16]
+          - search [ref=e33]:
+            - generic [ref=e35]:
+              - img [ref=e37]
+              - textbox "詢問" [ref=e58]:
+                - /placeholder: 什麼都可以搜
+              - separator [ref=e59]
+              - link "詢問" [ref=e63] [cursor=pointer]:
+                - /url: /answers/
+                - generic [ref=e64]:
+                  - img [ref=e66]
+                  - generic [ref=e68]: 詢問
+              - generic: 什麼都可以搜
+          - generic [ref=e69]:
+            - link "註冊" [ref=e75] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e77]: 註冊
+            - link "登入" [ref=e81] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e83]: 登入
+            - button "展開使用者選單" [ref=e88] [cursor=pointer]:
+              - img [ref=e91]
+              - generic [ref=e93]:
+                - generic: 展開使用者選單
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - generic:
+              - generic:
+                - link "跳至註冊" [ref=e97] [cursor=pointer]:
+                  - /url: "#left-sidebar-container"
+                - link "跳到右側邊欄" [ref=e98] [cursor=pointer]:
+                  - /url: "#right-sidebar-container"
+          - generic [ref=e99]:
+            - main [ref=e100]:
+              - generic [ref=e103]:
+                - generic [ref=e104]:
+                  - generic "排序方式：" [ref=e107]:
+                    - button "排序方式：：人氣" [ref=e109] [cursor=pointer]:
+                      - generic [ref=e111]: 人氣
+                  - generic "排序方式：" [ref=e116]:
+                    - button "排序方式：：今天" [ref=e118] [cursor=pointer]:
+                      - generic [ref=e120]: 今天
+                - generic "檢視" [ref=e126]:
+                  - button "檢視：卡片檢視模式" [ref=e128] [cursor=pointer]
+              - separator [ref=e134]
+              - generic [ref=e135]:
+                - heading "動態摘要" [level=1] [ref=e137]
+                - generic:
+                  - article "In 2018, Argentine police officer Celeste Ayala became a global symbol of compassion when she chose to breastfeed a malnourished infant she encountered while working at a children's hospital. And she later got promoted. Not [OC]" [ref=e138]:
+                    - generic [ref=e139] [cursor=pointer]:
+                      - link "In 2018, Argentine police officer Celeste Ayala became a global symbol of compassion when she chose to breastfeed a malnourished infant she encountered while working at a children's hospital. And she later got promoted. Not [OC]" [ref=e140]:
+                        - /url: https://www.reddit.com/r/MadeMeSmile/comments/1ucmrck/in_2018_argentine_police_officer_celeste_ayala/
+                        - generic [ref=e141]:
+                          - generic: In 2018, Argentine police officer Celeste Ayala became a global symbol of compassion when she chose to breastfeed a malnourished infant she encountered while working at a children's hospital. And she later got promoted. Not [OC]
+                      - generic [ref=e142]:
+                        - generic [ref=e143]:
+                          - link "r/MadeMeSmile" [ref=e146]:
+                            - /url: https://www.reddit.com/r/MadeMeSmile/
+                            - generic [ref=e150]: r/MadeMeSmile
+                          - generic [ref=e151]: •
+                          - time [ref=e153]: 1 天前
+                        - generic [ref=e154]:
+                          - button "加入" [ref=e156]
+                          - button "開啟使用者操作" [ref=e160]:
+                            - img [ref=e163]
+                      - heading "In 2018, Argentine police officer Celeste Ayala became a global symbol of compassion when she chose to breastfeed a malnourished infant she encountered while working at a children's hospital. And she later got promoted. Not [OC]" [level=2] [ref=e167]:
+                        - link "In 2018, Argentine police officer Celeste Ayala became a global symbol of compassion when she chose to breastfeed a malnourished infant she encountered while working at a children's hospital. And she later got promoted. Not [OC]" [ref=e168]:
+                          - /url: https://www.reddit.com/r/MadeMeSmile/comments/1ucmrck/in_2018_argentine_police_officer_celeste_ayala/
+                      - img "r/MadeMeSmile - In 2018, Argentine police officer Celeste Ayala became a global symbol of compassion when she chose to breastfeed a malnourished infant she encountered while working at a children's hospital. And she later got promoted. Not [OC]" [ref=e174]
+                      - generic "適用於此貼文的操作" [ref=e176]:
+                        - generic [ref=e179]:
+                          - button "推" [ref=e180]:
+                            - img [ref=e182]
+                            - generic [ref=e184]:
+                              - generic: 推
+                          - generic [ref=e186]: 6.5萬
+                          - button "噓" [ref=e187]:
+                            - img [ref=e189]
+                            - generic [ref=e191]:
+                              - generic: 噓
+                        - link "1930 前往留言" [ref=e192]:
+                          - /url: /r/MadeMeSmile/comments/1ucmrck/in_2018_argentine_police_officer_celeste_ayala/
+                          - generic [ref=e193]:
+                            - img [ref=e195]
+                            - generic [ref=e198]: "1930"
+                          - generic [ref=e199]:
+                            - generic: 前往留言
+                        - button "給予獎勵，已給予 85 個" [ref=e201]:
+                          - generic [ref=e206]: "85"
+                        - button "分享" [ref=e210]:
+                          - generic [ref=e211]:
+                            - img [ref=e213]
+                            - generic [ref=e215]: 分享
+                  - separator [ref=e216]
+                  - generic [ref=e217]:
+                    - 'generic "Advertisement: Prime Day is here with big deals, June 23-26." [ref=e218]':
+                      - 'link "Advertisement: Prime Day is here with big deals, June 23-26." [ref=e219] [cursor=pointer]':
+                        - /url: https://alb.reddit.com/cr?za=tMYVLprC-xBSR0iMB97C2LCWKFJrlAw8IMjycyqN3V_OfmdVsmu9gIq9wmd7qglQVo-CMwtr_4hNSiyHca0brntwafTibjmBEVHuzyGyVxJIior76shbXlmPvyqSqLIjQBBYQFOcVGa47YzqJnD0m1VMx744rF9_cJG6D7wqJO2Hck7tCWRBCRr5nG-QjDQbJxsKKCumQlxZm9f90dhep4MajjN93QrM0n1aRoIThoeAy9OCtQHkCR3PR13xDLBOUTzyFEXNOrAJcjRKKdI3OgPn4J4FC7Ca-TiVGkVFwANk8fa7z3lD_l0uUT3xC0Y18kruX6mODwMq32BKQek959Im1-ikwrPtpeadikF9Zsw9ZuE6IZ4yoQNQYUxGbaAv3EaQfrFGIXQ9y9x719GkKFlHAMLj4G08pIaDXkV-KOYbawK_xcrBh5ibjTiEwBruac61IJJc0CJzdJGDb2M5Cg1cl7hyPBf66k25bbOeAUdHRrA9UHgkxqk4GX47MyvitrDIDVsP-L9wtp1gJlWeEDV6YZgmWPFQ95HnR7qh1sASXAaS0DZS2k2P6-WWK4cK1jy5tpTSHK-AIXzRP98XYHiogy58ST3hM5_zVO_fB13UqfQwytGLhAqu1Fx9cFQgchI9SjQW9uvqBsTobZF88DYNlHHVM6yrF0lJzpcozi5u1AkAeNCJ&zp=R4NOmYA9QrM2DWYxDAUxXa_c_zY-BwbMKQ9C-pl63hSZznJ8o3Lv98ohRPmolO0cMcvZBw2FnNz902JvJoREgvMvXTxqivvvxjqcj4BSSPtx6j4fXAaQIiXMrquN23Z-hiyECc46Lf9lkW0eUzecZoPp9J-_-5RgBZIgtv6EK7kaQRshwA59DLN1v94wxBwEhaa13aLp5BpcFcoJH5KYwteVai4BzeJrzbC3rnxHoGGedQ9ALSN1EqJ9s55xAVPsB7MhcV_TjuM9jgmxnj7xbrCrxjNAzzVPCf9GCMPunFLOFiKFITbH3A
+                    - generic [ref=e220]:
+                      - generic [ref=e221]:
+                        - link "u/Amazon_Official 虛擬頭像 u/Amazon_Official" [ref=e224] [cursor=pointer]:
+                          - /url: /user/Amazon_Official/
+                          - img "u/Amazon_Official 虛擬頭像" [ref=e227]
+                          - generic [ref=e228]: u/Amazon_Official
+                        - generic [ref=e229]: •
+                        - link "宣傳內容" [ref=e231] [cursor=pointer]:
+                          - /url: /user/Amazon_Official/
+                          - generic [ref=e232]: 宣傳內容
+                        - link [ref=e234] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=tMYVLprC-xBSR0iMB97C2LCWKFJrlAw8IMjycyqN3V_OfmdVsmu9gIq9wmd7qglQVo-CMwtr_4hNSiyHca0brntwafTibjmBEVHuzyGyVxJIior76shbXlmPvyqSqLIjQBBYQFOcVGa47YzqJnD0m1VMx744rF9_cJG6D7wqJO2Hck7tCWRBCRr5nG-QjDQbJxsKKCumQlxZm9f90dhep4MajjN93QrM0n1aRoIThoeAy9OCtQHkCR3PR13xDLBOUTzyFEXNOrAJcjRKKdI3OgPn4J4FC7Ca-TiVGkVFwANk8fa7z3lD_l0uUT3xC0Y18kruX6mODwMq32BKQek959Im1-ikwrPtpeadikF9Zsw9ZuE6IZ4yoQNQYUxGbaAv3EaQfrFGIXQ9y9x719GkKFlHAMLj4G08pIaDXkV-KOYbawK_xcrBh5ibjTiEwBruac61IJJc0CJzdJGDb2M5Cg1cl7hyPBf66k25bbOeAUdHRrA9UHgkxqk4GX47MyvitrDIDVsP-L9wtp1gJlWeEDV6YZgmWPFQ95HnR7qh1sASXAaS0DZS2k2P6-WWK4cK1jy5tpTSHK-AIXzRP98XYHiogy58ST3hM5_zVO_fB13UqfQwytGLhAqu1Fx9cFQgchI9SjQW9uvqBsTobZF88DYNlHHVM6yrF0lJzpcozi5u1AkAeNCJ&zp=R4NOmYA9QrM2DWYxDAUxXa_c_zY-BwbMKQ9C-pl63hSZznJ8o3Lv98ohRPmolO0cMcvZBw2FnNz902JvJoREgvMvXTxqivvvxjqcj4BSSPtx6j4fXAaQIiXMrquN23Z-hiyECc46Lf9lkW0eUzecZoPp9J-_-5RgBZIgtv6EK7kaQRshwA59DLN1v94wxBwEhaa13aLp5BpcFcoJH5KYwteVai4BzeJrzbC3rnxHoGGedQ9ALSN1EqJ9s55xAVPsB7MhcV_TjuM9jgmxnj7xbrCrxjNAzzVPCf9GCMPunFLOFiKFITbH3A
+                      - button "開啟使用者操作" [ref=e239] [cursor=pointer]:
+                        - img [ref=e242]
+                    - heading "Prime Day is here with big deals, June 23-26." [level=2] [ref=e246]:
+                      - link "Prime Day is here with big deals, June 23-26." [ref=e249] [cursor=pointer]:
+                        - /url: https://alb.reddit.com/cr?za=tMYVLprC-xBSR0iMB97C2LCWKFJrlAw8IMjycyqN3V_OfmdVsmu9gIq9wmd7qglQVo-CMwtr_4hNSiyHca0brntwafTibjmBEVHuzyGyVxJIior76shbXlmPvyqSqLIjQBBYQFOcVGa47YzqJnD0m1VMx744rF9_cJG6D7wqJO2Hck7tCWRBCRr5nG-QjDQbJxsKKCumQlxZm9f90dhep4MajjN93QrM0n1aRoIThoeAy9OCtQHkCR3PR13xDLBOUTzyFEXNOrAJcjRKKdI3OgPn4J4FC7Ca-TiVGkVFwANk8fa7z3lD_l0uUT3xC0Y18kruX6mODwMq32BKQek959Im1-ikwrPtpeadikF9Zsw9ZuE6IZ4yoQNQYUxGbaAv3EaQfrFGIXQ9y9x719GkKFlHAMLj4G08pIaDXkV-KOYbawK_xcrBh5ibjTiEwBruac61IJJc0CJzdJGDb2M5Cg1cl7hyPBf66k25bbOeAUdHRrA9UHgkxqk4GX47MyvitrDIDVsP-L9wtp1gJlWeEDV6YZgmWPFQ95HnR7qh1sASXAaS0DZS2k2P6-WWK4cK1jy5tpTSHK-AIXzRP98XYHiogy58ST3hM5_zVO_fB13UqfQwytGLhAqu1Fx9cFQgchI9SjQW9uvqBsTobZF88DYNlHHVM6yrF0lJzpcozi5u1AkAeNCJ&zp=R4NOmYA9QrM2DWYxDAUxXa_c_zY-BwbMKQ9C-pl63hSZznJ8o3Lv98ohRPmolO0cMcvZBw2FnNz902JvJoREgvMvXTxqivvvxjqcj4BSSPtx6j4fXAaQIiXMrquN23Z-hiyECc46Lf9lkW0eUzecZoPp9J-_-5RgBZIgtv6EK7kaQRshwA59DLN1v94wxBwEhaa13aLp5BpcFcoJH5KYwteVai4BzeJrzbC3rnxHoGGedQ9ALSN1EqJ9s55xAVPsB7MhcV_TjuM9jgmxnj7xbrCrxjNAzzVPCf9GCMPunFLOFiKFITbH3A
+                        - generic: Prime Day is here with big deals, June 23-26.
+                    - generic [ref=e250]:
+                      - button "播放" [ref=e257] [cursor=pointer]:
+                        - img [ref=e258]
+                      - separator [ref=e260]
+                      - generic [ref=e261]:
+                        - link [ref=e263] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=tMYVLprC-xBSR0iMB97C2LCWKFJrlAw8IMjycyqN3V_OfmdVsmu9gIq9wmd7qglQVo-CMwtr_4hNSiyHca0brntwafTibjmBEVHuzyGyVxJIior76shbXlmPvyqSqLIjQBBYQFOcVGa47YzqJnD0m1VMx744rF9_cJG6D7wqJO2Hck7tCWRBCRr5nG-QjDQbJxsKKCumQlxZm9f90dhep4MajjN93QrM0n1aRoIThoeAy9OCtQHkCR3PR13xDLBOUTzyFEXNOrAJcjRKKdI3OgPn4J4FC7Ca-TiVGkVFwANk8fa7z3lD_l0uUT3xC0Y18kruX6mODwMq32BKQek959Im1-ikwrPtpeadikF9Zsw9ZuE6IZ4yoQNQYUxGbaAv3EaQfrFGIXQ9y9x719GkKFlHAMLj4G08pIaDXkV-KOYbawK_xcrBh5ibjTiEwBruac61IJJc0CJzdJGDb2M5Cg1cl7hyPBf66k25bbOeAUdHRrA9UHgkxqk4GX47MyvitrDIDVsP-L9wtp1gJlWeEDV6YZgmWPFQ95HnR7qh1sASXAaS0DZS2k2P6-WWK4cK1jy5tpTSHK-AIXzRP98XYHiogy58ST3hM5_zVO_fB13UqfQwytGLhAqu1Fx9cFQgchI9SjQW9uvqBsTobZF88DYNlHHVM6yrF0lJzpcozi5u1AkAeNCJ&zp=R4NOmYA9QrM2DWYxDAUxXa_c_zY-BwbMKQ9C-pl63hSZznJ8o3Lv98ohRPmolO0cMcvZBw2FnNz902JvJoREgvMvXTxqivvvxjqcj4BSSPtx6j4fXAaQIiXMrquN23Z-hiyECc46Lf9lkW0eUzecZoPp9J-_-5RgBZIgtv6EK7kaQRshwA59DLN1v94wxBwEhaa13aLp5BpcFcoJH5KYwteVai4BzeJrzbC3rnxHoGGedQ9ALSN1EqJ9s55xAVPsB7MhcV_TjuM9jgmxnj7xbrCrxjNAzzVPCf9GCMPunFLOFiKFITbH3A
+                        - generic [ref=e264]:
+                          - link "amazon.com" [ref=e267] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=tMYVLprC-xBSR0iMB97C2LCWKFJrlAw8IMjycyqN3V_OfmdVsmu9gIq9wmd7qglQVo-CMwtr_4hNSiyHca0brntwafTibjmBEVHuzyGyVxJIior76shbXlmPvyqSqLIjQBBYQFOcVGa47YzqJnD0m1VMx744rF9_cJG6D7wqJO2Hck7tCWRBCRr5nG-QjDQbJxsKKCumQlxZm9f90dhep4MajjN93QrM0n1aRoIThoeAy9OCtQHkCR3PR13xDLBOUTzyFEXNOrAJcjRKKdI3OgPn4J4FC7Ca-TiVGkVFwANk8fa7z3lD_l0uUT3xC0Y18kruX6mODwMq32BKQek959Im1-ikwrPtpeadikF9Zsw9ZuE6IZ4yoQNQYUxGbaAv3EaQfrFGIXQ9y9x719GkKFlHAMLj4G08pIaDXkV-KOYbawK_xcrBh5ibjTiEwBruac61IJJc0CJzdJGDb2M5Cg1cl7hyPBf66k25bbOeAUdHRrA9UHgkxqk4GX47MyvitrDIDVsP-L9wtp1gJlWeEDV6YZgmWPFQ95HnR7qh1sASXAaS0DZS2k2P6-WWK4cK1jy5tpTSHK-AIXzRP98XYHiogy58ST3hM5_zVO_fB13UqfQwytGLhAqu1Fx9cFQgchI9SjQW9uvqBsTobZF88DYNlHHVM6yrF0lJzpcozi5u1AkAeNCJ&zp=R4NOmYA9QrM2DWYxDAUxXa_c_zY-BwbMKQ9C-pl63hSZznJ8o3Lv98ohRPmolO0cMcvZBw2FnNz902JvJoREgvMvXTxqivvvxjqcj4BSSPtx6j4fXAaQIiXMrquN23Z-hiyECc46Lf9lkW0eUzecZoPp9J-_-5RgBZIgtv6EK7kaQRshwA59DLN1v94wxBwEhaa13aLp5BpcFcoJH5KYwteVai4BzeJrzbC3rnxHoGGedQ9ALSN1EqJ9s55xAVPsB7MhcV_TjuM9jgmxnj7xbrCrxjNAzzVPCf9GCMPunFLOFiKFITbH3A
+                            - generic: amazon.com
+                          - link "立即選購" [ref=e269] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=tMYVLprC-xBSR0iMB97C2LCWKFJrlAw8IMjycyqN3V_OfmdVsmu9gIq9wmd7qglQVo-CMwtr_4hNSiyHca0brntwafTibjmBEVHuzyGyVxJIior76shbXlmPvyqSqLIjQBBYQFOcVGa47YzqJnD0m1VMx744rF9_cJG6D7wqJO2Hck7tCWRBCRr5nG-QjDQbJxsKKCumQlxZm9f90dhep4MajjN93QrM0n1aRoIThoeAy9OCtQHkCR3PR13xDLBOUTzyFEXNOrAJcjRKKdI3OgPn4J4FC7Ca-TiVGkVFwANk8fa7z3lD_l0uUT3xC0Y18kruX6mODwMq32BKQek959Im1-ikwrPtpeadikF9Zsw9ZuE6IZ4yoQNQYUxGbaAv3EaQfrFGIXQ9y9x719GkKFlHAMLj4G08pIaDXkV-KOYbawK_xcrBh5ibjTiEwBruac61IJJc0CJzdJGDb2M5Cg1cl7hyPBf66k25bbOeAUdHRrA9UHgkxqk4GX47MyvitrDIDVsP-L9wtp1gJlWeEDV6YZgmWPFQ95HnR7qh1sASXAaS0DZS2k2P6-WWK4cK1jy5tpTSHK-AIXzRP98XYHiogy58ST3hM5_zVO_fB13UqfQwytGLhAqu1Fx9cFQgchI9SjQW9uvqBsTobZF88DYNlHHVM6yrF0lJzpcozi5u1AkAeNCJ&zp=R4NOmYA9QrM2DWYxDAUxXa_c_zY-BwbMKQ9C-pl63hSZznJ8o3Lv98ohRPmolO0cMcvZBw2FnNz902JvJoREgvMvXTxqivvvxjqcj4BSSPtx6j4fXAaQIiXMrquN23Z-hiyECc46Lf9lkW0eUzecZoPp9J-_-5RgBZIgtv6EK7kaQRshwA59DLN1v94wxBwEhaa13aLp5BpcFcoJH5KYwteVai4BzeJrzbC3rnxHoGGedQ9ALSN1EqJ9s55xAVPsB7MhcV_TjuM9jgmxnj7xbrCrxjNAzzVPCf9GCMPunFLOFiKFITbH3A
+                            - generic [ref=e271]:
+                              - generic: 立即選購
+                    - generic "適用於此貼文的操作" [ref=e273]:
+                      - generic [ref=e276]:
+                        - button "推" [ref=e277] [cursor=pointer]:
+                          - img [ref=e279]
+                          - generic [ref=e281]:
+                            - generic: 推
+                        - generic [ref=e283]: "80"
+                        - button "噓" [ref=e284] [cursor=pointer]:
+                          - img [ref=e286]
+                          - generic [ref=e288]:
+                            - generic: 噓
+                      - link "0 前往留言" [ref=e289] [cursor=pointer]:
+                        - /url: /user/Amazon_Official/comments/1u7l9pr/prime_day_is_here_with_big_deals_june_2326/?p=1&impressionid=6029212755368666784
+                        - generic [ref=e290]:
+                          - img [ref=e292]
+                          - generic [ref=e295]: "0"
+                        - generic [ref=e296]:
+                          - generic: 前往留言
+                      - button "分享" [ref=e300] [cursor=pointer]:
+                        - generic [ref=e301]:
+                          - img [ref=e303]
+                          - generic [ref=e305]: 分享
+                      - link [ref=e307] [cursor=pointer]:
+                        - /url: https://alb.reddit.com/cr?za=tMYVLprC-xBSR0iMB97C2LCWKFJrlAw8IMjycyqN3V_OfmdVsmu9gIq9wmd7qglQVo-CMwtr_4hNSiyHca0brntwafTibjmBEVHuzyGyVxJIior76shbXlmPvyqSqLIjQBBYQFOcVGa47YzqJnD0m1VMx744rF9_cJG6D7wqJO2Hck7tCWRBCRr5nG-QjDQbJxsKKCumQlxZm9f90dhep4MajjN93QrM0n1aRoIThoeAy9OCtQHkCR3PR13xDLBOUTzyFEXNOrAJcjRKKdI3OgPn4J4FC7Ca-TiVGkVFwANk8fa7z3lD_l0uUT3xC0Y18kruX6mODwMq32BKQek959Im1-ikwrPtpeadikF9Zsw9ZuE6IZ4yoQNQYUxGbaAv3EaQfrFGIXQ9y9x719GkKFlHAMLj4G08pIaDXkV-KOYbawK_xcrBh5ibjTiEwBruac61IJJc0CJzdJGDb2M5Cg1cl7hyPBf66k25bbOeAUdHRrA9UHgkxqk4GX47MyvitrDIDVsP-L9wtp1gJlWeEDV6YZgmWPFQ95HnR7qh1sASXAaS0DZS2k2P6-WWK4cK1jy5tpTSHK-AIXzRP98XYHiogy58ST3hM5_zVO_fB13UqfQwytGLhAqu1Fx9cFQgchI9SjQW9uvqBsTobZF88DYNlHHVM6yrF0lJzpcozi5u1AkAeNCJ&zp=R4NOmYA9QrM2DWYxDAUxXa_c_zY-BwbMKQ9C-pl63hSZznJ8o3Lv98ohRPmolO0cMcvZBw2FnNz902JvJoREgvMvXTxqivvvxjqcj4BSSPtx6j4fXAaQIiXMrquN23Z-hiyECc46Lf9lkW0eUzecZoPp9J-_-5RgBZIgtv6EK7kaQRshwA59DLN1v94wxBwEhaa13aLp5BpcFcoJH5KYwteVai4BzeJrzbC3rnxHoGGedQ9ALSN1EqJ9s55xAVPsB7MhcV_TjuM9jgmxnj7xbrCrxjNAzzVPCf9GCMPunFLOFiKFITbH3A
+                  - separator [ref=e308]
+                  - article "Martial artist & knife fighting instructor Doug Marcaida shows how lethal a 'karambit' could be in the hands of an expert" [ref=e309]:
+                    - generic [ref=e310] [cursor=pointer]:
+                      - link "Martial artist & knife fighting instructor Doug Marcaida shows how lethal a 'karambit' could be in the hands of an expert" [ref=e311]:
+                        - /url: https://www.reddit.com/r/Damnthatsinteresting/comments/1ucy577/martial_artist_knife_fighting_instructor_doug/
+                        - generic [ref=e312]:
+                          - generic: Martial artist & knife fighting instructor Doug Marcaida shows how lethal a 'karambit' could be in the hands of an expert
+                      - generic [ref=e313]:
+                        - generic [ref=e314]:
+                          - link "r/Damnthatsinteresting" [ref=e317]:
+                            - /url: https://www.reddit.com/r/Damnthatsinteresting/
+                            - generic [ref=e321]: r/Damnthatsinteresting
+                          - generic [ref=e322]: •
+                          - time [ref=e324]: 17 小時前
+                        - generic [ref=e325]:
+                          - button "加入" [ref=e327]
+                          - button "開啟使用者操作" [ref=e331]:
+                            - img [ref=e334]
+                      - heading "Martial artist & knife fighting instructor Doug Marcaida shows how lethal a 'karambit' could be in the hands of an expert" [level=2] [ref=e338]:
+                        - link "Martial artist & knife fighting instructor Doug Marcaida shows how lethal a 'karambit' could be in the hands of an expert" [ref=e339]:
+                          - /url: https://www.reddit.com/r/Damnthatsinteresting/comments/1ucy577/martial_artist_knife_fighting_instructor_doug/
+                      - generic [ref=e345]:
+                        - generic "影片播放器" [ref=e346]
+                        - generic [ref=e347]:
+                          - generic [ref=e348]:
+                            - button "播放開關" [ref=e349]:
+                              - img [ref=e350]
+                            - generic "媒體播放時間" [ref=e352]
+                            - generic [ref=e357]:
+                              - generic [ref=e358]: 0:00
+                              - generic [ref=e359]: / 0:00
+                            - button "字幕開關" [ref=e360]:
+                              - img [ref=e361]
+                            - generic [ref=e364]:
+                              - button "設定" [ref=e365]:
+                                - img [ref=e366]
+                              - generic:
+                                - button:
+                                  - generic:
+                                    - img
+                                  - generic: 自動
+                            - button "全螢幕開關" [ref=e368]:
+                              - img [ref=e369]
+                          - button "音量開關" [ref=e374]:
+                            - img [ref=e375]
+                      - generic "適用於此貼文的操作" [ref=e379]:
+                        - generic [ref=e382]:
+                          - button "推" [ref=e383]:
+                            - img [ref=e385]
+                            - generic [ref=e387]:
+                              - generic: 推
+                          - generic [ref=e389]: 5.9萬
+                          - button "噓" [ref=e390]:
+                            - img [ref=e392]
+                            - generic [ref=e394]:
+                              - generic: 噓
+                        - link "3159 前往留言" [ref=e395]:
+                          - /url: /r/Damnthatsinteresting/comments/1ucy577/martial_artist_knife_fighting_instructor_doug/
+                          - generic [ref=e396]:
+                            - img [ref=e398]
+                            - generic [ref=e401]: "3159"
+                          - generic [ref=e402]:
+                            - generic: 前往留言
+                        - button "給予獎勵，已給予 29 個" [ref=e404]:
+                          - generic [ref=e409]: "29"
+                        - button "分享" [ref=e413]:
+                          - generic [ref=e414]:
+                            - img [ref=e416]
+                            - generic [ref=e418]: 分享
+                  - separator [ref=e419]
+                  - article "The world needs more Emilys" [ref=e420]:
+                    - generic [ref=e421] [cursor=pointer]:
+                      - link "The world needs more Emilys" [ref=e422]:
+                        - /url: https://www.reddit.com/r/MadeMeSmile/comments/1ucmtcs/the_world_needs_more_emilys/
+                        - generic [ref=e423]:
+                          - generic: The world needs more Emilys
+                      - generic [ref=e424]:
+                        - generic [ref=e425]:
+                          - link "r/MadeMeSmile" [ref=e428]:
+                            - /url: https://www.reddit.com/r/MadeMeSmile/
+                            - generic [ref=e432]: r/MadeMeSmile
+                          - generic [ref=e433]: •
+                          - time [ref=e435]: 1 天前
+                        - generic [ref=e436]:
+                          - button "加入" [ref=e438]
+                          - button "開啟使用者操作" [ref=e442]:
+                            - img [ref=e445]
+                      - heading "The world needs more Emilys" [level=2] [ref=e449]:
+                        - link "The world needs more Emilys" [ref=e450]:
+                          - /url: https://www.reddit.com/r/MadeMeSmile/comments/1ucmtcs/the_world_needs_more_emilys/
+                      - generic [ref=e455]:
+                        - generic [ref=e457]:
+                          - generic [ref=e458]:
+                            - generic [ref=e460]:
+                              - button "上一頁" [disabled]:
+                                - generic:
+                                  - generic:
+                                    - img
+                            - list [ref=e461]:
+                              - listitem [ref=e462]:
+                                - figure [ref=e463]:
+                                  - img "r/MadeMeSmile - The world needs more Emilys" [ref=e464]
+                            - button "下一頁" [ref=e467]:
+                              - img [ref=e470]
+                          - group [ref=e476]:
+                            - button "第 1 頁 (目前頁面)" [ref=e478]:
+                              - generic [ref=e479]:
+                                - generic: 第 1 頁 (目前頁面)
+                            - button "第 2 頁" [ref=e480]:
+                              - generic [ref=e481]:
+                                - generic: 第 2 頁
+                        - generic [ref=e482]:
+                          - generic: 第 1 項 (共2 頁)
+                      - generic "適用於此貼文的操作" [ref=e484]:
+                        - generic [ref=e487]:
+                          - button "推" [ref=e488]:
+                            - img [ref=e490]
+                            - generic [ref=e492]:
+                              - generic: 推
+                          - generic [ref=e494]: 4.8萬
+                          - button "噓" [ref=e495]:
+                            - img [ref=e497]
+                            - generic [ref=e499]:
+                              - generic: 噓
+                        - link "268 前往留言" [ref=e500]:
+                          - /url: /r/MadeMeSmile/comments/1ucmtcs/the_world_needs_more_emilys/
+                          - generic [ref=e501]:
+                            - img [ref=e503]
+                            - generic [ref=e506]: "268"
+                          - generic [ref=e507]:
+                            - generic: 前往留言
+                        - button "給予獎勵，已給予 44 個" [ref=e509]:
+                          - generic [ref=e514]: "44"
+                        - button "分享" [ref=e518]:
+                          - generic [ref=e519]:
+                            - img [ref=e521]
+                            - generic [ref=e523]: 分享
+                  - separator [ref=e524]
+                - img [ref=e530]
+            - generic [ref=e543]:
+              - complementary [ref=e545]:
+                - complementary "爆紅社群" [ref=e546]:
+                  - generic [ref=e547]:
+                    - heading "爆紅社群" [level=2] [ref=e549]:
+                      - generic [ref=e550]: 爆紅社群
+                    - listitem [ref=e551]:
+                      - list [ref=e552]:
+                        - link "r/explainlikeimfive 23,586,520 位成員" [ref=e553] [cursor=pointer]:
+                          - /url: /r/explainlikeimfive
+                          - generic [ref=e559]:
+                            - generic [ref=e561]: r/explainlikeimfive
+                            - generic [ref=e562]: 23,586,520 位成員
+                        - link "r/IAmA 22,462,466 位成員" [ref=e563] [cursor=pointer]:
+                          - /url: /r/IAmA
+                          - generic [ref=e569]:
+                            - generic [ref=e571]: r/IAmA
+                            - generic [ref=e572]: 22,462,466 位成員
+                        - link "r/classicwow 740,707 位成員" [ref=e573] [cursor=pointer]:
+                          - /url: /r/classicwow
+                          - generic [ref=e579]:
+                            - generic [ref=e581]: r/classicwow
+                            - generic [ref=e582]: 740,707 位成員
+                        - link "r/Instagram 1,057,587 位成員" [ref=e583] [cursor=pointer]:
+                          - /url: /r/Instagram
+                          - generic [ref=e589]:
+                            - generic [ref=e591]: r/Instagram
+                            - generic [ref=e592]: 1,057,587 位成員
+                        - link "r/NintendoSwitch 7,939,073 位成員" [ref=e593] [cursor=pointer]:
+                          - /url: /r/NintendoSwitch
+                          - generic [ref=e599]:
+                            - generic [ref=e601]: r/NintendoSwitch
+                            - generic [ref=e602]: 7,939,073 位成員
+                        - button "顯示更多" [ref=e603] [cursor=pointer]:
+                          - generic [ref=e605]: 顯示更多
+              - list [ref=e607]:
+                - listitem [ref=e608]:
+                  - link "首頁" [ref=e610] [cursor=pointer]:
+                    - /url: /?feed=home
+                - listitem [ref=e611]:
+                  - link "爆紅" [ref=e613] [cursor=pointer]:
+                    - /url: /r/popular/
+                - listitem [ref=e614]:
+                  - link "最新消息" [ref=e616] [cursor=pointer]:
+                    - /url: /news/
+                - listitem [ref=e617]:
+                  - link "探索" [ref=e619] [cursor=pointer]:
+                    - /url: /explore/
+                - listitem [ref=e620]:
+                  - link "Reddit 精選內容" [ref=e622] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/global/
+                - listitem [ref=e623]:
+                  - link "葡萄牙文的 Reddit 精選內容" [ref=e625] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-pt-BR/
+                - listitem [ref=e626]:
+                  - link "德文的 Reddit 精選內容" [ref=e628] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-de/
+                - listitem [ref=e629]:
+                  - link "Reddit 規範" [ref=e631] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/content-policy
+                - listitem [ref=e632]:
+                  - link "《隱私權政策》" [ref=e634] [cursor=pointer]:
+                    - /url: https://www.reddit.com/policies/privacy-policy
+                - listitem [ref=e635]:
+                  - link "《使用者協議》" [ref=e637] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/user-agreement
+                - listitem [ref=e638]:
+                  - link "你的隱私權選擇" [ref=e640] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/articles/43980704794004
+                - listitem [ref=e641]:
+                  - link "輔助功能" [ref=e643] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+                - listitem [ref=e644]:
+                  - link "Reddit, Inc. © 2026. 保留所有權利。" [ref=e645] [cursor=pointer]:
+                    - /url: https://redditinc.com
+        - generic [ref=e648]:
+          - img
+          - paragraph [ref=e649]: 加入最真實的網路天地
+          - generic [ref=e651]:
+            - generic [ref=e659] [cursor=pointer]:
+              - img [ref=e660]
+              - generic [ref=e662]: 使用 Apple 帳號繼續
+            - link "使用電話號碼繼續" [ref=e665] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e668]:
+                - img [ref=e669]
+                - generic [ref=e672]: 使用電話號碼繼續
+            - link "使用電子郵件繼續" [ref=e674] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e677]:
+                - img [ref=e678]
+                - generic [ref=e680]: 使用電子郵件繼續
+          - paragraph [ref=e681]:
+            - text: 繼續即表示你同意我們的
+            - link "《使用者協議》" [ref=e682] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/user-agreement
+            - text: 並確認你已了解
+            - link "《隱私權政策》" [ref=e683] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/privacy-policy
+            - text: .

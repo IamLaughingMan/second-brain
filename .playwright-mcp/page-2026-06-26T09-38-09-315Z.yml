@@ -1,0 +1,278 @@
+- generic [active] [ref=e1]:
+  - link "跳至主要內容" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: 跳至主要內容
+  - generic [ref=e6]:
+    - generic:
+      - banner [ref=e9]:
+        - navigation [ref=e10]:
+          - link "首頁" [ref=e14] [cursor=pointer]:
+            - /url: https://www.reddit.com/
+            - img [ref=e16]
+          - generic [ref=e30]:
+            - img [ref=e32]
+            - textbox "什麼都可以搜" [ref=e35]: side sleeper pillow broad shoulder
+          - generic [ref=e36]:
+            - link "註冊" [ref=e42] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e44]: 註冊
+            - link "登入" [ref=e48] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e50]: 登入
+            - button "展開使用者選單" [ref=e55] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e60]:
+                - generic: 展開使用者選單
+      - generic "side sleeper pillow broad shoulder - Reddit 搜尋功能！"
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - generic [ref=e69]:
+            - button "貼文" [ref=e70] [cursor=pointer]:
+              - generic [ref=e74]: 貼文
+            - link "留言" [ref=e75] [cursor=pointer]:
+              - /url: /r/Mattress/search/?q=side+sleeper+pillow+broad+shoulder&type=comments&iId=e43d86b8-8d51-43b8-bc0e-8326ecf89ae4
+              - generic [ref=e80]: 留言
+            - link "媒體" [ref=e81] [cursor=pointer]:
+              - /url: /r/Mattress/search/?q=side+sleeper+pillow+broad+shoulder&type=media&iId=e43d86b8-8d51-43b8-bc0e-8326ecf89ae4
+              - generic [ref=e86]: 媒體
+          - generic [ref=e90]:
+            - main [ref=e91]:
+              - generic [ref=e92]:
+                - paragraph [ref=e95]:
+                  - text: 顯示來自
+                  - link "全 Reddit" [ref=e97] [cursor=pointer]:
+                    - /url: /search/?q=side+sleeper+pillow+broad+shoulder
+                  - text: 的結果
+                  - img [ref=e99]
+                - generic [ref=e102]:
+                  - generic:
+                    - heading "An attempt at a Mattress FAQ" [level=2]:
+                      - link "An attempt at a Mattress FAQ" [ref=e103] [cursor=pointer]:
+                        - /url: /r/Mattress/comments/bkb079/an_attempt_at_a_mattress_faq/
+                        - generic [ref=e104]:
+                          - generic: An attempt at a Mattress FAQ
+                  - generic [ref=e105]:
+                    - generic [ref=e108]:
+                      - link "r/Mattress" [ref=e111] [cursor=pointer]:
+                        - /url: /r/Mattress/
+                        - generic [ref=e115]: r/Mattress
+                      - generic [ref=e116]: ·
+                    - link "An attempt at a Mattress FAQ" [ref=e117] [cursor=pointer]:
+                      - /url: /r/Mattress/comments/bkb079/an_attempt_at_a_mattress_faq/
+                    - generic [ref=e118]:
+                      - generic [ref=e119]:
+                        - generic [ref=e120]: "1633"
+                        - text: 票
+                      - text: ·
+                      - generic [ref=e121]:
+                        - generic [ref=e122]: "99"
+                        - text: 則留言
+                - separator [ref=e123]
+                - generic [ref=e125]:
+                  - generic:
+                    - heading "DIY Mattresses - An Introductory Guide" [level=2]:
+                      - link "DIY Mattresses - An Introductory Guide" [ref=e126] [cursor=pointer]:
+                        - /url: /r/Mattress/comments/otdqms/diy_mattresses_an_introductory_guide/
+                        - generic [ref=e127]:
+                          - generic: DIY Mattresses - An Introductory Guide
+                  - generic [ref=e128]:
+                    - generic [ref=e131]:
+                      - link "r/Mattress" [ref=e134] [cursor=pointer]:
+                        - /url: /r/Mattress/
+                        - generic [ref=e138]: r/Mattress
+                      - generic [ref=e139]: ·
+                    - link "DIY Mattresses - An Introductory Guide" [ref=e140] [cursor=pointer]:
+                      - /url: /r/Mattress/comments/otdqms/diy_mattresses_an_introductory_guide/
+                    - generic [ref=e141]:
+                      - generic [ref=e142]:
+                        - generic [ref=e143]: "1062"
+                        - text: 票
+                      - text: ·
+                      - generic [ref=e144]:
+                        - generic [ref=e145]: "936"
+                        - text: 則留言
+                - separator [ref=e146]
+                - generic [ref=e148]:
+                  - generic:
+                    - heading "Can we please stop already!" [level=2]:
+                      - link "Can we please stop already!" [ref=e149] [cursor=pointer]:
+                        - /url: /r/Mattress/comments/81tcuf/can_we_please_stop_already/
+                        - generic [ref=e150]:
+                          - generic: Can we please stop already!
+                  - generic [ref=e151]:
+                    - generic [ref=e154]:
+                      - link "r/Mattress" [ref=e157] [cursor=pointer]:
+                        - /url: /r/Mattress/
+                        - generic [ref=e161]: r/Mattress
+                      - generic [ref=e162]: ·
+                    - link "Can we please stop already!" [ref=e163] [cursor=pointer]:
+                      - /url: /r/Mattress/comments/81tcuf/can_we_please_stop_already/
+                    - generic [ref=e164]:
+                      - generic [ref=e165]:
+                        - generic [ref=e166]: "681"
+                        - text: 票
+                      - text: ·
+                      - generic [ref=e167]:
+                        - generic [ref=e168]: "133"
+                        - text: 則留言
+                - separator [ref=e169]
+                - generic [ref=e171]:
+                  - generic:
+                    - heading "Looking For A Mattress? START HERE." [level=2]:
+                      - link "Looking For A Mattress? START HERE." [ref=e172] [cursor=pointer]:
+                        - /url: /r/Mattress/comments/1lag3ot/looking_for_a_mattress_start_here/
+                        - generic [ref=e173]:
+                          - generic: Looking For A Mattress? START HERE.
+                  - generic [ref=e174]:
+                    - generic [ref=e177]:
+                      - link "r/Mattress" [ref=e180] [cursor=pointer]:
+                        - /url: /r/Mattress/
+                        - generic [ref=e184]: r/Mattress
+                      - generic [ref=e185]: ·
+                    - link "Looking For A Mattress? START HERE." [ref=e186] [cursor=pointer]:
+                      - /url: /r/Mattress/comments/1lag3ot/looking_for_a_mattress_start_here/
+                    - generic [ref=e187]:
+                      - generic [ref=e188]:
+                        - generic [ref=e189]: "568"
+                        - text: 票
+                      - text: ·
+                      - generic [ref=e190]:
+                        - generic [ref=e191]: "249"
+                        - text: 則留言
+                - separator [ref=e192]
+                - generic [ref=e194]:
+                  - generic:
+                    - heading "I've tested a lot of pillows and while I know they are very subjective these are my experiences as a side-sleeper with neck and tmj issues." [level=2]:
+                      - link "I've tested a lot of pillows and while I know they are very subjective these are my experiences as a side-sleeper with neck and tmj issues." [ref=e195] [cursor=pointer]:
+                        - /url: /r/Mattress/comments/rby562/ive_tested_a_lot_of_pillows_and_while_i_know_they/
+                        - generic [ref=e196]:
+                          - generic: I've tested a lot of pillows and while I know they are very subjective these are my experiences as a side-sleeper with neck and tmj issues.
+                  - generic [ref=e197]:
+                    - generic [ref=e200]:
+                      - link "r/Mattress" [ref=e203] [cursor=pointer]:
+                        - /url: /r/Mattress/
+                        - generic [ref=e207]: r/Mattress
+                      - generic [ref=e208]: ·
+                    - link "I've tested a lot of pillows and while I know they are very subjective these are my experiences as a side-sleeper with neck and tmj issues." [ref=e209] [cursor=pointer]:
+                      - /url: /r/Mattress/comments/rby562/ive_tested_a_lot_of_pillows_and_while_i_know_they/
+                    - generic [ref=e210]:
+                      - generic [ref=e211]:
+                        - generic [ref=e212]: "452"
+                        - text: 票
+                      - text: ·
+                      - generic [ref=e213]:
+                        - generic [ref=e214]: "300"
+                        - text: 則留言
+                - separator [ref=e215]
+                - generic [ref=e217]:
+                  - generic:
+                    - heading "Help me find this mattress but with springs plz ☺️" [level=2]:
+                      - link "Help me find this mattress but with springs plz ☺️" [ref=e218] [cursor=pointer]:
+                        - /url: /r/Mattress/comments/1ofba32/help_me_find_this_mattress_but_with_springs_plz/
+                        - generic [ref=e219]:
+                          - generic: Help me find this mattress but with springs plz ☺️
+                  - generic [ref=e220]:
+                    - generic [ref=e223]:
+                      - link "r/Mattress" [ref=e226] [cursor=pointer]:
+                        - /url: /r/Mattress/
+                        - generic [ref=e230]: r/Mattress
+                      - generic [ref=e231]: ·
+                    - link "Help me find this mattress but with springs plz ☺️" [ref=e232] [cursor=pointer]:
+                      - /url: /r/Mattress/comments/1ofba32/help_me_find_this_mattress_but_with_springs_plz/
+                    - generic [ref=e233]:
+                      - generic [ref=e234]:
+                        - generic [ref=e235]: "407"
+                        - text: 票
+                      - text: ·
+                      - generic [ref=e236]:
+                        - generic [ref=e237]: "90"
+                        - text: 則留言
+                  - link "Help me find this mattress but with springs plz ☺️ 縮圖影像" [ref=e239] [cursor=pointer]:
+                    - /url: /r/Mattress/comments/1ofba32/help_me_find_this_mattress_but_with_springs_plz/
+                - separator [ref=e244]
+                - generic [ref=e246]:
+                  - generic:
+                    - heading "Best Mattresses $1000 or below?" [level=2]:
+                      - link "Best Mattresses $1000 or below?" [ref=e247] [cursor=pointer]:
+                        - /url: /r/Mattress/comments/ho4lik/best_mattresses_1000_or_below/
+                        - generic [ref=e248]:
+                          - generic: Best Mattresses $1000 or below?
+                  - generic [ref=e249]:
+                    - generic [ref=e252]:
+                      - link "r/Mattress" [ref=e255] [cursor=pointer]:
+                        - /url: /r/Mattress/
+                        - generic [ref=e259]: r/Mattress
+                      - generic [ref=e260]: ·
+                    - link "Best Mattresses $1000 or below?" [ref=e261] [cursor=pointer]:
+                      - /url: /r/Mattress/comments/ho4lik/best_mattresses_1000_or_below/
+                    - generic [ref=e262]:
+                      - generic [ref=e263]:
+                        - generic [ref=e264]: "344"
+                        - text: 票
+                      - text: ·
+                      - generic [ref=e265]:
+                        - generic [ref=e266]: "567"
+                        - text: 則留言
+                - separator [ref=e267]
+            - generic [ref=e271]:
+              - generic [ref=e275]:
+                - generic [ref=e294]: 20萬
+                - generic [ref=e295]: "1833"
+              - list [ref=e297]:
+                - listitem [ref=e298]:
+                  - link "首頁" [ref=e300] [cursor=pointer]:
+                    - /url: /?feed=home
+                - listitem [ref=e301]:
+                  - link "爆紅" [ref=e303] [cursor=pointer]:
+                    - /url: /r/popular/
+                - listitem [ref=e304]:
+                  - link "最新消息" [ref=e306] [cursor=pointer]:
+                    - /url: /news/
+                - listitem [ref=e307]:
+                  - link "探索" [ref=e309] [cursor=pointer]:
+                    - /url: /explore/
+                - listitem [ref=e310]:
+                  - link "Reddit 精選內容" [ref=e312] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/global/
+                - listitem [ref=e313]:
+                  - link "葡萄牙文的 Reddit 精選內容" [ref=e315] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-pt-BR/
+                - listitem [ref=e316]:
+                  - link "德文的 Reddit 精選內容" [ref=e318] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-de/
+                - listitem [ref=e319]:
+                  - link "Reddit 規範" [ref=e321] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/content-policy
+                - listitem [ref=e322]:
+                  - link "《隱私權政策》" [ref=e324] [cursor=pointer]:
+                    - /url: https://www.reddit.com/policies/privacy-policy
+                - listitem [ref=e325]:
+                  - link "《使用者協議》" [ref=e327] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/user-agreement
+                - listitem [ref=e328]:
+                  - link "你的隱私權選擇" [ref=e330] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/articles/43980704794004
+                - listitem [ref=e331]:
+                  - link "輔助功能" [ref=e333] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+                - listitem [ref=e334]:
+                  - link "Reddit, Inc. © 2026. 保留所有權利。" [ref=e335] [cursor=pointer]:
+                    - /url: https://redditinc.com
+        - generic [ref=e338]:
+          - img
+          - paragraph [ref=e339]: 加入最真實的網路天地
+          - generic [ref=e341]:
+            - generic [ref=e346]:
+              - img [ref=e347]
+              - generic [ref=e350]: 使用電話號碼繼續
+            - generic [ref=e354] [cursor=pointer]:
+              - img [ref=e355]
+              - generic [ref=e357]: 使用電子郵件繼續
+          - paragraph [ref=e358]:
+            - text: 繼續即表示你同意我們的
+            - link "《使用者協議》" [ref=e359] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/user-agreement
+            - text: 並確認你已了解
+            - link "《隱私權政策》" [ref=e360] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/privacy-policy
+            - text: .

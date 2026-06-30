@@ -1,0 +1,529 @@
+- generic [active] [ref=e1]:
+  - link "跳至主要內容" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: 跳至主要內容
+  - generic [ref=e6]:
+    - generic:
+      - generic [ref=e7]:
+        - generic: LocalLlama
+      - banner [ref=e10]:
+        - navigation [ref=e11]:
+          - link "首頁" [ref=e15] [cursor=pointer]:
+            - /url: https://www.reddit.com/
+            - img [ref=e17]
+          - search [ref=e34]:
+            - generic [ref=e36]:
+              - img [ref=e39]
+              - textbox "詢問" [ref=e43]:
+                - /placeholder: 什麼都可以搜
+              - separator [ref=e44]
+              - link "詢問" [ref=e48] [cursor=pointer]:
+                - /url: /answers/
+                - generic [ref=e49]:
+                  - img [ref=e51]
+                  - generic [ref=e53]: 詢問
+              - generic: 什麼都可以搜
+          - generic [ref=e54]:
+            - link "註冊" [ref=e60] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e62]: 註冊
+            - link "登入" [ref=e66] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e68]: 登入
+            - button "展開使用者選單" [ref=e73] [cursor=pointer]:
+              - img [ref=e76]
+              - generic [ref=e78]:
+                - generic: 展開使用者選單
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - region "社群操作" [ref=e84]:
+            - generic [ref=e85]:
+              - heading "r/LocalLLaMA 社群狀態：https://x.com/localllamasub" [level=1] [ref=e91]:
+                - text: r/LocalLLaMA
+                - button "社群狀態：https://x.com/localllamasub" [ref=e93] [cursor=pointer]:
+                  - img "Llama" [ref=e94]
+              - generic [ref=e95]:
+                - button "建立貼文" [ref=e99] [cursor=pointer]:
+                  - generic [ref=e100]:
+                    - img [ref=e102]
+                    - generic [ref=e104]: 建立貼文
+                - button "加入" [ref=e109] [cursor=pointer]
+          - generic [ref=e110]:
+            - generic:
+              - generic:
+                - link "Skip to Sign up" [ref=e111] [cursor=pointer]:
+                  - /url: "#left-sidebar-container"
+                - link "Skip to Right Sidebar" [ref=e112] [cursor=pointer]:
+                  - /url: "#right-sidebar-container"
+          - generic [ref=e113]:
+            - main [ref=e114]:
+              - generic [ref=e117]:
+                - generic [ref=e118]:
+                  - generic "排序方式：" [ref=e121]:
+                    - button "排序方式：：人氣" [ref=e123] [cursor=pointer]:
+                      - generic [ref=e125]: 人氣
+                  - generic "排序方式：" [ref=e130]:
+                    - button "排序方式：：今天" [ref=e132] [cursor=pointer]:
+                      - generic [ref=e134]: 今天
+                - generic "檢視" [ref=e140]:
+                  - button "檢視：卡片檢視模式" [ref=e142] [cursor=pointer]
+              - generic [ref=e148]:
+                - button "收合/展開社群精選貼文" [ref=e149] [cursor=pointer]:
+                  - heading "社群精選貼文" [level=3] [ref=e150]:
+                    - img [ref=e151]
+                    - generic [ref=e153]: 社群精選貼文
+                  - button "收合/展開社群精選貼文" [ref=e155]:
+                    - img [ref=e158]
+                - list [ref=e162]:
+                  - listitem [ref=e163]:
+                    - link "Best Local Agents - Jun 2026 155 票 • 236 則留言 超級討論串" [ref=e164] [cursor=pointer]:
+                      - /url: /r/LocalLLaMA/comments/1uaebfe/best_local_agents_jun_2026/
+                      - generic [ref=e168]:
+                        - generic [ref=e169]:
+                          - heading "Best Local Agents - Jun 2026" [level=2] [ref=e172]
+                          - generic [ref=e175]:
+                            - generic [ref=e176]: "155"
+                            - text: 票 •
+                            - generic [ref=e177]: "236"
+                            - text: 則留言
+                        - generic [ref=e181]:
+                          - img [ref=e182]
+                          - generic [ref=e184]: 超級討論串
+              - generic [ref=e186]:
+                - generic "LocalLlama"
+                - separator [ref=e187]
+                - generic [ref=e188]:
+                  - heading "動態摘要" [level=1] [ref=e190]
+                  - generic:
+                    - article "DeepSeek raises $7.4B USD at $60B valuation. Remarkably, Liang Wenfeng invests $3B in DeepSeek himself." [ref=e191]:
+                      - generic [ref=e192] [cursor=pointer]:
+                        - link "DeepSeek raises $7.4B USD at $60B valuation. Remarkably, Liang Wenfeng invests $3B in DeepSeek himself." [ref=e193]:
+                          - /url: https://www.reddit.com/r/LocalLLaMA/comments/1ucwyes/deepseek_raises_74b_usd_at_60b_valuation/
+                          - generic [ref=e194]:
+                            - generic: DeepSeek raises $7.4B USD at $60B valuation. Remarkably, Liang Wenfeng invests $3B in DeepSeek himself.
+                        - generic [ref=e195]:
+                          - generic [ref=e197]:
+                            - generic [ref=e198]:
+                              - link "作者：u/FullOf_Bad_Ideas" [ref=e203]:
+                                - /url: https://www.reddit.com/user/FullOf_Bad_Ideas/
+                                - generic [ref=e204]:
+                                  - img "u/FullOf_Bad_Ideas 虛擬頭像" [ref=e207]
+                                  - generic [ref=e208]: u/FullOf_Bad_Ideas
+                              - generic [ref=e209]: •
+                              - time [ref=e211]: 18 小時前
+                            - button "開啟使用者操作" [ref=e216]:
+                              - img [ref=e219]
+                          - generic [ref=e221]:
+                            - link "DeepSeek raises $7.4B USD at $60B valuation. Remarkably, Liang Wenfeng invests $3B in DeepSeek himself." [ref=e223]:
+                              - /url: https://www.reddit.com/r/LocalLLaMA/comments/1ucwyes/deepseek_raises_74b_usd_at_60b_valuation/
+                              - text: DeepSeek raises $7.4B USD at $60B valuation. Remarkably, Liang Wenfeng invests $3B in DeepSeek himself.
+                            - link "標籤：News" [ref=e226]:
+                              - /url: /r/LocalLLaMA/?f=flair_name%3A%22News%22
+                              - generic "標籤：News" [ref=e228]: News
+                            - link "https://www.scmp.com/tech/big-tech/article/3357525/how-deepseeks-landmark-funding-secures-liang-wenfengs-grip-chinas-ai-rivalry-heats" [ref=e231]:
+                              - /url: https://www.scmp.com/tech/big-tech/article/3357525/how-deepseeks-landmark-funding-secures-liang-wenfengs-grip-chinas-ai-rivalry-heats
+                          - generic [ref=e233]:
+                            - link "r/LocalLLaMA - DeepSeek raises $7.4B USD at $60B valuation. Remarkably, Liang Wenfeng invests $3B in DeepSeek himself." [ref=e234]:
+                              - /url: https://www.scmp.com/tech/big-tech/article/3357525/how-deepseeks-landmark-funding-secures-liang-wenfengs-grip-chinas-ai-rivalry-heats
+                              - img "r/LocalLLaMA - DeepSeek raises $7.4B USD at $60B valuation. Remarkably, Liang Wenfeng invests $3B in DeepSeek himself." [ref=e235]
+                            - generic:
+                              - generic:
+                                - img
+                        - generic "適用於此貼文的操作" [ref=e238]:
+                          - generic [ref=e241]:
+                            - button "推" [ref=e242]:
+                              - img [ref=e244]
+                              - generic [ref=e246]:
+                                - generic: 推
+                            - generic [ref=e248]: "987"
+                            - button "噓" [ref=e249]:
+                              - img [ref=e251]
+                              - generic [ref=e253]:
+                                - generic: 噓
+                          - link "146 前往留言" [ref=e254]:
+                            - /url: /r/LocalLLaMA/comments/1ucwyes/deepseek_raises_74b_usd_at_60b_valuation/
+                            - generic [ref=e255]:
+                              - img [ref=e257]
+                              - generic [ref=e260]: "146"
+                            - generic [ref=e261]:
+                              - generic: 前往留言
+                          - button "給予獎勵" [ref=e263]:
+                            - img [ref=e266]
+                          - button "分享" [ref=e271]:
+                            - generic [ref=e272]:
+                              - img [ref=e274]
+                              - generic [ref=e276]: 分享
+                    - separator [ref=e277]
+                    - generic [ref=e278]:
+                      - 'generic "Advertisement: Mellum2 is a fast, open-source LLM for ultra-low-latency, high-performance inference. Run routing, RAG, and sub-agents locally or in the cloud." [ref=e279]':
+                        - 'link "Advertisement: Mellum2 is a fast, open-source LLM for ultra-low-latency, high-performance inference. Run routing, RAG, and sub-agents locally or in the cloud." [ref=e280] [cursor=pointer]':
+                          - /url: https://alb.reddit.com/cr?za=QEAB01qFMTvNve0zwtDNr05ALYG0h2PI4fUXc85lxYROGCWPOu73AcFo9_xNhkTY8_xNrU3qOdhTlbuYPMoBEtzISpc4yEcOn2I7g1-608VK8jSvck4j2MtJKIR2GXsuMumTsYaMPJevLH-WZCAAlFAs_yE9_6tuLUHKa9M814peA8pahn8vRVLzOvzoTtc10jlE5Wv0n12uyPRrDIeUnQrRIu2HSFsOsgGxbqCtt12TqqB5Q4xoRbYKvvp8DFySTxgRqJW2NVmDfobfNUH2eZHFsofOUoaZfI2zPtOXeywJQcLbaX-UHWBD5w4jobsU_2kA0AmT2QFc8_v_DwmcnBJ2_n4YN3WiKTJhdtR4xiRq6CQrb7Ast8UfabD2ImJwUE7I-0oTlnRIxleVMdRvVN_4NXYA-A_1e_UbuchG6LKbErK5sQ86FB8RxPFHcybst4O4i1zk90DUbCAPSLcfSrAuAKsoCABtKpivqbvIcT-T6DJiL3Q-J4PCsoqVRvI5ONFS_FX1zY3xU0M5EdY3LP_fanWN1O0Y0HHFlUQdCOYjnoG5fe9n7Gyyha7nrXYfbkfXRHwwXdLfhjBPEGnlRZgFR7BjKKuUQjsDbPVObC_8Uzx_jjEd1EX9QrUtZiq3uIxOduVTbLcWCOEFiTY5UAx_FUD-QeewLoEhg-kFNk7JiGJGGLTTygZ_dfZzlm3QXoLhXebzLmYcbVRD9Z8dx5HjlrEqqHlffH_w4lX8-2ZLAtJ-ozOR3t6eA-KlWXc&zp=Qv21uI2QmkAriTjbdSGoUV5aVQEsAerBrvyDqCMCqBKCz1lspi2W3ZH-RitGI52l9Q9kqg6kYEjcH4VMQaZmy-5ZKz8pfmJs27dV_osp5IBmR2NhPRcvsxpbzaHsCBczz1oPkdrZ7JSxpMVO4-uG6tORutzYSB5GSCGKFiqBGRqGS1Rfy2UEx9rWJKh4CZInjTXMtvg4OOeI2neIf1bbONHsHBFV3tSsmcSgo4QE_eFR8GUrt3xZRu7NI6D5Sv58y_fTfiL4gUO1SnUwadgvLLesiRnWznvKhuojlk1Q67OWITzYnR3DpvLMS4D5WzNft4hsZlx8ufnwobgWiy1mSJsAJCbHiTke85i4S9jRizyycpRfM8YLxT0NgGF45Hblc544oxmNcj0Z-p-w9Lkp3-9Qky0_
+                      - generic [ref=e281]:
+                        - generic [ref=e282]:
+                          - link "u/JetBrains_official 虛擬頭像 u/JetBrains_official" [ref=e285] [cursor=pointer]:
+                            - /url: /user/JetBrains_official/
+                            - img "u/JetBrains_official 虛擬頭像" [ref=e288]
+                            - generic [ref=e289]: u/JetBrains_official
+                          - generic [ref=e290]: •
+                          - link "宣傳內容" [ref=e292] [cursor=pointer]:
+                            - /url: /user/JetBrains_official/
+                            - generic [ref=e293]: 宣傳內容
+                          - link [ref=e295] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=QEAB01qFMTvNve0zwtDNr05ALYG0h2PI4fUXc85lxYROGCWPOu73AcFo9_xNhkTY8_xNrU3qOdhTlbuYPMoBEtzISpc4yEcOn2I7g1-608VK8jSvck4j2MtJKIR2GXsuMumTsYaMPJevLH-WZCAAlFAs_yE9_6tuLUHKa9M814peA8pahn8vRVLzOvzoTtc10jlE5Wv0n12uyPRrDIeUnQrRIu2HSFsOsgGxbqCtt12TqqB5Q4xoRbYKvvp8DFySTxgRqJW2NVmDfobfNUH2eZHFsofOUoaZfI2zPtOXeywJQcLbaX-UHWBD5w4jobsU_2kA0AmT2QFc8_v_DwmcnBJ2_n4YN3WiKTJhdtR4xiRq6CQrb7Ast8UfabD2ImJwUE7I-0oTlnRIxleVMdRvVN_4NXYA-A_1e_UbuchG6LKbErK5sQ86FB8RxPFHcybst4O4i1zk90DUbCAPSLcfSrAuAKsoCABtKpivqbvIcT-T6DJiL3Q-J4PCsoqVRvI5ONFS_FX1zY3xU0M5EdY3LP_fanWN1O0Y0HHFlUQdCOYjnoG5fe9n7Gyyha7nrXYfbkfXRHwwXdLfhjBPEGnlRZgFR7BjKKuUQjsDbPVObC_8Uzx_jjEd1EX9QrUtZiq3uIxOduVTbLcWCOEFiTY5UAx_FUD-QeewLoEhg-kFNk7JiGJGGLTTygZ_dfZzlm3QXoLhXebzLmYcbVRD9Z8dx5HjlrEqqHlffH_w4lX8-2ZLAtJ-ozOR3t6eA-KlWXc&zp=Qv21uI2QmkAriTjbdSGoUV5aVQEsAerBrvyDqCMCqBKCz1lspi2W3ZH-RitGI52l9Q9kqg6kYEjcH4VMQaZmy-5ZKz8pfmJs27dV_osp5IBmR2NhPRcvsxpbzaHsCBczz1oPkdrZ7JSxpMVO4-uG6tORutzYSB5GSCGKFiqBGRqGS1Rfy2UEx9rWJKh4CZInjTXMtvg4OOeI2neIf1bbONHsHBFV3tSsmcSgo4QE_eFR8GUrt3xZRu7NI6D5Sv58y_fTfiL4gUO1SnUwadgvLLesiRnWznvKhuojlk1Q67OWITzYnR3DpvLMS4D5WzNft4hsZlx8ufnwobgWiy1mSJsAJCbHiTke85i4S9jRizyycpRfM8YLxT0NgGF45Hblc544oxmNcj0Z-p-w9Lkp3-9Qky0_
+                        - button "開啟使用者操作" [ref=e300] [cursor=pointer]:
+                          - img [ref=e303]
+                      - heading "Mellum2 is a fast, open-source LLM for ultra-low-latency, high-performance inference. Run routing, RAG, and sub-agents locally or in the cloud." [level=2] [ref=e307]:
+                        - link "Mellum2 is a fast, open-source LLM for ultra-low-latency, high-performance inference. Run routing, RAG, and sub-agents locally or in the cloud." [ref=e310] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=QEAB01qFMTvNve0zwtDNr05ALYG0h2PI4fUXc85lxYROGCWPOu73AcFo9_xNhkTY8_xNrU3qOdhTlbuYPMoBEtzISpc4yEcOn2I7g1-608VK8jSvck4j2MtJKIR2GXsuMumTsYaMPJevLH-WZCAAlFAs_yE9_6tuLUHKa9M814peA8pahn8vRVLzOvzoTtc10jlE5Wv0n12uyPRrDIeUnQrRIu2HSFsOsgGxbqCtt12TqqB5Q4xoRbYKvvp8DFySTxgRqJW2NVmDfobfNUH2eZHFsofOUoaZfI2zPtOXeywJQcLbaX-UHWBD5w4jobsU_2kA0AmT2QFc8_v_DwmcnBJ2_n4YN3WiKTJhdtR4xiRq6CQrb7Ast8UfabD2ImJwUE7I-0oTlnRIxleVMdRvVN_4NXYA-A_1e_UbuchG6LKbErK5sQ86FB8RxPFHcybst4O4i1zk90DUbCAPSLcfSrAuAKsoCABtKpivqbvIcT-T6DJiL3Q-J4PCsoqVRvI5ONFS_FX1zY3xU0M5EdY3LP_fanWN1O0Y0HHFlUQdCOYjnoG5fe9n7Gyyha7nrXYfbkfXRHwwXdLfhjBPEGnlRZgFR7BjKKuUQjsDbPVObC_8Uzx_jjEd1EX9QrUtZiq3uIxOduVTbLcWCOEFiTY5UAx_FUD-QeewLoEhg-kFNk7JiGJGGLTTygZ_dfZzlm3QXoLhXebzLmYcbVRD9Z8dx5HjlrEqqHlffH_w4lX8-2ZLAtJ-ozOR3t6eA-KlWXc&zp=Qv21uI2QmkAriTjbdSGoUV5aVQEsAerBrvyDqCMCqBKCz1lspi2W3ZH-RitGI52l9Q9kqg6kYEjcH4VMQaZmy-5ZKz8pfmJs27dV_osp5IBmR2NhPRcvsxpbzaHsCBczz1oPkdrZ7JSxpMVO4-uG6tORutzYSB5GSCGKFiqBGRqGS1Rfy2UEx9rWJKh4CZInjTXMtvg4OOeI2neIf1bbONHsHBFV3tSsmcSgo4QE_eFR8GUrt3xZRu7NI6D5Sv58y_fTfiL4gUO1SnUwadgvLLesiRnWznvKhuojlk1Q67OWITzYnR3DpvLMS4D5WzNft4hsZlx8ufnwobgWiy1mSJsAJCbHiTke85i4S9jRizyycpRfM8YLxT0NgGF45Hblc544oxmNcj0Z-p-w9Lkp3-9Qky0_
+                          - generic: Mellum2 is a fast, open-source LLM for ultra-low-latency, high-performance inference. Run routing, RAG, and sub-agents locally or in the cloud.
+                      - generic [ref=e311]:
+                        - link "Mellum2 is a fast, open-source LLM for ultra-low-latency, high-performance inference. Run routing, RAG, and sub-agents locally or in the cloud." [ref=e315] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=QEAB01qFMTvNve0zwtDNr05ALYG0h2PI4fUXc85lxYROGCWPOu73AcFo9_xNhkTY8_xNrU3qOdhTlbuYPMoBEtzISpc4yEcOn2I7g1-608VK8jSvck4j2MtJKIR2GXsuMumTsYaMPJevLH-WZCAAlFAs_yE9_6tuLUHKa9M814peA8pahn8vRVLzOvzoTtc10jlE5Wv0n12uyPRrDIeUnQrRIu2HSFsOsgGxbqCtt12TqqB5Q4xoRbYKvvp8DFySTxgRqJW2NVmDfobfNUH2eZHFsofOUoaZfI2zPtOXeywJQcLbaX-UHWBD5w4jobsU_2kA0AmT2QFc8_v_DwmcnBJ2_n4YN3WiKTJhdtR4xiRq6CQrb7Ast8UfabD2ImJwUE7I-0oTlnRIxleVMdRvVN_4NXYA-A_1e_UbuchG6LKbErK5sQ86FB8RxPFHcybst4O4i1zk90DUbCAPSLcfSrAuAKsoCABtKpivqbvIcT-T6DJiL3Q-J4PCsoqVRvI5ONFS_FX1zY3xU0M5EdY3LP_fanWN1O0Y0HHFlUQdCOYjnoG5fe9n7Gyyha7nrXYfbkfXRHwwXdLfhjBPEGnlRZgFR7BjKKuUQjsDbPVObC_8Uzx_jjEd1EX9QrUtZiq3uIxOduVTbLcWCOEFiTY5UAx_FUD-QeewLoEhg-kFNk7JiGJGGLTTygZ_dfZzlm3QXoLhXebzLmYcbVRD9Z8dx5HjlrEqqHlffH_w4lX8-2ZLAtJ-ozOR3t6eA-KlWXc&zp=Qv21uI2QmkAriTjbdSGoUV5aVQEsAerBrvyDqCMCqBKCz1lspi2W3ZH-RitGI52l9Q9kqg6kYEjcH4VMQaZmy-5ZKz8pfmJs27dV_osp5IBmR2NhPRcvsxpbzaHsCBczz1oPkdrZ7JSxpMVO4-uG6tORutzYSB5GSCGKFiqBGRqGS1Rfy2UEx9rWJKh4CZInjTXMtvg4OOeI2neIf1bbONHsHBFV3tSsmcSgo4QE_eFR8GUrt3xZRu7NI6D5Sv58y_fTfiL4gUO1SnUwadgvLLesiRnWznvKhuojlk1Q67OWITzYnR3DpvLMS4D5WzNft4hsZlx8ufnwobgWiy1mSJsAJCbHiTke85i4S9jRizyycpRfM8YLxT0NgGF45Hblc544oxmNcj0Z-p-w9Lkp3-9Qky0_
+                          - img "Mellum2 is a fast, open-source LLM for ultra-low-latency, high-performance inference. Run routing, RAG, and sub-agents locally or in the cloud." [ref=e317]
+                        - separator [ref=e318]
+                        - generic [ref=e319]:
+                          - link [ref=e321] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=QEAB01qFMTvNve0zwtDNr05ALYG0h2PI4fUXc85lxYROGCWPOu73AcFo9_xNhkTY8_xNrU3qOdhTlbuYPMoBEtzISpc4yEcOn2I7g1-608VK8jSvck4j2MtJKIR2GXsuMumTsYaMPJevLH-WZCAAlFAs_yE9_6tuLUHKa9M814peA8pahn8vRVLzOvzoTtc10jlE5Wv0n12uyPRrDIeUnQrRIu2HSFsOsgGxbqCtt12TqqB5Q4xoRbYKvvp8DFySTxgRqJW2NVmDfobfNUH2eZHFsofOUoaZfI2zPtOXeywJQcLbaX-UHWBD5w4jobsU_2kA0AmT2QFc8_v_DwmcnBJ2_n4YN3WiKTJhdtR4xiRq6CQrb7Ast8UfabD2ImJwUE7I-0oTlnRIxleVMdRvVN_4NXYA-A_1e_UbuchG6LKbErK5sQ86FB8RxPFHcybst4O4i1zk90DUbCAPSLcfSrAuAKsoCABtKpivqbvIcT-T6DJiL3Q-J4PCsoqVRvI5ONFS_FX1zY3xU0M5EdY3LP_fanWN1O0Y0HHFlUQdCOYjnoG5fe9n7Gyyha7nrXYfbkfXRHwwXdLfhjBPEGnlRZgFR7BjKKuUQjsDbPVObC_8Uzx_jjEd1EX9QrUtZiq3uIxOduVTbLcWCOEFiTY5UAx_FUD-QeewLoEhg-kFNk7JiGJGGLTTygZ_dfZzlm3QXoLhXebzLmYcbVRD9Z8dx5HjlrEqqHlffH_w4lX8-2ZLAtJ-ozOR3t6eA-KlWXc&zp=Qv21uI2QmkAriTjbdSGoUV5aVQEsAerBrvyDqCMCqBKCz1lspi2W3ZH-RitGI52l9Q9kqg6kYEjcH4VMQaZmy-5ZKz8pfmJs27dV_osp5IBmR2NhPRcvsxpbzaHsCBczz1oPkdrZ7JSxpMVO4-uG6tORutzYSB5GSCGKFiqBGRqGS1Rfy2UEx9rWJKh4CZInjTXMtvg4OOeI2neIf1bbONHsHBFV3tSsmcSgo4QE_eFR8GUrt3xZRu7NI6D5Sv58y_fTfiL4gUO1SnUwadgvLLesiRnWznvKhuojlk1Q67OWITzYnR3DpvLMS4D5WzNft4hsZlx8ufnwobgWiy1mSJsAJCbHiTke85i4S9jRizyycpRfM8YLxT0NgGF45Hblc544oxmNcj0Z-p-w9Lkp3-9Qky0_
+                          - generic [ref=e322]:
+                            - link "jetbrains.com" [ref=e325] [cursor=pointer]:
+                              - /url: https://alb.reddit.com/cr?za=QEAB01qFMTvNve0zwtDNr05ALYG0h2PI4fUXc85lxYROGCWPOu73AcFo9_xNhkTY8_xNrU3qOdhTlbuYPMoBEtzISpc4yEcOn2I7g1-608VK8jSvck4j2MtJKIR2GXsuMumTsYaMPJevLH-WZCAAlFAs_yE9_6tuLUHKa9M814peA8pahn8vRVLzOvzoTtc10jlE5Wv0n12uyPRrDIeUnQrRIu2HSFsOsgGxbqCtt12TqqB5Q4xoRbYKvvp8DFySTxgRqJW2NVmDfobfNUH2eZHFsofOUoaZfI2zPtOXeywJQcLbaX-UHWBD5w4jobsU_2kA0AmT2QFc8_v_DwmcnBJ2_n4YN3WiKTJhdtR4xiRq6CQrb7Ast8UfabD2ImJwUE7I-0oTlnRIxleVMdRvVN_4NXYA-A_1e_UbuchG6LKbErK5sQ86FB8RxPFHcybst4O4i1zk90DUbCAPSLcfSrAuAKsoCABtKpivqbvIcT-T6DJiL3Q-J4PCsoqVRvI5ONFS_FX1zY3xU0M5EdY3LP_fanWN1O0Y0HHFlUQdCOYjnoG5fe9n7Gyyha7nrXYfbkfXRHwwXdLfhjBPEGnlRZgFR7BjKKuUQjsDbPVObC_8Uzx_jjEd1EX9QrUtZiq3uIxOduVTbLcWCOEFiTY5UAx_FUD-QeewLoEhg-kFNk7JiGJGGLTTygZ_dfZzlm3QXoLhXebzLmYcbVRD9Z8dx5HjlrEqqHlffH_w4lX8-2ZLAtJ-ozOR3t6eA-KlWXc&zp=Qv21uI2QmkAriTjbdSGoUV5aVQEsAerBrvyDqCMCqBKCz1lspi2W3ZH-RitGI52l9Q9kqg6kYEjcH4VMQaZmy-5ZKz8pfmJs27dV_osp5IBmR2NhPRcvsxpbzaHsCBczz1oPkdrZ7JSxpMVO4-uG6tORutzYSB5GSCGKFiqBGRqGS1Rfy2UEx9rWJKh4CZInjTXMtvg4OOeI2neIf1bbONHsHBFV3tSsmcSgo4QE_eFR8GUrt3xZRu7NI6D5Sv58y_fTfiL4gUO1SnUwadgvLLesiRnWznvKhuojlk1Q67OWITzYnR3DpvLMS4D5WzNft4hsZlx8ufnwobgWiy1mSJsAJCbHiTke85i4S9jRizyycpRfM8YLxT0NgGF45Hblc544oxmNcj0Z-p-w9Lkp3-9Qky0_
+                              - generic: jetbrains.com
+                            - link "深入了解" [ref=e327] [cursor=pointer]:
+                              - /url: https://alb.reddit.com/cr?za=QEAB01qFMTvNve0zwtDNr05ALYG0h2PI4fUXc85lxYROGCWPOu73AcFo9_xNhkTY8_xNrU3qOdhTlbuYPMoBEtzISpc4yEcOn2I7g1-608VK8jSvck4j2MtJKIR2GXsuMumTsYaMPJevLH-WZCAAlFAs_yE9_6tuLUHKa9M814peA8pahn8vRVLzOvzoTtc10jlE5Wv0n12uyPRrDIeUnQrRIu2HSFsOsgGxbqCtt12TqqB5Q4xoRbYKvvp8DFySTxgRqJW2NVmDfobfNUH2eZHFsofOUoaZfI2zPtOXeywJQcLbaX-UHWBD5w4jobsU_2kA0AmT2QFc8_v_DwmcnBJ2_n4YN3WiKTJhdtR4xiRq6CQrb7Ast8UfabD2ImJwUE7I-0oTlnRIxleVMdRvVN_4NXYA-A_1e_UbuchG6LKbErK5sQ86FB8RxPFHcybst4O4i1zk90DUbCAPSLcfSrAuAKsoCABtKpivqbvIcT-T6DJiL3Q-J4PCsoqVRvI5ONFS_FX1zY3xU0M5EdY3LP_fanWN1O0Y0HHFlUQdCOYjnoG5fe9n7Gyyha7nrXYfbkfXRHwwXdLfhjBPEGnlRZgFR7BjKKuUQjsDbPVObC_8Uzx_jjEd1EX9QrUtZiq3uIxOduVTbLcWCOEFiTY5UAx_FUD-QeewLoEhg-kFNk7JiGJGGLTTygZ_dfZzlm3QXoLhXebzLmYcbVRD9Z8dx5HjlrEqqHlffH_w4lX8-2ZLAtJ-ozOR3t6eA-KlWXc&zp=Qv21uI2QmkAriTjbdSGoUV5aVQEsAerBrvyDqCMCqBKCz1lspi2W3ZH-RitGI52l9Q9kqg6kYEjcH4VMQaZmy-5ZKz8pfmJs27dV_osp5IBmR2NhPRcvsxpbzaHsCBczz1oPkdrZ7JSxpMVO4-uG6tORutzYSB5GSCGKFiqBGRqGS1Rfy2UEx9rWJKh4CZInjTXMtvg4OOeI2neIf1bbONHsHBFV3tSsmcSgo4QE_eFR8GUrt3xZRu7NI6D5Sv58y_fTfiL4gUO1SnUwadgvLLesiRnWznvKhuojlk1Q67OWITzYnR3DpvLMS4D5WzNft4hsZlx8ufnwobgWiy1mSJsAJCbHiTke85i4S9jRizyycpRfM8YLxT0NgGF45Hblc544oxmNcj0Z-p-w9Lkp3-9Qky0_
+                              - generic [ref=e329]:
+                                - generic: 深入了解
+                      - generic "適用於此貼文的操作" [ref=e331]:
+                        - generic [ref=e334]:
+                          - button "推" [ref=e335] [cursor=pointer]:
+                            - img [ref=e337]
+                            - generic [ref=e339]:
+                              - generic: 推
+                          - generic [ref=e341]: "7"
+                          - button "噓" [ref=e342] [cursor=pointer]:
+                            - img [ref=e344]
+                            - generic [ref=e346]:
+                              - generic: 噓
+                        - link "0 前往留言" [ref=e347] [cursor=pointer]:
+                          - /url: /user/JetBrains_official/comments/1twlbaz/mellum2_is_a_fast_opensource_llm_for/?p=1&impressionid=5339723177721361285
+                          - generic [ref=e348]:
+                            - img [ref=e350]
+                            - generic [ref=e353]: "0"
+                          - generic [ref=e354]:
+                            - generic: 前往留言
+                        - button "分享" [ref=e358] [cursor=pointer]:
+                          - generic [ref=e359]:
+                            - img [ref=e361]
+                            - generic [ref=e363]: 分享
+                        - link [ref=e365] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=QEAB01qFMTvNve0zwtDNr05ALYG0h2PI4fUXc85lxYROGCWPOu73AcFo9_xNhkTY8_xNrU3qOdhTlbuYPMoBEtzISpc4yEcOn2I7g1-608VK8jSvck4j2MtJKIR2GXsuMumTsYaMPJevLH-WZCAAlFAs_yE9_6tuLUHKa9M814peA8pahn8vRVLzOvzoTtc10jlE5Wv0n12uyPRrDIeUnQrRIu2HSFsOsgGxbqCtt12TqqB5Q4xoRbYKvvp8DFySTxgRqJW2NVmDfobfNUH2eZHFsofOUoaZfI2zPtOXeywJQcLbaX-UHWBD5w4jobsU_2kA0AmT2QFc8_v_DwmcnBJ2_n4YN3WiKTJhdtR4xiRq6CQrb7Ast8UfabD2ImJwUE7I-0oTlnRIxleVMdRvVN_4NXYA-A_1e_UbuchG6LKbErK5sQ86FB8RxPFHcybst4O4i1zk90DUbCAPSLcfSrAuAKsoCABtKpivqbvIcT-T6DJiL3Q-J4PCsoqVRvI5ONFS_FX1zY3xU0M5EdY3LP_fanWN1O0Y0HHFlUQdCOYjnoG5fe9n7Gyyha7nrXYfbkfXRHwwXdLfhjBPEGnlRZgFR7BjKKuUQjsDbPVObC_8Uzx_jjEd1EX9QrUtZiq3uIxOduVTbLcWCOEFiTY5UAx_FUD-QeewLoEhg-kFNk7JiGJGGLTTygZ_dfZzlm3QXoLhXebzLmYcbVRD9Z8dx5HjlrEqqHlffH_w4lX8-2ZLAtJ-ozOR3t6eA-KlWXc&zp=Qv21uI2QmkAriTjbdSGoUV5aVQEsAerBrvyDqCMCqBKCz1lspi2W3ZH-RitGI52l9Q9kqg6kYEjcH4VMQaZmy-5ZKz8pfmJs27dV_osp5IBmR2NhPRcvsxpbzaHsCBczz1oPkdrZ7JSxpMVO4-uG6tORutzYSB5GSCGKFiqBGRqGS1Rfy2UEx9rWJKh4CZInjTXMtvg4OOeI2neIf1bbONHsHBFV3tSsmcSgo4QE_eFR8GUrt3xZRu7NI6D5Sv58y_fTfiL4gUO1SnUwadgvLLesiRnWznvKhuojlk1Q67OWITzYnR3DpvLMS4D5WzNft4hsZlx8ufnwobgWiy1mSJsAJCbHiTke85i4S9jRizyycpRfM8YLxT0NgGF45Hblc544oxmNcj0Z-p-w9Lkp3-9Qky0_
+                    - separator [ref=e366]
+                    - article "Chinese Hackers Latest Masterpiece with NVIDIA" [ref=e367]:
+                      - generic [ref=e368] [cursor=pointer]:
+                        - link "Chinese Hackers Latest Masterpiece with NVIDIA" [ref=e369]:
+                          - /url: https://www.reddit.com/r/LocalLLaMA/comments/1ucokod/chinese_hackers_latest_masterpiece_with_nvidia/
+                          - generic [ref=e370]:
+                            - generic: Chinese Hackers Latest Masterpiece with NVIDIA
+                        - generic [ref=e371]:
+                          - generic [ref=e373]:
+                            - generic [ref=e374]:
+                              - link "作者：u/General_Vermicelli53" [ref=e379]:
+                                - /url: https://www.reddit.com/user/General_Vermicelli53/
+                                - generic [ref=e380]:
+                                  - img "u/General_Vermicelli53 虛擬頭像" [ref=e383]
+                                  - generic [ref=e384]: u/General_Vermicelli53
+                              - generic [ref=e385]: •
+                              - time [ref=e387]: 23 小時前
+                            - button "開啟使用者操作" [ref=e392]:
+                              - img [ref=e395]
+                          - generic [ref=e397]:
+                            - link "Chinese Hackers Latest Masterpiece with NVIDIA" [ref=e399]:
+                              - /url: https://www.reddit.com/r/LocalLLaMA/comments/1ucokod/chinese_hackers_latest_masterpiece_with_nvidia/
+                            - link "標籤：Other" [ref=e402]:
+                              - /url: /r/LocalLLaMA/?f=flair_name%3A%22Other%22
+                              - generic "標籤：Other" [ref=e404]: Other
+                            - link "https://www.bilibili.com/video/BV13JEa6sEtb/" [ref=e407]:
+                              - /url: https://www.bilibili.com/video/BV13JEa6sEtb/
+                        - generic "適用於此貼文的操作" [ref=e410]:
+                          - generic [ref=e413]:
+                            - button "推" [ref=e414]:
+                              - img [ref=e416]
+                              - generic [ref=e418]:
+                                - generic: 推
+                            - generic [ref=e420]: "872"
+                            - button "噓" [ref=e421]:
+                              - img [ref=e423]
+                              - generic [ref=e425]:
+                                - generic: 噓
+                          - link "156 前往留言" [ref=e426]:
+                            - /url: /r/LocalLLaMA/comments/1ucokod/chinese_hackers_latest_masterpiece_with_nvidia/
+                            - generic [ref=e427]:
+                              - img [ref=e429]
+                              - generic [ref=e432]: "156"
+                            - generic [ref=e433]:
+                              - generic: 前往留言
+                          - button "給予獎勵" [ref=e435]:
+                            - img [ref=e438]
+                          - button "分享" [ref=e443]:
+                            - generic [ref=e444]:
+                              - img [ref=e446]
+                              - generic [ref=e448]: 分享
+                    - separator [ref=e449]
+                    - article "Why is NO one talking about Microsoft's open source Fast Context!!!" [ref=e450]:
+                      - generic [ref=e451] [cursor=pointer]:
+                        - link "Why is NO one talking about Microsoft's open source Fast Context!!!" [ref=e452]:
+                          - /url: https://www.reddit.com/r/LocalLLaMA/comments/1ud1lro/why_is_no_one_talking_about_microsofts_open/
+                          - generic [ref=e453]:
+                            - generic: Why is NO one talking about Microsoft's open source Fast Context!!!
+                        - generic [ref=e454]:
+                          - generic [ref=e455]:
+                            - link "作者：u/formatme" [ref=e460]:
+                              - /url: https://www.reddit.com/user/formatme/
+                              - generic [ref=e461]:
+                                - img "u/formatme 虛擬頭像" [ref=e464]
+                                - generic [ref=e465]: u/formatme
+                            - generic [ref=e466]: •
+                            - time [ref=e468]: 14 小時前
+                          - button "開啟使用者操作" [ref=e473]:
+                            - img [ref=e476]
+                        - generic [ref=e479]:
+                          - heading "Why is NO one talking about Microsoft's open source Fast Context!!!" [level=2] [ref=e480]:
+                            - link "Why is NO one talking about Microsoft's open source Fast Context!!!" [ref=e481]:
+                              - /url: https://www.reddit.com/r/LocalLLaMA/comments/1ud1lro/why_is_no_one_talking_about_microsofts_open/
+                          - link "標籤：Resources" [ref=e484]:
+                            - /url: /r/LocalLLaMA/?f=flair_name%3A%22Resources%22
+                            - generic "標籤：Resources" [ref=e486]: Resources
+                        - generic [ref=e491]:
+                          - generic [ref=e493]:
+                            - generic [ref=e494]:
+                              - generic [ref=e496]:
+                                - button "Previous page" [disabled]:
+                                  - generic:
+                                    - generic:
+                                      - img
+                              - list [ref=e497]:
+                                - listitem [ref=e498]:
+                                  - figure [ref=e499]:
+                                    - img "r/LocalLLaMA - Why is NO one talking about Microsoft's open source Fast Context!!!" [ref=e500]
+                              - button "Next page" [ref=e503]:
+                                - img [ref=e506]
+                            - group [ref=e512]:
+                              - button "Page 1 (Current page)" [ref=e514]:
+                                - generic [ref=e515]:
+                                  - generic: Page 1 (Current page)
+                              - button "Page 2" [ref=e516]:
+                                - generic [ref=e517]:
+                                  - generic: Page 2
+                              - button [ref=e518]
+                          - generic [ref=e520]:
+                            - generic: Item 1 of 3
+                        - generic "適用於此貼文的操作" [ref=e522]:
+                          - generic [ref=e525]:
+                            - button "推" [ref=e526]:
+                              - img [ref=e528]
+                              - generic [ref=e530]:
+                                - generic: 推
+                            - generic [ref=e532]: "153"
+                            - button "噓" [ref=e533]:
+                              - img [ref=e535]
+                              - generic [ref=e537]:
+                                - generic: 噓
+                          - link "116 前往留言" [ref=e538]:
+                            - /url: /r/LocalLLaMA/comments/1ud1lro/why_is_no_one_talking_about_microsofts_open/
+                            - generic [ref=e539]:
+                              - img [ref=e541]
+                              - generic [ref=e544]: "116"
+                            - generic [ref=e545]:
+                              - generic: 前往留言
+                          - button "給予獎勵" [ref=e547]:
+                            - img [ref=e550]
+                          - button "分享" [ref=e555]:
+                            - generic [ref=e556]:
+                              - img [ref=e558]
+                              - generic [ref=e560]: 分享
+                    - separator [ref=e561]
+                  - img [ref=e567]
+            - generic [ref=e580]:
+              - complementary "社群資訊" [ref=e584]:
+                - generic [ref=e585]:
+                  - generic [ref=e587]:
+                    - heading "社群資訊區" [level=1] [ref=e588]
+                    - generic [ref=e589]:
+                      - generic [ref=e590]: LocalLlama
+                      - generic [ref=e591]: Subreddit to discuss locally hostable AI.
+                      - generic [ref=e592]:
+                        - generic [ref=e594]:
+                          - img [ref=e595]
+                          - text: 於 2023年3月10日建立
+                        - generic [ref=e598]:
+                          - img [ref=e599]
+                          - text: 公開
+                    - generic [ref=e601]:
+                      - generic [ref=e602]:
+                        - strong [ref=e604]:
+                          - generic: 93萬
+                        - generic [ref=e605]: Llamas
+                      - generic [ref=e606]:
+                        - strong [ref=e608]:
+                          - generic: 2萬
+                        - generic [ref=e609]: 每週貢獻數
+                  - separator [ref=e610]
+                  - generic [ref=e611]:
+                    - heading "社群書籤" [level=2] [ref=e613]:
+                      - generic [ref=e614]: 社群書籤
+                    - generic [ref=e615]:
+                      - link "知識庫" [ref=e617] [cursor=pointer]:
+                        - /url: /r/LocalLLaMA/wiki/index/
+                        - generic [ref=e620]: 知識庫
+                      - link "Best LLMs Megathread" [ref=e622] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/LocalLLaMA/comments/1sknx6n/best_local_llms_apr_2026/
+                        - generic [ref=e625]: Best LLMs Megathread
+                      - link "Best VLMs Megathread" [ref=e627] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/LocalLLaMA/comments/1p5retd/best_local_vlms_november_2025/
+                        - generic [ref=e630]: Best VLMs Megathread
+                      - link "Best TTS/STT Models" [ref=e632] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/LocalLLaMA/comments/1r7bsfd/best_audio_models_feb_2026/
+                        - generic [ref=e635]: Best TTS/STT Models
+                  - separator [ref=e636]
+                  - generic [ref=e637]:
+                    - heading "r/LocalLLaMA規範" [level=2] [ref=e639]:
+                      - generic [ref=e640]: r/LocalLLaMA規範
+                    - generic [ref=e641]:
+                      - group [ref=e643]:
+                        - generic "1 Please search before asking" [ref=e644] [cursor=pointer]:
+                          - generic [ref=e646]:
+                            - generic [ref=e647]:
+                              - generic [ref=e649]: "1"
+                              - heading "Please search before asking" [level=2] [ref=e653]
+                            - img [ref=e656]
+                      - group [ref=e659]:
+                        - generic "2 Off-Topic Posts" [ref=e660] [cursor=pointer]:
+                          - generic [ref=e662]:
+                            - generic [ref=e663]:
+                              - generic [ref=e665]: "2"
+                              - heading "Off-Topic Posts" [level=2] [ref=e669]
+                            - img [ref=e672]
+                      - group [ref=e675]:
+                        - generic "3 Low Effort Posts" [ref=e676] [cursor=pointer]:
+                          - generic [ref=e678]:
+                            - generic [ref=e679]:
+                              - generic [ref=e681]: "3"
+                              - heading "Low Effort Posts" [level=2] [ref=e685]
+                            - img [ref=e688]
+                      - group [ref=e691]:
+                        - generic "4 Limit Self-Promotion" [ref=e692] [cursor=pointer]:
+                          - generic [ref=e694]:
+                            - generic [ref=e695]:
+                              - generic [ref=e697]: "4"
+                              - heading "Limit Self-Promotion" [level=2] [ref=e701]
+                            - img [ref=e704]
+                      - group [ref=e707]:
+                        - generic "5 Follow Reddit's Content Policy" [ref=e708] [cursor=pointer]:
+                          - generic [ref=e710]:
+                            - generic [ref=e711]:
+                              - generic [ref=e713]: "5"
+                              - heading "Follow Reddit's Content Policy" [level=2] [ref=e717]
+                            - img [ref=e720]
+                  - separator [ref=e722]
+                  - generic [ref=e723]:
+                    - heading "Socials" [level=2] [ref=e725]:
+                      - generic [ref=e726]: Socials
+                    - link [ref=e727] [cursor=pointer]:
+                      - /url: https://discord.gg/ru9RYpx6Gp
+                  - separator [ref=e728]
+                  - generic [ref=e729]:
+                    - heading "AMA" [level=2] [ref=e731]:
+                      - generic [ref=e732]: AMA
+                    - link [ref=e733] [cursor=pointer]:
+                      - /url: https://discord.gg/4R7xS5hMdN
+                  - separator [ref=e734]
+                  - separator [ref=e735]
+                  - generic [ref=e736]:
+                    - heading "已安裝的應用程式" [level=2] [ref=e738]:
+                      - generic [ref=e739]: 已安裝的應用程式
+                    - link "Admin Tattler" [ref=e740] [cursor=pointer]:
+                      - /url: https://developers.reddit.com/apps/admin-tattler
+                      - generic [ref=e743]: Admin Tattler
+                      - img [ref=e746]
+                    - link "Bot Bouncer" [ref=e748] [cursor=pointer]:
+                      - /url: https://developers.reddit.com/apps/bot-bouncer
+                      - generic [ref=e751]: Bot Bouncer
+                      - img [ref=e754]
+              - list [ref=e757]:
+                - listitem [ref=e758]:
+                  - link "首頁" [ref=e760] [cursor=pointer]:
+                    - /url: /?feed=home
+                - listitem [ref=e761]:
+                  - link "爆紅" [ref=e763] [cursor=pointer]:
+                    - /url: /r/popular/
+                - listitem [ref=e764]:
+                  - link "最新消息" [ref=e766] [cursor=pointer]:
+                    - /url: /news/
+                - listitem [ref=e767]:
+                  - link "探索" [ref=e769] [cursor=pointer]:
+                    - /url: /explore/
+                - listitem [ref=e770]:
+                  - link "Reddit 精選內容" [ref=e772] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/global/
+                - listitem [ref=e773]:
+                  - link "葡萄牙文的 Reddit 精選內容" [ref=e775] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-pt-BR/
+                - listitem [ref=e776]:
+                  - link "德文的 Reddit 精選內容" [ref=e778] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-de/
+                - listitem [ref=e779]:
+                  - link "Reddit 規範" [ref=e781] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/content-policy
+                - listitem [ref=e782]:
+                  - link "《隱私權政策》" [ref=e784] [cursor=pointer]:
+                    - /url: https://www.reddit.com/policies/privacy-policy
+                - listitem [ref=e785]:
+                  - link "《使用者協議》" [ref=e787] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/user-agreement
+                - listitem [ref=e788]:
+                  - link "你的隱私權選擇" [ref=e790] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/articles/43980704794004
+                - listitem [ref=e791]:
+                  - link "輔助功能" [ref=e793] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+                - listitem [ref=e794]:
+                  - link "Reddit, Inc. © 2026. 保留所有權利。" [ref=e795] [cursor=pointer]:
+                    - /url: https://redditinc.com
+        - generic [ref=e798]:
+          - img
+          - paragraph [ref=e799]: 加入最真實的網路天地
+          - generic [ref=e801]:
+            - generic [ref=e804]:
+              - iframe [ref=e809]:
+                - button "透過 Google 帳戶繼續操作。在新分頁中開啟" [ref=f28e3] [cursor=pointer]:
+                  - generic [ref=f28e5]:
+                    - img [ref=f28e7]
+                    - generic [ref=f28e14]: 透過 Google 帳戶繼續操作
+              - generic [ref=e811] [cursor=pointer]:
+                - generic [ref=e812]:
+                  - img [ref=e813]
+                  - generic [ref=e815]: 使用 Apple 帳號繼續
+                - button "Sign in with Apple" [ref=e818]:
+                  - generic [ref=e819]:
+                    - img:
+                      - generic:
+                        - img:
+                          - generic:  Sign in with Apple
+                  - img [ref=e821]
+            - link "使用電話號碼繼續" [ref=e824] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e827]:
+                - img [ref=e828]
+                - generic [ref=e831]: 使用電話號碼繼續
+            - link "使用電子郵件繼續" [ref=e833] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e836]:
+                - img [ref=e837]
+                - generic [ref=e839]: 使用電子郵件繼續
+          - paragraph [ref=e840]:
+            - text: 繼續即表示你同意我們的
+            - link "《使用者協議》" [ref=e841] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/user-agreement
+            - text: 並確認你已了解
+            - link "《隱私權政策》" [ref=e842] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/privacy-policy
+            - text: .

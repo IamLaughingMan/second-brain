@@ -1,0 +1,2523 @@
+- generic [ref=e2]:
+  - generic:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e7] [cursor=pointer]: menu
+        - generic [ref=e9]: Penana
+        - generic:
+          - link "登入" [ref=e11] [cursor=pointer]:
+            - /url: /login.php?redirurl=/home
+          - generic [ref=e12] [cursor=pointer]: search
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - text: 開啟推送通知以獲得 Penana 上的最新動態!
+          - generic [ref=e15]:
+            - link "開啟通知" [ref=e17] [cursor=pointer]:
+              - /url: ""
+            - link "稍後" [ref=e19] [cursor=pointer]:
+              - /url: ""
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e25]:
+              - link "全部" [ref=e26] [cursor=pointer]:
+                - /url: /stories?gc=all
+              - link "愛情浪漫" [ref=e27] [cursor=pointer]:
+                - /url: /stories?gc=love
+              - link "玄幻武俠" [ref=e28] [cursor=pointer]:
+                - /url: /stories?gc=wuxia
+              - link "科幻世界" [ref=e29] [cursor=pointer]:
+                - /url: /stories?gc=scifi
+              - link "懸疑推理" [ref=e30] [cursor=pointer]:
+                - /url: /stories?gc=suspense
+              - link "奇幻冒險" [ref=e31] [cursor=pointer]:
+                - /url: /stories?gc=adventure
+              - link "寫實社會" [ref=e32] [cursor=pointer]:
+                - /url: /stories?gc=social
+              - link "青春校園" [ref=e33] [cursor=pointer]:
+                - /url: /stories?gc=youth
+              - link "二創" [ref=e34] [cursor=pointer]:
+                - /url: /stories?gc=fanfiction
+              - link "男男耽美" [ref=e35] [cursor=pointer]:
+                - /url: /stories?gc=bl
+              - link "女同百合" [ref=e36] [cursor=pointer]:
+                - /url: /stories?gc=gl
+              - link "輕小說" [ref=e37] [cursor=pointer]:
+                - /url: /stories?gc=light
+            - generic [ref=e41]:
+              - link [ref=e42] [cursor=pointer]:
+                - /url: /story/190988
+                - img [ref=e43]
+              - link [ref=e44] [cursor=pointer]:
+                - /url: /article/2232711
+                - img [ref=e45]
+              - link [ref=e46] [cursor=pointer]:
+                - /url: /story/205260
+                - img [ref=e47]
+              - link [ref=e48] [cursor=pointer]:
+                - /url: /story/155805
+                - img [ref=e49]
+              - link [ref=e50] [cursor=pointer]:
+                - /url: /story/209924
+                - img [ref=e51]
+              - link [ref=e52] [cursor=pointer]:
+                - /url: /article/2189473
+                - img [ref=e53]
+              - link [ref=e54] [cursor=pointer]:
+                - /url: /story/191998
+                - img [ref=e55]
+              - link [ref=e56] [cursor=pointer]:
+                - /url: /story/212800
+                - img [ref=e57]
+              - link [ref=e58] [cursor=pointer]:
+                - /url: /story/203594
+                - img [ref=e59]
+          - generic [ref=e60]:
+            - generic [ref=e61]:
+              - link "小說" [ref=e62] [cursor=pointer]:
+                - /url: /stories.php
+                - img [ref=e64]
+                - generic [ref=e65]: 小說
+              - link "創作挑戰" [ref=e66] [cursor=pointer]:
+                - /url: /contests.php
+                - img [ref=e68]
+                - generic [ref=e69]: 創作挑戰
+              - link "創作" [ref=e70] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e72]
+                - generic [ref=e73]: 創作
+              - link "交流" [ref=e74] [cursor=pointer]:
+                - /url: /discuss.php
+                - img [ref=e76]
+                - generic [ref=e77]: 交流
+              - link "漫畫" [ref=e78] [cursor=pointer]:
+                - /url: /comics?gc=local_only
+                - img [ref=e80]
+                - generic [ref=e81]: 漫畫
+            - generic [ref=e82]:
+              - generic [ref=e83]:
+                - text: 熱血足球運動季！
+                - link "chevron_right" [ref=e84] [cursor=pointer]:
+                  - /url: /storypicks/405
+                  - generic [ref=e85]: chevron_right
+              - generic [ref=e86]:
+                - generic [ref=e87]: 有關「足球」及「運動」的主題書單
+                - generic [ref=e88]:
+                  - link "已完結 [七宗罪][籃球][玄幻][打鬥冒險]《命運籃球》［實體書於各大書局有售］ 歐子爭 《命運籃球》" [ref=e91] [cursor=pointer]:
+                    - /url: /story/77092/七宗罪-籃球-玄幻-打鬥冒險-命運籃球-實體書於各大書局有售/toc
+                    - generic [ref=e94]: 已完結
+                    - generic [ref=e95]:
+                      - generic [ref=e96]: "[七宗罪][籃球][玄幻][打鬥冒險]《命運籃球》［實體書於各大書局有售］"
+                      - generic [ref=e97]: 歐子爭
+                      - generic [ref=e98]: 《命運籃球》
+                  - link "【港超故】《繼續上》 東炒飯 作為喜歡足球的香港人，你是不是一直都只看外國的球賽？ 能夠每周也看英超、西甲，卻不曾現場看過一場港超？ 除了港隊比賽，就沒看過那些在港超球場拼搏的球員？當我們能為了相隔半個地球的球隊打氣，為甚麼就不去… more 香港 友情 熱血 廣東話 粵語 運動 足球 努力 勝利 東炒飯 港超" [ref=e101] [cursor=pointer]:
+                    - /url: /story/209509/港超故-繼續上/toc
+                    - generic [ref=e104]:
+                      - generic [ref=e105]: 【港超故】《繼續上》
+                      - generic [ref=e106]: 東炒飯
+                      - generic [ref=e107]: 作為喜歡足球的香港人，你是不是一直都只看外國的球賽？ 能夠每周也看英超、西甲，卻不曾現場看過一場港超？ 除了港隊比賽，就沒看過那些在港超球場拼搏的球員？當我們能為了相隔半個地球的球隊打氣，為甚麼就不去… more
+                      - generic [ref=e108]:
+                        - generic [ref=e109]: 香港
+                        - generic [ref=e110]: 友情
+                        - generic [ref=e111]: 熱血
+                        - generic [ref=e112]: 廣東話
+                        - generic [ref=e113]: 粵語
+                        - generic [ref=e114]: 運動
+                        - generic [ref=e115]: 足球
+                        - generic [ref=e116]: 努力
+                        - generic [ref=e117]: 勝利
+                        - generic [ref=e118]: 東炒飯
+                        - generic [ref=e119]: 港超
+                  - link "中佬的足球場 TheBoxStudio 「踢波梗係踢前鋒啦，猜輸先守龍嘅啫。你又會自己走去做嘅？」「做乜咁有興趣？慢慢講你知囉……」星期日晨咁早，中佬阿寶帶住個仔阿樂同uncle們去踢波……憶起過往快樂的青葱足球歲月。那些年，我們一起落街場… more 運動 足球 港漫 中佬" [ref=e122] [cursor=pointer]:
+                    - /url: /story/160490/中佬的足球場/toc
+                    - generic [ref=e125]:
+                      - generic [ref=e126]: 中佬的足球場
+                      - generic [ref=e127]: TheBoxStudio
+                      - generic [ref=e128]: 「踢波梗係踢前鋒啦，猜輸先守龍嘅啫。你又會自己走去做嘅？」「做乜咁有興趣？慢慢講你知囉……」星期日晨咁早，中佬阿寶帶住個仔阿樂同uncle們去踢波……憶起過往快樂的青葱足球歲月。那些年，我們一起落街場… more
+                      - generic [ref=e129]:
+                        - generic [ref=e130]: 運動
+                        - generic [ref=e131]: 足球
+                        - generic [ref=e132]: 港漫
+                        - generic [ref=e133]: 中佬
+                  - link "已完結 時速四百公里 薯仔聞茱莉 「秒速五厘米，是櫻花落下的速度。時速四百公里，是羽毛球扣殺的應有速度。羽丹 題字— 1997」我的爺爺羽丹搬往深山隱居前的那一天，以毛筆寫出這一幅題字，並鑲嵌在黑框相架內，懸掛在我現時所住的家中客廳牆… more 奇幻 搞笑 科學 羽毛球" [ref=e136] [cursor=pointer]:
+                    - /url: /story/29988/時速四百公里/toc
+                    - generic [ref=e139]: 已完結
+                    - generic [ref=e140]:
+                      - generic [ref=e141]: 時速四百公里
+                      - generic [ref=e142]: 薯仔聞茱莉
+                      - generic [ref=e143]: 「秒速五厘米，是櫻花落下的速度。時速四百公里，是羽毛球扣殺的應有速度。羽丹 題字— 1997」我的爺爺羽丹搬往深山隱居前的那一天，以毛筆寫出這一幅題字，並鑲嵌在黑框相架內，懸掛在我現時所住的家中客廳牆… more
+                      - generic [ref=e144]:
+                        - generic [ref=e145]: 奇幻
+                        - generic [ref=e146]: 搞笑
+                        - generic [ref=e147]: 科學
+                        - generic [ref=e148]: 羽毛球
+                  - link "【創作挑戰 】燃起你的足球之魂⚽️ 東炒飯 and 3 Others // 足球是一種共同語言，無論你在場上踢球、在場邊吶喊觀賽、在電視觀看球賽，我們都分享著同一種激情。四年一度的世界盃，又是時候喚醒你心中對足球的熱情。這次我們用文字和圖畫，記錄屬於你的足球時刻。🎯挑戰… more 運動 比賽 足球 世界盃" [ref=e151] [cursor=pointer]:
+                    - /url: /story/214696/創作挑戰-燃起你的足球之魂/toc
+                    - generic [ref=e154]:
+                      - generic [ref=e155]: 【創作挑戰 】燃起你的足球之魂⚽️
+                      - generic [ref=e156]: 東炒飯 and 3 Others
+                      - generic [ref=e157]: // 足球是一種共同語言，無論你在場上踢球、在場邊吶喊觀賽、在電視觀看球賽，我們都分享著同一種激情。四年一度的世界盃，又是時候喚醒你心中對足球的熱情。這次我們用文字和圖畫，記錄屬於你的足球時刻。🎯挑戰… more
+                      - generic [ref=e158]:
+                        - generic [ref=e159]: 運動
+                        - generic [ref=e160]: 比賽
+                        - generic [ref=e161]: 足球
+                        - generic [ref=e162]: 世界盃
+                  - link "《準繩道》 Jacob Yuen 曾聽人說過「香港運動員係垃圾」，然後李麗珊以一面奧運金牌作出完美反擊。很多人將汗水投資到「冷門運動」，但參與者寥寥無幾……而「冷門運動」——是機會，也是命運……因金牌帶來的熱潮湧現，所謂「冷門運動」由… more 運動 港漫動力 跳繩" [ref=e165] [cursor=pointer]:
+                    - /url: /story/190305/準繩道
+                    - generic [ref=e168]:
+                      - generic [ref=e169]: 《準繩道》
+                      - generic [ref=e170]: Jacob Yuen
+                      - generic [ref=e171]: 曾聽人說過「香港運動員係垃圾」，然後李麗珊以一面奧運金牌作出完美反擊。很多人將汗水投資到「冷門運動」，但參與者寥寥無幾……而「冷門運動」——是機會，也是命運……因金牌帶來的熱潮湧現，所謂「冷門運動」由… more
+                      - generic [ref=e172]:
+                        - generic [ref=e173]: 運動
+                        - generic [ref=e174]: 港漫動力
+                        - generic [ref=e175]: 跳繩
+                  - link "重來一次的足球人生 史提夫陳 在足球界總是流傳著一個定律：一名球員的位置及其戰術重要性是從他出生開始就已經被注定的。已二十八歲的蕭智堯曾被大學教練評價為無法擔任戰術核心的齒輪型球員，平平無奇的足球人生隨著年齡漸大已注定不可能再有任… more 香港作者 本地 運動 足球 足球員 足球運動" [ref=e178] [cursor=pointer]:
+                    - /url: /story/71329/重來一次的足球人生/toc
+                    - generic [ref=e181]:
+                      - generic [ref=e182]: 重來一次的足球人生
+                      - generic [ref=e183]: 史提夫陳
+                      - generic [ref=e184]: 在足球界總是流傳著一個定律：一名球員的位置及其戰術重要性是從他出生開始就已經被注定的。已二十八歲的蕭智堯曾被大學教練評價為無法擔任戰術核心的齒輪型球員，平平無奇的足球人生隨著年齡漸大已注定不可能再有任… more
+                      - generic [ref=e185]:
+                        - generic [ref=e186]: 香港作者
+                        - generic [ref=e187]: 本地
+                        - generic [ref=e188]: 運動
+                        - generic [ref=e189]: 足球
+                        - generic [ref=e190]: 足球員
+                        - generic [ref=e191]: 足球運動
+                  - link "休息中 籃球小說 - 追 東南 【青春 * 熱血 * 籃球 * 中二病 】80年代，一個熱愛籃球的香港青年，決心北上追逐自己的籃球夢。以下是小弟的作品：烽火瓊華九天熾，寒風易水千里芒-《易水》亂世中，唯獨活到最後，才能… more 青春 熱血 2023佛系日更大挑戰 籃球 東南小說 超好看derrrr" [ref=e194] [cursor=pointer]:
+                    - /url: /story/131042/籃球小說-追/toc
+                    - generic [ref=e197]: 休息中
+                    - generic [ref=e198]:
+                      - generic [ref=e199]: 籃球小說 - 追
+                      - generic [ref=e200]: 東南
+                      - generic [ref=e201]: 【青春 * 熱血 * 籃球 * 中二病 】80年代，一個熱愛籃球的香港青年，決心北上追逐自己的籃球夢。以下是小弟的作品：烽火瓊華九天熾，寒風易水千里芒-《易水》亂世中，唯獨活到最後，才能… more
+                      - generic [ref=e202]:
+                        - generic [ref=e203]: 青春
+                        - generic [ref=e204]: 熱血
+                        - generic [ref=e205]: 2023佛系日更大挑戰
+                        - generic [ref=e206]: 籃球
+                        - generic [ref=e207]: 東南小說
+                        - generic [ref=e208]: 超好看derrrr
+                  - link "已完結 足球日記 袁術 好睇 運動 足球 體育" [ref=e211] [cursor=pointer]:
+                    - /url: /story/116927/足球日記
+                    - generic [ref=e214]: 已完結
+                    - generic [ref=e215]:
+                      - generic [ref=e216]: 足球日記
+                      - generic [ref=e217]: 袁術
+                      - generic [ref=e218]: 好睇
+                      - generic [ref=e219]:
+                        - generic [ref=e220]: 運動
+                        - generic [ref=e221]: 足球
+                        - generic [ref=e222]: 體育
+            - generic [ref=e223]:
+              - generic [ref=e224]: 已完結精彩故事 - Famous Completed Story
+              - generic [ref=e226]:
+                - link "全部" [ref=e227] [cursor=pointer]:
+                  - /url: /stories?gc=all
+                - link "愛情浪漫" [ref=e228] [cursor=pointer]:
+                  - /url: /stories?gc=love
+                - link "玄幻武俠" [ref=e229] [cursor=pointer]:
+                  - /url: /stories?gc=wuxia
+                - link "科幻世界" [ref=e230] [cursor=pointer]:
+                  - /url: /stories?gc=scifi
+                - link "懸疑推理" [ref=e231] [cursor=pointer]:
+                  - /url: /stories?gc=suspense
+                - link "奇幻冒險" [ref=e232] [cursor=pointer]:
+                  - /url: /stories?gc=adventure
+                - link "寫實社會" [ref=e233] [cursor=pointer]:
+                  - /url: /stories?gc=social
+                - link "青春校園" [ref=e234] [cursor=pointer]:
+                  - /url: /stories?gc=youth
+                - link "二創" [ref=e235] [cursor=pointer]:
+                  - /url: /stories?gc=fanfiction
+                - link "男男耽美" [ref=e236] [cursor=pointer]:
+                  - /url: /stories?gc=bl
+                - link "女同百合" [ref=e237] [cursor=pointer]:
+                  - /url: /stories?gc=gl
+                - link "輕小說" [ref=e238] [cursor=pointer]:
+                  - /url: /stories?gc=light
+              - generic [ref=e240]:
+                - link "已完結 破紋夜 楓成 and 1 Others 無語紋蒼天，惟有淚千行。相關著作：十步殺一人，千里終須行。【召喚武師】一切有為法，如夢幻泡影。【遊戲之道】遠見域外影，近聽魂無聲。【三魂行】真山青鋒寒，殺氣橫千里。【真山誌】臉書：楓成TG：萬千世界… more 香港作者 穿越 玄幻 劇情 特約作品 武功" [ref=e243] [cursor=pointer]:
+                  - /url: /story/23818/破紋夜/toc
+                  - generic [ref=e246]: 已完結
+                  - generic [ref=e247]:
+                    - generic [ref=e248]: 破紋夜
+                    - generic [ref=e249]: 楓成 and 1 Others
+                    - generic [ref=e250]: 無語紋蒼天，惟有淚千行。相關著作：十步殺一人，千里終須行。【召喚武師】一切有為法，如夢幻泡影。【遊戲之道】遠見域外影，近聽魂無聲。【三魂行】真山青鋒寒，殺氣橫千里。【真山誌】臉書：楓成TG：萬千世界… more
+                    - generic [ref=e251]:
+                      - generic [ref=e252]: 香港作者
+                      - generic [ref=e253]: 穿越
+                      - generic [ref=e254]: 玄幻
+                      - generic [ref=e255]: 劇情
+                      - generic [ref=e256]: 特約作品
+                      - generic [ref=e257]: 武功
+                - link "已完結 相愛的運氣（有肉有劇情的甜文） 嵐水月 練聿熙是個人盡皆知的肉食女，進入大學之後，本來只是想找個玩伴工具人打發時間，誰知道這個被她拿來當作宅男改造遊戲的草系工具人，不只出脫成系草等級，甚至開始欲求不滿，想從玩伴升級成為她的炮友、她的按摩棒。… more 校園 甜文 都市 言情 甜寵 肉文 高h 都會愛情" [ref=e260] [cursor=pointer]:
+                  - /url: /story/166355/相愛的運氣-有肉有劇情的甜文/toc
+                  - generic [ref=e263]: 已完結
+                  - generic [ref=e264]:
+                    - generic [ref=e265]: 相愛的運氣（有肉有劇情的甜文）
+                    - generic [ref=e266]: 嵐水月
+                    - generic [ref=e267]: 練聿熙是個人盡皆知的肉食女，進入大學之後，本來只是想找個玩伴工具人打發時間，誰知道這個被她拿來當作宅男改造遊戲的草系工具人，不只出脫成系草等級，甚至開始欲求不滿，想從玩伴升級成為她的炮友、她的按摩棒。… more
+                    - generic [ref=e268]:
+                      - generic [ref=e269]: 校園
+                      - generic [ref=e270]: 甜文
+                      - generic [ref=e271]: 都市
+                      - generic [ref=e272]: 言情
+                      - generic [ref=e273]: 甜寵
+                      - generic [ref=e274]: 肉文
+                      - generic [ref=e275]: 高h
+                      - generic [ref=e276]: 都會愛情
+                - link "已完結 《君臨》 伏月生 東御神州王女——卑彌呼，日御王族正統繼承者。她生於照日王庭，容姿絕世，眉眼如櫻雪映日，卻無兵權、無武名，亦無足以壓服群臣的力量。先王崩逝後，她於承日之儀登座，卻未得八煌刃全數奉命。王冠已落，王權未歸。… more 原創故事 卑彌呼 日系武俠 君臨" [ref=e279] [cursor=pointer]:
+                  - /url: /story/215146/君臨/toc
+                  - generic [ref=e282]: 已完結
+                  - generic [ref=e283]:
+                    - generic [ref=e284]: 《君臨》
+                    - generic [ref=e285]: 伏月生
+                    - generic [ref=e286]: 東御神州王女——卑彌呼，日御王族正統繼承者。她生於照日王庭，容姿絕世，眉眼如櫻雪映日，卻無兵權、無武名，亦無足以壓服群臣的力量。先王崩逝後，她於承日之儀登座，卻未得八煌刃全數奉命。王冠已落，王權未歸。… more
+                    - generic [ref=e287]:
+                      - generic [ref=e288]: 原創故事
+                      - generic [ref=e289]: 卑彌呼
+                      - generic [ref=e290]: 日系武俠
+                      - generic [ref=e291]: 君臨
+                - link "已完結 嘿，戀愛病不輕呢？ 黑靈 江小雅暗戀了好友韋奕生三年的時間，一直都是以哥們相處 ？在某個雨天下， 她不小心吻了這個好友，他們的關係從此產生了變化。偶然下，小雅喝下了能隨心所欲的隱形黑豆漿。接下來，她隱形後，會繼續… more 愛情 原創 奇幻 魔法 甜文 魔族 戀愛腦 主神 多重身分 宮殿 隱形豆漿 戀愛病" [ref=e294] [cursor=pointer]:
+                  - /url: /story/183938/嘿-戀愛病不輕呢/toc
+                  - generic [ref=e297]: 已完結
+                  - generic [ref=e298]:
+                    - generic [ref=e299]: 嘿，戀愛病不輕呢？
+                    - generic [ref=e300]: 黑靈
+                    - generic [ref=e301]: 江小雅暗戀了好友韋奕生三年的時間，一直都是以哥們相處 ？在某個雨天下， 她不小心吻了這個好友，他們的關係從此產生了變化。偶然下，小雅喝下了能隨心所欲的隱形黑豆漿。接下來，她隱形後，會繼續… more
+                    - generic [ref=e302]:
+                      - generic [ref=e303]: 愛情
+                      - generic [ref=e304]: 原創
+                      - generic [ref=e305]: 奇幻
+                      - generic [ref=e306]: 魔法
+                      - generic [ref=e307]: 甜文
+                      - generic [ref=e308]: 魔族
+                      - generic [ref=e309]: 戀愛腦
+                      - generic [ref=e310]: 主神
+                      - generic [ref=e311]: 多重身分
+                      - generic [ref=e312]: 宮殿
+                      - generic [ref=e313]: 隱形豆漿
+                      - generic [ref=e314]: 戀愛病
+                - link "已完結 琴劍俠影 舒桐 正值江湖多事之秋，來歷未明的天機閣登高一呼，邀請各大門派、勢力，於七年間編成收錄世上武學之奇書《萬武歸藏》，參與者依據貢獻程度，在一定時間內可閱覽其內容。然而各派武學乃前人點滴耕耘而來，向不外傳，武林… more 愛情 原創 冒險 台灣作家 戰鬥 古風 武俠 動作 長篇小說 劍客" [ref=e317] [cursor=pointer]:
+                  - /url: /story/103732/琴劍俠影/toc
+                  - generic [ref=e320]: 已完結
+                  - generic [ref=e321]:
+                    - generic [ref=e322]: 琴劍俠影
+                    - generic [ref=e323]: 舒桐
+                    - generic [ref=e324]: 正值江湖多事之秋，來歷未明的天機閣登高一呼，邀請各大門派、勢力，於七年間編成收錄世上武學之奇書《萬武歸藏》，參與者依據貢獻程度，在一定時間內可閱覽其內容。然而各派武學乃前人點滴耕耘而來，向不外傳，武林… more
+                    - generic [ref=e325]:
+                      - generic [ref=e326]: 愛情
+                      - generic [ref=e327]: 原創
+                      - generic [ref=e328]: 冒險
+                      - generic [ref=e329]: 台灣作家
+                      - generic [ref=e330]: 戰鬥
+                      - generic [ref=e331]: 古風
+                      - generic [ref=e332]: 武俠
+                      - generic [ref=e333]: 動作
+                      - generic [ref=e334]: 長篇小說
+                      - generic [ref=e335]: 劍客
+                - link "已完結 《無人認領 Unclaimed Souls》 楊郁 言情 x 靈異 x 懸疑（也可能三個都不是）打算要分手的女友突然死亡，倪朗文才知道，心裡那一塊已徹底消失。可以見到靈魂的陰陽眼、隱藏在左腕疤痕下的過去、不想接觸的家人、客廳詭異的水晶燈、… more 愛情 日常 香港作者 懸疑 靈異 心靈 都市 創傷 流水帳" [ref=e338] [cursor=pointer]:
+                  - /url: /story/90374/無人認領-unclaimed-souls/toc
+                  - generic [ref=e341]: 已完結
+                  - generic [ref=e342]:
+                    - generic [ref=e343]: 《無人認領 Unclaimed Souls》
+                    - generic [ref=e344]: 楊郁
+                    - generic [ref=e345]: 言情 x 靈異 x 懸疑（也可能三個都不是）打算要分手的女友突然死亡，倪朗文才知道，心裡那一塊已徹底消失。可以見到靈魂的陰陽眼、隱藏在左腕疤痕下的過去、不想接觸的家人、客廳詭異的水晶燈、… more
+                    - generic [ref=e346]:
+                      - generic [ref=e347]: 愛情
+                      - generic [ref=e348]: 日常
+                      - generic [ref=e349]: 香港作者
+                      - generic [ref=e350]: 懸疑
+                      - generic [ref=e351]: 靈異
+                      - generic [ref=e352]: 心靈
+                      - generic [ref=e353]: 都市
+                      - generic [ref=e354]: 創傷
+                      - generic [ref=e355]: 流水帳
+                - link "已完結 《 貓咪村莊：香甜奶茶店》 雪夜 一走進店裡，就能聞到一股誘人的香氣，那是牛奶的濃郁和特殊貓薄荷葉的清香混合在一起的味道。店舖為村莊裡的貓咪製作世界上最香甜、最溫暖的奶茶。 珍珠奶茶 開心奶茶 甜夢奶茶" [ref=e358] [cursor=pointer]:
+                  - /url: /story/216151/貓咪村莊-香甜奶茶店/toc
+                  - generic [ref=e361]: 已完結
+                  - generic [ref=e362]:
+                    - generic [ref=e363]: 《 貓咪村莊：香甜奶茶店》
+                    - generic [ref=e364]: 雪夜
+                    - generic [ref=e365]: 一走進店裡，就能聞到一股誘人的香氣，那是牛奶的濃郁和特殊貓薄荷葉的清香混合在一起的味道。店舖為村莊裡的貓咪製作世界上最香甜、最溫暖的奶茶。
+                    - generic [ref=e366]:
+                      - generic [ref=e367]: 珍珠奶茶
+                      - generic [ref=e368]: 開心奶茶
+                      - generic [ref=e369]: 甜夢奶茶
+                - link "已完結 《阿瓜日記》 微呼吸（Aerostasis） 【每日一照｜澆水紀錄｜植物狀態｜照護紀錄】阿瓜，一株來自嘉義的植物。為了避免重複澆水，咚製作決定寫下這份日誌。從今天起，每日狀況、澆水時間與照護紀錄，都將記錄於此。希望它能夠平安長大。 短篇 日常紀錄 咚製作 阿瓜 植物日記" [ref=e372] [cursor=pointer]:
+                  - /url: /story/216128/阿瓜日記/toc
+                  - generic [ref=e375]: 已完結
+                  - generic [ref=e376]:
+                    - generic [ref=e377]: 《阿瓜日記》
+                    - generic [ref=e378]: 微呼吸（Aerostasis）
+                    - generic [ref=e379]: 【每日一照｜澆水紀錄｜植物狀態｜照護紀錄】阿瓜，一株來自嘉義的植物。為了避免重複澆水，咚製作決定寫下這份日誌。從今天起，每日狀況、澆水時間與照護紀錄，都將記錄於此。希望它能夠平安長大。
+                    - generic [ref=e380]:
+                      - generic [ref=e381]: 短篇
+                      - generic [ref=e382]: 日常紀錄
+                      - generic [ref=e383]: 咚製作
+                      - generic [ref=e384]: 阿瓜
+                      - generic [ref=e385]: 植物日記
+                - link "已完結 戲子 絕塵 一束求婚的玫瑰，被留下了。希維洛德沒有丟掉它們。他把花一朵一朵拆下來，放進鍋裡，慢慢煮成一壺玫瑰花茶。那原本是象徵愛情的花。只是有些愛情，從一開始就帶著刺。有些家庭，看起來溫柔，卻在不知不覺中腐爛。當… more" [ref=e388] [cursor=pointer]:
+                  - /url: /story/206598/戲子/toc
+                  - generic [ref=e391]: 已完結
+                  - generic [ref=e392]:
+                    - generic [ref=e393]: 戲子
+                    - generic [ref=e394]: 絕塵
+                    - generic [ref=e395]: 一束求婚的玫瑰，被留下了。希維洛德沒有丟掉它們。他把花一朵一朵拆下來，放進鍋裡，慢慢煮成一壺玫瑰花茶。那原本是象徵愛情的花。只是有些愛情，從一開始就帶著刺。有些家庭，看起來溫柔，卻在不知不覺中腐爛。當… more
+                - link "已完結 在漫長時光裡擁抱今天【已完結】 漫予 只想擁有今天的平凡少女 ｘ 擁有漫長餘生的厭世少主「直到現在，我才明白或許人活著……就是為了尋找一個能讓自己『死而無憾』的瞬間。」 ／一場各取所需的利用／ 當了七年社畜的程今安，在生命倒數時刻，決定… more 愛情 台灣作家 長篇 浪漫 療癒 雙向救贖 旅行" [ref=e398] [cursor=pointer]:
+                  - /url: /story/203104/在漫長時光裡擁抱今天-已完結/toc
+                  - generic [ref=e401]: 已完結
+                  - generic [ref=e402]:
+                    - generic [ref=e403]: 在漫長時光裡擁抱今天【已完結】
+                    - generic [ref=e404]: 漫予
+                    - generic [ref=e405]: 只想擁有今天的平凡少女 ｘ 擁有漫長餘生的厭世少主「直到現在，我才明白或許人活著……就是為了尋找一個能讓自己『死而無憾』的瞬間。」 ／一場各取所需的利用／ 當了七年社畜的程今安，在生命倒數時刻，決定… more
+                    - generic [ref=e406]:
+                      - generic [ref=e407]: 愛情
+                      - generic [ref=e408]: 台灣作家
+                      - generic [ref=e409]: 長篇
+                      - generic [ref=e410]: 浪漫
+                      - generic [ref=e411]: 療癒
+                      - generic [ref=e412]: 雙向救贖
+                      - generic [ref=e413]: 旅行
+                - link "已完結 漁歌夢 曉江 逝水奔流，千帆過盡。只有她終如這座山城，一生註定送往迎來。19歲那年，雲娘初識崔錄事。那時她只道他喜怒無常、舉止怪異，直至三年將近，離別在即，她方知曉自己竟與難得的真心失之交臂。 ——「六郎……你沒別… more 古風 言情 歷史 唐代" [ref=e416] [cursor=pointer]:
+                  - /url: /story/213569/漁歌夢/toc
+                  - generic [ref=e419]: 已完結
+                  - generic [ref=e420]:
+                    - generic [ref=e421]: 漁歌夢
+                    - generic [ref=e422]: 曉江
+                    - generic [ref=e423]: 逝水奔流，千帆過盡。只有她終如這座山城，一生註定送往迎來。19歲那年，雲娘初識崔錄事。那時她只道他喜怒無常、舉止怪異，直至三年將近，離別在即，她方知曉自己竟與難得的真心失之交臂。 ——「六郎……你沒別… more
+                    - generic [ref=e424]:
+                      - generic [ref=e425]: 古風
+                      - generic [ref=e426]: 言情
+                      - generic [ref=e427]: 歷史
+                      - generic [ref=e428]: 唐代
+                - link "已完結 《下雨天》 詩澄 在一個下雨的夜晚，女醫生救下了一名神秘男子。他溫柔卻滿手鮮血，但卻為了保護她，他一次次用性命擋在她身前。雨下不停，心跳聲蓋過雨聲的那一刻，他們都知道——這場相遇，從一開始就注定是一場只剩告別的救贖。逢… more 救贖 黑幫 醫生 告別 追殺" [ref=e431] [cursor=pointer]:
+                  - /url: /story/209915/下雨天/toc
+                  - generic [ref=e434]: 已完結
+                  - generic [ref=e435]:
+                    - generic [ref=e436]: 《下雨天》
+                    - generic [ref=e437]: 詩澄
+                    - generic [ref=e438]: 在一個下雨的夜晚，女醫生救下了一名神秘男子。他溫柔卻滿手鮮血，但卻為了保護她，他一次次用性命擋在她身前。雨下不停，心跳聲蓋過雨聲的那一刻，他們都知道——這場相遇，從一開始就注定是一場只剩告別的救贖。逢… more
+                    - generic [ref=e439]:
+                      - generic [ref=e440]: 救贖
+                      - generic [ref=e441]: 黑幫
+                      - generic [ref=e442]: 醫生
+                      - generic [ref=e443]: 告別
+                      - generic [ref=e444]: 追殺
+            - generic [ref=e445]:
+              - generic [ref=e446]: 新作急上昇 - Rising Stories
+              - generic [ref=e448]:
+                - link "全部" [ref=e449] [cursor=pointer]:
+                  - /url: /stories?gc=all
+                - link "愛情浪漫" [ref=e450] [cursor=pointer]:
+                  - /url: /stories?gc=love
+                - link "玄幻武俠" [ref=e451] [cursor=pointer]:
+                  - /url: /stories?gc=wuxia
+                - link "科幻世界" [ref=e452] [cursor=pointer]:
+                  - /url: /stories?gc=scifi
+                - link "懸疑推理" [ref=e453] [cursor=pointer]:
+                  - /url: /stories?gc=suspense
+                - link "奇幻冒險" [ref=e454] [cursor=pointer]:
+                  - /url: /stories?gc=adventure
+                - link "寫實社會" [ref=e455] [cursor=pointer]:
+                  - /url: /stories?gc=social
+                - link "青春校園" [ref=e456] [cursor=pointer]:
+                  - /url: /stories?gc=youth
+                - link "二創" [ref=e457] [cursor=pointer]:
+                  - /url: /stories?gc=fanfiction
+                - link "男男耽美" [ref=e458] [cursor=pointer]:
+                  - /url: /stories?gc=bl
+                - link "女同百合" [ref=e459] [cursor=pointer]:
+                  - /url: /stories?gc=gl
+                - link "輕小說" [ref=e460] [cursor=pointer]:
+                  - /url: /stories?gc=light
+              - generic [ref=e462]:
+                - link "琥珀色的夏天 Rika 醬 破鏡重逢 ×平行宇宙×尋找真我的療癒之旅偏執精英大男主 × 療癒純愛小男二 × 雙追妻 ×三角戀×成長系女主（內核：記憶共鳴 × 逆熵浪漫 × 時間閉環）「人不是偶然出現在這個世界上。所有發生的事背後… more 奇幻 日常 輕小說 科幻 戀愛 甜文 成長 純愛 甜寵 情感 療癒 年下 年上 日系 雙向奔赴 都市愛情 追妻 海島 時空悖論 尋找真我" [ref=e465] [cursor=pointer]:
+                  - /url: /story/215290/琥珀色的夏天/toc
+                  - generic [ref=e468]:
+                    - generic [ref=e469]: 琥珀色的夏天
+                    - generic [ref=e470]: Rika 醬
+                    - generic [ref=e471]: 破鏡重逢 ×平行宇宙×尋找真我的療癒之旅偏執精英大男主 × 療癒純愛小男二 × 雙追妻 ×三角戀×成長系女主（內核：記憶共鳴 × 逆熵浪漫 × 時間閉環）「人不是偶然出現在這個世界上。所有發生的事背後… more
+                    - generic [ref=e472]:
+                      - generic [ref=e473]: 奇幻
+                      - generic [ref=e474]: 日常
+                      - generic [ref=e475]: 輕小說
+                      - generic [ref=e476]: 科幻
+                      - generic [ref=e477]: 戀愛
+                      - generic [ref=e478]: 甜文
+                      - generic [ref=e479]: 成長
+                      - generic [ref=e480]: 純愛
+                      - generic [ref=e481]: 甜寵
+                      - generic [ref=e482]: 情感
+                      - generic [ref=e483]: 療癒
+                      - generic [ref=e484]: 年下
+                      - generic [ref=e485]: 年上
+                      - generic [ref=e486]: 日系
+                      - generic [ref=e487]: 雙向奔赴
+                      - generic [ref=e488]: 都市愛情
+                      - generic [ref=e489]: 追妻
+                      - generic [ref=e490]: 海島
+                      - generic [ref=e491]: 時空悖論
+                      - generic [ref=e492]: 尋找真我
+                - link "重生15岁，我决定不再恋爱 （过往比纠） 菲比菲笔 2天更新一篇～戀愛腦的終點是40歲的猝死，而我，決定15歲就削髮為尼——啊不，是封心鎖愛！前世的傅語語，滿腦子都是「有情飲水飽」。為了所謂的愛情作天作地，結果書沒讀好、事業全無，最終在40歲的大馬雨季… more 愛情 校園 bg 重生 女性向 雙向奔赴 都市言情 宿命 時光倒流" [ref=e495] [cursor=pointer]:
+                  - /url: /story/216147/重生15岁-我决定不再恋爱-过往比纠/toc
+                  - generic [ref=e498]:
+                    - generic [ref=e499]: 重生15岁，我决定不再恋爱 （过往比纠）
+                    - generic [ref=e500]: 菲比菲笔
+                    - generic [ref=e501]: 2天更新一篇～戀愛腦的終點是40歲的猝死，而我，決定15歲就削髮為尼——啊不，是封心鎖愛！前世的傅語語，滿腦子都是「有情飲水飽」。為了所謂的愛情作天作地，結果書沒讀好、事業全無，最終在40歲的大馬雨季… more
+                    - generic [ref=e502]:
+                      - generic [ref=e503]: 愛情
+                      - generic [ref=e504]: 校園
+                      - generic [ref=e505]: bg
+                      - generic [ref=e506]: 重生
+                      - generic [ref=e507]: 女性向
+                      - generic [ref=e508]: 雙向奔赴
+                      - generic [ref=e509]: 都市言情
+                      - generic [ref=e510]: 宿命
+                      - generic [ref=e511]: 時光倒流
+                - link "窩瓦河畔的虐戀I波蘭烽火-基輔礦坑 龍岡甲蟲 ——波蘭戰役前**一九七七年，世界籠罩在鋼鐵與烈焰的陰影下。蘇聯最高統帥部決定發動代號「大雷雨」的總體攻勢，意圖以絕對的數量優勢碾碎德意志的東線防線。白俄羅斯方面軍司令**左雅·彼得羅娃**（水瓶座）… more 龍岡舊夢 窩瓦河畔的虐戀 架空二戰" [ref=e514] [cursor=pointer]:
+                  - /url: /story/214659/窩瓦河畔的虐戀i波蘭烽火-基輔礦坑/toc
+                  - generic [ref=e517]:
+                    - generic [ref=e518]: 窩瓦河畔的虐戀I波蘭烽火-基輔礦坑
+                    - generic [ref=e519]: 龍岡甲蟲
+                    - generic [ref=e520]: ——波蘭戰役前**一九七七年，世界籠罩在鋼鐵與烈焰的陰影下。蘇聯最高統帥部決定發動代號「大雷雨」的總體攻勢，意圖以絕對的數量優勢碾碎德意志的東線防線。白俄羅斯方面軍司令**左雅·彼得羅娃**（水瓶座）… more
+                    - generic [ref=e521]:
+                      - generic [ref=e522]: 龍岡舊夢
+                      - generic [ref=e523]: 窩瓦河畔的虐戀
+                      - generic [ref=e524]: 架空二戰
+                - link "已完結 《君臨》 伏月生 東御神州王女——卑彌呼，日御王族正統繼承者。她生於照日王庭，容姿絕世，眉眼如櫻雪映日，卻無兵權、無武名，亦無足以壓服群臣的力量。先王崩逝後，她於承日之儀登座，卻未得八煌刃全數奉命。王冠已落，王權未歸。… more 原創故事 日系武俠 君臨 卑彌呼" [ref=e527] [cursor=pointer]:
+                  - /url: /story/215146/君臨/toc
+                  - generic [ref=e530]: 已完結
+                  - generic [ref=e531]:
+                    - generic [ref=e532]: 《君臨》
+                    - generic [ref=e533]: 伏月生
+                    - generic [ref=e534]: 東御神州王女——卑彌呼，日御王族正統繼承者。她生於照日王庭，容姿絕世，眉眼如櫻雪映日，卻無兵權、無武名，亦無足以壓服群臣的力量。先王崩逝後，她於承日之儀登座，卻未得八煌刃全數奉命。王冠已落，王權未歸。… more
+                    - generic [ref=e535]:
+                      - generic [ref=e536]: 原創故事
+                      - generic [ref=e537]: 日系武俠
+                      - generic [ref=e538]: 君臨
+                      - generic [ref=e539]: 卑彌呼
+                - link "終焉巨塔 餘燼 巨龍、詩歌、火焰、魔法、遺跡、劍與魔法風雪不曾停歇。巨塔聳立，無始無終。沒有人問過，天空是否有盡頭，大地是否有根。人們只是活著。在毒霧中，在礦灰中，在天眼永不闔眼的凝視下。活著，然後死去。死去，然後被… more 原創 黑暗 架空 魔法 戰鬥 動作 長篇 群像 史詩 劍與魔法 西幻" [ref=e542] [cursor=pointer]:
+                  - /url: /story/215079/終焉巨塔/toc
+                  - generic [ref=e545]:
+                    - generic [ref=e546]: 終焉巨塔
+                    - generic [ref=e547]: 餘燼
+                    - generic [ref=e548]: 巨龍、詩歌、火焰、魔法、遺跡、劍與魔法風雪不曾停歇。巨塔聳立，無始無終。沒有人問過，天空是否有盡頭，大地是否有根。人們只是活著。在毒霧中，在礦灰中，在天眼永不闔眼的凝視下。活著，然後死去。死去，然後被… more
+                    - generic [ref=e549]:
+                      - generic [ref=e550]: 原創
+                      - generic [ref=e551]: 黑暗
+                      - generic [ref=e552]: 架空
+                      - generic [ref=e553]: 魔法
+                      - generic [ref=e554]: 戰鬥
+                      - generic [ref=e555]: 動作
+                      - generic [ref=e556]: 長篇
+                      - generic [ref=e557]: 群像
+                      - generic [ref=e558]: 史詩
+                      - generic [ref=e559]: 劍與魔法
+                      - generic [ref=e560]: 西幻
+                - link "陪我十年的網公竟然是死對頭 月見璃 許莫澄當著所有人的面說「我這輩子最不可能愛上的人，就是宋雨薇。」那一晚，她哭著衝進暴雨裡。那一晚，他躲進遊戲裡逃避罪惡感。然後在虛擬世界的螢幕微光裡他們相遇了。他不知道她是她。她不知道他是他。兩個在… more" [ref=e563] [cursor=pointer]:
+                  - /url: /story/215625/陪我十年的網公竟然是死對頭/toc
+                  - generic [ref=e567]:
+                    - generic [ref=e568]: 陪我十年的網公竟然是死對頭
+                    - generic [ref=e569]: 月見璃
+                    - generic [ref=e570]: 許莫澄當著所有人的面說「我這輩子最不可能愛上的人，就是宋雨薇。」那一晚，她哭著衝進暴雨裡。那一晚，他躲進遊戲裡逃避罪惡感。然後在虛擬世界的螢幕微光裡他們相遇了。他不知道她是她。她不知道他是他。兩個在… more
+                - link "《還不起的青春》 Lalaline 「我放你自由，不是因為不愛了；而是愛得太累，所以放手。」三年前，他們在無聲的冷戰中走散；三年後，他用一筆轉帳，試圖買回那段被他揮霍的時光。 面對這遲來的「安全感」，她看著螢幕上的數字，笑了。這是一部關… more 愛情 成長 情感 分手 療愈 成長代價" [ref=e573] [cursor=pointer]:
+                  - /url: /story/215723/還不起的青春/toc
+                  - generic [ref=e576]:
+                    - generic [ref=e577]: 《還不起的青春》
+                    - generic [ref=e578]: Lalaline
+                    - generic [ref=e579]: 「我放你自由，不是因為不愛了；而是愛得太累，所以放手。」三年前，他們在無聲的冷戰中走散；三年後，他用一筆轉帳，試圖買回那段被他揮霍的時光。 面對這遲來的「安全感」，她看著螢幕上的數字，笑了。這是一部關… more
+                    - generic [ref=e580]:
+                      - generic [ref=e581]: 愛情
+                      - generic [ref=e582]: 成長
+                      - generic [ref=e583]: 情感
+                      - generic [ref=e584]: 分手
+                      - generic [ref=e585]: 療愈
+                      - generic [ref=e586]: 成長代價
+                - link "破空之殤 漫羽雪晴 死戀魔女千年的愛恨情仇究竟為何？為什麼沈莫是死戀魔女的肉身？格里芬究竟是誰？是英雄、罪人，還是被歷史遺忘的神話？當真相逐漸逼近，殘酷的事實也隨之浮現。「若揮出每一劍的代價皆是靈魂崩解，這場守護世界… more 愛情 奇幻 冒險 穿越 百合 戰爭 後宮 群像 史詩 輪迴 rpg 宿命 日式 悲壯" [ref=e589] [cursor=pointer]:
+                  - /url: /story/213905/破空之殤/toc
+                  - generic [ref=e592]:
+                    - generic [ref=e593]: 破空之殤
+                    - generic [ref=e594]: 漫羽雪晴
+                    - generic [ref=e595]: 死戀魔女千年的愛恨情仇究竟為何？為什麼沈莫是死戀魔女的肉身？格里芬究竟是誰？是英雄、罪人，還是被歷史遺忘的神話？當真相逐漸逼近，殘酷的事實也隨之浮現。「若揮出每一劍的代價皆是靈魂崩解，這場守護世界… more
+                    - generic [ref=e596]:
+                      - generic [ref=e597]: 愛情
+                      - generic [ref=e598]: 奇幻
+                      - generic [ref=e599]: 冒險
+                      - generic [ref=e600]: 穿越
+                      - generic [ref=e601]: 百合
+                      - generic [ref=e602]: 戰爭
+                      - generic [ref=e603]: 後宮
+                      - generic [ref=e604]: 群像
+                      - generic [ref=e605]: 史詩
+                      - generic [ref=e606]: 輪迴
+                      - generic [ref=e607]: rpg
+                      - generic [ref=e608]: 宿命
+                      - generic [ref=e609]: 日式
+                      - generic [ref=e610]: 悲壯
+                - link "暮塔：當世界開始供奉災厄 業餘新手 這是一部以調查與戰鬥為起點，有點克蘇魯風的故事，連感情線都以壓抑的手法來表達。給就算讀書/工作累了，但依然願意花腦子看的大家😁如果你喜歡《烙印勇士/劍風傳奇》的絕望感，請試試這部作品，作者是忠粉。*若… more 原創 奇幻 黑暗 克蘇魯" [ref=e613] [cursor=pointer]:
+                  - /url: /story/216081/暮塔-當世界開始供奉災厄/toc
+                  - generic [ref=e616]:
+                    - generic [ref=e617]: 暮塔：當世界開始供奉災厄
+                    - generic [ref=e618]: 業餘新手
+                    - generic [ref=e619]: 這是一部以調查與戰鬥為起點，有點克蘇魯風的故事，連感情線都以壓抑的手法來表達。給就算讀書/工作累了，但依然願意花腦子看的大家😁如果你喜歡《烙印勇士/劍風傳奇》的絕望感，請試試這部作品，作者是忠粉。*若… more
+                    - generic [ref=e620]:
+                      - generic [ref=e621]: 原創
+                      - generic [ref=e622]: 奇幻
+                      - generic [ref=e623]: 黑暗
+                      - generic [ref=e624]: 克蘇魯
+                - link "逆鱗之下 小狐狸 歷史記載，遠古惡龍與最後的聖堂騎士是宿命的死敵。然而被埋葬於舊世界的真相，遠比傳說更加殘酷。三百年後，當失落的記憶逐漸甦醒，沉眠於逆鱗之下的秘密，也終將重見天日。 bl男男 強強 龍" [ref=e627] [cursor=pointer]:
+                  - /url: /story/215921/逆鱗之下/toc
+                  - generic [ref=e630]:
+                    - generic [ref=e631]: 逆鱗之下
+                    - generic [ref=e632]: 小狐狸
+                    - generic [ref=e633]: 歷史記載，遠古惡龍與最後的聖堂騎士是宿命的死敵。然而被埋葬於舊世界的真相，遠比傳說更加殘酷。三百年後，當失落的記憶逐漸甦醒，沉眠於逆鱗之下的秘密，也終將重見天日。
+                    - generic [ref=e634]:
+                      - generic [ref=e635]: bl男男
+                      - generic [ref=e636]: 強強
+                      - generic [ref=e637]: 龍
+                - link "如果春天有回信Ⅰ：春天來臨之前 木楓子 有些故事，不是在告別的那一天開始。 而是在某個再平凡不過的午後。 林夏從來沒想過，自己會如此認真地喜歡一個人。 她喜歡把生活寫進筆記本裡，喜歡午後的陽光，喜歡焦糖拿鐵少糖，喜歡把糖包折成小船。她以為未… more 愛情 日常 青春 成長 現代 治癒 情感 慢熱 命運 遺憾 選擇 陪伴" [ref=e640] [cursor=pointer]:
+                  - /url: /story/215336/如果春天有回信-春天來臨之前/toc
+                  - generic [ref=e643]:
+                    - generic [ref=e644]: 如果春天有回信Ⅰ：春天來臨之前
+                    - generic [ref=e645]: 木楓子
+                    - generic [ref=e646]: 有些故事，不是在告別的那一天開始。 而是在某個再平凡不過的午後。 林夏從來沒想過，自己會如此認真地喜歡一個人。 她喜歡把生活寫進筆記本裡，喜歡午後的陽光，喜歡焦糖拿鐵少糖，喜歡把糖包折成小船。她以為未… more
+                    - generic [ref=e647]:
+                      - generic [ref=e648]: 愛情
+                      - generic [ref=e649]: 日常
+                      - generic [ref=e650]: 青春
+                      - generic [ref=e651]: 成長
+                      - generic [ref=e652]: 現代
+                      - generic [ref=e653]: 治癒
+                      - generic [ref=e654]: 情感
+                      - generic [ref=e655]: 慢熱
+                      - generic [ref=e656]: 命運
+                      - generic [ref=e657]: 遺憾
+                      - generic [ref=e658]: 選擇
+                      - generic [ref=e659]: 陪伴
+                - link "當皇后是意外，打雷才是正職 金剛問路 【輕鬆搞笑＋大唐＋仙女日常＋群像】活了三萬年。顧非煙本以為自己離大羅金仙只差一步。結果卡了一萬年。師父大手一揮：「妳缺人味，滾去人間。」於是。一位戰力爆表卻常識歪掉的仙女。掉進了大隋末年的太原城。從此… more 搞笑 修仙 群像 架空歷史 女強 神仙 無厘頭 女主 大唐 有cp 李世民" [ref=e662] [cursor=pointer]:
+                  - /url: /story/215307/當皇后是意外-打雷才是正職/toc
+                  - generic [ref=e665]:
+                    - generic [ref=e666]: 當皇后是意外，打雷才是正職
+                    - generic [ref=e667]: 金剛問路
+                    - generic [ref=e668]: 【輕鬆搞笑＋大唐＋仙女日常＋群像】活了三萬年。顧非煙本以為自己離大羅金仙只差一步。結果卡了一萬年。師父大手一揮：「妳缺人味，滾去人間。」於是。一位戰力爆表卻常識歪掉的仙女。掉進了大隋末年的太原城。從此… more
+                    - generic [ref=e669]:
+                      - generic [ref=e670]: 搞笑
+                      - generic [ref=e671]: 修仙
+                      - generic [ref=e672]: 群像
+                      - generic [ref=e673]: 架空歷史
+                      - generic [ref=e674]: 女強
+                      - generic [ref=e675]: 神仙
+                      - generic [ref=e676]: 無厘頭
+                      - generic [ref=e677]: 女主
+                      - generic [ref=e678]: 大唐
+                      - generic [ref=e679]: 有cp
+                      - generic [ref=e680]: 李世民
+            - generic [ref=e681]:
+              - generic [ref=e682]:
+                - generic [ref=e683]: 廣告
+                - generic [ref=e686]: 《義人遊戲：記憶，是過往的旅途》
+              - link [ref=e687] [cursor=pointer]:
+                - /url: /story/208689
+                - img [ref=e688]
+            - generic [ref=e689]:
+              - generic [ref=e690]: 今日最新 - Today's Update
+              - generic [ref=e692]:
+                - link "全部" [ref=e693] [cursor=pointer]:
+                  - /url: /stories?gc=all
+                - link "愛情浪漫" [ref=e694] [cursor=pointer]:
+                  - /url: /stories?gc=love
+                - link "玄幻武俠" [ref=e695] [cursor=pointer]:
+                  - /url: /stories?gc=wuxia
+                - link "科幻世界" [ref=e696] [cursor=pointer]:
+                  - /url: /stories?gc=scifi
+                - link "懸疑推理" [ref=e697] [cursor=pointer]:
+                  - /url: /stories?gc=suspense
+                - link "奇幻冒險" [ref=e698] [cursor=pointer]:
+                  - /url: /stories?gc=adventure
+                - link "寫實社會" [ref=e699] [cursor=pointer]:
+                  - /url: /stories?gc=social
+                - link "青春校園" [ref=e700] [cursor=pointer]:
+                  - /url: /stories?gc=youth
+                - link "二創" [ref=e701] [cursor=pointer]:
+                  - /url: /stories?gc=fanfiction
+                - link "男男耽美" [ref=e702] [cursor=pointer]:
+                  - /url: /stories?gc=bl
+                - link "女同百合" [ref=e703] [cursor=pointer]:
+                  - /url: /stories?gc=gl
+                - link "輕小說" [ref=e704] [cursor=pointer]:
+                  - /url: /stories?gc=light
+              - generic [ref=e706]:
+                - link "【咒迴乙女｜乙骨憂太】特級小狗的依戀方式 木兮 * 是乙女文，拆官配* 此篇的骨不是陰溼男鬼，更偏向敏感易焦慮的重男小狗* 你一開始是普通人，在劇情中將得到術式* 用餐愉快 你在學校幫助了一名受同學欺負、名叫乙骨憂太的少年，從此收穫了一隻黏黏糊… more 乙女向 咒術迴戰 乙女文 咒迴 乙骨憂太 乙骨憂太乙女向 咒術迴戰乙女文" [ref=e709] [cursor=pointer]:
+                  - /url: /story/216194/咒迴乙女-乙骨憂太-特級小狗的依戀方式/toc
+                  - generic [ref=e712]:
+                    - generic [ref=e713]: 【咒迴乙女｜乙骨憂太】特級小狗的依戀方式
+                    - generic [ref=e714]: 木兮
+                    - generic [ref=e715]: "* 是乙女文，拆官配* 此篇的骨不是陰溼男鬼，更偏向敏感易焦慮的重男小狗* 你一開始是普通人，在劇情中將得到術式* 用餐愉快 你在學校幫助了一名受同學欺負、名叫乙骨憂太的少年，從此收穫了一隻黏黏糊… more"
+                    - generic [ref=e716]:
+                      - generic [ref=e717]: 乙女向
+                      - generic [ref=e718]: 咒術迴戰
+                      - generic [ref=e719]: 乙女文
+                      - generic [ref=e720]: 咒迴
+                      - generic [ref=e721]: 乙骨憂太
+                      - generic [ref=e722]: 乙骨憂太乙女向
+                      - generic [ref=e723]: 咒術迴戰乙女文
+                - link "窩瓦河畔的虐戀I波蘭烽火-基輔礦坑 龍岡甲蟲 ——波蘭戰役前**一九七七年，世界籠罩在鋼鐵與烈焰的陰影下。蘇聯最高統帥部決定發動代號「大雷雨」的總體攻勢，意圖以絕對的數量優勢碾碎德意志的東線防線。白俄羅斯方面軍司令**左雅·彼得羅娃**（水瓶座）… more 龍岡舊夢 窩瓦河畔的虐戀 架空二戰" [ref=e726] [cursor=pointer]:
+                  - /url: /story/214659/窩瓦河畔的虐戀i波蘭烽火-基輔礦坑/toc
+                  - generic [ref=e729]:
+                    - generic [ref=e730]: 窩瓦河畔的虐戀I波蘭烽火-基輔礦坑
+                    - generic [ref=e731]: 龍岡甲蟲
+                    - generic [ref=e732]: ——波蘭戰役前**一九七七年，世界籠罩在鋼鐵與烈焰的陰影下。蘇聯最高統帥部決定發動代號「大雷雨」的總體攻勢，意圖以絕對的數量優勢碾碎德意志的東線防線。白俄羅斯方面軍司令**左雅·彼得羅娃**（水瓶座）… more
+                    - generic [ref=e733]:
+                      - generic [ref=e734]: 龍岡舊夢
+                      - generic [ref=e735]: 窩瓦河畔的虐戀
+                      - generic [ref=e736]: 架空二戰
+                - link "戀 隨緣更新 如果當年喜歡的人，也剛好喜歡自己，故事會變成什麼模樣？一把雨傘、一場煙火、一本日記。那些藏在青春裡說不出口的心意，那些以為只有自己知道的秘密，原來早已被另一個人默默珍藏。《戀》獻給每一個曾經認真喜歡過… more" [ref=e739] [cursor=pointer]:
+                  - /url: /story/216193/戀/toc
+                  - generic [ref=e743]:
+                    - generic [ref=e744]: 戀
+                    - generic [ref=e745]: 隨緣更新
+                    - generic [ref=e746]: 如果當年喜歡的人，也剛好喜歡自己，故事會變成什麼模樣？一把雨傘、一場煙火、一本日記。那些藏在青春裡說不出口的心意，那些以為只有自己知道的秘密，原來早已被另一個人默默珍藏。《戀》獻給每一個曾經認真喜歡過… more
+                - link "詩集 右衣 詩集 新詩 詩 現代詩 詩歌" [ref=e749] [cursor=pointer]:
+                  - /url: /story/211361/詩集/toc
+                  - generic [ref=e752]:
+                    - generic [ref=e753]: 詩集
+                    - generic [ref=e754]: 右衣
+                    - generic [ref=e755]: 詩集
+                    - generic [ref=e756]:
+                      - generic [ref=e757]: 新詩
+                      - generic [ref=e758]: 詩
+                      - generic [ref=e759]: 現代詩
+                      - generic [ref=e760]: 詩歌
+                - link "聖體 柳十二 《聖體》葉修練了八年，丹田還是空的。四屬性雜靈根，放在任何宗門都是「與仙道無緣」的廢材。他自己都快信了。直到落星峽秘境裡，二階妖獸一掌拍碎他的護身符。體內沉寂了十七年的東西，碎了。凡人，直接跳到煉氣大… more 修仙 冒险 战斗 热血 仙侠 成长 修炼" [ref=e763] [cursor=pointer]:
+                  - /url: /story/213439/聖體/toc
+                  - generic [ref=e766]:
+                    - generic [ref=e767]: 聖體
+                    - generic [ref=e768]: 柳十二
+                    - generic [ref=e769]: 《聖體》葉修練了八年，丹田還是空的。四屬性雜靈根，放在任何宗門都是「與仙道無緣」的廢材。他自己都快信了。直到落星峽秘境裡，二階妖獸一掌拍碎他的護身符。體內沉寂了十七年的東西，碎了。凡人，直接跳到煉氣大… more
+                    - generic [ref=e770]:
+                      - generic [ref=e771]: 修仙
+                      - generic [ref=e772]: 冒险
+                      - generic [ref=e773]: 战斗
+                      - generic [ref=e774]: 热血
+                      - generic [ref=e775]: 仙侠
+                      - generic [ref=e776]: 成长
+                      - generic [ref=e777]: 修炼
+                - link "邊聽歌邊寫日記 第八季 JAM 是的，歡迎來到吐苦水與西洋歌的集散地，能量正負不定，分級可能是闔家歡也有可能是冚家......平安，排解情緒專用，精神狀態美到冒泡流油，實屬正常，請勿見怪。不忘初心，2026繼續brat，接下來的計畫… more 日記 隨筆 聽歌" [ref=e780] [cursor=pointer]:
+                  - /url: /story/208230/邊聽歌邊寫日記-第八季
+                  - generic [ref=e783]:
+                    - generic [ref=e784]: 邊聽歌邊寫日記 第八季
+                    - generic [ref=e785]: JAM
+                    - generic [ref=e786]: 是的，歡迎來到吐苦水與西洋歌的集散地，能量正負不定，分級可能是闔家歡也有可能是冚家......平安，排解情緒專用，精神狀態美到冒泡流油，實屬正常，請勿見怪。不忘初心，2026繼續brat，接下來的計畫… more
+                    - generic [ref=e787]:
+                      - generic [ref=e788]: 日記
+                      - generic [ref=e789]: 隨筆
+                      - generic [ref=e790]: 聽歌
+                - link "南禾記 飄呀飄的羽毛 ・故事簡介：這是一個虛構架空的世界。豐饒大陸寧逖，駐有四大國度——北竿、東揚、西莒、南禾。當中最為強盛繁榮的，當屬南境的南禾帝國。南禾，有九大神尊庇佑，百姓歡慶太和，京中卻暗流洶湧。＃一切起因於一樁命… more 愛情 奇幻 冒險 古風 歷史 權鬥" [ref=e793] [cursor=pointer]:
+                  - /url: /story/184870/南禾記/toc
+                  - generic [ref=e796]:
+                    - generic [ref=e797]: 南禾記
+                    - generic [ref=e798]: 飄呀飄的羽毛
+                    - generic [ref=e799]: ・故事簡介：這是一個虛構架空的世界。豐饒大陸寧逖，駐有四大國度——北竿、東揚、西莒、南禾。當中最為強盛繁榮的，當屬南境的南禾帝國。南禾，有九大神尊庇佑，百姓歡慶太和，京中卻暗流洶湧。＃一切起因於一樁命… more
+                    - generic [ref=e800]:
+                      - generic [ref=e801]: 愛情
+                      - generic [ref=e802]: 奇幻
+                      - generic [ref=e803]: 冒險
+                      - generic [ref=e804]: 古風
+                      - generic [ref=e805]: 歷史
+                      - generic [ref=e806]: 權鬥
+                - link "《影煞無蹤》我媽不知道我是三角洲特種部隊 大明 這故事是一個外傳，為世界觀加強的故事...-------------------------------------夜色濃重如墨，委內瑞拉總統府軍事基地外，爆炸的火光把天空撕成猩紅碎片。… more 戰鬥 動作 戰爭 靈異 間諜 宅男 特種兵" [ref=e809] [cursor=pointer]:
+                  - /url: /story/216080/影煞無蹤-我媽不知道我是三角洲特種部隊/toc
+                  - generic [ref=e812]:
+                    - generic [ref=e813]: 《影煞無蹤》我媽不知道我是三角洲特種部隊
+                    - generic [ref=e814]: 大明
+                    - generic [ref=e815]: 這故事是一個外傳，為世界觀加強的故事...-------------------------------------夜色濃重如墨，委內瑞拉總統府軍事基地外，爆炸的火光把天空撕成猩紅碎片。… more
+                    - generic [ref=e816]:
+                      - generic [ref=e817]: 戰鬥
+                      - generic [ref=e818]: 動作
+                      - generic [ref=e819]: 戰爭
+                      - generic [ref=e820]: 靈異
+                      - generic [ref=e821]: 間諜
+                      - generic [ref=e822]: 宅男
+                      - generic [ref=e823]: 特種兵
+                - link "融像 icsnicsn 你身邊一定有這種人。事情出了問題，第一個想到他。家人生病，找他。帳單沒繳，找他。情緒崩潰，找他。大家都說他可靠。卻很少有人問他累不累。這個故事裡有一個被叫做牛尾巴的男人。有一個總是在收尾的女人。還有一… more 台灣 婚姻 創傷 教育 外遇 親子 原生家庭 小三 私生子 責任 長女" [ref=e826] [cursor=pointer]:
+                  - /url: /story/215729/融像/toc
+                  - generic [ref=e829]:
+                    - generic [ref=e830]: 融像
+                    - generic [ref=e831]: icsnicsn
+                    - generic [ref=e832]: 你身邊一定有這種人。事情出了問題，第一個想到他。家人生病，找他。帳單沒繳，找他。情緒崩潰，找他。大家都說他可靠。卻很少有人問他累不累。這個故事裡有一個被叫做牛尾巴的男人。有一個總是在收尾的女人。還有一… more
+                    - generic [ref=e833]:
+                      - generic [ref=e834]: 台灣
+                      - generic [ref=e835]: 婚姻
+                      - generic [ref=e836]: 創傷
+                      - generic [ref=e837]: 教育
+                      - generic [ref=e838]: 外遇
+                      - generic [ref=e839]: 親子
+                      - generic [ref=e840]: 原生家庭
+                      - generic [ref=e841]: 小三
+                      - generic [ref=e842]: 私生子
+                      - generic [ref=e843]: 責任
+                      - generic [ref=e844]: 長女
+                - link "或許都市傳說應該這麼用 嘿嘿阿嘿嘿 世間規則，星羅棋布，陳曉宇也得墨守成規。規則本身並無特別之處，可規則之外的規則卻十分耐人尋味。他沒有通天的法力，也沒有神明撐腰，但他有一顆瘋狂卻極度冷靜的腦袋。一隻最廉價的草人、幾條看似嚴密的玄學定律… more" [ref=e847] [cursor=pointer]:
+                  - /url: /story/214886/或許都市傳說應該這麼用/toc
+                  - generic [ref=e850]:
+                    - generic [ref=e851]: 或許都市傳說應該這麼用
+                    - generic [ref=e852]: 嘿嘿阿嘿嘿
+                    - generic [ref=e853]: 世間規則，星羅棋布，陳曉宇也得墨守成規。規則本身並無特別之處，可規則之外的規則卻十分耐人尋味。他沒有通天的法力，也沒有神明撐腰，但他有一顆瘋狂卻極度冷靜的腦袋。一隻最廉價的草人、幾條看似嚴密的玄學定律… more
+                - link "《看不見的代價：社會發展、全球化與風險社會》 廖俊明 居住在一個講求效率、增長與競爭的城市當中，我們好容易將「發展」理解成數字上升、樓宇增加、科技進步。可是，當一個地方愈來愈繁榮，點解劏房依然存在？點解在職貧窮無消失？點解人愈來愈焦慮，社會亦愈來愈不安？… more 香港 社工 非虛構 社會觀察 全球化 社會工作 時代焦慮 社會發展 風險社會 青年思考" [ref=e856] [cursor=pointer]:
+                  - /url: /story/211818/看不見的代價-社會發展-全球化與風險社會/toc
+                  - generic [ref=e859]:
+                    - generic [ref=e860]: 《看不見的代價：社會發展、全球化與風險社會》
+                    - generic [ref=e861]: 廖俊明
+                    - generic [ref=e862]: 居住在一個講求效率、增長與競爭的城市當中，我們好容易將「發展」理解成數字上升、樓宇增加、科技進步。可是，當一個地方愈來愈繁榮，點解劏房依然存在？點解在職貧窮無消失？點解人愈來愈焦慮，社會亦愈來愈不安？… more
+                    - generic [ref=e863]:
+                      - generic [ref=e864]: 香港
+                      - generic [ref=e865]: 社工
+                      - generic [ref=e866]: 非虛構
+                      - generic [ref=e867]: 社會觀察
+                      - generic [ref=e868]: 全球化
+                      - generic [ref=e869]: 社會工作
+                      - generic [ref=e870]: 時代焦慮
+                      - generic [ref=e871]: 社會發展
+                      - generic [ref=e872]: 風險社會
+                      - generic [ref=e873]: 青年思考
+                - link "重生15岁，我决定不再恋爱 （过往比纠） 菲比菲笔 2天更新一篇～戀愛腦的終點是40歲的猝死，而我，決定15歲就削髮為尼——啊不，是封心鎖愛！前世的傅語語，滿腦子都是「有情飲水飽」。為了所謂的愛情作天作地，結果書沒讀好、事業全無，最終在40歲的大馬雨季… more 愛情 校園 bg 重生 女性向 雙向奔赴 都市言情 宿命 時光倒流" [ref=e876] [cursor=pointer]:
+                  - /url: /story/216147/重生15岁-我决定不再恋爱-过往比纠/toc
+                  - generic [ref=e879]:
+                    - generic [ref=e880]: 重生15岁，我决定不再恋爱 （过往比纠）
+                    - generic [ref=e881]: 菲比菲笔
+                    - generic [ref=e882]: 2天更新一篇～戀愛腦的終點是40歲的猝死，而我，決定15歲就削髮為尼——啊不，是封心鎖愛！前世的傅語語，滿腦子都是「有情飲水飽」。為了所謂的愛情作天作地，結果書沒讀好、事業全無，最終在40歲的大馬雨季… more
+                    - generic [ref=e883]:
+                      - generic [ref=e884]: 愛情
+                      - generic [ref=e885]: 校園
+                      - generic [ref=e886]: bg
+                      - generic [ref=e887]: 重生
+                      - generic [ref=e888]: 女性向
+                      - generic [ref=e889]: 雙向奔赴
+                      - generic [ref=e890]: 都市言情
+                      - generic [ref=e891]: 宿命
+                      - generic [ref=e892]: 時光倒流
+            - generic [ref=e893]:
+              - generic [ref=e894]:
+                - text: 即時熱門小說 - Hottest Novel
+                - link "chevron_right" [ref=e895] [cursor=pointer]:
+                  - /url: /stories
+                  - generic [ref=e896]: chevron_right
+              - generic [ref=e898]:
+                - link "全部" [ref=e899] [cursor=pointer]:
+                  - /url: /stories?gc=all
+                - link "愛情浪漫" [ref=e900] [cursor=pointer]:
+                  - /url: /stories?gc=love
+                - link "玄幻武俠" [ref=e901] [cursor=pointer]:
+                  - /url: /stories?gc=wuxia
+                - link "科幻世界" [ref=e902] [cursor=pointer]:
+                  - /url: /stories?gc=scifi
+                - link "懸疑推理" [ref=e903] [cursor=pointer]:
+                  - /url: /stories?gc=suspense
+                - link "奇幻冒險" [ref=e904] [cursor=pointer]:
+                  - /url: /stories?gc=adventure
+                - link "寫實社會" [ref=e905] [cursor=pointer]:
+                  - /url: /stories?gc=social
+                - link "青春校園" [ref=e906] [cursor=pointer]:
+                  - /url: /stories?gc=youth
+                - link "二創" [ref=e907] [cursor=pointer]:
+                  - /url: /stories?gc=fanfiction
+                - link "男男耽美" [ref=e908] [cursor=pointer]:
+                  - /url: /stories?gc=bl
+                - link "女同百合" [ref=e909] [cursor=pointer]:
+                  - /url: /stories?gc=gl
+                - link "輕小說" [ref=e910] [cursor=pointer]:
+                  - /url: /stories?gc=light
+              - generic [ref=e912]:
+                - link "已完結 破紋夜 楓成 and 1 Others 無語紋蒼天，惟有淚千行。相關著作：十步殺一人，千里終須行。【召喚武師】一切有為法，如夢幻泡影。【遊戲之道】遠見域外影，近聽魂無聲。【三魂行】真山青鋒寒，殺氣橫千里。【真山誌】臉書：楓成TG：萬千世界… more 香港作者 穿越 玄幻 劇情 特約作品 武功" [ref=e915] [cursor=pointer]:
+                  - /url: /story/23818/破紋夜/toc
+                  - generic [ref=e918]: 已完結
+                  - generic [ref=e919]:
+                    - generic [ref=e920]: 破紋夜
+                    - generic [ref=e921]: 楓成 and 1 Others
+                    - generic [ref=e922]: 無語紋蒼天，惟有淚千行。相關著作：十步殺一人，千里終須行。【召喚武師】一切有為法，如夢幻泡影。【遊戲之道】遠見域外影，近聽魂無聲。【三魂行】真山青鋒寒，殺氣橫千里。【真山誌】臉書：楓成TG：萬千世界… more
+                    - generic [ref=e923]:
+                      - generic [ref=e924]: 香港作者
+                      - generic [ref=e925]: 穿越
+                      - generic [ref=e926]: 玄幻
+                      - generic [ref=e927]: 劇情
+                      - generic [ref=e928]: 特約作品
+                      - generic [ref=e929]: 武功
+                - link "真山誌 楓成 真山青鋒寒，殺氣橫千里。相關著作：十步殺一人，千里終須行。【召喚武師】一切有為法，如夢幻泡影。【遊戲之道】無語紋蒼天，惟有淚千行。【破紋夜】遠見域外影，近聽魂無聲。【三魂行】加更任務：達到讚好數加更 … more 玄幻 修仙 2024暑期日更挑戰 2025暑期日更挑戰 特約作品" [ref=e932] [cursor=pointer]:
+                  - /url: /story/92733/真山誌/toc
+                  - generic [ref=e935]:
+                    - generic [ref=e936]: 真山誌
+                    - generic [ref=e937]: 楓成
+                    - generic [ref=e938]: 真山青鋒寒，殺氣橫千里。相關著作：十步殺一人，千里終須行。【召喚武師】一切有為法，如夢幻泡影。【遊戲之道】無語紋蒼天，惟有淚千行。【破紋夜】遠見域外影，近聽魂無聲。【三魂行】加更任務：達到讚好數加更 … more
+                    - generic [ref=e939]:
+                      - generic [ref=e940]: 玄幻
+                      - generic [ref=e941]: 修仙
+                      - generic [ref=e942]: 2024暑期日更挑戰
+                      - generic [ref=e943]: 2025暑期日更挑戰
+                      - generic [ref=e944]: 特約作品
+                - link "诺亚世界 走火入魔的Aurora 在浩瀚的諾亞星系，那里举办着四年一度的「諾亞大賽」。 這是一場神靈坐鎮、全宇宙轉播的瘋狂競技。勝者，能向星系核心許下一個「必定實現」的願望；敗者，連同自己的生命，都可能被抹除在世界中。 但是，我们的主… more 奇幻 科幻 架空世界 系統 群像 悬疑 战斗 系统 大逃殺 反乌托邦 长篇 全員惡人 大賽 凹凸世界類似世界觀 不开挂 全员恶人 大赛 受氣包主角 大逃杀 凹凸世界类似世界观" [ref=e947] [cursor=pointer]:
+                  - /url: /story/209167/诺亚世界/toc
+                  - generic [ref=e950]:
+                    - generic [ref=e951]: 诺亚世界
+                    - generic [ref=e952]: 走火入魔的Aurora
+                    - generic [ref=e953]: 在浩瀚的諾亞星系，那里举办着四年一度的「諾亞大賽」。 這是一場神靈坐鎮、全宇宙轉播的瘋狂競技。勝者，能向星系核心許下一個「必定實現」的願望；敗者，連同自己的生命，都可能被抹除在世界中。 但是，我们的主… more
+                    - generic [ref=e954]:
+                      - generic [ref=e955]: 奇幻
+                      - generic [ref=e956]: 科幻
+                      - generic [ref=e957]: 架空世界
+                      - generic [ref=e958]: 系統
+                      - generic [ref=e959]: 群像
+                      - generic [ref=e960]: 悬疑
+                      - generic [ref=e961]: 战斗
+                      - generic [ref=e962]: 系统
+                      - generic [ref=e963]: 大逃殺
+                      - generic [ref=e964]: 反乌托邦
+                      - generic [ref=e965]: 长篇
+                      - generic [ref=e966]: 全員惡人
+                      - generic [ref=e967]: 大賽
+                      - generic [ref=e968]: 凹凸世界類似世界觀
+                      - generic [ref=e969]: 不开挂
+                      - generic [ref=e970]: 全员恶人
+                      - generic [ref=e971]: 大赛
+                      - generic [ref=e972]: 受氣包主角
+                      - generic [ref=e973]: 大逃杀
+                      - generic [ref=e974]: 凹凸世界类似世界观
+                - link "漫天繁星，唯獨你最耀眼 黑靈 ✨✨每當瑪若抬起頭看著星星時，總有一顆特別璀璨的星星在閃爍著她。即使她跟別人提起這種心電感應，他們都只說她想像力過於豐富 ?直到某天，來了一個新鄰居住在瑪若的樓上，本以為他是跟蹤狂，結果他竟然是...… more 愛情 奇幻 日常 甜文 浪漫 曖昧 戲劇性戀愛" [ref=e977] [cursor=pointer]:
+                  - /url: /story/206753/漫天繁星-唯獨你最耀眼/toc
+                  - generic [ref=e980]:
+                    - generic [ref=e981]: 漫天繁星，唯獨你最耀眼
+                    - generic [ref=e982]: 黑靈
+                    - generic [ref=e983]: ✨✨每當瑪若抬起頭看著星星時，總有一顆特別璀璨的星星在閃爍著她。即使她跟別人提起這種心電感應，他們都只說她想像力過於豐富 ?直到某天，來了一個新鄰居住在瑪若的樓上，本以為他是跟蹤狂，結果他竟然是...… more
+                    - generic [ref=e984]:
+                      - generic [ref=e985]: 愛情
+                      - generic [ref=e986]: 奇幻
+                      - generic [ref=e987]: 日常
+                      - generic [ref=e988]: 甜文
+                      - generic [ref=e989]: 浪漫
+                      - generic [ref=e990]: 曖昧
+                      - generic [ref=e991]: 戲劇性戀愛
+                - link "【第三集正式展開】永恆之血 (Eternal Blood) TING ⚜️西方奇幻小說⚜️第一集+第二集的預告片：第三集前導預告：「無論是關於妳的夢境，還是妳聽到的低語聲，背後都一定是暗藏著某種意義。它或許是一種預兆，又或許是一種牽引，牽引著妳逐步接近真相。」十九歲的戴… more 愛情 奇幻 冒險 黑暗 魔法 懸疑 戰鬥 青春 bg 長篇 超自然 吸血鬼 夢境 西方 歐美 特約作品 狼人 歐風 女巫 巫師" [ref=e994] [cursor=pointer]:
+                  - /url: /story/45113/第三集正式展開-永恆之血-eternal-blood/toc
+                  - generic [ref=e997]:
+                    - generic [ref=e998]: 【第三集正式展開】永恆之血 (Eternal Blood)
+                    - generic [ref=e999]: TING
+                    - generic [ref=e1000]: ⚜️西方奇幻小說⚜️第一集+第二集的預告片：第三集前導預告：「無論是關於妳的夢境，還是妳聽到的低語聲，背後都一定是暗藏著某種意義。它或許是一種預兆，又或許是一種牽引，牽引著妳逐步接近真相。」十九歲的戴… more
+                    - generic [ref=e1001]:
+                      - generic [ref=e1002]: 愛情
+                      - generic [ref=e1003]: 奇幻
+                      - generic [ref=e1004]: 冒險
+                      - generic [ref=e1005]: 黑暗
+                      - generic [ref=e1006]: 魔法
+                      - generic [ref=e1007]: 懸疑
+                      - generic [ref=e1008]: 戰鬥
+                      - generic [ref=e1009]: 青春
+                      - generic [ref=e1010]: bg
+                      - generic [ref=e1011]: 長篇
+                      - generic [ref=e1012]: 超自然
+                      - generic [ref=e1013]: 吸血鬼
+                      - generic [ref=e1014]: 夢境
+                      - generic [ref=e1015]: 西方
+                      - generic [ref=e1016]: 歐美
+                      - generic [ref=e1017]: 特約作品
+                      - generic [ref=e1018]: 狼人
+                      - generic [ref=e1019]: 歐風
+                      - generic [ref=e1020]: 女巫
+                      - generic [ref=e1021]: 巫師
+                - link "已完結 相愛的運氣（有肉有劇情的甜文） 嵐水月 練聿熙是個人盡皆知的肉食女，進入大學之後，本來只是想找個玩伴工具人打發時間，誰知道這個被她拿來當作宅男改造遊戲的草系工具人，不只出脫成系草等級，甚至開始欲求不滿，想從玩伴升級成為她的炮友、她的按摩棒。… more 校園 甜文 都市 言情 甜寵 肉文 高h 都會愛情" [ref=e1024] [cursor=pointer]:
+                  - /url: /story/166355/相愛的運氣-有肉有劇情的甜文/toc
+                  - generic [ref=e1027]: 已完結
+                  - generic [ref=e1028]:
+                    - generic [ref=e1029]: 相愛的運氣（有肉有劇情的甜文）
+                    - generic [ref=e1030]: 嵐水月
+                    - generic [ref=e1031]: 練聿熙是個人盡皆知的肉食女，進入大學之後，本來只是想找個玩伴工具人打發時間，誰知道這個被她拿來當作宅男改造遊戲的草系工具人，不只出脫成系草等級，甚至開始欲求不滿，想從玩伴升級成為她的炮友、她的按摩棒。… more
+                    - generic [ref=e1032]:
+                      - generic [ref=e1033]: 校園
+                      - generic [ref=e1034]: 甜文
+                      - generic [ref=e1035]: 都市
+                      - generic [ref=e1036]: 言情
+                      - generic [ref=e1037]: 甜寵
+                      - generic [ref=e1038]: 肉文
+                      - generic [ref=e1039]: 高h
+                      - generic [ref=e1040]: 都會愛情
+                - link "日月遺子：混血公主與災厄魔狼 猴子李 結合北歐神話和聖經神話的奇幻改編故事。和平國度的混血公主，卻成為開啟遠古遺跡的「鑰匙」，阻止「大洪水」的到來。她與孤獨中尋找愛人的災厄魔狼——芬里爾相遇。兩人共同在陰謀、遺跡與末日陰影中，一步步揭開被… more 愛情 奇幻 冒險 戰鬥 友情 戰爭 神話 親情 史詩" [ref=e1043] [cursor=pointer]:
+                  - /url: /story/190446/日月遺子-混血公主與災厄魔狼/toc
+                  - generic [ref=e1046]:
+                    - generic [ref=e1047]: 日月遺子：混血公主與災厄魔狼
+                    - generic [ref=e1048]: 猴子李
+                    - generic [ref=e1049]: 結合北歐神話和聖經神話的奇幻改編故事。和平國度的混血公主，卻成為開啟遠古遺跡的「鑰匙」，阻止「大洪水」的到來。她與孤獨中尋找愛人的災厄魔狼——芬里爾相遇。兩人共同在陰謀、遺跡與末日陰影中，一步步揭開被… more
+                    - generic [ref=e1050]:
+                      - generic [ref=e1051]: 愛情
+                      - generic [ref=e1052]: 奇幻
+                      - generic [ref=e1053]: 冒險
+                      - generic [ref=e1054]: 戰鬥
+                      - generic [ref=e1055]: 友情
+                      - generic [ref=e1056]: 戰爭
+                      - generic [ref=e1057]: 神話
+                      - generic [ref=e1058]: 親情
+                      - generic [ref=e1059]: 史詩
+                - link "魔法仙師浪漫譚 大秦書說人 「……人稱武聖的龍傲天。很不巧，正是區區在下，不過我更喜歡別人叫我的本名，龍涎香。」「戀愛中的少女是無敵的……這句話，我打算用字面上的意思來證明給你們看。」魔法仙師浪漫譚第一卷：【西大陸篇】連載中半步… more 校園 日常 輕小說 魔法 搞笑 異世界 戀愛 長篇 純愛 修仙 後宮 群像 轉世 修羅場 偽后宮 天降青梅 女僕得吃（？ 金毛頗有敗犬之相" [ref=e1062] [cursor=pointer]:
+                  - /url: /story/204167/魔法仙師浪漫譚/toc
+                  - generic [ref=e1065]:
+                    - generic [ref=e1066]: 魔法仙師浪漫譚
+                    - generic [ref=e1067]: 大秦書說人
+                    - generic [ref=e1068]: 「……人稱武聖的龍傲天。很不巧，正是區區在下，不過我更喜歡別人叫我的本名，龍涎香。」「戀愛中的少女是無敵的……這句話，我打算用字面上的意思來證明給你們看。」魔法仙師浪漫譚第一卷：【西大陸篇】連載中半步… more
+                    - generic [ref=e1069]:
+                      - generic [ref=e1070]: 校園
+                      - generic [ref=e1071]: 日常
+                      - generic [ref=e1072]: 輕小說
+                      - generic [ref=e1073]: 魔法
+                      - generic [ref=e1074]: 搞笑
+                      - generic [ref=e1075]: 異世界
+                      - generic [ref=e1076]: 戀愛
+                      - generic [ref=e1077]: 長篇
+                      - generic [ref=e1078]: 純愛
+                      - generic [ref=e1079]: 修仙
+                      - generic [ref=e1080]: 後宮
+                      - generic [ref=e1081]: 群像
+                      - generic [ref=e1082]: 轉世
+                      - generic [ref=e1083]: 修羅場
+                      - generic [ref=e1084]: 偽后宮
+                      - generic [ref=e1085]: 天降青梅
+                      - generic [ref=e1086]: 女僕得吃（？
+                      - generic [ref=e1087]: 金毛頗有敗犬之相
+                - link "烈火之心 子不語 阿速卡，身為背叛雇主與同伴的超級傭兵，必須一路突破所有阻礙，將她親手解放的奴隸帶回他們的家鄉——綠樹王國。史卡特，身為她的夥伴，必須在她逃出掌握，或者被黑幫誅殺前，將她逮回傭兵公會審理她犯下的過錯。這… more 奇幻 冒險 輕小說 台灣作者 人外 福瑞" [ref=e1090] [cursor=pointer]:
+                  - /url: /story/151766/烈火之心/toc
+                  - generic [ref=e1093]:
+                    - generic [ref=e1094]: 烈火之心
+                    - generic [ref=e1095]: 子不語
+                    - generic [ref=e1096]: 阿速卡，身為背叛雇主與同伴的超級傭兵，必須一路突破所有阻礙，將她親手解放的奴隸帶回他們的家鄉——綠樹王國。史卡特，身為她的夥伴，必須在她逃出掌握，或者被黑幫誅殺前，將她逮回傭兵公會審理她犯下的過錯。這… more
+                    - generic [ref=e1097]:
+                      - generic [ref=e1098]: 奇幻
+                      - generic [ref=e1099]: 冒險
+                      - generic [ref=e1100]: 輕小說
+                      - generic [ref=e1101]: 台灣作者
+                      - generic [ref=e1102]: 人外
+                      - generic [ref=e1103]: 福瑞
+                - link "琥珀色的夏天 Rika 醬 破鏡重逢 ×平行宇宙×尋找真我的療癒之旅偏執精英大男主 × 療癒純愛小男二 × 雙追妻 ×三角戀×成長系女主（內核：記憶共鳴 × 逆熵浪漫 × 時間閉環）「人不是偶然出現在這個世界上。所有發生的事背後… more 奇幻 日常 輕小說 科幻 戀愛 甜文 成長 純愛 甜寵 情感 療癒 年下 年上 日系 雙向奔赴 都市愛情 追妻 海島 尋找真我 時空悖論" [ref=e1106] [cursor=pointer]:
+                  - /url: /story/215290/琥珀色的夏天/toc
+                  - generic [ref=e1109]:
+                    - generic [ref=e1110]: 琥珀色的夏天
+                    - generic [ref=e1111]: Rika 醬
+                    - generic [ref=e1112]: 破鏡重逢 ×平行宇宙×尋找真我的療癒之旅偏執精英大男主 × 療癒純愛小男二 × 雙追妻 ×三角戀×成長系女主（內核：記憶共鳴 × 逆熵浪漫 × 時間閉環）「人不是偶然出現在這個世界上。所有發生的事背後… more
+                    - generic [ref=e1113]:
+                      - generic [ref=e1114]: 奇幻
+                      - generic [ref=e1115]: 日常
+                      - generic [ref=e1116]: 輕小說
+                      - generic [ref=e1117]: 科幻
+                      - generic [ref=e1118]: 戀愛
+                      - generic [ref=e1119]: 甜文
+                      - generic [ref=e1120]: 成長
+                      - generic [ref=e1121]: 純愛
+                      - generic [ref=e1122]: 甜寵
+                      - generic [ref=e1123]: 情感
+                      - generic [ref=e1124]: 療癒
+                      - generic [ref=e1125]: 年下
+                      - generic [ref=e1126]: 年上
+                      - generic [ref=e1127]: 日系
+                      - generic [ref=e1128]: 雙向奔赴
+                      - generic [ref=e1129]: 都市愛情
+                      - generic [ref=e1130]: 追妻
+                      - generic [ref=e1131]: 海島
+                      - generic [ref=e1132]: 尋找真我
+                      - generic [ref=e1133]: 時空悖論
+                - link "重生15岁，我决定不再恋爱 （过往比纠） 菲比菲笔 2天更新一篇～戀愛腦的終點是40歲的猝死，而我，決定15歲就削髮為尼——啊不，是封心鎖愛！前世的傅語語，滿腦子都是「有情飲水飽」。為了所謂的愛情作天作地，結果書沒讀好、事業全無，最終在40歲的大馬雨季… more 愛情 校園 bg 重生 女性向 雙向奔赴 都市言情 宿命 時光倒流" [ref=e1136] [cursor=pointer]:
+                  - /url: /story/216147/重生15岁-我决定不再恋爱-过往比纠/toc
+                  - generic [ref=e1139]:
+                    - generic [ref=e1140]: 重生15岁，我决定不再恋爱 （过往比纠）
+                    - generic [ref=e1141]: 菲比菲笔
+                    - generic [ref=e1142]: 2天更新一篇～戀愛腦的終點是40歲的猝死，而我，決定15歲就削髮為尼——啊不，是封心鎖愛！前世的傅語語，滿腦子都是「有情飲水飽」。為了所謂的愛情作天作地，結果書沒讀好、事業全無，最終在40歲的大馬雨季… more
+                    - generic [ref=e1143]:
+                      - generic [ref=e1144]: 愛情
+                      - generic [ref=e1145]: 校園
+                      - generic [ref=e1146]: bg
+                      - generic [ref=e1147]: 重生
+                      - generic [ref=e1148]: 女性向
+                      - generic [ref=e1149]: 雙向奔赴
+                      - generic [ref=e1150]: 都市言情
+                      - generic [ref=e1151]: 宿命
+                      - generic [ref=e1152]: 時光倒流
+                - link "《末法紀行I：超越的序曲》在荒唐世界前進的N種方法（第一卷完結，第二卷連載中～） 北海沙丁魚 ⚠︎警告！以下故事轉自某匿名人物的口述記錄，若有雷同，那就──現代都市奇幻×異能戰鬥×神話傳說劍與魔法、神靈與惡靈，這些古老的神話從未遠去。千百年來，祂們始終依託著人類不曾停歇的幻想，恆久地隱匿於現實… more 冒險 輕小說 魔法 戰鬥 現代 長篇 異能 神話 修仙 克蘇魯 都市奇幻 雙主角 魔法世界 存在主義" [ref=e1155] [cursor=pointer]:
+                  - /url: /story/206750/末法紀行i-超越的序曲-在荒唐世界前進的n種方法-第一卷完結-第二卷連載中/toc
+                  - generic [ref=e1158]:
+                    - generic [ref=e1159]: 《末法紀行I：超越的序曲》在荒唐世界前進的N種方法（第一卷完結，第二卷連載中～）
+                    - generic [ref=e1160]: 北海沙丁魚
+                    - generic [ref=e1161]: ⚠︎警告！以下故事轉自某匿名人物的口述記錄，若有雷同，那就──現代都市奇幻×異能戰鬥×神話傳說劍與魔法、神靈與惡靈，這些古老的神話從未遠去。千百年來，祂們始終依託著人類不曾停歇的幻想，恆久地隱匿於現實… more
+                    - generic [ref=e1162]:
+                      - generic [ref=e1163]: 冒險
+                      - generic [ref=e1164]: 輕小說
+                      - generic [ref=e1165]: 魔法
+                      - generic [ref=e1166]: 戰鬥
+                      - generic [ref=e1167]: 現代
+                      - generic [ref=e1168]: 長篇
+                      - generic [ref=e1169]: 異能
+                      - generic [ref=e1170]: 神話
+                      - generic [ref=e1171]: 修仙
+                      - generic [ref=e1172]: 克蘇魯
+                      - generic [ref=e1173]: 都市奇幻
+                      - generic [ref=e1174]: 雙主角
+                      - generic [ref=e1175]: 魔法世界
+                      - generic [ref=e1176]: 存在主義
+            - generic [ref=e1177]:
+              - generic [ref=e1178]: 即時熱門漫畫 - Popular Comic
+              - generic [ref=e1180]:
+                - link "全部" [ref=e1181] [cursor=pointer]:
+                  - /url: /stories?gc=all
+                - link "愛情浪漫" [ref=e1182] [cursor=pointer]:
+                  - /url: /stories?gc=love
+                - link "玄幻武俠" [ref=e1183] [cursor=pointer]:
+                  - /url: /stories?gc=wuxia
+                - link "科幻世界" [ref=e1184] [cursor=pointer]:
+                  - /url: /stories?gc=scifi
+                - link "懸疑推理" [ref=e1185] [cursor=pointer]:
+                  - /url: /stories?gc=suspense
+                - link "奇幻冒險" [ref=e1186] [cursor=pointer]:
+                  - /url: /stories?gc=adventure
+                - link "寫實社會" [ref=e1187] [cursor=pointer]:
+                  - /url: /stories?gc=social
+                - link "青春校園" [ref=e1188] [cursor=pointer]:
+                  - /url: /stories?gc=youth
+                - link "二創" [ref=e1189] [cursor=pointer]:
+                  - /url: /stories?gc=fanfiction
+                - link "男男耽美" [ref=e1190] [cursor=pointer]:
+                  - /url: /stories?gc=bl
+                - link "女同百合" [ref=e1191] [cursor=pointer]:
+                  - /url: /stories?gc=gl
+                - link "輕小說" [ref=e1192] [cursor=pointer]:
+                  - /url: /stories?gc=light
+              - generic [ref=e1194]:
+                - link "二创绘图合集 走火入魔的Aurora 我会将我绘制的二创图放于此，作者可以随意拿图，但要标明出处。不定时更新。 二創 繪畫 圖庫 歡迎拿圖" [ref=e1197] [cursor=pointer]:
+                  - /url: /story/211975/二创绘图合集/toc
+                  - generic [ref=e1200]:
+                    - generic [ref=e1201]: 二创绘图合集
+                    - generic [ref=e1202]: 走火入魔的Aurora
+                    - generic [ref=e1203]: 我会将我绘制的二创图放于此，作者可以随意拿图，但要标明出处。不定时更新。
+                    - generic [ref=e1204]:
+                      - generic [ref=e1205]: 二創
+                      - generic [ref=e1206]: 繪畫
+                      - generic [ref=e1207]: 圖庫
+                      - generic [ref=e1208]: 歡迎拿圖
+                - link "⊹✹皮皮夢幻繪圖世界✹⊹ 皮皮 ⊹✹ 嚴禁AI學習-無斷轉載 ✹⊹歡迎呀各位途經的旅人!這裡是流光閣，存放所有皮皮在塵世中創作的作品。裡面會有皮皮創作的小說封面，還有其他短篇的製作。以及一些電繪的練習。如果想看我以前的… more 電繪 小說封面 塵世畫廊 皮皮風 皮皮的創作日常" [ref=e1211] [cursor=pointer]:
+                  - /url: /story/169975/皮皮夢幻繪圖世界/toc
+                  - generic [ref=e1214]:
+                    - generic [ref=e1215]: ⊹✹皮皮夢幻繪圖世界✹⊹
+                    - generic [ref=e1216]: 皮皮
+                    - generic [ref=e1217]: ⊹✹ 嚴禁AI學習-無斷轉載 ✹⊹歡迎呀各位途經的旅人!這裡是流光閣，存放所有皮皮在塵世中創作的作品。裡面會有皮皮創作的小說封面，還有其他短篇的製作。以及一些電繪的練習。如果想看我以前的… more
+                    - generic [ref=e1218]:
+                      - generic [ref=e1219]: 電繪
+                      - generic [ref=e1220]: 小說封面
+                      - generic [ref=e1221]: 塵世畫廊
+                      - generic [ref=e1222]: 皮皮風
+                      - generic [ref=e1223]: 皮皮的創作日常
+                - link "W. H. 短漫集 W.H. 【June/13/2026 大約下午 1:36 更新】我回來囉～2026 暑期日更的準備大致已經完成，還剩下許多配料，我決定從今日起，一天一篇發布在《W. H. 短漫集》裡 (今天兩篇～)，持續日更到… more 短漫 頭貼頭像 書封cd封 ai生圖" [ref=e1226] [cursor=pointer]:
+                  - /url: /story/121206/w-h-短漫集/toc
+                  - generic [ref=e1229]:
+                    - generic [ref=e1230]: W. H. 短漫集
+                    - generic [ref=e1231]: W.H.
+                    - generic [ref=e1232]: 【June/13/2026 大約下午 1:36 更新】我回來囉～2026 暑期日更的準備大致已經完成，還剩下許多配料，我決定從今日起，一天一篇發布在《W. H. 短漫集》裡 (今天兩篇～)，持續日更到… more
+                    - generic [ref=e1233]:
+                      - generic [ref=e1234]: 短漫
+                      - generic [ref=e1235]: 頭貼頭像
+                      - generic [ref=e1236]: 書封cd封
+                      - generic [ref=e1237]: ai生圖
+                - link "MondayChild畫集 月曜日 放平時畫嘅畫 插畫 塗鴉" [ref=e1240] [cursor=pointer]:
+                  - /url: /story/182032/mondaychild畫集/toc
+                  - generic [ref=e1243]:
+                    - generic [ref=e1244]: MondayChild畫集
+                    - generic [ref=e1245]: 月曜日
+                    - generic [ref=e1246]: 放平時畫嘅畫
+                    - generic [ref=e1247]:
+                      - generic [ref=e1248]: 插畫
+                      - generic [ref=e1249]: 塗鴉
+                - link "《進擊的巨人-第X分隊》 貓味飯糰 這是一部以進擊的巨人世界觀下去創作的故事，裡面有大量的原創角色及故事，當然也會有部分原創角色登場的鏡頭，而劇情屬於政變篇後的IF線。預計每週三更新兩話。 同人 二創 進擊的巨人" [ref=e1252] [cursor=pointer]:
+                  - /url: /story/216135/進擊的巨人-第x分隊/toc
+                  - generic [ref=e1255]:
+                    - generic [ref=e1256]: 《進擊的巨人-第X分隊》
+                    - generic [ref=e1257]: 貓味飯糰
+                    - generic [ref=e1258]: 這是一部以進擊的巨人世界觀下去創作的故事，裡面有大量的原創角色及故事，當然也會有部分原創角色登場的鏡頭，而劇情屬於政變篇後的IF線。預計每週三更新兩話。
+                    - generic [ref=e1259]:
+                      - generic [ref=e1260]: 同人
+                      - generic [ref=e1261]: 二創
+                      - generic [ref=e1262]: 進擊的巨人
+                - link "竹馬還沒成為戀人 蕊夢 一對從小學認識到高中的竹馬，高冷不多話、佔有慾MAX的玖禾 X 脾氣不好、個性意外單純的柃生，明明做了一堆戀人會做的事情，但是依然還沒成為戀人的矛盾甜甜日常。 愛情 日常 短篇 原創bl 竹馬 酖美" [ref=e1265] [cursor=pointer]:
+                  - /url: /story/209304/竹馬還沒成為戀人/toc
+                  - generic [ref=e1268]:
+                    - generic [ref=e1269]: 竹馬還沒成為戀人
+                    - generic [ref=e1270]: 蕊夢
+                    - generic [ref=e1271]: 一對從小學認識到高中的竹馬，高冷不多話、佔有慾MAX的玖禾 X 脾氣不好、個性意外單純的柃生，明明做了一堆戀人會做的事情，但是依然還沒成為戀人的矛盾甜甜日常。
+                    - generic [ref=e1272]:
+                      - generic [ref=e1273]: 愛情
+                      - generic [ref=e1274]: 日常
+                      - generic [ref=e1275]: 短篇
+                      - generic [ref=e1276]: 原創bl
+                      - generic [ref=e1277]: 竹馬
+                      - generic [ref=e1278]: 酖美
+                - link "隻吸血鬼真心有撚病 hardysXtreme 來自二百年前歐洲的一隻吸血鬼小時候因不明原因被教會孤兒院收養由於經常咬傷孤兒院其他孩子，吸血鬼特質很快被發現他成為一個被嫌棄的人，像人球一樣在不同孤兒院拋來拋去最終隨傳教士來到香港每日更新，星期六、日… more 奇幻 靈異 漫畫 廣東話 原創故事" [ref=e1281] [cursor=pointer]:
+                  - /url: /story/203247/隻吸血鬼真心有撚病/toc
+                  - generic [ref=e1284]:
+                    - generic [ref=e1285]: 隻吸血鬼真心有撚病
+                    - generic [ref=e1286]: hardysXtreme
+                    - generic [ref=e1287]: 來自二百年前歐洲的一隻吸血鬼小時候因不明原因被教會孤兒院收養由於經常咬傷孤兒院其他孩子，吸血鬼特質很快被發現他成為一個被嫌棄的人，像人球一樣在不同孤兒院拋來拋去最終隨傳教士來到香港每日更新，星期六、日… more
+                    - generic [ref=e1288]:
+                      - generic [ref=e1289]: 奇幻
+                      - generic [ref=e1290]: 靈異
+                      - generic [ref=e1291]: 漫畫
+                      - generic [ref=e1292]: 廣東話
+                      - generic [ref=e1293]: 原創故事
+                - link "已完結 不能飛的鴨子 Pluto 有一隻翅膀發育不全，不能飛的鴨子——呱呱。他羨慕那些小鳥能夠自由自在地飛翔，享受寬闊的藍天。他是多麼渴望藍天.........(因為時間的關係，每篇大概只會有四張圖，請見諒) 喜劇 漫畫 治癒 插畫 動物 擬人 鴨子" [ref=e1296] [cursor=pointer]:
+                  - /url: /story/188349/不能飛的鴨子/toc
+                  - generic [ref=e1299]: 已完結
+                  - generic [ref=e1300]:
+                    - generic [ref=e1301]: 不能飛的鴨子
+                    - generic [ref=e1302]: Pluto
+                    - generic [ref=e1303]: 有一隻翅膀發育不全，不能飛的鴨子——呱呱。他羨慕那些小鳥能夠自由自在地飛翔，享受寬闊的藍天。他是多麼渴望藍天.........(因為時間的關係，每篇大概只會有四張圖，請見諒)
+                    - generic [ref=e1304]:
+                      - generic [ref=e1305]: 喜劇
+                      - generic [ref=e1306]: 漫畫
+                      - generic [ref=e1307]: 治癒
+                      - generic [ref=e1308]: 插畫
+                      - generic [ref=e1309]: 動物
+                      - generic [ref=e1310]: 擬人
+                      - generic [ref=e1311]: 鴨子
+                - link "還有明天嗎? 江理智 傻氣高中女生林小如，一直暗戀帥氣的同班同學張志康，卻一直不敢告白表達心中愛意。這時香港發生了多宗外藉小童被殺的兇案，並導致轟動全城的世紀冤案！林小如後悔不已，生離死別已成定局，事情還有轉機嗎？戀人還有… more 愛情 香港作者 懸疑 香港 戀愛 青春 成長 青少年 暗戀 劇情 劇本 懷舊 案件 哀傷 原創作品" [ref=e1314] [cursor=pointer]:
+                  - /url: /story/203503/還有明天嗎/toc
+                  - generic [ref=e1317]:
+                    - generic [ref=e1318]: 還有明天嗎?
+                    - generic [ref=e1319]: 江理智
+                    - generic [ref=e1320]: 傻氣高中女生林小如，一直暗戀帥氣的同班同學張志康，卻一直不敢告白表達心中愛意。這時香港發生了多宗外藉小童被殺的兇案，並導致轟動全城的世紀冤案！林小如後悔不已，生離死別已成定局，事情還有轉機嗎？戀人還有… more
+                    - generic [ref=e1321]:
+                      - generic [ref=e1322]: 愛情
+                      - generic [ref=e1323]: 香港作者
+                      - generic [ref=e1324]: 懸疑
+                      - generic [ref=e1325]: 香港
+                      - generic [ref=e1326]: 戀愛
+                      - generic [ref=e1327]: 青春
+                      - generic [ref=e1328]: 成長
+                      - generic [ref=e1329]: 青少年
+                      - generic [ref=e1330]: 暗戀
+                      - generic [ref=e1331]: 劇情
+                      - generic [ref=e1332]: 劇本
+                      - generic [ref=e1333]: 懷舊
+                      - generic [ref=e1334]: 案件
+                      - generic [ref=e1335]: 哀傷
+                      - generic [ref=e1336]: 原創作品
+                - link "原創BL｜司獄的廢甜小日常 夏嶽 國中語文老師夏青司ｘ童顏大學生夏獄甜甜的耽美愛情日常💖喜歡這對小情侶的話，也歡迎追蹤FB粉專喔！🐰FB粉專（私慾）：https://www.facebook.com/yuenan710 愛情 原創 bl 耽美 日常 短篇 戀愛 oc 2025暑期日更挑戰 可愛 原創bl 彩漫" [ref=e1339] [cursor=pointer]:
+                  - /url: /story/174622/原創bl-司獄的廢甜小日常/toc
+                  - generic [ref=e1342]:
+                    - generic [ref=e1343]: 原創BL｜司獄的廢甜小日常
+                    - generic [ref=e1344]: 夏嶽
+                    - generic [ref=e1345]: 國中語文老師夏青司ｘ童顏大學生夏獄甜甜的耽美愛情日常💖喜歡這對小情侶的話，也歡迎追蹤FB粉專喔！🐰FB粉專（私慾）：https://www.facebook.com/yuenan710
+                    - generic [ref=e1346]:
+                      - generic [ref=e1347]: 愛情
+                      - generic [ref=e1348]: 原創
+                      - generic [ref=e1349]: bl
+                      - generic [ref=e1350]: 耽美
+                      - generic [ref=e1351]: 日常
+                      - generic [ref=e1352]: 短篇
+                      - generic [ref=e1353]: 戀愛
+                      - generic [ref=e1354]: oc
+                      - generic [ref=e1355]: 2025暑期日更挑戰
+                      - generic [ref=e1356]: 可愛
+                      - generic [ref=e1357]: 原創bl
+                      - generic [ref=e1358]: 彩漫
+                - link "X 和 Y-輕浮女和風紀長 Lok lo 樂樂 輕浮女和風紀長的日常! 愛情 原創 校園 喜劇" [ref=e1361] [cursor=pointer]:
+                  - /url: /story/170951/x-和-y-輕浮女和風紀長/toc
+                  - generic [ref=e1364]:
+                    - generic [ref=e1365]: X 和 Y-輕浮女和風紀長
+                    - generic [ref=e1366]: Lok lo 樂樂
+                    - generic [ref=e1367]: 輕浮女和風紀長的日常!
+                    - generic [ref=e1368]:
+                      - generic [ref=e1369]: 愛情
+                      - generic [ref=e1370]: 原創
+                      - generic [ref=e1371]: 校園
+                      - generic [ref=e1372]: 喜劇
+                - link "地雷系偵探 袁術 地雷女開偵探社查案故事 懸疑 偵探 奇案 地雷系" [ref=e1375] [cursor=pointer]:
+                  - /url: /story/177490/地雷系偵探/toc
+                  - generic [ref=e1378]:
+                    - generic [ref=e1379]: 地雷系偵探
+                    - generic [ref=e1380]: 袁術
+                    - generic [ref=e1381]: 地雷女開偵探社查案故事
+                    - generic [ref=e1382]:
+                      - generic [ref=e1383]: 懸疑
+                      - generic [ref=e1384]: 偵探
+                      - generic [ref=e1385]: 奇案
+                      - generic [ref=e1386]: 地雷系
+            - generic [ref=e1387]:
+              - generic [ref=e1388]:
+                - text: 駐站作品
+                - link "chevron_right" [ref=e1389] [cursor=pointer]:
+                  - /url: /storypicks/100
+                  - generic [ref=e1390]: chevron_right
+              - generic [ref=e1391]:
+                - generic [ref=e1392]: 全站讀者品評，全民愛藏！
+                - generic [ref=e1393]:
+                  - link "劍舞輪迴 (Sword Chronicle) Setsuna 八位被選中的人，為了各自的願望，捨命相鬥。相爭的汗水流淌大地，死鬥的鮮血染滿海洋。人在看，死神則在彼岸靜心等待他們。 八劍之祭，是安納黎帝國每八十年舉行一次的重要祭典。 被神選出的八名「舞者」將遵… more 愛情 原創 奇幻 fantasy 香港作者 輕小說 黑暗 架空 異世界 戰鬥 長篇小說 2022暑期日更大挑戰 精靈 特約作品 歐風 龍族 setsuna 刀劍 歐美風格 劍舞輪迴" [ref=e1396] [cursor=pointer]:
+                    - /url: /story/7332/劍舞輪迴-sword-chronicle/toc
+                    - generic [ref=e1399]:
+                      - generic [ref=e1400]: 劍舞輪迴 (Sword Chronicle)
+                      - generic [ref=e1401]: Setsuna
+                      - generic [ref=e1402]: 八位被選中的人，為了各自的願望，捨命相鬥。相爭的汗水流淌大地，死鬥的鮮血染滿海洋。人在看，死神則在彼岸靜心等待他們。 八劍之祭，是安納黎帝國每八十年舉行一次的重要祭典。 被神選出的八名「舞者」將遵… more
+                      - generic [ref=e1403]:
+                        - generic [ref=e1404]: 愛情
+                        - generic [ref=e1405]: 原創
+                        - generic [ref=e1406]: 奇幻
+                        - generic [ref=e1407]: fantasy
+                        - generic [ref=e1408]: 香港作者
+                        - generic [ref=e1409]: 輕小說
+                        - generic [ref=e1410]: 黑暗
+                        - generic [ref=e1411]: 架空
+                        - generic [ref=e1412]: 異世界
+                        - generic [ref=e1413]: 戰鬥
+                        - generic [ref=e1414]: 長篇小說
+                        - generic [ref=e1415]: 2022暑期日更大挑戰
+                        - generic [ref=e1416]: 精靈
+                        - generic [ref=e1417]: 特約作品
+                        - generic [ref=e1418]: 歐風
+                        - generic [ref=e1419]: 龍族
+                        - generic [ref=e1420]: setsuna
+                        - generic [ref=e1421]: 刀劍
+                        - generic [ref=e1422]: 歐美風格
+                        - generic [ref=e1423]: 劍舞輪迴
+                  - link "已完結 易水 東南 【武俠 * 山海經 * 東方玄幻 * 冒險 * 中二病 】神州大地，六國割據。五湖四海，百獸叢生。一個自稱黃帝的人，率領麾下十一黃子，欲在此亂世中成立華胥國度。南冉與龍波兒是一介鏢師，本… more 冒險 香港作者 古風 玄幻 武俠 長篇小說 2024暑期日更挑戰 特約作品 東方玄幻 山海經 武俠 奇幻 魔法 巫術 古風武俠 易水 東南小說 東南易水 超好看derrr penana易水" [ref=e1426] [cursor=pointer]:
+                    - /url: /story/48941/易水/toc
+                    - generic [ref=e1429]: 已完結
+                    - generic [ref=e1430]:
+                      - generic [ref=e1431]: 易水
+                      - generic [ref=e1432]: 東南
+                      - generic [ref=e1433]: 【武俠 * 山海經 * 東方玄幻 * 冒險 * 中二病 】神州大地，六國割據。五湖四海，百獸叢生。一個自稱黃帝的人，率領麾下十一黃子，欲在此亂世中成立華胥國度。南冉與龍波兒是一介鏢師，本… more
+                      - generic [ref=e1434]:
+                        - generic [ref=e1435]: 冒險
+                        - generic [ref=e1436]: 香港作者
+                        - generic [ref=e1437]: 古風
+                        - generic [ref=e1438]: 玄幻
+                        - generic [ref=e1439]: 武俠
+                        - generic [ref=e1440]: 長篇小說
+                        - generic [ref=e1441]: 2024暑期日更挑戰
+                        - generic [ref=e1442]: 特約作品
+                        - generic [ref=e1443]: 東方玄幻
+                        - generic [ref=e1444]: 山海經
+                        - generic [ref=e1445]: 武俠 奇幻 魔法 巫術
+                        - generic [ref=e1446]: 古風武俠
+                        - generic [ref=e1447]: 易水
+                        - generic [ref=e1448]: 東南小說
+                        - generic [ref=e1449]: 東南易水
+                        - generic [ref=e1450]: 超好看derrr
+                        - generic [ref=e1451]: penana易水
+                  - link "已完結 為妳蠢蠢欲動 汘夢 ☆【已完結】☆身患隱疾、高冷總裁霍子鈞 v.s 人間清醒、精明女中醫簡唯琳一次情傷，一場車禍讓霍子鈞一蹶不振，失去了男性雄風。尋醫三年，霍子鈞輾轉遇上女中醫簡唯琳。第一次見面，霍子鈞就在她面前脫得精光… more 愛情 原創 特約作品 豪門 療愈" [ref=e1454] [cursor=pointer]:
+                    - /url: /story/138563/為妳蠢蠢欲動/toc
+                    - generic [ref=e1457]: 已完結
+                    - generic [ref=e1458]:
+                      - generic [ref=e1459]: 為妳蠢蠢欲動
+                      - generic [ref=e1460]: 汘夢
+                      - generic [ref=e1461]: ☆【已完結】☆身患隱疾、高冷總裁霍子鈞 v.s 人間清醒、精明女中醫簡唯琳一次情傷，一場車禍讓霍子鈞一蹶不振，失去了男性雄風。尋醫三年，霍子鈞輾轉遇上女中醫簡唯琳。第一次見面，霍子鈞就在她面前脫得精光… more
+                      - generic [ref=e1462]:
+                        - generic [ref=e1463]: 愛情
+                        - generic [ref=e1464]: 原創
+                        - generic [ref=e1465]: 特約作品
+                        - generic [ref=e1466]: 豪門
+                        - generic [ref=e1467]: 療愈
+                  - link "已完結 嘿，你聽說了嗎？ 我說你聽 如果來了，就別急著走，趁著燭火還沒有熄滅，我來說一則床邊故事，今晚你闔眼的時候，可能會覺得有什麼不一樣也不一定。那麼，故事，開始嘍。 恐怖 靈異 驚悚 都市傳說 鬼故事 特約作品 我說你聽" [ref=e1470] [cursor=pointer]:
+                    - /url: /story/90675/嘿-你聽說了嗎/toc
+                    - generic [ref=e1473]: 已完結
+                    - generic [ref=e1474]:
+                      - generic [ref=e1475]: 嘿，你聽說了嗎？
+                      - generic [ref=e1476]: 我說你聽
+                      - generic [ref=e1477]: 如果來了，就別急著走，趁著燭火還沒有熄滅，我來說一則床邊故事，今晚你闔眼的時候，可能會覺得有什麼不一樣也不一定。那麼，故事，開始嘍。
+                      - generic [ref=e1478]:
+                        - generic [ref=e1479]: 恐怖
+                        - generic [ref=e1480]: 靈異
+                        - generic [ref=e1481]: 驚悚
+                        - generic [ref=e1482]: 都市傳說
+                        - generic [ref=e1483]: 鬼故事
+                        - generic [ref=e1484]: 特約作品
+                        - generic [ref=e1485]: 我說你聽
+                  - link "已完結 美男魚王子 （初稿，舊版教學用） 仟言 【2018年作品 / 2021年改寫】有人會懷疑「修稿的必要性」以及「修稿怎麼修？」，於是我便以這部作品為例，初稿直接放上，大家看完初稿後，前往改稿過後的新版《美男魚王子》，更好了解為什麼所以寫作己巧… more 愛情 奇幻 冒險 戰鬥 甜文 童話 人魚 正太 花語 異國 爆笑 櫻花" [ref=e1488] [cursor=pointer]:
+                    - /url: /story/40350/美男魚王子-初稿-舊版教學用/toc
+                    - generic [ref=e1491]: 已完結
+                    - generic [ref=e1492]:
+                      - generic [ref=e1493]: 美男魚王子 （初稿，舊版教學用）
+                      - generic [ref=e1494]: 仟言
+                      - generic [ref=e1495]: 【2018年作品 / 2021年改寫】有人會懷疑「修稿的必要性」以及「修稿怎麼修？」，於是我便以這部作品為例，初稿直接放上，大家看完初稿後，前往改稿過後的新版《美男魚王子》，更好了解為什麼所以寫作己巧… more
+                      - generic [ref=e1496]:
+                        - generic [ref=e1497]: 愛情
+                        - generic [ref=e1498]: 奇幻
+                        - generic [ref=e1499]: 冒險
+                        - generic [ref=e1500]: 戰鬥
+                        - generic [ref=e1501]: 甜文
+                        - generic [ref=e1502]: 童話
+                        - generic [ref=e1503]: 人魚
+                        - generic [ref=e1504]: 正太
+                        - generic [ref=e1505]: 花語
+                        - generic [ref=e1506]: 異國
+                        - generic [ref=e1507]: 爆笑
+                        - generic [ref=e1508]: 櫻花
+                  - link "已完結 MK★POP!! smalltung 香港樂壇終極答案?!《MK★POP!!》(下)－156頁，A5，彩色封面、黑白內文－收錄7-11話結局（「教精你咋」至「我哋係TMA!!」）－單行本獨家番外篇!!（實體書及… more 漫畫 特約作品 omakase" [ref=e1511] [cursor=pointer]:
+                    - /url: /story/92682/mk-pop/toc
+                    - generic [ref=e1514]: 已完結
+                    - generic [ref=e1515]:
+                      - generic [ref=e1516]: MK★POP!!
+                      - generic [ref=e1517]: smalltung
+                      - generic [ref=e1518]: 香港樂壇終極答案?!《MK★POP!!》(下)－156頁，A5，彩色封面、黑白內文－收錄7-11話結局（「教精你咋」至「我哋係TMA!!」）－單行本獨家番外篇!!（實體書及… more
+                      - generic [ref=e1519]:
+                        - generic [ref=e1520]: 漫畫
+                        - generic [ref=e1521]: 特約作品
+                        - generic [ref=e1522]: omakase
+                  - link "已完結 《低心世代》（定稿版） 九方思想貓 2022/04/24完成全文第一次修稿2022/04/26定稿--圖/御夜文/九方思想貓低廉的薪資帶來低矮的心願心願與薪資一同低矮的這個時代有四位年輕人，身處於各自的低薪職場，面臨著已然十分習慣的不合… more 社會 寫實 特約作品 世代 低心 低薪" [ref=e1525] [cursor=pointer]:
+                    - /url: /story/88713/低心世代-定稿版/toc
+                    - generic [ref=e1528]: 已完結
+                    - generic [ref=e1529]:
+                      - generic [ref=e1530]: 《低心世代》（定稿版）
+                      - generic [ref=e1531]: 九方思想貓
+                      - generic [ref=e1532]: 2022/04/24完成全文第一次修稿2022/04/26定稿--圖/御夜文/九方思想貓低廉的薪資帶來低矮的心願心願與薪資一同低矮的這個時代有四位年輕人，身處於各自的低薪職場，面臨著已然十分習慣的不合… more
+                      - generic [ref=e1533]:
+                        - generic [ref=e1534]: 社會
+                        - generic [ref=e1535]: 寫實
+                        - generic [ref=e1536]: 特約作品
+                        - generic [ref=e1537]: 世代
+                        - generic [ref=e1538]: 低心
+                        - generic [ref=e1539]: 低薪
+                  - link "已完結 白月光孟先生 喵芭渴死姬 and 1 Others 全新版本已於2025年1月5日由威向出版，故此專欄亦更新為出書版內容並轉為收費制，請多多支持💕除修稿網路連載版外，收錄舊版電子書的三篇新番外跟新出版的獨家番外《圓滿》🎈電子書連結如下：（連結陸續更新）… more 原創 bl 耽美 玄幻 靈異 台灣 甜寵 男男 歡樂 特約作品" [ref=e1542] [cursor=pointer]:
+                    - /url: /story/56090/白月光孟先生/toc
+                    - generic [ref=e1545]: 已完結
+                    - generic [ref=e1546]:
+                      - generic [ref=e1547]: 白月光孟先生
+                      - generic [ref=e1548]: 喵芭渴死姬 and 1 Others
+                      - generic [ref=e1549]: 全新版本已於2025年1月5日由威向出版，故此專欄亦更新為出書版內容並轉為收費制，請多多支持💕除修稿網路連載版外，收錄舊版電子書的三篇新番外跟新出版的獨家番外《圓滿》🎈電子書連結如下：（連結陸續更新）… more
+                      - generic [ref=e1550]:
+                        - generic [ref=e1551]: 原創
+                        - generic [ref=e1552]: bl
+                        - generic [ref=e1553]: 耽美
+                        - generic [ref=e1554]: 玄幻
+                        - generic [ref=e1555]: 靈異
+                        - generic [ref=e1556]: 台灣
+                        - generic [ref=e1557]: 甜寵
+                        - generic [ref=e1558]: 男男
+                        - generic [ref=e1559]: 歡樂
+                        - generic [ref=e1560]: 特約作品
+                  - link "計劃中 【第一部已完結】找「渣」偵探社 西諾尼亞 and 2 Others 第一部已完結，結局圓滿， 請安心閱讀。進入2025年4月，我的寫作路也有一些小改變。早在2024年末，我便決定會在2025年4月鎖上「找渣」的一半內容。是的，網絡小說大部份能免費閱讀啦～真的沒必要看我… more 愛情 香港作者 搞笑 18禁 輕鬆 幽默 第一人稱 2024暑期日更挑戰 2023佛系日更大挑戰 插畫 偵探 特約作品 都市愛情 渣男 易入口 渣女 西諾尼亞 jcreativeplus sylonya 找渣 找渣偵探社" [ref=e1563] [cursor=pointer]:
+                    - /url: /story/121141/第一部已完結-找-渣-偵探社/toc
+                    - generic [ref=e1566]: 計劃中
+                    - generic [ref=e1567]:
+                      - generic [ref=e1568]: 【第一部已完結】找「渣」偵探社
+                      - generic [ref=e1569]: 西諾尼亞 and 2 Others
+                      - generic [ref=e1570]: 第一部已完結，結局圓滿， 請安心閱讀。進入2025年4月，我的寫作路也有一些小改變。早在2024年末，我便決定會在2025年4月鎖上「找渣」的一半內容。是的，網絡小說大部份能免費閱讀啦～真的沒必要看我… more
+                      - generic [ref=e1571]:
+                        - generic [ref=e1572]: 愛情
+                        - generic [ref=e1573]: 香港作者
+                        - generic [ref=e1574]: 搞笑
+                        - generic [ref=e1575]: 18禁
+                        - generic [ref=e1576]: 輕鬆
+                        - generic [ref=e1577]: 幽默
+                        - generic [ref=e1578]: 第一人稱
+                        - generic [ref=e1579]: 2024暑期日更挑戰
+                        - generic [ref=e1580]: 2023佛系日更大挑戰
+                        - generic [ref=e1581]: 插畫
+                        - generic [ref=e1582]: 偵探
+                        - generic [ref=e1583]: 特約作品
+                        - generic [ref=e1584]: 都市愛情
+                        - generic [ref=e1585]: 渣男
+                        - generic [ref=e1586]: 易入口
+                        - generic [ref=e1587]: 渣女
+                        - generic [ref=e1588]: 西諾尼亞
+                        - generic [ref=e1589]: jcreativeplus
+                        - generic [ref=e1590]: sylonya
+                        - generic [ref=e1591]: 找渣
+                        - generic [ref=e1592]: 找渣偵探社
+                  - link "已完結 大秦．刺客．劍 左敦中 我參加了刺客遊戲，卻來到秦朝，成為秦始王的敵人，只有不停戰鬥，往沒有路的地方闖，才能殺出一條活路!打機可以打到返古代？二千多年前，秦滅東方六國，統一天下。六國貴族的後人張良，計劃行刺秦始皇報仇，打算起… more 香港作者 玄幻 武俠 歷史 奇幻冒險 特約作品 古風言情 時空穿越" [ref=e1595] [cursor=pointer]:
+                    - /url: /story/58688/大秦-刺客-劍/toc
+                    - generic [ref=e1598]: 已完結
+                    - generic [ref=e1599]:
+                      - generic [ref=e1600]: 大秦．刺客．劍
+                      - generic [ref=e1601]: 左敦中
+                      - generic [ref=e1602]: 我參加了刺客遊戲，卻來到秦朝，成為秦始王的敵人，只有不停戰鬥，往沒有路的地方闖，才能殺出一條活路!打機可以打到返古代？二千多年前，秦滅東方六國，統一天下。六國貴族的後人張良，計劃行刺秦始皇報仇，打算起… more
+                      - generic [ref=e1603]:
+                        - generic [ref=e1604]: 香港作者
+                        - generic [ref=e1605]: 玄幻
+                        - generic [ref=e1606]: 武俠
+                        - generic [ref=e1607]: 歷史
+                        - generic [ref=e1608]: 奇幻冒險
+                        - generic [ref=e1609]: 特約作品
+                        - generic [ref=e1610]: 古風言情
+                        - generic [ref=e1611]: 時空穿越
+            - generic [ref=e1612]:
+              - generic [ref=e1613]: 近期書單 - Recent Recommend
+              - generic [ref=e1615]:
+                - generic [ref=e1617]:
+                  - link "末日之下，我們可以做什麼？" [ref=e1618] [cursor=pointer]:
+                    - /url: /storypicks?id=235
+                    - generic [ref=e1619]: 末日之下，我們可以做什麼？
+                  - generic [ref=e1620]:
+                    - link "《末日後的那些人》 世界已然終結，我們卻未知何謂活著" [ref=e1621] [cursor=pointer]:
+                      - /url: /story/119806
+                    - link "末日德魯伊" [ref=e1622] [cursor=pointer]:
+                      - /url: /story/115691
+                    - link "雪原上的春風 Breeze on Icefield" [ref=e1623] [cursor=pointer]:
+                      - /url: /story/148782
+                    - link "末日相擁" [ref=e1624] [cursor=pointer]:
+                      - /url: /story/117262
+                    - link "LILIAN 2116 求生日記" [ref=e1625] [cursor=pointer]:
+                      - /url: /story/77371
+                - generic [ref=e1627]:
+                  - link "帝王學之大哉問" [ref=e1628] [cursor=pointer]:
+                    - /url: /storypicks?id=257
+                    - generic [ref=e1629]: 帝王學之大哉問
+                  - generic [ref=e1630]:
+                    - link "一方帝皇" [ref=e1631] [cursor=pointer]:
+                      - /url: /story/160095
+                    - link "朝廷風雲 爭皇記" [ref=e1632] [cursor=pointer]:
+                      - /url: /story/91393
+                    - link "公爵小姐和她的男人們" [ref=e1633] [cursor=pointer]:
+                      - /url: /story/112851
+                    - link "【BL小說｜R18】宅宅帝國元帥的心機小嬌夫" [ref=e1634] [cursor=pointer]:
+                      - /url: /story/153739
+                    - link "山河共帝姎" [ref=e1635] [cursor=pointer]:
+                      - /url: /story/130700
+                - generic [ref=e1637]:
+                  - link "狩獵開始！挑戰異世之龍！" [ref=e1638] [cursor=pointer]:
+                    - /url: /storypicks?id=267
+                    - generic [ref=e1639]: 狩獵開始！挑戰異世之龍！
+                  - generic [ref=e1640]:
+                    - link "狩護" [ref=e1641] [cursor=pointer]:
+                      - /url: /story/47180
+                    - link "真理市的赤蛇狩獵人" [ref=e1642] [cursor=pointer]:
+                      - /url: /story/160389
+                    - link "狩魔學園" [ref=e1643] [cursor=pointer]:
+                      - /url: /story/98233
+                    - link "巫師與獵巫人" [ref=e1644] [cursor=pointer]:
+                      - /url: /story/126416
+                    - link "RE：怕打雷的惡魔獵人把雷屬性魔法師的我收為養子" [ref=e1645] [cursor=pointer]:
+                      - /url: /story/98295
+                - generic [ref=e1647]:
+                  - link "齊來看漫畫！" [ref=e1648] [cursor=pointer]:
+                    - /url: /storypicks?id=256
+                    - generic [ref=e1649]: 齊來看漫畫！
+                  - generic [ref=e1650]:
+                    - link "《下世唔做追星狗》免費試閲版" [ref=e1651] [cursor=pointer]:
+                      - /url: /story/186030
+                    - link "STAR IDOL" [ref=e1652] [cursor=pointer]:
+                      - /url: /story/76270
+                    - link "蛇合花之吐息" [ref=e1653] [cursor=pointer]:
+                      - /url: /story/124065
+                    - link "動物派對-松子的憂鬱[完]" [ref=e1654] [cursor=pointer]:
+                      - /url: /story/160194
+                    - link "痴L線，真係有喪屍" [ref=e1655] [cursor=pointer]:
+                      - /url: /story/150489
+                - generic [ref=e1657]:
+                  - link "懸疑推理故事簿！" [ref=e1658] [cursor=pointer]:
+                    - /url: /storypicks?id=226
+                    - generic [ref=e1659]: 懸疑推理故事簿！
+                  - generic [ref=e1660]:
+                    - link "細思極恐——水平思考推理故事 (揭尾故 / 海龜湯）" [ref=e1661] [cursor=pointer]:
+                      - /url: /story/195995
+                    - link "歧點悖論ψ" [ref=e1662] [cursor=pointer]:
+                      - /url: /story/111463
+                    - link "月蝕 Moonerosion" [ref=e1663] [cursor=pointer]:
+                      - /url: /story/148499
+                    - link "當愛情變成一場遊戲" [ref=e1664] [cursor=pointer]:
+                      - /url: /story/189118
+                    - link "請解開故事謎底" [ref=e1665] [cursor=pointer]:
+                      - /url: /story/138107
+                - generic [ref=e1667]:
+                  - link "戀愛預習！" [ref=e1668] [cursor=pointer]:
+                    - /url: /storypicks?id=209
+                    - generic [ref=e1669]: 戀愛預習！
+                  - generic [ref=e1670]:
+                    - link "為了妳，我成為百萬Vtuber" [ref=e1671] [cursor=pointer]:
+                      - /url: /story/101789
+                    - link "不過是喜歡你而已" [ref=e1672] [cursor=pointer]:
+                      - /url: /story/136771
+                    - link "平淡且溫馨" [ref=e1673] [cursor=pointer]:
+                      - /url: /story/173973
+                    - link "【穿越/愛情】我同鍾意咗十一年嘅人表白，佢竟然跳海死咗" [ref=e1674] [cursor=pointer]:
+                      - /url: /story/63218
+                    - link "我女友有個黑人前男友" [ref=e1675] [cursor=pointer]:
+                      - /url: /story/195610
+                - generic [ref=e1677]:
+                  - link "神仙羅剎，玄幻登場！" [ref=e1678] [cursor=pointer]:
+                    - /url: /storypicks?id=254
+                    - generic [ref=e1679]: 神仙羅剎，玄幻登場！
+                  - generic [ref=e1680]:
+                    - link "轉生成豬的我，突破只能靠雙修" [ref=e1681] [cursor=pointer]:
+                      - /url: /story/150456
+                    - link "《黃泉逆仙錄》" [ref=e1682] [cursor=pointer]:
+                      - /url: /story/64512
+                    - link "皇極廿一器" [ref=e1683] [cursor=pointer]:
+                      - /url: /story/62515
+                    - link "真山誌" [ref=e1684] [cursor=pointer]:
+                      - /url: /story/92733
+                    - link "易水" [ref=e1685] [cursor=pointer]:
+                      - /url: /story/48941
+                - generic [ref=e1687]:
+                  - link "齊來滅鬼，百鬼夜行！" [ref=e1688] [cursor=pointer]:
+                    - /url: /storypicks?id=275
+                    - generic [ref=e1689]: 齊來滅鬼，百鬼夜行！
+                  - generic [ref=e1690]:
+                    - link "逆空" [ref=e1691] [cursor=pointer]:
+                      - /url: /story/124244
+                    - link "《紅諧》Redmony" [ref=e1692] [cursor=pointer]:
+                      - /url: /story/50343
+                    - link "【第三集正式展開】永恆之血 (Eternal Blood)" [ref=e1693] [cursor=pointer]:
+                      - /url: /story/45113
+                    - link "魔鬼予吻" [ref=e1694] [cursor=pointer]:
+                      - /url: /story/168083
+                    - link "七夕 巧娘" [ref=e1695] [cursor=pointer]:
+                      - /url: /story/162666
+                - generic [ref=e1697]:
+                  - link "港劇風味" [ref=e1698] [cursor=pointer]:
+                    - /url: /storypicks?id=268
+                    - generic [ref=e1699]: 港劇風味
+                  - generic [ref=e1700]:
+                    - link "已讀不回死全家！" [ref=e1701] [cursor=pointer]:
+                      - /url: /story/26008
+                    - link "死角 Dead End" [ref=e1702] [cursor=pointer]:
+                      - /url: /story/116731
+                    - link "《尖東遊戲》//坐上尖沙咀開出嘅列車之後，我被送咗入一場死亡遊戲" [ref=e1703] [cursor=pointer]:
+                      - /url: /story/99588
+                    - link "異能入侵黑社會" [ref=e1704] [cursor=pointer]:
+                      - /url: /story/133753
+                    - link "████士尼樂園遊客守則" [ref=e1705] [cursor=pointer]:
+                      - /url: /story/172344
+                - generic [ref=e1707]:
+                  - link "奇幻之旅" [ref=e1708] [cursor=pointer]:
+                    - /url: /storypicks?id=264
+                    - generic [ref=e1709]: 奇幻之旅
+                  - generic [ref=e1710]:
+                    - link "不夜城的魔女偵探" [ref=e1711] [cursor=pointer]:
+                      - /url: /story/149065
+                    - link "獵巫武者 罪與罰的黑焰" [ref=e1712] [cursor=pointer]:
+                      - /url: /story/41838
+                    - link "職業魔法師I 萬咒寂靜．急症解咒師與女助手" [ref=e1713] [cursor=pointer]:
+                      - /url: /story/147873
+                    - link "塔鈴奇幻譚" [ref=e1714] [cursor=pointer]:
+                      - /url: /story/135935
+                    - link "魔女—小心不要被慾望吞噬" [ref=e1715] [cursor=pointer]:
+                      - /url: /story/91175
+                - generic [ref=e1717]:
+                  - link "熱血運動！" [ref=e1718] [cursor=pointer]:
+                    - /url: /storypicks?id=252
+                    - generic [ref=e1719]: 熱血運動！
+                  - generic [ref=e1720]:
+                    - link "中佬的足球場" [ref=e1721] [cursor=pointer]:
+                      - /url: /story/160490
+                    - link "戰球" [ref=e1722] [cursor=pointer]:
+                      - /url: /story/64762
+                    - link "我們的排球夢" [ref=e1723] [cursor=pointer]:
+                      - /url: /story/108350
+                    - link "讓我當你的籃板球女友好嗎？" [ref=e1724] [cursor=pointer]:
+                      - /url: /story/57425
+                    - link "重來一次的足球人生" [ref=e1725] [cursor=pointer]:
+                      - /url: /story/71329
+                - generic [ref=e1727]:
+                  - link "鬼門關開" [ref=e1728] [cursor=pointer]:
+                    - /url: /storypicks?id=196
+                    - generic [ref=e1729]: 鬼門關開
+                  - generic [ref=e1730]:
+                    - link "【 邪廟：救贖 】" [ref=e1731] [cursor=pointer]:
+                      - /url: /story/85993
+                    - link "陰陽客棧" [ref=e1732] [cursor=pointer]:
+                      - /url: /story/139532
+                    - link "一個發生在7月8日的靈異事件" [ref=e1733] [cursor=pointer]:
+                      - /url: /story/132456
+                    - link "墮樂園" [ref=e1734] [cursor=pointer]:
+                      - /url: /story/56459
+                    - link "神咒" [ref=e1735] [cursor=pointer]:
+                      - /url: /story/148856
+                - generic [ref=e1737]:
+                  - link "恐怖都市譚" [ref=e1738] [cursor=pointer]:
+                    - /url: /storypicks?id=261
+                    - generic [ref=e1739]: 恐怖都市譚
+                  - generic [ref=e1740]:
+                    - link "恐懼來源" [ref=e1741] [cursor=pointer]:
+                      - /url: /story/168965
+                    - link "午夜寫手札記" [ref=e1742] [cursor=pointer]:
+                      - /url: /story/165078
+                    - link "驚悚恐怖短篇故事集／作者：樓心月" [ref=e1743] [cursor=pointer]:
+                      - /url: /story/168984
+                    - link "怪異的世界" [ref=e1744] [cursor=pointer]:
+                      - /url: /story/133163
+                    - link "屯門人，外出時小心不知名物種［夜幕首部曲］（科幻 恐怖 生存 懸疑）" [ref=e1745] [cursor=pointer]:
+                      - /url: /story/156090
+                - generic [ref=e1747]:
+                  - link "風的書單" [ref=e1748] [cursor=pointer]:
+                    - /url: /storypicks?id=276
+                    - generic [ref=e1749]: 風的書單
+                  - generic [ref=e1750]:
+                    - link "她像風一樣" [ref=e1751] [cursor=pointer]:
+                      - /url: /story/155491
+                    - link "風中的情書" [ref=e1752] [cursor=pointer]:
+                      - /url: /story/131399
+                    - link "命、風、歌" [ref=e1753] [cursor=pointer]:
+                      - /url: /story/139727
+                    - link "風界少女" [ref=e1754] [cursor=pointer]:
+                      - /url: /story/178642
+                    - link "《風暴》" [ref=e1755] [cursor=pointer]:
+                      - /url: /story/118514
+                - generic [ref=e1757]:
+                  - link "都城故事" [ref=e1758] [cursor=pointer]:
+                    - /url: /storypicks?id=251
+                    - generic [ref=e1759]: 都城故事
+                  - generic [ref=e1760]:
+                    - link "You Are The Reason － 你是唯一" [ref=e1761] [cursor=pointer]:
+                      - /url: /story/133111
+                    - link "裏台北外送" [ref=e1762] [cursor=pointer]:
+                      - /url: /story/120505
+                    - link "《請別叫我英雄》（再修版）" [ref=e1763] [cursor=pointer]:
+                      - /url: /story/87931
+                    - link "莫溫順步入良夜" [ref=e1764] [cursor=pointer]:
+                      - /url: /story/156770
+                    - link "晶紗：雙人舞" [ref=e1765] [cursor=pointer]:
+                      - /url: /story/152497
+                - generic [ref=e1767]:
+                  - link "甜蜜愛情，不分時節！" [ref=e1768] [cursor=pointer]:
+                    - /url: /storypicks?id=265
+                    - generic [ref=e1769]: 甜蜜愛情，不分時節！
+                  - generic [ref=e1770]:
+                    - link "[ABO] 誘捕 （AO初戀 & 雙A強強）" [ref=e1771] [cursor=pointer]:
+                      - /url: /story/168107
+                    - link "救老攻，不小心把世界也救了？" [ref=e1772] [cursor=pointer]:
+                      - /url: /story/172494
+                    - link "醉後撩上冷情閻王" [ref=e1773] [cursor=pointer]:
+                      - /url: /story/150918
+                    - link "梨花錦【前世今生．高H】" [ref=e1774] [cursor=pointer]:
+                      - /url: /story/137984
+                    - link "洛家四才女" [ref=e1775] [cursor=pointer]:
+                      - /url: /story/113422
+                - generic [ref=e1777]:
+                  - link "校園故事，冒險連連！" [ref=e1778] [cursor=pointer]:
+                    - /url: /storypicks?id=272
+                    - generic [ref=e1779]: 校園故事，冒險連連！
+                  - generic [ref=e1780]:
+                    - link "其實…我地而家係乜嘢關係？" [ref=e1781] [cursor=pointer]:
+                      - /url: /story/174553
+                    - link "暮色之雙刃【超能力校園/青春喜劇】" [ref=e1782] [cursor=pointer]:
+                      - /url: /story/66851
+                    - link "弦上的天狼星" [ref=e1783] [cursor=pointer]:
+                      - /url: /story/140155
+                    - link "被稱為毒毒IT老師的我竟然被學生包養（微甜）（都市奇幻）" [ref=e1784] [cursor=pointer]:
+                      - /url: /story/173012
+                    - link "手語xPoker Face" [ref=e1785] [cursor=pointer]:
+                      - /url: /story/161174
+                - generic [ref=e1787]:
+                  - link "未來已來" [ref=e1788] [cursor=pointer]:
+                    - /url: /storypicks?id=258
+                    - generic [ref=e1789]: 未來已來
+                  - generic [ref=e1790]:
+                    - link "天國税PΛRΛDISΞ TΛX" [ref=e1791] [cursor=pointer]:
+                      - /url: /story/72118
+                    - link "英雄榮光" [ref=e1792] [cursor=pointer]:
+                      - /url: /story/140287
+                    - link "《末日後的那些人》 世界已然終結，我們卻未知何謂活著" [ref=e1793] [cursor=pointer]:
+                      - /url: /story/119806
+                    - link "時間旅行社" [ref=e1794] [cursor=pointer]:
+                      - /url: /story/102668
+                    - link "紅斗篷與藍帆布" [ref=e1795] [cursor=pointer]:
+                      - /url: /story/77899
+                - generic [ref=e1797]:
+                  - link "台漫樂樂看！" [ref=e1798] [cursor=pointer]:
+                    - /url: /storypicks?id=266
+                    - generic [ref=e1799]: 台漫樂樂看！
+                  - generic [ref=e1800]:
+                    - link "原創BL｜司獄的廢甜小日常" [ref=e1801] [cursor=pointer]:
+                      - /url: /story/174622
+                    - link "【BL台漫】日日" [ref=e1802] [cursor=pointer]:
+                      - /url: /story/173487
+                    - link "呼獨的美食家" [ref=e1803] [cursor=pointer]:
+                      - /url: /story/167754
+                    - link "【BL台漫】靈魂的約定" [ref=e1804] [cursor=pointer]:
+                      - /url: /story/173495
+                    - link "【BL台漫】絕對佔領" [ref=e1805] [cursor=pointer]:
+                      - /url: /story/173560
+            - generic [ref=e1806]:
+              - generic [ref=e1807]:
+                - text: 熱門創作比賽 - Popular Contests
+                - link "chevron_right" [ref=e1808] [cursor=pointer]:
+                  - /url: /contests.php?cat=active
+                  - generic [ref=e1809]: chevron_right
+              - generic [ref=e1811]:
+                - link "全部" [ref=e1812] [cursor=pointer]:
+                  - /url: /stories
+                - link "微小說" [ref=e1813] [cursor=pointer]:
+                  - /url: /contests?genre=Flash
+                - link "接龍" [ref=e1814] [cursor=pointer]:
+                  - /url: /contests?genre=Serial
+                - link "圖畫" [ref=e1815] [cursor=pointer]:
+                  - /url: /contests?genre=Picture
+                - link "音樂" [ref=e1816] [cursor=pointer]:
+                  - /url: /contests?genre=Music
+                - link "討論" [ref=e1817] [cursor=pointer]:
+                  - /url: /contests?genre=Question
+                - link "其他" [ref=e1818] [cursor=pointer]:
+                  - /url: /contests?genre=Other
+                - link "企劃" [ref=e1819] [cursor=pointer]:
+                  - /url: /contests?genre=Project
+                - link "聚會活動" [ref=e1820] [cursor=pointer]:
+                  - /url: /contests?genre=Offline Event
+              - generic [ref=e1822]:
+                - link "茶水間日記第四期 7’s and 52 Others 大家好，我是七秒，可以喊我七七就行。▶茶水間日記第四期：4/1-6/30日記挑戰，共91天。▶歡迎加入LINE社群群組：謬思女神的茶水間▶LINE社群問題：創作平台／創作者名字▶參考格式：Penana… more 橘柚 七秒 日記挑戰" [ref=e1825] [cursor=pointer]:
+                  - /url: /story/207679/茶水間日記第四期/toc
+                  - generic [ref=e1828]:
+                    - generic [ref=e1829]: 茶水間日記第四期
+                    - generic [ref=e1830]: 7’s and 52 Others
+                    - generic [ref=e1831]: 大家好，我是七秒，可以喊我七七就行。▶茶水間日記第四期：4/1-6/30日記挑戰，共91天。▶歡迎加入LINE社群群組：謬思女神的茶水間▶LINE社群問題：創作平台／創作者名字▶參考格式：Penana… more
+                    - generic [ref=e1832]:
+                      - generic [ref=e1833]: 橘柚
+                      - generic [ref=e1834]: 七秒
+                      - generic [ref=e1835]: 日記挑戰
+                - link "你寫我畫 幽默小水獺 and 7 Others 暑假又有時間畫畫啦～這次突發奇想辦了畫畫創挑，有兩個模式供大家選擇～小畫家模式：1.創作一篇不超過500字的微小說，主題不限，字數以Penana為準2.在文末附上希望使用的媒材(限鉛筆素描、色鉛筆、水… more 畫畫" [ref=e1838] [cursor=pointer]:
+                  - /url: /story/215860/你寫我畫/toc
+                  - generic [ref=e1841]:
+                    - generic [ref=e1842]: 你寫我畫
+                    - generic [ref=e1843]: 幽默小水獺 and 7 Others
+                    - generic [ref=e1844]: 暑假又有時間畫畫啦～這次突發奇想辦了畫畫創挑，有兩個模式供大家選擇～小畫家模式：1.創作一篇不超過500字的微小說，主題不限，字數以Penana為準2.在文末附上希望使用的媒材(限鉛筆素描、色鉛筆、水… more
+                    - generic [ref=e1846]: 畫畫
+                - link "★想對自己的作品說的話★ 黑靈 and 25 Others 大家好，我是黑靈~繼上次［ 留下你想跟自己說的話 ］，這次來辦個2.0~ 這個創挑除了讓你們對自己的作品說些真心話外，也希望多一個途徑讓你們宣傳~ 所以不設立任何賞金～創挑題目： ⭐想對自己的作品說的… more" [ref=e1849] [cursor=pointer]:
+                  - /url: /story/215881/想對自己的作品說的話/toc
+                  - generic [ref=e1852]:
+                    - generic [ref=e1853]: ★想對自己的作品說的話★
+                    - generic [ref=e1854]: 黑靈 and 25 Others
+                    - generic [ref=e1855]: 大家好，我是黑靈~繼上次［ 留下你想跟自己說的話 ］，這次來辦個2.0~ 這個創挑除了讓你們對自己的作品說些真心話外，也希望多一個途徑讓你們宣傳~ 所以不設立任何賞金～創挑題目： ⭐想對自己的作品說的… more
+                - link "末日生存 時眠 and 30 Others 世界崩壞，你是倖存者之一。 資源有限、環境未知，你的每一個選擇，都會影響這個世界慢慢產生變化。📡【避難基地暫時開放】訊號不穩定中……如果你看到這則訊息，代表你成功抵達了基地。外面的世界正在失控。目前… more 末世 生存 互動" [ref=e1858] [cursor=pointer]:
+                  - /url: /story/211482/末日生存/toc
+                  - generic [ref=e1861]:
+                    - generic [ref=e1862]: 末日生存
+                    - generic [ref=e1863]: 時眠 and 30 Others
+                    - generic [ref=e1864]: 世界崩壞，你是倖存者之一。 資源有限、環境未知，你的每一個選擇，都會影響這個世界慢慢產生變化。📡【避難基地暫時開放】訊號不穩定中……如果你看到這則訊息，代表你成功抵達了基地。外面的世界正在失控。目前… more
+                    - generic [ref=e1865]:
+                      - generic [ref=e1866]: 末世
+                      - generic [ref=e1867]: 生存
+                      - generic [ref=e1868]: 互動
+                - link "個人形象繪畫比賽！ 兔言 and 25 Others Hello大家好，又是我這次想徵集一下大家的自我形象可以用AI也可以用app製作不過要註明祝大家繪畫愉快！賞金的話⋯⋯平均分，越多賞金=分得越多（我會收取5%賞金作為舉辦這次創作挑戰的薪金）感謝以下金… more 個人形象 繪畫比賽" [ref=e1871] [cursor=pointer]:
+                  - /url: /story/214879/個人形象繪畫比賽/toc
+                  - generic [ref=e1875]:
+                    - generic [ref=e1876]: 個人形象繪畫比賽！
+                    - generic [ref=e1877]: 兔言 and 25 Others
+                    - generic [ref=e1878]: Hello大家好，又是我這次想徵集一下大家的自我形象可以用AI也可以用app製作不過要註明祝大家繪畫愉快！賞金的話⋯⋯平均分，越多賞金=分得越多（我會收取5%賞金作為舉辦這次創作挑戰的薪金）感謝以下金… more
+                    - generic [ref=e1879]:
+                      - generic [ref=e1880]: 個人形象
+                      - generic [ref=e1881]: 繪畫比賽
+                - link "作者形象重要，還是小說內容重要？ 愚公 and 11 Others 剛剛創作了一個語錄。「所謂品牌效應，就是同樣質素的作品，我們是因為你而看的。也是，我們是因為你才不看。」忽然想知道大家的看法xd" [ref=e1884] [cursor=pointer]:
+                  - /url: /story/216030/作者形象重要-還是小說內容重要/toc
+                  - generic [ref=e1888]:
+                    - generic [ref=e1889]: 作者形象重要，還是小說內容重要？
+                    - generic [ref=e1890]: 愚公 and 11 Others
+                    - generic [ref=e1891]: 剛剛創作了一個語錄。「所謂品牌效應，就是同樣質素的作品，我們是因為你而看的。也是，我們是因為你才不看。」忽然想知道大家的看法xd
+                - link "你的創作靈感從何而來？ 綠薄荷 and 11 Others 各位可以簡單分享一下︰1. 靈感對你來說是什麼？2. 你的靈感是怎樣來的？3. 你能常常有靈感嗎？4. 沒有靈感時，你會怎麼辦？5. 你有沒有任何與靈感有關的事想分享？P.S. 你不一定要按以上問題回… more" [ref=e1894] [cursor=pointer]:
+                  - /url: /story/215902/你的創作靈感從何而來/toc
+                  - generic [ref=e1897]:
+                    - generic [ref=e1898]: 你的創作靈感從何而來？
+                    - generic [ref=e1899]: 綠薄荷 and 11 Others
+                    - generic [ref=e1900]: 各位可以簡單分享一下︰1. 靈感對你來說是什麼？2. 你的靈感是怎樣來的？3. 你能常常有靈感嗎？4. 沒有靈感時，你會怎麼辦？5. 你有沒有任何與靈感有關的事想分享？P.S. 你不一定要按以上問題回… more
+                - link "寓言故事 Jun and 9 Others 試揮灑創意，撰寫一篇不少於五百字的原創寓言故事。文體不拘，文言白話皆可，唯須借物言志或藉事顯理，展現文字的深度與原創性。" [ref=e1903] [cursor=pointer]:
+                  - /url: /story/215922/寓言故事/toc
+                  - generic [ref=e1906]:
+                    - generic [ref=e1907]: 寓言故事
+                    - generic [ref=e1908]: Jun and 9 Others
+                    - generic [ref=e1909]: 試揮灑創意，撰寫一篇不少於五百字的原創寓言故事。文體不拘，文言白話皆可，唯須借物言志或藉事顯理，展現文字的深度與原創性。
+                - link "敲鍵盤背後的我們：邀請你一起寫下「兩真一假」 走火入魔的Aurora and 36 Others 我們在文字裡塑造了無數角色，但文字背後的你，又是個怎樣的人呢？想藉由這個挑戰，拉近大家和讀者的距離。不論你是作者還是讀者，都歡迎在下方或者自己開帖，寫下三個關於你現實生活中的小秘密（兩真一假）。讓我們… more 休闲 两真一假" [ref=e1912] [cursor=pointer]:
+                  - /url: /story/213760/敲鍵盤背後的我們-邀請你一起寫下-兩真一假/toc
+                  - generic [ref=e1916]:
+                    - generic [ref=e1917]: 敲鍵盤背後的我們：邀請你一起寫下「兩真一假」
+                    - generic [ref=e1918]: 走火入魔的Aurora and 36 Others
+                    - generic [ref=e1919]: 我們在文字裡塑造了無數角色，但文字背後的你，又是個怎樣的人呢？想藉由這個挑戰，拉近大家和讀者的距離。不論你是作者還是讀者，都歡迎在下方或者自己開帖，寫下三個關於你現實生活中的小秘密（兩真一假）。讓我們… more
+                    - generic [ref=e1920]:
+                      - generic [ref=e1921]: 休闲
+                      - generic [ref=e1922]: 两真一假
+                - link "讓酥酥畫你的角色！ 薄鹽酥酥 and 4 Others OC、小說角色皆可參加！想讓文字中的角色化為插圖嗎？歡迎投稿你的角色設定，我會挑選有靈感的角色進行繪製！✨ 參加方式請在本挑戰留下：作品名稱角色名稱外貌描述個性或背景參考圖（可選）全部字數請控制在５０… more" [ref=e1925] [cursor=pointer]:
+                  - /url: /story/216099/讓酥酥畫你的角色/toc
+                  - generic [ref=e1928]:
+                    - generic [ref=e1929]: 讓酥酥畫你的角色！
+                    - generic [ref=e1930]: 薄鹽酥酥 and 4 Others
+                    - generic [ref=e1931]: OC、小說角色皆可參加！想讓文字中的角色化為插圖嗎？歡迎投稿你的角色設定，我會挑選有靈感的角色進行繪製！✨ 參加方式請在本挑戰留下：作品名稱角色名稱外貌描述個性或背景參考圖（可選）全部字數請控制在５０… more
+                - link "(賽前熱身週)夏日祭「歡迎來到~蕉蕉動物園！」皮皮的記憶迴廊vol.08 皮皮 and 13 Others 眾人要想救出教皇，晉見魔女，就必須成為偉大的「蕉訓者」！六大主題區域、六大天王、六位聖徒！今年最強檔，炎炎夏日的魔女遊樂園開幕啦！挑戰照顧聖徒寶貝、撰寫飼育日記，並參加天王賽，成為最強的「蕉訓者」，獲… more 日記 皮皮 暑假 2026創挑 動物園 夏日活動" [ref=e1934] [cursor=pointer]:
+                  - /url: /story/215773/賽前熱身週-夏日祭-歡迎來到-蕉蕉動物園-皮皮的記憶迴廊vol-08/toc
+                  - generic [ref=e1937]:
+                    - generic [ref=e1938]: (賽前熱身週)夏日祭「歡迎來到~蕉蕉動物園！」皮皮的記憶迴廊vol.08
+                    - generic [ref=e1939]: 皮皮 and 13 Others
+                    - generic [ref=e1940]: 眾人要想救出教皇，晉見魔女，就必須成為偉大的「蕉訓者」！六大主題區域、六大天王、六位聖徒！今年最強檔，炎炎夏日的魔女遊樂園開幕啦！挑戰照顧聖徒寶貝、撰寫飼育日記，並參加天王賽，成為最強的「蕉訓者」，獲… more
+                    - generic [ref=e1941]:
+                      - generic [ref=e1942]: 日記
+                      - generic [ref=e1943]: 皮皮
+                      - generic [ref=e1944]: 暑假
+                      - generic [ref=e1945]: 2026創挑
+                      - generic [ref=e1946]: 動物園
+                      - generic [ref=e1947]: 夏日活動
+                - 'link "月之祈願社 - 向月傾訴你的願望吧 ! 皮皮 and 57 Others ❁目前累計已派發新年紅包總數目: P ❁❁每篇祈願文末都可以宣傳一部作品，一篇祈願可祈求一枚「祈月徽章」，每人最多可祈求四枚、發布四篇祈願、宣傳四部作品、獲得四次紅包打賞最後發佈滿四篇者，還可以參加… more 宣傳 皮皮 2026創挑 祈願社" [ref=e1950] [cursor=pointer]':
+                  - /url: /story/214570/月之祈願社-向月傾訴你的願望吧/toc
+                  - generic [ref=e1953]:
+                    - generic [ref=e1954]: 月之祈願社 - 向月傾訴你的願望吧 !
+                    - generic [ref=e1955]: 皮皮 and 57 Others
+                    - generic [ref=e1956]: "❁目前累計已派發新年紅包總數目: P ❁❁每篇祈願文末都可以宣傳一部作品，一篇祈願可祈求一枚「祈月徽章」，每人最多可祈求四枚、發布四篇祈願、宣傳四部作品、獲得四次紅包打賞最後發佈滿四篇者，還可以參加… more"
+                    - generic [ref=e1957]:
+                      - generic [ref=e1958]: 宣傳
+                      - generic [ref=e1959]: 皮皮
+                      - generic [ref=e1960]: 2026創挑
+                      - generic [ref=e1961]: 祈願社
+            - generic [ref=e1962]:
+              - generic [ref=e1963]: 最新完本，追看有益 - Recent Completed
+              - generic [ref=e1965]:
+                - link "已完結 【CLAMP綜合】CCX★HOPE IN THE FUTURE 〈PART2回到未來的過去〉(2025重製版) LiBr@RisU 【CLAMP綜合同人下篇】CCX★HOPE IN THE FUTURE (2025重製版)〈PART II 回到未來的過去〉「希望仍然存在…未來尚未終結…」CCX★HOPE IN THE FUTURE… more 愛情 冒險 穿越 魔法 友情 親情 libr@risu(細菌a) clamp ccx clamp學園偵探團 木之本櫻 聖傳 x戰記 李小狼 李小桃 虐中帶甜甜中帶刀 魔法少女櫻 妹之山殘 毀滅中尋找幸福" [ref=e1968] [cursor=pointer]:
+                  - /url: /story/211954/clamp綜合-ccx-hope-in-the-future-part2回到未來的過去-2025重製版/toc
+                  - generic [ref=e1971]: 已完結
+                  - generic [ref=e1972]:
+                    - generic [ref=e1973]: 【CLAMP綜合】CCX★HOPE IN THE FUTURE 〈PART2回到未來的過去〉(2025重製版)
+                    - generic [ref=e1974]: LiBr@RisU
+                    - generic [ref=e1975]: 【CLAMP綜合同人下篇】CCX★HOPE IN THE FUTURE (2025重製版)〈PART II 回到未來的過去〉「希望仍然存在…未來尚未終結…」CCX★HOPE IN THE FUTURE… more
+                    - generic [ref=e1976]:
+                      - generic [ref=e1977]: 愛情
+                      - generic [ref=e1978]: 冒險
+                      - generic [ref=e1979]: 穿越
+                      - generic [ref=e1980]: 魔法
+                      - generic [ref=e1981]: 友情
+                      - generic [ref=e1982]: 親情
+                      - generic [ref=e1983]: libr@risu(細菌a)
+                      - generic [ref=e1984]: clamp
+                      - generic [ref=e1985]: ccx
+                      - generic [ref=e1986]: clamp學園偵探團
+                      - generic [ref=e1987]: 木之本櫻
+                      - generic [ref=e1988]: 聖傳
+                      - generic [ref=e1989]: x戰記
+                      - generic [ref=e1990]: 李小狼
+                      - generic [ref=e1991]: 李小桃
+                      - generic [ref=e1992]: 虐中帶甜甜中帶刀
+                      - generic [ref=e1993]: 魔法少女櫻
+                      - generic [ref=e1994]: 妹之山殘
+                      - generic [ref=e1995]: 毀滅中尋找幸福
+                - link "已完結 《君臨》 伏月生 東御神州王女——卑彌呼，日御王族正統繼承者。她生於照日王庭，容姿絕世，眉眼如櫻雪映日，卻無兵權、無武名，亦無足以壓服群臣的力量。先王崩逝後，她於承日之儀登座，卻未得八煌刃全數奉命。王冠已落，王權未歸。… more 原創故事 卑彌呼 日系武俠 君臨" [ref=e1998] [cursor=pointer]:
+                  - /url: /story/215146/君臨/toc
+                  - generic [ref=e2001]: 已完結
+                  - generic [ref=e2002]:
+                    - generic [ref=e2003]: 《君臨》
+                    - generic [ref=e2004]: 伏月生
+                    - generic [ref=e2005]: 東御神州王女——卑彌呼，日御王族正統繼承者。她生於照日王庭，容姿絕世，眉眼如櫻雪映日，卻無兵權、無武名，亦無足以壓服群臣的力量。先王崩逝後，她於承日之儀登座，卻未得八煌刃全數奉命。王冠已落，王權未歸。… more
+                    - generic [ref=e2006]:
+                      - generic [ref=e2007]: 原創故事
+                      - generic [ref=e2008]: 卑彌呼
+                      - generic [ref=e2009]: 日系武俠
+                      - generic [ref=e2010]: 君臨
+                - link "已完結 《易水傳》 伏月生 劍就是對彼此無聲的守候。情到深處，越是沉默。*****明法難照人間罪；暗刃無聲易水深*****寒江與青鴴奉命追查命帳，循黑箋入水，卻被捲入一場宮廷舊案。他們要面對的，是一個罪證已明、人人都知該殺，卻偏… more 原創故事 玄幻武俠 刺客列傳" [ref=e2013] [cursor=pointer]:
+                  - /url: /story/214308/易水傳/toc
+                  - generic [ref=e2016]: 已完結
+                  - generic [ref=e2017]:
+                    - generic [ref=e2018]: 《易水傳》
+                    - generic [ref=e2019]: 伏月生
+                    - generic [ref=e2020]: 劍就是對彼此無聲的守候。情到深處，越是沉默。*****明法難照人間罪；暗刃無聲易水深*****寒江與青鴴奉命追查命帳，循黑箋入水，卻被捲入一場宮廷舊案。他們要面對的，是一個罪證已明、人人都知該殺，卻偏… more
+                    - generic [ref=e2021]:
+                      - generic [ref=e2022]: 原創故事
+                      - generic [ref=e2023]: 玄幻武俠
+                      - generic [ref=e2024]: 刺客列傳
+                - link "已完結 《情侶美食探險記》 雪夜 他們進了「玫瑰與薄荷」茶館。店名本身就帶著一絲清新與浪漫，而這正是Leo和Chloe尋覓已久的下午茶地點。這對情侶對下午茶的熱愛，幾乎可以寫成一部美食探險記！！！ 甜品 下午茶" [ref=e2027] [cursor=pointer]:
+                  - /url: /story/216173/情侶美食探險記/toc
+                  - generic [ref=e2030]: 已完結
+                  - generic [ref=e2031]:
+                    - generic [ref=e2032]: 《情侶美食探險記》
+                    - generic [ref=e2033]: 雪夜
+                    - generic [ref=e2034]: 他們進了「玫瑰與薄荷」茶館。店名本身就帶著一絲清新與浪漫，而這正是Leo和Chloe尋覓已久的下午茶地點。這對情侶對下午茶的熱愛，幾乎可以寫成一部美食探險記！！！
+                    - generic [ref=e2035]:
+                      - generic [ref=e2036]: 甜品
+                      - generic [ref=e2037]: 下午茶
+                - link "已完結 錦鯉王妃的鹹魚人生 小狐狸 若凡一直覺得，自己其實沒什麼大志向。身為一尾修行兩百年的小錦鯉，她最大的夢想，本來只是安安穩穩躍過龍門，混個小龍身份，然後回瑤池找地方曬太陽、吃靈果、睡大覺。誰知道躍龍門時出了意外，她一頭掉進凡間，還… more 甜寵 戰神 王爺 錦鯉" [ref=e2040] [cursor=pointer]:
+                  - /url: /story/212185/錦鯉王妃的鹹魚人生/toc
+                  - generic [ref=e2043]: 已完結
+                  - generic [ref=e2044]:
+                    - generic [ref=e2045]: 錦鯉王妃的鹹魚人生
+                    - generic [ref=e2046]: 小狐狸
+                    - generic [ref=e2047]: 若凡一直覺得，自己其實沒什麼大志向。身為一尾修行兩百年的小錦鯉，她最大的夢想，本來只是安安穩穩躍過龍門，混個小龍身份，然後回瑤池找地方曬太陽、吃靈果、睡大覺。誰知道躍龍門時出了意外，她一頭掉進凡間，還… more
+                    - generic [ref=e2048]:
+                      - generic [ref=e2049]: 甜寵
+                      - generic [ref=e2050]: 戰神
+                      - generic [ref=e2051]: 王爺
+                      - generic [ref=e2052]: 錦鯉
+                - link "已完結 《 貓咪村莊：香甜奶茶店》 雪夜 一走進店裡，就能聞到一股誘人的香氣，那是牛奶的濃郁和特殊貓薄荷葉的清香混合在一起的味道。店舖為村莊裡的貓咪製作世界上最香甜、最溫暖的奶茶。 珍珠奶茶 甜夢奶茶 開心奶茶" [ref=e2055] [cursor=pointer]:
+                  - /url: /story/216151/貓咪村莊-香甜奶茶店/toc
+                  - generic [ref=e2058]: 已完結
+                  - generic [ref=e2059]:
+                    - generic [ref=e2060]: 《 貓咪村莊：香甜奶茶店》
+                    - generic [ref=e2061]: 雪夜
+                    - generic [ref=e2062]: 一走進店裡，就能聞到一股誘人的香氣，那是牛奶的濃郁和特殊貓薄荷葉的清香混合在一起的味道。店舖為村莊裡的貓咪製作世界上最香甜、最溫暖的奶茶。
+                    - generic [ref=e2063]:
+                      - generic [ref=e2064]: 珍珠奶茶
+                      - generic [ref=e2065]: 甜夢奶茶
+                      - generic [ref=e2066]: 開心奶茶
+                - link "已完結 《無人認領 Unclaimed Souls》 楊郁 言情 x 靈異 x 懸疑（也可能三個都不是）打算要分手的女友突然死亡，倪朗文才知道，心裡那一塊已徹底消失。可以見到靈魂的陰陽眼、隱藏在左腕疤痕下的過去、不想接觸的家人、客廳詭異的水晶燈、… more 愛情 日常 香港作者 懸疑 靈異 心靈 都市 創傷 流水帳" [ref=e2069] [cursor=pointer]:
+                  - /url: /story/90374/無人認領-unclaimed-souls/toc
+                  - generic [ref=e2072]: 已完結
+                  - generic [ref=e2073]:
+                    - generic [ref=e2074]: 《無人認領 Unclaimed Souls》
+                    - generic [ref=e2075]: 楊郁
+                    - generic [ref=e2076]: 言情 x 靈異 x 懸疑（也可能三個都不是）打算要分手的女友突然死亡，倪朗文才知道，心裡那一塊已徹底消失。可以見到靈魂的陰陽眼、隱藏在左腕疤痕下的過去、不想接觸的家人、客廳詭異的水晶燈、… more
+                    - generic [ref=e2077]:
+                      - generic [ref=e2078]: 愛情
+                      - generic [ref=e2079]: 日常
+                      - generic [ref=e2080]: 香港作者
+                      - generic [ref=e2081]: 懸疑
+                      - generic [ref=e2082]: 靈異
+                      - generic [ref=e2083]: 心靈
+                      - generic [ref=e2084]: 都市
+                      - generic [ref=e2085]: 創傷
+                      - generic [ref=e2086]: 流水帳
+                - link "已完結 漫长的夏 丙朱 夏是漫长的，这雨也是。绵延的雨丝，变成另一种时间，缝补着白天与黑夜的罅隙。而我躺在檐下，什么也不做，就这样静静地，被这漫长的夏季轻轻地、缓缓地，穿了过去。" [ref=e2089] [cursor=pointer]:
+                  - /url: /story/216134/漫长的夏
+                  - generic [ref=e2092]: 已完結
+                  - generic [ref=e2093]:
+                    - generic [ref=e2094]: 漫长的夏
+                    - generic [ref=e2095]: 丙朱
+                    - generic [ref=e2096]: 夏是漫长的，这雨也是。绵延的雨丝，变成另一种时间，缝补着白天与黑夜的罅隙。而我躺在檐下，什么也不做，就这样静静地，被这漫长的夏季轻轻地、缓缓地，穿了过去。
+                - link "已完結 《假面騎士Octo》 Jason Tsang 故事簡介在近未來的港灣都市「新香江」，一種名為**「赤字體」（Deficit）**的神秘怪人正悄然吞噬市民的生命能量。被襲擊的人會失去所有熱情與動力，變成社會的「負資產」。半工讀的廢青大學生陳八達… more 冒險 戰鬥 二創 假面騎士" [ref=e2099] [cursor=pointer]:
+                  - /url: /story/215982/假面騎士octo/toc
+                  - generic [ref=e2102]: 已完結
+                  - generic [ref=e2103]:
+                    - generic [ref=e2104]: 《假面騎士Octo》
+                    - generic [ref=e2105]: Jason Tsang
+                    - generic [ref=e2106]: 故事簡介在近未來的港灣都市「新香江」，一種名為**「赤字體」（Deficit）**的神秘怪人正悄然吞噬市民的生命能量。被襲擊的人會失去所有熱情與動力，變成社會的「負資產」。半工讀的廢青大學生陳八達… more
+                    - generic [ref=e2107]:
+                      - generic [ref=e2108]: 冒險
+                      - generic [ref=e2109]: 戰鬥
+                      - generic [ref=e2110]: 二創
+                      - generic [ref=e2111]: 假面騎士
+                - link "已完結 《阿瓜日記》 微呼吸（Aerostasis） 【每日一照｜澆水紀錄｜植物狀態｜照護紀錄】阿瓜，一株來自嘉義的植物。為了避免重複澆水，咚製作決定寫下這份日誌。從今天起，每日狀況、澆水時間與照護紀錄，都將記錄於此。希望它能夠平安長大。 短篇 日常紀錄 咚製作 植物日記 阿瓜" [ref=e2114] [cursor=pointer]:
+                  - /url: /story/216128/阿瓜日記/toc
+                  - generic [ref=e2117]: 已完結
+                  - generic [ref=e2118]:
+                    - generic [ref=e2119]: 《阿瓜日記》
+                    - generic [ref=e2120]: 微呼吸（Aerostasis）
+                    - generic [ref=e2121]: 【每日一照｜澆水紀錄｜植物狀態｜照護紀錄】阿瓜，一株來自嘉義的植物。為了避免重複澆水，咚製作決定寫下這份日誌。從今天起，每日狀況、澆水時間與照護紀錄，都將記錄於此。希望它能夠平安長大。
+                    - generic [ref=e2122]:
+                      - generic [ref=e2123]: 短篇
+                      - generic [ref=e2124]: 日常紀錄
+                      - generic [ref=e2125]: 咚製作
+                      - generic [ref=e2126]: 植物日記
+                      - generic [ref=e2127]: 阿瓜
+                - link "已完結 夏风 丙朱 夏风是暖的，它不像春风那样带着湿润的凉意，也不似秋风裹挟着草木的萧瑟，更没有冬风刺骨的凛冽。" [ref=e2130] [cursor=pointer]:
+                  - /url: /story/216127/夏风
+                  - generic [ref=e2133]: 已完結
+                  - generic [ref=e2134]:
+                    - generic [ref=e2135]: 夏风
+                    - generic [ref=e2136]: 丙朱
+                    - generic [ref=e2137]: 夏风是暖的，它不像春风那样带着湿润的凉意，也不似秋风裹挟着草木的萧瑟，更没有冬风刺骨的凛冽。
+                - link "已完結 ೕ੭┋ \" 小說隨筆 \" ┋੭ु 松間白鶴 輕鬆小品、親友投稿、綜合火鍋（？）" [ref=e2140] [cursor=pointer]:
+                  - /url: /story/213572/੭-小說隨筆-੭/toc
+                  - generic [ref=e2143]: 已完結
+                  - generic [ref=e2144]:
+                    - generic [ref=e2145]: ೕ੭┋ " 小說隨筆 " ┋੭ु
+                    - generic [ref=e2146]: 松間白鶴
+                    - generic [ref=e2147]: 輕鬆小品、親友投稿、綜合火鍋（？）
+            - generic [ref=e2148]:
+              - generic [ref=e2149]:
+                - text: 熱門同人二創 - Super Fan-fic
+                - link "chevron_right" [ref=e2150] [cursor=pointer]:
+                  - /url: /stories?genre=Fanfiction
+                  - generic [ref=e2151]: chevron_right
+              - generic [ref=e2153]:
+                - link "計劃中 魔法世界的記事Ⅵ 第180都市傳說 Brian 【⛔文長慎入⛔】本部小說為由妖精尾巴、航海王、名偵探柯南的同人二創小說，可能與原創的劇情會有大改寫的部分，所以你可能不太會喜歡哦！✨第四十五篇章 進入超自然懸疑題材的內容，但是會預估讀起來會有點毛毛的… more 奇幻 冒險 科幻 魔法 懸疑 異世界 戰鬥 成長 長篇 命運對抗 終末 多世界觀" [ref=e2156] [cursor=pointer]:
+                  - /url: /story/209108/魔法世界的記事-第180都市傳說/toc
+                  - generic [ref=e2159]: 計劃中
+                  - generic [ref=e2160]:
+                    - generic [ref=e2161]: 魔法世界的記事Ⅵ 第180都市傳說
+                    - generic [ref=e2162]: Brian
+                    - generic [ref=e2163]: 【⛔文長慎入⛔】本部小說為由妖精尾巴、航海王、名偵探柯南的同人二創小說，可能與原創的劇情會有大改寫的部分，所以你可能不太會喜歡哦！✨第四十五篇章 進入超自然懸疑題材的內容，但是會預估讀起來會有點毛毛的… more
+                    - generic [ref=e2164]:
+                      - generic [ref=e2165]: 奇幻
+                      - generic [ref=e2166]: 冒險
+                      - generic [ref=e2167]: 科幻
+                      - generic [ref=e2168]: 魔法
+                      - generic [ref=e2169]: 懸疑
+                      - generic [ref=e2170]: 異世界
+                      - generic [ref=e2171]: 戰鬥
+                      - generic [ref=e2172]: 成長
+                      - generic [ref=e2173]: 長篇
+                      - generic [ref=e2174]: 命運對抗
+                      - generic [ref=e2175]: 終末
+                      - generic [ref=e2176]: 多世界觀
+                - link "【花亦山｜玉文】淺月覓心 雪里 《花亦山心之月》同人BL，全文唯一CP玉文(玉澤x文司宥，幻景志系列：淺山國相x霽月國主)，其餘皆依原設描寫親友向。這是一個狡詐狐狸雙強聯手，一邊謀劃攪亂天下、一邊揉狐耳狐尾，談戀愛的故事。請多指教，… more bl 古風 二創 花亦山 玉澤 文司宥 玉文" [ref=e2179] [cursor=pointer]:
+                  - /url: /story/202532/花亦山-玉文-淺月覓心/toc
+                  - generic [ref=e2182]:
+                    - generic [ref=e2183]: 【花亦山｜玉文】淺月覓心
+                    - generic [ref=e2184]: 雪里
+                    - generic [ref=e2185]: 《花亦山心之月》同人BL，全文唯一CP玉文(玉澤x文司宥，幻景志系列：淺山國相x霽月國主)，其餘皆依原設描寫親友向。這是一個狡詐狐狸雙強聯手，一邊謀劃攪亂天下、一邊揉狐耳狐尾，談戀愛的故事。請多指教，… more
+                    - generic [ref=e2186]:
+                      - generic [ref=e2187]: bl
+                      - generic [ref=e2188]: 古風
+                      - generic [ref=e2189]: 二創
+                      - generic [ref=e2190]: 花亦山
+                      - generic [ref=e2191]: 玉澤
+                      - generic [ref=e2192]: 文司宥
+                      - generic [ref=e2193]: 玉文
+                - link "鬥羅：重新定義＂裏．世界＂ 泡猩人 一場由龍神和異界強者謀劃的「欺詐」計畫，也是一場穿越者間的「生存」遊戲，即將開始！本作會避免掉無腦的舔、黑某個特定人物，構築一個邏輯通順、補足世界觀、格局頗大的群像故事，在這裡，你將看到更鮮活的人物性… more 斗羅大陸 幻獸 斗羅 鬥羅 唐三" [ref=e2196] [cursor=pointer]:
+                  - /url: /story/209536/鬥羅-重新定義-裏-世界/toc
+                  - generic [ref=e2199]:
+                    - generic [ref=e2200]: 鬥羅：重新定義＂裏．世界＂
+                    - generic [ref=e2201]: 泡猩人
+                    - generic [ref=e2202]: 一場由龍神和異界強者謀劃的「欺詐」計畫，也是一場穿越者間的「生存」遊戲，即將開始！本作會避免掉無腦的舔、黑某個特定人物，構築一個邏輯通順、補足世界觀、格局頗大的群像故事，在這裡，你將看到更鮮活的人物性… more
+                    - generic [ref=e2203]:
+                      - generic [ref=e2204]: 斗羅大陸
+                      - generic [ref=e2205]: 幻獸
+                      - generic [ref=e2206]: 斗羅
+                      - generic [ref=e2207]: 鬥羅
+                      - generic [ref=e2208]: 唐三
+                - link "《乙女遊戲的壞掉劇本：攻略深空的唯一變數》 Lalaline 當我穿進了當紅遊戲時，成了劇本外最危險的「變數」。她看過所有主線，卻救不了自己被捲入實驗的過去。當男主懷疑她的來歷，當全世界都以為她是另一個「她」時，只有她知道，在那場燃盡一切的爆炸中，她帶走的，是她… more 穿越 科幻 同人小說 戀與深空 乙女遊戲 二創小說 雙分身 小號 主帳 雙天賦" [ref=e2211] [cursor=pointer]:
+                  - /url: /story/204435/乙女遊戲的壞掉劇本-攻略深空的唯一變數/toc
+                  - generic [ref=e2214]:
+                    - generic [ref=e2215]: 《乙女遊戲的壞掉劇本：攻略深空的唯一變數》
+                    - generic [ref=e2216]: Lalaline
+                    - generic [ref=e2217]: 當我穿進了當紅遊戲時，成了劇本外最危險的「變數」。她看過所有主線，卻救不了自己被捲入實驗的過去。當男主懷疑她的來歷，當全世界都以為她是另一個「她」時，只有她知道，在那場燃盡一切的爆炸中，她帶走的，是她… more
+                    - generic [ref=e2218]:
+                      - generic [ref=e2219]: 穿越
+                      - generic [ref=e2220]: 科幻
+                      - generic [ref=e2221]: 同人小說
+                      - generic [ref=e2222]: 戀與深空
+                      - generic [ref=e2223]: 乙女遊戲
+                      - generic [ref=e2224]: 二創小說
+                      - generic [ref=e2225]: 雙分身
+                      - generic [ref=e2226]: 小號
+                      - generic [ref=e2227]: 主帳
+                      - generic [ref=e2228]: 雙天賦
+                - link "我和殭屍有個約會IV：神域崩壞 南城客 沒有劇本的宇宙自從況天佑與馬小玲在永恆國度邊緣，以紅眼殭屍的極致力量與馬家神龍徹底擊碎了「命運」，世間的萬物生靈終於迎來了真正的自由。歷史被重新書寫，沒有了命運的擺弄，人類的未來不再是一本寫好的書。然… more" [ref=e2231] [cursor=pointer]:
+                  - /url: /story/215941/我和殭屍有個約會iv-神域崩壞/toc
+                  - generic [ref=e2234]:
+                    - generic [ref=e2235]: 我和殭屍有個約會IV：神域崩壞
+                    - generic [ref=e2236]: 南城客
+                    - generic [ref=e2237]: 沒有劇本的宇宙自從況天佑與馬小玲在永恆國度邊緣，以紅眼殭屍的極致力量與馬家神龍徹底擊碎了「命運」，世間的萬物生靈終於迎來了真正的自由。歷史被重新書寫，沒有了命運的擺弄，人類的未來不再是一本寫好的書。然… more
+                - link "影綜：從幕末開始 克里夫司機 主角吳憂在前往蘭星殖民的星際旅程上，歷經一個又一個的沈浸式影視遊戲。這當中，有哭有笑，有血有淚，有衝動，也有眷戀。最重要的，是讓那些遺憾，通通都不再存在。 冒險 穿越 古風 長篇 歷史" [ref=e2240] [cursor=pointer]:
+                  - /url: /story/215886/影綜-從幕末開始/toc
+                  - generic [ref=e2243]:
+                    - generic [ref=e2244]: 影綜：從幕末開始
+                    - generic [ref=e2245]: 克里夫司機
+                    - generic [ref=e2246]: 主角吳憂在前往蘭星殖民的星際旅程上，歷經一個又一個的沈浸式影視遊戲。這當中，有哭有笑，有血有淚，有衝動，也有眷戀。最重要的，是讓那些遺憾，通通都不再存在。
+                    - generic [ref=e2247]:
+                      - generic [ref=e2248]: 冒險
+                      - generic [ref=e2249]: 穿越
+                      - generic [ref=e2250]: 古風
+                      - generic [ref=e2251]: 長篇
+                      - generic [ref=e2252]: 歷史
+                - link "The Unfated（哈利波特二創小說） 獨旅 這是一篇哈利波特的二創同人作品。「我殺了他，然後接手了他的魔術魔法。」1995年倫敦，14歲少年蘭德·格在貧民窟中摸爬滾打，學會了生存的本質。直到那一天，一位闖入貧民街區的魔術師，徹底打破了他對這世界… more 奇幻 冒險 黑暗 科幻 魔法 動作 二創 劇情 harrypotter 哈利波特 西方奇幻" [ref=e2255] [cursor=pointer]:
+                  - /url: /story/207640/the-unfated-哈利波特二創小說/toc
+                  - generic [ref=e2258]:
+                    - generic [ref=e2259]: The Unfated（哈利波特二創小說）
+                    - generic [ref=e2260]: 獨旅
+                    - generic [ref=e2261]: 這是一篇哈利波特的二創同人作品。「我殺了他，然後接手了他的魔術魔法。」1995年倫敦，14歲少年蘭德·格在貧民窟中摸爬滾打，學會了生存的本質。直到那一天，一位闖入貧民街區的魔術師，徹底打破了他對這世界… more
+                    - generic [ref=e2262]:
+                      - generic [ref=e2263]: 奇幻
+                      - generic [ref=e2264]: 冒險
+                      - generic [ref=e2265]: 黑暗
+                      - generic [ref=e2266]: 科幻
+                      - generic [ref=e2267]: 魔法
+                      - generic [ref=e2268]: 動作
+                      - generic [ref=e2269]: 二創
+                      - generic [ref=e2270]: 劇情
+                      - generic [ref=e2271]: harrypotter
+                      - generic [ref=e2272]: 哈利波特
+                      - generic [ref=e2273]: 西方奇幻
+                - link "書名：《假面騎士海魔》 Jason Tsang 在被稱為「無盡藍海（Endless Blue）」的神秘世界中，流傳著一個關於「始源寶藏」的傳說。據說得到它的人，就能獲得支配全海洋的力量。然而，伴隨寶藏而來的，是從深海怨念中誕生的魔物——「幽靈海骸… more 冒險 戰鬥 動作 二創 假面騎士" [ref=e2276] [cursor=pointer]:
+                  - /url: /story/216130/書名-假面騎士海魔/toc
+                  - generic [ref=e2279]:
+                    - generic [ref=e2280]: 書名：《假面騎士海魔》
+                    - generic [ref=e2281]: Jason Tsang
+                    - generic [ref=e2282]: 在被稱為「無盡藍海（Endless Blue）」的神秘世界中，流傳著一個關於「始源寶藏」的傳說。據說得到它的人，就能獲得支配全海洋的力量。然而，伴隨寶藏而來的，是從深海怨念中誕生的魔物——「幽靈海骸… more
+                    - generic [ref=e2283]:
+                      - generic [ref=e2284]: 冒險
+                      - generic [ref=e2285]: 戰鬥
+                      - generic [ref=e2286]: 動作
+                      - generic [ref=e2287]: 二創
+                      - generic [ref=e2288]: 假面騎士
+                - link "柯學男娘生存手冊 微光魔女 吉田步夢，帝丹高中的神祕系 JK 男娘。他的人生目標不是成為名偵探，而是在事件頻發的米花町裡，把妹妹和朋友們平安帶回家。有案件，有主線，但不是速推黑衣組織型。前期會有較多步夢的日常、交友、家庭，以及對… more 同人 偽娘 柯南 ai創作 神祕學 日常與案件並行 魔法不破案" [ref=e2291] [cursor=pointer]:
+                  - /url: /story/215407/柯學男娘生存手冊/toc
+                  - generic [ref=e2294]:
+                    - generic [ref=e2295]: 柯學男娘生存手冊
+                    - generic [ref=e2296]: 微光魔女
+                    - generic [ref=e2297]: 吉田步夢，帝丹高中的神祕系 JK 男娘。他的人生目標不是成為名偵探，而是在事件頻發的米花町裡，把妹妹和朋友們平安帶回家。有案件，有主線，但不是速推黑衣組織型。前期會有較多步夢的日常、交友、家庭，以及對… more
+                    - generic [ref=e2298]:
+                      - generic [ref=e2299]: 同人
+                      - generic [ref=e2300]: 偽娘
+                      - generic [ref=e2301]: 柯南
+                      - generic [ref=e2302]: ai創作
+                      - generic [ref=e2303]: 神祕學
+                      - generic [ref=e2304]: 日常與案件並行
+                      - generic [ref=e2305]: 魔法不破案
+                - link "穿越到我英，系統要我改變敵聯合全員的命運 木偶師我老公 意外出車禍掛掉後，我意外被系統綁定。「叮！救贖系統綁定完成！任務：請在我英敵聯合成員墮落加入敵聯合之前救贖他們，並在最終之戰打敗All For One。」 穿越 我的英雄學院" [ref=e2308] [cursor=pointer]:
+                  - /url: /story/215344/穿越到我英-系統要我改變敵聯合全員的命運/toc
+                  - generic [ref=e2311]:
+                    - generic [ref=e2312]: 穿越到我英，系統要我改變敵聯合全員的命運
+                    - generic [ref=e2313]: 木偶師我老公
+                    - generic [ref=e2314]: 意外出車禍掛掉後，我意外被系統綁定。「叮！救贖系統綁定完成！任務：請在我英敵聯合成員墮落加入敵聯合之前救贖他們，並在最終之戰打敗All For One。」
+                    - generic [ref=e2315]:
+                      - generic [ref=e2316]: 穿越
+                      - generic [ref=e2317]: 我的英雄學院
+                - link "幽靈小兵 瀝青 致敬小兵傳奇，故事發生在大唐帝國一統銀河系的兩百年後，老皇帝唐龍已成為歷史神話，帝國看似繁華似錦，實則暗流湧動——科技停滯、階級固化、邊境AI叛亂、以及銀河系之外神祕的「盲區」威脅正悄然降臨。" [ref=e2320] [cursor=pointer]:
+                  - /url: /story/215272/幽靈小兵/toc
+                  - generic [ref=e2323]:
+                    - generic [ref=e2324]: 幽靈小兵
+                    - generic [ref=e2325]: 瀝青
+                    - generic [ref=e2326]: 致敬小兵傳奇，故事發生在大唐帝國一統銀河系的兩百年後，老皇帝唐龍已成為歷史神話，帝國看似繁華似錦，實則暗流湧動——科技停滯、階級固化、邊境AI叛亂、以及銀河系之外神祕的「盲區」威脅正悄然降臨。
+                - link "已完結 【CLAMP綜合】CCX★HOPE IN THE FUTURE 〈PART2回到未來的過去〉(2025重製版) LiBr@RisU 【CLAMP綜合同人下篇】CCX★HOPE IN THE FUTURE (2025重製版)〈PART II 回到未來的過去〉「希望仍然存在…未來尚未終結…」CCX★HOPE IN THE FUTURE… more 愛情 冒險 穿越 魔法 友情 親情 libr@risu(細菌a) clamp ccx 聖傳 x戰記 李小狼 clamp學園偵探團 木之本櫻 妹之山殘 毀滅中尋找幸福 李小桃 虐中帶甜甜中帶刀 魔法少女櫻" [ref=e2329] [cursor=pointer]:
+                  - /url: /story/211954/clamp綜合-ccx-hope-in-the-future-part2回到未來的過去-2025重製版/toc
+                  - generic [ref=e2332]: 已完結
+                  - generic [ref=e2333]:
+                    - generic [ref=e2334]: 【CLAMP綜合】CCX★HOPE IN THE FUTURE 〈PART2回到未來的過去〉(2025重製版)
+                    - generic [ref=e2335]: LiBr@RisU
+                    - generic [ref=e2336]: 【CLAMP綜合同人下篇】CCX★HOPE IN THE FUTURE (2025重製版)〈PART II 回到未來的過去〉「希望仍然存在…未來尚未終結…」CCX★HOPE IN THE FUTURE… more
+                    - generic [ref=e2337]:
+                      - generic [ref=e2338]: 愛情
+                      - generic [ref=e2339]: 冒險
+                      - generic [ref=e2340]: 穿越
+                      - generic [ref=e2341]: 魔法
+                      - generic [ref=e2342]: 友情
+                      - generic [ref=e2343]: 親情
+                      - generic [ref=e2344]: libr@risu(細菌a)
+                      - generic [ref=e2345]: clamp
+                      - generic [ref=e2346]: ccx
+                      - generic [ref=e2347]: 聖傳
+                      - generic [ref=e2348]: x戰記
+                      - generic [ref=e2349]: 李小狼
+                      - generic [ref=e2350]: clamp學園偵探團
+                      - generic [ref=e2351]: 木之本櫻
+                      - generic [ref=e2352]: 妹之山殘
+                      - generic [ref=e2353]: 毀滅中尋找幸福
+                      - generic [ref=e2354]: 李小桃
+                      - generic [ref=e2355]: 虐中帶甜甜中帶刀
+                      - generic [ref=e2356]: 魔法少女櫻
+            - generic [ref=e2357]:
+              - generic [ref=e2358]: 精選書單合集 - Book Collection
+              - generic [ref=e2360]:
+                - generic [ref=e2362]:
+                  - link "鬼不滅，怪力亂神！" [ref=e2363] [cursor=pointer]:
+                    - /url: /storypicks?id=122
+                    - generic [ref=e2364]: 鬼不滅，怪力亂神！
+                  - generic [ref=e2365]:
+                    - link "【渡冥志】卷一：好兄弟" [ref=e2366] [cursor=pointer]:
+                      - /url: /story/75085
+                    - link "土地廟奇談-福德與白虎（END）" [ref=e2367] [cursor=pointer]:
+                      - /url: /story/85501
+                    - link "第一次養魔神仔就上手(更新至第三部)" [ref=e2368] [cursor=pointer]:
+                      - /url: /story/74044
+                    - link "天黑莫回頭 I 厲鬼陰宅" [ref=e2369] [cursor=pointer]:
+                      - /url: /story/62714
+                    - link "我在冥府當心理諮商師" [ref=e2370] [cursor=pointer]:
+                      - /url: /story/63934
+                - generic [ref=e2372]:
+                  - link "明日之後，末日將近。" [ref=e2373] [cursor=pointer]:
+                    - /url: /storypicks?id=131
+                    - generic [ref=e2374]: 明日之後，末日將近。
+                  - generic [ref=e2375]:
+                    - link "少女爐心" [ref=e2376] [cursor=pointer]:
+                      - /url: /story/58630
+                    - link "台東超載" [ref=e2377] [cursor=pointer]:
+                      - /url: /story/80245
+                    - link "當玫瑰花在末日盛開時" [ref=e2378] [cursor=pointer]:
+                      - /url: /story/80194
+                    - link "魔方" [ref=e2379] [cursor=pointer]:
+                      - /url: /story/80826
+                    - link "致，七日後的我。" [ref=e2380] [cursor=pointer]:
+                      - /url: /story/78359
+                - generic [ref=e2382]:
+                  - link "講愛，講愛情。" [ref=e2383] [cursor=pointer]:
+                    - /url: /storypicks?id=130
+                    - generic [ref=e2384]: 講愛，講愛情。
+                  - generic [ref=e2385]:
+                    - link "【初戀/校園】《副校長發現我寫甜故，竟然送一段初戀俾我》" [ref=e2386] [cursor=pointer]:
+                      - /url: /story/83692
+                    - link "我在日本小豆島開了一間茶餐廳：第一季（ある日、小豆島で茶餐廳を開いた：Season 1)） - 實體書已出版" [ref=e2387] [cursor=pointer]:
+                      - /url: /story/62497
+                    - link "金屋藏貓" [ref=e2388] [cursor=pointer]:
+                      - /url: /story/58848
+                    - link "《留給世上的未來》" [ref=e2389] [cursor=pointer]:
+                      - /url: /story/56247
+                    - link "《難怪我永遠懷念飛灰》" [ref=e2390] [cursor=pointer]:
+                      - /url: /story/59468
+                - generic [ref=e2392]:
+                  - link "在家遙距修仙，一鍵成仙！" [ref=e2393] [cursor=pointer]:
+                    - /url: /storypicks?id=127
+                    - generic [ref=e2394]: 在家遙距修仙，一鍵成仙！
+                  - generic [ref=e2395]:
+                    - link "三國無常" [ref=e2396] [cursor=pointer]:
+                      - /url: /story/42307
+                    - link "召喚武師" [ref=e2397] [cursor=pointer]:
+                      - /url: /story/35902
+                    - link "灰袍行憎" [ref=e2398] [cursor=pointer]:
+                      - /url: /story/76437
+                    - link "《黃泉逆仙錄》" [ref=e2399] [cursor=pointer]:
+                      - /url: /story/64512
+                    - link "白邪封印" [ref=e2400] [cursor=pointer]:
+                      - /url: /story/68644
+                - generic [ref=e2402]:
+                  - link "情人書單，小心閃光！" [ref=e2403] [cursor=pointer]:
+                    - /url: /storypicks?id=166
+                    - generic [ref=e2404]: 情人書單，小心閃光！
+                  - generic [ref=e2405]:
+                    - link "The Door" [ref=e2406] [cursor=pointer]:
+                      - /url: /story/73079
+                    - link "某天再遇這個地方" [ref=e2407] [cursor=pointer]:
+                      - /url: /story/76874
+                    - link "垃圾" [ref=e2408] [cursor=pointer]:
+                      - /url: /story/88911
+                    - link "美男，魚王子" [ref=e2409] [cursor=pointer]:
+                      - /url: /story/88685
+                    - link "命中帶杜齊" [ref=e2410] [cursor=pointer]:
+                      - /url: /story/74711
+                - generic [ref=e2412]:
+                  - link "夏日涼透鬼故事推介 - Ghost Story" [ref=e2413] [cursor=pointer]:
+                    - /url: /storypicks?id=184
+                    - generic [ref=e2414]: 夏日涼透鬼故事推介 - Ghost Story
+                  - generic [ref=e2415]:
+                    - link "天黑莫回頭 I 厲鬼陰宅" [ref=e2416] [cursor=pointer]:
+                      - /url: /story/62714
+                    - link "嘿，你聽說了嗎？" [ref=e2417] [cursor=pointer]:
+                      - /url: /story/90675
+                    - link "不思議の詭怪物語 (第一季)" [ref=e2418] [cursor=pointer]:
+                      - /url: /story/89331
+                    - link "馬菲的靈異世界" [ref=e2419] [cursor=pointer]:
+                      - /url: /story/71133
+                    - link "二樓" [ref=e2420] [cursor=pointer]:
+                      - /url: /story/100568
+                - generic [ref=e2422]:
+                  - link "駐站作品" [ref=e2423] [cursor=pointer]:
+                    - /url: /storypicks?id=100
+                    - generic [ref=e2424]: 駐站作品
+                  - generic [ref=e2425]:
+                    - link "天命神化" [ref=e2426] [cursor=pointer]:
+                      - /url: /story/111675
+                    - link "魔女戀習生" [ref=e2427] [cursor=pointer]:
+                      - /url: /story/178092
+                    - link "《道劍》" [ref=e2428] [cursor=pointer]:
+                      - /url: /story/162668
+                    - link "《特別探員蒙特喬》第一季(Special Agent Montagu Season 1)" [ref=e2429] [cursor=pointer]:
+                      - /url: /story/161697
+                    - link "《德魯伊之門1：獸魂》（Gate of Druid I：Soul of Beast）" [ref=e2430] [cursor=pointer]:
+                      - /url: /story/167358
+                - generic [ref=e2432]:
+                  - link "紙張上的戰爭" [ref=e2433] [cursor=pointer]:
+                    - /url: /storypicks?id=201
+                    - generic [ref=e2434]: 紙張上的戰爭
+                  - generic [ref=e2435]:
+                    - link "404" [ref=e2436] [cursor=pointer]:
+                      - /url: /story/105560
+                    - link "【天火系列】天火五部曲（卷一完）" [ref=e2437] [cursor=pointer]:
+                      - /url: /story/112927
+                    - link "紅髮的卡拿——背負名譽與愧疚的人" [ref=e2438] [cursor=pointer]:
+                      - /url: /story/105484
+                    - link "北境防線-鐵與血" [ref=e2439] [cursor=pointer]:
+                      - /url: /story/112995
+                    - link "【遙遠的幽托比亞/ utopia】" [ref=e2440] [cursor=pointer]:
+                      - /url: /story/96439
+                - generic [ref=e2442]:
+                  - link "黑暗遊戲，見盡人性！" [ref=e2443] [cursor=pointer]:
+                    - /url: /storypicks?id=146
+                    - generic [ref=e2444]: 黑暗遊戲，見盡人性！
+                  - generic [ref=e2445]:
+                    - link "《黑暗地下桌遊大賽》" [ref=e2446] [cursor=pointer]:
+                      - /url: /story/74696
+                    - link "墮樂園" [ref=e2447] [cursor=pointer]:
+                      - /url: /story/56459
+                    - link "搵唔到Exit嘅23層大廈" [ref=e2448] [cursor=pointer]:
+                      - /url: /story/56458
+                    - link "我和未來外父大人去了壽司店" [ref=e2449] [cursor=pointer]:
+                      - /url: /story/48163
+                    - link "《你以為Flycation呢件事真係咁簡單？》" [ref=e2450] [cursor=pointer]:
+                      - /url: /story/76137
+                - generic [ref=e2452]:
+                  - link "日本人也看的推理懸疑！" [ref=e2453] [cursor=pointer]:
+                    - /url: /storypicks?id=160
+                    - generic [ref=e2454]: 日本人也看的推理懸疑！
+                  - generic [ref=e2455]:
+                    - link "沉默的證人 The Silent Witnesses" [ref=e2456] [cursor=pointer]:
+                      - /url: /story/91119
+                    - link "［懸疑冒險］《巴別塔計劃》" [ref=e2457] [cursor=pointer]:
+                      - /url: /story/90177
+                    - link "《觀劇之魔女》（新）" [ref=e2458] [cursor=pointer]:
+                      - /url: /story/59038
+                    - link "JM的無以名狀事件簿：可惡童話" [ref=e2459] [cursor=pointer]:
+                      - /url: /story/84169
+                    - link "潛龍" [ref=e2460] [cursor=pointer]:
+                      - /url: /story/39339
+                - generic [ref=e2462]:
+                  - link "AI科技與人類" [ref=e2463] [cursor=pointer]:
+                    - /url: /storypicks?id=203
+                    - generic [ref=e2464]: AI科技與人類
+                  - generic [ref=e2465]:
+                    - link "亞伯拉罕" [ref=e2466] [cursor=pointer]:
+                      - /url: /story/102123
+                    - link "偽神代碼" [ref=e2467] [cursor=pointer]:
+                      - /url: /story/69147
+                    - link "【AI機器人-第一部】陪伴機器人" [ref=e2468] [cursor=pointer]:
+                      - /url: /story/107198
+                    - link "終於•我 FIND ME" [ref=e2469] [cursor=pointer]:
+                      - /url: /story/104498
+                    - link "Vtuber已死．AI復活" [ref=e2470] [cursor=pointer]:
+                      - /url: /story/113173
+                - generic [ref=e2472]:
+                  - link "刻畫小說裡的社會，寫出現實的不安心" [ref=e2473] [cursor=pointer]:
+                    - /url: /storypicks?id=162
+                    - generic [ref=e2474]: 刻畫小說裡的社會，寫出現實的不安心
+                  - generic [ref=e2475]:
+                    - link "鳥不起城市" [ref=e2476] [cursor=pointer]:
+                      - /url: /story/86250
+                    - link "日光之下" [ref=e2477] [cursor=pointer]:
+                      - /url: /story/65349
+                    - link "是咁的，我的職業是幫人寫遺書" [ref=e2478] [cursor=pointer]:
+                      - /url: /story/46551
+                    - link "《她的門》短篇故事系列" [ref=e2479] [cursor=pointer]:
+                      - /url: /story/74351
+                    - link "一部有RAP的小說//《香港淪陷 2025》" [ref=e2480] [cursor=pointer]:
+                      - /url: /story/65571
+                - generic [ref=e2482]:
+                  - link "C AllStar@Jase 與你解禁愛情真諦" [ref=e2483] [cursor=pointer]:
+                    - /url: /storypicks?id=159
+                    - generic [ref=e2484]: C AllStar@Jase 與你解禁愛情真諦
+                  - generic [ref=e2485]:
+                    - link "不想擁抱我的人" [ref=e2486] [cursor=pointer]:
+                      - /url: /story/88297
+                    - link "煙霧瀰漫 Vapor" [ref=e2487] [cursor=pointer]:
+                      - /url: /story/88293
+                    - link "小死亡 die a little" [ref=e2488] [cursor=pointer]:
+                      - /url: /story/88296
+                - generic [ref=e2490]:
+                  - link "去異世界盡情冒險吧 - Isekai Story" [ref=e2491] [cursor=pointer]:
+                    - /url: /storypicks?id=125
+                    - generic [ref=e2492]: 去異世界盡情冒險吧 - Isekai Story
+                  - generic [ref=e2493]:
+                    - link "無望世界／這個異世界沒有希望" [ref=e2494] [cursor=pointer]:
+                      - /url: /story/84133
+                    - link "克蒂凡之詩" [ref=e2495] [cursor=pointer]:
+                      - /url: /story/105155
+                    - link "讓一隻雞成為最終BOSS需要的五堂課程" [ref=e2496] [cursor=pointer]:
+                      - /url: /story/75637
+                    - link "眩光劍「佩姬」" [ref=e2497] [cursor=pointer]:
+                      - /url: /story/80542
+                    - link "鴴湖少女 Stiltlake Girls" [ref=e2498] [cursor=pointer]:
+                      - /url: /story/94483
+                - generic [ref=e2500]:
+                  - link "戰爭悲歌 - 大戰時代下的群像" [ref=e2501] [cursor=pointer]:
+                    - /url: /storypicks?id=170
+                    - generic [ref=e2502]: 戰爭悲歌 - 大戰時代下的群像
+                  - generic [ref=e2503]:
+                    - link "2022 台北封城" [ref=e2504] [cursor=pointer]:
+                      - /url: /story/90252
+                    - link "記憶繼承人 Re:Load" [ref=e2505] [cursor=pointer]:
+                      - /url: /story/66193
+                    - link "疫戰都市《這個殺手不太濫》" [ref=e2506] [cursor=pointer]:
+                      - /url: /story/67033
+                    - link "Dark Disciple 暗夜使徒" [ref=e2507] [cursor=pointer]:
+                      - /url: /story/90800
+                    - link "Outbreak戰翼敘事曲" [ref=e2508] [cursor=pointer]:
+                      - /url: /story/92158
+                - generic [ref=e2510]:
+                  - link "香港書展特選 - Featured Story from BOOK FAIR! (HK)" [ref=e2511] [cursor=pointer]:
+                    - /url: /storypicks?id=181
+                    - generic [ref=e2512]: 香港書展特選 - Featured Story from BOOK FAIR! (HK)
+                  - generic [ref=e2513]:
+                    - link "陰霾密佈令人不寒而慄《慾望共胴體》" [ref=e2514] [cursor=pointer]:
+                      - /url: /story/63881
+                    - link "是咁的，畢業那年來了個奇怪轉校生" [ref=e2515] [cursor=pointer]:
+                      - /url: /story/60220
+                    - link "傢俱人" [ref=e2516] [cursor=pointer]:
+                      - /url: /story/55773
+                    - link "等價交換店" [ref=e2517] [cursor=pointer]:
+                      - /url: /story/102653
+                    - link "天黑莫回頭 I 厲鬼陰宅" [ref=e2518] [cursor=pointer]:
+                      - /url: /story/62714
+                - generic [ref=e2520]:
+                  - link "天氣轉冷，食欲之冬要開始了！" [ref=e2521] [cursor=pointer]:
+                    - /url: /storypicks?id=202
+                    - generic [ref=e2522]: 天氣轉冷，食欲之冬要開始了！
+                  - generic [ref=e2523]:
+                    - link "魔廚" [ref=e2524] [cursor=pointer]:
+                      - /url: /story/87777
+                    - link "日常飲食記事" [ref=e2525] [cursor=pointer]:
+                      - /url: /story/87202
+                    - link "關你茶事 - 茶人茶語" [ref=e2526] [cursor=pointer]:
+                      - /url: /story/99214
+                    - link "拉拉發酒蜂" [ref=e2527] [cursor=pointer]:
+                      - /url: /story/66935
+                    - link "面包．香草．巧克力 —用甜蜜拯救世界—" [ref=e2528] [cursor=pointer]:
+                      - /url: /story/108435
+            - generic [ref=e2529]:
+              - generic [ref=e2530]: 排行榜
+              - generic [ref=e2531]:
+                - generic [ref=e2532] [cursor=pointer]: 打賞榜
+                - generic [ref=e2533] [cursor=pointer]: 最多閱讀
+                - generic [ref=e2534] [cursor=pointer]: 最多喜歡
+              - generic [ref=e2535]: 作者排行榜
+              - generic [ref=e2536]:
+                - generic [ref=e2537] [cursor=pointer]: 最活躍留言
+                - generic [ref=e2538] [cursor=pointer]: 最多人「喜歡」
+                - generic [ref=e2539] [cursor=pointer]: 創作挑戰最多勝出
+              - generic [ref=e2540]: 隨機
+              - generic [ref=e2541]:
+                - generic [ref=e2542] [cursor=pointer]: 小說
+                - generic [ref=e2543] [cursor=pointer]: 作者
+    - generic:
+      - generic [ref=e2546]:
+        - generic [ref=e2547]: 發現
+        - link "主頁" [ref=e2548] [cursor=pointer]:
+          - /url: /home.php
+          - generic [ref=e2549]: 主頁
+        - link "小說" [ref=e2551] [cursor=pointer]:
+          - /url: /stories.php?genre=nonfanfic
+          - generic [ref=e2552]: 小說
+        - link "漫畫" [ref=e2554] [cursor=pointer]:
+          - /url: /comics
+          - generic [ref=e2555]: 漫畫
+        - link "創作挑戰" [ref=e2557] [cursor=pointer]:
+          - /url: /contests.php
+          - generic [ref=e2558]: 創作挑戰
+        - link "短文" [ref=e2560] [cursor=pointer]:
+          - /url: /articles
+          - generic [ref=e2561]: 短文
+        - link "排行榜" [ref=e2563] [cursor=pointer]:
+          - /url: /chartlist.php
+          - generic [ref=e2564]: 排行榜
+        - link "社群" [ref=e2566] [cursor=pointer]:
+          - /url: /sogrid.php
+          - generic [ref=e2567]: 社群
+        - link "Pena Store" [ref=e2569] [cursor=pointer]:
+          - /url: /store.php
+          - generic [ref=e2570]: Pena Store
+        - generic [ref=e2572]: 我的
+        - link "創作" [ref=e2573] [cursor=pointer]:
+          - /url: /writelist.php
+          - generic [ref=e2574]: 創作
+        - link "2025年度回顧" [ref=e2576] [cursor=pointer]:
+          - /url: /2025recap
+          - generic [ref=e2577]: 2025年度回顧
+        - link "作者工作台" [ref=e2579] [cursor=pointer]:
+          - /url: /studio.php
+          - generic [ref=e2580]: 作者工作台
+        - link "動態" [ref=e2582] [cursor=pointer]:
+          - /url: /hub.php
+          - generic [ref=e2583]: 動態
+        - link "設置" [ref=e2585] [cursor=pointer]:
+          - /url: /setting.php
+          - generic [ref=e2586]: 設置
+        - link "訂閱" [ref=e2588] [cursor=pointer]:
+          - /url: /my_subscriptions.php
+          - generic [ref=e2589]: 訂閱
+        - link "coins 0" [ref=e2591] [cursor=pointer]:
+          - /url: /buy_coins.php
+          - generic [ref=e2592]:
+            - img "coins" [ref=e2594]
+            - text: "0"
+        - generic [ref=e2595]:
+          - generic [ref=e2596]:
+            - link "桌面版" [ref=e2598] [cursor=pointer]:
+              - /url: http://www.penana.com/home?v=desktop
+            - link "登入" [ref=e2600] [cursor=pointer]:
+              - /url: /login.php
+            - link "關於Penana" [ref=e2602] [cursor=pointer]:
+              - /url: /landing2.php
+            - link "Penana資訊中心" [ref=e2604] [cursor=pointer]:
+              - /url: https://docs.penana.com
+            - link "作家計劃" [ref=e2606] [cursor=pointer]:
+              - /url: /article/531575
+          - generic [ref=e2607]:
+            - link "條款" [ref=e2608] [cursor=pointer]:
+              - /url: /terms.php
+            - text: "|"
+            - link "私隱政策" [ref=e2609] [cursor=pointer]:
+              - /url: /privacy.php
+            - text: "|"
+            - link "意見" [ref=e2610] [cursor=pointer]:
+              - /url: /feedback.php
+      - link "Login/Sign Up to see more!" [ref=e2613] [cursor=pointer]:
+        - /url: /register.php
+        - generic [ref=e2614]:
+          - img [ref=e2615]
+          - text: Login/Sign Up to see more!
