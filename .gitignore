@@ -12,3 +12,16 @@ node_modules/
 # Hub MOC + .base 保留追蹤；session 內容唔 push
 Claude history/20*/
 
+# ---- Binary / heavy assets：local-only，唔 sync 上 GitHub（決定 2026-06-30）----
+# 目的：防 repo 爆大。bookmark snapshot 圖 + raw 源附件只留本機。
+# ⚠️ 代價：呢啲圖唔上 GitHub = 冇 offsite 備份，靠本機 Time Machine/iCloud。
+# 保留 .gitkeep → 空夾結構照入 git，fresh clone 有齊夾、淨係內容唔上。
+raw/assets/*
+!raw/assets/.gitkeep
+raw/screenshots/*
+!raw/screenshots/.gitkeep
+raw/data/*
+!raw/data/.gitkeep
+Bookmarks/assets/*
+!Bookmarks/assets/.gitkeep
+
