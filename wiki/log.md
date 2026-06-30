@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-07-01 01:41 HKT] bookmark | Claude Code×Obsidian 第二大腦教學（Hei_Ai YouTube）triage ＋ 刪 clip
+新 Web Clipper clip（首條帶 `cover` property）triage → `Bookmarks/AI/Claude Code/Obsidian Integration/Hei_Ai 成長日記 — Claude Code × Obsidian 打造 AI 知識庫 (YouTube).md`（domain `obsidian-ai`）：剝 affiliate spam、cover 下載落 `Bookmarks/assets/heiai-claude-code-obsidian-cover.jpg`（local-only）、cross-link 去 [[Claude + Obsidian Project Workflow]] ＋ [[Claude + Obsidian Workflow Pattern Comparison]]。內容已繁體免 s2hk。原 Inbox clip 已刪（promoted）。
+
 ## [2026-06-30 23:20 HKT] cleanup | 刪 Inbox 原 clip（已 promote 入 bookmark）
 配合上條 23:15 bookmark triage：原 Web Clipper clip `Inbox/clippings/近期 Claude 大面积封号….md` 已 promote 成正規 bookmark，依 7 日 triage SLA 刪走冗餘原件（內容＋全文已存入 `Bookmarks/AI/Claude/Sindri — Claude 大面積封號與 7·8 隱私政策防封指南.md`）。
 
