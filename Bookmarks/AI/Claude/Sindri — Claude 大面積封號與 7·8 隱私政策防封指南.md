@@ -7,6 +7,7 @@ url: "https://www.youtube.com/watch?v=lXlvIlFhNis"
 author:
   - "[[Sindri]]"
 published: 2026-06-28
+cover: "[[sindri-claude-banlist-cover.jpg]]"
 summary: "Sindri（賣號/VPS affiliate 頻道）解讀 Claude 7·8 隱私政策更新：consumer/enterprise 帳號區分、年齡+身份驗證將生效；防封三軸 IP/設備/付款。Claim 未證實、源頭利益相關。"
 status: active
 created: 2026-06-30
