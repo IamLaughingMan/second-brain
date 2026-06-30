@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-30 23:15 HKT] bookmark | Claude 7·8 防封指南（Sindri YouTube）triage 入 Bookmarks/AI/Claude/
+Web Clipper clip（`Inbox/clippings/`）行完整 triage → `Bookmarks/AI/Claude/Sindri — Claude 大面積封號與 7·8 隱私政策防封指南.md`：簡轉繁 s2hk、剝 affiliate spam ＋ bare image、補齊 `type/para/domain/summary` frontmatter、head-light 重排、保留 transcript 全文 ＋ 誠實標「留言未能抓取」。源頭係賣號/affiliate 頻道、claim 未證實。新開 `AI/Claude/` 夾同 Claude Code CLI 分開。
+
 ## [2026-06-27 15:32 HKT] project | NMN（HYGIEIAS）V1→V2 重做（effort xhigh）
 使用者要求把舊版（effort high 做嘅）全部存檔再用 effort xhigh + web research 重做。**版本制**：vault `Business/NMN/V1/`（4 頁 `(V1)` suffix + `status: archived` + 內部 cross-link 改指 V1，跌出 `.base` 主視圖）+ repo `web/V1/`（舊 HTML/PNG/zip）；新版佔 canonical 名做 live。**重建 4 strategy deliverable**：[[Brand & Web Design Brief]]、[[Brand Story & Proof]]、[[Offer Architecture]]、[[PDP — Capsule (wireframe + copy)]]，加 **3 web 頁**（`web/index.html` home、`web/pdp-capsule.html` PDP、`web/preview.html` preview tool）。**Web research（2026-06-27）強化**：① 法規收緊到 2025-12 FDA NDI 實況 —— 2025-09-29 NMN 不再被剔出 supplement 定義、2025-12-02 reinstate SyncoZymes NDI #1247、12-09 公開 SyncoZymes + Kingdomway #1259 回信 → sourcing 硬篩「NDIN 鏈」；② 真競品 $/g（branded NMN $0.6–3.9/g；HYGIEIAS powder $0.45/g 殺全場）；③ claims-safe 教育換真 citation（Fukamizu 2022 *Sci Rep* 安全；Wen 2024 *Cureus* 系統回顧「多數未顯著」= 誠實框架做品牌資產），換走 `[citation]`/`[…]` placeholder；④ 劑量 open question 收尾（300mg/日有 2022 人體試驗，1 粒/日）。COGS 實數不變（原料 $0.18/g、landed capsule $6.85 / powder $20.50）。hub/overview/控制頁同步更新。**未做**：sourcing 落實、Amazon 履約費、真 COA/lab 名。⚠️ commit 未做（repo + vault 都 staged，留畀使用者）。
 
