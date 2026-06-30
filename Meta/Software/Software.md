@@ -49,6 +49,8 @@ tags:
 | claude-conversation-extractor | 1.1.2 | pip | `~/opt/anaconda3/bin/claude-extract` | 2026-06-04 | — | 抽取/搜尋 Claude 對話（claude-extract/search/logs） | 使用中 |
 | happy (Happy Coder) | 1.1.9 | npm -g | `/usr/local/lib/node_modules/happy-coder` | 2026-05-26 | — | Happy harness CLI（呢個 session 跑緊；zsh function wrapper） | 使用中 |
 | opencc | 1.3.1 | brew | `/opt/homebrew/bin/opencc` | 2026-06-19 | Claude 幫手 | 簡↔繁中文轉換；bookmark 存檔簡體轉正體用 `s2hk`（簡→繁香港） | 使用中 |
+| [[mlx-whisper]] | 0.4.3 | pipx | `~/.local/bin/mlx_whisper` | 2026-07-01 | Claude 幫手 | Whisper STT（語音轉文字）；冇字幕 YouTube 片 `yt-dlp 音訊→ffmpeg→mlx_whisper` 生成 transcript；支援 Cantonese/Chinese | 使用中 |
+| ffmpeg | 8.1.2 | brew | `/opt/homebrew/bin/ffmpeg` | 2026-07-01 | Claude 幫手 | 音/視訊解碼轉碼；[[yt-dlp]] 抽音訊 + [[mlx-whisper]] 解碼音訊嘅依賴 | 使用中 |
 
 > `uvx` 由 `uv` 提供、`npx` 由 `node`（npm）提供 —— 兩個係 **runner，唔係獨立 install**，故併入母工具 row。`npm -g` 嘅工具（defuddle / claude-auto-retry / happy）全部靠上面個 `node`。
 
