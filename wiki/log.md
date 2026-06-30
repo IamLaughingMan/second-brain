@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-06-30 23:20 HKT] cleanup | 刪 Inbox 原 clip（已 promote 入 bookmark）
+配合上條 23:15 bookmark triage：原 Web Clipper clip `Inbox/clippings/近期 Claude 大面积封号….md` 已 promote 成正規 bookmark，依 7 日 triage SLA 刪走冗餘原件（內容＋全文已存入 `Bookmarks/AI/Claude/Sindri — Claude 大面積封號與 7·8 隱私政策防封指南.md`）。
+
 ## [2026-06-30 23:15 HKT] bookmark | Claude 7·8 防封指南（Sindri YouTube）triage 入 Bookmarks/AI/Claude/
 Web Clipper clip（`Inbox/clippings/`）行完整 triage → `Bookmarks/AI/Claude/Sindri — Claude 大面積封號與 7·8 隱私政策防封指南.md`：簡轉繁 s2hk、剝 affiliate spam ＋ bare image、補齊 `type/para/domain/summary` frontmatter、head-light 重排、保留 transcript 全文 ＋ 誠實標「留言未能抓取」。源頭係賣號/affiliate 頻道、claim 未證實。新開 `AI/Claude/` 夾同 Claude Code CLI 分開。
 
