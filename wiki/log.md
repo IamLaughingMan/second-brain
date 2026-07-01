@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-07-01 18:45 HKT] enrich | 5 條 YouTube bookmark 補 Whisper STT 逐字稿（全部原片無字幕）
+承上條 5 bookmark：全部 YouTube 片經 yt-dlp 確認**冇任何字幕**（連自動字幕都冇）→ 用本地 [[mlx-whisper]]（`whisper-large-v3-turbo`，Apple Silicon MLX）逐條轉錄 → OpenCC `s2hk` 轉正體 → 以 shell 直寫入各 bookmark 檔尾 `## 逐字稿` section（**唔經 Claude context，0 token**）。各檔頂「無 transcript」個註已改為指向文末逐字稿。ComfyUI 條有段 Whisper 重複幻覺（連環「傳的」）已 trim。逐字稿標明「自動轉錄未人手校對」。gotcha 記錄：① YouTube 要 `--cookies-from-browser chrome` 過 bot-wall；② HF model 經美西 VPN 下載慢又會 hang，改用 `whisper-large-v3-turbo-q4`（442MB）作後備但最終 full-turbo 背景落完仍可用；③ perl 改 CJK 要 `-Mutf8` decode literal 先 match 到。逐字稿存檔本身、唔上 GitHub 都 commit（防 link-rot）。
+
 ## [2026-07-01 15:05 HKT] bookmark | 5 條 Web Clipper clip 自動轉 bookmark（YouTube 簡體）＋ 刪原 clip
 批量 triage `Inbox/clippings/` 5 條 YouTube 簡體 clip → bookmark（全部落 cover 縮圖 `Bookmarks/assets/*-cover.jpg` local-only；簡→正；引流/affiliate 連結 defang 防火兼避 AV）：① **微塵印記 - Obsidian 多設備同步 6 方案**（`AI/Obsidian/`，domain obsidian，✅ 高值、直接對照 [[project-git-sync-obsidian-git]]）② **船長的角落 - codex+Obsidian 出圖工作流**（`AI/Obsidian/`，obsidian-ai，✅ 中值）③ **資源匯社區 - ComfyUI SVI2.0 NSFW 長片**（`AI/AI Video/`，ai-video，⚠️ 網盤引流、prune 候選）④⑤ **AI大模型教程/開發 - Obsidian 喂飯教程 20/25 分鐘**（`AI/Obsidian/`，obsidian，⚠️ content-farm 新手教程、彼此重複、prune 候選）。全部 YouTube transcript 待 VPN 通後跑 [[mlx-whisper]]。5 條原 Inbox clip 已刪（promoted）。
 

@@ -43,7 +43,7 @@ _(待補)_ — 對照點：agent（codex）＋ 筆記庫（Obsidian）＝ 同你
 ## Full Content (archived)
 
 **來源**：YouTube《codex + obsidian 搭建出圖工作流，榨乾 image 2.0》· 作者 船長的角落 · 發佈 2026-05-09 · <https://www.youtube.com/watch?v=KydTdtTzs28>
-**註**：原片只有描述、無 transcript（clip 未含字幕；需 VPN 通後跑 [[mlx-whisper]] STT 先有逐字稿）。
+**註**：原片本身無字幕（Web Clipper 只抓到描述），已用 [[mlx-whisper]] 本地 STT（large-v3-turbo）補出逐字稿（見文末 ## 逐字稿）。
 
 ### 影片描述（清洗後・已由簡轉正 s2hk）
 內容創作者點利用 codex + Obsidian 高效產出配圖？本影片用清晰易懂嘅語言，詳細講解一整套完整嘅工作流搭建流程。無論係影片定圖文，呢套方法都幫到你提升效率。

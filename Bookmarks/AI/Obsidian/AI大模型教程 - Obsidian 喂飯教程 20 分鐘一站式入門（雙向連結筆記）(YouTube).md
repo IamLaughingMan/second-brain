@@ -40,7 +40,7 @@ _(待補)_ — 你 vault 已深度用 Obsidian（Karpathy 模式 ＋ typed-folde
 ## Full Content (archived)
 
 **來源**：YouTube《【2026 最新】…Obsidian 喂飯教程…》· 作者 AI大模型教程 · 發佈 2026-04-20 · <https://www.youtube.com/watch?v=9uxEhzOeWIA>
-**註**：原片只有描述、無 transcript（clip 未含字幕）。引流連結已 defang。
+**註**：原片本身無字幕（Web Clipper 只抓到描述），已用 [[mlx-whisper]] 本地 STT（large-v3-turbo）補出逐字稿（見文末 ## 逐字稿）。引流連結已 defang。
 
 ### 影片描述（清洗後）
 `#人工智能 #agent #大模型 #ai大模型 #obsidian #筆記軟件 #智能體搭建`

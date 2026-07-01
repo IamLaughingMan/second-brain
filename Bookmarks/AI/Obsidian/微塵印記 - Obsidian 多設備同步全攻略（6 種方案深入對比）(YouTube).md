@@ -51,7 +51,7 @@ _(待補)_ — 對照點：你已揀方案四（Git，native hook 即時 commit 
 ## Full Content (archived)
 
 **來源**：YouTube《Obsidian 多設備同步全攻略｜小白也能選對方案（6 種方案深入對比）》· 作者 微塵印記 · 發佈 2026-03-20 · <https://www.youtube.com/watch?v=y6psiSmSV3s>
-**註**：原片只有描述、無 transcript（clip 未含字幕；片完全冇字幕則需 VPN 通後跑 [[mlx-whisper]] STT）。描述中一條 Claude 帳號販賣 affiliate 連結已 **defang 防火**（見下）。
+**註**：原片本身無字幕（Web Clipper 只抓到描述），已用 [[mlx-whisper]] 本地 STT（large-v3-turbo）補出逐字稿（見文末 ## 逐字稿）。描述中一條 Claude 帳號販賣 affiliate 連結已 **defang 防火**（見下）。
 
 ### 影片描述（清洗後・已由簡轉正 s2hk）
 Obsidian 把筆記存喺本地，隱私安全、開啟飛快——但多設備之間點同步，就要自己解決。
