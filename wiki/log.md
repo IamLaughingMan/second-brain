@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-07-01 15:05 HKT] bookmark | 5 條 Web Clipper clip 自動轉 bookmark（YouTube 簡體）＋ 刪原 clip
+批量 triage `Inbox/clippings/` 5 條 YouTube 簡體 clip → bookmark（全部落 cover 縮圖 `Bookmarks/assets/*-cover.jpg` local-only；簡→正；引流/affiliate 連結 defang 防火兼避 AV）：① **微塵印記 - Obsidian 多設備同步 6 方案**（`AI/Obsidian/`，domain obsidian，✅ 高值、直接對照 [[project-git-sync-obsidian-git]]）② **船長的角落 - codex+Obsidian 出圖工作流**（`AI/Obsidian/`，obsidian-ai，✅ 中值）③ **資源匯社區 - ComfyUI SVI2.0 NSFW 長片**（`AI/AI Video/`，ai-video，⚠️ 網盤引流、prune 候選）④⑤ **AI大模型教程/開發 - Obsidian 喂飯教程 20/25 分鐘**（`AI/Obsidian/`，obsidian，⚠️ content-farm 新手教程、彼此重複、prune 候選）。全部 YouTube transcript 待 VPN 通後跑 [[mlx-whisper]]。5 條原 Inbox clip 已刪（promoted）。
+
 ## [2026-07-01 08:56 HKT] session-wrap | git-sync 架構 + Web Clipper cover 工作流 + Whisper STT 裝
 本 session（跨 06-30→07-01）：① **Obsidian Git 2.38.5** 做 sync/push 層疊喺 native hook（分工，auto-push via osxkeychain）② `.gitignore` 排 binary（`raw/{assets,screenshots,data}` + `Bookmarks/assets`）local-only；**bookmark cover/snap photo → `Bookmarks/assets/`** ③ Web Clipper 加 `cover:{{meta:property:og:image}}`，下載交 triage（curl→`Bookmarks/assets`→wikilink，冇 og:image 有 fallback 鏈）④ 2 條 clip triage（Sindri、Hei_Ai）⑤ 裝 [[mlx-whisper]] 0.4.3 + ffmpeg 8.1.2 為冇字幕片生成 transcript。詳見 `hot.md` + memory [[project-git-sync-obsidian-git]]／[[project-bookmark-media-enrichment]]。`CLAUDE.md` 新規矩待補（用戶：唔急）。
 
