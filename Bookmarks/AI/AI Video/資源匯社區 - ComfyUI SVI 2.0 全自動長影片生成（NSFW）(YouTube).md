@@ -8,7 +8,7 @@ author:
   - "[[資源匯社區]]"
 published: 2025-12-30
 cover: "[[comfyui-svi2-longvideo-cover.jpg]]"
-summary: "ComfyUI + SVI 2.0 全自動生成長影片（NSFW、宣稱無限時長）教學。描述本體係一堆 quark 網盤「一鍵啟動包／模型／工作流」資源連結（content-farm 引流），技術要點需睇正片。低訊號、prune 候選。"
+summary: "ComfyUI + SVI 2.0 全自動生成長影片（NSFW、宣稱無限時長）教學。描述本體係 quark 網盤引流，但**文末已補 Whisper 逐字稿**，內含實際 SVI 2.0 技術（單圖/多圖分鏡長片、loop 節點 latent 覆蓋原理、半自動控穩定性）＝保留作 ComfyUI 長片 workflow reference。"
 status: active
 created: 2026-06-30
 updated: 2026-07-01
@@ -23,13 +23,13 @@ tags:
 # ComfyUI SVI 2.0 全自動長影片生成（NSFW）
 
 > [!info] Bookmark · ai-video domain · YouTube（資源匯社區）
-> ComfyUI + SVI 2.0 全自動長影片工作流（NSFW）。描述本體＝一堆 quark 網盤引流連結（整合包／模型／工作流），實際技術步驟喺正片。**低訊號、content-farm 引流，prune 候選。**
+> ComfyUI + SVI 2.0 全自動長影片工作流（NSFW）。描述本體＝ quark 網盤引流，但**文末逐字稿已補實際技術**（SVI 2.0 單圖/多圖分鏡、loop 節點 latent 覆蓋、半自動控穩定性）＝**保留**作 ComfyUI 長片 workflow reference。
 
 ## Summary
 影片講用 **ComfyUI + SVI 2.0** 全自動生成長影片（NSFW、宣稱「無限時長 全自動化」）。但 clip 抓到嘅描述**冇技術內容**，只係一大串 **quark 網盤資源連結**（「一鍵啟動包＋模型＋工作流」「價值 10000 元工作流集合」「sd-webui-aki 整合包」「ComfyUI V7 完整整合包」等）＝ 典型引流／訂閱鉤。真正嘅 SVI 2.0 設定步驟要睇正片。
 
 ## My Notes
-_(待補)_ — 若要實試 SVI 2.0 長影片 workflow，記低此片為入口；但描述嘅網盤資源多屬引流，未必需要。**評估後可能 prune**（訊號低）。
+_(待補)_ — 逐字稿已含實際 workflow（loop 節點點拼接長片、latent_count 覆蓋機制、半自動固定 seed 控穩定）。要實試 SVI 2.0 長片直接睇文末逐字稿；網盤引流資源可略。**保留**（描述雖 junk，技術內容有用）。
 
 ## Related
 - Hub: [[Bookmarks]]

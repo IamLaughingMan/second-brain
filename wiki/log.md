@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-07-02 05:10 HKT] curate | dedupe 喂飯教程（刪 20 分鐘版）＋ ComfyUI 除 prune 標籤
+Triage 後續決定：① **ComfyUI SVI2.0 保留**（原標 prune 候選，但補咗 Whisper 逐字稿後有實際技術＝loop 節點 latent 覆蓋拼長片、單/多圖分鏡、半自動固定 seed 控穩定；除 prune 標籤、summary/callout/My Notes 改為 keeper）② **刪 20 分鐘喂飯教程**（`AI大模型教程 - …20 分鐘…`）——同 25 分鐘版（`AI大模型開發 - …25 分鐘…`）睇逐字稿係同一 creator 同一段 vault demo（蓋爾定律/Embrace Chaos/Atlas-Calendar-Effort），真 duplicate；保留 25 分鐘版作代表，修好其死鏈 + 除重複描述。orphan cover `obsidian-fanfan-20min-cover.jpg` 留喺 `Bookmarks/assets`（gitignore local，無害）。剩 4 條 YouTube bookmark（Obsidian 同步6方案 / codex 出圖 / 25 分鐘喂飯教程 / ComfyUI SVI2.0）。
+
 ## [2026-07-01 18:45 HKT] enrich | 5 條 YouTube bookmark 補 Whisper STT 逐字稿（全部原片無字幕）
 承上條 5 bookmark：全部 YouTube 片經 yt-dlp 確認**冇任何字幕**（連自動字幕都冇）→ 用本地 [[mlx-whisper]]（`whisper-large-v3-turbo`，Apple Silicon MLX）逐條轉錄 → OpenCC `s2hk` 轉正體 → 以 shell 直寫入各 bookmark 檔尾 `## 逐字稿` section（**唔經 Claude context，0 token**）。各檔頂「無 transcript」個註已改為指向文末逐字稿。ComfyUI 條有段 Whisper 重複幻覺（連環「傳的」）已 trim。逐字稿標明「自動轉錄未人手校對」。gotcha 記錄：① YouTube 要 `--cookies-from-browser chrome` 過 bot-wall；② HF model 經美西 VPN 下載慢又會 hang，改用 `whisper-large-v3-turbo-q4`（442MB）作後備但最終 full-turbo 背景落完仍可用；③ perl 改 CJK 要 `-Mutf8` decode literal 先 match 到。逐字稿存檔本身、唔上 GitHub 都 commit（防 link-rot）。
 
