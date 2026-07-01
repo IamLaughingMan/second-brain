@@ -7,9 +7,15 @@ updated: 2026-07-01
 # Recent Context
 
 ## Last Updated
-2026-07-01 — Obsidian Git sync 層 + binary gitignore local-only + Web Clipper cover 工作流 + 2 條 clip triage + Whisper STT 裝
+2026-07-02 — 5 條 Web Clipper clip 自動轉 bookmark（YouTube 簡體）＋ 5 條全補 Whisper STT 逐字稿（原片皆無字幕）
 
-## 2026-06-30→07-01 session 摘要（最新）
+## 2026-07-01→02 session 摘要（最新）
+- **5 條 Web Clipper clip → bookmark**（全 YouTube 簡體）：`Bookmarks/AI/Obsidian/` ×4（微塵印記 Obsidian 同步6方案〔高值、對照 [[project-git-sync-obsidian-git]]〕、船長 codex+Obsidian 出圖、AI大模型 20/25 分鐘喂飯教程〔content-farm、prune 候選〕）＋ `Bookmarks/AI/AI Video/` ×1（資源匯 ComfyUI SVI2.0 NSFW，網盤引流、prune 候選）。每條落 cover 縮圖（`Bookmarks/assets`，local-only）、簡→正 `s2hk`、引流/affiliate 連結 **defang**（避 AV）。原 5 clip 已刪。commit `2fb95d8`。
+- **5 條全補 Whisper STT 逐字稿**（用戶要 transcript）：`yt-dlp --list-subs` 確認**全部原片零字幕**（連自動字幕都冇）→ 本地 [[mlx-whisper]] `large-v3-turbo`（Apple Silicon）逐條轉錄 → `s2hk` → **shell 直寫檔尾 `## 逐字稿`（0 Claude token）**。各檔「無 transcript」註改指文末；ComfyUI 連環「傳的」Whisper 幻覺已 trim；標「自動轉錄未校對」。commit `7fcae98`（逐字稿本體先前由 Obsidian Git plugin 自動 commit）。
+- **Pipeline gotcha（已入 memory [[project-bookmark-media-enrichment]]）**：① yt-dlp 要 `--cookies-from-browser chrome` 過 bot-wall（同 geo 無關）② HF model 經美西 VPN 落會**靜默 hang 幾粒鐘**（`huggingface_hub` 冇 timeout）→ `curl -C - --speed-time` resume 或熄 VPN（HF 唔 geo-block）③ `whisper-large-v3-turbo-q4` 442MB < `whisper-small` 459MB 又更準（後備冇用上，full-turbo 背景落完可用）④ 改 CJK 嘅 perl 必加 `-Mutf8 -CSD`。
+- **待跟進**：3 條 prune 候選（ComfyUI NSFW／2 條喂飯教程）待用戶決定留刪。
+
+## 2026-06-30→07-01 session 摘要
 - **Git sync 架構**：採 **Obsidian Git plugin 2.38.5** 做 sync/push 層，疊喺 native hook 上（分工：hook 即時 HKT commit `wiki/raw/Business`；plugin 定時 commit-and-sync + **auto-push** 埋非-hook 夾）。push 靠 osxkeychain PAT 喺 Obsidian app 內 headless（Claude bash 仍唔 push）。見 memory [[project-git-sync-obsidian-git]]。
 - **Binary local-only**：`.gitignore` 排 `raw/{assets,screenshots,data}` + `Bookmarks/assets`（保留 .gitkeep）。**bookmark cover / snap photo → `Bookmarks/assets/`（NOT raw/assets）**，唔上 GitHub（用戶接受冇 offsite 備份）。
 - **Web Clipper cover 工作流**：template 加 `cover: {{meta:property:og:image}}`（用戶已加）。**下載交 Claude triage**（避開全域 attachment 陷阱）：og:image → `curl` 落 `Bookmarks/assets/<slug>-cover.jpg` → `cover: "[[…]]"`。冇 og:image fallback：twitter:image → body 最有用圖 → favicon → 標無圖。見 memory [[project-bookmark-media-enrichment]]。
