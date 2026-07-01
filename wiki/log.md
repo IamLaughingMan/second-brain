@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-07-01 08:56 HKT] session-wrap | git-sync 架構 + Web Clipper cover 工作流 + Whisper STT 裝
+本 session（跨 06-30→07-01）：① **Obsidian Git 2.38.5** 做 sync/push 層疊喺 native hook（分工，auto-push via osxkeychain）② `.gitignore` 排 binary（`raw/{assets,screenshots,data}` + `Bookmarks/assets`）local-only；**bookmark cover/snap photo → `Bookmarks/assets/`** ③ Web Clipper 加 `cover:{{meta:property:og:image}}`，下載交 triage（curl→`Bookmarks/assets`→wikilink，冇 og:image 有 fallback 鏈）④ 2 條 clip triage（Sindri、Hei_Ai）⑤ 裝 [[mlx-whisper]] 0.4.3 + ffmpeg 8.1.2 為冇字幕片生成 transcript。詳見 `hot.md` + memory [[project-git-sync-obsidian-git]]／[[project-bookmark-media-enrichment]]。`CLAUDE.md` 新規矩待補（用戶：唔急）。
+
 ## [2026-07-01 01:41 HKT] bookmark | Claude Code×Obsidian 第二大腦教學（Hei_Ai YouTube）triage ＋ 刪 clip
 新 Web Clipper clip（首條帶 `cover` property）triage → `Bookmarks/AI/Claude Code/Obsidian Integration/Hei_Ai 成長日記 — Claude Code × Obsidian 打造 AI 知識庫 (YouTube).md`（domain `obsidian-ai`）：剝 affiliate spam、cover 下載落 `Bookmarks/assets/heiai-claude-code-obsidian-cover.jpg`（local-only）、cross-link 去 [[Claude + Obsidian Project Workflow]] ＋ [[Claude + Obsidian Workflow Pattern Comparison]]。內容已繁體免 s2hk。原 Inbox clip 已刪（promoted）。
 

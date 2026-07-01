@@ -1,13 +1,22 @@
 ---
 type: meta
 title: "Hot Cache"
-updated: 2026-06-19
+updated: 2026-07-01
 ---
 
 # Recent Context
 
 ## Last Updated
-2026-06-19 — extensions/Software/MCP catalog + AGENTS.md 跨-AI + Personal/Ideas + 簡→正體規矩 + Claude Code/Obsidian bookmark 大批 + 視覺 skill 裝 + 兩層導航
+2026-07-01 — Obsidian Git sync 層 + binary gitignore local-only + Web Clipper cover 工作流 + 2 條 clip triage + Whisper STT 裝
+
+## 2026-06-30→07-01 session 摘要（最新）
+- **Git sync 架構**：採 **Obsidian Git plugin 2.38.5** 做 sync/push 層，疊喺 native hook 上（分工：hook 即時 HKT commit `wiki/raw/Business`；plugin 定時 commit-and-sync + **auto-push** 埋非-hook 夾）。push 靠 osxkeychain PAT 喺 Obsidian app 內 headless（Claude bash 仍唔 push）。見 memory [[project-git-sync-obsidian-git]]。
+- **Binary local-only**：`.gitignore` 排 `raw/{assets,screenshots,data}` + `Bookmarks/assets`（保留 .gitkeep）。**bookmark cover / snap photo → `Bookmarks/assets/`（NOT raw/assets）**，唔上 GitHub（用戶接受冇 offsite 備份）。
+- **Web Clipper cover 工作流**：template 加 `cover: {{meta:property:og:image}}`（用戶已加）。**下載交 Claude triage**（避開全域 attachment 陷阱）：og:image → `curl` 落 `Bookmarks/assets/<slug>-cover.jpg` → `cover: "[[…]]"`。冇 og:image fallback：twitter:image → body 最有用圖 → favicon → 標無圖。見 memory [[project-bookmark-media-enrichment]]。
+- **2 條 Web Clipper clip triage**（示範完整流程 + 刪原 clip）：① `Bookmarks/AI/Claude/Sindri — Claude 大面積封號…`（claude.ai 帳號防封；賣號 affiliate 源、claim 未證實；有 transcript；新開 `AI/Claude/` 同 Claude Code CLI 分開）② `…/Claude Code/Obsidian Integration/Hei_Ai … Claude Code × Obsidian`（domain `obsidian-ai`；冇 transcript；cross-link [[Claude + Obsidian Project Workflow]]）。兩條都 download 咗 cover。
+- **Whisper STT 裝**（為**冇字幕**片生成 transcript）：`pipx install mlx-whisper 0.4.3` + `brew ffmpeg 8.1.2`；pipeline `yt-dlp 音訊→ffmpeg→mlx_whisper`（Cantonese/Chinese）。見 [[mlx-whisper]]。**要分清**：Web Clipper / yt-dlp auto-caption 只抓**現成字幕**，片完全冇字幕先用 Whisper。
+- **用戶處境**：部 Mac 而家 **-0700（美西，旅行中）**，YouTube 要轉 NordVPN server 先開到 → yt-dlp/Whisper 抓片同樣受 geo-block，要先有通 exit（curl 縮圖 i.ytimg.com CDN 少 block）。
+- **待辦**：① `CLAUDE.md` 未更新新規矩（cover 工作流 / binary gitignore / Obsidian Git 分工 / Whisper STT 路徑）——用戶講「唔急」② Hei_Ai transcript 待 VPN 通咗跑 Whisper ③ Obsidian Git commit message 維持現狀（用戶決定唔改）。
 
 ## 2026-06-19 session 摘要（最新）
 - **Extensions catalog 整頓**：reconcile vs fs；`Meta/tools/` → **`Meta/Software/`**（裝咗嘅系統軟件 10+ 條）；新增 `Meta/extensions/mcp.md`（obsidian-vault/filesystem/fetch/happy）；extensions hub 升「四類」。
