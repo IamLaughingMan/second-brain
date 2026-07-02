@@ -21,7 +21,8 @@ tags:
 
 ## 念頭來源
 Robot Traders 教學：~180 行 Python，貼 market URL → `ask_claude`（web search + reasoning）→ 按 confidence 買/skip。有完整 GitHub 源碼 + 影片。
-- [[Robot Traders — Polymarket AI bot 叫 Claude 分析並交易（Python 教學）]]
+- [[Robot Traders — Polymarket AI bot 叫 Claude 分析並交易（Python 教學）]]（起手：單次問 Claude）
+- **進階多-agent 例**：[[0Xkook — 100 個 AI agent Polymarket 賺 $180萬（Kimi K2.6 + Opus 4.8）(X)]]——100 Kimi K2.6 跑幾千場景模擬 + Opus 4.8 審核，只落數學上有優勢嘅單（$180 萬 claim 未證實，但「模擬→LLM 過濾正期望值」框架值得記）。
 
 ## 核心假設
 LLM + web search 對某類市場（有公開資訊、非純博彩）嘅機率判斷，勝過市場定價 → 有正期望值。最直接可跑（有現成碼）。
