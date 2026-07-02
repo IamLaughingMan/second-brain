@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-07-03 05:15 HKT] project-start | polymarket-autotrader（真實 Polymarket auto-trade bot）
+Promote 3 條 Polymarket idea → 開真實 project。① Code repo `~/AI/Claude/polymarket-autotrader-2026-07-03/`（`git init` + `CLAUDE.md`/`README`/`.gitignore`/`.env.example`，首 commit `ce3ec5d`；`.env` gitignore、私鑰唔入 git）② Vault 頁 `Projects/polymarket-autotrader.md`（`code_path:` 指 repo = Model B 互指；repo `CLAUDE.md` 反指 vault）③ 從 [[Projects]] hub Active 連出 ④ 3 條 idea stage→完成、加 backlink 入 project（路線 A/B/C）。策略中立骨架、**paper-first**（validated edge 先接真錢）。未寫實作、未 remote。
+
 ## [2026-07-03 04:35 HKT] idea | Polymarket idea 拆 3 條 edge 路線入 Personal/Ideas/Polymarket/
 承上：原單一 idea 拆成 **3 個獨立 idea**（每種 edge 一檔）放入 `Personal/Ideas/Polymarket/` subfolder，互相 cross-link：① `Polymarket copy-trading（跟聰明錢 wallet · 71x）`（stage 可能開project）② `Polymarket 天氣盤 niche 專精（斷浪例）`（未做）③ `Polymarket LLM-reasoning bot（叫 Claude 分析落注 · Robot Traders）`（未做）。刪原合併 idea；4 條 bookmark 嘅 `related` 更新指返對應 edge（Threads/Altcoin→copy-trading、斷浪→天氣盤、Robot Traders→LLM）。zero 斷連（wikilink 唔帶路徑、Ideas.base 靠 frontmatter）。
 
