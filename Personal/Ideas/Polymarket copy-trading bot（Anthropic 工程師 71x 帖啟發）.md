@@ -22,6 +22,7 @@ tags:
 Threads（@mini_littlechanges，中文轉述）＋ 原始 X viral 帖：一個「Anthropic 工程師」用 Claude Code 寫 Polymarket bot，$200 → $14,300（71x，幾週）。策略＝掃 8,600 萬宗交易 → 按勝率/利潤排 14,000 個 wallet → 每日約 10 單 copy-trade → whale 撤退前提早止盈。
 - Bookmark（中文轉述）：[[mini_littlechanges — Anthropic 工程師 $200→$1.4萬 Polymarket bot（中文轉述）(Threads)]]
 - Bookmark（原始出處）：[[Altcoin Buzz — Anthropic engineer $200→$14.3k Claude Code Polymarket bot（原始 viral 帖）(X)]]
+- **另一路線（niche 專精，非 copy-trade）**：[[斷浪 — Polymarket 天氣盤 niche 錢包（5¢–30¢ 低價合約）(X)]]——只做天氣盤、買 5¢–30¢ 被低估合約，一週 $3,491（262 預測）。啟發：edge 可能喺「揀個你有優勢嘅冷門子市場」多過「跟大戶」。
 
 ## 點解值得諗
 - 策略核心（wallet-ranking + copy + 提早離場）**概念可複製**，唔一定要「Anthropic 工程師」先做到——on-chain 數據公開、Polymarket 有 CLOB API。
