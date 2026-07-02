@@ -1,6 +1,6 @@
 ---
 type: idea
-stage: 可能開project
+stage: 完成
 status: active
 para: inbox
 created: 2026-07-03
@@ -16,6 +16,8 @@ tags:
 ---
 
 # Polymarket copy-trading（跟聰明錢 wallet · 71x）
+
+> ✅ **已 promote 入 project [[polymarket-autotrader]]**（路線 A）
 
 **Edge 路線 A（3 選 1）**：由 on-chain 數據排 Polymarket wallet 勝率、**copy-trade 跟聰明錢**、喺 whale 撤退前止盈。
 

@@ -1,6 +1,6 @@
 ---
 type: idea
-stage: 未做
+stage: 完成
 status: active
 para: inbox
 created: 2026-07-03
@@ -16,6 +16,8 @@ tags:
 ---
 
 # Polymarket LLM-reasoning bot（叫 Claude 分析落注 · Robot Traders）
+
+> ✅ **已 promote 入 project [[polymarket-autotrader]]**（路線 C）
 
 **Edge 路線 C（3 選 1）**：唔靠 wallet 數據，而係**逐個市場問題丟畀 Claude**（開 web search）自行 research + 判斷，按信心度落注。
 

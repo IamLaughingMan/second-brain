@@ -15,6 +15,7 @@ tags: [moc, projects]
 
 - [[AI Arcade]] — mobile-first 趣味 AI 工具集(v1 完成,5 工具,未部署)
 - [[NMN (project)]] — NMN 補充品電商/零售(剛起步;知識層 [[NMN]] / [[Business]])
+- [[polymarket-autotrader]] — 真實 Polymarket 自動交易 bot(scaffold;3 edge 路線,paper-first)
 
 ## Archived
 

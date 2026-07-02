@@ -1,6 +1,6 @@
 ---
 type: idea
-stage: 未做
+stage: 完成
 status: active
 para: inbox
 created: 2026-07-03
@@ -15,6 +15,8 @@ tags:
 ---
 
 # Polymarket 天氣盤 niche 專精（斷浪例）
+
+> ✅ **已 promote 入 project [[polymarket-autotrader]]**（路線 B）
 
 **Edge 路線 B（3 選 1）**：唔跟大戶、唔求全，而係**專攻一個你有真實優勢嘅子市場**（天氣盤），買被低估嘅低價合約。
 
