@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-07-03 03:55 HKT] idea+bookmark | Polymarket Claude Code copy-trading bot（Anthropic 工程師 71x viral 帖）
+用戶掉一條 Threads link（中文轉述）叫查來源＋考慮開 project。research 確認：原始出處＝ viral X 帖（[[Altcoin Buzz…(X)]]／Marry Evan 轉述），多間加密媒體跟報；「Anthropic 工程師 $200→$14,300（71x）Polymarket bot」策略＝掃 8600 萬交易、排 14,000 wallet 勝率、每日 10 單、whale 撤退前止盈。**故事未經證實**（無具名/repo），Polymarket 92.4% wallet 蝕錢，有 survivorship bias＋美國 geo-block。用戶決定：先放 idea＋bookmark（未定 scope）。落檔：① `Personal/Ideas/Polymarket copy-trading bot（…71x 帖啟發）.md`（`stage: 可能開project`）② 2 條 bookmark 入 `Bookmarks/Finance/Crypto/Polymarket/`（Threads 中文轉述＋X 原始出處，後者 found-by-claude；Threads cover 落 assets、原文廣東話正體免 s2hk；X 無有效 cover、留言皆 login-wall 未抓）。
+
 ## [2026-07-02 05:10 HKT] curate | dedupe 喂飯教程（刪 20 分鐘版）＋ ComfyUI 除 prune 標籤
 Triage 後續決定：① **ComfyUI SVI2.0 保留**（原標 prune 候選，但補咗 Whisper 逐字稿後有實際技術＝loop 節點 latent 覆蓋拼長片、單/多圖分鏡、半自動固定 seed 控穩定；除 prune 標籤、summary/callout/My Notes 改為 keeper）② **刪 20 分鐘喂飯教程**（`AI大模型教程 - …20 分鐘…`）——同 25 分鐘版（`AI大模型開發 - …25 分鐘…`）睇逐字稿係同一 creator 同一段 vault demo（蓋爾定律/Embrace Chaos/Atlas-Calendar-Effort），真 duplicate；保留 25 分鐘版作代表，修好其死鏈 + 除重複描述。orphan cover `obsidian-fanfan-20min-cover.jpg` 留喺 `Bookmarks/assets`（gitignore local，無害）。剩 4 條 YouTube bookmark（Obsidian 同步6方案 / codex 出圖 / 25 分鐘喂飯教程 / ComfyUI SVI2.0）。
 
