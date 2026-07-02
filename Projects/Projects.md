@@ -11,7 +11,7 @@ tags: [moc, projects]
 
 專案領域的 MOC hub，從這裡連出。
 
-> [!note] 慣例（2026-07-03）：**每個 project 一個 subfolder** `Projects/<project>/`，放主頁 `<project>.md` ＋ 日後嘅 record files（decision-log／research／notes…）。主頁保持 `<project>.md` 檔名（wikilink 唔斷）；record files 檔名要**全 vault 唯一**（prefix 或 path-qualified link）。既有 project 待遷。
+> [!note] 慣例（2026-07-03）：**每個 project 一個 subfolder** `Projects/<project>/`，放主頁 `<project>.md` ＋ 日後嘅 record files（decision-log／research／notes…）。主頁保持 `<project>.md` 檔名（wikilink 唔斷）；record files 檔名要**全 vault 唯一**（prefix 或 path-qualified link）。既有 project 已遷（AI Arcade／NMN／polymarket-autotrader 各入自己 subfolder）。
 
 ## Active
 
