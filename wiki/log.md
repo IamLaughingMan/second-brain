@@ -8,6 +8,9 @@ cssclasses:
 
 # Wiki Log
 
+## [2026-07-03 04:35 HKT] idea | Polymarket idea 拆 3 條 edge 路線入 Personal/Ideas/Polymarket/
+承上：原單一 idea 拆成 **3 個獨立 idea**（每種 edge 一檔）放入 `Personal/Ideas/Polymarket/` subfolder，互相 cross-link：① `Polymarket copy-trading（跟聰明錢 wallet · 71x）`（stage 可能開project）② `Polymarket 天氣盤 niche 專精（斷浪例）`（未做）③ `Polymarket LLM-reasoning bot（叫 Claude 分析落注 · Robot Traders）`（未做）。刪原合併 idea；4 條 bookmark 嘅 `related` 更新指返對應 edge（Threads/Altcoin→copy-trading、斷浪→天氣盤、Robot Traders→LLM）。zero 斷連（wikilink 唔帶路徑、Ideas.base 靠 frontmatter）。
+
 ## [2026-07-03 03:55 HKT] idea+bookmark | Polymarket Claude Code copy-trading bot（Anthropic 工程師 71x viral 帖）
 用戶掉一條 Threads link（中文轉述）叫查來源＋考慮開 project。research 確認：原始出處＝ viral X 帖（[[Altcoin Buzz…(X)]]／Marry Evan 轉述），多間加密媒體跟報；「Anthropic 工程師 $200→$14,300（71x）Polymarket bot」策略＝掃 8600 萬交易、排 14,000 wallet 勝率、每日 10 單、whale 撤退前止盈。**故事未經證實**（無具名/repo），Polymarket 92.4% wallet 蝕錢，有 survivorship bias＋美國 geo-block。用戶決定：先放 idea＋bookmark（未定 scope）。落檔：① `Personal/Ideas/Polymarket copy-trading bot（…71x 帖啟發）.md`（`stage: 可能開project`）② 2 條 bookmark 入 `Bookmarks/Finance/Crypto/Polymarket/`（Threads 中文轉述＋X 原始出處，後者 found-by-claude；Threads cover 落 assets、原文廣東話正體免 s2hk；X 無有效 cover、留言皆 login-wall 未抓）。
 

@@ -13,7 +13,7 @@ status: active
 created: 2026-07-03
 updated: 2026-07-03
 related:
-  - "[[Polymarket copy-trading bot（Anthropic 工程師 71x 帖啟發）]]"
+  - "[[Polymarket copy-trading（跟聰明錢 wallet · 71x）]]"
 tags:
   - bookmark
   - polymarket
@@ -34,11 +34,11 @@ tags:
 病毒式英文帖，聲稱一個 Anthropic 工程師用 Claude Code bot 喺 Polymarket 由 **$200 翻到 $14,300（71x，幾週）**。Bot：掃 8,600 萬宗交易、按勝率同利潤排 14,000 個 wallet、每日 10 單、喺跟蹤嘅 whale 離場前先行止盈。多間加密媒體（Cryptopolitan／beincrypto／finbold）跟報，另有同類故事（Marry Evan $2k→$12k 等）。
 
 ## My Notes
-_(待補)_ — 我 research idea [[Polymarket copy-trading bot（Anthropic 工程師 71x 帖啟發）]] 時搵到嘅原始出處。⚠️ 無具名工程師、無 repo、無 on-chain 證據；Polymarket 92.4% wallet 蝕錢。當 meme/inspiration，唔好當事實。
+_(待補)_ — 我 research idea [[Polymarket copy-trading（跟聰明錢 wallet · 71x）]] 時搵到嘅原始出處。⚠️ 無具名工程師、無 repo、無 on-chain 證據；Polymarket 92.4% wallet 蝕錢。當 meme/inspiration，唔好當事實。
 
 ## Related
 - 中文轉述：[[mini_littlechanges — Anthropic 工程師 $200→$1.4萬 Polymarket bot（中文轉述）(Threads)]]
-- Idea：[[Polymarket copy-trading bot（Anthropic 工程師 71x 帖啟發）]]
+- Idea：[[Polymarket copy-trading（跟聰明錢 wallet · 71x）]]
 - 建置參考（Claude+Polymarket bot 教學）：Robot Traders `robottraders.io/blog/polymarket-ai-bot-claude-python`
 - Hub: [[Bookmarks]]
 

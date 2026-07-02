@@ -13,7 +13,7 @@ status: active
 created: 2026-07-03
 updated: 2026-07-03
 related:
-  - "[[Polymarket copy-trading bot（Anthropic 工程師 71x 帖啟發）]]"
+  - "[[Polymarket copy-trading（跟聰明錢 wallet · 71x）]]"
 tags:
   - bookmark
   - polymarket
@@ -33,10 +33,10 @@ tags:
 廣東話轉述一個 viral 故事：**一個 Anthropic 工程師用 Claude Code 寫 Polymarket 交易 bot**，$200 本金翻 71x 到超過 $14,000。策略：① 掃 8,600 萬宗交易、按勝率同利潤排 14,000 個 wallet；② 幾分鐘篩出「聰明錢」；③ 每日只做 10 宗最穩交易；④ 喺 whale 撤退前止盈離場。帖尾提醒：交易 bot 有技術門檻同風險，唔好信網上「自動賺錢 bot」，好多係釣魚陷阱。
 
 ## My Notes
-_(待補)_ — 啟發咗 idea [[Polymarket copy-trading bot（Anthropic 工程師 71x 帖啟發）]]。⚠️ 故事未證實、Polymarket 92.4% wallet 蝕錢、wallet-ranking 有 survivorship bias——當 inspiration，唔好當 verified alpha。
+_(待補)_ — 啟發咗 idea [[Polymarket copy-trading（跟聰明錢 wallet · 71x）]]。⚠️ 故事未證實、Polymarket 92.4% wallet 蝕錢、wallet-ranking 有 survivorship bias——當 inspiration，唔好當 verified alpha。
 
 ## Related
-- Idea：[[Polymarket copy-trading bot（Anthropic 工程師 71x 帖啟發）]]
+- Idea：[[Polymarket copy-trading（跟聰明錢 wallet · 71x）]]
 - 原始出處：[[Altcoin Buzz — Anthropic engineer $200→$14.3k Claude Code Polymarket bot（原始 viral 帖）(X)]]
 - Hub: [[Bookmarks]]
 

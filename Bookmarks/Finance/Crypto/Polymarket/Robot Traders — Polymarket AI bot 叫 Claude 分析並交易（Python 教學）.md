@@ -13,7 +13,7 @@ status: active
 created: 2026-07-03
 updated: 2026-07-03
 related:
-  - "[[Polymarket copy-trading bot（Anthropic 工程師 71x 帖啟發）]]"
+  - "[[Polymarket LLM-reasoning bot（叫 Claude 分析落注 · Robot Traders）]]"
 tags:
   - bookmark
   - polymarket
@@ -43,10 +43,10 @@ Robot Traders 嘅 Python 教學：一個 **~180 行單檔 script**，把任何 P
 - **風險**：credential = 你資金全權，勿入版控；此文無誇大回報 claim（≠ viral 帖）。
 
 ## My Notes
-_(待補)_ — 開 idea [[Polymarket copy-trading bot（Anthropic 工程師 71x 帖啟發）]] 嘅實際建置參考。**要留意 approach 分野**：想複製 viral 帖嘅 71x＝要行 **copy-trading**（掃 on-chain wallet、排勝率、跟單），呢篇係 **LLM-reasoning**（叫 Claude 逐市場判斷）——兩條路線可混（例如用 LLM 篩 copy-trade 訊號）。呢篇勝在有齊源碼＋credential 設定，做 paper-trade / API 起手最快。
+_(待補)_ — 開 idea [[Polymarket LLM-reasoning bot（叫 Claude 分析落注 · Robot Traders）]] 嘅實際建置參考。**要留意 approach 分野**：想複製 viral 帖嘅 71x＝要行 **copy-trading**（掃 on-chain wallet、排勝率、跟單），呢篇係 **LLM-reasoning**（叫 Claude 逐市場判斷）——兩條路線可混（例如用 LLM 篩 copy-trade 訊號）。呢篇勝在有齊源碼＋credential 設定，做 paper-trade / API 起手最快。
 
 ## Related
-- Idea：[[Polymarket copy-trading bot（Anthropic 工程師 71x 帖啟發）]]
+- Idea：[[Polymarket LLM-reasoning bot（叫 Claude 分析落注 · Robot Traders）]]
 - Viral 帖（copy-trading approach）：[[mini_littlechanges — Anthropic 工程師 $200→$1.4萬 Polymarket bot（中文轉述）(Threads)]] · [[Altcoin Buzz — Anthropic engineer $200→$14.3k Claude Code Polymarket bot（原始 viral 帖）(X)]]
 - Hub: [[Bookmarks]]
 

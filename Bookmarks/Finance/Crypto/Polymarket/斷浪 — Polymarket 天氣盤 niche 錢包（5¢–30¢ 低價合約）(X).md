@@ -13,7 +13,7 @@ status: active
 created: 2026-07-03
 updated: 2026-07-03
 related:
-  - "[[Polymarket copy-trading bot（Anthropic 工程師 71x 帖啟發）]]"
+  - "[[Polymarket 天氣盤 niche 專精（斷浪例）]]"
 tags:
   - bookmark
   - polymarket
@@ -27,7 +27,7 @@ tags:
 # 斷浪 — Polymarket 天氣盤 niche 錢包（5¢–30¢ 低價合約）
 
 > [!info] Bookmark · polymarket domain · X（@waveking1314 斷浪）
-> Wallet-analysis 另一路線：唔係跟大 whale copy-trade，而係搵到一個**天氣市場 niche 專精**錢包（買 5¢–30¢ 低估合約）。同 [[Polymarket copy-trading bot（Anthropic 工程師 71x 帖啟發）]] 同一 idea cluster。
+> Wallet-analysis 另一路線：唔係跟大 whale copy-trade，而係搵到一個**天氣市場 niche 專精**錢包（買 5¢–30¢ 低估合約）。同 [[Polymarket 天氣盤 niche 專精（斷浪例）]] 同一 idea cluster。
 
 ## Summary
 斷浪拆解一個 Polymarket **天氣盤 niche 錢包**：佢**只做天氣市場**、專買 5¢ 到 30¢ 嘅低價合約，一週已賺 **$3,491**。數據：**262 個天氣預測、總利潤 $3,491、最大單筆盈利 $543**。玩法＝市場覺得某天氣結果唔太可能、合約價得 5¢–30¢（被低估），趁平買入食正期望值。（原長推此處截斷，附影片示範。）
@@ -41,7 +41,7 @@ tags:
 _(待補)_ — 同 71x 帖係同一「分析 wallet / 搵 edge」主題，但**唔同路線**：71x＝copy-trade 跟聰明錢；呢個＝**單一 niche 專精**（天氣盤）。啟發：Polymarket edge 可能唔喺「跟大戶」而喺「揀個冷門但你有優勢嘅子市場」。⚠️ 一週樣本細、天氣有真實預報 edge（氣象數據），未必人人複製到。歸入 idea cluster。
 
 ## Related
-- Idea：[[Polymarket copy-trading bot（Anthropic 工程師 71x 帖啟發）]]
+- Idea：[[Polymarket 天氣盤 niche 專精（斷浪例）]]
 - 同 cluster：[[mini_littlechanges — Anthropic 工程師 $200→$1.4萬 Polymarket bot（中文轉述）(Threads)]] · [[Altcoin Buzz — Anthropic engineer $200→$14.3k Claude Code Polymarket bot（原始 viral 帖）(X)]] · [[Robot Traders — Polymarket AI bot 叫 Claude 分析並交易（Python 教學）]]
 - Hub: [[Bookmarks]]
 
